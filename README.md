@@ -1,15 +1,60 @@
-# Report
-Final Project Documentation Report.
-## Hola
+# Report - Chapter 1
+#  SplitEasy – Perfil de la Startup
 
-| **Member**                           | **Code**     |
-|--------------------------------------|--------------|
-|Jorge Luis Díaz Fiestas      |  U20231D534  |
+##  Descripción de la Startup
 
+SplitEasy es una startup tecnológica enfocada en brindar soluciones financieras equitativas dentro del entorno familiar o de convivencia. Nuestra plataforma permite a los miembros del hogar gestionar de forma justa y proporcional los gastos compartidos, basándose en los ingresos individuales de cada persona. A través de un sistema automatizado, transparente y fácil de usar, SplitEasy promueve la responsabilidad financiera, la buena comunicación y la organización del presupuesto colectivo, ayudando a evitar conflictos y fomentar una cultura de colaboración dentro del hogar.
 
-<p align="center">
-  <img src="Imagenes/upc_logo.png" alt="Logo de la UPC" />
-</p>
+- **Nombre:** SplitEasy  
+- **Misión:** Nuestra misión es facilitar la gestión financiera del hogar mediante una herramienta digital que distribuye los gastos comunes de manera proporcional a los ingresos de cada miembro, promoviendo la equidad, la transparencia y la armonía en la convivencia.  
+- **Visión:** Nuestra visión es convertirnos en la plataforma líder en gestión financiera compartida para hogares en América Latina, siendo reconocidos por empoderar a las personas a tomar decisiones económicas justas, responsables y colaborativas.  
+- **Valores:** Transparencia, simplicidad y colaboración.  
+
+---
+
+##  Perfiles de Integrantes del Grupo
+
+| ![Jorge](Imagenes/jorge.jpg) | **Nombre:** Jorge Luis Díaz Fiestas  
+**Código de estudiante:** U20231D534  
+**Carrera:** Ingeniería de Software  
+**Rol:** Team Leader  
+**Descripción:**  
+Soy Jorge Díaz, estudiante de Ing. de Software, del 5° ciclo. Destacado en el trabajo en grupo y apto para dar retroalimentación. Con conocimientos básicos en Arduino, programación web (HTML, CSS, JS, React, TypeScript, Firebase), bases de datos (SQL, Firebase, Supabase, MongoDB, MariaDB) y lenguajes C/C++. |
+|-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+| ![Paulo](Imagenes/paulo.jpg) | **Nombre:** Paulo Percy Quincho Gamarra  
+**Código de estudiante:** U20191E562  
+**Carrera:** Ingeniería de Software  
+**Descripción:**  
+Soy puntual, lo que me permite realizar todos los trabajos a tiempo. Me gusta tener buena comunicación con el equipo. |
+|------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+| ![Jhordi](Imagenes/jhordi.jpg) | **Nombre:** Jhordi Luis Carranza Pérez  
+**Código de estudiante:** U20191835  
+**Carrera:** Ingeniería de Software  
+**Descripción:**  
+Soy una persona que me gusta cumplir con mis obligaciones de manera efectiva, aunque muchas veces me descuide un poco. Mis conocimientos técnicos van en torno a programación web, bases de datos, lenguajes de alto y bajo nivel como C++, Python y JavaScript. |
+|-------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+| ![Bruno](Imagenes/bruno.jpg) | **Nombre:** Bruno Leonardo Gonzales Arotinco  
+**Código de estudiante:** U201820037  
+**Carrera:** Ingeniería de Software  
+**Descripción:**  
+Me llamo Bruno Leonardo Gonzales Arotinco, estudio actualmente la carrera de Ingeniería de Software en la UPC. Me considero una persona responsable, honrada y respetuosa. En mis tiempos libres me gusta jugar videojuegos y partidos con amigos. |
+|------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+---
+
+##  Solution Profile
+
+SplitEasy es una plataforma digital diseñada para facilitar la distribución equitativa de los gastos del hogar entre sus miembros, teniendo en cuenta los ingresos individuales de cada uno. El sistema calcula automáticamente el porcentaje que cada miembro debe aportar en función de su capacidad económica, lo que asegura una distribución justa de los gastos comunes, como alquiler, servicios y alimentos. Los usuarios pueden registrar sus ingresos, ver cuánto deben pagar y cuánto han pagado, y el representante del hogar tiene una visión general de todo el proceso. Además, la plataforma ofrece un seguimiento en tiempo real, reportes mensuales detallados y alertas automáticas sobre pagos pendientes. Con una interfaz intuitiva y fácil de usar, SplitEasy no solo optimiza la gestión financiera, sino que también promueve la transparencia y la confianza entre los miembros del hogar, reduciendo los posibles conflictos relacionados con el dinero y asegurando una gestión financiera eficiente y justa.
+
+---
+
+##  Antecedentes y Problemática
+
+La metodología 5W y 2H es un enfoque utilizado para identificar la causa raíz de problemas, errores o no conformidades en sistemas. Desarrollada por Toyota, esta herramienta es fundamental dentro del Sistema de Producción Toyota (TPS), ya que, según Taichii Ohno, clarifica problemas y facilita la implementación de acciones correctivas o preventivas (Palko et al., 2015). Además, esta metodología es adaptable a cualquier tipo de organización, lo que la convierte en una herramienta versátil para la resolución de problemas.
+
 
 
 
