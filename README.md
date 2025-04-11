@@ -35,6 +35,12 @@ Soy puntual, lo que me permite realizar todos los trabajos a tiempo. Me gusta te
 **Carrera:** Ingeniería de Software  
 **Descripción:**  
 Soy una persona que me gusta cumplir con mis obligaciones de manera efectiva, aunque muchas veces me descuide un poco. Mis conocimientos técnicos van en torno a programación web, bases de datos, lenguajes de alto y bajo nivel como C++, Python y JavaScript. |
+| ![Alexander](images/Alexanderfoto.PNG) | 
+**Nombre:** Alexander Piero Fernandez Garfias 
+**Código de estudiante:** U202019498  
+**Carrera:** Ingeniería de Software  
+**Descripción:**  
+Me llamo Alexander Piero Fernandez Garfias, estudio  la carrera de Ing. de Software en la UPC. Mis conocimientos técnicos van en torno a Programación en lenguajes como C++, Dart, Java |
 
 ---
 
