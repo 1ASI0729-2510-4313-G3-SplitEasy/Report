@@ -23,13 +23,13 @@ SplitEasy es una startup tecnológica enfocada en brindar soluciones financieras
 **Rol:** Team Leader  
 **Descripción:**  
 Soy Jorge Díaz, estudiante de Ing. de Software, del 5° ciclo. Destacado en el trabajo en grupo y apto para dar retroalimentación. Con conocimientos básicos en Arduino, programación web (HTML, CSS, JS, React, TypeScript, Firebase), bases de datos (SQL, Firebase, Supabase, MongoDB, MariaDB) y lenguajes C/C++.   |
-| ![Paulo](images/Paulofoto.png) | 
+| ![Paulo](images/Paulofoto.PNG) | 
 **Nombre:** Paulo Percy Quincho Gamarra  
 **Código de estudiante:** U20191E562  
 **Carrera:** Ingeniería de Software  
 **Descripción:**  
 Soy puntual, lo que me permite realizar todos los trabajos a tiempo. Me gusta tener buena comunicación con el equipo. |
-| ![Jhordi](images/Jhordifoto.png) | 
+| ![Jhordi](images/Jhordifoto.PNG) | 
 **Nombre:** Jhordi Luis Carranza Pérez  
 **Código de estudiante:** U20191835  
 **Carrera:** Ingeniería de Software  
