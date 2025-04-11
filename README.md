@@ -54,6 +54,18 @@ SplitEasy es una plataforma digital diseñada para facilitar la distribución eq
 
 La metodología 5W y 2H es un enfoque utilizado para identificar la causa raíz de problemas, errores o no conformidades en sistemas. Desarrollada por Toyota, esta herramienta es fundamental dentro del Sistema de Producción Toyota (TPS), ya que, según Taichii Ohno, clarifica problemas y facilita la implementación de acciones correctivas o preventivas (Palko et al., 2015). Además, esta metodología es adaptable a cualquier tipo de organización, lo que la convierte en una herramienta versátil para la resolución de problemas.
 
+# Subir Parte Luis
+
+<p align="center"><strong>Representación de costo promedio de errores en cálculos manuales - 2020</strong></p>
+<p align="center">
+  <img src="images/GraficoHowMuch.PNG" alt="Gráfico de errores manuales" width="500">
+<p align="center">Fernando Blanco P. (2020). Gráfico de LDL – ESTADÍSTICA VISUAL (VIII). Gráficos con barras de error: manual de usuario – Lima, 2020</p>
+<p align="center"><em>Figura: Representación visual del costo promedio de errores manuales.</em></p>
+</p>
+
+---
+
+# Subir Parte Alexander
 
 
 
