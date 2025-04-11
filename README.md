@@ -56,6 +56,8 @@ La metodología 5W y 2H es un enfoque utilizado para identificar la causa raíz 
 
 # Subir Parte Luis
 
+---
+
 <p align="center"><strong>Representación de costo promedio de errores en cálculos manuales - 2020</strong></p>
 <p align="center">
   <img src="images/GraficoHowMuch.PNG" alt="Gráfico de errores manuales" width="500">
