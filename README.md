@@ -14,34 +14,27 @@ SplitEasy es una startup tecnológica enfocada en brindar soluciones financieras
 
 ##  Perfiles de Integrantes del Grupo
 
-| ![Jorge](Imagenes/jorge.jpg) | **Nombre:** Jorge Luis Díaz Fiestas  
+|                             |                                      |
+|-----------------------------|--------------------------------------|
+| ![Luis](images/Luisfoto.png)    |  
+**Nombre:** Jorge Luis Díaz Fiestas  
 **Código de estudiante:** U20231D534  
 **Carrera:** Ingeniería de Software  
 **Rol:** Team Leader  
 **Descripción:**  
-Soy Jorge Díaz, estudiante de Ing. de Software, del 5° ciclo. Destacado en el trabajo en grupo y apto para dar retroalimentación. Con conocimientos básicos en Arduino, programación web (HTML, CSS, JS, React, TypeScript, Firebase), bases de datos (SQL, Firebase, Supabase, MongoDB, MariaDB) y lenguajes C/C++. |
-|-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-
-| ![Paulo](Imagenes/paulo.jpg) | **Nombre:** Paulo Percy Quincho Gamarra  
+Soy Jorge Díaz, estudiante de Ing. de Software, del 5° ciclo. Destacado en el trabajo en grupo y apto para dar retroalimentación. Con conocimientos básicos en Arduino, programación web (HTML, CSS, JS, React, TypeScript, Firebase), bases de datos (SQL, Firebase, Supabase, MongoDB, MariaDB) y lenguajes C/C++.   |
+| ![Paulo](images/Paulofoto.png) | 
+**Nombre:** Paulo Percy Quincho Gamarra  
 **Código de estudiante:** U20191E562  
 **Carrera:** Ingeniería de Software  
 **Descripción:**  
 Soy puntual, lo que me permite realizar todos los trabajos a tiempo. Me gusta tener buena comunicación con el equipo. |
-|------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-
-| ![Jhordi](Imagenes/jhordi.jpg) | **Nombre:** Jhordi Luis Carranza Pérez  
+| ![Jhordi](images/Jhordifoto.png) | 
+**Nombre:** Jhordi Luis Carranza Pérez  
 **Código de estudiante:** U20191835  
 **Carrera:** Ingeniería de Software  
 **Descripción:**  
 Soy una persona que me gusta cumplir con mis obligaciones de manera efectiva, aunque muchas veces me descuide un poco. Mis conocimientos técnicos van en torno a programación web, bases de datos, lenguajes de alto y bajo nivel como C++, Python y JavaScript. |
-|-------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-
-| ![Bruno](Imagenes/bruno.jpg) | **Nombre:** Bruno Leonardo Gonzales Arotinco  
-**Código de estudiante:** U201820037  
-**Carrera:** Ingeniería de Software  
-**Descripción:**  
-Me llamo Bruno Leonardo Gonzales Arotinco, estudio actualmente la carrera de Ingeniería de Software en la UPC. Me considero una persona responsable, honrada y respetuosa. En mis tiempos libres me gusta jugar videojuegos y partidos con amigos. |
-|------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 ---
 
