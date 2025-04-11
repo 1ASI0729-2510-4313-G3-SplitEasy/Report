@@ -61,9 +61,10 @@ La metodología 5W y 2H es un enfoque utilizado para identificar la causa raíz 
 <p align="center"><strong>Representación de costo promedio de errores en cálculos manuales - 2020</strong></p>
 <p align="center">
   <img src="images/GraficoHowMuch.PNG" alt="Gráfico de errores manuales" width="500">
+</p>
 <p align="center">Fernando Blanco P. (2020). Gráfico de LDL – ESTADÍSTICA VISUAL (VIII). Gráficos con barras de error: manual de usuario – Lima, 2020</p>
 <p align="center"><em>Figura: Representación visual del costo promedio de errores manuales.</em></p>
-</p>
+
 
 ---
 
