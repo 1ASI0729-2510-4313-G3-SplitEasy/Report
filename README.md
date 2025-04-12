@@ -1,5 +1,6 @@
-# Report - Chapter 1
-#  SplitEasy – Perfil de la Startup
+# Project: SplitEasy
+# Chapter 1: Introduction
+# Startup Profile
 
 ##  Descripción de la Startup
 
@@ -41,6 +42,7 @@ Soy una persona que me gusta cumplir con mis obligaciones de manera efectiva, au
 **Carrera:** Ingeniería de Software  
 **Descripción:**  
 Me llamo Alexander Piero Fernandez Garfias, estudio  la carrera de Ing. de Software en la UPC. Mis conocimientos técnicos van en torno a Programación en lenguajes como C++, Dart, Java |
+| <img src="images/bruno_gonzales.PNG" alt="Bruno" width="200"/> |
 
 ---
 
@@ -254,7 +256,10 @@ _Sabremos que estamos bien cuando veamos una reducción en pagos atrasados y un 
 - Se encargan de la planificación y distribución de los gastos del hogar, buscando equidad entre los miembros del hogar.  
 - Están interesados en herramientas tecnológicas que faciliten la gestión de las finanzas del hogar y el monitoreo de los gastos de manera sencilla.  
 - Les preocupa el bienestar financiero de su hogar y buscan evitar conflictos económicos entre los miembros al asegurarse de que cada uno pague lo que le corresponde.  
-- Están comprometidos con la gestión eficiente de los recursos del hogar, buscando que todos los gastos se distribuyan de manera proporcional a los ingresos de cada miembro.  
+- Están comprometidos con la gestión eficiente de los recursos del hogar, buscando que todos los gastos se distribuyan de manera proporcional a los ingresos de cada miembro.
+
+# Chapter 2: Requirements Elicitation & Analysis
+
 
 
 
