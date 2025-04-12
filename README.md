@@ -339,3 +339,5 @@ El journey de este segmento refleja a una persona encargada de la planificación
 <p align="left">
   <img src="images/Empathy2.PNG" alt="Empathy2" width="500">
 </p>
+
+# Subir Chapter 2 - Alexander
