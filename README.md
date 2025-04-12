@@ -252,6 +252,65 @@ _Sabremos que estamos bien cuando veamos una reducción en pagos atrasados y un 
 
 # Subir Chapter 2 - Luis
 
+# Subir Chapter 2 - Jhordy
+
+## 2.3 Needfinding
+
+Las necesidades principales que hemos encontrado en nuestros segmentos objetivos son las siguientes:
+
+### Segmento #1: Personas del hogar
+- Distribuir los gastos del hogar de manera equitativa según ingresos  
+- Tener visibilidad clara de los aportes y gastos compartidos  
+- Evitar conflictos financieros dentro de la convivencia  
+- Usar herramientas digitales que simplifiquen la organización de pagos  
+
+### Segmento #2: Representante del hogar
+- Gestionar y supervisar los pagos del hogar de forma centralizada  
+- Recibir recordatorios automáticos y reportes financieros claros  
+- Asegurar la equidad y transparencia en la distribución de los gastos  
+- Ahorrar tiempo en la planificación financiera y evitar malentendidos  
+
+### User Persona
+
+**Segmento #1: Personas del hogar / User Persona: Camila Torres**
+
+**Segmento #2: Representante del hogar / User Persona: Javier Morales**
+
+### User Task Matrix
+
+### Camila Torres
+
+| Actividades                                       | Frecuencia     | Importancia |
+|--------------------------------------------------|----------------|-------------|
+| Registrar y dividir los gastos del hogar         | Con frecuencia | Alta        |
+| Revisar cuánto debe aportar cada integrante      | Con frecuencia | Alta        |
+| Usar aplicaciones móviles de finanzas compartidas| A veces        | Media       |
+| Hablar con los demás sobre gastos y responsabilidades | A veces    | Alta        |
+| Verificar si los pagos del mes ya se realizaron  | Con frecuencia | Alta        |
+
+### Javier Morales
+
+| Actividades                                        | Frecuencia     | Importancia |
+|---------------------------------------------------|----------------|-------------|
+| Planificar y distribuir el presupuesto del hogar  | Con frecuencia | Alta        |
+| Supervisar que los pagos mensuales estén cubiertos| Con frecuencia | Alta        |
+| Calcular cuánto debería aportar cada miembro      | A veces        | Alta        |
+| Buscar herramientas para facilitar la gestión financiera | A veces  | Media       |
+| Resolver conflictos por dinero entre miembros     | Rara vez       | Alta        |
+
+### User Journey Mapping
+
+### Segmento 1: Personas del hogar
+
+El journey de este segmento refleja a un miembro del hogar que busca una forma justa y equitativa de distribuir los gastos del hogar entre los diferentes miembros. Actualmente, el proceso de distribución de gastos es manual y genera conflictos debido a la falta de claridad y transparencia.
+
+**Emoción final:** Inseguridad y frustración, ya que el proceso es manual, desorganizado y genera confusión.
+
+### Segmento 2: Representante del hogar
+
+El journey de este segmento refleja a una persona encargada de la planificación financiera del hogar. Aunque tiene la intención de distribuir los gastos de manera equitativa, actualmente carece de una herramienta eficiente para llevar un control claro y justo, lo que provoca estrés y desconfianza entre los miembros del hogar.
+
+**Emoción final:** Estrés y desconcierto, ya que la distribución de gastos es confusa y la comunicación no es eficiente.
 
 
 
