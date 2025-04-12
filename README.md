@@ -273,8 +273,14 @@ Las necesidades principales que hemos encontrado en nuestros segmentos objetivos
 ### User Persona
 
 **Segmento #1: Personas del hogar / User Persona: Camila Torres**
+<p align="left">
+  <img src="images/UserPersona1.PNG" alt="UserPersona1" width="500">
+</p>
 
 **Segmento #2: Representante del hogar / User Persona: Javier Morales**
+<p align="left">
+  <img src="images/UserPersona2.PNG" alt="UserPersona2" width="500">
+</p>
 
 ### User Task Matrix
 
@@ -304,6 +310,10 @@ Las necesidades principales que hemos encontrado en nuestros segmentos objetivos
 
 El journey de este segmento refleja a un miembro del hogar que busca una forma justa y equitativa de distribuir los gastos del hogar entre los diferentes miembros. Actualmente, el proceso de distribución de gastos es manual y genera conflictos debido a la falta de claridad y transparencia.
 
+<p align="left">
+  <img src="images/UserJourney1.PNG" alt="UserJourney1" width="500">
+</p>
+
 **Emoción final:** Inseguridad y frustración, ya que el proceso es manual, desorganizado y genera confusión.
 
 ### Segmento 2: Representante del hogar
@@ -312,6 +322,20 @@ El journey de este segmento refleja a una persona encargada de la planificación
 
 **Emoción final:** Estrés y desconcierto, ya que la distribución de gastos es confusa y la comunicación no es eficiente.
 
+<p align="left">
+  <img src="images/UserJourney2.PNG" alt="UserJourney2" width="500">
+</p>
 
+### Empathy Mapping
 
+### Segmento 1: Personas del hogar
 
+<p align="left">
+  <img src="images/Empathy1.PNG" alt="Empathy1" width="500">
+</p>
+
+### Segmento 2: Representante del hogar
+
+<p align="left">
+  <img src="images/Empathy2.PNG" alt="Empathy2" width="500">
+</p>
