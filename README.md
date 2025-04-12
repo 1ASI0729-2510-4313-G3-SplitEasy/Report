@@ -214,7 +214,48 @@ _Sabremos que estamos bien cuando veamos una reducción en pagos atrasados y un 
 
 ---
 
-# Subir Parte Jhordi
+## Segmentos Objetivos
+
+### Segmento objetivo 1: Personas del hogar
+
+**Aspectos demográficos:**
+- Sexo: Masculino y femenino  
+- Edades: 18 - 65 años  
+- Nivel socioeconómico: Clases A, B y C (alta, media-alta y media)  
+- Estado civil: Solteros, casados, convivientes, parejas, compañeros de cuarto  
+
+**Aspectos geográficos:**
+- Nacionalidad: Peruana  
+- Zona geográfica en la que vive: Urbana y suburbana  
+- Departamento: Lima Metropolitana y otras ciudades principales  
+
+**Aspectos psicográficos:**
+- Buscan una forma equitativa de compartir los gastos del hogar, como la renta, los servicios, y otros gastos comunes.  
+- Están interesados en herramientas que les ayuden a gestionar sus finanzas de manera transparente y justa.  
+- Se preocupan por mantener un equilibrio financiero entre los miembros del hogar, asegurándose de que cada uno aporte según sus ingresos.  
+- Tienen un estilo de vida que involucra la convivencia con otros y comparten responsabilidades, por lo que buscan facilitar el proceso de distribución de gastos.  
+
+---
+
+### Segmento objetivo 2: Representante del hogar
+
+**Aspectos demográficos:**
+- Sexo: Masculino y femenino  
+- Edades: 25 - 50 años  
+- Nivel socioeconómico: Clases A, B y C (alta, media-alta y media)  
+- Estado civil: Casados, convivientes, parejas con hijos, o personas responsables del control de finanzas familiares  
+
+**Aspectos geográficos:**
+- Nacionalidad: Peruana  
+- Zona geográfica en la que vive: Urbana y suburbana  
+- Departamento: Lima Metropolitana y otras ciudades principales  
+
+**Aspectos psicográficos:**
+- Se encargan de la planificación y distribución de los gastos del hogar, buscando equidad entre los miembros del hogar.  
+- Están interesados en herramientas tecnológicas que faciliten la gestión de las finanzas del hogar y el monitoreo de los gastos de manera sencilla.  
+- Les preocupa el bienestar financiero de su hogar y buscan evitar conflictos económicos entre los miembros al asegurarse de que cada uno pague lo que le corresponde.  
+- Están comprometidos con la gestión eficiente de los recursos del hogar, buscando que todos los gastos se distribuyan de manera proporcional a los ingresos de cada miembro.  
+
 
 
 
