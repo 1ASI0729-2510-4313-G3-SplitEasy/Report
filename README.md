@@ -279,7 +279,92 @@ Comparar fortalezas, debilidades y estrategias para identificar oportunidades y 
 | Amenazas                  | Competencia consolidada. Preferencia por métodos tradicionales (Excel, notas, billeteras físicas).             | Lo mismo: herramientas tradicionales siguen siendo usadas.                                      | Puede quedar rezagada frente a apps con más recursos.                                          | Entrada de bancos o apps de pago con funciones similares.                                     |
 
 
-# Subir Chapter 2 - Jhordy
+### Estrategias y tácticas frente a competidores
+
+SplitEasy se diferencia de sus competidores mediante una propuesta de valor centrada en la equidad real, considerando los ingresos de cada persona en la distribución de gastos compartidos. Esta estrategia permite posicionarse en un nicho aún poco explorado por aplicaciones como Splitwise, Tricount o SettleUp, las cuales se enfocan en divisiones igualitarias o personalizadas manualmente, pero no abordan el concepto de proporcionalidad basada en capacidad económica.
+
+#### Estrategia de diferenciación por valor social
+SplitEasy enfatiza la justicia financiera dentro del hogar, reduciendo conflictos y mejorando la convivencia. Esto lo distingue de aplicaciones que solo calculan deudas sin contexto social o económico.
+
+**Táctica:** Enfoque educativo y emocional en el marketing. Se utilizarán campañas que destaquen cómo la equidad mejora relaciones personales, apoyándose en testimonios, ejemplos reales y visuales que generen empatía.
+
+#### Estrategia de funcionalidad avanzada desde el inicio
+A diferencia de apps que limitan sus funciones en versiones gratuitas, SplitEasy ofrecerá desde el principio características como:
+
+- Cálculo proporcional según ingresos  
+- Reportes automáticos mensuales  
+- Gestión de metas financieras comunes  
+
+**Táctica:** Modelo freemium con funciones realmente diferenciadoras. Se ofrecerá una versión gratuita funcional y una versión premium con proyecciones financieras, integración bancaria y recordatorios automáticos.
+
+#### Estrategia de comunidad y crecimiento orgánico
+Incentivar la recomendación entre roommates, parejas y familias, priorizando experiencias compartidas y simplicidad.
+
+**Táctica:** Sistema de referidos y uso colaborativo. Cada nuevo usuario puede invitar fácilmente a su grupo de convivencia, con beneficios pequeños como más espacio de historial o funciones extra por cada referido activo.
+
+## Competidores
+
+### Diseño de Entrevistas
+
+**Propósito de la entrevista:**  
+SplitEasy busca ofrecer una solución digital que permita distribuir los gastos del hogar de forma equitativa, basándose en los ingresos de cada miembro. Esta entrevista tiene como objetivo comprender las necesidades, hábitos y expectativas de las personas que comparten gastos del hogar, así como de quienes asumen la responsabilidad de administrarlos. Esta información nos permitirá diseñar una herramienta que promueva la transparencia, evite conflictos financieros y se ajuste a las realidades de los hogares peruanos actuales.
+
+**¿Está usted dispuesto(a) a participar en una breve entrevista que nos ayude a crear una aplicación que facilite la gestión justa de los gastos en el hogar?**
+
+### Segmento objetivo 1: Personas del hogar
+
+**Aspectos demográficos y psicográficos clave**
+
+- Sexo: Masculino y femenino  
+- Edad: 18 a 65 años  
+- Nivel socioeconómico: A, B, y C  
+- Estado civil: Solteros, casados, convivientes, parejas, roommates  
+- Zona: Urbana y suburbana (Perú)
+
+**Preguntas:**
+
+1. ¿Con quién vive actualmente y cómo reparten los gastos del hogar?  
+2. ¿Considera justo el sistema que usan para dividir los pagos? ¿Por qué?  
+3. ¿Cuáles son los mayores retos al organizar los gastos compartidos?  
+4. ¿Han tenido desacuerdos por temas de dinero o pagos en el hogar?  
+5. ¿Han considerado dividir los gastos en función de los ingresos de cada persona?  
+6. ¿Utilizan alguna app para anotar los pagos del hogar? ¿Cuál y qué tan útil les resulta?  
+7. ¿Qué funcionalidades cree que debería tener una app ideal para gestionar gastos entre varias personas?  
+8. ¿Cómo le gustaría visualizar lo que le toca pagar, lo que ya pagó y lo que está pendiente?  
+9. ¿Cree que una aplicación como SplitEasy podría ayudar a mejorar la convivencia y la organización en su hogar?
+
+### Segmento objetivo 2: Representante del hogar
+
+**Aspectos demográficos y psicográficos clave**
+
+- Sexo: Masculino y femenino  
+- Edad: 25 a 50 años  
+- Nivel socioeconómico: A, B, y C  
+- Estado civil: Casados, convivientes, parejas con hijos, personas responsables de las finanzas del hogar  
+- Zona: Urbana y suburbana (Perú)
+
+**Preguntas:**
+
+1. ¿Cuál es su rol dentro de su hogar en cuanto a la administración del dinero?  
+2. ¿Cómo organiza actualmente los ingresos y gastos del hogar?  
+3. ¿Considera que el reparto de los gastos es equitativo para todos los miembros?  
+4. ¿Qué dificultades enfrenta para lograr un reparto justo de los gastos?  
+5. ¿Cómo controla que cada miembro cumpla con su parte financiera?  
+6. ¿Qué herramientas (apps, cuadernos, Excel, etc.) usa actualmente para llevar este control?  
+7. ¿Qué funcionalidades le gustaría que tenga una app como SplitEasy?  
+8. ¿Qué tan importante considera la transparencia financiera dentro del hogar?  
+9. ¿Estaría dispuesto(a) a registrar los ingresos de cada miembro para que la aplicación calcule automáticamente cuánto debe aportar cada uno?  
+10. ¿Qué beneficios cree que traería una solución como SplitEasy en la convivencia familiar?
+
+### Registro de entrevistas
+
+**Segundo Segmento - Entrevista a José Carranza - Por Jhordi Carranza:**
+<p align="left">
+  <img src="images/Entrevista.JoséCarr.png" alt="UserPersona1" width="500">
+</p>
+https://upcedupe-my.sharepoint.com/personal/u20191e835_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20191e835%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevista%20de%20Jhordi%20Carranza%20%2D%20Segmento%202%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E5cb064bd%2Dde25%2D4cd9%2D971f%2De0eb6e0cdf7d&isDarkMode=false
+
+### Análisis de entrevistas
 
 ## 2.3 Needfinding
 
@@ -367,4 +452,49 @@ El journey de este segmento refleja a una persona encargada de la planificación
   <img src="images/Empathy2.PNG" alt="Empathy2" width="500">
 </p>
 
-# Subir Chapter 2 - Alexander
+### As-is Scenario Mapping
+
+### Segmento #1: Personas del Hogar
+
+| Fase                                      | Doing | Thinking | Feeling |
+|-------------------------------------------|--------|----------|---------|
+| **Seguimiento y revisión de gastos compartidos** | Revisa conversaciones de WhatsApp o notas personales para rastrear quién pagó qué, pero muchas veces la información está incompleta o es confusa. | Pienso que llevar un registro de los gastos compartidos debería ser más sencillo y automático, pero hasta ahora no hemos encontrado una forma clara de hacerlo. | Me siento confundido al intentar recordar todos los pagos realizados sin un registro claro ni apoyo visual. |
+|                                           | Intenta hacer una lista manual de gastos en papel o Excel, aunque no siempre recuerda todos los detalles y los registros se vuelven difíciles de actualizar. | Me pregunto si estoy olvidando anotar algún gasto importante y si eso puede afectar el cálculo que hacemos a fin de mes. | Siento frustración porque la falta de organización financiera genera dudas constantes y conversaciones repetitivas con mis convivientes. |
+|                                           | Consulta su cuenta bancaria para verificar pagos recientes, pero no puede identificar fácilmente cuáles fueron gastos personales y cuáles del hogar. | Pienso que sería mucho más justo si tuviéramos un sistema centralizado donde todos podamos registrar los gastos en tiempo real y con transparencia. | Me siento inseguro sobre si todos estamos aportando lo que realmente corresponde, lo que crea una tensión silenciosa. |
+| **Distribución informal de los pagos**    | Coordina a través de mensajes con los demás miembros para acordar quién pagará ciertos gastos, pero muchas veces esto se hace sobre la marcha sin una lógica clara. | Pienso que terminó asumiendo más gastos que los demás simplemente porque suelo tener el dinero a la mano o reaccionó más rápido. | Me siento agotado de tener que estar detrás de todos para que paguen su parte o al menos registren lo que compraron. |
+|                                           | Suma rápidamente los montos estimados para dividirlos entre todos, aunque no considera factores como los ingresos individuales ni el consumo real. | Me pregunto si realmente todos entienden cuánto deben aportar o si lo hacen "a ojo", sin preocuparse por la equidad. | Siento cierta incomodidad al tener que hablar de dinero constantemente, ya que se vuelve un tema delicado en el hogar. |
+|                                           | Realiza pagos de manera voluntaria por necesidad o urgencia, esperando que luego los demás le transfieran su parte, aunque no siempre lo hacen. | Pienso que esta forma de dividir gastos es muy improvisada y, a la larga, puede generar malentendidos o conflictos. | Me siento abrumado porque sé que no estamos manejando bien nuestras finanzas compartidas, y eso me preocupa. |
+| **Ajustes reactivos y búsqueda de equidad** | Analiza los ingresos aproximados de cada integrante para proponer una distribución más justa, pero sin datos concretos se vuelve una conversación complicada. | Pienso que deberíamos dividir los gastos de forma proporcional a lo que gana cada persona, para que todos puedan contribuir sin ahogarse. | Me siento decepcionado porque, a pesar de nuestras buenas intenciones, seguimos teniendo los mismos problemas de organización mes tras mes. |
+|                                           | Propone reuniones improvisadas para revisar los gastos y buscar un mejor método de control, pero las decisiones no se mantienen en el tiempo. | Me pregunto si existe una aplicación que nos ayude a hacer esto automáticamente, sin tener que hacer cálculos manuales o discutir todo el tiempo. | Siento tensión al hablar del tema con mis convivientes, porque a veces se malinterpretan las intenciones de quienes intentamos ordenar. |
+|                                           | Investiga apps o soluciones digitales para la gestión de gastos, pero ninguna se ajusta realmente al contexto del hogar ni considera la proporcionalidad de ingresos. | Pienso que necesitamos una herramienta que se adapte a nuestra dinámica como hogar, con funcionalidades claras, accesibles y compartidas. | Me siento con esperanza de que encontremos una solución adecuada, pero también con ansiedad porque el problema aún persiste y genera incomodidad. |
+
+### Segmento #2: Representante del Hogar
+
+| Fase                                      | Doing | Thinking | Feeling |
+|-------------------------------------------|--------|----------|---------|
+| **Recolección y validación de información financiera del hogar** | Recolecta los comprobantes y detalles de gastos realizados por todos los integrantes del hogar, usando notas, mensajes o capturas, pero no siempre recibe la información completa. | Pienso que estoy cargando con toda la responsabilidad de organizar los gastos, y eso no es sostenible sin un sistema de apoyo claro. | Me siento abrumado por la cantidad de información que debe manejar y organizar cada mes sin tener herramientas que me faciliten la tarea. |
+|                                           | Revisa manualmente los estados de cuenta y movimientos bancarios para identificar los pagos relacionados al hogar, lo cual le toma mucho tiempo. | Me pregunto si realmente estoy considerando todos los gastos y si hay algún egreso que se me está escapando por falta de comunicación. | Siento frustración porque muchas veces debo insistir para que los demás cooperen con los datos que necesito, y no siempre responden. |
+|                                           | Pregunta constantemente a los miembros del hogar por gastos olvidados o no registrados, lo que genera demoras y posibles olvidos importantes. | Pienso que necesito una manera más estructurada y automática para recolectar la información financiera del hogar sin depender de tantos recordatorios. | Me siento solo en esta tarea, como si fuera una obligación exclusiva mía, cuando debería ser una responsabilidad compartida. |
+| **Coordinación y comunicación de pagos pendientes** | Informa a cada miembro cuánto debe pagar y por qué, a través de mensajes o reuniones, pero muchas veces hay confusión o falta de claridad en los montos. | Pienso que debería haber un sistema que envíe recordatorios automáticos y calcule de forma clara lo que cada uno debe pagar según lo que gana o consume. | Me siento estresado por tener que estar al tanto de todos los pagos y al mismo tiempo mantener una buena relación con todos. |
+|                                           | Envía recordatorios de pagos pendientes o fechas límites, lo cual consume tiempo y no siempre garantiza una respuesta inmediata. | Me pregunto si estoy siendo justo al dividir los gastos de forma igual cuando algunos ganan más o usan más recursos del hogar. | Siento incomodidad cuando debo insistir o corregir a alguien por un pago pendiente, porque no quiero generar conflictos. |
+|                                           | Negocia casos especiales (como pagos fraccionados o postergaciones) sin contar con reglas claras, lo que puede ser percibido como injusto. | Pienso que esta dinámica constante de perseguir a todos por los pagos desgasta mi relación con los demás y crea una tensión innecesaria. | Me siento responsable de que todo funcione correctamente, pero a la vez cansado de que no todos valoren el esfuerzo que conlleva. |
+| **Evaluación y propuesta de mejoras en la gestión de gastos** | Revisa lo que funcionó o falló en el mes anterior, anotando observaciones sobre los pagos tardíos, malentendidos o desequilibrios financieros. | Pienso que debemos cambiar el sistema actual por uno más justo, donde todos entiendan y acepten cómo se calcula cada gasto. | Me siento motivado cuando encuentro posibles soluciones o herramientas que podrían facilitar nuestra gestión como hogar. |
+|                                           | Busca herramientas como hojas de Excel, apps móviles o plantillas para organizar mejor los datos y proponer un sistema más claro. | Me pregunto si los demás estarán dispuestos a adoptar una nueva herramienta o si seguirán resistiéndose a cambiar su forma de actuar. | Siento ansiedad al pensar que los cambios propuestos no sean bien recibidos o que no logren resolver los problemas actuales. |
+|                                           | Presenta nuevas ideas o métodos para mejorar la distribución de gastos en las reuniones familiares o del hogar, con argumentos basados en experiencias previas. | Pienso que si no logramos organizar mejor nuestras finanzas ahora, más adelante tendremos conflictos más serios que afectarán la convivencia. | Me siento determinado a encontrar una forma más equitativa de administrar los gastos del hogar, porque sé que es necesario para todos. |
+
+## Ubiquitous Language
+
+| **Término en Inglés**          | **Término en Español**       | **Definición**                                                                                                                                           |
+|--------------------------------|-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Household Representative      | Representante del hogar     | Usuario responsable de administrar el hogar dentro del sistema. Tiene permisos especiales para registrar nuevos miembros, ingresar gastos comunes y visualizar los aportes de todos. |
+| Household Member              | Miembro del hogar           | Usuario que forma parte de un hogar registrado. Aporta según su capacidad económica y puede visualizar su historial de gastos y contribuciones.              |
+| Income-Based Contribution     | Contribución basada en ingresos | Mecanismo mediante el cual se calcula la cantidad que debe aportar cada miembro del hogar, según el ingreso personal declarado. Busca que el reparto sea justo y equitativo. |
+| Shared Expense                | Gasto compartido             | Gasto que afecta a todo el hogar y que debe dividirse proporcionalmente entre sus miembros (por ejemplo, alquiler, servicios, compras comunes).              |
+| Spending Record               | Registro de gastos          | Documento digital o entrada dentro del sistema que detalla la fecha, el monto, la categoría y quién ingresó el gasto.                                       |
+| Contribution Percentage       | Porcentaje de contribución  | Valor en porcentaje que representa la participación proporcional de cada miembro en los gastos comunes del hogar, calculado con base en su ingreso.         |
+| Financial Overview            | Resumen financiero          | Vista general de los ingresos, aportes y gastos de un hogar, accesible para sus miembros y con mayor detalle para el representante.                       |
+| Pending Contribution          | Contribución pendiente      | Monto que un miembro del hogar aún no ha cubierto con respecto a los gastos registrados. Puede generar recordatorios o alertas.                             |
+| Expense Category              | Categoría de gasto          | Clasificación usada para organizar los gastos ingresados (por ejemplo: alimentación, servicios, alquiler, entretenimiento). Facilita el análisis y el seguimiento. |
+| Adjustment Report             | Reporte de ajustes          | Documento generado automáticamente por el sistema cuando hay una variación significativa en los ingresos de un miembro, sugiriendo una nueva distribución de aportes. |
+
+
