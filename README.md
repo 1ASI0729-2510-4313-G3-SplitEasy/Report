@@ -364,6 +364,11 @@ SplitEasy busca ofrecer una solución digital que permita distribuir los gastos 
 </p>
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u201820037_upc_edu_pe/EWJDafd3jKJLgx_GVN7SawEBxb_W9KY5TQt5WBRD2DQHvw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=NthxHb
 
+**Primer Segmento - Entrevista a Erick Heredia - Por Bruno Gonzales:**
+<p align="left">
+  <img src="images/Entrevista2_Bruno.png" alt="" width="500">
+</p>
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u201820037_upc_edu_pe/EfGMD0WYMSZLpqKu7hcnU9ABMWYYGrtOXIznD7sj9x8c5g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ZgasbR
 
 
 **Segundo Segmento - Entrevista a José Carranza - Por Jhordi Carranza:**
