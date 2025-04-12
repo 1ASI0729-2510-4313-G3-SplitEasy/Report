@@ -132,7 +132,81 @@ La necesidad de un reparto equitativo de los gastos del hogar, la falta de trans
 
 ---
 
-# Subir Parte Alexander
+## Lean UX Process
+
+Lean UX se define como un proceso iterativo y colaborativo que prioriza la experimentación y el aprendizaje continuo sobre la creación de documentación exhaustiva. En lugar de centrarse en entregar un producto final completamente detallado, este enfoque permite a los equipos de diseño y desarrollo trabajar en conjunto para construir prototipos y realizar pruebas rápidas. Estas pruebas se realizan con usuarios reales y en contextos reales, lo que permite validar hipótesis y ajustar el producto en función de los resultados obtenidos. El objetivo principal de Lean UX es reducir el desperdicio y aumentar la eficiencia en el desarrollo del producto, permitiendo a los equipos responder de manera más ágil a las necesidades y expectativas de los usuarios (Gothelf & Seiden, 2013).
+
+## Lean UX Problem Statements
+
+**¿Cómo podemos crear una herramienta innovadora que motive a los miembros del hogar a gestionar sus finanzas compartidas de manera justa, permitiendo una distribución proporcional de los gastos según sus ingresos individuales?**  
+Muchas personas que comparten un hogar enfrentan dificultades al dividir los gastos de manera equitativa. La falta de un sistema justo puede generar conflictos, resentimientos y desorganización financiera. Las herramientas actuales son muy básicas o se limitan a simples divisiones matemáticas que no consideran la capacidad económica de cada persona.
+
+**¿Cómo podemos diseñar una solución que promueva la transparencia, el compromiso y la responsabilidad financiera entre los miembros del hogar?**  
+Hemos observado que cuando no existe un registro claro de lo que cada persona debe o ha pagado, surgen confusiones y desconfianza. La ausencia de una herramienta que brinde visibilidad y control compartido dificulta una convivencia armoniosa en el aspecto económico.
+
+**¿Cómo podemos integrar reportes automáticos y alertas que ayuden a los usuarios a cumplir con sus pagos, y que al mismo tiempo den control al representante del hogar para monitorear el estado financiero del grupo?**  
+En muchos hogares, una persona se encarga de la administración, pero no siempre tiene los medios para realizar un seguimiento claro. Los recordatorios manuales y el control informal suelen ser ineficientes y pueden causar fricciones innecesarias.
+
+**¿Cómo podemos facilitar una herramienta intuitiva que se adapte tanto a personas con conocimientos básicos de finanzas como a quienes desean un control más detallado de los gastos familiares?**  
+Los usuarios necesitan una plataforma sencilla, pero también lo suficientemente flexible para mostrar datos relevantes y personalizables. Muchas soluciones actuales son complejas o no abordan este enfoque colectivo y equitativo.
+
+**¿Cómo podemos fomentar una cultura de ahorro y planificación financiera conjunta dentro del hogar, basada en metas comunes y acuerdos colaborativos?**  
+La mayoría de los hogares no tienen metas financieras compartidas ni hábitos de ahorro establecidos en grupo. La falta de planificación colectiva limita el crecimiento económico del hogar y genera dependencia o desigualdad en las contribuciones.
+
+## Lean UX Assumptions
+
+### Business Outcomes
+
+- Creemos que nuestros usuarios necesitan una herramienta digital para gestionar los gastos del hogar de forma justa y proporcional.  
+- Esta necesidad se resuelve con una plataforma que calcula automáticamente cuánto debe aportar cada persona en función de sus ingresos.  
+- Nuestros clientes iniciales serán parejas, familias o grupos de convivencia que desean organizar sus finanzas colectivas de forma equitativa.  
+- El valor principal que los usuarios esperan es la distribución justa de los gastos según ingresos y la visibilidad de los pagos.  
+- Otros beneficios clave incluyen: reportes automáticos, recordatorios de pagos, control centralizado por parte del representante del hogar, y sugerencias para ahorro grupal.  
+- Generamos ingresos a través de versiones premium que ofrecen funciones avanzadas como análisis históricos, exportación de datos, y personalización de reglas de reparto.  
+- Nuestra principal competencia serán apps de finanzas personales y hojas de cálculo compartidas, pero SplitEasy se destaca por su enfoque colaborativo y equitativo.  
+- Superaremos a la competencia ofreciendo personalización basada en ingresos, visibilidad colectiva y herramientas de colaboración.  
+- Nuestro mayor riesgo es que los usuarios no confíen en los cálculos o no se adapten al uso de una plataforma compartida.  
+- Lo resolveremos con una interfaz intuitiva, algoritmos claros y explicativos, y soporte personalizado.  
+- Creemos que al automatizar y transparentar la distribución de gastos, mejoraremos la convivencia, la confianza y la organización financiera del hogar. Si esta hipótesis es incorrecta, podríamos tener baja retención de usuarios.
+
+### User Outcomes
+
+- **¿Quién será nuestro usuario?**  
+  Personas que viven en un mismo hogar (parejas, familias, compañeros de piso) y desean organizar los gastos de forma justa.
+
+- **¿Dónde encaja nuestro producto en su vida?**  
+  En la planificación y gestión de los gastos mensuales compartidos, desde cualquier lugar, especialmente al momento de dividir pagos importantes como alquiler, luz, agua, comida, etc.
+
+- **¿Qué problemas tiene nuestro producto y cómo se pueden resolver?**  
+  Puede haber falta de compromiso o datos erróneos al registrar ingresos. Se resolverá con validación simple, incentivos y recordatorios automáticos.
+
+- **¿Cómo y cuándo es usado nuestro producto?**  
+  Es utilizado regularmente al inicio y final de cada mes, y también al hacer pagos importantes o para revisar el estado financiero compartido.
+
+- **¿Qué problemas tiene nuestro producto?**  
+  Podría haber resistencia al cambio en hogares con dinámicas ya establecidas. Lo abordaremos facilitando la migración y ofreciendo beneficios visibles desde el primer uso.
+
+- **¿Qué características son importantes?**
+  - Cálculo automático proporcional según ingresos  
+  - Reportes visuales del estado de aportes  
+  - Panel para el representante del hogar  
+  - Historial de pagos y contribuciones  
+  - Alertas de vencimiento  
+  - Objetivos y metas compartidas  
+  - Seguridad de datos  
+  - Experiencia simple y colaborativa  
+
+## Lean UX Hypothesis Statements
+
+**Hipótesis 1: Distribución proporcional de gastos**  
+Creemos que una herramienta que calcule automáticamente cuánto debe aportar cada miembro del hogar según sus ingresos fomentará una convivencia más justa y organizada.  
+_Sabremos que estamos bien cuando al menos el 70% de los usuarios reporten una disminución de conflictos por dinero y una mayor satisfacción con el reparto de gastos en los primeros tres meses de uso._
+
+**Hipótesis 2: Supervisión por el representante del hogar**  
+Creemos que permitir que un representante tenga una visión general del estado financiero del grupo y reciba alertas mejorará la gestión y cumplimiento de los pagos.  
+_Sabremos que estamos bien cuando veamos una reducción en pagos atrasados y un uso activo del panel de control por parte del representante en al menos el 60% de los hogares registrados._
+
+## Lean UX Canvas
 
 <p align="center">
   <img src="images/Lean UX Canvas.png" alt="Gráfico de errores manuales" width="500">
