@@ -273,7 +273,92 @@ Comparar fortalezas, debilidades y estrategias para identificar oportunidades y 
 | Amenazas                  | Competencia consolidada. Preferencia por métodos tradicionales (Excel, notas, billeteras físicas).             | Lo mismo: herramientas tradicionales siguen siendo usadas.                                      | Puede quedar rezagada frente a apps con más recursos.                                          | Entrada de bancos o apps de pago con funciones similares.                                     |
 
 
-# Subir Chapter 2 - Jhordy
+### Estrategias y tácticas frente a competidores
+
+SplitEasy se diferencia de sus competidores mediante una propuesta de valor centrada en la equidad real, considerando los ingresos de cada persona en la distribución de gastos compartidos. Esta estrategia permite posicionarse en un nicho aún poco explorado por aplicaciones como Splitwise, Tricount o SettleUp, las cuales se enfocan en divisiones igualitarias o personalizadas manualmente, pero no abordan el concepto de proporcionalidad basada en capacidad económica.
+
+#### Estrategia de diferenciación por valor social
+SplitEasy enfatiza la justicia financiera dentro del hogar, reduciendo conflictos y mejorando la convivencia. Esto lo distingue de aplicaciones que solo calculan deudas sin contexto social o económico.
+
+**Táctica:** Enfoque educativo y emocional en el marketing. Se utilizarán campañas que destaquen cómo la equidad mejora relaciones personales, apoyándose en testimonios, ejemplos reales y visuales que generen empatía.
+
+#### Estrategia de funcionalidad avanzada desde el inicio
+A diferencia de apps que limitan sus funciones en versiones gratuitas, SplitEasy ofrecerá desde el principio características como:
+
+- Cálculo proporcional según ingresos  
+- Reportes automáticos mensuales  
+- Gestión de metas financieras comunes  
+
+**Táctica:** Modelo freemium con funciones realmente diferenciadoras. Se ofrecerá una versión gratuita funcional y una versión premium con proyecciones financieras, integración bancaria y recordatorios automáticos.
+
+#### Estrategia de comunidad y crecimiento orgánico
+Incentivar la recomendación entre roommates, parejas y familias, priorizando experiencias compartidas y simplicidad.
+
+**Táctica:** Sistema de referidos y uso colaborativo. Cada nuevo usuario puede invitar fácilmente a su grupo de convivencia, con beneficios pequeños como más espacio de historial o funciones extra por cada referido activo.
+
+## Competidores
+
+### Diseño de Entrevistas
+
+**Propósito de la entrevista:**  
+SplitEasy busca ofrecer una solución digital que permita distribuir los gastos del hogar de forma equitativa, basándose en los ingresos de cada miembro. Esta entrevista tiene como objetivo comprender las necesidades, hábitos y expectativas de las personas que comparten gastos del hogar, así como de quienes asumen la responsabilidad de administrarlos. Esta información nos permitirá diseñar una herramienta que promueva la transparencia, evite conflictos financieros y se ajuste a las realidades de los hogares peruanos actuales.
+
+**¿Está usted dispuesto(a) a participar en una breve entrevista que nos ayude a crear una aplicación que facilite la gestión justa de los gastos en el hogar?**
+
+### Segmento objetivo 1: Personas del hogar
+
+**Aspectos demográficos y psicográficos clave**
+
+- Sexo: Masculino y femenino  
+- Edad: 18 a 65 años  
+- Nivel socioeconómico: A, B, y C  
+- Estado civil: Solteros, casados, convivientes, parejas, roommates  
+- Zona: Urbana y suburbana (Perú)
+
+**Preguntas:**
+
+1. ¿Con quién vive actualmente y cómo reparten los gastos del hogar?  
+2. ¿Considera justo el sistema que usan para dividir los pagos? ¿Por qué?  
+3. ¿Cuáles son los mayores retos al organizar los gastos compartidos?  
+4. ¿Han tenido desacuerdos por temas de dinero o pagos en el hogar?  
+5. ¿Han considerado dividir los gastos en función de los ingresos de cada persona?  
+6. ¿Utilizan alguna app para anotar los pagos del hogar? ¿Cuál y qué tan útil les resulta?  
+7. ¿Qué funcionalidades cree que debería tener una app ideal para gestionar gastos entre varias personas?  
+8. ¿Cómo le gustaría visualizar lo que le toca pagar, lo que ya pagó y lo que está pendiente?  
+9. ¿Cree que una aplicación como SplitEasy podría ayudar a mejorar la convivencia y la organización en su hogar?
+
+### Segmento objetivo 2: Representante del hogar
+
+**Aspectos demográficos y psicográficos clave**
+
+- Sexo: Masculino y femenino  
+- Edad: 25 a 50 años  
+- Nivel socioeconómico: A, B, y C  
+- Estado civil: Casados, convivientes, parejas con hijos, personas responsables de las finanzas del hogar  
+- Zona: Urbana y suburbana (Perú)
+
+**Preguntas:**
+
+1. ¿Cuál es su rol dentro de su hogar en cuanto a la administración del dinero?  
+2. ¿Cómo organiza actualmente los ingresos y gastos del hogar?  
+3. ¿Considera que el reparto de los gastos es equitativo para todos los miembros?  
+4. ¿Qué dificultades enfrenta para lograr un reparto justo de los gastos?  
+5. ¿Cómo controla que cada miembro cumpla con su parte financiera?  
+6. ¿Qué herramientas (apps, cuadernos, Excel, etc.) usa actualmente para llevar este control?  
+7. ¿Qué funcionalidades le gustaría que tenga una app como SplitEasy?  
+8. ¿Qué tan importante considera la transparencia financiera dentro del hogar?  
+9. ¿Estaría dispuesto(a) a registrar los ingresos de cada miembro para que la aplicación calcule automáticamente cuánto debe aportar cada uno?  
+10. ¿Qué beneficios cree que traería una solución como SplitEasy en la convivencia familiar?
+
+### Registro de entrevistas
+
+**Segundo Segmento - Entrevista a José Carranza - Por Jhordi Carranza:**
+<p align="left">
+  <img src="images/Entrevista.JoséCarr.png" alt="UserPersona1" width="500">
+</p>
+https://upcedupe-my.sharepoint.com/personal/u20191e835_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20191e835%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevista%20de%20Jhordi%20Carranza%20%2D%20Segmento%202%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E5cb064bd%2Dde25%2D4cd9%2D971f%2De0eb6e0cdf7d&isDarkMode=false
+
+### Análisis de entrevistas
 
 ## 2.3 Needfinding
 
