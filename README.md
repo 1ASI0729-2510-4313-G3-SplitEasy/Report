@@ -11,8 +11,6 @@ SplitEasy es una startup tecnológica enfocada en brindar soluciones financieras
 - **Visión:** Nuestra visión es convertirnos en la plataforma líder en gestión financiera compartida para hogares en América Latina, siendo reconocidos por empoderar a las personas a tomar decisiones económicas justas, responsables y colaborativas.  
 - **Valores:** Transparencia, simplicidad y colaboración.  
 
----
-
 ##  Perfiles de Integrantes del Grupo
 
 |                             |                                      |
@@ -49,8 +47,6 @@ Me llamo Alexander Piero Fernandez Garfias, estudio  la carrera de Ing. de Softw
 ##  Solution Profile
 
 SplitEasy es una plataforma digital diseñada para facilitar la distribución equitativa de los gastos del hogar entre sus miembros, teniendo en cuenta los ingresos individuales de cada uno. El sistema calcula automáticamente el porcentaje que cada miembro debe aportar en función de su capacidad económica, lo que asegura una distribución justa de los gastos comunes, como alquiler, servicios y alimentos. Los usuarios pueden registrar sus ingresos, ver cuánto deben pagar y cuánto han pagado, y el representante del hogar tiene una visión general de todo el proceso. Además, la plataforma ofrece un seguimiento en tiempo real, reportes mensuales detallados y alertas automáticas sobre pagos pendientes. Con una interfaz intuitiva y fácil de usar, SplitEasy no solo optimiza la gestión financiera, sino que también promueve la transparencia y la confianza entre los miembros del hogar, reduciendo los posibles conflictos relacionados con el dinero y asegurando una gestión financiera eficiente y justa.
-
----
 
 ##  Antecedentes y Problemática
 
@@ -132,8 +128,6 @@ La necesidad de un reparto equitativo de los gastos del hogar, la falta de trans
 <p align="center">Fernando Blanco P. (2020). Gráfico de LDL – ESTADÍSTICA VISUAL (VIII). Gráficos con barras de error: manual de usuario – Lima, 2020</p>
 <p align="center"><em>Figura: Representación visual del costo promedio de errores manuales.</em></p>
 
----
-
 ## Lean UX Process
 
 Lean UX se define como un proceso iterativo y colaborativo que prioriza la experimentación y el aprendizaje continuo sobre la creación de documentación exhaustiva. En lugar de centrarse en entregar un producto final completamente detallado, este enfoque permite a los equipos de diseño y desarrollo trabajar en conjunto para construir prototipos y realizar pruebas rápidas. Estas pruebas se realizan con usuarios reales y en contextos reales, lo que permite validar hipótesis y ajustar el producto en función de los resultados obtenidos. El objetivo principal de Lean UX es reducir el desperdicio y aumentar la eficiencia en el desarrollo del producto, permitiendo a los equipos responder de manera más ágil a las necesidades y expectativas de los usuarios (Gothelf & Seiden, 2013).
@@ -214,8 +208,6 @@ _Sabremos que estamos bien cuando veamos una reducción en pagos atrasados y un 
   <img src="images/Lean UX Canvas.png" alt="Gráfico de errores manuales" width="500">
 </p>
 
----
-
 ## Segmentos Objetivos
 
 ### Segmento objetivo 1: Personas del hogar
@@ -235,9 +227,7 @@ _Sabremos que estamos bien cuando veamos una reducción en pagos atrasados y un 
 - Buscan una forma equitativa de compartir los gastos del hogar, como la renta, los servicios, y otros gastos comunes.  
 - Están interesados en herramientas que les ayuden a gestionar sus finanzas de manera transparente y justa.  
 - Se preocupan por mantener un equilibrio financiero entre los miembros del hogar, asegurándose de que cada uno aporte según sus ingresos.  
-- Tienen un estilo de vida que involucra la convivencia con otros y comparten responsabilidades, por lo que buscan facilitar el proceso de distribución de gastos.  
-
----
+- Tienen un estilo de vida que involucra la convivencia con otros y comparten responsabilidades, por lo que buscan facilitar el proceso de distribución de gastos. 
 
 ### Segmento objetivo 2: Representante del hogar
 
@@ -260,7 +250,7 @@ _Sabremos que estamos bien cuando veamos una reducción en pagos atrasados y un 
 
 # Chapter 2: Requirements Elicitation & Analysis
 
-
+# Subir Chapter 2 - Luis
 
 
 
