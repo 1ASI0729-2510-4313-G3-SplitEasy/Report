@@ -40,6 +40,12 @@ Soy una persona que me gusta cumplir con mis obligaciones de manera efectiva, au
 **Carrera:** Ingeniería de Software  
 **Descripción:**  
 Me llamo Alexander Piero Fernandez Garfias, estudio  la carrera de Ing. de Software en la UPC. Mis conocimientos técnicos van en torno a Programación en lenguajes como C++, Dart, Java |
+| ![Bruno](images/bruno_gonzales.PNG) | 
+**Nombre:** Bruno Leonardo Gonzales Arotinco 
+**Código de estudiante:** U201820037
+**Carrera:** Ingeniería de Software  
+**Descripción:**  
+Me llamo Bruno Leonardo Gonzales Arotinco, estudio actualmente la carrera de Ing. de Software en la UPC. En mis tiempos libres me gusta jugar videojuegos, jugar partidos con mis amigos del barrio. Me considero una persona responsable, honrada y respetuosa |
 
 ##  Solution Profile
 
