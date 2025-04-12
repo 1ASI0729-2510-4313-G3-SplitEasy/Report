@@ -358,6 +358,14 @@ SplitEasy busca ofrecer una solución digital que permita distribuir los gastos 
 
 ### Registro de entrevistas
 
+**Primer Segmento - Entrevista a Jesus Casana - Por Bruno Gonzales:**
+<p align="left">
+  <img src="images/Entrevista1_Bruno.png" alt="UserPersona2" width="500">
+</p>
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u201820037_upc_edu_pe/EWJDafd3jKJLgx_GVN7SawEBxb_W9KY5TQt5WBRD2DQHvw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=NthxHb
+
+
+
 **Segundo Segmento - Entrevista a José Carranza - Por Jhordi Carranza:**
 <p align="left">
   <img src="images/Entrevista.JoséCarr.png" alt="UserPersona1" width="500">
