@@ -614,5 +614,21 @@ El journey de este segmento refleja a una persona encargada de la planificación
 | US29          | Sugerencias de mejora            |
 | US30          | Foro comunitario                 |
 
+# Subir Parte Luis
+# Subir Parte Jhordi(pon lo exactamente abajo del user 15 que subira Luis para que tome el formato de tabla)
 
+## Impact Mapping
 
+### Segmento 1: Miembros del hogar
+
+<p align="left">
+  <img src="images/Impact1.PNG" alt="Impact1" width="500">
+</p>
+
+### Segmento 2: Representante del hogar
+
+<p align="left">
+  <img src="images/Impact2.PNG" alt="Impact2" width="500">
+</p>
+
+# Subir Parte Alexander
