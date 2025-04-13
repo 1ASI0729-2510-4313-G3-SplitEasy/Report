@@ -510,4 +510,109 @@ El journey de este segmento refleja a una persona encargada de la planificación
 | Expense Category              | Categoría de gasto          | Clasificación usada para organizar los gastos ingresados (por ejemplo: alimentación, servicios, alquiler, entretenimiento). Facilita el análisis y el seguimiento. |
 | Adjustment Report             | Reporte de ajustes          | Documento generado automáticamente por el sistema cuando hay una variación significativa en los ingresos de un miembro, sugiriendo una nueva distribución de aportes. |
 
+# Capítulo 3: Requirements Specification
+
+## 3.1 To-Be Scenario Mapping
+
+### Segmento 1: Miembros del hogar
+
+| Fase                                      | Doing | Thinking | Feeling |
+|-------------------------------------------|--------|----------|---------|
+| **Seguimiento y revisión de gastos compartidos** | Los miembros del hogar ingresan automáticamente todos los gastos en la aplicación, ya sea al momento del gasto o mediante sincronización con sus cuentas bancarias. | Es mucho más fácil y preciso llevar un registro ahora que todos los pagos se registran automáticamente sin tener que buscar en WhatsApp ni revisar bancos manualmente. | Me siento mucho más organizado porque tengo todo el registro claro y accesible en mi teléfono sin perder tiempo. |
+|                                           | La app organiza y categoriza los pagos (gastos comunes vs personales) automáticamente, sin necesidad de búsquedas manuales. | Ahora sé exactamente lo que gasté y lo que debo, sin necesidad de adivinar ni calcular de memoria. | Es un alivio saber que no tengo que revisar cientos de mensajes o comprobantes para recordar lo que cada quien debe. |
+|                                           | El sistema envía notificaciones automáticas con un resumen semanal de los gastos compartidos. | Este sistema me ahorra mucho tiempo y esfuerzo. Ya no tengo que preocuparme por mantener un control constante. | Ahora tengo la seguridad de que todos los gastos están bien registrados y no me siento confundido ni preocupado por olvidar algo importante. |
+| **Distribución informal de los pagos**    | La aplicación realiza automáticamente la distribución de los pagos según el consumo de cada miembro y sus ingresos. | No tengo que calcular manualmente cuánto me toca pagar. La app lo hace automáticamente con base en mis ingresos y el consumo real. | Me siento más tranquilo porque la distribución es automática y justa. |
+|                                           | Los usuarios visualizan la distribución con gráficos claros que muestran la proporción correspondiente a cada miembro. | Ahora cada uno paga lo que le corresponde de forma justa, sin discusiones ni estimaciones imprecisas. | Es un alivio saber que ya no hay malentendidos ni tensiones por quién paga qué. |
+|                                           | La app permite el pago directo dentro de la plataforma, con transferencias instantáneas. | Este sistema es más equilibrado y sencillo que el método anterior, donde uno a veces asumía más de lo que debía. | Me siento más seguro porque la app ajusta la contribución según lo que cada uno gana y consume. |
+| **Ajustes reactivos y búsqueda de equidad** | La app ajusta automáticamente las contribuciones si hay cambios en ingresos o gastos. | La app se adapta automáticamente a los cambios, haciendo ajustes sin que tengamos que discutir o calcular nada. | Me siento tranquilo porque ya no hay necesidad de hacer ajustes complicados o debatir sobre la división. |
+|                                           | La aplicación muestra comparaciones visuales para facilitar la toma de decisiones si hay dudas o ajustes. | Si algo cambia, puedo ver en tiempo real cómo se ajusta la distribución, lo que me da claridad y confianza. | Es muy cómodo saber que los ajustes se hacen solos y de forma justa, sin necesidad de confrontaciones. |
+|                                           | Hay un sistema de comentarios y notas en cada gasto para que los miembros discutan o justifiquen ajustes de forma ordenada. | Antes era complicado ajustar, pero ahora la app lo maneja de forma eficiente y justa. | Ahora me siento menos preocupado y más satisfecho con cómo se gestionan los pagos: es más justo y transparente. |
+
+### Segmento 2: Representante del hogar
+
+| Fase                                         | Doing | Thinking | Feeling |
+|----------------------------------------------|--------|----------|---------|
+| **Recolección y validación de información financiera del hogar** | La aplicación recopila automáticamente todos los gastos realizados, sincronizando las cuentas bancarias de todos los miembros del hogar, para asegurar que no falte ningún gasto registrado. | Ahora la app recolecta toda la información automáticamente, lo que me permite ahorrar tiempo y no preocuparme por pedir detalles constantemente. | Me siento mucho más relajado sabiendo que toda la información financiera está organizada y no tengo que buscarla en varias partes. |
+|                                              | Los usuarios reciben notificaciones en tiempo real sobre nuevos gastos o pagos realizados, sin tener que pedir información adicional. | Me siento más tranquilo porque sé que no se me está escapando ningún gasto importante, ya que todo se registra en la aplicación de forma inmediata. | Es un alivio no tener que insistir a cada persona para que me envíe los comprobantes o detalles, todo se gestiona de forma automática. |
+|                                              | Los comprobantes y detalles de los gastos se almacenan de forma centralizada y organizada en la app, lo que evita perder información o tener que buscar en múltiples fuentes. | Este sistema es más eficiente y evita los errores humanos. Ya no tengo que validar manualmente cada gasto o estar pendiente de recordar los pagos. | Me siento más en control, porque tengo toda la información al alcance de mi mano sin el estrés de pedir detalles a los demás. |
+| **Coordinación y comunicación de pagos pendientes** | La aplicación muestra el monto exacto que cada miembro debe pagar, basado en su consumo y los ingresos de todos, eliminando cálculos manuales y posibles malentendidos. | Ahora puedo ver claramente cuánto debo pagar y cuándo, sin necesidad de estar preguntando o calculando manualmente. | Me siento más tranquilo porque todo está automatizado, y ya no tengo que enviar recordatorios ni correos repetitivos. |
+|                                              | Los usuarios reciben notificaciones automáticas de los pagos pendientes, con un recordatorio claro sobre la fecha límite y las cantidades exactas que deben abonar. | Las notificaciones automáticas me aseguran que no voy a olvidar hacer un pago ni que alguien más lo olvide. Todo está claro y organizado. | Es muy cómodo saber que todos los pagos están claramente definidos y que no tengo que resolver conflictos sobre qué monto le corresponde a cada uno. |
+|                                              | La app facilita la comunicación entre los miembros del hogar a través de un chat o tablero de discusión para resolver cualquier duda o negociación de pagos. | La app ha hecho que todo sea mucho más fácil de coordinar, ya no es necesario tener largas conversaciones sobre lo que debe cada uno. | Siento que la gestión de pagos es mucho más eficiente, y todos tienen la misma información sin malentendidos ni tensiones. |
+| **Evaluación y propuesta de mejoras en la gestión de gastos** | Los usuarios pueden ver informes mensuales de los gastos compartidos, con análisis visuales que permiten identificar patrones de consumo y detectar áreas de mejora. | Es más fácil evaluar cómo estamos manejando los gastos, ya que los informes me dan una visión clara y detallada de todo lo que está sucediendo. | Me siento satisfecho porque puedo ver cómo mejorar continuamente la gestión de los gastos, y no tengo que adivinar si estoy haciendo bien las cosas. |
+|                                              | La aplicación genera sugerencias automáticas sobre cómo ajustar la distribución de los gastos o cómo optimizar los pagos, en base a los ingresos y el consumo de cada miembro. | Ahora sé exactamente qué ajustes hacer, si alguien ha pagado más de lo que le correspondía o si necesitamos redistribuir algunos gastos para que sea más equitativo. | Es muy reconfortante saber que tengo herramientas que me permiten hacer ajustes fácilmente sin generar conflictos o malentendidos. |
+|                                              | Los miembros pueden proponer mejoras o ajustes de manera transparente dentro de la plataforma, donde todos los integrantes pueden votar o dar su opinión. | Me siento más confiado en que el sistema está tomando en cuenta todas las variables, lo que facilita el proceso de mejorar nuestra gestión financiera. | Me siento apoyado por un sistema que ayuda a hacer que nuestras decisiones sean más equitativas, transparentes y justas. |
+
+## User Stories
+### Epic
+
+| EPIC ID | Nombre del Epic                  | Descripción |
+|---------|----------------------------------|-------------|
+| EP01    | Registro y Gestión de Perfil     | Como usuario, quiero registrarme y gestionar mi perfil de forma segura y personalizada, para acceder a SplitEasy desde cualquier dispositivo. |
+| EP02    | Panel del Representante del Hogar| Como representante del hogar, quiero gestionar y supervisar las finanzas del hogar de forma centralizada y transparente. |
+| EP03    | Panel del Miembro del Hogar      | Como miembro del hogar, quiero registrar mis ingresos, ver mis responsabilidades y mantenerme al día con mis pagos. |
+| EP04    | Gestión de Gastos Compartidos    | Como usuario, quiero registrar, clasificar y gestionar gastos para mantener el control financiero del hogar. |
+| EP05    | Seguimiento y Recordatorios      | Como usuario, quiero recibir recordatorios y alertas automáticas para no olvidar mis responsabilidades financieras. |
+| EP06    | Soporte y Comunidad              | Como usuario, quiero acceder a soporte técnico y a recursos para mejorar mi uso de la plataforma y resolver dudas. |
+
+### EP01 - Registro y Gestión de Perfil
+
+| User Story ID | Título                          |
+|---------------|----------------------------------|
+| US01          | Registro de usuario              |
+| US02          | Inicio de sesión seguro          |
+| US03          | Edición de información personal  |
+| US04          | Cierre de sesión desde todos los dispositivos |
+| US05          | Configuración de notificaciones personales |
+
+### EP02 - Panel del Representante del Hogar
+
+| User Story ID | Título                          |
+|---------------|----------------------------------|
+| US06          | Crear hogar                      |
+| US07          | Aprobar gastos                   |
+| US08          | Ajustar porcentajes de aportes   |
+| US09          | Visualizar reportes mensuales    |
+| US10          | Configurar métodos de pago aceptados |
+
+### EP03 - Panel del Miembro del Hogar
+
+| User Story ID | Título                          |
+|---------------|----------------------------------|
+| US11          | Ingresar ingresos personales     |
+| US12          | Ver monto a pagar                |
+| US13          | Registrar pagos realizados       |
+| US14          | Ver historial de pagos           |
+| US15          | Ver distribución de gastos del hogar |
+
+### EP04 - Gestión de Gastos Compartidos
+
+| User Story ID | Título                          |
+|---------------|----------------------------------|
+| US16          | Registrar nuevo gasto            |
+| US17          | Adjuntar comprobantes de gasto   |
+| US18          | Clasificar gastos por categoría  |
+| US19          | Comentar o justificar un gasto   |
+| US20          | Visualizar gráficos de gastos    |
+
+### EP05 - Seguimiento y Recordatorios
+
+| User Story ID | Título                          |
+|---------------|----------------------------------|
+| US21          | Recordatorios de pago            |
+| US22          | Alertas de pagos pendientes      |
+| US23          | Recordatorio de actualización de ingresos |
+| US24          | Confirmación de aportes          |
+| US25          | Notificación de cambios en el hogar |
+
+### EP06 - Soporte y Comunidad
+
+| User Story ID | Título                          |
+|---------------|----------------------------------|
+| US26          | Acceso a ayuda en línea          |
+| US27          | Chat con soporte técnico         |
+| US28          | Reportar un problema             |
+| US29          | Sugerencias de mejora            |
+| US30          | Foro comunitario                 |
+
+
 
