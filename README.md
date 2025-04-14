@@ -40,6 +40,12 @@ Soy una persona que me gusta cumplir con mis obligaciones de manera efectiva, au
 **Carrera:** Ingeniería de Software  
 **Descripción:**  
 Me llamo Alexander Piero Fernandez Garfias, estudio  la carrera de Ing. de Software en la UPC. Mis conocimientos técnicos van en torno a Programación en lenguajes como C++, Dart, Java |
+| <img src="images/bruno_gonzales.PNG" alt="Bruno" width="200"/> | 
+**Nombre:** Bruno Leonardo Gonzales Arotinco 
+**Código de estudiante:** U201820037
+**Carrera:** Ingeniería de Software  
+**Descripción:**  
+Me llamo Bruno Leonardo Gonzales Arotinco, estudio actualmente la carrera de Ing. de Software en la UPC. En mis tiempos libres me gusta jugar videojuegos, jugar partidos con mis amigos del barrio. Me considero una persona responsable, honrada y respetuosa |
 
 ##  Solution Profile
 
@@ -352,6 +358,19 @@ SplitEasy busca ofrecer una solución digital que permita distribuir los gastos 
 
 ### Registro de entrevistas
 
+**Primer Segmento - Entrevista a Jesus Casana - Por Bruno Gonzales:**
+<p align="left">
+  <img src="images/Entrevista1_Bruno.png" alt="" width="500">
+</p>
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u201820037_upc_edu_pe/EWJDafd3jKJLgx_GVN7SawEBxb_W9KY5TQt5WBRD2DQHvw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=NthxHb
+
+**Primer Segmento - Entrevista a Erick Heredia - Por Bruno Gonzales:**
+<p align="left">
+  <img src="images/Entrevista2_Bruno.png" alt="" width="500">
+</p>
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u201820037_upc_edu_pe/EfGMD0WYMSZLpqKu7hcnU9ABMWYYGrtOXIznD7sj9x8c5g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ZgasbR
+
+
 **Segundo Segmento - Entrevista a José Carranza - Por Jhordi Carranza:**
 <p align="left">
   <img src="images/Entrevista.JoséCarr.png" alt="UserPersona1" width="500">
@@ -595,6 +614,7 @@ El journey de este segmento refleja a una persona encargada de la planificación
 | US29          | Sugerencias de mejora            |
 | US30          | Foro comunitario                 |
 
+
 | ID Épica | Épica                       | ID HU | Título HU                    | Descripción HU                                                                                              | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                             |
 |----------|-----------------------------|-------|-------------------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | EP01     | Registro y Gestión de Perfil | US01  | Registro de usuario           | Como usuario, quiero poder registrarme con mis datos personales y correo electrónico para usar la plataforma. | - **Escenario 1:** Acceso a la página de registro <br> Dado que el usuario está en la pantalla principal, <br> Cuando haga clic en el botón de "Registrarse", <br> Entonces será dirigido al formulario de registro. <br><br> - **Escenario 2:** Validación de campos obligatorios <br> Dado que el usuario está llenando el formulario, <br> Cuando intente enviarlo sin completar los campos requeridos, <br> Entonces el sistema mostrará mensajes de error específicos indicando los campos que faltan. <br><br> - **Escenario 3:** Registro exitoso <br> Dado que el usuario ha completado correctamente el formulario, <br> Cuando haga clic en "Registrarse", <br> Entonces el sistema deberá crear la cuenta y redirigirla al panel de inicio o bienvenida. <br><br> - **Escenario 4:** Registro con correo electrónico ya registrado <br> Dado que un usuario ya se ha registrado anteriormente, <br> Cuando intente usar el mismo correo electrónico para crear otra cuenta, <br> Entonces el sistema mostrará un mensaje indicando que el correo ya está en uso. |
@@ -629,6 +649,9 @@ El journey de este segmento refleja a una persona encargada de la planificación
 | EP06 | Soporte y Comunidad | US30 | Foro comunitario | Como usuario, quiero acceder a un foro comunitario para compartir dudas, ideas y experiencias con otros usuarios. | - **Escenario 1:** Acceso al foro <br> Dado que el usuario desea participar en el foro, <br> Cuando seleccione la opción de foro, <br> Entonces podrá acceder a la sección de discusión. <br><br> - **Escenario 2:** Crear nueva publicación <br> Dado que el usuario quiere iniciar una conversación, <br> Cuando haga clic en "Crear nueva publicación", <br> Entonces podrá redactar y publicar su mensaje. |
 
 
+
+
+
 ## Impact Mapping
 
 ### Segmento 1: Miembros del hogar
@@ -644,6 +667,7 @@ El journey de este segmento refleja a una persona encargada de la planificación
 </p>
 
 ## Product Backlog
+
 
 | Orden | User Story Id | Título                              | Descripción                                                                 | Story Points (1/2/3/4/8) |
 |-------|---------------|-------------------------------------|-----------------------------------------------------------------------------|--------------------------|
@@ -677,4 +701,5 @@ El journey de este segmento refleja a una persona encargada de la planificación
 | 28    | US28          | Reportar un problema                | Como usuario, quiero reportar errores o problemas en la plataforma, para que sean solucionados a tiempo. | 2                        |
 | 29    | US29          | Sugerencias de mejora               | Como usuario, quiero enviar sugerencias de mejora sobre la plataforma, para contribuir a su evolución. | 1                        |
 | 30    | US30          | Foro comunitario                    | Como usuario, quiero participar en un foro con otros usuarios, para compartir experiencias y resolver dudas en comunidad. | 3                        |
+
 
