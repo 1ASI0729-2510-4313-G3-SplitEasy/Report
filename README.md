@@ -40,6 +40,12 @@ Soy una persona que me gusta cumplir con mis obligaciones de manera efectiva, au
 **Carrera:** Ingeniería de Software  
 **Descripción:**  
 Me llamo Alexander Piero Fernandez Garfias, estudio  la carrera de Ing. de Software en la UPC. Mis conocimientos técnicos van en torno a Programación en lenguajes como C++, Dart, Java |
+| <img src="images/bruno_gonzales.PNG" alt="Bruno" width="200"/> | 
+**Nombre:** Bruno Leonardo Gonzales Arotinco 
+**Código de estudiante:** U201820037
+**Carrera:** Ingeniería de Software  
+**Descripción:**  
+Me llamo Bruno Leonardo Gonzales Arotinco, estudio actualmente la carrera de Ing. de Software en la UPC. En mis tiempos libres me gusta jugar videojuegos, jugar partidos con mis amigos del barrio. Me considero una persona responsable, honrada y respetuosa |
 
 ##  Solution Profile
 
@@ -352,6 +358,19 @@ SplitEasy busca ofrecer una solución digital que permita distribuir los gastos 
 
 ### Registro de entrevistas
 
+**Primer Segmento - Entrevista a Jesus Casana - Por Bruno Gonzales:**
+<p align="left">
+  <img src="images/Entrevista1_Bruno.png" alt="" width="500">
+</p>
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u201820037_upc_edu_pe/EWJDafd3jKJLgx_GVN7SawEBxb_W9KY5TQt5WBRD2DQHvw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=NthxHb
+
+**Primer Segmento - Entrevista a Erick Heredia - Por Bruno Gonzales:**
+<p align="left">
+  <img src="images/Entrevista2_Bruno.png" alt="" width="500">
+</p>
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u201820037_upc_edu_pe/EfGMD0WYMSZLpqKu7hcnU9ABMWYYGrtOXIznD7sj9x8c5g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ZgasbR
+
+
 **Segundo Segmento - Entrevista a José Carranza - Por Jhordi Carranza:**
 <p align="left">
   <img src="images/Entrevista.JoséCarr.png" alt="UserPersona1" width="500">
@@ -596,6 +615,7 @@ El journey de este segmento refleja a una persona encargada de la planificación
 | US29          | Sugerencias de mejora            |
 | US30          | Foro comunitario                 |
 
+
 ### EP07 - Exploración como Visitante
 
 | User Story ID | Título                          |
@@ -660,6 +680,7 @@ El journey de este segmento refleja a una persona encargada de la planificación
 
 ## Product Backlog
 
+
 | Orden | User Story Id | Título                              | Descripción                                                                 | Story Points (1/2/3/4/8) |
 |-------|---------------|-------------------------------------|-----------------------------------------------------------------------------|--------------------------|
 | 1     | US01          | Registro de usuario                | Como usuario, quiero poder registrarme con mis datos personales y correo electrónico, para usar la plataforma. | 3                        |
@@ -692,4 +713,5 @@ El journey de este segmento refleja a una persona encargada de la planificación
 | 28    | US28          | Reportar un problema                | Como usuario, quiero reportar errores o problemas en la plataforma, para que sean solucionados a tiempo. | 2                        |
 | 29    | US29          | Sugerencias de mejora               | Como usuario, quiero enviar sugerencias de mejora sobre la plataforma, para contribuir a su evolución. | 1                        |
 | 30    | US30          | Foro comunitario                    | Como usuario, quiero participar en un foro con otros usuarios, para compartir experiencias y resolver dudas en comunidad. | 3                        |
+
 
