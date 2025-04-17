@@ -720,3 +720,4 @@ El journey de este segmento refleja a una persona encargada de la planificación
 | 35     | US35           | Acceder fácilmente al registro o login desde botones    | Como visitante, quiero ver botones destacados para iniciar sesión o registrarme rápidamente.     | 1             |
 
 
+
