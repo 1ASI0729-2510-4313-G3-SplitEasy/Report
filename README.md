@@ -680,44 +680,43 @@ El journey de este segmento refleja a una persona encargada de la planificación
 
 ## Product Backlog
 
-
-| Orden | User Story ID | Título HU                                               | Descripción HU                                                                                   | Story Points (1/2/3/5/8)|
-|--------|----------------|----------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------------|
-| 1      | US01           | Registro de usuario                                     | Como usuario, quiero registrarme de forma segura y rápida para empezar a usar la plataforma.     | 3             |
-| 2      | US02           | Inicio de sesión seguro                                 | Como usuario, quiero iniciar sesión con seguridad para acceder a mi cuenta desde cualquier lugar.| 2             |
-| 3      | US03           | Edición de información personal                         | Como usuario, quiero poder editar mi información para mantenerla actualizada.                    | 2             |
-| 4      | US04           | Cierre de sesión desde todos los dispositivos           | Como usuario, quiero cerrar sesión desde todos mis dispositivos por seguridad.                   | 2             |
-| 5      | US05           | Configuración de notificaciones personales              | Como usuario, quiero personalizar las notificaciones que recibo.                                 | 3             |
-| 6      | US06           | Crear hogar                                             | Como representante, quiero crear un hogar para gestionar las finanzas familiares.                | 3             |
-| 7      | US07           | Aprobar gastos                                          | Como representante, quiero aprobar gastos para mantener el control de las finanzas.              | 2             |
-| 8      | US08           | Ajustar porcentajes de aportes                          | Como representante, quiero ajustar los aportes de cada miembro según sus ingresos.               | 5             |
-| 9      | US09           | Visualizar reportes mensuales                           | Como representante, quiero ver reportes mensuales para analizar los gastos y aportes.            | 5             |
-| 10     | US10           | Configurar métodos de pago aceptados                    | Como representante, quiero definir los métodos de pago permitidos.                               | 2             |
-| 11     | US11           | Ingresar ingresos personales                            | Como miembro, quiero ingresar mis ingresos para calcular mi aporte.                              | 3             |
-| 12     | US12           | Ver monto a pagar                                       | Como miembro, quiero ver cuánto me corresponde pagar según mis ingresos.                         | 2             |
-| 13     | US13           | Registrar pagos realizados                              | Como miembro, quiero registrar mis pagos para mantenerme al día.                                 | 2             |
-| 14     | US14           | Ver historial de pagos                                  | Como miembro, quiero consultar mis pagos pasados para tener un control.                          | 2             |
-| 15     | US15           | Ver distribución de gastos del hogar                    | Como miembro, quiero ver cómo se distribuyen los gastos en el hogar.                             | 2             |
-| 16     | US16           | Registrar nuevo gasto                                   | Como usuario, quiero registrar un nuevo gasto del hogar para llevar un mejor control.            | 3             |
-| 17     | US17           | Adjuntar comprobantes de gasto                          | Como usuario, quiero adjuntar imágenes de comprobantes para validar los gastos.                  | 2             |
-| 18     | US18           | Clasificar gastos por categoría                         | Como usuario, quiero clasificar los gastos para analizarlos mejor.                               | 3             |
-| 19     | US19           | Comentar o justificar un gasto                          | Como usuario, quiero justificar los gastos ingresados.                                            | 2             |
-| 20     | US20           | Visualizar gráficos de gastos                           | Como usuario, quiero ver gráficos para entender mejor los gastos del hogar.                      | 3             |
-| 21     | US21           | Recordatorios de pago                                   | Como usuario, quiero recibir recordatorios para no olvidar mis pagos.                            | 3             |
-| 22     | US22           | Alertas de pagos pendientes                             | Como usuario, quiero recibir alertas cuando tenga pagos pendientes.                              | 2             |
-| 23     | US23           | Recordatorio de actualización de ingresos               | Como usuario, quiero que me recuerden actualizar mis ingresos periódicamente.                    | 2             |
-| 24     | US24           | Confirmación de aportes                                 | Como usuario, quiero recibir confirmaciones cuando mis aportes sean procesados.                  | 1             |
-| 25     | US25           | Notificación de cambios en el hogar                     | Como usuario, quiero ser notificado cuando haya cambios importantes en el hogar.                 | 1             |
-| 26     | US26           | Acceso a ayuda en línea                                 | Como usuario, quiero tener acceso a documentación y ayuda sobre el uso de la plataforma.         | 2             |
-| 27     | US27           | Chat con soporte técnico                                | Como usuario, quiero tener un chat para comunicarme con soporte técnico.                         | 3             |
-| 28     | US28           | Reportar un problema                                    | Como usuario, quiero reportar errores para que sean solucionados rápidamente.                    | 2             |
-| 29     | US29           | Sugerencias de mejora                                   | Como usuario, quiero enviar sugerencias para ayudar a mejorar la plataforma.                     | 1             |
-| 30     | US30           | Foro comunitario                                        | Como usuario, quiero participar en un foro donde intercambiar ideas con otros usuarios.          | 3             |
-| 31     | US31           | Visualizar información general desde la landing page    | Como visitante, quiero ver información clara sobre SplitEasy desde la landing.                   | 2             |
-| 32     | US32           | Conocer las funciones principales de los usuarios       | Como visitante, quiero conocer las funciones para decidir si me interesa registrarme.            | 2             |
-| 33     | US33           | Explorar beneficios del sistema de aportes proporcionales| Como visitante, quiero entender cómo funciona el sistema proporcional de aportes.                | 3             |
-| 34     | US34           | Ver ejemplos o simulaciones de cómo funciona la plataforma | Como visitante, quiero ver simulaciones para imaginar cómo sería usar la plataforma.             | 3             |
-| 35     | US35           | Acceder fácilmente al registro o login desde botones    | Como visitante, quiero ver botones destacados para iniciar sesión o registrarme rápidamente.     | 1             |
+| Orden | User Story ID | Título HU                                               | Descripción HU                                                                                   | Prioridad | Story Points |
+|--------|----------------|----------------------------------------------------------|--------------------------------------------------------------------------------------------------|-----------|---------------|
+| 1      | US01           | Registro de usuario                                     | Como usuario, quiero registrarme de forma segura y rápida para empezar a usar la plataforma.     | Media      | 3             |
+| 2      | US02           | Inicio de sesión seguro                                 | Como usuario, quiero iniciar sesión con seguridad para acceder a mi cuenta desde cualquier lugar.| Baja      | 2             |
+| 3      | US03           | Edición de información personal                         | Como usuario, quiero poder editar mi información para mantenerla actualizada.                    | Baja     | 2             |
+| 4      | US04           | Cierre de sesión desde todos los dispositivos           | Como usuario, quiero cerrar sesión desde todos mis dispositivos por seguridad.                   | Baja     | 2             |
+| 5      | US05           | Configuración de notificaciones personales              | Como usuario, quiero personalizar las notificaciones que recibo.                                 | Media     | 3             |
+| 6      | US06           | Crear hogar                                             | Como representante, quiero crear un hogar para gestionar las finanzas familiares.                | Media      | 3             |
+| 7      | US07           | Aprobar gastos                                          | Como representante, quiero aprobar gastos para mantener el control de las finanzas.              | Baja      | 2             |
+| 8      | US08           | Ajustar porcentajes de aportes                          | Como representante, quiero ajustar los aportes de cada miembro según sus ingresos.               | Alta      | 5             |
+| 9      | US09           | Visualizar reportes mensuales                           | Como representante, quiero ver reportes mensuales para analizar los gastos y aportes.            | Alta     | 5             |
+| 10     | US10           | Configurar métodos de pago aceptados                    | Como representante, quiero definir los métodos de pago permitidos.                               | Baja     | 2             |
+| 11     | US11           | Ingresar ingresos personales                            | Como miembro, quiero ingresar mis ingresos para calcular mi aporte.                              | Media      | 3             |
+| 12     | US12           | Ver monto a pagar                                       | Como miembro, quiero ver cuánto me corresponde pagar según mis ingresos.                         | Baja      | 2             |
+| 13     | US13           | Registrar pagos realizados                              | Como miembro, quiero registrar mis pagos para mantenerme al día.                                 | Baja      | 2             |
+| 14     | US14           | Ver historial de pagos                                  | Como miembro, quiero consultar mis pagos pasados para tener un control.                          | Baja     | 2             |
+| 15     | US15           | Ver distribución de gastos del hogar                    | Como miembro, quiero ver cómo se distribuyen los gastos en el hogar.                             | Baja     | 2             |
+| 16     | US16           | Registrar nuevo gasto                                   | Como usuario, quiero registrar un nuevo gasto del hogar para llevar un mejor control.            | Media      | 3             |
+| 17     | US17           | Adjuntar comprobantes de gasto                          | Como usuario, quiero adjuntar imágenes de comprobantes para validar los gastos.                  | Baja     | 2             |
+| 18     | US18           | Clasificar gastos por categoría                         | Como usuario, quiero clasificar los gastos para analizarlos mejor.                               | Media      | 3             |
+| 19     | US19           | Comentar o justificar un gasto                          | Como usuario, quiero justificar los gastos ingresados.                                            | Baja      | 2             |
+| 20     | US20           | Visualizar gráficos de gastos                           | Como usuario, quiero ver gráficos para entender mejor los gastos del hogar.                      | Media      | 3             |
+| 21     | US21           | Recordatorios de pago                                   | Como usuario, quiero recibir recordatorios para no olvidar mis pagos.                            | Media      | 3             |
+| 22     | US22           | Alertas de pagos pendientes                             | Como usuario, quiero recibir alertas cuando tenga pagos pendientes.                              | Baja      | 2             |
+| 23     | US23           | Recordatorio de actualización de ingresos               | Como usuario, quiero que me recuerden actualizar mis ingresos periódicamente.                    | Baja     | 2             |
+| 24     | US24           | Confirmación de aportes                                 | Como usuario, quiero recibir confirmaciones cuando mis aportes sean procesados.                  | Muy Baja      | 1             |
+| 25     | US25           | Notificación de cambios en el hogar                     | Como usuario, quiero ser notificado cuando haya cambios importantes en el hogar.                 | Muy Baja      | 1             |
+| 26     | US26           | Acceso a ayuda en línea                                 | Como usuario, quiero tener acceso a documentación y ayuda sobre el uso de la plataforma.         | Baja     | 2             |
+| 27     | US27           | Chat con soporte técnico                                | Como usuario, quiero tener un chat para comunicarme con soporte técnico.                         | Media      | 3             |
+| 28     | US28           | Reportar un problema                                    | Como usuario, quiero reportar errores para que sean solucionados rápidamente.                    | Baja     | 2             |
+| 29     | US29           | Sugerencias de mejora                                   | Como usuario, quiero enviar sugerencias para ayudar a mejorar la plataforma.                     | Muy Baja      | 1             |
+| 30     | US30           | Foro comunitario                                        | Como usuario, quiero participar en un foro donde intercambiar ideas con otros usuarios.          | Media     | 3             |
+| 31     | US31           | Visualizar información general desde la landing page    | Como visitante, quiero ver información clara sobre SplitEasy desde la landing.                   | Baja      | 2             |
+| 32     | US32           | Conocer las funciones principales de los usuarios       | Como visitante, quiero conocer las funciones para decidir si me interesa registrarme.            | Baja      | 2             |
+| 33     | US33           | Explorar beneficios del sistema de aportes proporcionales| Como visitante, quiero entender cómo funciona el sistema proporcional de aportes.                | Media      | 3             |
+| 34     | US34           | Ver ejemplos o simulaciones de cómo funciona la plataforma | Como visitante, quiero ver simulaciones para imaginar cómo sería usar la plataforma.             | Media      | 3             |
+| 35     | US35           | Acceder fácilmente al registro o login desde botones    | Como visitante, quiero ver botones destacados para iniciar sesión o registrarme rápidamente.     | Muy Baja     | 1             |
 
 
 
