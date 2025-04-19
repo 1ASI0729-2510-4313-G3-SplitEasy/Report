@@ -718,5 +718,315 @@ El journey de este segmento refleja a una persona encargada de la planificación
 | 34     | US34           | Ver ejemplos o simulaciones de cómo funciona la plataforma | Como visitante, quiero ver simulaciones para imaginar cómo sería usar la plataforma.             | Media      | 3             |
 | 35     | US35           | Acceder fácilmente al registro o login desde botones    | Como visitante, quiero ver botones destacados para iniciar sesión o registrarme rápidamente.     | Muy Baja     | 1             |
 
+# Capítulo IV: Product Design
+
+## Style Guidelines
+
+**SplitEasy** es una plataforma digital creada para simplificar y equilibrar la gestión financiera dentro del hogar. Mediante un sistema de cálculo proporcional según ingresos, permite distribuir gastos de forma justa, promoviendo la transparencia, la colaboración y el control financiero compartido. Con una interfaz moderna y directa, SplitEasy responde a las necesidades de hogares contemporáneos que buscan soluciones simples, efectivas y accesibles.
+
+Esta sección presenta una guía estructurada que consolida todos los elementos visuales y de diseño utilizados en la interfaz de SplitEasy. Se incluyen recursos gráficos como tipografías, paleta cromática —con predominancia de negros, blancos y azul celeste—, íconos y componentes de interfaz. El objetivo es mantener una identidad visual coherente, sobria y tecnológica que refleje el enfoque funcional y equitativo de la marca.
+
+Las guías de estilo están divididas en tres bloques —**General Style Guidelines**, **Web Style Guidelines** y **Mobile Style Guidelines**—, lo cual garantiza una experiencia uniforme, accesible y atractiva tanto en dispositivos móviles como en la web. Esta consistencia estética mejora la navegación, refuerza la confianza del usuario y comunica visualmente los valores de la plataforma: claridad, equilibrio y control.
+
+### General Style Guidelines
+
+SplitEasy busca transmitir una identidad visual moderna y clara, enfocada en la transparencia, la colaboración y la equidad financiera. La marca utiliza colores oscuros como base para dar una sensación de profesionalismo y seriedad, mientras que el azul celeste funciona como color de acento para resaltar acciones importantes y darle un toque fresco y tecnológico.
+
+El logotipo es simple pero distintivo, pensado para ser fácilmente reconocible en cualquier dispositivo. La tipografía es limpia y legible, lo que facilita la navegación y mantiene una experiencia visual coherente.
+
+Todo el diseño está orientado a que los usuarios se sientan en control de sus finanzas compartidas sin complicaciones. Con este estilo, SplitEasy busca representar su propósito: ayudar a los hogares a organizar sus gastos de forma justa, práctica y accesible.
+
+#### Tipografía
+
+SplitEasy utiliza la tipografía **Roboto**, elegida por su estilo limpio, moderno y excelente legibilidad en interfaces digitales oscuras. Se aplican sus variantes **Regular**, **Medium**, **Bold** y **Black** para diferenciar jerarquías de contenido de forma clara y visualmente equilibrada.
+
+Los tamaños de fuente empleados son:
+
+- `h1` → 3em (48px)  
+- `h2` → 2em (32px)  
+- `h3` → 1em (16px)  
+- **Texto general** → 1em (16px)
+
+Esta estructura asegura una experiencia coherente y cómoda de lectura en todos los dispositivos.
+
+#### Colores
+
+La identidad visual de SplitEasy se construye sobre una paleta cromática moderna y profesional que se proyecta sobre un fondo negro, utilizado como color de fondo principal `#000000`. Esta base oscura permite que los demás colores resalten con claridad y armonía, reforzando la estética tecnológica de la plataforma.
+
+- **Color primario**: `#1565C0` (azul oscuro), utilizado en elementos clave para transmitir solidez y confianza.  
+- **Color secundario**: `#42A5F5` (celeste), aplicado en botones, íconos o enlaces activos, aportando dinamismo y frescura.  
+- **Color de apoyo**: `#E3F2FD` (azul muy claro), usado para crear contrastes suaves o resaltar secciones sin romper la armonía.  
+- **Texto general**: `#FFFFFF` (blanco), seleccionado para garantizar máxima legibilidad sobre el fondo oscuro.
+
+Esta combinación asegura una experiencia visual clara, accesible y coherente con los valores del proyecto: orden, transparencia y modernidad.
+
+#### Espaciado
+
+- **Botones**: Padding de `1rem` vertical y `2rem` horizontal.  
+- **Margin entre texto**: `margin-bottom: 1rem` para elementos como `h1`, `h2`, `p`, etc.  
+- **Margin entre elementos**: `margin-bottom: 1.5rem` (ej. `.precio-card`).  
+- **Margin entre secciones**: Padding de `2rem` en el contenedor general (ajustable a `6rem` si es necesario).
+
+#### Iconografía
+
+La iconografía utilizada en SplitEasy mejora la experiencia del usuario, facilita la navegación y representa visualmente las funcionalidades clave. Se emplea la biblioteca **Bootstrap Icons**, que asegura una estética moderna, coherente y responsiva.
+
+**Íconos principales y su propósito**:
+
+- `bi-house-door-fill` (Inicio): Página principal / hogar.  
+- `bi-info-circle-fill` (Acerca de): Información del proyecto.  
+- `bi-gear-fill` (Servicios): Funcionalidades del sistema.  
+- `bi-question-circle-fill` (¿Cómo funciona?): Guía del flujo de uso.  
+- `bi-currency-dollar` (Precios): Planes de suscripción.  
+- `bi-chat-left-quote-fill` (Reseñas): Opiniones de usuarios.  
+- `bi-envelope-fill` (Contáctanos): Correo de contacto.
+
+**Iconos en servicios**:
+
+- `bi-calculator`: Cálculo Proporcional.  
+- `bi-pie-chart-fill`: Seguimiento de Gastos.  
+- `bi-people-fill`: Transparencia y Colaboración.
+
+**Iconos en ¿Cómo funciona?**:
+
+- `bi-person-plus-fill`: Registro de usuarios.  
+- `bi-house-fill`: Crear hogar.  
+- `bi-cash-coin`: Asignar aportes.  
+- `bi-bar-chart-fill`: Control financiero.
+
+**Íconos en el Footer**:
+
+- `bi-facebook`, `bi-instagram`, `bi-twitter`, `bi-linkedin`: Enlaces a redes sociales.  
+- `bi-envelope-fill`: Correo electrónico (`mailto:contacto@spliteasy.com`).
+
+El uso constante de una misma familia de íconos asegura coherencia visual y contribuye a una experiencia de usuario fluida e intuitiva.
+
+#### Tono de Comunicación y Lenguaje Aplicado
+
+El tono de comunicación en la landing page es **claro, cercano y accesible**, diseñado para todos los usuarios.
+
+**Aspectos clave**:
+
+- **Tono amigable y cercano**: Lenguaje directo, inclusivo y motivador.  
+- **Claridad en las opciones**:
+  - **Representante**: Puede crear y administrar el hogar.  
+  - **Miembro**: Puede ingresar al hogar con un ID.  
+- **Simplificación del proceso**: Instrucciones breves y claras.  
+- **Empatía con las necesidades**: Refleja comprensión de desafíos financieros.  
+- **Invitación a la acción**: Frases proactivas como “Crea tu hogar” o “Ingresa a tu hogar”.  
+- **Accesibilidad**: Lenguaje fácil de entender sin barreras.
+
+Este enfoque garantiza una experiencia funcional, adaptada a las necesidades de todos los usuarios, haciendo que tanto representantes como miembros se sientan cómodos y seguros.
+
+### Web Style Guidelines
+
+Se utilizó la tendencia web de **funcionalismo minimalista** con un esquema de colores oscuros predominante (negro y gris oscuro) como fondo. Esto proporciona una experiencia visual suave, favoreciendo el contraste con elementos interactivos y textos claros.
+
+Para enriquecer la estética y agregar dinamismo:
+
+- Se emplearon íconos blancos con moderación.  
+- El diseño se mantiene minimalista pero atractivo.  
+- Los íconos, claramente visibles sobre el fondo oscuro, refuerzan una experiencia visual limpia y ordenada.
+
+Este equilibrio entre funcionalidad y diseño moderno garantiza una interfaz eficaz y atractiva.
+
+# Information Architecture
+
+## Organization Systems
+
+En la plataforma **SplitEasy**, se emplean diferentes sistemas de organización del contenido para mejorar la accesibilidad y experiencia de los usuarios, dependiendo del tipo de información que se presenta. Estos sistemas aseguran que los usuarios puedan navegar de manera intuitiva y eficiente por la aplicación. A continuación, se detallan los enfoques utilizados:
+
+### Organización Visual del Contenido
+
+**Jerárquica (Visual Hierarchy):**  
+La organización jerárquica se aplica en secciones donde es fundamental mostrar una estructura clara de importancia y relevancia, como en los formularios de creación de hogar o de asignación de aportes. Se emplean tamaños de texto diferenciados y un orden lógico de presentación, destacando los elementos más importantes (como los botones de acción o los campos requeridos) para guiar al usuario de forma natural a través de la plataforma.
+
+**Secuencial (Step-by-Step to Accomplish):**  
+En tareas que requieren la realización de pasos secuenciales, como el proceso de registro de usuario o creación de hogar, se utiliza un enfoque paso a paso. Los usuarios avanzan de una pantalla a otra de manera clara y ordenada, asegurando que comprendan el flujo de trabajo y puedan completar cada acción antes de pasar a la siguiente, minimizando la confusión.
+
+### Esquemas de Categorización de Contenido
+
+**Por Audiencia (Grupos de Usuarios):**  
+Dado que la plataforma tiene dos tipos de usuarios (representantes del hogar y miembros del hogar), el contenido se organiza de manera distinta para cada grupo. Los representantes tienen acceso a herramientas para gestionar los aportes y la creación de hogar, mientras que los miembros solo pueden consultar sus aportes y realizar seguimiento a los gastos. La categorización se adapta a las necesidades específicas de cada tipo de usuario, con una navegación clara que les lleva a las secciones correspondientes.
+
+**Por Tópicos:**  
+Además, la categorización por tópicos se utiliza en las secciones de ayuda y soporte. Los usuarios pueden acceder a diferentes categorías de contenido, como "Preguntas Frecuentes", "Política de Privacidad" y "Centro de Ayuda", lo que facilita la búsqueda de información relevante para resolver problemas específicos.
+
+### Implementación en la Interfaz
+
+La organización jerárquica y secuencial se ve reflejada en el diseño de la interfaz, utilizando una estructura de navegación clara que incluye menús desplegables, botones con texto explicativo y pasos visibles para guiar al usuario en cada proceso.
+
+Los esquemas de categorización por audiencia y por tópicos están integrados en las pantallas de inicio y las secciones de soporte, donde los usuarios pueden acceder rápidamente a la información que más les interesa, con un diseño que hace uso de íconos y texto, manteniendo el estilo visual minimalista y accesible.
+
+Este enfoque asegura que la experiencia de navegación en SplitEasy sea intuitiva, eficiente y adaptada a las necesidades específicas de cada tipo de usuario, mejorando la funcionalidad y la experiencia general de la plataforma.
+
+## Labeling Systems
+
+La landing page de SplitEasy emplea un sistema de etiquetado directo, simple y orientado a la acción, con el fin de facilitar la comprensión rápida de los contenidos y la navegación fluida para distintos tipos de usuarios. Se prioriza la claridad en la presentación textual de las secciones, utilizando el menor número de palabras posible y apoyándose en íconos visuales para reforzar los mensajes clave.
+
+### Menú de navegación
+
+En el menú de navegación superior de la landing page, se emplean etiquetas simples, directas y acompañadas de íconos de Bootstrap Icons:
+
+- "Inicio" (`bi-house-door-fill`)
+- "Acerca de" (`bi-info-circle-fill`)
+- "Servicios" (`bi-tools`)
+- "¿Cómo funciona?" (`bi-lightbulb-fill`)
+- "Precio" (`bi-currency-dollar`)
+- "Reseñas" (`bi-chat-dots-fill`)
+- "Contáctanos" (`bi-envelope-fill`)
+
+### Botón principal
+
+- **"Regístrate"**: principal llamada a la acción (CTA), funciona tanto para miembros como representantes.
+
+### Sección "¿Cómo funciona?" para Representantes
+
+- **"Regístrate"** (`bi-person-plus-fill`)
+- **"Crea tu hogar"** (`bi-house-fill`)
+- **"Asigna aportes"** (`bi-cash-coin`)
+- **"Controla tus finanzas"** (`bi-bar-chart-fill`)
+
+### Sección "¿Cómo funciona?" para Miembros
+
+- **"Regístrate"** (`bi-person-plus-fill`)
+- **"Ingresa el ID del hogar"** (`bi-key-fill`)
+- **"Declara tu ingreso"** (`bi-wallet-fill`)
+- **"Consulta tus aportes"** (`bi-graph-up-arrow`)
+
+### Footer
+
+- **Aviso legal**
+- **Política de privacidad**
+- **Política de cookies**
+
+En la sección de soporte:
+
+- **Centro de ayuda**
+- **Preguntas frecuentes**
+
+También se incorporan íconos de redes sociales: Facebook, Instagram, Twitter, LinkedIn.
+
+## SEO Tags and Meta Tags
+
+### Landing Page
+
+html
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>SplitEasy - Control financiero justo para tu hogar</title>
+    <meta name="description" content="SplitEasy te ayuda a dividir los gastos del hogar de forma proporcional según los ingresos de cada miembro. Fácil, justo y transparente.">
+    <meta name="keywords" content="SplitEasy, finanzas compartidas, gastos del hogar, app de finanzas, control de gastos, división de pagos">
+    <meta name="author" content="Equipo SplitEasy">
+
+    <!-- CSS & Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="/images/logo.PNG" alt="Logo">
+</head>
+
+### Web Application
+
+<!-- SEO tags para la Web Application de SplitEasy -->
+<title>SplitEasy App - Gestiona tus aportes y gastos familiares</title>
+<meta name="description" content="Ingresa o crea un hogar, asigna aportes según ingresos y mantén el control de los gastos de tu familia de forma sencilla y equitativa.">
+<meta name="keywords" content="SplitEasy app, control de finanzas, ingresos familiares, aportes proporcionales, gastos en el hogar, economía familiar">
+<meta name="author" content="Equipo SplitEasy">
+
+## 4.2.4. Searching Systems
+
+En el caso de SplitEasy, se implementará un sistema de búsqueda y filtros que permita a los miembros y representantes del hogar encontrar información relevante rápidamente y facilitar su navegación dentro de la aplicación. El sistema de búsqueda y filtros estará estructurado de manera que cada tipo de usuario (miembro o representante) tenga acceso a las herramientas más útiles para su rol específico.
+
+### Filtros de búsqueda por entradas
+
+**Miembros del hogar:**
+- **Buscar por ID de hogar:** Los miembros podrán buscar e ingresar el ID de hogar proporcionado por el representante para unirse a un hogar ya creado.
+- **Filtrar por fecha de contribución:** Ver un historial de aportes por fechas (mensual, semanal).
+- **Estado de los aportes:** Filtrar contribuciones por estado: `"Aportado"`, `"Pendiente"`, `"Excedente"`.
+- **Filtrar por tipo de gasto:** Clasificación de gastos por categorías como `"Alimentos"`, `"Servicios"`, etc.
+
+**Representantes del hogar:**
+- **Filtrar por estado de los aportes:** Ver contribuciones por fecha o estado.
+- **Filtrar por miembros:** Buscar por nombre o ID de miembro para revisar su historial.
+- **Estado del balance financiero:** Filtrar el balance general del hogar por fecha o tipo de gasto.
+
+### Filtros de búsqueda por tabs
+
+Para mejorar la experiencia de usuario, se incluirán tabs interactivos que faciliten el acceso a información específica de forma ordenada.
+
+**Miembros:**
+- **Tab de historial de aportes:** Resumen de aportes con filtros por fecha, monto y estado.
+- **Tab de estado de gastos:** Visualización de cómo se distribuyen los gastos del hogar.
+- **Tab de búsqueda por ID de hogar:** Asociar ID de hogar para ingresar al perfil vinculado.
+
+**Representantes:**
+- **Tab de gestión de aportes:** Vista de aportes de todos los miembros con filtros por estado y fecha.
+- **Tab de balance general:** Balance general filtrado por categorías y periodo.
+
+### Flujo de búsqueda y filtros
+
+El flujo será simple y eficiente. En cada sección relevante (aportaciones, balances, gastos), se mostrará un campo de búsqueda o filtros configurables. Los filtros serán fáciles de aplicar y remover, asegurando una experiencia de navegación fluida.
+
+## 4.2.5. Navigation Systems
+
+En SplitEasy, la navegación debe ser fluida, intuitiva y accesible tanto en la **Landing Page** como en la **Web Application**.
+
+### 1. Navegación en la Landing Page
+
+La página principal guía a nuevos usuarios hacia el registro o la información clave de forma clara y atractiva.
+
+**Elementos de navegación:**
+- **Menú de navegación superior** (con iconos):  
+  - *Inicio*  
+  - *Acerca de*  
+  - *Servicios*  
+  - *¿Cómo funciona?*  
+  - *Precio*  
+  - *Reseñas*  
+  - *Contáctanos*
+- **Llamadas a la acción (CTAs):**  
+  Ejemplos: *"Regístrate ahora"*, *"Comienza a ahorrar"*.
+- **Desplazamiento fluido:**  
+  Scroll natural por secciones de la página sin salir de ella.
+
+### 2. Navegación en la Web Application
+
+La navegación se adapta al tipo de usuario y sus necesidades específicas.
+
+#### Para Representantes del Hogar:
+
+**Menú lateral fijo con opciones:**
+- Dashboard
+- Miembros del hogar
+- Gastos
+- Aportes
+- Configuración de hogar
+
+**Breadcrumbs:**  
+Navegación jerárquica para volver a secciones anteriores o más generales.
+
+#### Para Miembros del Hogar:
+
+**Menú superior simplificado con opciones:**
+- Dashboard
+- Aportes
+- Estado del hogar
+- Buscar ID de hogar
+
+**Accesos rápidos (botones flotantes):**
+- Agregar aporte
+- Ver detalles del gasto
+
+### Interacción con el sistema
+
+- **Accesibilidad:** Navegación clara y visible con etiquetas comprensibles.
+- **Navegación de búsqueda:** Filtros rápidos para búsqueda por ID de hogar o estado de aportes.
+- **Ayuda y tutoriales:** Sección de asistencia con guía paso a paso para cada sección.
 
 
