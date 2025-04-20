@@ -827,7 +827,7 @@ Este enfoque garantiza una experiencia funcional, adaptada a las necesidades de 
 Se utilizó la tendencia web de **funcionalismo minimalista** con un esquema de colores oscuros predominante (negro y gris oscuro) como fondo. Esto proporciona una experiencia visual suave, favoreciendo el contraste con elementos interactivos y textos claros.
 
 <p align="left">
-  <img src="images/paleta.PNG" alt="paleta" width="500">
+  <img src="images/imagen1.PNG" alt="imagen1" width="500">
 </p>
 
 Para enriquecer la estética y agregar dinamismo:
@@ -839,7 +839,7 @@ Para enriquecer la estética y agregar dinamismo:
 Este equilibrio entre funcionalidad y diseño moderno garantiza una interfaz eficaz y atractiva.
 
 <p align="left">
-  <img src="images/paleta.PNG" alt="paleta" width="500">
+  <img src="images/imagen2.PNG" alt="imagen2" width="500">
 </p>
 
 # Information Architecture
@@ -888,12 +888,16 @@ En el menú de navegación superior de la landing page, se emplean etiquetas sim
 - "Reviews" (`bi-chat-dots-fill`)
 - "Contact us" (`bi-envelope-fill`)
 
+<p align="left">
+  <img src="images/imagen3.PNG" alt="imagen3" width="500">
+</p>
+
 ### Botón principal
 
 - **"Register"**: principal llamada a la acción (CTA), funciona tanto para miembros como representantes.
 
 <p align="left">
-  <img src="images/paleta.PNG" alt="paleta" width="500">
+  <img src="images/imagen4.PNG" alt="imagen4" width="500">
 </p>
 
 ### Sección "How does it work?" para Representantes
@@ -904,7 +908,7 @@ En el menú de navegación superior de la landing page, se emplean etiquetas sim
 - **"Control your finances"** (`bi-bar-chart-fill`)
 
 <p align="left">
-  <img src="images/paleta.PNG" alt="paleta" width="500">
+  <img src="images/imagenrepre.PNG" alt="imagenrepre" width="500">
 </p>
 
 ### Sección "How does it work?" para Miembros
@@ -915,7 +919,7 @@ En el menú de navegación superior de la landing page, se emplean etiquetas sim
 - **"Monitor your contributions"** (`bi-graph-up-arrow`)
 
 <p align="left">
-  <img src="images/paleta.PNG" alt="paleta" width="500">
+  <img src="images/imagenmiem.PNG" alt="imagenmiem" width="500">
 </p>
 
 ### Footer
@@ -932,7 +936,7 @@ En la sección de soporte:
 También se incorporan íconos de redes sociales: Facebook, Instagram, Twitter, LinkedIn.
 
 <p align="left">
-  <img src="images/paleta.PNG" alt="paleta" width="500">
+  <img src="images/footer.PNG" alt="footer" width="500">
 </p>
 
 ## SEO Tags and Meta Tags
