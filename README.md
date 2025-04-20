@@ -358,6 +358,24 @@ SplitEasy busca ofrecer una solución digital que permita distribuir los gastos 
 
 ### Registro de entrevistas
 
+**Entrevista a usuaria del primer segmento**
+**Entrevistada:** Marjorie Luna Victoria  
+**Edad:** 18 años  
+**Ocupación:** Estudiante  
+**Medio:** Meet  
+**Entrevistador:** Jorge Díaz  
+
+🎬 **Inicio del video:** 0:04  
+⏱️ **Duración:** 3 minutos y 51 segundos
+
+<p align="center">
+  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d534_upc_edu_pe/Eb5FlqZR0V5Lp7-xxXjuCJoB5YvtofbTZmi38i7a2z4fdA?e=x4XGYU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">
+    <img src="images/Interview.png" alt="Miniatura de la entrevista a usuaria del primer segmento" width="700"/>
+    <br>
+    Ver entrevista completa
+  </a>
+</p>
+
 **Primer Segmento - Entrevista a Jesus Casana - Por Bruno Gonzales:**
 <p align="left">
   <img src="images/Entrevista1_Bruno.png" alt="" width="500">
@@ -553,6 +571,7 @@ El journey de este segmento refleja a una persona encargada de la planificación
 | EP04    | Gestión de Gastos Compartidos    | Como usuario, quiero registrar, clasificar y gestionar gastos para mantener el control financiero del hogar. |
 | EP05    | Seguimiento y Recordatorios      | Como usuario, quiero recibir recordatorios y alertas automáticas para no olvidar mis responsabilidades financieras. |
 | EP06    | Soporte y Comunidad              | Como usuario, quiero acceder a soporte técnico y a recursos para mejorar mi uso de la plataforma y resolver dudas. |
+| EP07    | Exploración como Visitante       | Como visitante, quiero conocer la funcionalidad, beneficios y casos de uso de SplitEasy desde la landing page para evaluar si la plataforma es útil para mi hogar antes de registrarme. |
 
 ### EP01 - Registro y Gestión de Perfil
 
@@ -615,42 +634,53 @@ El journey de este segmento refleja a una persona encargada de la planificación
 | US30          | Foro comunitario                 |
 
 
-| ID Épica | Épica                       | ID HU | Título HU                    | Descripción HU                                                                                              | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                             |
-|----------|-----------------------------|-------|-------------------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| EP01     | Registro y Gestión de Perfil | US01  | Registro de usuario           | Como usuario, quiero poder registrarme con mis datos personales y correo electrónico para usar la plataforma. | - **Escenario 1:** Acceso a la página de registro <br> Dado que el usuario está en la pantalla principal, <br> Cuando haga clic en el botón de "Registrarse", <br> Entonces será dirigido al formulario de registro. <br><br> - **Escenario 2:** Validación de campos obligatorios <br> Dado que el usuario está llenando el formulario, <br> Cuando intente enviarlo sin completar los campos requeridos, <br> Entonces el sistema mostrará mensajes de error específicos indicando los campos que faltan. <br><br> - **Escenario 3:** Registro exitoso <br> Dado que el usuario ha completado correctamente el formulario, <br> Cuando haga clic en "Registrarse", <br> Entonces el sistema deberá crear la cuenta y redirigirla al panel de inicio o bienvenida. <br><br> - **Escenario 4:** Registro con correo electrónico ya registrado <br> Dado que un usuario ya se ha registrado anteriormente, <br> Cuando intente usar el mismo correo electrónico para crear otra cuenta, <br> Entonces el sistema mostrará un mensaje indicando que el correo ya está en uso. |
-| EP01     | Registro y Gestión de Perfil | US02  | Inicio de sesión              | Como usuario registrado, quiero poder iniciar sesión con mis credenciales para acceder a la plataforma.       | - **Escenario 1:** Ingreso a la página de login <br> Dado que el usuario está en la pantalla principal, <br> Cuando seleccione "Iniciar sesión", <br> Entonces se mostrará el formulario de acceso. <br><br> - **Escenario 2:** Validación de datos <br> Dado que el usuario introduce sus datos, <br> Cuando omita un campo o escriba una contraseña incorrecta, <br> Entonces el sistema mostrará un mensaje de error. <br><br> - **Escenario 3:** Inicio de sesión exitoso <br> Dado que los datos son correctos, <br> Cuando haga clic en "Ingresar", <br> Entonces accederá al panel de usuario. <br><br> - **Escenario 4:** Seguridad ante intentos fallidos <br> Dado que el usuario falló varias veces, <br> Cuando supere el número permitido de intentos, <br> Entonces el sistema bloqueará temporalmente el acceso. |
-| EP01     | Registro y Gestión de Perfil | US03  | Recuperación de contraseña    | Como usuario, quiero poder recuperar mi contraseña si la olvido, para poder acceder nuevamente a la plataforma. | - **Escenario 1:** Acceso al enlace de recuperación <br> Dado que el usuario está en la pantalla de login, <br> Cuando seleccione "¿Olvidaste tu contraseña?", <br> Entonces se mostrará el formulario de recuperación. <br><br> - **Escenario 2:** Validación de correo <br> Dado que el usuario introduce su correo, <br> Cuando el correo no esté registrado, <br> Entonces el sistema mostrará un mensaje de error indicando que el correo no está vinculado a una cuenta. <br><br> - **Escenario 3:** Envío de enlace al correo <br> Dado que el correo es válido, <br> Cuando haga clic en "Enviar enlace", <br> Entonces el sistema enviará un correo con el enlace para restablecer la contraseña. <br><br> - **Escenario 4:** Restablecimiento exitoso <br> Dado que el usuario hace clic en el enlace, <br> Cuando introduzca una nueva contraseña válida, <br> Entonces el sistema actualizará la contraseña y redirigirá al panel de login. |
-| EP01     | Registro y Gestión de Perfil | US04  | Edición de perfil             | Como usuario, quiero poder editar mis datos personales para mantener mi información actualizada.              | - **Escenario 1:** Acceso a configuración de perfil <br> Dado que el usuario está en su panel de inicio, <br> Cuando seleccione "Editar perfil", <br> Entonces se mostrará el formulario de edición de datos personales. <br><br> - **Escenario 2:** Modificación de datos <br> Dado que el usuario está en el formulario de edición, <br> Cuando modifique algún campo (nombre, correo, etc.), <br> Entonces el sistema mostrará los cambios realizados. <br><br> - **Escenario 3:** Guardado exitoso <br> Dado que el usuario ha editado los campos, <br> Cuando haga clic en "Guardar cambios", <br> Entonces el sistema guardará los cambios y mostrará un mensaje de confirmación. |
-| EP01     | Registro y Gestión de Perfil | US05  | Cierre de sesión              | Como usuario, quiero poder cerrar sesión de manera segura para proteger mi información.                      | - **Escenario 1:** Botón de "Cerrar sesión" <br> Dado que el usuario está en su panel de inicio, <br> Cuando seleccione "Cerrar sesión", <br> Entonces será redirigido a la página de inicio. <br><br> - **Escenario 2:** Redirección a la página de inicio <br> Dado que el usuario seleccionó "Cerrar sesión", <br> Cuando el sistema procese la acción, <br> Entonces el usuario será redirigido a la página de inicio. |
-| EP01     | Registro y Gestión de Perfil | US06  | Eliminación de cuenta         | Como usuario, quiero tener la opción de eliminar mi cuenta si ya no deseo usar el sistema.                   | - **Escenario 1:** Confirmación de eliminación <br> Dado que el usuario selecciona "Eliminar cuenta", <br> Cuando el sistema muestre la confirmación de eliminación, <br> Entonces el usuario podrá confirmar la eliminación de su cuenta. <br><br> - **Escenario 2:** Eliminación exitosa de datos <br> Dado que el usuario confirma la eliminación, <br> Cuando el sistema procese la eliminación, <br> Entonces los datos del usuario serán eliminados del sistema. <br><br> - **Escenario 3:** Redirección al inicio tras eliminar cuenta <br> Dado que el usuario ha eliminado su cuenta, <br> Cuando el sistema complete la eliminación, <br> Entonces el usuario será redirigido a la página de inicio. |
-| EP02     | Panel del Representante del Hogar | US07  | Registro de ingresos          | Como representante del hogar, quiero registrar los ingresos de cada miembro para calcular contribuciones.    | - **Escenario 1:** Formulario para registrar ingresos <br> Dado que el representante está en su panel, <br> Cuando seleccione "Registrar ingresos", <br> Entonces se mostrará el formulario de registro de ingresos. <br><br> - **Escenario 2:** Validación de datos numéricos <br> Dado que el representante está introduciendo los ingresos, <br> Cuando el monto no sea numérico o falte, <br> Entonces el sistema mostrará un mensaje de error. <br><br> - **Escenario 3:** Guardado exitoso de ingresos <br> Dado que el representante ha introducido los datos correctamente, <br> Cuando haga clic en "Guardar", <br> Entonces el sistema guardará los ingresos y los mostrará en el panel. |
-| EP02     | Panel del Representante del Hogar | US08  | Registro de gastos generales  | Como representante del hogar, quiero registrar los gastos mensuales para distribuirlos equitativamente.      | - **Escenario 1:** Registro de nombre, monto y fecha del gasto <br> Dado que el representante está en su panel, <br> Cuando seleccione "Registrar gasto", <br> Entonces se mostrará el formulario de gastos con campos para nombre, monto y fecha. <br><br> - **Escenario 2:** Validación de campos obligatorios <br> Dado que el representante intenta guardar un gasto, <br> Cuando omita algún campo obligatorio, <br> Entonces el sistema mostrará un mensaje de error. <br><br> - **Escenario 3:** Guardado y visualización de gastos <br> Dado que el representante guardó los gastos correctamente, <br> Cuando termine el registro, <br> Entonces los gastos se mostrarán en su panel con sus respectivos detalles. |
-| EP02     | Panel del Representante del Hogar | US09  | Asignación proporcional       | Como representante del hogar, quiero que el sistema calcule la parte proporcional de gasto por miembro.      | - **Escenario 1:** Cálculo automático según ingresos <br> Dado que los ingresos de los miembros han sido registrados, <br> Cuando el representante registre los gastos, <br> Entonces el sistema calculará automáticamente la contribución proporcional de cada miembro. <br><br> - **Escenario 2:** Visualización de montos asignados a cada miembro <br> Dado que los cálculos fueron realizados, <br> Cuando el representante acceda al resumen de gastos, <br> Entonces podrá ver los montos asignados a cada miembro del hogar. |
-| EP02     | Panel del Representante del Hogar | US10  | Visualización de resumen      | Como representante del hogar, quiero ver un resumen mensual de los ingresos, gastos y aportes.               | - **Escenario 1:** Resumen total por categoría <br> Dado que el representante está en su panel, <br> Cuando seleccione "Ver resumen mensual", <br> Entonces se mostrará el resumen con los totales de ingresos, gastos y aportes. <br><br> - **Escenario 2:** Filtro por mes <br> Dado que el representante está visualizando el resumen, <br> Cuando seleccione un mes específico, <br> Entonces el sistema filtrará la información correspondiente a ese mes. |
-| EP02     | Panel del Representante del Hogar | US11  | Envío de notificaciones       | Como representante, quiero notificar a los miembros sus montos a pagar.                                       | - **Escenario 1:** Envío de resumen individual <br> Dado que el representante tiene el resumen de cada miembro, <br> Cuando haga clic en "Enviar notificación", <br> Entonces el sistema enviará un mensaje con el resumen de gastos de cada miembro. <br><br> - **Escenario 2:** Confirmación de envío <br> Dado que el representante ha enviado la notificación, <br> Cuando el sistema haya procesado el envío, <br> Entonces el sistema mostrará un mensaje de confirmación. |
-| EP03     | Gestión Personal de Finanzas     | US12  | Registro de gastos personales | Como miembro del hogar, quiero registrar mis propios gastos para llevar un control personal.                 | - **Escenario 1:** Formulario de registro personal <br> Dado que el miembro está en su panel, <br> Cuando seleccione "Registrar gasto personal", <br> Entonces se mostrará el formulario de gastos personales. <br><br> - **Escenario 2:** Visualización de lista de gastos personales <br> Dado que el miembro ha registrado sus gastos, <br> Cuando acceda a "Mis gastos", <br> Entonces podrá ver la lista de todos los gastos registrados. |
-| EP03     | Gestión Personal de Finanzas     | US13  | Historial de contribuciones   | Como miembro del hogar, quiero ver un historial de mis contribuciones anteriores para revisar mi aporte.     | - **Escenario 1:** Lista cronológica de aportes <br> Dado que el miembro está en su panel, <br> Cuando seleccione "Ver historial de contribuciones", <br> Entonces el sistema mostrará un listado con las contribuciones anteriores. <br><br> - **Escenario 2:** Filtro por mes <br> Dado que el miembro está viendo su historial, <br> Cuando seleccione un mes específico, <br> Entonces el sistema mostrará solo las contribuciones correspondientes a ese mes. |
-| EP03     | Gestión Personal de Finanzas     | US14  | Notificación de pago          | Como miembro del hogar, quiero recibir notificaciones cuando tenga que realizar un pago.                     | - **Escenario 1:** Al recibir nueva asignación de gasto <br> Dado que el miembro tiene una nueva asignación de gasto, <br> Cuando se registre un nuevo gasto, <br> Entonces el sistema enviará una notificación para informar sobre el nuevo pago. <br><br> - **Escenario 2:** Al acercarse fecha límite <br> Dado que el miembro tiene un pago próximo, <br> Cuando la fecha límite esté cerca, <br> Entonces el sistema enviará una notificación recordatorio. |
-| EP03     | Panel del Miembro del Hogar      | US15  | Ver distribución de gastos    | Como miembro del hogar, quiero ver la distribución de gastos según los ingresos, para saber cuánto me corresponde pagar. | - **Escenario 1:** Acceso a la distribución de gastos <br> Dado que el miembro está en su panel, <br> Cuando haga clic en “Distribución de gastos”, <br> Entonces podrá ver un desglose por persona. <br><br> - **Escenario 2:** Visualización proporcional <br> Dado que los ingresos están registrados, <br> Cuando los gastos sean asignados, <br> Entonces el sistema mostrará qué porcentaje paga cada miembro según sus ingresos. |
-| EP04     | Gestión de gastos compartidos | US16  | Registrar nuevo gasto | Como usuario, quiero poder registrar un nuevo gasto con su monto, fecha y descripción, para que el sistema lo tenga en cuenta en el balance del hogar. | - **Escenario 1:** Acceso al formulario de nuevo gasto <br> Dado que el usuario desea registrar un gasto, <br> Cuando acceda a la sección de nuevo gasto, <br> Entonces podrá visualizar el formulario correspondiente. <br><br> - **Escenario 2:** Validación de campos obligatorios <br> Dado que el formulario está incompleto, <br> Cuando el usuario intente registrar el gasto, <br> Entonces el sistema mostrará mensajes de validación. <br><br> - **Escenario 3:** Registro exitoso del gasto <br> Dado que todos los campos están completos, <br> Cuando el usuario registre el gasto, <br> Entonces el sistema lo almacenará correctamente. <br><br> - **Escenario 4:** Gasto con fecha futura <br> Dado que el gasto tiene una fecha futura, <br> Cuando se registre, <br> Entonces el sistema deberá aceptarlo y reflejarlo correctamente. |
-| EP04     | Gestión de gastos compartidos | US17  | Adjuntar comprobantes de gasto | Como usuario, quiero poder subir fotos o archivos de comprobantes al registrar un gasto, para justificar y respaldar los pagos. | - **Escenario 1:** Opción para adjuntar comprobante <br> Dado que el usuario registra un gasto, <br> Cuando complete el formulario, <br> Entonces podrá adjuntar un archivo como comprobante. <br><br> - **Escenario 2:** Validación de formato de archivo <br> Dado que se sube un archivo, <br> Cuando no tenga un formato permitido, <br> Entonces el sistema mostrará un mensaje de error. <br><br> - **Escenario 3:** Comprobante visible al revisar gasto <br> Dado que se adjuntó un archivo, <br> Cuando el usuario revise los detalles del gasto, <br> Entonces podrá visualizar el comprobante. <br><br> - **Escenario 4:** Carga exitosa del comprobante <br> Dado que el archivo es válido, <br> Cuando se adjunte correctamente, <br> Entonces el sistema confirmará la carga. |
-| EP04     | Gestión de gastos compartidos | US18  | Clasificar gastos por categoría | Como usuario, quiero clasificar los gastos por categoría (ej. alimentos, servicios, mantenimiento) para tener un control más ordenado de las finanzas. | - **Escenario 1:** Visualizar lista de categorías disponibles <br> Dado que el usuario registra un gasto, <br> Cuando llegue al campo de categoría, <br> Entonces verá una lista predefinida. <br><br> - **Escenario 2:** Crear una categoría personalizada <br> Dado que la categoría no está en la lista, <br> Cuando el usuario quiera agregarla, <br> Entonces podrá crear una nueva. <br><br> - **Escenario 3:** Filtro de gastos por categoría <br> Dado que existen múltiples gastos, <br> Cuando el usuario quiera filtrarlos, <br> Entonces podrá usar la categoría como criterio. <br><br> - **Escenario 4:** Edición de categoría de gasto existente <br> Dado que el usuario quiere modificar la categoría, <br> Cuando edite el gasto, <br> Entonces podrá cambiarla. |
-| EP04     | Gestión de gastos compartidos | US19  | Comentar o justificar un gasto | Como usuario, quiero poder agregar comentarios o una justificación al registrar un gasto, para brindar contexto al resto del hogar. | - **Escenario 1:** Campo de comentario disponible en el formulario <br> Dado que se está registrando un gasto, <br> Cuando se complete el formulario, <br> Entonces habrá un campo para comentarios. <br><br> - **Escenario 2:** Comentarios visibles en el historial de gastos <br> Dado que se registró un comentario, <br> Cuando otro usuario revise el historial, <br> Entonces podrá leerlo. <br><br> - **Escenario 3:** Comentarios editables <br> Dado que el usuario desea modificar su comentario, <br> Cuando edite el gasto, <br> Entonces podrá actualizarlo. <br><br> - **Escenario 4:** Comentario obligatorio para gastos mayores <br> Dado que el monto excede un umbral, <br> Cuando se intente registrar sin comentario, <br> Entonces el sistema solicitará uno obligatorio. |
-| EP04     | Gestión de gastos compartidos | US20  | Visualizar gráficos de gastos | Como usuario, quiero ver gráficos que representen visualmente los gastos del hogar, para comprender mejor en qué se está gastando. | - **Escenario 1:** Acceso a la sección de análisis visual <br> Dado que el usuario desea visualizar gastos, <br> Cuando ingrese al módulo de análisis, <br> Entonces verá representaciones gráficas. <br><br> - **Escenario 2:** Gráficos por categoría y por mes <br> Dado que existen múltiples datos, <br> Cuando se cargue el gráfico, <br> Entonces mostrará información categorizada y mensual. <br><br> - **Escenario 3:** Interacción con los gráficos <br> Dado que el gráfico está en pantalla, <br> Cuando el usuario interactúe (clic, hover), <br> Entonces podrá obtener más detalles. <br><br> - **Escenario 4:** Filtrado personalizado <br> Dado que el usuario desea enfocarse en ciertos datos, <br> Cuando use los filtros, <br> Entonces el gráfico se actualizará. |
-| EP05 | Seguimiento y Recordatorios | US21 | Recordatorios de pago | Como usuario, quiero recibir recordatorios automáticos antes de la fecha de pago, para no atrasarme en mis obligaciones. | - **Escenario 1:** Programación de recordatorios <br> Dado que el usuario tiene pagos programados, <br> Cuando se acerque la fecha límite, <br> Entonces el sistema enviará recordatorios. <br><br> - **Escenario 2:** Canales de notificación <br> Dado que el usuario debe ser notificado, <br> Cuando se envíe un recordatorio, <br> Entonces podrá recibirse por correo, app o SMS. |
-| EP05 | Seguimiento y Recordatorios | US22 | Alertas de pagos pendientes | Como usuario, quiero ser alertado cuando tengo un pago vencido o pendiente, para tomar acción de inmediato. | - **Escenario 1:** Alerta inmediata tras vencimiento <br> Dado que un pago ha vencido, <br> Cuando el sistema lo detecte, <br> Entonces enviará una alerta inmediata. <br><br> - **Escenario 2:** Visualización de alerta en el panel <br> Dado que hay pagos pendientes, <br> Cuando el usuario acceda a su panel, <br> Entonces verá una alerta visible. |
-| EP05 | Seguimiento y Recordatorios | US23 | Recordatorio de actualización de ingresos | Como usuario, quiero recibir recordatorios para actualizar mis ingresos cada cierto tiempo, para que el sistema distribuya los gastos de forma justa. | - **Escenario 1:** Frecuencia mensual del recordatorio <br> Dado que ha pasado un mes desde la última actualización, <br> Cuando llegue la fecha programada, <br> Entonces el sistema enviará un recordatorio. <br><br> - **Escenario 2:** Recordatorio vía notificación <br> Dado que el usuario necesita ser alertado, <br> Cuando se genere el recordatorio, <br> Entonces lo recibirá mediante una notificación. |
-| EP05 | Seguimiento y Recordatorios | US24 | Confirmación de aportes | Como usuario, quiero recibir una confirmación cuando mi pago ha sido registrado correctamente, para estar tranquilo y tener respaldo. | - **Escenario 1:** Confirmación visual en la app <br> Dado que el pago se registró correctamente, <br> Cuando el usuario revise la app, <br> Entonces verá una confirmación. <br><br> - **Escenario 2:** Envío de comprobante por correo <br> Dado que el usuario realizó un pago, <br> Cuando el sistema lo registre, <br> Entonces enviará un comprobante al correo del usuario. |
-| EP05 | Seguimiento y Recordatorios | US25 | Notificación de cambios en el hogar | Como usuario, quiero ser notificado si hay cambios importantes en el hogar (como nuevos integrantes o cambios en el método de cálculo), para estar informado y actuar en consecuencia. | - **Escenario 1:** Alta o baja de miembros del hogar <br> Dado que un miembro ha sido agregado o removido, <br> Cuando se confirme el cambio, <br> Entonces el sistema notificará a los usuarios. <br><br> - **Escenario 2:** Cambio en las reglas de cálculo <br> Dado que se actualizó el método de cálculo, <br> Cuando entre en vigencia, <br> Entonces los usuarios serán informados. |
-| EP06 | Soporte y Comunidad | US26 | Acceso a ayuda en línea | Como usuario, quiero poder acceder a una sección de ayuda con guías y preguntas frecuentes para resolver dudas rápidamente. | - **Escenario 1:** Acceso a la sección de ayuda <br> Dado que el usuario necesita asistencia, <br> Cuando acceda al menú de ayuda, <br> Entonces podrá ver la sección de guías y preguntas frecuentes. <br><br> - **Escenario 2:** Búsqueda de artículos de ayuda <br> Dado que el usuario tiene una duda, <br> Cuando realice una búsqueda, <br> Entonces aparecerán artículos relevantes. <br><br> - **Escenario 3:** Artículo de ayuda no encontrado <br> Dado que el artículo no existe, <br> Cuando el usuario intente buscarlo, <br> Entonces se le mostrará un mensaje indicando que no se encontró. |
-| EP06 | Soporte y Comunidad | US27 | Chat con soporte técnico | Como usuario, quiero tener acceso a un chat con soporte técnico para resolver problemas específicos en tiempo real. | - **Escenario 1:** Inicio del chat <br> Dado que el usuario necesita asistencia técnica, <br> Cuando haga clic en el botón de chat, <br> Entonces se abrirá una ventana de chat en vivo. <br><br> - **Escenario 2:** Horario fuera de soporte <br> Dado que el soporte está fuera de horario, <br> Cuando intente acceder al chat, <br> Entonces verá un mensaje indicando que el soporte está cerrado. <br><br> - **Escenario 3:** Envío de transcripción <br> Dado que el chat ha finalizado, <br> Cuando el usuario solicite una transcripción, <br> Entonces se enviará un resumen por correo electrónico. |
-| EP06 | Soporte y Comunidad | US28 | Reportar un problema | Como usuario, quiero poder reportar un problema técnico para que el equipo de soporte lo revise y resuelva. | - **Escenario 1:** Acceso al formulario de reporte <br> Dado que el usuario quiere reportar un problema, <br> Cuando seleccione "Reportar un problema", <br> Entonces se abrirá el formulario correspondiente. <br><br> - **Escenario 2:** Confirmación de envío <br> Dado que el formulario fue enviado, <br> Cuando el usuario lo envíe, <br> Entonces recibirá una confirmación de que el reporte fue recibido correctamente. |
-| EP06 | Soporte y Comunidad | US29 | Sugerencias de mejora | Como usuario, quiero poder enviar sugerencias para mejorar la plataforma según mi experiencia. | - **Escenario 1:** Ingreso de sugerencia <br> Dado que el usuario tiene una sugerencia, <br> Cuando acceda al formulario de sugerencias, <br> Entonces podrá ingresar su propuesta. <br><br> - **Escenario 2:** Seguimiento de sugerencia enviada <br> Dado que el usuario envió una sugerencia, <br> Cuando lo desee, <br> Entonces podrá ver el estado de su sugerencia. <br><br> - **Escenario 3:** Sugerencia con campos incompletos <br> Dado que el formulario está incompleto, <br> Cuando intente enviarlo, <br> Entonces se le solicitará completar los campos obligatorios. |
-| EP06 | Soporte y Comunidad | US30 | Foro comunitario | Como usuario, quiero acceder a un foro comunitario para compartir dudas, ideas y experiencias con otros usuarios. | - **Escenario 1:** Acceso al foro <br> Dado que el usuario desea participar en el foro, <br> Cuando seleccione la opción de foro, <br> Entonces podrá acceder a la sección de discusión. <br><br> - **Escenario 2:** Crear nueva publicación <br> Dado que el usuario quiere iniciar una conversación, <br> Cuando haga clic en "Crear nueva publicación", <br> Entonces podrá redactar y publicar su mensaje. |
+### EP07 - Exploración como Visitante
 
+| User Story ID | Título                          |
+|---------------|----------------------------------|
+| US31          | Visualizar información general sobre SplitEasy desde la landing page              |
+| US32          | Conocer las funciones principales para representantes y miembros del hogar         |
+| US33          | Explorar beneficios del sistema de aportes proporcionales  |
+| US34          | Ver ejemplos o simulaciones de cómo funciona la plataforma |
+| US35          | 	Acceder fácilmente al registro o login desde botones destacados |
 
-
-
+| ID Épica | Épica                             | ID HU | Título HU                         | Descripción HU                                                                 | Criterios de Aceptación                                                                                                                                                                   |
+|----------|-----------------------------------|-------|------------------------------------|--------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| EP01     | Registro y Gestión de Perfil      | US01  | Registro de usuario                | Como visitante, quiero registrarme en la plataforma para comenzar a usar SplitEasy.                              | - Escenario 1: Acceso a la página de registro<br>Dado que el usuario está en la pantalla principal,<br>Cuando haga clic en el botón de "Registrarse",<br>Entonces será dirigido al formulario de registro.<br><br>- Escenario 2: Registro exitoso<br>Dado que el usuario completó el formulario correctamente,<br>Cuando haga clic en "Enviar",<br>Entonces recibirá una confirmación y será redirigido al panel inicial. |
+| EP01     | Registro y Gestión de Perfil      | US02  | Inicio de sesión seguro            | Como usuario registrado, quiero iniciar sesión de forma segura para acceder a mis datos personales.              | - Escenario 1: Ingreso de credenciales correctas<br>Dado que el usuario introduce sus datos,<br>Cuando sean correctos,<br>Entonces accederá al sistema.<br><br>- Escenario 2: Datos incorrectos<br>Dado que el usuario introduce datos erróneos,<br>Cuando intente iniciar sesión,<br>Entonces recibirá un mensaje de error.                                      |
+| EP01     | Registro y Gestión de Perfil      | US03  | Edición de información personal    | Como usuario, quiero editar mi información personal para mantenerla actualizada.                                 | - Escenario 1: Acceso al perfil<br>Dado que el usuario ya está logueado,<br>Cuando entre a la sección "Perfil",<br>Entonces podrá ver su información editable.<br><br>- Escenario 2: Guardar cambios<br>Dado que el usuario edite su nombre,<br>Cuando haga clic en "Guardar",<br>Entonces la información se actualizará.                                      |
+| EP01     | Registro y Gestión de Perfil      | US04  | Cierre de sesión desde todos los dispositivos | Como usuario, quiero cerrar sesión desde todos mis dispositivos para mayor seguridad.                     | - Escenario 1: Cerrar sesión global<br>Dado que el usuario se encuentra en su cuenta,<br>Cuando presione el botón "Cerrar sesión en todos los dispositivos",<br>Entonces todas las sesiones activas se cerrarán. |
+| EP01     | Registro y Gestión de Perfil      | US05  | Configuración de notificaciones personales | Como usuario, quiero configurar mis notificaciones para recibir alertas relevantes.                        | - Escenario 1: Acceder a notificaciones<br>Dado que el usuario accede a su perfil,<br>Cuando haga clic en "Notificaciones",<br>Entonces verá las opciones para activar o desactivar alertas.<br><br>- Escenario 2: Guardar configuración<br>Dado que el usuario seleccione sus preferencias,<br>Cuando haga clic en "Guardar",<br>Entonces la configuración será aplicada. |
+| EP02     | Panel del Representante del Hogar | US06  | Crear hogar                        | Como representante del hogar, quiero crear un hogar en la app para empezar a gestionar sus finanzas.             | - Escenario 1: Ingreso a creación de hogar<br>Dado que el usuario haya iniciado sesión,<br>Cuando haga clic en “Crear hogar”,<br>Entonces podrá ingresar un nombre e ID para el hogar.<br><br>- Escenario 2: Confirmación de creación<br>Dado que el usuario complete los campos requeridos,<br>Cuando presione "Confirmar",<br>Entonces se creará el hogar y se mostrará en su panel. |
+| EP02     | Panel del Representante del Hogar | US07  | Aprobar gastos                     | Como representante, quiero aprobar gastos para tener control sobre lo que se gasta en el hogar.                  | - Escenario 1: Visualizar gastos pendientes<br>Dado que haya gastos sin aprobar,<br>Cuando el representante acceda al panel,<br>Entonces verá una lista de gastos para revisar.<br><br>- Escenario 2: Aprobación<br>Dado que el representante seleccione un gasto,<br>Cuando presione "Aprobar",<br>Entonces el gasto pasará a estado "Aprobado".               |
+| EP02     | Panel del Representante del Hogar | US08  | Ajustar porcentajes de aportes     | Como representante, quiero modificar los porcentajes de contribución de cada miembro según sus ingresos.         | - Escenario 1: Acceder a ajustes de aportes<br>Dado que el representante esté en el panel,<br>Cuando seleccione la opción "Ajustar porcentajes",<br>Entonces verá una lista editable de miembros.<br><br>- Escenario 2: Guardar ajustes<br>Dado que se realicen cambios,<br>Cuando presione "Guardar",<br>Entonces se actualizarán los porcentajes automáticamente. |
+| EP02     | Panel del Representante del Hogar | US09  | Visualizar reportes mensuales      | Como representante, quiero ver reportes de ingresos y gastos mensuales para tomar decisiones informadas.        | - Escenario 1: Acceso al panel de reportes<br>Dado que el representante esté en su dashboard,<br>Cuando seleccione “Reportes mensuales”,<br>Entonces se mostrarán gráficos y resúmenes.<br><br>- Escenario 2: Descargar reporte<br>Dado que el representante lo desee,<br>Cuando haga clic en “Descargar PDF”,<br>Entonces se descargará el informe correspondiente. |
+| EP02     | Panel del Representante del Hogar | US10  | Configurar métodos de pago aceptados | Como representante, quiero configurar qué métodos de pago están habilitados en el hogar.                         | - Escenario 1: Ver métodos disponibles<br>Dado que el usuario acceda a configuración,<br>Cuando seleccione "Métodos de pago",<br>Entonces verá una lista de métodos disponibles.<br><br>- Escenario 2: Activar métodos<br>Dado que seleccione métodos específicos,<br>Cuando presione “Guardar”,<br>Entonces esos métodos quedarán habilitados para el hogar. |
+| EP03     | Panel del Miembro del Hogar   | US11  | Ingresar ingresos personales | Como miembro del hogar, quiero registrar mis ingresos para que el sistema calcule mi aporte.         | - Escenario 1: Acceso al formulario de ingresos<br>Dado que el miembro haya iniciado sesión,<br>Cuando seleccione "Ingresos",<br>Entonces se mostrará el formulario de ingreso de datos.<br><br>- Escenario 2: Confirmación de ingreso<br>Dado que complete los datos,<br>Cuando presione "Guardar",<br>Entonces su ingreso quedará registrado en el sistema.                     |
+| EP03     | Panel del Miembro del Hogar   | US12  | Ver monto a pagar          | Como miembro, quiero visualizar cuánto debo aportar al hogar basado en mis ingresos.                | - Escenario 1: Acceso al panel de pagos<br>Dado que el usuario haya ingresado sus ingresos,<br>Cuando acceda a "Mis aportes",<br>Entonces verá el monto que le corresponde pagar este mes.                                                  |
+| EP03     | Panel del Miembro del Hogar   | US13  | Registrar pagos realizados | Como miembro, quiero registrar que realicé un pago para que el sistema lleve un seguimiento.        | - Escenario 1: Ingreso de pago<br>Dado que el miembro haya realizado un pago,<br>Cuando acceda a "Registrar pago",<br>Entonces podrá indicar el monto, la fecha y el método usado.<br><br>- Escenario 2: Confirmación<br>Dado que ingrese los datos,<br>Cuando presione “Guardar”,<br>Entonces el pago quedará registrado correctamente.         |
+| EP03     | Panel del Miembro del Hogar   | US14  | Ver historial de pagos     | Como miembro, quiero revisar mi historial de pagos para mantenerme al día con mis contribuciones.   | - Escenario 1: Visualización<br>Dado que el usuario acceda a su panel,<br>Cuando seleccione "Historial de pagos",<br>Entonces se mostrará una lista con todos los pagos realizados ordenados por fecha.                                      |
+| EP03     | Panel del Miembro del Hogar   | US15  | Ver distribución de gastos del hogar | Como miembro, quiero ver cómo se distribuyen los gastos para entender en qué se usa el dinero.       | - Escenario 1: Acceso al desglose de gastos<br>Dado que el usuario esté en el panel,<br>Cuando haga clic en “Distribución de gastos”,<br>Entonces se mostrarán gráficos y listas categorizadas.<br><br>- Escenario 2: Detalles por categoría<br>Dado que seleccione una categoría,<br>Cuando haga clic en ella,<br>Entonces se desplegarán los gastos específicos asociados. |
+| EP04     | Gestión de Gastos Compartidos | US16  | Registrar nuevo gasto        | Como usuario, quiero registrar un nuevo gasto para mantener actualizados los movimientos financieros.   | - Escenario 1: Acceso al formulario<br>Dado que el usuario haya iniciado sesión,<br>Cuando acceda a "Registrar gasto",<br>Entonces verá un formulario con campos de monto, categoría y descripción.<br><br>- Escenario 2: Guardado del gasto<br>Dado que complete el formulario,<br>Cuando presione “Guardar”,<br>Entonces el nuevo gasto se almacenará en el sistema. |
+| EP04     | Gestión de Gastos Compartidos | US17  | Adjuntar comprobantes de gasto | Como usuario, quiero subir comprobantes para respaldar los gastos registrados.                          | - Escenario 1: Carga de comprobante<br>Dado que el usuario registre un gasto,<br>Cuando presione “Adjuntar archivo”,<br>Entonces podrá subir una imagen o PDF como comprobante.<br><br>- Escenario 2: Visualización<br>Dado que se haya adjuntado un comprobante,<br>Cuando acceda al gasto,<br>Entonces podrá ver o descargar el archivo.                         |
+| EP04     | Gestión de Gastos Compartidos | US18  | Clasificar gastos por categoría | Como usuario, quiero categorizar los gastos para facilitar su análisis y visualización.                 | - Escenario 1: Selección de categoría<br>Dado que el usuario registre un gasto,<br>Cuando acceda a la lista de categorías,<br>Entonces podrá seleccionar entre alimentación, servicios, mantenimiento, etc.<br><br>- Escenario 2: Filtro<br>Dado que seleccione una categoría,<br>Cuando aplique el filtro,<br>Entonces se mostrarán solo los gastos correspondientes.       |
+| EP04     | Gestión de Gastos Compartidos | US19  | Comentar o justificar un gasto | Como usuario, quiero añadir comentarios para explicar el motivo de un gasto compartido.                | - Escenario 1: Comentario en gasto<br>Dado que el usuario haya registrado un gasto,<br>Cuando seleccione “Añadir comentario”,<br>Entonces podrá escribir y guardar una nota explicativa visible a los miembros del hogar.                                  |
+| EP04     | Gestión de Gastos Compartidos | US20  | Visualizar gráficos de gastos | Como usuario, quiero ver gráficos de gastos para entender en qué se gasta más.                          | - Escenario 1: Acceso a visualizaciones<br>Dado que el usuario esté en el panel de gastos,<br>Cuando acceda a “Ver gráficos”,<br>Entonces podrá ver gráficos circulares o de barras agrupados por categoría, fecha o usuario.                                    |
+| EP05     | Seguimiento y Recordatorios | US21  | Recordatorios de pago               | Como usuario, quiero recibir recordatorios automáticos de pago para no retrasarme en mis aportes.| - Escenario 1: Activación del recordatorio<br>Dado que el usuario tenga una fecha límite de pago,<br>Cuando se acerque esa fecha,<br>Entonces recibirá una notificación automática por correo o en la app.<br><br>- Escenario 2: Configuración<br>Dado que acceda a ajustes,<br>Cuando edite preferencias,<br>Entonces podrá activar o desactivar los recordatorios. |
+| EP05     | Seguimiento y Recordatorios | US22  | Alertas de pagos pendientes         | Como usuario, quiero ser alertado si tengo pagos atrasados para regularizar mi situación.         | - Escenario 1: Detección automática<br>Dado que el usuario no haya pagado después de la fecha límite,<br>Cuando acceda al sistema,<br>Entonces verá una alerta destacada en su panel.<br><br>- Escenario 2: Alerta múltiple<br>Dado que haya varios pagos pendientes,<br>Cuando abra la alerta,<br>Entonces podrá ver el detalle de cada uno. |
+| EP05     | Seguimiento y Recordatorios | US23  | Recordatorio de actualización de ingresos | Como usuario, quiero ser recordado de actualizar mis ingresos para mantener la equidad del sistema.| - Escenario 1: Periodicidad<br>Dado que haya pasado un mes sin actualización,<br>Cuando el usuario inicie sesión,<br>Entonces verá un mensaje solicitando revisar su ingreso.<br><br>- Escenario 2: Confirmación<br>Dado que actualice el ingreso,<br>Cuando guarde los cambios,<br>Entonces se reiniciará el periodo de espera. |
+| EP05     | Seguimiento y Recordatorios | US24  | Confirmación de aportes              | Como usuario, quiero recibir confirmación cada vez que realizo un aporte para mayor seguridad.     | - Escenario 1: Notificación inmediata<br>Dado que el usuario registre un pago,<br>Cuando el sistema lo procese,<br>Entonces recibirá una confirmación por correo o notificación dentro de la app.<br><br>- Escenario 2: Registro visible<br>Dado que quiera revisar sus confirmaciones,<br>Cuando acceda al historial,<br>Entonces verá las confirmaciones pasadas. |
+| EP05     | Seguimiento y Recordatorios | US25  | Notificación de cambios en el hogar | Como usuario, quiero ser notificado si hay cambios en el hogar para estar informado.               | - Escenario 1: Nuevo miembro<br>Dado que un nuevo miembro se una,<br>Cuando sea aprobado por el representante,<br>Entonces se notificará a todos los miembros.<br><br>- Escenario 2: Cambios administrativos<br>Dado que el representante edite los porcentajes de aporte,<br>Cuando se guarde el cambio,<br>Entonces se notificará a los afectados. |
+| EP06     | Soporte y Comunidad | US26  | Acceso a ayuda en línea | Como usuario, quiero acceder a una sección de ayuda en línea para resolver mis dudas básicas. | - Escenario 1: Acceso desde el menú<br>Dado que el usuario esté en cualquier vista,<br>Cuando haga clic en “Ayuda” en el menú principal,<br>Entonces será redirigido a la sección de preguntas frecuentes.<br><br>- Escenario 2: Búsqueda rápida<br>Dado que use el buscador,<br>Cuando escriba su duda,<br>Entonces obtendrá respuestas relacionadas. |
+| EP06     | Soporte y Comunidad | US27  | Chat con soporte técnico | Como usuario, quiero chatear con un agente de soporte para resolver problemas técnicos específicos. | - Escenario 1: Inicio de chat<br>Dado que el usuario esté en la sección de ayuda,<br>Cuando seleccione “Chatear con soporte”,<br>Entonces se abrirá una ventana de conversación con el agente disponible.<br><br>- Escenario 2: Horario de atención<br>Dado que acceda fuera de horario,<br>Cuando intente iniciar chat,<br>Entonces verá un mensaje informativo con horarios. |
+| EP06     | Soporte y Comunidad | US28  | Reportar un problema     | Como usuario, quiero poder reportar errores o fallas para que el equipo técnico las solucione. | - Escenario 1: Formulario de reporte<br>Dado que haya experimentado un problema,<br>Cuando acceda al formulario de reporte,<br>Entonces podrá describir el incidente y enviarlo.<br><br>- Escenario 2: Confirmación de envío<br>Dado que complete el formulario,<br>Cuando lo envíe,<br>Entonces recibirá una confirmación con número de ticket. |
+| EP06     | Soporte y Comunidad | US29  | Sugerencias de mejora    | Como usuario, quiero dejar sugerencias para mejorar la plataforma de manera colaborativa.       | - Escenario 1: Ingreso de sugerencia<br>Dado que tenga una idea,<br>Cuando acceda a la sección “Sugerencias”,<br>Entonces podrá llenar un formulario y enviarla.<br><br>- Escenario 2: Visualización de estado<br>Dado que envíe una sugerencia,<br>Cuando acceda a su perfil,<br>Entonces podrá ver si está en evaluación o implementada. |
+| EP06     | Soporte y Comunidad | US30  | Foro comunitario         | Como usuario, quiero participar en un foro donde pueda compartir experiencias y resolver dudas. | - Escenario 1: Navegación general<br>Dado que el usuario entre al foro,<br>Cuando seleccione una categoría,<br>Entonces verá los temas y respuestas más recientes.<br><br>- Escenario 2: Crear publicación<br>Dado que quiera iniciar un nuevo tema,<br>Cuando publique,<br>Entonces su mensaje se mostrará en el hilo correspondiente. |
+| EP07     | Exploración como Visitante | US31   | Visualizar información general sobre SplitEasy desde la landing page | Como visitante, quiero ver información clara sobre SplitEasy desde la página principal para entender su propósito. | - Escenario 1: Acceso inicial<br>Dado que el visitante acceda a la landing page,<br>Cuando cargue la vista,<br>Entonces verá un resumen claro de qué es SplitEasy y cómo funciona.<br><br>- Escenario 2: Responsive design<br>Dado que acceda desde móvil o PC,<br>Entonces la información debe estar adecuadamente adaptada. |
+| EP07     | Exploración como Visitante | US32   | Conocer las funciones principales para representantes y miembros del hogar | Como visitante, quiero conocer las funcionalidades para cada tipo de usuario para decidir si me interesa. | - Escenario 1: Sección de funciones<br>Dado que esté en la landing,<br>Cuando haga scroll o clic en “Funciones”,<br>Entonces verá tarjetas explicativas para representantes y miembros.<br><br>- Escenario 2: Enlaces internos<br>Dado que seleccione una función,<br>Entonces será redirigido a más detalles en la misma página. |
+| EP07     | Exploración como Visitante | US33   | Explorar beneficios del sistema de aportes proporcionales | Como visitante, quiero entender cómo funciona el sistema proporcional de aportes para saber si me conviene. | - Escenario 1: Sección explicativa<br>Dado que acceda a la landing,<br>Cuando llegue a la sección de “Sistema proporcional”,<br>Entonces verá un texto y/o animación que explica con claridad su funcionamiento.<br><br>- Escenario 2: Comprensión clara<br>Dado que lea el contenido,<br>Entonces entenderá con ejemplos simples los beneficios del sistema. |
+| EP07     | Exploración como Visitante | US34   | Ver ejemplos o simulaciones de cómo funciona la plataforma | Como visitante, quiero ver ejemplos o simulaciones para imaginarme cómo sería usar la plataforma. | - Escenario 1: Acceso a simulaciones<br>Dado que esté en la sección “¿Cómo funciona?”,<br>Cuando haga clic en “Ver ejemplo”,<br>Entonces se mostrará una simulación o demo visual del flujo de uso.<br><br>- Escenario 2: Casos ilustrativos<br>Dado que revise los ejemplos,<br>Entonces identificará casos similares a su situación real. |
+| EP07     | Exploración como Visitante | US35   | Acceder fácilmente al registro o login desde botones destacados | Como visitante, quiero tener botones claros para registrarme o iniciar sesión desde cualquier parte de la landing. | - Escenario 1: Botón fijo en el header<br>Dado que navegue por la landing,<br>Cuando quiera registrarse,<br>Entonces podrá hacer clic en un botón visible en la parte superior.<br><br>- Escenario 2: Llamados a la acción<br>Dado que lea una sección que le interese,<br>Entonces verá un botón que lo invita a registrarse o iniciar sesión. |
 
 ## Impact Mapping
 
@@ -668,38 +698,385 @@ El journey de este segmento refleja a una persona encargada de la planificación
 
 ## Product Backlog
 
+| Orden | User Story ID | Título HU                                               | Descripción HU                                                                                   | Prioridad | Story Points |
+|--------|----------------|----------------------------------------------------------|--------------------------------------------------------------------------------------------------|-----------|---------------|
+| 1      | US01           | Registro de usuario                                     | Como usuario, quiero registrarme de forma segura y rápida para empezar a usar la plataforma.     | Media      | 3             |
+| 2      | US02           | Inicio de sesión seguro                                 | Como usuario, quiero iniciar sesión con seguridad para acceder a mi cuenta desde cualquier lugar.| Baja      | 2             |
+| 3      | US03           | Edición de información personal                         | Como usuario, quiero poder editar mi información para mantenerla actualizada.                    | Baja     | 2             |
+| 4      | US04           | Cierre de sesión desde todos los dispositivos           | Como usuario, quiero cerrar sesión desde todos mis dispositivos por seguridad.                   | Baja     | 2             |
+| 5      | US05           | Configuración de notificaciones personales              | Como usuario, quiero personalizar las notificaciones que recibo.                                 | Media     | 3             |
+| 6      | US06           | Crear hogar                                             | Como representante, quiero crear un hogar para gestionar las finanzas familiares.                | Media      | 3             |
+| 7      | US07           | Aprobar gastos                                          | Como representante, quiero aprobar gastos para mantener el control de las finanzas.              | Baja      | 2             |
+| 8      | US08           | Ajustar porcentajes de aportes                          | Como representante, quiero ajustar los aportes de cada miembro según sus ingresos.               | Alta      | 5             |
+| 9      | US09           | Visualizar reportes mensuales                           | Como representante, quiero ver reportes mensuales para analizar los gastos y aportes.            | Alta     | 5             |
+| 10     | US10           | Configurar métodos de pago aceptados                    | Como representante, quiero definir los métodos de pago permitidos.                               | Baja     | 2             |
+| 11     | US11           | Ingresar ingresos personales                            | Como miembro, quiero ingresar mis ingresos para calcular mi aporte.                              | Media      | 3             |
+| 12     | US12           | Ver monto a pagar                                       | Como miembro, quiero ver cuánto me corresponde pagar según mis ingresos.                         | Baja      | 2             |
+| 13     | US13           | Registrar pagos realizados                              | Como miembro, quiero registrar mis pagos para mantenerme al día.                                 | Baja      | 2             |
+| 14     | US14           | Ver historial de pagos                                  | Como miembro, quiero consultar mis pagos pasados para tener un control.                          | Baja     | 2             |
+| 15     | US15           | Ver distribución de gastos del hogar                    | Como miembro, quiero ver cómo se distribuyen los gastos en el hogar.                             | Baja     | 2             |
+| 16     | US16           | Registrar nuevo gasto                                   | Como usuario, quiero registrar un nuevo gasto del hogar para llevar un mejor control.            | Media      | 3             |
+| 17     | US17           | Adjuntar comprobantes de gasto                          | Como usuario, quiero adjuntar imágenes de comprobantes para validar los gastos.                  | Baja     | 2             |
+| 18     | US18           | Clasificar gastos por categoría                         | Como usuario, quiero clasificar los gastos para analizarlos mejor.                               | Media      | 3             |
+| 19     | US19           | Comentar o justificar un gasto                          | Como usuario, quiero justificar los gastos ingresados.                                            | Baja      | 2             |
+| 20     | US20           | Visualizar gráficos de gastos                           | Como usuario, quiero ver gráficos para entender mejor los gastos del hogar.                      | Media      | 3             |
+| 21     | US21           | Recordatorios de pago                                   | Como usuario, quiero recibir recordatorios para no olvidar mis pagos.                            | Media      | 3             |
+| 22     | US22           | Alertas de pagos pendientes                             | Como usuario, quiero recibir alertas cuando tenga pagos pendientes.                              | Baja      | 2             |
+| 23     | US23           | Recordatorio de actualización de ingresos               | Como usuario, quiero que me recuerden actualizar mis ingresos periódicamente.                    | Baja     | 2             |
+| 24     | US24           | Confirmación de aportes                                 | Como usuario, quiero recibir confirmaciones cuando mis aportes sean procesados.                  | Muy Baja      | 1             |
+| 25     | US25           | Notificación de cambios en el hogar                     | Como usuario, quiero ser notificado cuando haya cambios importantes en el hogar.                 | Muy Baja      | 1             |
+| 26     | US26           | Acceso a ayuda en línea                                 | Como usuario, quiero tener acceso a documentación y ayuda sobre el uso de la plataforma.         | Baja     | 2             |
+| 27     | US27           | Chat con soporte técnico                                | Como usuario, quiero tener un chat para comunicarme con soporte técnico.                         | Media      | 3             |
+| 28     | US28           | Reportar un problema                                    | Como usuario, quiero reportar errores para que sean solucionados rápidamente.                    | Baja     | 2             |
+| 29     | US29           | Sugerencias de mejora                                   | Como usuario, quiero enviar sugerencias para ayudar a mejorar la plataforma.                     | Muy Baja      | 1             |
+| 30     | US30           | Foro comunitario                                        | Como usuario, quiero participar en un foro donde intercambiar ideas con otros usuarios.          | Media     | 3             |
+| 31     | US31           | Visualizar información general desde la landing page    | Como visitante, quiero ver información clara sobre SplitEasy desde la landing.                   | Baja      | 2             |
+| 32     | US32           | Conocer las funciones principales de los usuarios       | Como visitante, quiero conocer las funciones para decidir si me interesa registrarme.            | Baja      | 2             |
+| 33     | US33           | Explorar beneficios del sistema de aportes proporcionales| Como visitante, quiero entender cómo funciona el sistema proporcional de aportes.                | Media      | 3             |
+| 34     | US34           | Ver ejemplos o simulaciones de cómo funciona la plataforma | Como visitante, quiero ver simulaciones para imaginar cómo sería usar la plataforma.             | Media      | 3             |
+| 35     | US35           | Acceder fácilmente al registro o login desde botones    | Como visitante, quiero ver botones destacados para iniciar sesión o registrarme rápidamente.     | Muy Baja     | 1             |
 
-| Orden | User Story Id | Título                              | Descripción                                                                 | Story Points (1/2/3/4/8) |
-|-------|---------------|-------------------------------------|-----------------------------------------------------------------------------|--------------------------|
-| 1     | US01          | Registro de usuario                | Como usuario, quiero poder registrarme con mis datos personales y correo electrónico, para usar la plataforma. | 3                        |
-| 2     | US02          | Inicio de sesión seguro            | Como usuario, quiero iniciar sesión con mis credenciales de manera segura, para acceder a mi cuenta. | 3                        |
-| 3     | US03          | Edición de información personal    | Como usuario, quiero editar mis datos personales, para mantener mi perfil actualizado. | 2                        |
-| 4     | US04          | Crear hogar                         | Como representante del hogar, quiero crear un grupo de hogar e invitar miembros, para gestionar los gastos de forma colaborativa. | 5                        |
-| 5     | US05          | Aprobar gastos                      | Como representante del hogar, quiero revisar y aprobar los gastos de otros miembros, para asegurar que sean válidos y justificados. | 5                        |
-| 6     | US06          | Ajustar porcentajes de aportes      | Como representante del hogar, quiero ajustar los porcentajes de aportes por miembro, para que los pagos sean equitativos. | 5                        |
-| 7     | US07          | Visualizar reportes mensuales       | Como representante del hogar, quiero visualizar reportes mensuales de gastos e ingresos, para tener una visión clara de la situación financiera. | 5                        |
-| 8     | US08          | Cierre de sesión desde todos los dispositivos | Como usuario, quiero cerrar sesión desde todos los dispositivos, para proteger mi cuenta si detecto acceso no autorizado. | 2                        |
-| 9     | US09          | Configuración de notificaciones personales | Como usuario, quiero configurar qué notificaciones deseo recibir, para mantenerme informado sin sentirme abrumado. | 3                        |
-| 10    | US10          | Configurar métodos de pago aceptados | Como representante del hogar, quiero definir los métodos de pago aceptados, para facilitar los aportes de los miembros. | 3                        |
-| 11    | US11          | Ingresar ingresos personales       | Como miembro del hogar, quiero registrar mis ingresos, para que se considere en la distribución de los gastos. | 3                        |
-| 12    | US12          | Ver monto a pagar                   | Como miembro del hogar, quiero ver cuánto debo aportar, para cumplir con mi responsabilidad financiera. | 2                        |
-| 13    | US13          | Registrar pagos realizados          | Como miembro del hogar, quiero registrar los pagos que realizo, para mantener un historial actualizado. | 3                        |
-| 14    | US14          | Ver historial de pagos              | Como miembro del hogar, quiero consultar el historial de mis pagos, para llevar un control de mis finanzas. | 2                        |
-| 15    | US15          | Ver distribución de gastos del hogar | Como miembro del hogar, quiero ver cómo se distribuyen los gastos entre los integrantes, para asegurar que el reparto es justo. | 3                        |
-| 16    | US16          | Registrar nuevo gasto               | Como usuario, quiero registrar nuevos gastos, para mantener el control financiero del hogar. | 4                        |
-| 17    | US17          | Adjuntar comprobantes de gasto      | Como usuario, quiero subir comprobantes de los gastos, para dar transparencia a los registros. | 2                        |
-| 18    | US18          | Clasificar gastos por categoría     | Como usuario, quiero clasificar los gastos por categoría, para analizar mejor en qué se está gastando. | 3                        |
-| 19    | US19          | Comentar o justificar un gasto      | Como usuario, quiero comentar y justificar un gasto registrado, para dar contexto al resto de miembros. | 2                        |
-| 20    | US20          | Visualizar gráficos de gastos       | Como usuario, quiero ver gráficos de los gastos del hogar, para entender mejor los patrones de consumo. | 3                        |
-| 21    | US21          | Recordatorios de pago               | Como usuario, quiero recibir recordatorios de pago, para no olvidar mis obligaciones financieras. | 2                        |
-| 22    | US22          | Alertas de pagos pendientes         | Como usuario, quiero recibir alertas sobre pagos vencidos, para ponerme al día rápidamente. | 2                        |
-| 23    | US23          | Recordatorio de actualización de ingresos | Como usuario, quiero recibir recordatorios para actualizar mis ingresos, para mantener los aportes justos. | 2                        |
-| 24    | US24          | Confirmación de aportes             | Como usuario, quiero recibir una confirmación cuando mi aporte sea registrado, para tener tranquilidad. | 1                        |
-| 25    | US25          | Notificación de cambios en el hogar | Como usuario, quiero ser notificado de cambios importantes en el hogar (miembros, porcentajes, métodos), para mantenerme informado. | 2                        |
-| 26    | US26          | Acceso a ayuda en línea             | Como usuario, quiero acceder a una sección de ayuda en línea, para resolver dudas frecuentes sobre la plataforma. | 2                        |
-| 27    | US27          | Chat con soporte técnico            | Como usuario, quiero comunicarme con soporte técnico vía chat, para resolver problemas de forma rápida. | 3                        |
-| 28    | US28          | Reportar un problema                | Como usuario, quiero reportar errores o problemas en la plataforma, para que sean solucionados a tiempo. | 2                        |
-| 29    | US29          | Sugerencias de mejora               | Como usuario, quiero enviar sugerencias de mejora sobre la plataforma, para contribuir a su evolución. | 1                        |
-| 30    | US30          | Foro comunitario                    | Como usuario, quiero participar en un foro con otros usuarios, para compartir experiencias y resolver dudas en comunidad. | 3                        |
+# Capítulo IV: Product Design
+
+## Style Guidelines
+
+**SplitEasy** es una plataforma digital creada para simplificar y equilibrar la gestión financiera dentro del hogar. Mediante un sistema de cálculo proporcional según ingresos, permite distribuir gastos de forma justa, promoviendo la transparencia, la colaboración y el control financiero compartido. Con una interfaz moderna y directa, SplitEasy responde a las necesidades de hogares contemporáneos que buscan soluciones simples, efectivas y accesibles.
+
+Esta sección presenta una guía estructurada que consolida todos los elementos visuales y de diseño utilizados en la interfaz de SplitEasy. Se incluyen recursos gráficos como tipografías, paleta cromática —con predominancia de negros, blancos y azul celeste—, íconos y componentes de interfaz. El objetivo es mantener una identidad visual coherente, sobria y tecnológica que refleje el enfoque funcional y equitativo de la marca.
+
+Las guías de estilo están divididas en tres bloques —**General Style Guidelines**, **Web Style Guidelines** y **Mobile Style Guidelines**—, lo cual garantiza una experiencia uniforme, accesible y atractiva tanto en dispositivos móviles como en la web. Esta consistencia estética mejora la navegación, refuerza la confianza del usuario y comunica visualmente los valores de la plataforma: claridad, equilibrio y control.
+
+### General Style Guidelines
+
+SplitEasy busca transmitir una identidad visual moderna y clara, enfocada en la transparencia, la colaboración y la equidad financiera. La marca utiliza colores oscuros como base para dar una sensación de profesionalismo y seriedad, mientras que el azul celeste funciona como color de acento para resaltar acciones importantes y darle un toque fresco y tecnológico.
+
+El logotipo es simple pero distintivo, pensado para ser fácilmente reconocible en cualquier dispositivo. La tipografía es limpia y legible, lo que facilita la navegación y mantiene una experiencia visual coherente.
+
+Todo el diseño está orientado a que los usuarios se sientan en control de sus finanzas compartidas sin complicaciones. Con este estilo, SplitEasy busca representar su propósito: ayudar a los hogares a organizar sus gastos de forma justa, práctica y accesible.
+
+#### Tipografía
+
+SplitEasy utiliza la tipografía **Roboto**, elegida por su estilo limpio, moderno y excelente legibilidad en interfaces digitales oscuras. Se aplican sus variantes **Regular**, **Medium**, **Bold** y **Black** para diferenciar jerarquías de contenido de forma clara y visualmente equilibrada.
+
+Los tamaños de fuente empleados son:
+
+- `h1` → 3em (48px)  
+- `h2` → 2em (32px)  
+- `h3` → 1em (16px)  
+- **Texto general** → 1em (16px)
+
+Esta estructura asegura una experiencia coherente y cómoda de lectura en todos los dispositivos.
+
+#### Colores
+
+La identidad visual de SplitEasy se construye sobre una paleta cromática moderna y profesional que se proyecta sobre un fondo negro, utilizado como color de fondo principal `#000000`. Esta base oscura permite que los demás colores resalten con claridad y armonía, reforzando la estética tecnológica de la plataforma.
+
+- **Color primario**: `#1565C0` (azul oscuro), utilizado en elementos clave para transmitir solidez y confianza.  
+- **Color secundario**: `#42A5F5` (celeste), aplicado en botones, íconos o enlaces activos, aportando dinamismo y frescura.  
+- **Color de apoyo**: `#E3F2FD` (azul muy claro), usado para crear contrastes suaves o resaltar secciones sin romper la armonía.  
+- **Texto general**: `#FFFFFF` (blanco), seleccionado para garantizar máxima legibilidad sobre el fondo oscuro.
+
+Esta combinación asegura una experiencia visual clara, accesible y coherente con los valores del proyecto: orden, transparencia y modernidad.
+
+<p align="left">
+  <img src="images/paleta.PNG" alt="paleta" width="500">
+</p>
+
+#### Espaciado
+
+- **Botones**: Padding de `1rem` vertical y `2rem` horizontal.  
+- **Margin entre texto**: `margin-bottom: 1rem` para elementos como `h1`, `h2`, `p`, etc.  
+- **Margin entre elementos**: `margin-bottom: 1.5rem` (ej. `.precio-card`).  
+- **Margin entre secciones**: Padding de `2rem` en el contenedor general (ajustable a `6rem` si es necesario).
+
+#### Iconografía
+
+La iconografía utilizada en SplitEasy mejora la experiencia del usuario, facilita la navegación y representa visualmente las funcionalidades clave. Se emplea la biblioteca **Bootstrap Icons**, que asegura una estética moderna, coherente y responsiva.
+
+**Íconos principales y su propósito**:
+
+- `bi-house-door-fill` (Home): Página principal / hogar.  
+- `bi-info-circle-fill` (About): Información del proyecto.  
+- `bi-gear-fill` (Services): Funcionalidades del sistema.  
+- `bi-question-circle-fill` (How does it work?): Guía del flujo de uso.  
+- `bi-currency-dollar` (Prices): Planes de suscripción.  
+- `bi-chat-left-quote-fill` (Reviews): Opiniones de usuarios.  
+- `bi-envelope-fill` (Contact us): Correo de contacto.
+
+**Iconos en servicios**:
+
+- `bi-calculator`: Cálculo Proporcional.  
+- `bi-pie-chart-fill`: Seguimiento de Gastos.  
+- `bi-people-fill`: Transparencia y Colaboración.
+
+**Iconos en How does it work?**:
+
+- `bi-person-plus-fill`: Registro de usuarios.  
+- `bi-house-fill`: Crear hogar.  
+- `bi-cash-coin`: Asignar aportes.  
+- `bi-bar-chart-fill`: Control financiero.
+
+**Íconos en el Footer**:
+
+- `bi-facebook`, `bi-instagram`, `bi-twitter`, `bi-linkedin`: Enlaces a redes sociales.  
+- `bi-envelope-fill`: Correo electrónico (`mailto:contacto@spliteasy.com`).
+
+El uso constante de una misma familia de íconos asegura coherencia visual y contribuye a una experiencia de usuario fluida e intuitiva.
+
+#### Tono de Comunicación y Lenguaje Aplicado
+
+El tono de comunicación en la landing page es **claro, cercano y accesible**, diseñado para todos los usuarios.
+
+**Aspectos clave**:
+
+- **Tono amigable y cercano**: Lenguaje directo, inclusivo y motivador.  
+- **Claridad en las opciones**:
+  - **Representante**: Puede crear y administrar el hogar.  
+  - **Miembro**: Puede ingresar al hogar con un ID.  
+- **Simplificación del proceso**: Instrucciones breves y claras.  
+- **Empatía con las necesidades**: Refleja comprensión de desafíos financieros.  
+- **Invitación a la acción**: Frases proactivas como “Crea tu hogar” o “Ingresa a tu hogar”.  
+- **Accesibilidad**: Lenguaje fácil de entender sin barreras.
+
+Este enfoque garantiza una experiencia funcional, adaptada a las necesidades de todos los usuarios, haciendo que tanto representantes como miembros se sientan cómodos y seguros.
+
+### Web Style Guidelines
+
+Se utilizó la tendencia web de **funcionalismo minimalista** con un esquema de colores oscuros predominante (negro y gris oscuro) como fondo. Esto proporciona una experiencia visual suave, favoreciendo el contraste con elementos interactivos y textos claros.
+
+<p align="left">
+  <img src="images/imagen1.PNG" alt="imagen1" width="500">
+</p>
+
+Para enriquecer la estética y agregar dinamismo:
+
+- Se emplearon íconos blancos con moderación.  
+- El diseño se mantiene minimalista pero atractivo.  
+- Los íconos, claramente visibles sobre el fondo oscuro, refuerzan una experiencia visual limpia y ordenada.
+
+Este equilibrio entre funcionalidad y diseño moderno garantiza una interfaz eficaz y atractiva.
+
+<p align="left">
+  <img src="images/imagen2.PNG" alt="imagen2" width="500">
+</p>
+
+# Information Architecture
+
+## Organization Systems
+
+En la plataforma **SplitEasy**, se emplean diferentes sistemas de organización del contenido para mejorar la accesibilidad y experiencia de los usuarios, dependiendo del tipo de información que se presenta. Estos sistemas aseguran que los usuarios puedan navegar de manera intuitiva y eficiente por la aplicación. A continuación, se detallan los enfoques utilizados:
+
+### Organización Visual del Contenido
+
+**Jerárquica (Visual Hierarchy):**  
+La organización jerárquica se aplica en secciones donde es fundamental mostrar una estructura clara de importancia y relevancia, como en los formularios de creación de hogar o de asignación de aportes. Se emplean tamaños de texto diferenciados y un orden lógico de presentación, destacando los elementos más importantes (como los botones de acción o los campos requeridos) para guiar al usuario de forma natural a través de la plataforma.
+
+**Secuencial (Step-by-Step to Accomplish):**  
+En tareas que requieren la realización de pasos secuenciales, como el proceso de registro de usuario o creación de hogar, se utiliza un enfoque paso a paso. Los usuarios avanzan de una pantalla a otra de manera clara y ordenada, asegurando que comprendan el flujo de trabajo y puedan completar cada acción antes de pasar a la siguiente, minimizando la confusión.
+
+### Esquemas de Categorización de Contenido
+
+**Por Audiencia (Grupos de Usuarios):**  
+Dado que la plataforma tiene dos tipos de usuarios (representantes del hogar y miembros del hogar), el contenido se organiza de manera distinta para cada grupo. Los representantes tienen acceso a herramientas para gestionar los aportes y la creación de hogar, mientras que los miembros solo pueden consultar sus aportes y realizar seguimiento a los gastos. La categorización se adapta a las necesidades específicas de cada tipo de usuario, con una navegación clara que les lleva a las secciones correspondientes.
+
+**Por Tópicos:**  
+Además, la categorización por tópicos se utiliza en las secciones de ayuda y soporte. Los usuarios pueden acceder a diferentes categorías de contenido, como "Preguntas Frecuentes", "Política de Privacidad" y "Centro de Ayuda", lo que facilita la búsqueda de información relevante para resolver problemas específicos.
+
+### Implementación en la Interfaz
+
+La organización jerárquica y secuencial se ve reflejada en el diseño de la interfaz, utilizando una estructura de navegación clara que incluye menús desplegables, botones con texto explicativo y pasos visibles para guiar al usuario en cada proceso.
+
+Los esquemas de categorización por audiencia y por tópicos están integrados en las pantallas de inicio y las secciones de soporte, donde los usuarios pueden acceder rápidamente a la información que más les interesa, con un diseño que hace uso de íconos y texto, manteniendo el estilo visual minimalista y accesible.
+
+Este enfoque asegura que la experiencia de navegación en SplitEasy sea intuitiva, eficiente y adaptada a las necesidades específicas de cada tipo de usuario, mejorando la funcionalidad y la experiencia general de la plataforma.
+
+## Labeling Systems
+
+La landing page de SplitEasy emplea un sistema de etiquetado directo, simple y orientado a la acción, con el fin de facilitar la comprensión rápida de los contenidos y la navegación fluida para distintos tipos de usuarios. Se prioriza la claridad en la presentación textual de las secciones, utilizando el menor número de palabras posible y apoyándose en íconos visuales para reforzar los mensajes clave.
+
+### Menú de navegación
+
+En el menú de navegación superior de la landing page, se emplean etiquetas simples, directas y acompañadas de íconos de Bootstrap Icons:
+
+- "Home" (`bi-house-door-fill`)
+- "About" (`bi-info-circle-fill`)
+- "Services" (`bi-tools`)
+- "How does it work?" (`bi-lightbulb-fill`)
+- "Prices" (`bi-currency-dollar`)
+- "Reviews" (`bi-chat-dots-fill`)
+- "Contact us" (`bi-envelope-fill`)
+
+<p align="left">
+  <img src="images/imagen3.PNG" alt="imagen3" width="500">
+</p>
+
+### Botón principal
+
+- **"Register"**: principal llamada a la acción (CTA), funciona tanto para miembros como representantes.
+
+<p align="left">
+  <img src="images/imagen4.PNG" alt="imagen4" width="500">
+</p>
+
+### Sección "How does it work?" para Representantes
+
+- **"Sign up"** (`bi-person-plus-fill`)
+- **"Create your home"** (`bi-house-fill`)
+- **"Assign contributions"** (`bi-cash-coin`)
+- **"Control your finances"** (`bi-bar-chart-fill`)
+
+<p align="left">
+  <img src="images/imagenrepre.PNG" alt="imagenrepre" width="500">
+</p>
+
+### Sección "How does it work?" para Miembros
+
+- **"Sign up"** (`bi-person-plus-fill`)
+- **"Join a household"** (`bi-key-fill`)
+- **"Declare your income"** (`bi-wallet-fill`)
+- **"Monitor your contributions"** (`bi-graph-up-arrow`)
+
+<p align="left">
+  <img src="images/imagenmiem.PNG" alt="imagenmiem" width="500">
+</p>
+
+### Footer
+
+- **Legal notice**
+- **Privacy Policy**
+- **Cookies Policy**
+
+En la sección de soporte:
+
+- **Contact Support**
+- **Help Center**
+
+También se incorporan íconos de redes sociales: Facebook, Instagram, Twitter, LinkedIn.
+
+<p align="left">
+  <img src="images/footer.PNG" alt="footer" width="500">
+</p>
+
+## SEO Tags and Meta Tags
+
+### Landing Page
+
+html
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>SplitEasy - Control financiero justo para tu hogar</title>
+    <meta name="description" content="SplitEasy te ayuda a dividir los gastos del hogar de forma proporcional según los ingresos de cada miembro. Fácil, justo y transparente.">
+    <meta name="keywords" content="SplitEasy, finanzas compartidas, gastos del hogar, app de finanzas, control de gastos, división de pagos">
+    <meta name="author" content="Equipo SplitEasy">
+
+    <!-- CSS & Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="/images/logo.PNG" alt="Logo">
+</head>
+
+### Web Application
+
+<!-- SEO tags para la Web Application de SplitEasy -->
+<title>SplitEasy App - Gestiona tus aportes y gastos familiares</title>
+<meta name="description" content="Ingresa o crea un hogar, asigna aportes según ingresos y mantén el control de los gastos de tu familia de forma sencilla y equitativa.">
+<meta name="keywords" content="SplitEasy app, control de finanzas, ingresos familiares, aportes proporcionales, gastos en el hogar, economía familiar">
+<meta name="author" content="Equipo SplitEasy">
+
+## 4.2.4. Searching Systems
+
+En el caso de SplitEasy, se implementará un sistema de búsqueda y filtros que permita a los miembros y representantes del hogar encontrar información relevante rápidamente y facilitar su navegación dentro de la aplicación. El sistema de búsqueda y filtros estará estructurado de manera que cada tipo de usuario (miembro o representante) tenga acceso a las herramientas más útiles para su rol específico.
+
+### Filtros de búsqueda por entradas
+
+**Miembros del hogar:**
+- **Buscar por ID de hogar:** Los miembros podrán buscar e ingresar el ID de hogar proporcionado por el representante para unirse a un hogar ya creado.
+- **Filtrar por fecha de contribución:** Ver un historial de aportes por fechas (mensual, semanal).
+- **Estado de los aportes:** Filtrar contribuciones por estado: `"Aportado"`, `"Pendiente"`, `"Excedente"`.
+- **Filtrar por tipo de gasto:** Clasificación de gastos por categorías como `"Alimentos"`, `"Servicios"`, etc.
+
+**Representantes del hogar:**
+- **Filtrar por estado de los aportes:** Ver contribuciones por fecha o estado.
+- **Filtrar por miembros:** Buscar por nombre o ID de miembro para revisar su historial.
+- **Estado del balance financiero:** Filtrar el balance general del hogar por fecha o tipo de gasto.
+
+### Filtros de búsqueda por tabs
+
+Para mejorar la experiencia de usuario, se incluirán tabs interactivos que faciliten el acceso a información específica de forma ordenada.
+
+**Miembros:**
+- **Tab de historial de aportes:** Resumen de aportes con filtros por fecha, monto y estado.
+- **Tab de estado de gastos:** Visualización de cómo se distribuyen los gastos del hogar.
+- **Tab de búsqueda por ID de hogar:** Asociar ID de hogar para ingresar al perfil vinculado.
+
+**Representantes:**
+- **Tab de gestión de aportes:** Vista de aportes de todos los miembros con filtros por estado y fecha.
+- **Tab de balance general:** Balance general filtrado por categorías y periodo.
+
+### Flujo de búsqueda y filtros
+
+El flujo será simple y eficiente. En cada sección relevante (aportaciones, balances, gastos), se mostrará un campo de búsqueda o filtros configurables. Los filtros serán fáciles de aplicar y remover, asegurando una experiencia de navegación fluida.
+
+## 4.2.5. Navigation Systems
+
+En SplitEasy, la navegación debe ser fluida, intuitiva y accesible tanto en la **Landing Page** como en la **Web Application**.
+
+### 1. Navegación en la Landing Page
+
+La página principal guía a nuevos usuarios hacia el registro o la información clave de forma clara y atractiva.
+
+**Elementos de navegación:**
+- **Menú de navegación superior** (con iconos):  
+  - *Home*  
+  - *About*  
+  - *Services*  
+  - *How does it work?*  
+  - *Prices*  
+  - *Reviews*  
+  - *Contact us*
+- **Llamadas a la acción (CTAs):**  
+  Ejemplos: *"Sign up"*.
+- **Desplazamiento fluido:**  
+  Scroll natural por secciones de la página sin salir de ella.
+
+### 2. Navegación en la Web Application
+
+La navegación se adapta al tipo de usuario y sus necesidades específicas.
+
+#### Para Representantes del Hogar:
+
+**Menú lateral fijo con opciones:**
+- Dashboard
+- Miembros del hogar
+- Gastos
+- Aportes
+- Configuración de hogar
+
+**Breadcrumbs:**  
+Navegación jerárquica para volver a secciones anteriores o más generales.
+
+#### Para Miembros del Hogar:
+
+**Menú superior simplificado con opciones:**
+- Dashboard
+- Aportes
+- Estado del hogar
+- Buscar ID de hogar
+
+**Accesos rápidos (botones flotantes):**
+- Agregar aporte
+- Ver detalles del gasto
+
+### Interacción con el sistema
+
+- **Accesibilidad:** Navegación clara y visible con etiquetas comprensibles.
+- **Navegación de búsqueda:** Filtros rápidos para búsqueda por ID de hogar o estado de aportes.
+- **Ayuda y tutoriales:** Sección de asistencia con guía paso a paso para cada sección.
 
 
