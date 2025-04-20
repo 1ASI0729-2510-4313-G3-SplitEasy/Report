@@ -362,7 +362,7 @@ SplitEasy busca ofrecer una solución digital que permita distribuir los gastos 
 
 <p align="center">
   <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d534_upc_edu_pe/Eb5FlqZR0V5Lp7-xxXjuCJoB5YvtofbTZmi38i7a2z4fdA?e=x4XGYU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">
-    <img src="Images/interview-thumbnail.png" alt="Miniatura de la entrevista a usuaria del primer segmento" width="600"/>
+    <img src="Images/Interview.png" alt="Miniatura de la entrevista a usuaria del primer segmento" width="600"/>
     <br>
     Ver entrevista completa
   </a>
