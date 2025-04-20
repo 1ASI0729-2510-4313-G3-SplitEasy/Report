@@ -359,10 +359,18 @@ SplitEasy busca ofrecer una solución digital que permita distribuir los gastos 
 ### Registro de entrevistas
 
 **Entrevista a usuaria del primer segmento**
+**Entrevistada:** Marjorie Luna Victoria  
+**Edad:** 18 años  
+**Ocupación:** Estudiante  
+**Medio:** Meet  
+**Entrevistador:** Jorge Díaz  
+
+🎬 **Inicio del video:** 0:04  
+⏱️ **Duración:** 3 minutos y 51 segundos
 
 <p align="center">
   <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d534_upc_edu_pe/Eb5FlqZR0V5Lp7-xxXjuCJoB5YvtofbTZmi38i7a2z4fdA?e=x4XGYU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">
-    <img src="images/Interview.png" alt="Miniatura de la entrevista a usuaria del primer segmento" width="600"/>
+    <img src="images/Interview.png" alt="Miniatura de la entrevista a usuaria del primer segmento" width="700"/>
     <br>
     Ver entrevista completa
   </a>
