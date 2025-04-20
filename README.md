@@ -760,6 +760,10 @@ La identidad visual de SplitEasy se construye sobre una paleta cromática modern
 
 Esta combinación asegura una experiencia visual clara, accesible y coherente con los valores del proyecto: orden, transparencia y modernidad.
 
+<p align="left">
+  <img src="images/paleta.PNG" alt="paleta" width="500">
+</p>
+
 #### Espaciado
 
 - **Botones**: Padding de `1rem` vertical y `2rem` horizontal.  
@@ -773,13 +777,13 @@ La iconografía utilizada en SplitEasy mejora la experiencia del usuario, facili
 
 **Íconos principales y su propósito**:
 
-- `bi-house-door-fill` (Inicio): Página principal / hogar.  
-- `bi-info-circle-fill` (Acerca de): Información del proyecto.  
-- `bi-gear-fill` (Servicios): Funcionalidades del sistema.  
-- `bi-question-circle-fill` (¿Cómo funciona?): Guía del flujo de uso.  
-- `bi-currency-dollar` (Precios): Planes de suscripción.  
-- `bi-chat-left-quote-fill` (Reseñas): Opiniones de usuarios.  
-- `bi-envelope-fill` (Contáctanos): Correo de contacto.
+- `bi-house-door-fill` (Home): Página principal / hogar.  
+- `bi-info-circle-fill` (About): Información del proyecto.  
+- `bi-gear-fill` (Services): Funcionalidades del sistema.  
+- `bi-question-circle-fill` (How does it work?): Guía del flujo de uso.  
+- `bi-currency-dollar` (Prices): Planes de suscripción.  
+- `bi-chat-left-quote-fill` (Reviews): Opiniones de usuarios.  
+- `bi-envelope-fill` (Contact us): Correo de contacto.
 
 **Iconos en servicios**:
 
@@ -787,7 +791,7 @@ La iconografía utilizada en SplitEasy mejora la experiencia del usuario, facili
 - `bi-pie-chart-fill`: Seguimiento de Gastos.  
 - `bi-people-fill`: Transparencia y Colaboración.
 
-**Iconos en ¿Cómo funciona?**:
+**Iconos en How does it work?**:
 
 - `bi-person-plus-fill`: Registro de usuarios.  
 - `bi-house-fill`: Crear hogar.  
@@ -822,6 +826,10 @@ Este enfoque garantiza una experiencia funcional, adaptada a las necesidades de 
 
 Se utilizó la tendencia web de **funcionalismo minimalista** con un esquema de colores oscuros predominante (negro y gris oscuro) como fondo. Esto proporciona una experiencia visual suave, favoreciendo el contraste con elementos interactivos y textos claros.
 
+<p align="left">
+  <img src="images/paleta.PNG" alt="paleta" width="500">
+</p>
+
 Para enriquecer la estética y agregar dinamismo:
 
 - Se emplearon íconos blancos con moderación.  
@@ -829,6 +837,10 @@ Para enriquecer la estética y agregar dinamismo:
 - Los íconos, claramente visibles sobre el fondo oscuro, refuerzan una experiencia visual limpia y ordenada.
 
 Este equilibrio entre funcionalidad y diseño moderno garantiza una interfaz eficaz y atractiva.
+
+<p align="left">
+  <img src="images/paleta.PNG" alt="paleta" width="500">
+</p>
 
 # Information Architecture
 
@@ -868,44 +880,60 @@ La landing page de SplitEasy emplea un sistema de etiquetado directo, simple y o
 
 En el menú de navegación superior de la landing page, se emplean etiquetas simples, directas y acompañadas de íconos de Bootstrap Icons:
 
-- "Inicio" (`bi-house-door-fill`)
-- "Acerca de" (`bi-info-circle-fill`)
-- "Servicios" (`bi-tools`)
-- "¿Cómo funciona?" (`bi-lightbulb-fill`)
-- "Precio" (`bi-currency-dollar`)
-- "Reseñas" (`bi-chat-dots-fill`)
-- "Contáctanos" (`bi-envelope-fill`)
+- "Home" (`bi-house-door-fill`)
+- "About" (`bi-info-circle-fill`)
+- "Services" (`bi-tools`)
+- "How does it work?" (`bi-lightbulb-fill`)
+- "Prices" (`bi-currency-dollar`)
+- "Reviews" (`bi-chat-dots-fill`)
+- "Contact us" (`bi-envelope-fill`)
 
 ### Botón principal
 
-- **"Regístrate"**: principal llamada a la acción (CTA), funciona tanto para miembros como representantes.
+- **"Register"**: principal llamada a la acción (CTA), funciona tanto para miembros como representantes.
 
-### Sección "¿Cómo funciona?" para Representantes
+<p align="left">
+  <img src="images/paleta.PNG" alt="paleta" width="500">
+</p>
 
-- **"Regístrate"** (`bi-person-plus-fill`)
-- **"Crea tu hogar"** (`bi-house-fill`)
-- **"Asigna aportes"** (`bi-cash-coin`)
-- **"Controla tus finanzas"** (`bi-bar-chart-fill`)
+### Sección "How does it work?" para Representantes
 
-### Sección "¿Cómo funciona?" para Miembros
+- **"Sign up"** (`bi-person-plus-fill`)
+- **"Create your home"** (`bi-house-fill`)
+- **"Assign contributions"** (`bi-cash-coin`)
+- **"Control your finances"** (`bi-bar-chart-fill`)
 
-- **"Regístrate"** (`bi-person-plus-fill`)
-- **"Ingresa el ID del hogar"** (`bi-key-fill`)
-- **"Declara tu ingreso"** (`bi-wallet-fill`)
-- **"Consulta tus aportes"** (`bi-graph-up-arrow`)
+<p align="left">
+  <img src="images/paleta.PNG" alt="paleta" width="500">
+</p>
+
+### Sección "How does it work?" para Miembros
+
+- **"Sign up"** (`bi-person-plus-fill`)
+- **"Join a household"** (`bi-key-fill`)
+- **"Declare your income"** (`bi-wallet-fill`)
+- **"Monitor your contributions"** (`bi-graph-up-arrow`)
+
+<p align="left">
+  <img src="images/paleta.PNG" alt="paleta" width="500">
+</p>
 
 ### Footer
 
-- **Aviso legal**
-- **Política de privacidad**
-- **Política de cookies**
+- **Legal notice**
+- **Privacy Policy**
+- **Cookies Policy**
 
 En la sección de soporte:
 
-- **Centro de ayuda**
-- **Preguntas frecuentes**
+- **Contact Support**
+- **Help Center**
 
 También se incorporan íconos de redes sociales: Facebook, Instagram, Twitter, LinkedIn.
+
+<p align="left">
+  <img src="images/paleta.PNG" alt="paleta" width="500">
+</p>
 
 ## SEO Tags and Meta Tags
 
@@ -983,15 +1011,15 @@ La página principal guía a nuevos usuarios hacia el registro o la información
 
 **Elementos de navegación:**
 - **Menú de navegación superior** (con iconos):  
-  - *Inicio*  
-  - *Acerca de*  
-  - *Servicios*  
-  - *¿Cómo funciona?*  
-  - *Precio*  
-  - *Reseñas*  
-  - *Contáctanos*
+  - *Home*  
+  - *About*  
+  - *Services*  
+  - *How does it work?*  
+  - *Prices*  
+  - *Reviews*  
+  - *Contact us*
 - **Llamadas a la acción (CTAs):**  
-  Ejemplos: *"Regístrate ahora"*, *"Comienza a ahorrar"*.
+  Ejemplos: *"Sign up"*.
 - **Desplazamiento fluido:**  
   Scroll natural por secciones de la página sin salir de ella.
 
