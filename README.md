@@ -1419,7 +1419,110 @@ Navegación jerárquica para volver a secciones anteriores o más generales.
   <img src="images/diagramac.PNG" alt="diagramac" width="500">
 </p>
 
-# Subir cap 4 - Parte 1
+### Class Dictionary
+
+#### Class: HouseholdMember
+
+**Attributes:**
+- `id: UUID` — Identificador único para el miembro.
+- `name: String` — Nombre completo del miembro.
+- `email: String` — Dirección de correo electrónico del miembro.
+- `householdId: String` — ID del hogar al que pertenece el miembro.
+
+**Methods:**
+- `login(): void` — Autentica al usuario y le da acceso al sistema.
+- `viewContributionHistory(): List<Contribution>` — Devuelve una lista del historial de aportes del miembro.
+- `viewExpensesByCategory(): List<Expense>` — Muestra los gastos del hogar categorizados.
+- `findHouseholdByID(householdId): Household` — Recupera la información del hogar usando su ID.
+
+#### Class: HouseholdManager
+
+**Additional Attributes:**
+- `isResponsible: Boolean` — Indica si el miembro es el representante del hogar.
+
+**Additional Methods:**
+- `manageContributions(): void` — Permite al representante ver y ajustar los aportes del hogar.
+- `viewFinancialBalance(): Balance` — Recupera el balance financiero general del hogar.
+- `configureHousehold(): void` — Permite modificar la configuración del hogar y gestionar a los miembros.
+- `createHousehold(householdName: String): Household` — Permite al representante crear un nuevo hogar con un nombre especificado.
+
+#### Class: Household
+
+**Attributes:**
+- `id: UUID` — Identificador único del hogar.
+- `householdName: String` — Nombre del hogar.
+- `creationDate: Date` — Fecha de creación del hogar.
+
+**Methods:**
+- `addMember(m: HouseholdMember): void` — Añade un nuevo miembro al hogar.
+- `viewMembers(): List<HouseholdMember>` — Muestra todos los miembros actuales del hogar.
+- `viewExpenses(): List<Expense>` — Lista todos los gastos registrados en el hogar.
+- `viewBalance(): Balance` — Muestra el balance financiero actual del hogar.
+
+#### Class: Contribution
+
+**Attributes:**
+- `id: UUID` — Identificador único del aporte.
+- `amount: Decimal` — Monto del aporte.
+- `date: Date` — Fecha en la que se realizó el aporte.
+- `status: ContributionStatus` — Estado actual del aporte (Pending, Contributed, Surplus).
+- `member: HouseholdMember` — Miembro que realizó el aporte.
+
+**Methods:**
+- `updateStatus(): void` — Cambia el estado del aporte.
+- `filterByDate(d1, d2): List<Contribution>` — Devuelve los aportes dentro de un rango de fechas específico.
+- `filterByStatus(status): List<Contribution>` — Filtra los aportes según su estado.
+
+#### Class: Expense
+
+**Attributes:**
+- `id: UUID` — Identificador único del gasto.
+- `description: String` — Descripción del gasto.
+- `amount: Decimal` — Costo del gasto.
+- `category: ExpenseCategory` — Categoría del gasto (ej. Food, Utilities, etc.).
+- `date: Date` — Fecha en la que se registró el gasto.
+
+**Methods:**
+- `assignToContribution(): void` — Asocia el gasto a un aporte existente.
+- `filterByCategory(category): List<Expense>` — Filtra los gastos por su categoría.
+
+#### Class: Document
+
+**Attributes:**
+- `id: UUID` — Identificador único del documento.
+- `type: String` — Tipo de documento (ej. Invoice, Receipt).
+- `fileAttachment: String` — Ruta o enlace del archivo adjunto.
+- `uploadDate: Date` — Fecha en la que se subió el documento.
+
+**Methods:**
+- `download(): File` — Permite descargar el documento.
+- `view(): void` — Muestra el contenido del documento.
+  
+#### Class: Balance
+
+**Attributes:**
+- `totalContributed: Decimal` — Total de dinero aportado por los miembros del hogar.
+- `totalSpent: Decimal` — Total de dinero gastado por el hogar.
+- `balance: Decimal` — Balance restante (aportado - gastado).
+
+**Methods:**
+- `calculateBalance(): void` — Calcula el balance financiero actual.
+- `filterByDate(d1, d2): Balance` — Filtra los datos del balance por un rango de fechas.
+- `filterByCategory(category): Balance` — Filtra el balance por categoría de gasto.
+
+#### Enumerations
+
+##### ContributionStatus
+- `Pending` — El aporte ha sido programado pero aún no se ha realizado.
+- `Contributed` — El aporte ha sido completado con éxito.
+- `Surplus` — El aporte excede el monto requerido.
+
+##### ExpenseCategory
+- `Food` — Gastos relacionados con alimentación.
+- `Utilities` — Gastos de servicios como agua, luz, gas, etc.
+- `Health` — Gastos médicos y de salud.
+- `Entertainment` — Gastos de ocio y recreación.
+- `Other` — Otros tipos de gastos no especificados.
 
 # Subir Cap 4 - Parte 2 
 
