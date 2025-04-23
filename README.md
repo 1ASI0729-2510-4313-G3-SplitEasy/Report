@@ -1524,7 +1524,60 @@ Navegación jerárquica para volver a secciones anteriores o más generales.
 - `Entertainment` — Gastos de ocio y recreación.
 - `Other` — Otros tipos de gastos no especificados.
 
-# Subir Cap 4 - Parte 2 
+## Database Design
+
+La base de datos de **SplitEasy** ha sido diseñada bajo un enfoque relacional, permitiendo una organización eficiente y coherente de la información financiera compartida por los miembros de un hogar. La estructura busca garantizar integridad referencial y trazabilidad de aportes, gastos, documentos y balances. A continuación, se detalla el modelo entidad-relación reflejado en el diagrama de base de datos.
+
+### Database Diagram
+
+#### Household
+- `id: UUID (PK)`
+- `householdName: String`
+- `creationDate: Date`
+
+#### HouseholdMember
+- `id: UUID (PK)`
+- `name: String`
+- `email: String`
+- `householdId: UUID (FK -> Household.id)`
+
+#### HouseholdManager (extensión de HouseholdMember)
+- `isResponsible: Boolean`
+- `householdId: UUID (FK -> Household.id)`
+- `id: UUID (FK -> HouseholdMember.id)`
+
+#### Contribution
+- `id: UUID (PK)`
+- `amount: Decimal`
+- `date: Date`
+- `status: Enum (Pending, Contributed, Surplus)`
+- `memberId: UUID (FK -> HouseholdMember.id)`
+- `householdId: UUID (FK -> Household.id)`
+
+#### Expense
+- `id: UUID (PK)`
+- `description: String`
+- `amount: Decimal`
+- `category: Enum (Food, Utilities, Health, Entertainment, Other)`
+- `date: Date`
+- `householdId: UUID (FK -> Household.id)`
+
+#### Document
+- `id: UUID (PK)`
+- `type: String`
+- `fileAttachment: String`
+- `uploadDate: Date`
+- `householdId: UUID (FK -> Household.id)`
+
+#### Balance
+- `totalContributed: Decimal`
+- `totalSpent: Decimal`
+- `balance: Decimal`
+- `householdId: UUID (FK -> Household.id)`
+
+<p align="left">
+  <img src="images/bd.PNG" alt="bd" width="500">
+</p>
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
