@@ -1195,4 +1195,90 @@ Navegación jerárquica para volver a secciones anteriores o más generales.
 - **Navegación de búsqueda:** Filtros rápidos para búsqueda por ID de hogar o estado de aportes.
 - **Ayuda y tutoriales:** Sección de asistencia con guía paso a paso para cada sección.
 
+## Landing Page UI Design
 
+### Landing Page Wireframe
+
+<p align="left">
+  <img src="images/lpw1.PNG" alt="lpw1" width="500">
+</p>
+<p align="left">
+  <img src="images/lpw2.PNG" alt="lpw2" width="500">
+</p>
+<p align="left">
+  <img src="images/lpw3.PNG" alt="lpw3" width="500">
+</p>
+<p align="left">
+  <img src="images/lpw4.PNG" alt="lpw4" width="500">
+</p>
+<p align="left">
+  <img src="images/lpw5.PNG" alt="lpw5" width="500">
+</p>
+
+### Landing Page Mock-up
+
+<p align="left">
+  <img src="images/lpm1.PNG" alt="lpm1" width="500">
+</p>
+<p align="left">
+  <img src="images/lpm2.PNG" alt="lpm2" width="500">
+</p>
+<p align="left">
+  <img src="images/lpm3.PNG" alt="lpm3" width="500">
+</p>
+
+## Web Applications UX/UI Design
+
+### Web Applications Wireframes
+
+<p align="left">
+  <img src="images/waw.PNG" alt="waw" width="500">
+</p>
+
+### Web Applications Wireflow Diagrams
+
+<p align="left">
+  <img src="images/wawd.PNG" alt="wawd" width="500">
+</p>
+
+### Web Applications Mock-ups
+
+<p align="left">
+  <img src="images/wam.PNG" alt="wam" width="500">
+</p>
+
+### Web Applications User Flow Diagrams
+
+<p align="left">
+  <img src="images/wau.PNG" alt="wau" width="500">
+</p>
+
+## Web Applications Prototyping (Falta)
+
+## Domain-Driven Software Architecture
+
+### Software Architecture Context Diagram
+
+<p align="left">
+  <img src="images/sacd.PNG" alt="sacd" width="500">
+</p>
+
+### Software Architecture Container Diagrams
+
+<p align="left">
+  <img src="images/sacd1.PNG" alt="sacd1" width="500">
+</p>
+
+### Software Architecture Components Diagrams
+
+<p align="left">
+  <img src="images/sacd2.PNG" alt="sacd2" width="500">
+</p>
+
+## Software Object-Oriented Design
+
+### Class Diagrams
+
+<p align="left">
+  <img src="images/diagramac.PNG" alt="diagramac" width="500">
+</p>
