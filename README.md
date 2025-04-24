@@ -1750,3 +1750,56 @@ Además, se discutió:
 
 > 🚀 _Objetivo del Sprint:_ Desplegar un Landing Page funcional con diseño responsive y estructura definida, accesible desde GitHub Pages.
 
+### 5.2.1.2. Sprint Backlog 1 – SplitEasy
+
+Este documento corresponde al punto **5.2.1.2** del informe y resume las tareas realizadas durante el **Sprint 1** del proyecto **SplitEasy**, centrado en el desarrollo de la **landing page** de la aplicación.
+
+---
+
+## 🚀 Sprint 1 - Objetivo
+
+Desarrollar la landing page funcional de SplitEasy que permita a los visitantes conocer la plataforma, sus beneficios y acceder fácilmente al registro o login.
+
+---
+
+## 🧩 Historias de Usuario Abordadas (EP07 - Exploración como Visitante)
+
+| ID     | Título                                                                 |
+|--------|------------------------------------------------------------------------|
+| US31   | Visualizar información general desde la landing page                  |
+| US32   | Conocer las funciones principales para representantes y miembros      |
+| US33   | Explorar beneficios del sistema de aportes proporcionales             |
+| US34   | Ver ejemplos o simulaciones de cómo funciona la plataforma            |
+| US35   | Acceder fácilmente al registro o login desde botones destacados       |
+
+---
+
+## 📋 Tasks del Sprint
+
+| Task ID | Título                           | Descripción                                                                                     | Estimación (h) | Asignado a                                 | Estado  |
+|---------|----------------------------------|--------------------------------------------------------------------------------------------------|----------------|----------------------------------------------|---------|
+| W01     | Navbar section                   | Implementar barra de navegación con botones a login y registro.                                | 1              | Jorge Luis Díaz Fiestas                      | ✅ Done |
+| W02     | Responsive navbar section        | Hacer la navbar adaptable a móviles y escritorio.                                               | 0.5            | Jorge Luis Díaz Fiestas                      | ✅ Done |
+| W03     | Hero section                     | Crear sección principal con mensaje atractivo.                                                  | 2              | Paulo Percy Quincho Gamarra                 | ✅ Done |
+| W04     | Responsive hero section          | Adaptar hero section a todos los dispositivos.                                                  | 0.5            | Paulo Percy Quincho Gamarra                 | ✅ Done |
+| W05     | Features section                 | Mostrar funciones clave para representantes y miembros del hogar.                              | 2              | Jhordi Luis Carranza Pérez                   | ✅ Done |
+| W06     | Responsive features section      | Asegurar que la sección features sea responsive.                                                | 0.5            | Jhordi Luis Carranza Pérez                   | ✅ Done |
+| W07     | Proportional system section      | Explicar con gráficos o texto claro el sistema proporcional.                                   | 1.5            | Alexander Piero Fernandez Garfias           | ✅ Done |
+| W08     | Simulation section               | Mostrar ejemplos o flujos del uso de la app.                                                    | 1.5            | Alexander Piero Fernandez Garfias           | ✅ Done |
+| W09     | Call-to-action section           | Crear sección final con botón destacado de registro.                                            | 1              | Bruno Leonardo Gonzales Arotinco            | ✅ Done |
+| W10     | Footer with links                | Añadir footer con enlaces informativos y legales.                                               | 1              | Bruno Leonardo Gonzales Arotinco            | ✅ Done |
+| W11     | Responsive footer section        | Adaptar visualmente el footer a todos los dispositivos.                                         | 0.5            | Bruno Leonardo Gonzales Arotinco            | ✅ Done |
+
+---
+
+## 👥 Integrantes del Equipo
+
+- Jorge Luis Díaz Fiestas  
+- Paulo Percy Quincho Gamarra  
+- Jhordi Luis Carranza Pérez  
+- Alexander Piero Fernandez Garfias  
+- Bruno Leonardo Gonzales Arotinco
+
+---
+
+ **Estado del Sprint:** COMPLETADO
