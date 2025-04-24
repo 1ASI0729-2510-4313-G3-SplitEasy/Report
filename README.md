@@ -1702,4 +1702,51 @@ Se siguen las [convenciones de Microsoft](https://learn.microsoft.com/en-us/dotn
 > Esta configuración asegura un ciclo de integración y despliegue continuo (CI/CD) alineado con buenas prácticas del desarrollo moderno.
 
 
+# 5.2. Landing Page, Services & Applications Implementation
+
+## 5.2.1. Sprint 1
+
+### 5.2.1.1. Sprint Planning 1
+
+A continuación, se presenta el Sprint Planning 1, donde se incluyen las evidencias de planificación e implementación del Landing Page. También se registran los avances del proyecto e insights de colaboración del equipo a través de GitHub.
+
+---
+
+### 🗓 Sprint Overview
+
+- **Sprint #:** Sprint 1  
+- **Fecha:** 15 de abril del 2025  
+- **Hora:** 15:00 horas (GMT -5)  
+- **Lugar:** Modalidad remota por Google Meet  
+- **Preparado por:** Testigos de SplitEasy  
+- **Asistentes:** Todos los miembros del grupo Testigos de SplitEasy  
+
+---
+
+### 🔄 Sprint n – 0 Review Summary
+
+Este es el primer sprint, por lo tanto, no existe un resumen de revisión de un sprint anterior.
+
+---
+
+### 🔍 Sprint n – 1 Retrospective Summary
+
+En este sprint se planea desarrollar el **Landing Page** utilizando un framework de estilos CSS, herramienta nueva para algunos miembros del equipo.  
+Además, se discutió:
+
+- El contenido de los textos del landing page.
+- El diseño previamente elaborado en Figma.
+
+📌 Al finalizar este sprint, el Landing Page debe estar desplegado en GitHub, y cualquier usuario debería poder visualizarlo a través de un enlace público.
+
+---
+
+### 🎯 Sprint Goal & User Stories
+
+- **Sprint 1 Velocity:** 2  
+- **Suma de Story Points:** 2  
+
+---
+
+> 🚀 _Objetivo del Sprint:_ Desplegar un Landing Page funcional con diseño responsive y estructura definida, accesible desde GitHub Pages.
 
