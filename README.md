@@ -5,8 +5,8 @@
 <p align="center"><strong>Universidad Peruana de Ciencias Aplicadas</strong></p>
 
 <p align="center"><strong>Ingeniería de Software</strong><br>
-Aplicaciones Web <br>
-<strong>Profesor:</strong> Naldo Reupo-Masayon Gastulo</p>
+Desarrollo de Aplicaciones Open Source <br>
+<strong>Profesor:</strong> Alberto Wilmer Sanchez Seña </p>
 
 <h2 align="center">INFORME</h2>
 
