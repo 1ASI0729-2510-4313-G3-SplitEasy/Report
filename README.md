@@ -10,8 +10,8 @@ Desarrollo de Aplicaciones Open Source <br>
 
 <h2 align="center">INFORME</h2>
 
-<h3 align="center">Startup: WorkStation</h3>
-<p align="center"><strong>Producto:</strong></p>
+<h3 align="center">Startup: ChabeCode</h3>
+<p align="center"><strong>Producto: SplitEasy</strong></p>
 
 <h3 align="center">Team Members:</h3>
 
@@ -20,7 +20,7 @@ Desarrollo de Aplicaciones Open Source <br>
 | **Member**                           | **Code**     |
 |--------------------------------------|--------------|
 |Jorge Luis Díaz Fiestas      |  U20231D534  |
-|         |  |
+|Paulo Percy Quincho Gamarra         |  U20191E562 |
 |          |   |
 |       |  |
 
