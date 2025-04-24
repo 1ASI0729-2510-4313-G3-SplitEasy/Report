@@ -1419,13 +1419,334 @@ Navegación jerárquica para volver a secciones anteriores o más generales.
   <img src="images/diagramac.PNG" alt="diagramac" width="500">
 </p>
 
-# Subir cap 4 - Parte 1
+### Class Dictionary
 
-# Subir Cap 4 - Parte 2 
+#### Class: HouseholdMember
+
+**Attributes:**
+- `id: UUID` — Identificador único para el miembro.
+- `name: String` — Nombre completo del miembro.
+- `email: String` — Dirección de correo electrónico del miembro.
+- `householdId: String` — ID del hogar al que pertenece el miembro.
+
+**Methods:**
+- `login(): void` — Autentica al usuario y le da acceso al sistema.
+- `viewContributionHistory(): List<Contribution>` — Devuelve una lista del historial de aportes del miembro.
+- `viewExpensesByCategory(): List<Expense>` — Muestra los gastos del hogar categorizados.
+- `findHouseholdByID(householdId): Household` — Recupera la información del hogar usando su ID.
+
+#### Class: HouseholdManager
+
+**Additional Attributes:**
+- `isResponsible: Boolean` — Indica si el miembro es el representante del hogar.
+
+**Additional Methods:**
+- `manageContributions(): void` — Permite al representante ver y ajustar los aportes del hogar.
+- `viewFinancialBalance(): Balance` — Recupera el balance financiero general del hogar.
+- `configureHousehold(): void` — Permite modificar la configuración del hogar y gestionar a los miembros.
+- `createHousehold(householdName: String): Household` — Permite al representante crear un nuevo hogar con un nombre especificado.
+
+#### Class: Household
+
+**Attributes:**
+- `id: UUID` — Identificador único del hogar.
+- `householdName: String` — Nombre del hogar.
+- `creationDate: Date` — Fecha de creación del hogar.
+
+**Methods:**
+- `addMember(m: HouseholdMember): void` — Añade un nuevo miembro al hogar.
+- `viewMembers(): List<HouseholdMember>` — Muestra todos los miembros actuales del hogar.
+- `viewExpenses(): List<Expense>` — Lista todos los gastos registrados en el hogar.
+- `viewBalance(): Balance` — Muestra el balance financiero actual del hogar.
+
+#### Class: Contribution
+
+**Attributes:**
+- `id: UUID` — Identificador único del aporte.
+- `amount: Decimal` — Monto del aporte.
+- `date: Date` — Fecha en la que se realizó el aporte.
+- `status: ContributionStatus` — Estado actual del aporte (Pending, Contributed, Surplus).
+- `member: HouseholdMember` — Miembro que realizó el aporte.
+
+**Methods:**
+- `updateStatus(): void` — Cambia el estado del aporte.
+- `filterByDate(d1, d2): List<Contribution>` — Devuelve los aportes dentro de un rango de fechas específico.
+- `filterByStatus(status): List<Contribution>` — Filtra los aportes según su estado.
+
+#### Class: Expense
+
+**Attributes:**
+- `id: UUID` — Identificador único del gasto.
+- `description: String` — Descripción del gasto.
+- `amount: Decimal` — Costo del gasto.
+- `category: ExpenseCategory` — Categoría del gasto (ej. Food, Utilities, etc.).
+- `date: Date` — Fecha en la que se registró el gasto.
+
+**Methods:**
+- `assignToContribution(): void` — Asocia el gasto a un aporte existente.
+- `filterByCategory(category): List<Expense>` — Filtra los gastos por su categoría.
+
+#### Class: Document
+
+**Attributes:**
+- `id: UUID` — Identificador único del documento.
+- `type: String` — Tipo de documento (ej. Invoice, Receipt).
+- `fileAttachment: String` — Ruta o enlace del archivo adjunto.
+- `uploadDate: Date` — Fecha en la que se subió el documento.
+
+**Methods:**
+- `download(): File` — Permite descargar el documento.
+- `view(): void` — Muestra el contenido del documento.
+  
+#### Class: Balance
+
+**Attributes:**
+- `totalContributed: Decimal` — Total de dinero aportado por los miembros del hogar.
+- `totalSpent: Decimal` — Total de dinero gastado por el hogar.
+- `balance: Decimal` — Balance restante (aportado - gastado).
+
+**Methods:**
+- `calculateBalance(): void` — Calcula el balance financiero actual.
+- `filterByDate(d1, d2): Balance` — Filtra los datos del balance por un rango de fechas.
+- `filterByCategory(category): Balance` — Filtra el balance por categoría de gasto.
+
+#### Enumerations
+
+##### ContributionStatus
+- `Pending` — El aporte ha sido programado pero aún no se ha realizado.
+- `Contributed` — El aporte ha sido completado con éxito.
+- `Surplus` — El aporte excede el monto requerido.
+
+##### ExpenseCategory
+- `Food` — Gastos relacionados con alimentación.
+- `Utilities` — Gastos de servicios como agua, luz, gas, etc.
+- `Health` — Gastos médicos y de salud.
+- `Entertainment` — Gastos de ocio y recreación.
+- `Other` — Otros tipos de gastos no especificados.
+
+## Database Design
+
+La base de datos de **SplitEasy** ha sido diseñada bajo un enfoque relacional, permitiendo una organización eficiente y coherente de la información financiera compartida por los miembros de un hogar. La estructura busca garantizar integridad referencial y trazabilidad de aportes, gastos, documentos y balances. A continuación, se detalla el modelo entidad-relación reflejado en el diagrama de base de datos.
+
+### Database Diagram
+
+#### Household
+- `id: UUID (PK)`
+- `householdName: String`
+- `creationDate: Date`
+
+#### HouseholdMember
+- `id: UUID (PK)`
+- `name: String`
+- `email: String`
+- `householdId: UUID (FK -> Household.id)`
+
+#### HouseholdManager (extensión de HouseholdMember)
+- `isResponsible: Boolean`
+- `householdId: UUID (FK -> Household.id)`
+- `id: UUID (FK -> HouseholdMember.id)`
+
+#### Contribution
+- `id: UUID (PK)`
+- `amount: Decimal`
+- `date: Date`
+- `status: Enum (Pending, Contributed, Surplus)`
+- `memberId: UUID (FK -> HouseholdMember.id)`
+- `householdId: UUID (FK -> Household.id)`
+
+#### Expense
+- `id: UUID (PK)`
+- `description: String`
+- `amount: Decimal`
+- `category: Enum (Food, Utilities, Health, Entertainment, Other)`
+- `date: Date`
+- `householdId: UUID (FK -> Household.id)`
+
+#### Document
+- `id: UUID (PK)`
+- `type: String`
+- `fileAttachment: String`
+- `uploadDate: Date`
+- `householdId: UUID (FK -> Household.id)`
+
+#### Balance
+- `totalContributed: Decimal`
+- `totalSpent: Decimal`
+- `balance: Decimal`
+- `householdId: UUID (FK -> Household.id)`
+
+<p align="left">
+  <img src="images/bd.PNG" alt="bd" width="500">
+</p>
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
-# Subir Cap 5 
+## 5.1. Software Configuration Management
+
+### 5.1.1. Software Development Environment Configuration
+
+A continuación, se describen los productos de software empleados en el desarrollo del proyecto. Esta sección tiene como objetivo facilitar la comprensión y continuidad del trabajo a los actuales y futuros desarrolladores, asegurando una colaboración efectiva a lo largo del ciclo de vida del producto digital.
+
+#### Project Management
+- **Trello** – [https://trello.com/](https://trello.com/)  
+Se ha utilizado Trello como herramienta principal de gestión de tareas. Esta plataforma permite visualizar el progreso de cada etapa del proyecto mediante tableros personalizables, facilitando la organización de pendientes, tareas en desarrollo y actividades finalizadas. Además, su interfaz intuitiva y accesibilidad desde cualquier navegador con una cuenta registrada la convierten en una solución ágil para el seguimiento de proyectos en equipo.
+
+#### Requirements Management
+- **Google Docs** – [https://docs.google.com/](https://docs.google.com/)  
+Para la redacción, gestión y revisión de los requisitos del sistema se ha empleado Google Docs. Su funcionalidad de edición colaborativa en tiempo real ha permitido que todos los integrantes del equipo puedan aportar, comentar y revisar los documentos desde cualquier dispositivo.
+
+#### Product UX/UI Design
+- **Figma** – [https://www.figma.com/](https://www.figma.com/)  
+Figma ha sido fundamental para el diseño de interfaces y la creación de prototipos interactivos. Permite que varios usuarios trabajen simultáneamente en los wireframes y mockups, lo que ha facilitado una comunicación más eficiente entre el equipo de diseño y desarrollo.
+
+#### Software Development
+- **Landing Page (HTML, CSS, JS)** – [https://www.jetbrains.com/idea/](https://www.jetbrains.com/idea/)  
+Desarrollada con HTML5, CSS3, JavaScript y Tailwind CSS. El entorno de desarrollo fue IntelliJ IDEA Ultimate por sus herramientas avanzadas de depuración y control de versiones.
+
+- **Frontend Web Application (Angular)** – [https://www.jetbrains.com/webstorm/](https://www.jetbrains.com/webstorm/)  
+Desarrollada en Angular utilizando JetBrains WebStorm, que ofrece refactorización inteligente, integración con Git y herramientas de testing.
+
+- **Web Services (.NET Core)** – [https://www.jetbrains.com/rider/](https://www.jetbrains.com/rider/)  
+Desarrollado en ASP.NET Core con C#, usando JetBrains Rider. Se requiere el SDK de .NET disponible en [https://dotnet.microsoft.com/en-us/download](https://dotnet.microsoft.com/en-us/download).
+
+#### Software Documentation
+- **Google Docs y GitHub README**  
+La documentación del software se ha centralizado en Google Docs. El archivo `README` en GitHub incluye instrucciones de despliegue, estructura del repositorio y requerimientos técnicos.
+
+### 5.1.2. Source Code Management
+
+El equipo utiliza Git y GitHub para el control de versiones y colaboración:
+
+**Repositorios**:
+- Report: [https://github.com/1ASI0729-2510-4313-G3-SplitEasy/Report.git](https://github.com/1ASI0729-2510-4313-G3-SplitEasy/Report.git)  
+- LandingPage: [https://github.com/1ASI0729-2510-4313-G3-SplitEasy/Split-landing.git](https://github.com/1ASI0729-2510-4313-G3-SplitEasy/Split-landing.git)
+
+**Modelo de ramas - GitFlow**:
+- Rama principal: `main`
+- Rama de desarrollo: `develop`
+- Ramas de funcionalidades: `feature/{nombre-funcionalidad}`
+- Ramas de lanzamiento: `release/{version}`
+- Ramas de corrección urgente: `hotfix/{descripcion}`
+
+**Convenciones**:
+- Versionado semántico: `MAJOR.MINOR.PATCH` (ej. 1.0.0)
+- Mensajes de commit bajo estándar *Conventional Commits*:
+  - `feat:` agregar nueva funcionalidad
+  - `fix:` corrección de bug
+  - `docs:` cambios en documentación
+  - `style:` cambios de estilo sin afectar funcionalidad
+  - `refactor:` mejoras internas sin cambios funcionales
+  - `test:` añadir pruebas
+
+### 5.1.3. Source Code Style Guide & Conventions
+
+Para asegurar un código limpio y fácil de mantener, se siguen las siguientes convenciones:
+
+#### HTML
+- Todas las etiquetas deben cerrarse correctamente  
+  Ejemplo: `<p>Bienvenido a SplitEasy</p>`
+- Uso exclusivo de minúsculas para etiquetas y atributos  
+  Ejemplo: `<img src="logo.png" alt="logo">`
+- Valores de atributos entre comillas dobles  
+  Ejemplo: `<a href="#services" class="nav-link">Services</a>`
+- Uso de `alt`, `width` y `height` en imágenes  
+  Ejemplo: `<img src="images/portada.png" alt="portada" width="400" height="300">`
+
+#### CSS
+- Nombres de clase descriptivos y breves  
+  Ejemplo: `.hero-section`, `.login-button`
+- Separación con guiones  
+  Ejemplo: `.precio-card`, `#form-contacto`
+- Omisión de unidades para cero  
+  Ejemplo: `margin: 0;`
+- Código limpio: un selector y propiedad por línea
+
+#### JavaScript
+- Uso de `DOMContentLoaded` para ejecutar funciones al cargar el DOM
+- Nombres de variables representativos  
+  Ejemplo: `formContacto`, `correo`, `numero`
+- Modularización del código, evitando funciones anidadas innecesarias
+
+#### Angular
+Se siguen las directrices oficiales de [Angular Style Guide](https://v17.angular.io/guide/styleguide):
+- Estructura modular
+- Archivos y carpetas en `kebab-case`  
+  Ejemplo: `user-profile.component.ts`
+- Clases en `PascalCase`  
+  Ejemplo: `UserProfileComponent`, `GastoService`
+- Tipado estricto y uso de interfaces
+
+#### C# / ASP.NET Core
+Se siguen las [convenciones de Microsoft](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions):
+- `PascalCase` para clases, métodos y propiedades  
+  Ejemplo: `class HouseholdManager`, `void AddMember()`
+- `camelCase` para variables locales y parámetros  
+  Ejemplo: `string memberName`, `int memberId`
+- Separación de responsabilidades: Controllers, Services, Models
+- Inyección de dependencias mediante el constructor
+
+### 5.1.4. Software Deployment Configuration
+
+**Landing Page**
+- Plataforma: **Vercel**
+- Proceso: Despliegue automático al hacer push a `main` (GitHub conectado)
+
+**Frontend Web Application (Angular)**
+- Plataforma: **Vercel**
+- Proceso: Uso de `vercel.json` para rutas personalizadas. Despliegue automático en `main`
+
+**Web Services (.NET Core API)**
+- Plataforma: **Railway**
+- Proceso: Uso de `Dockerfile` para empaquetado. Railway realiza CI/CD al detectar cambios en `main`
+
+> Esta configuración asegura un ciclo de integración y despliegue continuo (CI/CD) alineado con buenas prácticas del desarrollo moderno.
 
 
+# 5.2. Landing Page, Services & Applications Implementation
+
+## 5.2.1. Sprint 1
+
+### 5.2.1.1. Sprint Planning 1
+
+A continuación, se presenta el Sprint Planning 1, donde se incluyen las evidencias de planificación e implementación del Landing Page. También se registran los avances del proyecto e insights de colaboración del equipo a través de GitHub.
+
+---
+
+### 🗓 Sprint Overview
+
+- **Sprint #:** Sprint 1  
+- **Fecha:** 15 de abril del 2025  
+- **Hora:** 15:00 horas (GMT -5)  
+- **Lugar:** Modalidad remota por Google Meet  
+- **Preparado por:** Testigos de SplitEasy  
+- **Asistentes:** Todos los miembros del grupo Testigos de SplitEasy  
+
+---
+
+### 🔄 Sprint n – 0 Review Summary
+
+Este es el primer sprint, por lo tanto, no existe un resumen de revisión de un sprint anterior.
+
+---
+
+### 🔍 Sprint n – 1 Retrospective Summary
+
+En este sprint se planea desarrollar el **Landing Page** utilizando un framework de estilos CSS, herramienta nueva para algunos miembros del equipo.  
+Además, se discutió:
+
+- El contenido de los textos del landing page.
+- El diseño previamente elaborado en Figma.
+
+📌 Al finalizar este sprint, el Landing Page debe estar desplegado en GitHub, y cualquier usuario debería poder visualizarlo a través de un enlace público.
+
+---
+
+### 🎯 Sprint Goal & User Stories
+
+- **Sprint 1 Velocity:** 2  
+- **Suma de Story Points:** 2  
+
+---
+
+> 🚀 _Objetivo del Sprint:_ Desplegar un Landing Page funcional con diseño responsive y estructura definida, accesible desde GitHub Pages.
 
