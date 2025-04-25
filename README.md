@@ -1803,3 +1803,27 @@ Desarrollar la landing page funcional de SplitEasy que permita a los visitantes 
 ---
 
  **Estado del Sprint:** COMPLETADO
+
+## 5.2.1.3. Deployment Evidence for Sprint Review
+
+A continuación, se presentan los commits más representativos realizados en el repositorio del proyecto **SplitEasy** en GitHub.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|----------------------|----------------------|
+| SplitEasy  | develop | #66 | Merge pull request #66 from develop | Integración general de funcionalidades recientes a `develop`. | 22/04/2025 |
+| SplitEasy  | develop | #68 | Merge pull request #68 from develop | Consolidación final para revisión del Sprint 1. | 23/04/2025 |
+| SplitEasy  | feature/chapter1-resume | #70 | Merge pull request #70 from chapter1-resume | Consolidación del capítulo 1 del informe del proyecto. | 23/04/2025 |
+| SplitEasy  | develop | *(sin hash)* | docs(report): document Sprint 1 planning, retrospective, and goals for Landing Page deployment | Documentación formal del Sprint 1 para el informe. | 23/04/2025 |
+| SplitEasy  | develop | *(sin hash)* | docs(sprint): document Sprint 1 backlog and tasks for SplitEasy | Registro de tareas y backlog para cierre del sprint. | 24/04/2025 |
+| SplitEasy  | develop | *(sin hash)* | docs: add interview analysis on shared household expense management for Split Easy | Inclusión de análisis de entrevista de usuario clave. | 21/04/2025 |
+| SplitEasy  | develop | *(sin hash)* | docs: add metadata for first-segment user interview with Marjorie Luna | Metadata para entrevistas cualitativas del producto. | 20/04/2025 |
+| SplitEasy  | develop | *(sin hash)* | docs: formal documentation of epics, user stories, and acceptance criteria for SplitEasy | Estructuración detallada de requisitos del proyecto. | 13/04/2025 |
+| SplitEasy  | develop | *(sin hash)* | docs: add competitive analysis table and SWOT for SplitEasy and main competitors | Análisis competitivo y matriz FODA agregados al informe. | 11/04/2025 |
+| SplitEasy  | develop | *(sin hash)* | docs: add Software Configuration Management | Agregado documento de gestión de configuración. | 22/04/2025 |
+| SplitEasy  | develop | *(sin hash)* | docs: add Web Application Prototyping | Prototipado agregado al informe de la web app. | 22/04/2025 |
+| SplitEasy  | develop | *(sin hash)* | docs: add Software Object-Oriented Design | Diseño orientado a objetos documentado. | 22/04/2025 |
+| SplitEasy  | README.md | *(sin hash)* | update in user interview video link and preview image to README | Inclusión de enlace y miniatura del video de entrevistas. | 20/04/2025 |
+| SplitEasy  | README.md | *(sin hash)* | add user interview video link and preview image to README | Primer commit con video y miniatura de entrevistas. | 20/04/2025 |
+| SplitEasy  | README.md | *(sin hash)* | update README.md | Actualización progresiva del README.md con contenido del capítulo 1. | Varias fechas |
+| SplitEasy  | develop | *(sin hash)* | assets: add UPC logo image for report cover | Se añadió logo institucional para la portada del informe. | 22/04/2025 |
+
