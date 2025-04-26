@@ -1786,9 +1786,9 @@ Desarrollar la landing page funcional de SplitEasy que permita a los visitantes 
 | W06     | Responsive features section      | Asegurar que la sección features sea responsive.                                                | 0.5            | Jhordi Luis Carranza Pérez                   | ✅ Done |
 | W07     | Proportional system section      | Explicar con gráficos o texto claro el sistema proporcional.                                   | 1.5            | Alexander Piero Fernandez Garfias           | ✅ Done |
 | W08     | Simulation section               | Mostrar ejemplos o flujos del uso de la app.                                                    | 1.5            | Alexander Piero Fernandez Garfias           | ✅ Done |
-| W09     | Call-to-action section           | Crear sección final con botón destacado de registro.                                            | 1              | Bruno Leonardo Gonzales Arotinco            | ✅ Done |
-| W10     | Footer with links                | Añadir footer con enlaces informativos y legales.                                               | 1              | Bruno Leonardo Gonzales Arotinco            | ✅ Done |
-| W11     | Responsive footer section        | Adaptar visualmente el footer a todos los dispositivos.                                         | 0.5            | Bruno Leonardo Gonzales Arotinco            | ✅ Done |
+| W09     | Call-to-action section           | Crear sección final con botón destacado de registro.                                            | 1              | Paulo Percy Quincho Gamarra              | ✅ Done |
+| W10     | Footer with links                | Añadir footer con enlaces informativos y legales.                                               | 1              | Jorge Luis Díaz Fiestas            | ✅ Done |
+| W11     | Responsive footer section        | Adaptar visualmente el footer a todos los dispositivos.                                         | 0.5            | Jorge Luis Díaz Fiestas            | ✅ Done |
 
 ---
 
