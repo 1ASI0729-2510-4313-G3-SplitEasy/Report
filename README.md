@@ -176,12 +176,6 @@ Soy una persona que me gusta cumplir con mis obligaciones de manera efectiva, au
 **Carrera:** Ingeniería de Software  
 **Descripción:**  
 Me llamo Alexander Piero Fernandez Garfias, estudio  la carrera de Ing. de Software en la UPC. Mis conocimientos técnicos van en torno a Programación en lenguajes como C++, Dart, Java |
-| <img src="images/bruno_gonzales.PNG" alt="Bruno" width="200"/> | 
-**Nombre:** Bruno Leonardo Gonzales Arotinco 
-**Código de estudiante:** U201820037
-**Carrera:** Ingeniería de Software  
-**Descripción:**  
-Me llamo Bruno Leonardo Gonzales Arotinco, estudio actualmente la carrera de Ing. de Software en la UPC. En mis tiempos libres me gusta jugar videojuegos, jugar partidos con mis amigos del barrio. Me considero una persona responsable, honrada y respetuosa |
 
 ##  Solution Profile
 
@@ -393,13 +387,13 @@ _Sabremos que estamos bien cuando veamos una reducción en pagos atrasados y un 
 
 Este documento recoge el análisis de tres entrevistas realizadas como parte del proceso de investigación para el desarrollo de la aplicación *Split Easy*, una solución digital que busca facilitar la administración justa y transparente de los gastos en el hogar.
 
-## 🎯 Objetivo de las entrevistas
+## Objetivo de las entrevistas
 
 Comprender cómo las personas organizan, distribuyen y gestionan los gastos compartidos en sus hogares, así como identificar hábitos, necesidades, dificultades y expectativas que puedan guiar el diseño de una solución tecnológica efectiva y adaptada a la realidad peruana.
 
 ---
 
-## 📋 Entrevista 1
+##  Entrevista 1
 
 **Entrevistado:** Walter Quispe  
 **Edad:** 30 años  
@@ -427,7 +421,7 @@ Comprender cómo las personas organizan, distribuyen y gestionan los gastos comp
 
 ---
 
-## 📋 Entrevista 2
+##  Entrevista 2
 
 **Entrevistado:** José Luis Carranza  
 **Edad:** 51 años  
@@ -455,7 +449,7 @@ Comprender cómo las personas organizan, distribuyen y gestionan los gastos comp
 
 ---
 
-## 📋 Entrevista 3
+##  Entrevista 3
 
 **Entrevistada:** Marjorie  
 **Edad:** 18 años  
@@ -486,15 +480,15 @@ Comprender cómo las personas organizan, distribuyen y gestionan los gastos comp
 
 ## 📌 Conclusiones generales
 
-- 💰 **El registro manual** es común, pero poco eficiente y propenso a errores u omisiones.  
-- 🔔 **Recordatorios automáticos y visualizaciones claras** (gráficos, barras, resúmenes) son altamente deseables.  
-- ⚖️ **La equidad** en los aportes es valorada, y algunos están dispuestos a usar proporciones según ingresos.  
-- 📱 **Existe interés por una app** si es simple, funcional y visualmente amigable.  
-- 🤝 **La transparencia** mejora la convivencia y reduce conflictos financieros.  
+-  **El registro manual** es común, pero poco eficiente y propenso a errores u omisiones.  
+-  **Recordatorios automáticos y visualizaciones claras** (gráficos, barras, resúmenes) son altamente deseables.  
+-  **La equidad** en los aportes es valorada, y algunos están dispuestos a usar proporciones según ingresos.  
+-  **Existe interés por una app** si es simple, funcional y visualmente amigable.  
+-  **La transparencia** mejora la convivencia y reduce conflictos financieros.  
 
 ---
 
-## 💡 Recomendaciones para el diseño de Split Easy
+##  Recomendaciones para el diseño de Split Easy
 
 1. Interfaz simple y visual (con gráficos de barras, totales pagados, pendientes, etc.).
 2. Posibilidad de registrar pagos rápidamente.
@@ -617,8 +611,8 @@ SplitEasy busca ofrecer una solución digital que permita distribuir los gastos 
 **Medio:** Meet  
 **Entrevistador:** Jorge Díaz  
 
-🎬 **Inicio del video:** 0:04  
-⏱️ **Duración:** 3 minutos y 51 segundos
+**Inicio del video:** 0:04  
+ **Duración:** 3 minutos y 51 segundos
 
 <p align="center">
   <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d534_upc_edu_pe/Eb5FlqZR0V5Lp7-xxXjuCJoB5YvtofbTZmi38i7a2z4fdA?e=x4XGYU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">
@@ -1798,7 +1792,6 @@ Desarrollar la landing page funcional de SplitEasy que permita a los visitantes 
 - Paulo Percy Quincho Gamarra  
 - Jhordi Luis Carranza Pérez  
 - Alexander Piero Fernandez Garfias  
-- Bruno Leonardo Gonzales Arotinco
 
 ---
 
