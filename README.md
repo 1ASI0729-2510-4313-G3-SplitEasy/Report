@@ -5,13 +5,13 @@
 <p align="center"><strong>Universidad Peruana de Ciencias Aplicadas</strong></p>
 
 <p align="center"><strong>Ingeniería de Software</strong><br>
-Aplicaciones Web <br>
-<strong>Profesor:</strong> Naldo Reupo-Masayon Gastulo</p>
+Desarrollo de Aplicaciones Open Source <br>
+<strong>Profesor:</strong> Alberto Wilmer Sanchez Seña </p>
 
 <h2 align="center">INFORME</h2>
 
-<h3 align="center">Startup: WorkStation</h3>
-<p align="center"><strong>Producto:</strong></p>
+<h3 align="center">Startup: ChabeCode</h3>
+<p align="center"><strong>Producto: SplitEasy</strong></p>
 
 <h3 align="center">Team Members:</h3>
 
@@ -20,7 +20,7 @@ Aplicaciones Web <br>
 | **Member**                           | **Code**     |
 |--------------------------------------|--------------|
 |Jorge Luis Díaz Fiestas      |  U20231D534  |
-|         |  |
+|Paulo Percy Quincho Gamarra         |  U20191E562 |
 |          |   |
 |       |  |
 
@@ -1712,7 +1712,7 @@ A continuación, se presenta el Sprint Planning 1, donde se incluyen las evidenc
 
 ---
 
-### 🗓 Sprint Overview
+### Sprint Overview
 
 - **Sprint #:** Sprint 1  
 - **Fecha:** 15 de abril del 2025  
@@ -1723,13 +1723,13 @@ A continuación, se presenta el Sprint Planning 1, donde se incluyen las evidenc
 
 ---
 
-### 🔄 Sprint n – 0 Review Summary
+### Sprint n – 0 Review Summary
 
 Este es el primer sprint, por lo tanto, no existe un resumen de revisión de un sprint anterior.
 
 ---
 
-### 🔍 Sprint n – 1 Retrospective Summary
+###  Sprint n – 1 Retrospective Summary
 
 En este sprint se planea desarrollar el **Landing Page** utilizando un framework de estilos CSS, herramienta nueva para algunos miembros del equipo.  
 Además, se discutió:
@@ -1737,18 +1737,18 @@ Además, se discutió:
 - El contenido de los textos del landing page.
 - El diseño previamente elaborado en Figma.
 
-📌 Al finalizar este sprint, el Landing Page debe estar desplegado en GitHub, y cualquier usuario debería poder visualizarlo a través de un enlace público.
+ Al finalizar este sprint, el Landing Page debe estar desplegado en GitHub, y cualquier usuario debería poder visualizarlo a través de un enlace público.
 
 ---
 
-### 🎯 Sprint Goal & User Stories
+### Sprint Goal & User Stories
 
 - **Sprint 1 Velocity:** 2  
 - **Suma de Story Points:** 2  
 
 ---
 
-> 🚀 _Objetivo del Sprint:_ Desplegar un Landing Page funcional con diseño responsive y estructura definida, accesible desde GitHub Pages.
+>  _Objetivo del Sprint:_ Desplegar un Landing Page funcional con diseño responsive y estructura definida, accesible desde GitHub Pages.
 
 ### 5.2.1.2. Sprint Backlog 1 – SplitEasy
 
@@ -1756,13 +1756,13 @@ Este documento corresponde al punto **5.2.1.2** del informe y resume las tareas 
 
 ---
 
-## 🚀 Sprint 1 - Objetivo
+## Sprint 1 - Objetivo
 
 Desarrollar la landing page funcional de SplitEasy que permita a los visitantes conocer la plataforma, sus beneficios y acceder fácilmente al registro o login.
 
 ---
 
-## 🧩 Historias de Usuario Abordadas (EP07 - Exploración como Visitante)
+## Historias de Usuario Abordadas (EP07 - Exploración como Visitante)
 
 | ID     | Título                                                                 |
 |--------|------------------------------------------------------------------------|
@@ -1774,7 +1774,7 @@ Desarrollar la landing page funcional de SplitEasy que permita a los visitantes 
 
 ---
 
-## 📋 Tasks del Sprint
+## Tasks del Sprint
 
 | Task ID | Título                           | Descripción                                                                                     | Estimación (h) | Asignado a                                 | Estado  |
 |---------|----------------------------------|--------------------------------------------------------------------------------------------------|----------------|----------------------------------------------|---------|
@@ -1792,7 +1792,7 @@ Desarrollar la landing page funcional de SplitEasy que permita a los visitantes 
 
 ---
 
-## 👥 Integrantes del Equipo
+## Integrantes del Equipo
 
 - Jorge Luis Díaz Fiestas  
 - Paulo Percy Quincho Gamarra  
