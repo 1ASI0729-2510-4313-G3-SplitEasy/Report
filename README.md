@@ -21,7 +21,7 @@ Desarrollo de Aplicaciones Open Source <br>
 |--------------------------------------|--------------|
 |Jorge Luis Díaz Fiestas      |  U20231D534  |
 |Paulo Percy Quincho Gamarra         |  U20191E562 |
-|          |   |
+|Alexander Piero Fernandez Garfias         |  U202019498 |
 |       |  |
 
 
