@@ -23,9 +23,6 @@ Desarrollo de Aplicaciones Open Source <br>
 |Paulo Percy Quincho Gamarra         |  U20191E562 |
 |Alexander Piero Fernandez Garfias         |  U202019498 |
 |       |  |
-
-
-
 </div>
 
 <p align="center"><strong>Abril 2025</strong></p>
@@ -50,11 +47,11 @@ Link del repositorio: https://github.com/1ASI0729-2510-4313-G3-SplitEasy/Report.
 
 Insights TB1 (Todos participaron):
 <p align="left">
-  <img src="Images/estad1.PNG" alt="tb1avance" width="500">
+  <img src="images/estad1.PNG" alt="tb1avance" width="500">
 </p>
 
 <p align="left">
-  <img src="Images/estad2.PNG" alt="tb1avance" width="500">
+  <img src="images/estad2.PNG" alt="tb1avance" width="500">
 </p>
                                                                               
 # Contenido
