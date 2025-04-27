@@ -1718,3 +1718,76 @@ A continuación, se presentan los commits más representativos realizados en el 
 | SplitEasy  | README.md | *(sin hash)* | update README.md | Actualización progresiva del README.md con contenido del capítulo 1. | Varias fechas |
 | SplitEasy  | develop | *(sin hash)* | assets: add UPC logo image for report cover | Se añadió logo institucional para la portada del informe. | 22/04/2025 |
 
+#### 5.2.1.5. Execution Evidence for Sprint Review.
+
+En este **Sprint 1**, el objetivo fue desarrollar la **landing page** funcional de SplitEasy, centrada en ofrecer a los usuarios una visión general de la plataforma, sus beneficios, y proporcionar accesos rápidos para el registro o login. Durante este Sprint se completaron las siguientes tareas clave:
+- Se implementaron secciones visuales y funcionales como la barra de navegación, sección principal (**Hero**), sección de características y sistema proporcional.
+- La sección de simulación y la llamada a la acción también fueron desarrolladas, garantizando una experiencia atractiva y fácil de navegar.
+- Además, se ajustaron todas las secciones a un diseño **responsive**, asegurando que la landing page sea accesible tanto en dispositivos móviles como de escritorio.
+
+##### Capturas de pantalla de vistas principales implementadas:
+
+###### Vista de la Landing Page
+- **Descripción**: Muestra la página principal con las secciones clave: **Hero**, **Features**, y **Proportional System**.
+
+<p align="center">
+  <img src="images/Hero.png" alt="Hero" width="500">
+</p>
+
+<p align="center">
+  <img src="images/proportionalSystem.png" alt="Proportional System" width="500">
+</p>
+
+
+###### Vista de la Sección de Registro/Login
+- **Descripción**: Acceso rápido al registro o login desde un botón destacado.
+
+<p align="center">
+  <img src="images/botonInicioSesion.png" alt="Botón de inicio de Sesión" width="500">
+</p>
+
+<p align="center">
+  <img src="images/botonCrearCuenta.png" alt="Botón de crear cuenta" width="500">
+</p>
+
+###### Vista de la Sección de Características
+- **Descripción**: Muestra las funcionalidades clave de la plataforma, tanto para representantes como para miembros.
+
+####### Funcionalidad característica de los representantes:
+- **Gestión de los Aportes que se realizan en el hogar**.
+<p align="center">
+  <img src="images/aportes.png" alt="Gestión de Aportes" width="500">
+</p>
+
+####### Funcionalidad característica de los miembros:
+- **Gestión de sus propios aportes que hacen al hogar**.
+
+<p align="center">
+  <img src="images/MisAportes.png" alt="Gestión de mis aportes" width="500">
+</p>
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+
+##### Resumen de logros:
+Durante este **Sprint 1**, se completó la documentación básica de los servicios web necesarios para las funcionalidades clave de la landing page. La documentación incluye los **endpoints** asociados con el registro y login de usuarios, así como las interacciones relacionadas con la visualización de las funciones principales de la plataforma.
+
+##### Tabla de Endpoints Documentados:
+
+| **Endpoint**              | **Acción Implementada**            | **Verbo HTTP** | **Sintaxis de Llamada**               | **Parámetros**         | **Ejemplo de Respuesta**                                              |
+|---------------------------|------------------------------------|----------------|---------------------------------------|------------------------|----------------------------------------------------------------------|
+| `/api/users/register`     | Crear un nuevo usuario             | POST           | POST /api/users/register              | `username, password`    | `{ "status": "success", "message": "User created successfully" }`     |
+| `/api/users/login`        | Iniciar sesión                     | POST           | POST /api/users/login                 | `username, password`    | `{ "status": "success", "message": "Login successful", "token": "abc123" }` |
+| `/api/features`           | Obtener características            | GET            | GET /api/features                     | Ninguno                | `{ "features": ["Feature 1", "Feature 2"] }`                         |
+| `/api/proportional-system`| Explicar sistema proporcional      | GET            | GET /api/proportional-system          | Ninguno                | `{ "description": "Proportional contribution system explained" }`   |
+
+##### Enlace al repositorio de Web Services:
+[https://github.com/1ASI0729-2510-4313-G3-SplitEasy](https://github.com/1ASI0729-2510-4313-G3-SplitEasy)
+
+##### ID de commits relacionados con la documentación:
+
+| **Commit ID** | **Commit Message**                                               | **Fecha**    |
+|---------------|------------------------------------------------------------------|--------------|
+| #66           | Merge pull request #66 from develop                              | 22/04/2025   |
+| #68           | Merge pull request #68 from develop                              | 23/04/2025   |
+| (sin hash)    | docs: formal documentation of endpoints for registration/login  | 23/04/2025   |
+| (sin hash)    | docs(sprint): document Sprint 1 backlog and tasks for SplitEasy  | 24/04/2025   |
