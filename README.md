@@ -50,11 +50,11 @@ Link del repositorio: https://github.com/1ASI0729-2510-4313-G3-SplitEasy/Report.
 
 Insights TB1 (Todos participaron):
 <p align="left">
-  <img src="Images/insightstb1.PNG" alt="tb1avance" width="500">
+  <img src="Images/estad1.PNG" alt="tb1avance" width="500">
 </p>
 
 <p align="left">
-  <img src="Images/commitstb1.PNG" alt="tb1avance" width="500">
+  <img src="Images/estad2.PNG" alt="tb1avance" width="500">
 </p>
                                                                               
 # Contenido
