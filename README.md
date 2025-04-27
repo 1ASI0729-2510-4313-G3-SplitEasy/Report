@@ -1287,7 +1287,7 @@ Se desarrolló un prototipo interactivo enfocado en la navegación web para eval
 
 Link al prototipo: https://www.figma.com/proto/KpblxTexy8JiWceW2N9VmM/Open-Source?node-id=61-17&p=f&t=a23KEfa4RMPAJZLS-1&scaling=min-zoom&content-scaling=fixed&page-id=33%3A9&starting-point-node-id=61%3A17&show-proto-sidebar=1
 
-Link del video explicativo: 
+Link del video explicativo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d534_upc_edu_pe/EeExTohQK7VDrZmrG2Ze3j8BWq2i0RG-r1I8l03WIW7eZg?e=3VCooB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 ## Domain-Driven Software Architecture
 
