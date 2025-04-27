@@ -21,7 +21,7 @@ Desarrollo de Aplicaciones Open Source <br>
 |--------------------------------------|--------------|
 |Jorge Luis Díaz Fiestas      |  U20231D534  |
 |Paulo Percy Quincho Gamarra         |  U20191E562 |
-|          |   |
+|Alexander Piero Fernandez Garfias         |  U202019498 |
 |       |  |
 
 
@@ -31,35 +31,45 @@ Desarrollo de Aplicaciones Open Source <br>
 <p align="center"><strong>Abril 2025</strong></p>
 
 # Registro de Versiones del Informe
-
-| Versión | Fecha       | Autor(es)                                                                                                  | Descripción de la modificación                                                                                                                                                       |
-|---------|-------------|------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| TB1     |   |  | |                                                                                     |
+| Versión | Fecha       | Autor(es)                                                              | Descripción                                                                                                                                         |
+|---------|-------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| TB1     | 25/03/2025  | Jorge Luis Díaz Fiestas        | Desarrollo del capítulo I: Introducción                                                                                                             |
+|         | 29/03/2025  | Ricardo Fernando Cárdenas Minaya                                       | Desarrollo del capítulo II: Competidores                                                                                                            |
+|         | 29/03/2025  |  Jhordi Luis Carranza Pérez                                        | Desarrollo del capítulo II: Entrevistas                                                                                                             |
+|         | 30/03/2025  | Paulo Percy Quincho Gamarra                                            | Desarrollo del capítulo II: Needfinding                                                                                                             |
+|         | 08/04/2025  | Paulo Percy Quincho Gamarra                                            | Desarrollo del capítulo III: To-Be Scenario Mapping y Product Backlog                                                                              |
+|         | 10/04/2025  | Paulo Percy Quincho Gamarra, Luis Gustavo Román Pajuelo                | Desarrollo del capítulo III: User stories                                                                                                           |
+|         | 12/04/2025  |  Alexander Piero Fernandez Garfias                                         | Desarrollo del capítulo III: Impact Mapping                                                                                                         |
+|         | 14/04/2025  | Paulo Percy Quincho Gamarra, Ricardo Fernando Cárdenas Minaya          | Desarrollo del capítulo IV: Style Guidelines, Landing Page UI Design, Web Applications UX/UI Design, Web Application Prototyping y Domain-Driven Software Architecture |
+|         | 16/04/2025  | Jorge Luis Díaz Fiestas                                        | Desarrollo del capítulo IV: Software Object-Oriented Design y Database Design                                                                      |
+|         | 18/04/2025  | Jhordi Luis Carranza Pérez                                          | Desarrollo del capítulo V: Software Configuration Management                                                                                       |
+|         | 20/04/2025  |  Alexander Piero Fernandez Garfias             | Desarrollo del capítulo V: Sprint Planning 1                                                                                                        |
 
 # Project Report Collaboration Insights
+Link del repositorio: https://github.com/1ASI0729-2510-4313-G3-SplitEasy/Report.git
 
-TB1: 
+Insights TB1 (Todos participaron):
+<p align="left">
+  <img src="Images/insightstb1.PNG" alt="tb1avance" width="500">
+</p>
 
-# Student Outcome
-| Criterio específico                                                                                 | Acciones realizadas | Conclusiones |
-|------------------------------------------------------------------------------------------------------|---------------------|--------------|
-| **Trabaja en equipo para proporcionar liderazgo en forma conjunta**                                          |              |
-| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.**                           |                     |              |
-|                                                                                                      |                     |              |
-
-
+<p align="left">
+  <img src="Images/commitstb1.PNG" alt="tb1avance" width="500">
+</p>
+                                                                              
 # Contenido
+
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Student Outcome](#student-outcome)
 
 ## Capítulo I: Introducción
-- [1.1 Start-up Profile](#11-start-up-profile)
+- [1.1. Start-up Profile](#11-start-up-profile)
   - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
   - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
 - [1.2. Solution Profile](#12-solution-profile)
-  - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-  - [1.2.2 Lean UX Process](#122-lean-ux-process)
+  - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+  - [1.2.2. Lean UX Process](#122-lean-ux-process)
     - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
     - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
     - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
@@ -104,8 +114,8 @@ TB1:
 - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
   - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
   - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-  - [4.4.2. Web Applications Mock-ups](#442-web-applications-mock-ups)
-  - [4.4.3. Web Applications User Flow Diagrams](#443-web-applications-user-flow-diagrams)
+  - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+  - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
 - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
 - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
   - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
@@ -117,22 +127,29 @@ TB1:
 - [4.8. Database Design](#48-database-design)
   - [4.8.1. Database Diagram](#481-database-diagram)
 
-  ## Capítulo V: Product Implementation, Validation & Deployment
+## Capítulo V: Product Implementation, Validation & Deployment
 - [5.1. Software Configuration Management](#51-software-configuration-management)
   - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
   - [5.1.2. Source Code Management](#512-source-code-management)
   - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
   - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
 - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-  - [5.2.1. Sprint ](#52x-sprint)
-    - [5.2.1.1. Sprint Planning n](#5211-sprint-planning-n)
-    - [5.2.1.2. Sprint Backlog n](#52x2-sprint-backlog-n)
+  - [5.2.1. Sprint](#521-sprint)
+    - [5.2.1.1. Sprint Planning](#5211-sprint-planning)
+    - [5.2.1.2. Sprint Backlog](#5212-sprint-backlog)
     - [5.2.1.3. Development Evidence for Sprint Review](#5213-development-evidence-for-sprint-review)
     - [5.2.1.4. Testing Suite Evidence for Sprint Review](#5214-testing-suite-evidence-for-sprint-review)
     - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
     - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
     - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
     - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+
+# Student Outcome
+| Criterio específico | Acciones realizadas | Conclusiones |
+|---------------------|---------------------|--------------|
+| Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software. | **Alexander Piero Fernandez Garfias** (TB1): Participé activamente en la elaboración de los impact maps y en la estructuración inicial del landing page. También colaboré en la revisión de las historias de usuario y en la organización de tareas mediante Trello. <br><br> **Jhordi Luis Carranza Pérez** (TB1): Redacté y revisé historias de usuario, participé en el desarrollo colaborativo del landing page y realicé observaciones y mejoras en el capítulo de conclusiones del informe. Además, apoyé en la gestión del equipo para mantener un correcto flujo de trabajo. <br><br> **Paulo Percy Quincho Gamarra** (TB1): Desarrollé el Needfinding de los segmentos objetivos y el To-Be Scenario Mapping. Asimismo, redacté historias de usuario, organicé el control de proyectos con Trello, diseñé la propuesta de landing page y aplicación web, y elaboré los diagramas C4. <br><br> **Jorge Luis Díaz Fiestas** (TB1): Colaboré en la revisión y ajuste del Product Backlog, ayudé en el desarrollo de los wireframes para las versiones desktop y mobile, y participé en la organización del contenido del video "About the Team". También apoyé en la revisión general del documento final. | Se reafirma la importancia de la comunicación a la hora de hacer las entrevistas a los diferentes segmentos objetivo que hemos definido. <br><br> Es indispensable conocer a nuestro segmento objetivo para poder darle un producto acorde a sus necesidades y que tengan una buena experiencia de usuario al ser clientes nuestros. <br><br> El desarrollo del product backlog permite tener un mejor control sobre el flujo de trabajo en equipos colaborativos. Asimismo, permite a los desarrolladores tener un panorama general y claro sobre lo que se busca desarrollar para el sprint actual. <br><br> En una entrevista acerca de nuestra aplicación, es fundamental estar abiertos a críticas y opiniones sinceras. Al escuchar activamente a los usuarios y permitirles expresar sus puntos de vista, podemos identificar áreas de mejora y realizar ajustes para satisfacer mejor sus necesidades. La retroalimentación constructiva es una oportunidad valiosa para fortalecer nuestra aplicación y brindar una experiencia de usuario excepcional. <br><br> El video about the team nos ha permitido realizar una autoevaluación del proceso de trabajo y rescatar puntos de mejora que podemos aplicar en futuros proyectos. |
+| Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software. | **Alexander Piero Fernandez Garfias** (TB1): Realicé entrevistas a usuarios del segmento objetivo y participé en el análisis de sus respuestas, logrando comprender mejor las necesidades del sector de reclutamiento. También contribuí a la identificación de tendencias en el mercado. <br><br> **Jhordi Luis Carranza Pérez** (TB1): Apoyé en la elaboración del guion para las entrevistas a los segmentos objetivos, participé en la priorización de funcionalidades y realicé un análisis comparativo de soluciones actuales en el mercado. <br><br> **Paulo Percy Quincho Gamarra** (TB1): Realicé entrevistas a miembros del segmento objetivo y colaboré en el análisis de la información obtenida. También participé en el levantamiento de requisitos para adaptar la aplicación a las necesidades detectadas. <br><br> **Jorge Luis Díaz Fiestas** (TB1): Realicé el análisis de entrevistas realizadas al segmento de reclutadores y postulantes, apoyé en el benchmarking de la competencia y colaboré en la definición de las prioridades para el MVP de nuestro producto. | La construcción de los diferentes mapas con diferentes plataformas ayuda a mejorar nuestras capacidades y expandir nuestras habilidades. <br><br> Realizar la priorización de requisitos y tareas que la aplicación debe contener es fundamental, ya que el equipo sabrá qué es lo que se tiene que entregar en primer lugar. <br><br> La comunicación interna del equipo resulta de vital importancia para mantener un correcto flujo de desempeño y lograr que todos puedan cumplir con los objetivos actuales. <br><br> La retroalimentación de los usuarios en la entrevista ha sido valiosa para mejorar nuestra aplicación y cumplir con sus necesidades. La comunicación interna y la priorización de tareas son clave para un desarrollo exitoso. <br><br> El video about the product nos permitirá presentar un demo de nuestro producto a nuestros clientes potenciales, por lo que resulta indispensable al ser una primera vista de la aplicación. <br><br> Incluir un testimonio personal en el video "About the Team" resalta las actividades y esfuerzos del proyecto, aportando una perspectiva humana y real. Es una oportunidad para compartir experiencias, desafíos superados, colaboración en equipo y aprendizajes obtenidos. |
+
 
 # Project: SplitEasy
 # Chapter 1: Introduction
