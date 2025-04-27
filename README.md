@@ -190,12 +190,6 @@ Soy una persona que me gusta cumplir con mis obligaciones de manera efectiva, au
 **Carrera:** Ingeniería de Software  
 **Descripción:**  
 Me llamo Alexander Piero Fernandez Garfias, estudio  la carrera de Ing. de Software en la UPC. Mis conocimientos técnicos van en torno a Programación en lenguajes como C++, Dart, Java |
-| <img src="images/bruno_gonzales.PNG" alt="Bruno" width="200"/> | 
-**Nombre:** Bruno Leonardo Gonzales Arotinco 
-**Código de estudiante:** U201820037
-**Carrera:** Ingeniería de Software  
-**Descripción:**  
-Me llamo Bruno Leonardo Gonzales Arotinco, estudio actualmente la carrera de Ing. de Software en la UPC. En mis tiempos libres me gusta jugar videojuegos, jugar partidos con mis amigos del barrio. Me considero una persona responsable, honrada y respetuosa |
 
 ##  Solution Profile
 
@@ -515,8 +509,8 @@ SplitEasy busca ofrecer una solución digital que permita distribuir los gastos 
 **Medio:** Meet  
 **Entrevistador:** Jorge Díaz  
 
-🎬 **Inicio del video:** 0:04  
-⏱️ **Duración:** 3 minutos y 51 segundos
+**Inicio del video:** 0:04  
+ **Duración:** 3 minutos y 51 segundos
 
 <p align="center">
   <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d534_upc_edu_pe/Eb5FlqZR0V5Lp7-xxXjuCJoB5YvtofbTZmi38i7a2z4fdA?e=x4XGYU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">
@@ -1696,7 +1690,6 @@ Desarrollar la landing page funcional de SplitEasy que permita a los visitantes 
 - Paulo Percy Quincho Gamarra  
 - Jhordi Luis Carranza Pérez  
 - Alexander Piero Fernandez Garfias  
-- Bruno Leonardo Gonzales Arotinco
 
 ---
 
