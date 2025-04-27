@@ -21,45 +21,52 @@ Desarrollo de Aplicaciones Open Source <br>
 |--------------------------------------|--------------|
 |Jorge Luis Díaz Fiestas      |  U20231D534  |
 |Paulo Percy Quincho Gamarra         |  U20191E562 |
-|          |   |
+|Alexander Piero Fernandez Garfias         |  U202019498 |
 |       |  |
-
-
-
 </div>
 
 <p align="center"><strong>Abril 2025</strong></p>
 
 # Registro de Versiones del Informe
-
-| Versión | Fecha       | Autor(es)                                                                                                  | Descripción de la modificación                                                                                                                                                       |
-|---------|-------------|------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| TB1     |   |  | |                                                                                     |
+| Versión | Fecha       | Autor(es)                                                              | Descripción                                                                                                                                         |
+|---------|-------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| TB1     | 25/03/2025  | Jorge Luis Díaz Fiestas        | Desarrollo del capítulo I: Introducción                                                                                                             |
+|         | 29/03/2025  | Ricardo Fernando Cárdenas Minaya                                       | Desarrollo del capítulo II: Competidores                                                                                                            |
+|         | 29/03/2025  |  Jhordi Luis Carranza Pérez                                        | Desarrollo del capítulo II: Entrevistas                                                                                                             |
+|         | 30/03/2025  | Paulo Percy Quincho Gamarra                                            | Desarrollo del capítulo II: Needfinding                                                                                                             |
+|         | 08/04/2025  | Paulo Percy Quincho Gamarra                                            | Desarrollo del capítulo III: To-Be Scenario Mapping y Product Backlog                                                                              |
+|         | 10/04/2025  | Paulo Percy Quincho Gamarra, Luis Gustavo Román Pajuelo                | Desarrollo del capítulo III: User stories                                                                                                           |
+|         | 12/04/2025  |  Alexander Piero Fernandez Garfias                                         | Desarrollo del capítulo III: Impact Mapping                                                                                                         |
+|         | 14/04/2025  | Paulo Percy Quincho Gamarra, Ricardo Fernando Cárdenas Minaya          | Desarrollo del capítulo IV: Style Guidelines, Landing Page UI Design, Web Applications UX/UI Design, Web Application Prototyping y Domain-Driven Software Architecture |
+|         | 16/04/2025  | Jorge Luis Díaz Fiestas                                        | Desarrollo del capítulo IV: Software Object-Oriented Design y Database Design                                                                      |
+|         | 18/04/2025  | Jhordi Luis Carranza Pérez                                          | Desarrollo del capítulo V: Software Configuration Management                                                                                       |
+|         | 20/04/2025  |  Alexander Piero Fernandez Garfias             | Desarrollo del capítulo V: Sprint Planning 1                                                                                                        |
 
 # Project Report Collaboration Insights
+Link del repositorio: https://github.com/1ASI0729-2510-4313-G3-SplitEasy/Report.git
 
-TB1: 
+Insights TB1 (Todos participaron):
+<p align="left">
+  <img src="images/estad1.PNG" alt="tb1avance" width="500">
+</p>
 
-# Student Outcome
-| Criterio específico                                                                                 | Acciones realizadas | Conclusiones |
-|------------------------------------------------------------------------------------------------------|---------------------|--------------|
-| **Trabaja en equipo para proporcionar liderazgo en forma conjunta**                                          |              |
-| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.**                           |                     |              |
-|                                                                                                      |                     |              |
-
-
+<p align="left">
+  <img src="images/estad2.PNG" alt="tb1avance" width="500">
+</p>
+                                                                              
 # Contenido
+
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Student Outcome](#student-outcome)
 
 ## Capítulo I: Introducción
-- [1.1 Start-up Profile](#11-start-up-profile)
+- [1.1. Start-up Profile](#11-start-up-profile)
   - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
   - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
 - [1.2. Solution Profile](#12-solution-profile)
-  - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-  - [1.2.2 Lean UX Process](#122-lean-ux-process)
+  - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+  - [1.2.2. Lean UX Process](#122-lean-ux-process)
     - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
     - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
     - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
@@ -104,8 +111,8 @@ TB1:
 - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
   - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
   - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-  - [4.4.2. Web Applications Mock-ups](#442-web-applications-mock-ups)
-  - [4.4.3. Web Applications User Flow Diagrams](#443-web-applications-user-flow-diagrams)
+  - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+  - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
 - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
 - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
   - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
@@ -117,22 +124,29 @@ TB1:
 - [4.8. Database Design](#48-database-design)
   - [4.8.1. Database Diagram](#481-database-diagram)
 
-  ## Capítulo V: Product Implementation, Validation & Deployment
+## Capítulo V: Product Implementation, Validation & Deployment
 - [5.1. Software Configuration Management](#51-software-configuration-management)
   - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
   - [5.1.2. Source Code Management](#512-source-code-management)
   - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
   - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
 - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-  - [5.2.1. Sprint ](#52x-sprint)
-    - [5.2.1.1. Sprint Planning n](#5211-sprint-planning-n)
-    - [5.2.1.2. Sprint Backlog n](#52x2-sprint-backlog-n)
+  - [5.2.1. Sprint](#521-sprint)
+    - [5.2.1.1. Sprint Planning](#5211-sprint-planning)
+    - [5.2.1.2. Sprint Backlog](#5212-sprint-backlog)
     - [5.2.1.3. Development Evidence for Sprint Review](#5213-development-evidence-for-sprint-review)
     - [5.2.1.4. Testing Suite Evidence for Sprint Review](#5214-testing-suite-evidence-for-sprint-review)
     - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
     - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
     - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
     - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+
+# Student Outcome
+| Criterio específico | Acciones realizadas | Conclusiones |
+|---------------------|---------------------|--------------|
+| Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software. | **Alexander Piero Fernandez Garfias** (TB1): Participé activamente en la elaboración de los impact maps y en la estructuración inicial del landing page. También colaboré en la revisión de las historias de usuario y en la organización de tareas mediante Trello. <br><br> **Jhordi Luis Carranza Pérez** (TB1): Redacté y revisé historias de usuario, participé en el desarrollo colaborativo del landing page y realicé observaciones y mejoras en el capítulo de conclusiones del informe. Además, apoyé en la gestión del equipo para mantener un correcto flujo de trabajo. <br><br> **Paulo Percy Quincho Gamarra** (TB1): Desarrollé el Needfinding de los segmentos objetivos y el To-Be Scenario Mapping. Asimismo, redacté historias de usuario, organicé el control de proyectos con Trello, diseñé la propuesta de landing page y aplicación web, y elaboré los diagramas C4. <br><br> **Jorge Luis Díaz Fiestas** (TB1): Colaboré en la revisión y ajuste del Product Backlog, ayudé en el desarrollo de los wireframes para las versiones desktop y mobile, y participé en la organización del contenido del video "About the Team". También apoyé en la revisión general del documento final. | Se reafirma la importancia de la comunicación a la hora de hacer las entrevistas a los diferentes segmentos objetivo que hemos definido. <br><br> Es indispensable conocer a nuestro segmento objetivo para poder darle un producto acorde a sus necesidades y que tengan una buena experiencia de usuario al ser clientes nuestros. <br><br> El desarrollo del product backlog permite tener un mejor control sobre el flujo de trabajo en equipos colaborativos. Asimismo, permite a los desarrolladores tener un panorama general y claro sobre lo que se busca desarrollar para el sprint actual. <br><br> En una entrevista acerca de nuestra aplicación, es fundamental estar abiertos a críticas y opiniones sinceras. Al escuchar activamente a los usuarios y permitirles expresar sus puntos de vista, podemos identificar áreas de mejora y realizar ajustes para satisfacer mejor sus necesidades. La retroalimentación constructiva es una oportunidad valiosa para fortalecer nuestra aplicación y brindar una experiencia de usuario excepcional. <br><br> El video about the team nos ha permitido realizar una autoevaluación del proceso de trabajo y rescatar puntos de mejora que podemos aplicar en futuros proyectos. |
+| Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software. | **Alexander Piero Fernandez Garfias** (TB1): Realicé entrevistas a usuarios del segmento objetivo y participé en el análisis de sus respuestas, logrando comprender mejor las necesidades del sector de reclutamiento. También contribuí a la identificación de tendencias en el mercado. <br><br> **Jhordi Luis Carranza Pérez** (TB1): Apoyé en la elaboración del guion para las entrevistas a los segmentos objetivos, participé en la priorización de funcionalidades y realicé un análisis comparativo de soluciones actuales en el mercado. <br><br> **Paulo Percy Quincho Gamarra** (TB1): Realicé entrevistas a miembros del segmento objetivo y colaboré en el análisis de la información obtenida. También participé en el levantamiento de requisitos para adaptar la aplicación a las necesidades detectadas. <br><br> **Jorge Luis Díaz Fiestas** (TB1): Realicé el análisis de entrevistas realizadas al segmento de reclutadores y postulantes, apoyé en el benchmarking de la competencia y colaboré en la definición de las prioridades para el MVP de nuestro producto. | La construcción de los diferentes mapas con diferentes plataformas ayuda a mejorar nuestras capacidades y expandir nuestras habilidades. <br><br> Realizar la priorización de requisitos y tareas que la aplicación debe contener es fundamental, ya que el equipo sabrá qué es lo que se tiene que entregar en primer lugar. <br><br> La comunicación interna del equipo resulta de vital importancia para mantener un correcto flujo de desempeño y lograr que todos puedan cumplir con los objetivos actuales. <br><br> La retroalimentación de los usuarios en la entrevista ha sido valiosa para mejorar nuestra aplicación y cumplir con sus necesidades. La comunicación interna y la priorización de tareas son clave para un desarrollo exitoso. <br><br> El video about the product nos permitirá presentar un demo de nuestro producto a nuestros clientes potenciales, por lo que resulta indispensable al ser una primera vista de la aplicación. <br><br> Incluir un testimonio personal en el video "About the Team" resalta las actividades y esfuerzos del proyecto, aportando una perspectiva humana y real. Es una oportunidad para compartir experiencias, desafíos superados, colaboración en equipo y aprendizajes obtenidos. |
+
 
 # Project: SplitEasy
 # Chapter 1: Introduction
@@ -176,12 +190,6 @@ Soy una persona que me gusta cumplir con mis obligaciones de manera efectiva, au
 **Carrera:** Ingeniería de Software  
 **Descripción:**  
 Me llamo Alexander Piero Fernandez Garfias, estudio  la carrera de Ing. de Software en la UPC. Mis conocimientos técnicos van en torno a Programación en lenguajes como C++, Dart, Java |
-| <img src="images/bruno_gonzales.PNG" alt="Bruno" width="200"/> | 
-**Nombre:** Bruno Leonardo Gonzales Arotinco 
-**Código de estudiante:** U201820037
-**Carrera:** Ingeniería de Software  
-**Descripción:**  
-Me llamo Bruno Leonardo Gonzales Arotinco, estudio actualmente la carrera de Ing. de Software en la UPC. En mis tiempos libres me gusta jugar videojuegos, jugar partidos con mis amigos del barrio. Me considero una persona responsable, honrada y respetuosa |
 
 ##  Solution Profile
 
@@ -389,122 +397,6 @@ _Sabremos que estamos bien cuando veamos una reducción en pagos atrasados y un 
 
 # Chapter 2: Requirements Elicitation & Analysis
 
-# Análisis de entrevistas sobre la gestión de gastos compartidos en el hogar
-
-Este documento recoge el análisis de tres entrevistas realizadas como parte del proceso de investigación para el desarrollo de la aplicación *Split Easy*, una solución digital que busca facilitar la administración justa y transparente de los gastos en el hogar.
-
-## 🎯 Objetivo de las entrevistas
-
-Comprender cómo las personas organizan, distribuyen y gestionan los gastos compartidos en sus hogares, así como identificar hábitos, necesidades, dificultades y expectativas que puedan guiar el diseño de una solución tecnológica efectiva y adaptada a la realidad peruana.
-
----
-
-## 📋 Entrevista 1
-
-**Entrevistado:** Walter Quispe  
-**Edad:** 30 años  
-**Situación:** Vive con su pareja y ambos trabajan.  
-
-### Preguntas y respuestas relevantes
-
-- **¿Cómo reparten los gastos?**  
-  Divididos en partes iguales. Usan una libreta para registrar gastos fijos como luz, agua y alquiler.
-
-- **¿Qué dificultades enfrentan?**  
-  A veces se olvidan de registrar los pagos o no coinciden con los montos reales. También hay gastos pequeños que no anotan.
-
-- **¿Usan alguna herramienta digital?**  
-  No. Solo usan una libreta o a veces notas del celular.
-
-- **¿Qué funcionalidades esperaría de una app?**  
-  Que registre pagos, divida gastos automáticamente, calcule saldos pendientes y notifique cuándo alguien aún no paga.
-
-### Hallazgos
-
-- Existe disposición a usar una herramienta si es sencilla y clara.  
-- El registro manual es común pero poco confiable.  
-- Las notificaciones y recordatorios serían un valor añadido.  
-
----
-
-## 📋 Entrevista 2
-
-**Entrevistado:** José Luis Carranza  
-**Edad:** 51 años  
-**Situación:** Vive con su esposa. Ambos administran y comparten gastos.  
-
-### Preguntas y respuestas relevantes
-
-- **¿Cómo organizan los ingresos y gastos?**  
-  Hacen un balance mensual tras recibir el sueldo. Dividen los gastos equitativamente.
-
-- **¿Qué dificultades enfrentan?**  
-  Gastos imprevistos que no se planifican. Compensan estos casos según posibilidades.
-
-- **¿Usan alguna herramienta digital?**  
-  No. Usan un cuaderno para registrar todo.
-
-- **¿Qué funcionalidades esperaría de una app?**  
-  Registrar ingresos y gastos, conexión con pagos en línea (servicios, internet), control total del flujo financiero.
-
-### Hallazgos
-
-- La transparencia es fundamental para mantener la confianza en la pareja.  
-- Hay apertura a registrar ingresos individuales para calcular automáticamente los aportes.  
-- Se valora una herramienta que no solo registre, sino que se conecte con medios de pago digitales.  
-
----
-
-## 📋 Entrevista 3
-
-**Entrevistada:** Marjorie  
-**Edad:** 18 años  
-**Situación:** Vive con una amiga (roommates).  
-
-### Preguntas y respuestas relevantes
-
-- **¿Cómo se reparten los gastos?**  
-  Todo se divide en partes iguales: alquiler, servicios, limpieza, alimentos.
-
-- **¿Qué dificultades enfrentan?**  
-  Falta de memoria sobre quién pagó qué, y a veces no se actualiza el registro compartido.
-
-- **¿Usan alguna herramienta digital?**  
-  Nota compartida en el celular. Funciona pero es desordenada.
-
-- **¿Qué funcionalidades esperaría de una app?**  
-  Registrar pagos, dividir entre personas, enviar recordatorios, ver resúmenes del mes.  
-  Desea algo visual como gráficos o barras que indiquen lo pagado, lo que falta y lo que le toca a cada una.
-
-### Hallazgos
-
-- La herramienta debe ser clara, visual y fácil de usar.  
-- El orden y la equidad son necesarios para evitar malentendidos.  
-- La funcionalidad de resumen visual es altamente valorada.
-
----
-
-## 📌 Conclusiones generales
-
-- 💰 **El registro manual** es común, pero poco eficiente y propenso a errores u omisiones.  
-- 🔔 **Recordatorios automáticos y visualizaciones claras** (gráficos, barras, resúmenes) son altamente deseables.  
-- ⚖️ **La equidad** en los aportes es valorada, y algunos están dispuestos a usar proporciones según ingresos.  
-- 📱 **Existe interés por una app** si es simple, funcional y visualmente amigable.  
-- 🤝 **La transparencia** mejora la convivencia y reduce conflictos financieros.  
-
----
-
-## 💡 Recomendaciones para el diseño de Split Easy
-
-1. Interfaz simple y visual (con gráficos de barras, totales pagados, pendientes, etc.).
-2. Posibilidad de registrar pagos rápidamente.
-3. Funcionalidad para dividir gastos en partes iguales o por porcentaje según ingresos.
-4. Notificaciones automáticas para recordar pagos pendientes.
-5. Integración opcional con apps bancarias o métodos de pago digitales.
-6. Resumen mensual claro de ingresos, egresos y balance por persona.
-
----
-
 ## Competidores
 ### Analisis Competitivo
 
@@ -617,8 +509,8 @@ SplitEasy busca ofrecer una solución digital que permita distribuir los gastos 
 **Medio:** Meet  
 **Entrevistador:** Jorge Díaz  
 
-🎬 **Inicio del video:** 0:04  
-⏱️ **Duración:** 3 minutos y 51 segundos
+**Inicio del video:** 0:04  
+ **Duración:** 3 minutos y 51 segundos
 
 <p align="center">
   <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d534_upc_edu_pe/Eb5FlqZR0V5Lp7-xxXjuCJoB5YvtofbTZmi38i7a2z4fdA?e=x4XGYU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">
@@ -1389,7 +1281,13 @@ Navegación jerárquica para volver a secciones anteriores o más generales.
   <img src="images/wau.PNG" alt="wau" width="500">
 </p>
 
-## Web Applications Prototyping (Falta)
+## Web Applications Prototyping 
+
+Se desarrolló un prototipo interactivo enfocado en la navegación web para evaluar y mejorar la accesibilidad y la experiencia de usuario antes del lanzamiento final. Este modelo simula fielmente el recorrido dentro del sitio, permitiendo explorar secciones y flujos como en la versión definitiva. Diseñado con una arquitectura clara, jerarquía visual coherente y principios de diseño inclusivo, garantiza una navegación intuitiva y accesible. Gracias a sus maquetas de alta fidelidad, el prototipo permite validar decisiones de diseño, detectar fricciones y asegurar una experiencia de uso consistente.
+
+Link al prototipo: https://www.figma.com/proto/KpblxTexy8JiWceW2N9VmM/Open-Source?node-id=61-17&p=f&t=a23KEfa4RMPAJZLS-1&scaling=min-zoom&content-scaling=fixed&page-id=33%3A9&starting-point-node-id=61%3A17&show-proto-sidebar=1
+
+Link del video explicativo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d534_upc_edu_pe/EeExTohQK7VDrZmrG2Ze3j8BWq2i0RG-r1I8l03WIW7eZg?e=3VCooB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 ## Domain-Driven Software Architecture
 
@@ -1798,7 +1696,6 @@ Desarrollar la landing page funcional de SplitEasy que permita a los visitantes 
 - Paulo Percy Quincho Gamarra  
 - Jhordi Luis Carranza Pérez  
 - Alexander Piero Fernandez Garfias  
-- Bruno Leonardo Gonzales Arotinco
 
 ---
 
@@ -1827,3 +1724,76 @@ A continuación, se presentan los commits más representativos realizados en el 
 | SplitEasy  | README.md | *(sin hash)* | update README.md | Actualización progresiva del README.md con contenido del capítulo 1. | Varias fechas |
 | SplitEasy  | develop | *(sin hash)* | assets: add UPC logo image for report cover | Se añadió logo institucional para la portada del informe. | 22/04/2025 |
 
+#### 5.2.1.5. Execution Evidence for Sprint Review.
+
+En este **Sprint 1**, el objetivo fue desarrollar la **landing page** funcional de SplitEasy, centrada en ofrecer a los usuarios una visión general de la plataforma, sus beneficios, y proporcionar accesos rápidos para el registro o login. Durante este Sprint se completaron las siguientes tareas clave:
+- Se implementaron secciones visuales y funcionales como la barra de navegación, sección principal (**Hero**), sección de características y sistema proporcional.
+- La sección de simulación y la llamada a la acción también fueron desarrolladas, garantizando una experiencia atractiva y fácil de navegar.
+- Además, se ajustaron todas las secciones a un diseño **responsive**, asegurando que la landing page sea accesible tanto en dispositivos móviles como de escritorio.
+
+##### Capturas de pantalla de vistas principales implementadas:
+
+###### Vista de la Landing Page
+- **Descripción**: Muestra la página principal con las secciones clave: **Hero**, **Features**, y **Proportional System**.
+
+<p align="center">
+  <img src="images/Hero.png" alt="Hero" width="500">
+</p>
+
+<p align="center">
+  <img src="images/proportionalSystem.png" alt="Proportional System" width="500">
+</p>
+
+
+###### Vista de la Sección de Registro/Login
+- **Descripción**: Acceso rápido al registro o login desde un botón destacado.
+
+<p align="center">
+  <img src="images/botonInicioSesion.png" alt="Botón de inicio de Sesión" width="500">
+</p>
+
+<p align="center">
+  <img src="images/botonCrearCuenta.png" alt="Botón de crear cuenta" width="500">
+</p>
+
+###### Vista de la Sección de Características
+- **Descripción**: Muestra las funcionalidades clave de la plataforma, tanto para representantes como para miembros.
+
+####### Funcionalidad característica de los representantes:
+- **Gestión de los Aportes que se realizan en el hogar**.
+<p align="center">
+  <img src="images/aportes.png" alt="Gestión de Aportes" width="500">
+</p>
+
+####### Funcionalidad característica de los miembros:
+- **Gestión de sus propios aportes que hacen al hogar**.
+
+<p align="center">
+  <img src="images/MisAportes.png" alt="Gestión de mis aportes" width="500">
+</p>
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+
+##### Resumen de logros:
+Durante este **Sprint 1**, se completó la documentación básica de los servicios web necesarios para las funcionalidades clave de la landing page. La documentación incluye los **endpoints** asociados con el registro y login de usuarios, así como las interacciones relacionadas con la visualización de las funciones principales de la plataforma.
+
+##### Tabla de Endpoints Documentados:
+
+| **Endpoint**              | **Acción Implementada**            | **Verbo HTTP** | **Sintaxis de Llamada**               | **Parámetros**         | **Ejemplo de Respuesta**                                              |
+|---------------------------|------------------------------------|----------------|---------------------------------------|------------------------|----------------------------------------------------------------------|
+| `/api/users/register`     | Crear un nuevo usuario             | POST           | POST /api/users/register              | `username, password`    | `{ "status": "success", "message": "User created successfully" }`     |
+| `/api/users/login`        | Iniciar sesión                     | POST           | POST /api/users/login                 | `username, password`    | `{ "status": "success", "message": "Login successful", "token": "abc123" }` |
+| `/api/features`           | Obtener características            | GET            | GET /api/features                     | Ninguno                | `{ "features": ["Feature 1", "Feature 2"] }`                         |
+| `/api/proportional-system`| Explicar sistema proporcional      | GET            | GET /api/proportional-system          | Ninguno                | `{ "description": "Proportional contribution system explained" }`   |
+
+##### Enlace al repositorio de Web Services:
+[https://github.com/1ASI0729-2510-4313-G3-SplitEasy](https://github.com/1ASI0729-2510-4313-G3-SplitEasy)
+
+##### ID de commits relacionados con la documentación:
+
+| **Commit ID** | **Commit Message**                                               | **Fecha**    |
+|---------------|------------------------------------------------------------------|--------------|
+| #66           | Merge pull request #66 from develop                              | 22/04/2025   |
+| #68           | Merge pull request #68 from develop                              | 23/04/2025   |
+| (sin hash)    | docs: formal documentation of endpoints for registration/login  | 23/04/2025   |
+| (sin hash)    | docs(sprint): document Sprint 1 backlog and tasks for SplitEasy  | 24/04/2025   |
