@@ -1577,7 +1577,7 @@ Se incluyen índices adicionales para mejorar el rendimiento de consultas:
 - Mantenimiento: una estructura clara y bien normalizada facilita la administración y evolución del sistema.
 
 <p align="left">
-  <img src="images/bd.PNG" alt="bd" width="500">
+  <img src="images/bd.png.png" alt="bd" width="500">
 </p>
 
 # Capítulo V: Product Implementation, Validation & Deployment
@@ -1651,7 +1651,7 @@ Para asegurar un código limpio y fácil de mantener, se siguen las siguientes c
 - Valores de atributos entre comillas dobles  
   Ejemplo: `<a href="#services" class="nav-link">Services</a>`
 - Uso de `alt`, `width` y `height` en imágenes  
-  Ejemplo: `<img src="images/portada.png" alt="portada" width="400" height="300">`
+  Ejemplo: `<img src="images/portada.png" alt="portada" width="400"db height="300">`
 
 #### CSS
 - Nombres de clase descriptivos y breves  
