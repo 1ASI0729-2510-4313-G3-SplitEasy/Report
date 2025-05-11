@@ -1422,56 +1422,159 @@ Link del video explicativo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2
 - `Entertainment` — Gastos de ocio y recreación.
 - `Other` — Otros tipos de gastos no especificados.
 
-## Database Design
+# SplitEasy - Database Design
 
-La base de datos de **SplitEasy** ha sido diseñada bajo un enfoque relacional, permitiendo una organización eficiente y coherente de la información financiera compartida por los miembros de un hogar. La estructura busca garantizar integridad referencial y trazabilidad de aportes, gastos, documentos y balances. A continuación, se detalla el modelo entidad-relación reflejado en el diagrama de base de datos.
+## Descripción General
 
-### Database Diagram
+La base de datos de **SplitEasy** ha sido diseñada bajo un enfoque relacional, orientado a la gestión financiera colaborativa dentro del hogar. Su estructura busca garantizar integridad referencial, equidad en la distribución de gastos y transparencia entre los miembros. Soporta funcionalidades clave como el cálculo proporcional de contribuciones, seguimiento de pagos, notificaciones automáticas, metas financieras compartidas, entre otras.
 
-#### Household
-- `id: UUID (PK)`
-- `householdName: String`
-- `creationDate: Date`
+---
 
-#### HouseholdMember
-- `id: UUID (PK)`
-- `name: String`
-- `email: String`
-- `householdId: UUID (FK -> Household.id)`
+## Diagrama Entidad-Relación
 
-#### HouseholdManager (extensión de HouseholdMember)
-- `isResponsible: Boolean`
-- `householdId: UUID (FK -> Household.id)`
-- `id: UUID (FK -> HouseholdMember.id)`
+A continuación se describen las principales entidades y sus atributos:
 
-#### Contribution
-- `id: UUID (PK)`
-- `amount: Decimal`
-- `date: Date`
-- `status: Enum (Pending, Contributed, Surplus)`
-- `memberId: UUID (FK -> HouseholdMember.id)`
-- `householdId: UUID (FK -> Household.id)`
+---
 
-#### Expense
-- `id: UUID (PK)`
-- `description: String`
-- `amount: Decimal`
-- `category: Enum (Food, Utilities, Health, Entertainment, Other)`
-- `date: Date`
-- `householdId: UUID (FK -> Household.id)`
+### Household
+Entidad principal que representa un hogar.
 
-#### Document
-- `id: UUID (PK)`
-- `type: String`
-- `fileAttachment: String`
-- `uploadDate: Date`
-- `householdId: UUID (FK -> Household.id)`
+- `id`: INT (PK)
+- `householdName`: VARCHAR
+- `creationDate`: DATE
 
-#### Balance
-- `totalContributed: Decimal`
-- `totalSpent: Decimal`
-- `balance: Decimal`
-- `householdId: UUID (FK -> Household.id)`
+---
+
+### HouseholdMember
+Miembros que viven en un hogar determinado.
+
+- `id`: INT (PK)
+- `userId`: INT (FK → UserAccount.id)
+- `name`: VARCHAR
+- `householdId`: INT (FK → Household.id)
+- `isManager`: BIT
+
+---
+
+### UserAccount
+Representa las credenciales de acceso del usuario.
+
+- `id`: INT (PK)
+- `email`: VARCHAR (único)
+- `passwordHash`: VARCHAR
+
+---
+
+### Income
+Registra los ingresos individuales de cada miembro del hogar.
+
+- `id`: INT (PK)
+- `memberId`: INT (FK → HouseholdMember.id)
+- `amount`: DECIMAL
+- `incomeDate`: DATE
+
+---
+
+### Contribution
+Aportes financieros registrados por cada miembro.
+
+- `id`: INT (PK)
+- `amount`: DECIMAL
+- `date`: DATE
+- `description`: VARCHAR
+- `memberId`: INT (FK → HouseholdMember.id)
+- `householdId`: INT (FK → Household.id)
+
+---
+
+### ContributionShare
+Define el porcentaje proporcional de responsabilidad financiera de cada miembro, calculado en función de sus ingresos.
+
+- `id`: INT (PK)
+- `memberId`: INT (FK → HouseholdMember.id)
+- `householdId`: INT (FK → Household.id)
+- `sharePercentage`: DECIMAL(5,2)
+- `calculatedOn`: DATE
+
+---
+
+### Expense
+Representa los gastos comunes del hogar.
+
+- `id`: INT (PK)
+- `description`: VARCHAR
+- `amount`: DECIMAL
+- `category`: VARCHAR (Food, Utilities, Health, etc.)
+- `date`: DATE
+- `createdBy`: INT (FK → HouseholdMember.id)
+- `householdId`: INT (FK → Household.id)
+
+---
+
+### Payment
+Registra los pagos realizados por los miembros para cubrir los gastos.
+
+- `id`: INT (PK)
+- `expenseId`: INT (FK → Expense.id)
+- `memberId`: INT (FK → HouseholdMember.id)
+- `amountPaid`: DECIMAL
+- `paymentDate`: DATE
+
+---
+
+### Notification
+Alertas automáticas enviadas a los miembros del hogar.
+
+- `id`: INT (PK)
+- `memberId`: INT (FK → HouseholdMember.id)
+- `message`: VARCHAR
+- `isRead`: BIT
+- `createdAt`: DATETIME
+
+---
+
+### Goal
+Metas financieras definidas por el hogar.
+
+- `id`: INT (PK)
+- `householdId`: INT (FK → Household.id)
+- `description`: VARCHAR
+- `targetAmount`: DECIMAL
+- `dueDate`: DATE
+
+---
+
+## Vista: `vw_MemberBalance`
+
+Consulta resumen del balance individual por miembro del hogar:
+
+- `memberId`
+- `name`
+- `householdName`
+- `totalIncome`
+- `totalContributed`
+- `totalPaidExpenses`
+
+---
+
+## Índices
+
+Se incluyen índices adicionales para mejorar el rendimiento de consultas:
+
+- `Income.memberId`
+- `Contribution.memberId`
+- `Expense.householdId`
+- `Payment.expenseId`
+- `Notification.memberId`
+
+---
+
+## Objetivos del Diseño
+
+- Transparencia: cada miembro puede ver su historial y estado financiero.
+- Equidad: los gastos se distribuyen proporcionalmente en función de los ingresos.
+- Escalabilidad: permite añadir nuevas funcionalidades sin alterar el núcleo del sistema.
+- Mantenimiento: una estructura clara y bien normalizada facilita la administración y evolución del sistema.
 
 <p align="left">
   <img src="images/bd.PNG" alt="bd" width="500">
