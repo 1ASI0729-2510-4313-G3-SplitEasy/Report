@@ -603,14 +603,14 @@ En esta sección se presentarán los user journey mapping para cada user persona
 
 
 <p align="left">
-  <img src="images/ScenarioMapping1S1.png"">
+  <img src="images/UserJourney11.jpeg"">
 </p>
 
 ### Segmento 2: Representante del hogar
 
 
 <p align="left">
-  <img src="images/ScenarioMapping1S2.png" ">
+  <img src="images/UserJourney22.jpeg" ">
 </p>
 
 ### Empathy Mapping
