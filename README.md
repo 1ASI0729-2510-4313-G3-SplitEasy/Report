@@ -597,22 +597,17 @@ En esta sección se presenta la User Task Matrix, una herramienta enfocada en lo
 | Resolver conflictos por dinero entre miembros              | Rarely                                 | High                                | Rarely                                     | High                                |
 
 ### User Journey Mapping
+En esta sección se presentarán los user journey mapping para cada user persona. El recorrido comienza cuando una persona del hogar recibe una notificación relacionada a un nuevo gasto compartido, enviada a través de SplitEasy. A partir de ello, consulta su historial de aportes y visualiza cuánto han pagado otros miembros del hogar. Luego, se realiza el cálculo proporcional de lo que debe aportar, basado en reglas previamente acordadas. Posteriormente, se comunica con otros miembros en caso de dudas o para validar el monto. El recorrido finaliza cuando realiza el pago de su parte desde la aplicación o mediante un enlace compartido.
 
 ### Segmento 1: Personas del hogar
 
-El journey de este segmento refleja a un miembro del hogar que busca una forma justa y equitativa de distribuir los gastos del hogar entre los diferentes miembros. Actualmente, el proceso de distribución de gastos es manual y genera conflictos debido a la falta de claridad y transparencia.
 
 <p align="left">
   <img src="images/UserJourney1.PNG" alt="UserJourney1" width="500">
 </p>
 
-**Emoción final:** Inseguridad y frustración, ya que el proceso es manual, desorganizado y genera confusión.
-
 ### Segmento 2: Representante del hogar
 
-El journey de este segmento refleja a una persona encargada de la planificación financiera del hogar. Aunque tiene la intención de distribuir los gastos de manera equitativa, actualmente carece de una herramienta eficiente para llevar un control claro y justo, lo que provoca estrés y desconfianza entre los miembros del hogar.
-
-**Emoción final:** Estrés y desconcierto, ya que la distribución de gastos es confusa y la comunicación no es eficiente.
 
 <p align="left">
   <img src="images/UserJourney2.PNG" alt="UserJourney2" width="500">
