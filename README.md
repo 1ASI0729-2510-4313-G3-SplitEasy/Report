@@ -678,11 +678,15 @@ En esta sección se presentarán los user journey mapping para cada user persona
 
 ### Segmento 1: Miembros del hogar
 
-<p align="left"> <img src="images/ScenarioMapping2S2.PNG""> </p>
+<p align="left">
+  <img src="images/ScenarioMapping2S22.png"">
+</p>
 
 ### Segmento 2: Representante del hogar
 
-<p align="left"> <img src="images/ScenarioMapping2S21.PNG""> </p>
+<p align="left">
+  <img src="images/ScenarioMapping2S21.png"">
+</p>
 
 ## User Stories
 ### Epic
