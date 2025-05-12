@@ -1262,7 +1262,7 @@ Link del video explicativo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2
 ### Software Architecture Context Diagram
 
 <p align="left">
-  <img src="images/sacd.PNG" alt="sacd" width="500">
+  <img src="images/ArchitectureC4.PNG" alt="sacd" width="500">
 </p>
 
 ### Software Architecture Container Diagrams
