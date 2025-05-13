@@ -791,13 +791,13 @@ En esta sección se presentarán los user journey mapping para cada user persona
 ### Segmento 1: Miembros del hogar
 
 <p align="left">
-  <img src="images/Impact1.PNG" alt="Impact1" width="500">
+  <img src="images/ImpactMappingS1.png" alt="Impact1" width="500">
 </p>
 
 ### Segmento 2: Representante del hogar
 
 <p align="left">
-  <img src="images/Impact2.PNG" alt="Impact2" width="500">
+  <img src="images/ImpactMappingS2.png" alt="Impact2" width="500">
 </p>
 
 ## Product Backlog
