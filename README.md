@@ -1266,7 +1266,7 @@ Link del video explicativo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2
 ### Software Architecture Components Diagrams
 
 <p align="left">
-  <img src="images/sacd2.PNG" alt="sacd2" width="500">
+  <img src="images/ComponentsC4.png" alt="sacd2" width="500">
 </p>
 
 ## Software Object-Oriented Design
