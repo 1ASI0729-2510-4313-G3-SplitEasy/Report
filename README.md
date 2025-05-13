@@ -1388,53 +1388,8 @@ La base de datos de **SplitEasy** ha sido diseñada bajo un enfoque relacional, 
 
 ### Database Diagram
 
-#### Household
-- `id: UUID (PK)`
-- `householdName: String`
-- `creationDate: Date`
-
-#### HouseholdMember
-- `id: UUID (PK)`
-- `name: String`
-- `email: String`
-- `householdId: UUID (FK -> Household.id)`
-
-#### HouseholdManager (extensión de HouseholdMember)
-- `isResponsible: Boolean`
-- `householdId: UUID (FK -> Household.id)`
-- `id: UUID (FK -> HouseholdMember.id)`
-
-#### Contribution
-- `id: UUID (PK)`
-- `amount: Decimal`
-- `date: Date`
-- `status: Enum (Pending, Contributed, Surplus)`
-- `memberId: UUID (FK -> HouseholdMember.id)`
-- `householdId: UUID (FK -> Household.id)`
-
-#### Expense
-- `id: UUID (PK)`
-- `description: String`
-- `amount: Decimal`
-- `category: Enum (Food, Utilities, Health, Entertainment, Other)`
-- `date: Date`
-- `householdId: UUID (FK -> Household.id)`
-
-#### Document
-- `id: UUID (PK)`
-- `type: String`
-- `fileAttachment: String`
-- `uploadDate: Date`
-- `householdId: UUID (FK -> Household.id)`
-
-#### Balance
-- `totalContributed: Decimal`
-- `totalSpent: Decimal`
-- `balance: Decimal`
-- `householdId: UUID (FK -> Household.id)`
-
 <p align="left">
-  <img src="images/bd.PNG" alt="bd" width="500">
+  <img src="images/DiagramaClass.png" alt="bd" width="500">
 </p>
 
 # Capítulo V: Product Implementation, Validation & Deployment
