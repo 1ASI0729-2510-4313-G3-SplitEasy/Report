@@ -1268,7 +1268,7 @@ Link del video explicativo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2
 ### Software Architecture Container Diagrams
 
 <p align="left">
-  <img src="images/sacd1.PNG" alt="sacd1" width="500">
+  <img src="images/ContainerDiagramsC4.png" alt="sacd1" width="500">
 </p>
 
 ### Software Architecture Components Diagrams
