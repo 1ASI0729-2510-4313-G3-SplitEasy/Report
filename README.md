@@ -22,10 +22,10 @@ Desarrollo de Aplicaciones Open Source <br>
 |Jorge Luis Díaz Fiestas      |  U20231D534  |
 |Paulo Percy Quincho Gamarra         |  U20191E562 |
 |Alexander Piero Fernandez Garfias         |  U202019498 |
-|       |  |
+|Jhordi Luis Carranza Pérez       | U20191E835 |
 </div>
 
-<p align="center"><strong>Abril 2025</strong></p>
+<p align="center"><strong>Mayo 2025</strong></p>
 
 # Registro de Versiones del Informe
 | Versión | Fecha       | Autor(es)                                                              | Descripción                                                                                                                                         |
@@ -143,10 +143,11 @@ Insights TB1 (Todos participaron):
     - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
 
 # Student Outcome
-| Criterio específico | Acciones realizadas | Conclusiones |
-|---------------------|---------------------|--------------|
-| Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software. | **Alexander Piero Fernandez Garfias** (TB1): Participé activamente en la elaboración de los impact maps y en la estructuración inicial del landing page. También colaboré en la revisión de las historias de usuario y en la organización de tareas mediante Trello. <br><br> **Jhordi Luis Carranza Pérez** (TB1): Redacté y revisé historias de usuario, participé en el desarrollo colaborativo del landing page y realicé observaciones y mejoras en el capítulo de conclusiones del informe. Además, apoyé en la gestión del equipo para mantener un correcto flujo de trabajo. <br><br> **Paulo Percy Quincho Gamarra** (TB1): Desarrollé el Needfinding de los segmentos objetivos y el To-Be Scenario Mapping. Asimismo, redacté historias de usuario, organicé el control de proyectos con Trello, diseñé la propuesta de landing page y aplicación web, y elaboré los diagramas C4. <br><br> **Jorge Luis Díaz Fiestas** (TB1): Colaboré en la revisión y ajuste del Product Backlog, ayudé en el desarrollo de los wireframes para las versiones desktop y mobile, y participé en la organización del contenido del video "About the Team". También apoyé en la revisión general del documento final. | Se reafirma la importancia de la comunicación a la hora de hacer las entrevistas a los diferentes segmentos objetivo que hemos definido. <br><br> Es indispensable conocer a nuestro segmento objetivo para poder darle un producto acorde a sus necesidades y que tengan una buena experiencia de usuario al ser clientes nuestros. <br><br> El desarrollo del product backlog permite tener un mejor control sobre el flujo de trabajo en equipos colaborativos. Asimismo, permite a los desarrolladores tener un panorama general y claro sobre lo que se busca desarrollar para el sprint actual. <br><br> En una entrevista acerca de nuestra aplicación, es fundamental estar abiertos a críticas y opiniones sinceras. Al escuchar activamente a los usuarios y permitirles expresar sus puntos de vista, podemos identificar áreas de mejora y realizar ajustes para satisfacer mejor sus necesidades. La retroalimentación constructiva es una oportunidad valiosa para fortalecer nuestra aplicación y brindar una experiencia de usuario excepcional. <br><br> El video about the team nos ha permitido realizar una autoevaluación del proceso de trabajo y rescatar puntos de mejora que podemos aplicar en futuros proyectos. |
-| Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software. | **Alexander Piero Fernandez Garfias** (TB1): Realicé entrevistas a usuarios del segmento objetivo y participé en el análisis de sus respuestas, logrando comprender mejor las necesidades del sector de reclutamiento. También contribuí a la identificación de tendencias en el mercado. <br><br> **Jhordi Luis Carranza Pérez** (TB1): Apoyé en la elaboración del guion para las entrevistas a los segmentos objetivos, participé en la priorización de funcionalidades y realicé un análisis comparativo de soluciones actuales en el mercado. <br><br> **Paulo Percy Quincho Gamarra** (TB1): Realicé entrevistas a miembros del segmento objetivo y colaboré en el análisis de la información obtenida. También participé en el levantamiento de requisitos para adaptar la aplicación a las necesidades detectadas. <br><br> **Jorge Luis Díaz Fiestas** (TB1): Realicé el análisis de entrevistas realizadas al segmento de reclutadores y postulantes, apoyé en el benchmarking de la competencia y colaboré en la definición de las prioridades para el MVP de nuestro producto. | La construcción de los diferentes mapas con diferentes plataformas ayuda a mejorar nuestras capacidades y expandir nuestras habilidades. <br><br> Realizar la priorización de requisitos y tareas que la aplicación debe contener es fundamental, ya que el equipo sabrá qué es lo que se tiene que entregar en primer lugar. <br><br> La comunicación interna del equipo resulta de vital importancia para mantener un correcto flujo de desempeño y lograr que todos puedan cumplir con los objetivos actuales. <br><br> La retroalimentación de los usuarios en la entrevista ha sido valiosa para mejorar nuestra aplicación y cumplir con sus necesidades. La comunicación interna y la priorización de tareas son clave para un desarrollo exitoso. <br><br> El video about the product nos permitirá presentar un demo de nuestro producto a nuestros clientes potenciales, por lo que resulta indispensable al ser una primera vista de la aplicación. <br><br> Incluir un testimonio personal en el video "About the Team" resalta las actividades y esfuerzos del proyecto, aportando una perspectiva humana y real. Es una oportunidad para compartir experiencias, desafíos superados, colaboración en equipo y aprendizajes obtenidos. |
+| **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
+|-------------------------|--------------------------|------------------|
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Jorge Luis Díaz Fiestas (TB1):**<br>Ayudé en la organización y grabación del video de presentación del equipo, coordinando qué comunicar y cómo expresarlo.<br><br>**Paulo Percy Quincho Gamarra (TB1):**<br>Participé en entrevistas, expuse los diagramas C4 al equipo y presenté mi perspectiva en reuniones grupales sobre cómo debía estructurarse el diseño del sistema.<br><br>**Alexander Piero Fernandez Garfias (TB1):**<br>Participé en entrevistas con usuarios para validar necesidades y comunicarles nuestra propuesta de valor. Colaboré en la presentación oral del “About the Team”.<br><br>**Jhordi Luis Carranza Pérez (TB1):**<br>Apoyé en la grabación del video grupal “About the Team” explicando funciones clave del equipo. También comuniqué ideas durante reuniones internas de planeación. | El proceso me enseñó a sintetizar ideas y estructurarlas para facilitar su comprensión en un formato audiovisual.<br><br>La experiencia me permitió mejorar mi claridad para explicar conceptos técnicos a personas sin experiencia en ingeniería.<br><br>La interacción directa con usuarios fortaleció mi habilidad para expresar ideas de forma clara según el perfil del oyente.<br><br>La práctica de comunicación oral me permitió adaptar mi forma de hablar según el público: equipo interno o usuarios externos. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Jorge Luis Díaz Fiestas (TB1):**<br>Revisé ortográficamente y sintácticamente partes del informe, especialmente las conclusiones y descripciones funcionales.<br><br>**Paulo Percy Quincho Gamarra (TB1):**<br>Redacté el Needfinding, el To-Be Scenario Mapping y los diagramas C4. Me aseguré de que el contenido fuera comprensible tanto para el equipo como para los docentes.<br><br>**Alexander Piero Fernandez Garfias (TB1):**<br>Redacté y revisé el contenido del Impact Map, el Product Backlog y el informe de entrevistas. Colaboré en la escritura del informe final.<br><br>**Jhordi Luis Carranza Pérez (TB1):**<br>Escribí parte del capítulo de conclusiones del informe, así como varias historias de usuario. Revisé la redacción de documentos clave del proyecto. | Mejoré mi capacidad para detectar errores y ajustar la redacción para que sea clara, coherente y adecuada a los estándares académicos.<br><br>La redacción técnica me ayudó a transmitir ideas complejas de forma accesible para distintas audiencias.<br><br>Aprendí a comunicarme de forma precisa y estructurada en documentos escritos dirigidos tanto a profesores como a usuarios.<br><br>Desarrollé una mejor comprensión sobre cómo adaptar mi lenguaje para distintos propósitos: técnicos, organizativos o reflexivos. |
+
 
 
 # Project: SplitEasy
@@ -164,33 +165,44 @@ SplitEasy es una startup tecnológica enfocada en brindar soluciones financieras
 
 ##  Perfiles de Integrantes del Grupo
 
-|                             |                                      |
-|-----------------------------|--------------------------------------|
-| ![Luis](images/Luisfoto.png)    |  
-**Nombre:** Jorge Luis Díaz Fiestas  
-**Código de estudiante:** U20231D534  
-**Carrera:** Ingeniería de Software  
-**Rol:** Team Leader  
-**Descripción:**  
-Soy Jorge Díaz, estudiante de Ing. de Software, del 5° ciclo. Destacado en el trabajo en grupo y apto para dar retroalimentación. Con conocimientos básicos en Arduino, programación web (HTML, CSS, JS, React, TypeScript, Firebase), bases de datos (SQL, Firebase, Supabase, MongoDB, MariaDB) y lenguajes C/C++.   |
-| ![Paulo](images/Paulofoto.PNG) | 
-**Nombre:** Paulo Percy Quincho Gamarra  
-**Código de estudiante:** U20191E562  
-**Carrera:** Ingeniería de Software  
-**Descripción:**  
-Soy puntual, lo que me permite realizar todos los trabajos a tiempo. Me gusta tener buena comunicación con el equipo. |
-| ![Jhordi](images/Jhordifoto.PNG) | 
-**Nombre:** Jhordi Luis Carranza Pérez  
-**Código de estudiante:** U20191835  
-**Carrera:** Ingeniería de Software  
-**Descripción:**  
-Soy una persona que me gusta cumplir con mis obligaciones de manera efectiva, aunque muchas veces me descuide un poco. Mis conocimientos técnicos van en torno a programación web, bases de datos, lenguajes de alto y bajo nivel como C++, Python y JavaScript. |
-| ![Alexander](images/Alexanderfoto.PNG) | 
-**Nombre:** Alexander Piero Fernandez Garfias 
-**Código de estudiante:** U202019498  
-**Carrera:** Ingeniería de Software  
-**Descripción:**  
-Me llamo Alexander Piero Fernandez Garfias, estudio  la carrera de Ing. de Software en la UPC. Mis conocimientos técnicos van en torno a Programación en lenguajes como C++, Dart, Java |
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <td><img src="images/Luisfoto.png" alt="Luis" width="150px"></td>
+    <td>
+      <strong>Nombres y apellidos:</strong> Jorge Luis Díaz Fiestas  <br>
+      <strong>Código de estudiante:</strong> U20231D534 <br>
+      <strong>Carrera:</strong> Ing. de Software<br>
+      <strong>Descripción:</strong> Soy Jorge Díaz, estudiante de Ing. de Software, del 5° ciclo. Destacado en el trabajo en grupo y apto para dar retroalimentación. Con conocimientos básicos en Arduino, programación web (HTML, CSS, JS, React, TypeScript, Firebase), bases de datos (SQL, Firebase, Supabase, MongoDB, MariaDB) y lenguajes C/C++.
+    </td>
+  </tr>
+  <tr>
+    <td><img src="images/Paulofoto.PNG" alt="Paulo" width="150px"></td>
+    <td>
+      <strong>Nombres y apellidos:</strong> Paulo Percy Quincho Gamarra <br>
+      <strong>Código de estudiante:</strong> U20191E562<br>
+      <strong>Carrera:</strong> Ing. de Software<br>
+      <strong>Descripción:</strong> Soy puntual, lo que me permite realizar todos los trabajos a tiempo. Me gusta tener buena comunicación con el equipo.
+    </td>
+  </tr>
+  <tr>
+    <td><img src="images/Jhordifoto.PNG" alt="Jhordi" width="150px"></td>
+    <td>
+      <strong>Nombres y apellidos:</strong>  Jhordi Luis Carranza Pérez  <br>
+      <strong>Código de estudiante:</strong> U20191835<br>
+      <strong>Carrera:</strong> Ing. de Software<br>
+      <strong>Descripción:</strong> Soy una persona que me gusta cumplir con mis obligaciones de manera efectiva, aunque muchas veces me descuide un poco. Mis conocimientos técnicos van en torno a programación web, bases de datos, lenguajes de alto y bajo nivel como C++, Python y JavaScript.
+    </td>
+  </tr>
+  <tr>
+    <td><img src="images/Alexanderfoto.PNG" alt="Alexander" width="150px"></td>
+    <td>
+      <strong>Nombres y apellidos:</strong>  Alexander Piero Fernandez Garfias <br>
+      <strong>Código de estudiante:</strong> U202019498<br>
+      <strong>Carrera:</strong> Ing. de Software<br>
+      <strong>Descripción:</strong> Me llamo Alexander Piero Fernandez Garfias, estudio  la carrera de Ing. de Software en la UPC. Mis conocimientos técnicos van en torno a Programación en lenguajes como C++, Dart, Java.
+    </td>
+  </tr>
+</table>
 
 ##  Solution Profile
 
@@ -503,24 +515,6 @@ SplitEasy busca ofrecer una solución digital que permita distribuir los gastos 
 
 ### Registro de entrevistas
 
-**Entrevista a usuaria del primer segmento**
-**Entrevistada:** Marjorie Luna Victoria  
-**Edad:** 18 años  
-**Ocupación:** Estudiante  
-**Medio:** Meet  
-**Entrevistador:** Jorge Díaz  
-
-**Inicio del video:** 0:04  
- **Duración:** 3 minutos y 51 segundos
-
-<p align="center">
-  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d534_upc_edu_pe/Eb5FlqZR0V5Lp7-xxXjuCJoB5YvtofbTZmi38i7a2z4fdA?e=x4XGYU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">
-    <img src="images/Interview.png" alt="Miniatura de la entrevista a usuaria del primer segmento" width="700"/>
-    <br>
-    Ver entrevista completa
-  </a>
-</p>
-
 **Primer Segmento - Entrevista a Jesus Casana - Por Bruno Gonzales:**
 <p align="left">
   <img src="images/Entrevista1_Bruno.png" alt="" width="500">
@@ -533,12 +527,31 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u201820037_upc_edu_pe/EWJDafd3
 </p>
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u201820037_upc_edu_pe/EfGMD0WYMSZLpqKu7hcnU9ABMWYYGrtOXIznD7sj9x8c5g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ZgasbR
 
+**Primer Segmento - Entrevista a Denis Monsalve - Por Jhordi Carranza:**
+<p align="left">
+  <img src="images/EntrevistaDenis.png" alt="" width="500">
+</p>
+https://upcedupe-my.sharepoint.com/personal/u20191e835_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20191e835%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevista%20%2D%20S1%20%2D%20Open%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E52f02c77%2D8b1d%2D4af0%2D9a00%2D5c66d9216998&isDarkMode=false
+
+---
+
+**Segundo Segmento -  Entrevista a Marjorie Luna Victoria - Por Jorge Díaz:**
+<p align="left">
+  <img src="images/EntrevistaMarjorie.png" alt="UserPersona1" width="500">
+</p>
+https://upcedupe-my.sharepoint.com/personal/u20231d534_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20231d534%5Fupc%5Fedu%5Fpe%2FDocuments%2F2025%2D04%2D10%2016%2D09%2D47%2Emkv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E1fbf2b54%2Ddab5%2D4bd4%2Da1d6%2D28ca884bf530
 
 **Segundo Segmento - Entrevista a José Carranza - Por Jhordi Carranza:**
 <p align="left">
   <img src="images/Entrevista.JoséCarr.png" alt="UserPersona1" width="500">
 </p>
 https://upcedupe-my.sharepoint.com/personal/u20191e835_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20191e835%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevista%20de%20Jhordi%20Carranza%20%2D%20Segmento%202%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E5cb064bd%2Dde25%2D4cd9%2D971f%2De0eb6e0cdf7d&isDarkMode=false
+
+**Segundo Segmento -  Entrevista a Diego Ramírez - Por Alexander Fernandez:**
+<p align="left">
+  <img src="images/EntrevistaDiego.png" alt="UserPersona1" width="500">
+</p>
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019498_upc_edu_pe/EXVitH8xFOJOtsRjz9BeBu4BpoicdsdOC0cgkm9IWkb6Rw?e=x0BYoH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 ### Análisis de entrevistas
 
@@ -1238,7 +1251,7 @@ Navegación jerárquica para volver a secciones anteriores o más generales.
 ### Web Applications User Flow Diagrams
 
 <p align="left">
-  <img src="images/wau.PNG" alt="wau" width="500">
+  <img src="images/NewFlowchart.jpg" alt="wau" width="500">
 </p>
 
 ## Web Applications Prototyping 
