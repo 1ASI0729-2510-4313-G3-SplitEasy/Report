@@ -1756,17 +1756,17 @@ Desarrollar la landing page funcional de SplitEasy que permita a los visitantes 
 
 | Task ID | Título                           | Descripción                                                                                     | Estimación (h) | Asignado a                                 | Estado  |
 |---------|----------------------------------|--------------------------------------------------------------------------------------------------|----------------|----------------------------------------------|---------|
-| W01     | Navbar section                   | Implementar barra de navegación con botones a login y registro.                                | 4–8            | Jorge Luis Díaz Fiestas                      | ✅ Done |
-| W02     | Responsive navbar section        | Hacer la navbar adaptable a móviles y escritorio.                                               | 4–8            | Jorge Luis Díaz Fiestas                      | ✅ Done |
-| W03     | Hero section                     | Crear sección principal con mensaje atractivo.                                                  | 4–8            | Paulo Percy Quincho Gamarra                 | ✅ Done |
-| W04     | Responsive hero section          | Adaptar hero section a todos los dispositivos.                                                  | 4–8            | Paulo Percy Quincho Gamarra                 | ✅ Done |
-| W05     | Features section                 | Mostrar funciones clave para representantes y miembros del hogar.                              | 4–8            | Jhordi Luis Carranza Pérez                   | ✅ Done |
-| W06     | Responsive features section      | Asegurar que la sección features sea responsive.                                                | 4–8            | Jhordi Luis Carranza Pérez                   | ✅ Done |
-| W07     | Proportional system section      | Explicar con gráficos o texto claro el sistema proporcional.                                   | 4–8            | Alexander Piero Fernandez Garfias           | ✅ Done |
-| W08     | Simulation section               | Mostrar ejemplos o flujos del uso de la app.                                                    | 4–8            | Alexander Piero Fernandez Garfias           | ✅ Done |
-| W09     | Call-to-action section           | Crear sección final con botón destacado de registro.                                            | 4–8            | Paulo Percy Quincho Gamarra                 | ✅ Done |
-| W10     | Footer with links                | Añadir footer con enlaces informativos y legales.                                               | 4–8            | Jorge Luis Díaz Fiestas                      | ✅ Done |
-| W11     | Responsive footer section        | Adaptar visualmente el footer a todos los dispositivos.                                         | 4–8            | Jorge Luis Díaz Fiestas                      | ✅ Done |
+| W01     | Navbar section                   | Implementar barra de navegación con botones a login y registro.                                | 4              | Jorge Luis Díaz Fiestas                      | ✅ Done |
+| W02     | Responsive navbar section        | Hacer la navbar adaptable a móviles y escritorio.                                               | 4              | Jorge Luis Díaz Fiestas                      | ✅ Done |
+| W03     | Hero section                     | Crear sección principal con mensaje atractivo.                                                  | 6              | Paulo Percy Quincho Gamarra                 | ✅ Done |
+| W04     | Responsive hero section          | Adaptar hero section a todos los dispositivos.                                                  | 4              | Paulo Percy Quincho Gamarra                 | ✅ Done |
+| W05     | Features section                 | Mostrar funciones clave para representantes y miembros del hogar.                              | 6              | Jhordi Luis Carranza Pérez                   | ✅ Done |
+| W06     | Responsive features section      | Asegurar que la sección features sea responsive.                                                | 4              | Jhordi Luis Carranza Pérez                   | ✅ Done |
+| W07     | Proportional system section      | Explicar con gráficos o texto claro el sistema proporcional.                                   | 5              | Alexander Piero Fernandez Garfias           | ✅ Done |
+| W08     | Simulation section               | Mostrar ejemplos o flujos del uso de la app.                                                    | 5              | Alexander Piero Fernandez Garfias           | ✅ Done |
+| W09     | Call-to-action section           | Crear sección final con botón destacado de registro.                                            | 4              | Paulo Percy Quincho Gamarra                 | ✅ Done |
+| W10     | Footer with links                | Añadir footer con enlaces informativos y legales.                                               | 4              | Jorge Luis Díaz Fiestas                      | ✅ Done |
+| W11     | Responsive footer section        | Adaptar visualmente el footer a todos los dispositivos.                                         | 4              | Jorge Luis Díaz Fiestas                      | ✅ Done |
 
 ---
 
