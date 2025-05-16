@@ -529,7 +529,8 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u201820037_upc_edu_pe/EfGMD0WY
 
 **Primer Segmento - Entrevista a Denis Monsalve - Por Jhordi Carranza:**
 <p align="left">
-  <img src="images/EntrevistaDenis.png" alt="" width="500">
+
+  <img src="images/Entrevista.Denis.png" alt="UserPersona1" width="500">
 </p>
 https://upcedupe-my.sharepoint.com/personal/u20191e835_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20191e835%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevista%20%2D%20S1%20%2D%20Open%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E52f02c77%2D8b1d%2D4af0%2D9a00%2D5c66d9216998&isDarkMode=false
 
@@ -540,6 +541,7 @@ https://upcedupe-my.sharepoint.com/personal/u20191e835_upc_edu_pe/_layouts/15/st
   <img src="images/EntrevistaMarjorie.png" alt="UserPersona1" width="500">
 </p>
 https://upcedupe-my.sharepoint.com/personal/u20231d534_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20231d534%5Fupc%5Fedu%5Fpe%2FDocuments%2F2025%2D04%2D10%2016%2D09%2D47%2Emkv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E1fbf2b54%2Ddab5%2D4bd4%2Da1d6%2D28ca884bf530
+
 
 **Segundo Segmento - Entrevista a José Carranza - Por Jhordi Carranza:**
 <p align="left">
@@ -1249,7 +1251,7 @@ Navegación jerárquica para volver a secciones anteriores o más generales.
 </p>
 
 ### Web Applications User Flow Diagrams
-
+A continuación, se muestra el User Flow Diagram estructurado en base a los objetivos principales del usuario. Cada sección del flujo corresponde a una meta funcional específica, mostrando los recorridos posibles mediante mockups de alta fidelidad.
 <p align="left">
   <img src="images/NewFlowchart.jpg" alt="wau" width="500">
 </p>
@@ -1395,14 +1397,164 @@ Link del video explicativo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2
 - `Entertainment` — Gastos de ocio y recreación.
 - `Other` — Otros tipos de gastos no especificados.
 
-## Database Design
 
-La base de datos de **SplitEasy** ha sido diseñada bajo un enfoque relacional, permitiendo una organización eficiente y coherente de la información financiera compartida por los miembros de un hogar. La estructura busca garantizar integridad referencial y trazabilidad de aportes, gastos, documentos y balances. A continuación, se detalla el modelo entidad-relación reflejado en el diagrama de base de datos.
+## SplitEasy - Database Design
 
-### Database Diagram
+### Descripción General
+
+La base de datos de **SplitEasy** ha sido diseñada bajo un enfoque relacional, orientado a la gestión financiera colaborativa dentro del hogar. Su estructura busca garantizar integridad referencial, equidad en la distribución de gastos y transparencia entre los miembros. Soporta funcionalidades clave como el cálculo proporcional de contribuciones, seguimiento de pagos, notificaciones automáticas, metas financieras compartidas, entre otras.
+
+---
+
+## Diagrama Entidad-Relación
+
+A continuación se describen las principales entidades y sus atributos:
+
+---
+
+### Household
+Entidad principal que representa un hogar.
+
+- `id`: INT (PK)
+- `householdName`: VARCHAR
+- `creationDate`: DATE
+
+---
+
+### HouseholdMember
+Miembros que viven en un hogar determinado.
+
+- `id`: INT (PK)
+- `userId`: INT (FK → UserAccount.id)
+- `name`: VARCHAR
+- `householdId`: INT (FK → Household.id)
+- `isManager`: BIT
+
+---
+
+### UserAccount
+Representa las credenciales de acceso del usuario.
+
+- `id`: INT (PK)
+- `email`: VARCHAR (único)
+- `passwordHash`: VARCHAR
+
+---
+
+### Income
+Registra los ingresos individuales de cada miembro del hogar.
+
+- `id`: INT (PK)
+- `memberId`: INT (FK → HouseholdMember.id)
+- `amount`: DECIMAL
+- `incomeDate`: DATE
+
+---
+
+### Contribution
+Aportes financieros registrados por cada miembro.
+
+- `id`: INT (PK)
+- `amount`: DECIMAL
+- `date`: DATE
+- `description`: VARCHAR
+- `memberId`: INT (FK → HouseholdMember.id)
+- `householdId`: INT (FK → Household.id)
+
+---
+
+### ContributionShare
+Define el porcentaje proporcional de responsabilidad financiera de cada miembro, calculado en función de sus ingresos.
+
+- `id`: INT (PK)
+- `memberId`: INT (FK → HouseholdMember.id)
+- `householdId`: INT (FK → Household.id)
+- `sharePercentage`: DECIMAL(5,2)
+- `calculatedOn`: DATE
+
+---
+
+### Expense
+Representa los gastos comunes del hogar.
+
+- `id`: INT (PK)
+- `description`: VARCHAR
+- `amount`: DECIMAL
+- `category`: VARCHAR (Food, Utilities, Health, etc.)
+- `date`: DATE
+- `createdBy`: INT (FK → HouseholdMember.id)
+- `householdId`: INT (FK → Household.id)
+
+---
+
+### Payment
+Registra los pagos realizados por los miembros para cubrir los gastos.
+
+- `id`: INT (PK)
+- `expenseId`: INT (FK → Expense.id)
+- `memberId`: INT (FK → HouseholdMember.id)
+- `amountPaid`: DECIMAL
+- `paymentDate`: DATE
+
+---
+
+### Notification
+Alertas automáticas enviadas a los miembros del hogar.
+
+- `id`: INT (PK)
+- `memberId`: INT (FK → HouseholdMember.id)
+- `message`: VARCHAR
+- `isRead`: BIT
+- `createdAt`: DATETIME
+
+---
+
+### Goal
+Metas financieras definidas por el hogar.
+
+- `id`: INT (PK)
+- `householdId`: INT (FK → Household.id)
+- `description`: VARCHAR
+- `targetAmount`: DECIMAL
+- `dueDate`: DATE
+
+---
+
+## Vista: `vw_MemberBalance`
+
+Consulta resumen del balance individual por miembro del hogar:
+
+- `memberId`
+- `name`
+- `householdName`
+- `totalIncome`
+- `totalContributed`
+- `totalPaidExpenses`
+
+---
+
+## Índices
+
+Se incluyen índices adicionales para mejorar el rendimiento de consultas:
+
+- `Income.memberId`
+- `Contribution.memberId`
+- `Expense.householdId`
+- `Payment.expenseId`
+- `Notification.memberId`
+
+---
+
+## Objetivos del Diseño
+
+- Transparencia: cada miembro puede ver su historial y estado financiero.
+- Equidad: los gastos se distribuyen proporcionalmente en función de los ingresos.
+- Escalabilidad: permite añadir nuevas funcionalidades sin alterar el núcleo del sistema.
+- Mantenimiento: una estructura clara y bien normalizada facilita la administración y evolución del sistema.
 
 <p align="left">
-  <img src="images/DiagramaClass.png" alt="bd" width="500">
+  <img src="images/bd.png.png" alt="bd" width="500">
+
 </p>
 
 # Capítulo V: Product Implementation, Validation & Deployment
@@ -1476,7 +1628,7 @@ Para asegurar un código limpio y fácil de mantener, se siguen las siguientes c
 - Valores de atributos entre comillas dobles  
   Ejemplo: `<a href="#services" class="nav-link">Services</a>`
 - Uso de `alt`, `width` y `height` en imágenes  
-  Ejemplo: `<img src="images/portada.png" alt="portada" width="400" height="300">`
+  Ejemplo: `<img src="images/portada.png" alt="portada" width="400"db height="300">`
 
 #### CSS
 - Nombres de clase descriptivos y breves  
@@ -1721,7 +1873,8 @@ Durante este **Sprint 1**, se completó la documentación básica de los servici
 
 | **Commit ID** | **Commit Message**                                               | **Fecha**    |
 |---------------|------------------------------------------------------------------|--------------|
-| #66           | Merge pull request #66 from develop                              | 22/04/2025   |
+| #66           | Merge pull request #66 from 
+| 22/04/2025   |
 | #68           | Merge pull request #68 from develop                              | 23/04/2025   |
 | (sin hash)    | docs: formal documentation of endpoints for registration/login  | 23/04/2025   |
 | (sin hash)    | docs(sprint): document Sprint 1 backlog and tasks for SplitEasy  | 24/04/2025   |
