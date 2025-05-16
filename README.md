@@ -2056,3 +2056,65 @@ En el alcance del sprint 2 se ha desarrollado el front end de la aplicación web
 <p align="left">
   <img src="images/sprint2.7.png" alt="Recuperar Contraseña" width="500">
 </p>
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante el desarrollo del presente Sprint 2, se ha trabajado en la documentación inicial de los servicios relacionados con el proceso de autenticación de usuarios, correspondiente a la EPIC 01. En esta etapa, se priorizó la especificación y documentación de los endpoints de registro e inicio de sesión, utilizando Open API para garantizar la claridad, estandarización y facilidad de integración en futuras fases de desarrollo backend.
+
+A continuación presentamos una tabla donde se muestran los endpoints documentados:
+
+| Endpoint             | Acción implementada | Método HTTP | Parámetros                   | Ejemplo de Request                                                                                       | Ejemplo de Response                                            | Documentación (local)           |
+|----------------------|---------------------|-------------|-----------------------------|--------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|-------------------------------|
+| `/api/auth/register`  | Registro de usuario  | POST        | name, email, password, role | ```json<br>{ "name": "Jhordi", "email": "jhordict20@gmail.com", "password": "123456", "role": "representante" }<br>``` | 201 Created<br>```json<br>{ "message": "Usuario registrado exitosamente" }<br>``` | http://localhost:4200/register |
+| `/api/auth/login`     | Inicio de sesión    | POST        | email, password             | ```json<br>{ "email": "jhordict20@gmail.com", "password": "123456" }<br>```                           | 200 OK<br>```json<br>{ "token": "JWT...", "user": { "id": 1, "name": "Juan", "role": "representante" } }<br>``` | http://localhost:4200/login    |
+
+##### Capturas de la documentación:
+
+<p align="center">
+  <img src="images/endpoints.png" alt="Endpoints" />
+</p>
+---
+
+### Repositorio en GitHub:
+
+[https://github.com/1ASI0729-2510-4313-G3-SplitEasy/web-app.git](https://github.com/1ASI0729-2510-4313-G3-SplitEasy/web-app.git)
+
+---
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante este Sprint, se avanzó en la preparación y configuración del entorno de despliegue para los diferentes componentes del sistema SplitEasy, con un enfoque inicial en el frontend desarrollado en Angular. Aunque el despliegue completo aún está en proceso, se lograron los siguientes avances importantes:
+
+- Se creó una cuenta en Vercel para alojar temporalmente la landing page, facilitando así la presentación preliminar del proyecto.
+- Se configuró un proyecto en Vercel vinculado directamente al repositorio de GitHub, permitiendo la integración continua y automatización del despliegue del frontend.
+- Se realizaron pruebas exitosas de despliegue automático desde la rama principal ("main"), logrando visualizar la landing page con navegación básica y funcionalidad parcial en los botones de login y registro.
+- Paralelamente, se inició el proceso de subida y configuración del backend en Azure App Service, sentando las bases para el despliegue del sistema completo en un entorno de producción escalable y confiable.
+
+##### Capturas incluidas:
+<p align="center">
+  <img src="images/nube.png" alt="Nube" />
+</p>
+
+---
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint, las actividades de desarrollo se llevaron a cabo de forma colaborativa, distribuyéndose tareas entre los miembros del equipo a través de GitHub. Cada integrante asumió responsabilidad sobre distintos componentes del frontend, incluyendo el diseño del landing page, la implementación del sistema de rutas y la creación de los formularios de autenticación.
+
+##### Acciones de colaboración:
+
+- Se utilizó GitHub Projects para organizar tareas y realizar seguimiento del progreso.
+- La rama principal “main” fue protegida, estableciendo “pull requests” como requerimiento obligatorio para garantizar revisión y control de calidad.
+- Cada integrante realizó commits documentados y separados por funcionalidad.
+
+##### Capturas incluidas:
+
+<p align="center">
+  <img src="images/gitusers.png" alt="GitUsers" />
+</p>
+
+##### Participación destacada:
+
+- Todos los miembros contribuyeron tanto al diseño de interfaz como al desarrollo funcional (Angular).
+- Se realizó al menos una sesión grupal de revisión de código y planificación intermedia.
+
