@@ -518,8 +518,7 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u201820037_upc_edu_pe/EfGMD0WY
 
 **Primer Segmento - Entrevista a Denis Monsalve - Por Jhordi Carranza:**
 <p align="left">
-
-  <img src="images/Entrevista.Denis.png" alt="UserPersona1" width="500">
+  <img src="images/EntrevistaDenis.png" alt="" width="500">
 </p>
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191e835_upc_edu_pe/Ebc2v4G3OnFKn_lM39sFKjUBXK7kW_iu1TjNEgcR1vRlBg
 
