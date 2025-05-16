@@ -25,25 +25,26 @@ Desarrollo de Aplicaciones Open Source <br>
 |Jhordi Luis Carranza Pérez       | U20191E835 |
 </div>
 
-<p align="center"><strong>Abril 2025</strong></p>
+<p align="center"><strong>Mayo 2025</strong></p>
 
 # Registro de Versiones del Informe
 | Versión | Fecha       | Autor(es)                                                              | Descripción                                                                                                                                         |
 |---------|-------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | TB1     | 25/03/2025  | Jorge Luis Díaz Fiestas        | Desarrollo del capítulo I: Introducción                                                                                                             |
-|         | 29/03/2025  | Ricardo Fernando Cárdenas Minaya                                       | Desarrollo del capítulo II: Competidores                                                                                                            |
+|         | 29/03/2025  | Alexander Piero Fernandez Garfias                                        | Desarrollo del capítulo II: Competidores                                                                                                            |
 |         | 29/03/2025  |  Jhordi Luis Carranza Pérez                                        | Desarrollo del capítulo II: Entrevistas                                                                                                             |
 |         | 30/03/2025  | Paulo Percy Quincho Gamarra                                            | Desarrollo del capítulo II: Needfinding                                                                                                             |
 |         | 08/04/2025  | Paulo Percy Quincho Gamarra                                            | Desarrollo del capítulo III: To-Be Scenario Mapping y Product Backlog                                                                              |
 |         | 10/04/2025  | Paulo Percy Quincho Gamarra, Luis Gustavo Román Pajuelo                | Desarrollo del capítulo III: User stories                                                                                                           |
 |         | 12/04/2025  |  Alexander Piero Fernandez Garfias                                         | Desarrollo del capítulo III: Impact Mapping                                                                                                         |
-|         | 14/04/2025  | Paulo Percy Quincho Gamarra, Ricardo Fernando Cárdenas Minaya          | Desarrollo del capítulo IV: Style Guidelines, Landing Page UI Design, Web Applications UX/UI Design, Web Application Prototyping y Domain-Driven Software Architecture |
+|         | 14/04/2025  | Paulo Percy Quincho Gamarra,  Alexander Piero Fernandez Garfias        | Desarrollo del capítulo IV: Style Guidelines, Landing Page UI Design, Web Applications UX/UI Design, Web Application Prototyping y Domain-Driven Software Architecture |
 |         | 16/04/2025  | Jorge Luis Díaz Fiestas                                        | Desarrollo del capítulo IV: Software Object-Oriented Design y Database Design                                                                      |
 |         | 18/04/2025  | Jhordi Luis Carranza Pérez                                          | Desarrollo del capítulo V: Software Configuration Management                                                                                       |
 |         | 20/04/2025  |  Alexander Piero Fernandez Garfias             | Desarrollo del capítulo V: Sprint Planning 1                                                                                                        |
 
 # Project Report Collaboration Insights
 Link del repositorio: https://github.com/1ASI0729-2510-4313-G3-SplitEasy/Report.git
+
 
 Insights TB1 (Todos participaron):
 <p align="left">
@@ -140,9 +141,15 @@ Insights TB1 (Todos participaron):
     - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
     - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
     - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+## Conclusiones
+- [Conclusiones generales](#conclusiones-generales)
+
+## Bibliografía
+- [Referencias bibliográficas](#referencias-bibliográficas)
+
+## Anexos
 
 # Student Outcome
-
 | **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
 |-------------------------|--------------------------|------------------|
 | Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Jorge Luis Díaz Fiestas (TB1):**<br>Ayudé en la organización y grabación del video de presentación del equipo, coordinando qué comunicar y cómo expresarlo.<br><br>**Paulo Percy Quincho Gamarra (TB1):**<br>Participé en entrevistas, expuse los diagramas C4 al equipo y presenté mi perspectiva en reuniones grupales sobre cómo debía estructurarse el diseño del sistema.<br><br>**Alexander Piero Fernandez Garfias (TB1):**<br>Participé en entrevistas con usuarios para validar necesidades y comunicarles nuestra propuesta de valor. Colaboré en la presentación oral del “About the Team”.<br><br>**Jhordi Luis Carranza Pérez (TB1):**<br>Apoyé en la grabación del video grupal “About the Team” explicando funciones clave del equipo. También comuniqué ideas durante reuniones internas de planeación. | El proceso me enseñó a sintetizar ideas y estructurarlas para facilitar su comprensión en un formato audiovisual.<br><br>La experiencia me permitió mejorar mi claridad para explicar conceptos técnicos a personas sin experiencia en ingeniería.<br><br>La interacción directa con usuarios fortaleció mi habilidad para expresar ideas de forma clara según el perfil del oyente.<br><br>La práctica de comunicación oral me permitió adaptar mi forma de hablar según el público: equipo interno o usuarios externos. |
@@ -165,33 +172,44 @@ SplitEasy es una startup tecnológica enfocada en brindar soluciones financieras
 
 ##  Perfiles de Integrantes del Grupo
 
-|                             |                                      |
-|-----------------------------|--------------------------------------|
-| ![Luis](images/Luisfoto.png)    |  
-**Nombre:** Jorge Luis Díaz Fiestas  
-**Código de estudiante:** U20231D534  
-**Carrera:** Ingeniería de Software  
-**Rol:** Team Leader  
-**Descripción:**  
-Soy Jorge Díaz, estudiante de Ing. de Software, del 5° ciclo. Destacado en el trabajo en grupo y apto para dar retroalimentación. Con conocimientos básicos en Arduino, programación web (HTML, CSS, JS, React, TypeScript, Firebase), bases de datos (SQL, Firebase, Supabase, MongoDB, MariaDB) y lenguajes C/C++.   |
-| ![Paulo](images/Paulofoto.PNG) | 
-**Nombre:** Paulo Percy Quincho Gamarra  
-**Código de estudiante:** U20191E562  
-**Carrera:** Ingeniería de Software  
-**Descripción:**  
-Soy puntual, lo que me permite realizar todos los trabajos a tiempo. Me gusta tener buena comunicación con el equipo. |
-| ![Jhordi](images/Jhordifoto.PNG) | 
-**Nombre:** Jhordi Luis Carranza Pérez  
-**Código de estudiante:** U20191835  
-**Carrera:** Ingeniería de Software  
-**Descripción:**  
-Soy una persona que me gusta cumplir con mis obligaciones de manera efectiva, aunque muchas veces me descuide un poco. Mis conocimientos técnicos van en torno a programación web, bases de datos, lenguajes de alto y bajo nivel como C++, Python y JavaScript. |
-| ![Alexander](images/Alexanderfoto.PNG) | 
-**Nombre:** Alexander Piero Fernandez Garfias 
-**Código de estudiante:** U202019498  
-**Carrera:** Ingeniería de Software  
-**Descripción:**  
-Me llamo Alexander Piero Fernandez Garfias, estudio  la carrera de Ing. de Software en la UPC. Mis conocimientos técnicos van en torno a Programación en lenguajes como C++, Dart, Java |
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <td><img src="images/Luisfoto.png" alt="Luis" width="150px"></td>
+    <td>
+      <strong>Nombres y apellidos:</strong> Jorge Luis Díaz Fiestas  <br>
+      <strong>Código de estudiante:</strong> U20231D534 <br>
+      <strong>Carrera:</strong> Ing. de Software<br>
+      <strong>Descripción:</strong> Soy Jorge Díaz, estudiante de Ing. de Software, del 5° ciclo. Destacado en el trabajo en grupo y apto para dar retroalimentación. Con conocimientos básicos en Arduino, programación web (HTML, CSS, JS, React, TypeScript, Firebase), bases de datos (SQL, Firebase, Supabase, MongoDB, MariaDB) y lenguajes C/C++.
+    </td>
+  </tr>
+  <tr>
+    <td><img src="images/Paulofoto.PNG" alt="Paulo" width="150px"></td>
+    <td>
+      <strong>Nombres y apellidos:</strong> Paulo Percy Quincho Gamarra <br>
+      <strong>Código de estudiante:</strong> U20191E562<br>
+      <strong>Carrera:</strong> Ing. de Software<br>
+      <strong>Descripción:</strong> Soy puntual, lo que me permite realizar todos los trabajos a tiempo. Me gusta tener buena comunicación con el equipo.
+    </td>
+  </tr>
+  <tr>
+    <td><img src="images/Jhordifoto.PNG" alt="Jhordi" width="150px"></td>
+    <td>
+      <strong>Nombres y apellidos:</strong>  Jhordi Luis Carranza Pérez  <br>
+      <strong>Código de estudiante:</strong> U20191835<br>
+      <strong>Carrera:</strong> Ing. de Software<br>
+      <strong>Descripción:</strong> Soy una persona que me gusta cumplir con mis obligaciones de manera efectiva, aunque muchas veces me descuide un poco. Mis conocimientos técnicos van en torno a programación web, bases de datos, lenguajes de alto y bajo nivel como C++, Python y JavaScript.
+    </td>
+  </tr>
+  <tr>
+    <td><img src="images/Alexanderfoto.PNG" alt="Alexander" width="150px"></td>
+    <td>
+      <strong>Nombres y apellidos:</strong>  Alexander Piero Fernandez Garfias <br>
+      <strong>Código de estudiante:</strong> U202019498<br>
+      <strong>Carrera:</strong> Ing. de Software<br>
+      <strong>Descripción:</strong> Me llamo Alexander Piero Fernandez Garfias, estudio  la carrera de Ing. de Software en la UPC. Mis conocimientos técnicos van en torno a Programación en lenguajes como C++, Dart, Java.
+    </td>
+  </tr>
+</table>
 
 ##  Solution Profile
 
@@ -518,7 +536,9 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u201820037_upc_edu_pe/EfGMD0WY
 
 **Primer Segmento - Entrevista a Denis Monsalve - Por Jhordi Carranza:**
 <p align="left">
-  <img src="images/EntrevistaDenis.png" alt="" width="500">
+
+
+  <img src="images/Entrevista.Denis.png" alt="UserPersona1" width="500">
 </p>
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191e835_upc_edu_pe/Ebc2v4G3OnFKn_lM39sFKjUBXK7kW_iu1TjNEgcR1vRlBg
 
@@ -528,6 +548,7 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191e835_upc_edu_pe/Ebc2v4G3
 <p align="left">
   <img src="images/EntrevistaMarjorie.png" alt="UserPersona1" width="500">
 </p>
+
 https://upcedupe-my.sharepoint.com/personal/u20231d534_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20231d534%5Fupc%5Fedu%5Fpe%2FDocuments%2F2025%2D04%2D10%2016%2D09%2D47%2Emkv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E1fbf2b54%2Ddab5%2D4bd4%2Da1d6%2D28ca884bf530
 
 
@@ -766,8 +787,8 @@ En esta sección se presentarán los user journey mapping para cada user persona
 | EP03     | Panel del Miembro del Hogar   | US11  | Ingresar ingresos personales | Como miembro del hogar, quiero registrar mis ingresos para que el sistema calcule mi aporte.         | - Escenario 1: Acceso al formulario de ingresos<br>Dado que el miembro haya iniciado sesión,<br>Cuando seleccione "Ingresos",<br>Entonces se mostrará el formulario de ingreso de datos.<br><br>- Escenario 2: Confirmación de ingreso<br>Dado que complete los datos,<br>Cuando presione "Guardar",<br>Entonces su ingreso quedará registrado en el sistema.                     |
 | EP03     | Panel del Miembro del Hogar   | US12  | Ver monto a pagar          | Como miembro, quiero visualizar cuánto debo aportar al hogar basado en mis ingresos.                | - Escenario 1: Acceso al panel de pagos<br>Dado que el usuario haya ingresado sus ingresos,<br>Cuando acceda a "Mis aportes",<br>Entonces verá el monto que le corresponde pagar este mes.                                                  |
 | EP03     | Panel del Miembro del Hogar   | US13  | Registrar pagos realizados | Como miembro, quiero registrar que realicé un pago para que el sistema lleve un seguimiento.        | - Escenario 1: Ingreso de pago<br>Dado que el miembro haya realizado un pago,<br>Cuando acceda a "Registrar pago",<br>Entonces podrá indicar el monto, la fecha y el método usado.<br><br>- Escenario 2: Confirmación<br>Dado que ingrese los datos,<br>Cuando presione “Guardar”,<br>Entonces el pago quedará registrado correctamente.         |
-| EP03     | Panel del Miembro del Hogar   | US14  | Ver historial de pagos     | Como miembro, quiero revisar mi historial de pagos para mantenerme al día con mis contribuciones.   | - Escenario 1: Visualización<br>Dado que el usuario acceda a su panel,<br>Cuando seleccione "Historial de pagos",<br>Entonces se mostrará una lista con todos los pagos realizados ordenados por fecha.                                      |
-| EP03     | Panel del Miembro del Hogar   | US15  | Ver distribución de gastos del hogar | Como miembro, quiero ver cómo se distribuyen los gastos para entender en qué se usa el dinero.       | - Escenario 1: Acceso al desglose de gastos<br>Dado que el usuario esté en el panel,<br>Cuando haga clic en “Distribución de gastos”,<br>Entonces se mostrarán gráficos y listas categorizadas.<br><br>- Escenario 2: Detalles por categoría<br>Dado que seleccione una categoría,<br>Cuando haga clic en ella,<br>Entonces se desplegarán los gastos específicos asociados. |
+| EP02     | Gestión Personal de Finanzas | US14  | Ver historial de pagos      | Como miembro del hogar, quiero consultar un historial de todos mis pagos anteriores para verificar mis contribuciones.        | - Escenario 1:  Acceso al historial<br>Dado que el usuario quiere ver sus aportes anteriores,<br>Cuando acceda a la sección “Historial de pagos” desde su panel,<br>Entonces verá una lista ordenada cronológicamente con fechas, montos, conceptos y comprobantes de cada pago realizado.<br><br>- Escenario 2: Filtro por periodo<br>Dado que el usuario desea consultar un periodo específico,<br>Cuando seleccione un mes o rango de fechas,<br>Entonces el sistema mostrará únicamente los pagos correspondientes a ese periodo. |
+| EP03     | Gestión Personal de Finanzas   | US15  | Ver historial de pagos | Como miembro del hogar, quiero consultar un historial de todos mis pagos anteriores para verificar mis contribuciones.       | - Escenario 1: Acceso al historial<br>Dado que el usuario quiere ver sus aportes anteriores,<br>Cuando acceda a la sección “Historial de pagos” desde su panel,<br>Entonces verá una lista ordenada cronológicamente con fechas, montos, conceptos y comprobantes de cada pago realizado.<br><br>- Escenario 2: Filtro por periodo<br>Dado que el usuario desea consultar un periodo específico,<br>Cuando seleccione un mes o rango de fechas,<br>Entonces el sistema mostrará únicamente los pagos correspondientes a ese periodo. |
 | EP04     | Gestión de Gastos Compartidos | US16  | Registrar nuevo gasto        | Como usuario, quiero registrar un nuevo gasto para mantener actualizados los movimientos financieros.   | - Escenario 1: Acceso al formulario<br>Dado que el usuario haya iniciado sesión,<br>Cuando acceda a "Registrar gasto",<br>Entonces verá un formulario con campos de monto, categoría y descripción.<br><br>- Escenario 2: Guardado del gasto<br>Dado que complete el formulario,<br>Cuando presione “Guardar”,<br>Entonces el nuevo gasto se almacenará en el sistema. |
 | EP04     | Gestión de Gastos Compartidos | US17  | Adjuntar comprobantes de gasto | Como usuario, quiero subir comprobantes para respaldar los gastos registrados.                          | - Escenario 1: Carga de comprobante<br>Dado que el usuario registre un gasto,<br>Cuando presione “Adjuntar archivo”,<br>Entonces podrá subir una imagen o PDF como comprobante.<br><br>- Escenario 2: Visualización<br>Dado que se haya adjuntado un comprobante,<br>Cuando acceda al gasto,<br>Entonces podrá ver o descargar el archivo.                         |
 | EP04     | Gestión de Gastos Compartidos | US18  | Clasificar gastos por categoría | Como usuario, quiero categorizar los gastos para facilitar su análisis y visualización.                 | - Escenario 1: Selección de categoría<br>Dado que el usuario registre un gasto,<br>Cuando acceda a la lista de categorías,<br>Entonces podrá seleccionar entre alimentación, servicios, mantenimiento, etc.<br><br>- Escenario 2: Filtro<br>Dado que seleccione una categoría,<br>Cuando aplique el filtro,<br>Entonces se mostrarán solo los gastos correspondientes.       |
@@ -1747,17 +1768,17 @@ Desarrollar la landing page funcional de SplitEasy que permita a los visitantes 
 
 | Task ID | Título                           | Descripción                                                                                     | Estimación (h) | Asignado a                                 | Estado  |
 |---------|----------------------------------|--------------------------------------------------------------------------------------------------|----------------|----------------------------------------------|---------|
-| W01     | Navbar section                   | Implementar barra de navegación con botones a login y registro.                                | 1              | Jorge Luis Díaz Fiestas                      | ✅ Done |
-| W02     | Responsive navbar section        | Hacer la navbar adaptable a móviles y escritorio.                                               | 0.5            | Jorge Luis Díaz Fiestas                      | ✅ Done |
-| W03     | Hero section                     | Crear sección principal con mensaje atractivo.                                                  | 2              | Paulo Percy Quincho Gamarra                 | ✅ Done |
-| W04     | Responsive hero section          | Adaptar hero section a todos los dispositivos.                                                  | 0.5            | Paulo Percy Quincho Gamarra                 | ✅ Done |
-| W05     | Features section                 | Mostrar funciones clave para representantes y miembros del hogar.                              | 2              | Jhordi Luis Carranza Pérez                   | ✅ Done |
-| W06     | Responsive features section      | Asegurar que la sección features sea responsive.                                                | 0.5            | Jhordi Luis Carranza Pérez                   | ✅ Done |
-| W07     | Proportional system section      | Explicar con gráficos o texto claro el sistema proporcional.                                   | 1.5            | Alexander Piero Fernandez Garfias           | ✅ Done |
-| W08     | Simulation section               | Mostrar ejemplos o flujos del uso de la app.                                                    | 1.5            | Alexander Piero Fernandez Garfias           | ✅ Done |
-| W09     | Call-to-action section           | Crear sección final con botón destacado de registro.                                            | 1              | Paulo Percy Quincho Gamarra              | ✅ Done |
-| W10     | Footer with links                | Añadir footer con enlaces informativos y legales.                                               | 1              | Jorge Luis Díaz Fiestas            | ✅ Done |
-| W11     | Responsive footer section        | Adaptar visualmente el footer a todos los dispositivos.                                         | 0.5            | Jorge Luis Díaz Fiestas            | ✅ Done |
+| W01     | Navbar section                   | Implementar barra de navegación con botones a login y registro.                                | 4              | Jorge Luis Díaz Fiestas                      | ✅ Done |
+| W02     | Responsive navbar section        | Hacer la navbar adaptable a móviles y escritorio.                                               | 4              | Jorge Luis Díaz Fiestas                      | ✅ Done |
+| W03     | Hero section                     | Crear sección principal con mensaje atractivo.                                                  | 6              | Paulo Percy Quincho Gamarra                 | ✅ Done |
+| W04     | Responsive hero section          | Adaptar hero section a todos los dispositivos.                                                  | 4              | Paulo Percy Quincho Gamarra                 | ✅ Done |
+| W05     | Features section                 | Mostrar funciones clave para representantes y miembros del hogar.                              | 6              | Jhordi Luis Carranza Pérez                   | ✅ Done |
+| W06     | Responsive features section      | Asegurar que la sección features sea responsive.                                                | 4              | Jhordi Luis Carranza Pérez                   | ✅ Done |
+| W07     | Proportional system section      | Explicar con gráficos o texto claro el sistema proporcional.                                   | 5              | Alexander Piero Fernandez Garfias           | ✅ Done |
+| W08     | Simulation section               | Mostrar ejemplos o flujos del uso de la app.                                                    | 5              | Alexander Piero Fernandez Garfias           | ✅ Done |
+| W09     | Call-to-action section           | Crear sección final con botón destacado de registro.                                            | 4              | Paulo Percy Quincho Gamarra                 | ✅ Done |
+| W10     | Footer with links                | Añadir footer con enlaces informativos y legales.                                               | 4              | Jorge Luis Díaz Fiestas                      | ✅ Done |
+| W11     | Responsive footer section        | Adaptar visualmente el footer a todos los dispositivos.                                         | 4              | Jorge Luis Díaz Fiestas                      | ✅ Done |
 
 ---
 
@@ -1864,10 +1885,12 @@ Durante este **Sprint 1**, se completó la documentación básica de los servici
 
 | **Commit ID** | **Commit Message**                                               | **Fecha**    |
 |---------------|------------------------------------------------------------------|--------------|
-| #66           | Merge pull request #66 from develop                              | 22/04/2025   |
+| #66           | Merge pull request #66 from 
+| 22/04/2025   |
 | #68           | Merge pull request #68 from develop                              | 23/04/2025   |
 | (sin hash)    | docs: formal documentation of endpoints for registration/login  | 23/04/2025   |
 | (sin hash)    | docs(sprint): document Sprint 1 backlog and tasks for SplitEasy  | 24/04/2025   |
+
 
 ## 5.2.2 Sprint 2
 
@@ -2094,3 +2117,66 @@ Durante el Sprint, las actividades de desarrollo se llevaron a cabo de forma col
 - Todos los miembros contribuyeron tanto al diseño de interfaz como al desarrollo funcional (Angular).
 - Se realizó al menos una sesión grupal de revisión de código y planificación intermedia.
 
+
+
+# Conclusión
+
+El desarrollo de la plataforma **SplitEasy** ha sido un proceso meticuloso y orientado a cubrir las necesidades reales de los usuarios en la gestión financiera compartida dentro de un hogar. A partir de un análisis exhaustivo y una planificación basada en **epics** y **user stories**, se definieron claramente los requisitos funcionales y no funcionales que guían la construcción de un sistema robusto, intuitivo y seguro.
+
+## Enfoque centrado en el usuario
+
+El diseño de la plataforma consideró las diferentes perspectivas y roles dentro de un hogar: visitantes, usuarios registrados, miembros del hogar y representantes. Esta segmentación ha permitido crear flujos específicos para cada tipo de usuario, asegurando que cada interacción sea relevante y optimizada para sus responsabilidades y permisos. Por ejemplo:
+
+- **Visitantes** pueden acceder a información general y probar funcionalidades básicas para incentivar el registro.
+- **Usuarios registrados** tienen acceso personalizado para administrar sus datos y gastos.
+- **Miembros del hogar** pueden añadir y visualizar gastos, fomentando la colaboración y transparencia.
+- **Representantes del hogar** cuentan con funcionalidades avanzadas para aprobar gastos, enviar notificaciones y gestionar perfiles.
+
+## Funcionalidades clave implementadas
+
+La plataforma incorpora múltiples funcionalidades orientadas a facilitar la gestión financiera del hogar, tales como:
+
+- Registro y gestión segura de usuarios con control de roles y permisos.
+- Creación y administración de perfiles individuales con detalles financieros personalizados.
+- Gestión colaborativa de gastos compartidos, con la capacidad de añadir, editar, aprobar y eliminar gastos, lo que mejora la precisión y confianza en la información.
+- Sistema de alertas y recordatorios automáticos para pagos próximos o vencidos, promoviendo la responsabilidad y evitando retrasos.
+- Visualización de reportes financieros mensuales y gráficos que facilitan la comprensión y análisis del estado económico del hogar.
+- Página de aterrizaje con simulaciones y ejemplos explicativos para educar y atraer nuevos usuarios.
+
+## Beneficios y valor agregado
+
+Gracias a la integración de estas funcionalidades, SplitEasy proporciona a los usuarios una experiencia completa que no solo simplifica el manejo de las finanzas domésticas, sino que también promueve la transparencia, la comunicación y el compromiso entre los miembros del hogar. La plataforma contribuye a:
+
+- Mejorar la organización financiera, evitando confusiones y conflictos comunes relacionados con gastos compartidos.
+- Facilitar la toma de decisiones económicas basada en datos claros y accesibles.
+- Fomentar un ambiente de colaboración y responsabilidad financiera conjunta.
+
+## Futuro y escalabilidad
+
+El diseño modular y escalable de SplitEasy garantiza que la plataforma pueda adaptarse a futuras necesidades y crecer conforme aumente la base de usuarios y la complejidad del sistema financiero familiar. Se prevé la incorporación de nuevas funcionalidades como integraciones bancarias, análisis predictivos y personalización avanzada, lo que potenciará aún más su valor y usabilidad.
+
+---
+
+En conclusión, SplitEasy se posiciona como una herramienta innovadora y confiable para la gestión financiera del hogar, que combina simplicidad, seguridad y funcionalidad para ofrecer una solución integral a los desafíos cotidianos del manejo de gastos compartidos.
+
+---
+
+# Referencias (Normas APA 7)
+
+## Aplicaciones para dividir gastos
+
+- Blanco, F. (2020, 28 de agosto). *Estadística visual (VIII). Gráficos con barras de error: manual de usuario*. Fernando Blanco, PhD. https://fernandoblancopsy.com/2020/08/28/estadistica-visual-viii-graficos-con-barras-de-error-manual-de-usuario/
+- Splitwise. (2025). *Splitwise: Split bills the easy way*. https://www.splitwise.com/
+- Tricount. (2025). *Simplifica los gastos de grupo*. https://tricount.com/es-es/
+- Settle Up. (2025). *Settle Up – Gastos del grupo*. https://settleup.io/
+
+## Herramientas de desarrollo y gestión de proyectos
+
+- Atlassian. (2025). *Trello*. https://trello.com/
+- Google. (2025). *Google Docs*. https://docs.google.com/
+- Figma, Inc. (2025). *Figma: The collaborative interface design tool*. https://www.figma.com/
+- JetBrains. (2025a). *IntelliJ IDEA*. https://www.jetbrains.com/idea/
+- JetBrains. (2025b). *WebStorm*. https://www.jetbrains.com/webstorm/
+- JetBrains. (2025c). *Rider*. https://www.jetbrains.com/rider/
+- Microsoft. (2025). *Download .NET SDKs*. https://dotnet.microsoft.com/en-us/download
+- GitHub, Inc. (2025). *GitHub: Where the world builds software*. https://github.com/
