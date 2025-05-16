@@ -1907,3 +1907,68 @@ Durante este **Sprint 1**, se completó la documentación básica de los servici
 | #68           | Merge pull request #68 from develop                              | 23/04/2025   |
 | (sin hash)    | docs: formal documentation of endpoints for registration/login  | 23/04/2025   |
 | (sin hash)    | docs(sprint): document Sprint 1 backlog and tasks for SplitEasy  | 24/04/2025   |
+
+## 5.2.2 Sprint 2
+
+### 5.2.2.1 Sprint Planning 2
+
+A continuación, se presentará el sprint planning 2 donde se mostrarán las evidencias de planificación para la implementación de la aplicación web.
+
+- **Sprint #:** Sprint 2  
+- **Sprint Planning Background:**
+  - **Fecha:** 8 de mayo del 2025  
+  - **Hora:** 16:00 horas (GMT -5)  
+  - **Lugar:** Modalidad remota por Discord  
+  - **Preparado por:** Equipo SplitEasy  
+  - **Asistentes:** Todos los miembros del equipo de SplitEasy
+
+---
+
+#### Sprint n – 1 Review Summary
+
+En este primer sprint se desarrolló la Landing Page utilizando el framework de estilos Tailwind CSS. Se revisó y adaptó el contenido textual del landing con base en las propuestas previas realizadas en Figma. Al finalizar el sprint, la Landing Page fue desplegada exitosamente en Netlify y quedó accesible públicamente mediante un enlace funcional.
+
+---
+
+#### Sprint n – 2 Retrospective Summary
+
+En este sprint se planea avanzar con el desarrollo del front-end de la aplicación web, incluyendo las vistas para la autenticación de usuario y las vistas core del usuario reclutador. También se tiene previsto implementar la configuración de idioma utilizando la librería i18n con Vue. Además, se contempla desarrollar la sección de Términos de Servicio, el video sobre el producto y el video del equipo. Las tareas han sido organizadas y gestionadas a través de la plataforma Trello. Al finalizar el sprint, se espera contar con una versión actualizada del landing page y una demo funcional del front-end de la aplicación desplegada en Netlify.
+
+---
+
+#### Sprint Goal & User Stories
+
+- **Sprint 1 Velocity:** 40  
+- **Suma de Story Points (Sprint 2):** 30
+
+---
+
+### 5.2.2.2 Aspect Leaders and Collaborators
+
+A continuación, se presentan los líderes y colaboradores de SplitEasy:
+
+| Nombre                        | Rol         | User Stories                         | Descripción de las contribuciones |
+|------------------------------|-------------|--------------------------------------|-----------------------------------|
+| Jorge Luis Díaz Fiestas      | Líder       | E2-US08-W1, E2-US09-W1, E5-US24-W1, E4-US18-W1 | Supervisión general del proyecto. Implementó las interfaces de inicio de sesión, recuperación de contraseña, visualización de procesos legales y cambio de workspace. |
+| Paulo Percy Quincho Gamarra  | Colaborador | E2-US08-W1, E2-US09-W1               | Participó en el desarrollo del inicio de sesión y recuperación de contraseña. Optimizó imágenes, mejoró accesibilidad y actualizó el footer con contenido útil. |
+| Alexander Piero Fernández    | Colaborador | Revisión visual y estilo (Commits: b46487a, 68f0b71, etc.) | Realizó correcciones en tipografía, colores y coherencia visual del sitio. Ajustó el diagrama de arquitectura y el Student Outcome según feedback. |
+| Jhordi Luis Carranza Pérez   | Colaborador | Revisión visual y documentación (Commits: ed3f328, 94f6bfb) | Colaboró con Alexander en ajustes menores de estilo. Actualizó imágenes, tablas y descripciones en la documentación del proyecto para mantener una presentación clara. |
+
+---
+
+### User Stories Sprint 2
+
+| Sprint | User Story ID | Título de la User Story                 | Work Item ID | Título del Work Item                | Descripción                                                                 | Estimación (h) | Asignado a                      | Estado |
+|--------|----------------|----------------------------------------|--------------|-------------------------------------|-----------------------------------------------------------------------------|----------------|----------------------------------|--------|
+| 2      | US01           | Registro de usuario                    | US01-W1      | Interfaz de registro de usuario     | Crear formulario de registro para nuevos usuarios (representante o miembro del hogar). | 3              | Jorge Luis Díaz Fiestas         | Done   |
+| 2      | US02           | Inicio de sesión seguro                | US02-W1      | Interfaz de inicio de sesión        | Implementar formulario para login seguro de usuarios.                      | 2              | Paulo Percy Quincho Gamarra     | Done   |
+| 2      | US14           | Ver historial de pagos                 | US14-W1      | Vista de historial de pagos         | Crear interfaz que muestre todos los pagos registrados por el usuario.     | 1.5            | Jorge Luis Díaz Fiestas         | Done   |
+| 2      | US04           | Cierre de sesión desde todos los dispositivos | US04-W1 | Botón de cierre de sesión           | Agregar funcionalidad de cerrar sesión desde cualquier dispositivo.        | 1              | Jorge Luis Díaz Fiestas         | Done   |
+| 2      | US13           | Registrar pagos realizados             | US13-W1      | Componente para registrar pagos     | Crear componente para que el usuario registre pagos manuales.              | 2              | Paulo Percy Quincho Gamarra     | Done   |
+| 2      | US11           | Ingresar ingresos personales           | US11-W1      | Formulario de ingreso de ingresos   | Implementar formulario para ingresar fuentes de ingreso mensual.           | 1.5            | Jorge Luis Díaz Fiestas         | Done   |
+| 2      | US20           | Visualizar gráficos de gastos          | US20-W1      | Componente de gráficos de gastos    | Mostrar estadísticas visuales de los gastos por categoría o por miembro.   | 2              | Paulo Percy Quincho Gamarra     | Done   |
+| 2      | US15           | Ver distribución de gastos del hogar   | US15-W1      | Interfaz de distribución de gastos  | Mostrar porcentaje de aportes y gastos asignados a cada miembro del hogar. | 1.5            | Jorge Luis Díaz Fiestas         | Done   |
+| 2      | US12           | Ver monto a pagar                      | US12-W1      | Componente de monto a pagar         | Crear componente que muestre el monto actualizado que debe pagar el usuario. | 1            | Paulo Percy Quincho Gamarra     | Done   |
+| 2      | US05           | Configuración de notificaciones personales | US05-W1   | Vista de notificaciones             | Implementar sección de configuración de recordatorios y alertas para el usuario. | 1            | Jhordi Luis Carranza Pérez      | Done   |
+| 2      |
+
