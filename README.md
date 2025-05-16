@@ -1947,28 +1947,72 @@ En este sprint se planea avanzar con el desarrollo del front-end de la aplicaci�
 
 A continuación, se presentan los líderes y colaboradores de SplitEasy:
 
-| Nombre                        | Rol         | User Stories                         | Descripción de las contribuciones |
-|------------------------------|-------------|--------------------------------------|-----------------------------------|
-| Jorge Luis Díaz Fiestas      | Líder       | E2-US08-W1, E2-US09-W1, E5-US24-W1, E4-US18-W1 | Supervisión general del proyecto. Implementó las interfaces de inicio de sesión, recuperación de contraseña, visualización de procesos legales y cambio de workspace. |
-| Paulo Percy Quincho Gamarra  | Colaborador | E2-US08-W1, E2-US09-W1               | Participó en el desarrollo del inicio de sesión y recuperación de contraseña. Optimizó imágenes, mejoró accesibilidad y actualizó el footer con contenido útil. |
-| Alexander Piero Fernández    | Colaborador | Revisión visual y estilo (Commits: b46487a, 68f0b71, etc.) | Realizó correcciones en tipografía, colores y coherencia visual del sitio. Ajustó el diagrama de arquitectura y el Student Outcome según feedback. |
-| Jhordi Luis Carranza Pérez   | Colaborador | Revisión visual y documentación (Commits: ed3f328, 94f6bfb) | Colaboró con Alexander en ajustes menores de estilo. Actualizó imágenes, tablas y descripciones en la documentación del proyecto para mantener una presentación clara. |
+| Nombre                        | Rol         | User Stories                                   | Descripción de las contribuciones |
+|------------------------------|-------------|------------------------------------------------|-----------------------------------|
+| Jorge Luis Díaz Fiestas      | Líder       | E2-US08-W1, E2-US09-W1, E5-US24-W1, E4-US18-W1 | Supervisión general del proyecto. Implementó interfaces de inicio de sesión, recuperación de contraseña, visualización de procesos legales y cambio de workspace. |
+| Paulo Percy Quincho Gamarra  | Colaborador | E2-US08-W1, E2-US09-W1                         | Desarrollo de login y recuperación de contraseña. Optimizó imágenes, mejoró accesibilidad y actualizó el footer. |
+| Alexander Piero Fernández    | Colaborador | Revisión visual y estilo                       | Correcciones en tipografía, colores y coherencia visual. Ajustó el diagrama de arquitectura y Student Outcome. |
+| Jhordi Luis Carranza Pérez   | Colaborador | Revisión visual y documentación                | Ajustes menores de estilo. Actualizó imágenes, tablas y descripciones en la documentación. |
+
+**Tabla de User Stories**
+
+| Sprint | User Story ID | Título de la User Story              | Work Item ID | Título del Work Item                  | Descripción                                                                 | Estimación (h) | Asignado a                     | Estado |
+|--------|----------------|--------------------------------------|--------------|----------------------------------------|-----------------------------------------------------------------------------|----------------|-------------------------------|--------|
+| 2      | US01           | Registro de usuario                 | US01-W1      | Interfaz de registro de usuario        | Crear formulario de registro para nuevos usuarios.                          | 3              | Jorge Luis Díaz Fiestas       | Done   |
+| 2      | US02           | Inicio de sesión seguro             | US02-W1      | Interfaz de inicio de sesión           | Implementar formulario para login seguro.                                   | 2              | Paulo Percy Quincho Gamarra   | Done   |
+| 2      | US14           | Ver historial de pagos              | US14-W1      | Vista de historial de pagos            | Crear interfaz con los pagos registrados.                                   | 1.5            | Jorge Luis Díaz Fiestas       | Done   |
+| 2      | US04           | Cierre de sesión desde todos los dispositivos | US04-W1 | Botón de cierre de sesión             | Cierre de sesión desde cualquier dispositivo.                               | 1              | Jorge Luis Díaz Fiestas       | Done   |
+| 2      | US13           | Registrar pagos realizados          | US13-W1      | Componente para registrar pagos        | Registro manual de pagos.                                                   | 2              | Paulo Percy Quincho Gamarra   | Done   |
+| 2      | US11           | Ingresar ingresos personales        | US11-W1      | Formulario de ingreso de ingresos      | Formulario de ingreso mensual.                                              | 1.5            | Jorge Luis Díaz Fiestas       | Done   |
+| 2      | US20           | Visualizar gráficos de gastos       | US20-W1      | Componente de gráficos de gastos       | Estadísticas visuales de gastos.                                            | 2              | Paulo Percy Quincho Gamarra   | Done   |
+| 2      | US15           | Ver distribución de gastos del hogar | US15-W1     | Interfaz de distribución de gastos     | Mostrar porcentaje de aportes y gastos por miembro.                         | 1.5            | Jorge Luis Díaz Fiestas       | Done   |
+| 2      | US12           | Ver monto a pagar                   | US12-W1      | Componente de monto a pagar            | Mostrar el monto que debe pagar el usuario.                                 | 1              | Paulo Percy Quincho Gamarra   | Done   |
+| 2      | US05           | Configuración de notificaciones     | US05-W1      | Vista de notificaciones                | Configuración de recordatorios y alertas.                                   | 1              | Jhordi Luis Carranza Pérez    | Done   |
+| 2      | US09           | Visualizar reportes mensuales       | US09-W1      | Panel de reportes mensuales            | Informes mensuales de gastos y aportes.                                     | 1              | Alexander Piero Fernández     | Done   |
 
 ---
 
-### User Stories Sprint 2
+### 5.2.2.3 Deployment Evidence for Sprint Review
 
-| Sprint | User Story ID | Título de la User Story                 | Work Item ID | Título del Work Item                | Descripción                                                                 | Estimación (h) | Asignado a                      | Estado |
-|--------|----------------|----------------------------------------|--------------|-------------------------------------|-----------------------------------------------------------------------------|----------------|----------------------------------|--------|
-| 2      | US01           | Registro de usuario                    | US01-W1      | Interfaz de registro de usuario     | Crear formulario de registro para nuevos usuarios (representante o miembro del hogar). | 3              | Jorge Luis Díaz Fiestas         | Done   |
-| 2      | US02           | Inicio de sesión seguro                | US02-W1      | Interfaz de inicio de sesión        | Implementar formulario para login seguro de usuarios.                      | 2              | Paulo Percy Quincho Gamarra     | Done   |
-| 2      | US14           | Ver historial de pagos                 | US14-W1      | Vista de historial de pagos         | Crear interfaz que muestre todos los pagos registrados por el usuario.     | 1.5            | Jorge Luis Díaz Fiestas         | Done   |
-| 2      | US04           | Cierre de sesión desde todos los dispositivos | US04-W1 | Botón de cierre de sesión           | Agregar funcionalidad de cerrar sesión desde cualquier dispositivo.        | 1              | Jorge Luis Díaz Fiestas         | Done   |
-| 2      | US13           | Registrar pagos realizados             | US13-W1      | Componente para registrar pagos     | Crear componente para que el usuario registre pagos manuales.              | 2              | Paulo Percy Quincho Gamarra     | Done   |
-| 2      | US11           | Ingresar ingresos personales           | US11-W1      | Formulario de ingreso de ingresos   | Implementar formulario para ingresar fuentes de ingreso mensual.           | 1.5            | Jorge Luis Díaz Fiestas         | Done   |
-| 2      | US20           | Visualizar gráficos de gastos          | US20-W1      | Componente de gráficos de gastos    | Mostrar estadísticas visuales de los gastos por categoría o por miembro.   | 2              | Paulo Percy Quincho Gamarra     | Done   |
-| 2      | US15           | Ver distribución de gastos del hogar   | US15-W1      | Interfaz de distribución de gastos  | Mostrar porcentaje de aportes y gastos asignados a cada miembro del hogar. | 1.5            | Jorge Luis Díaz Fiestas         | Done   |
-| 2      | US12           | Ver monto a pagar                      | US12-W1      | Componente de monto a pagar         | Crear componente que muestre el monto actualizado que debe pagar el usuario. | 1            | Paulo Percy Quincho Gamarra     | Done   |
-| 2      | US05           | Configuración de notificaciones personales | US05-W1   | Vista de notificaciones             | Implementar sección de configuración de recordatorios y alertas para el usuario. | 1            | Jhordi Luis Carranza Pérez      | Done   |
-| 2      |
+**Commits de desarrollo (funcionalidad):**
 
+| Autor                  | Fecha       | Commit Message                              | Commit ID  |
+|------------------------|-------------|---------------------------------------------|------------|
+| Paulo Percy Quincho    | 16/05/2025  | Complete Home-member-view                   | 7559f68    |
+| Paulo Percy Quincho    | 16/05/2025  | Create status-member                        | 61bcc5f    |
+| Luis Díaz              | 16/05/2025  | Create contributions-member                 | d08477f    |
+| Paulo Percy Quincho    | 16/05/2025  | Create home-member                          | d2257eb    |
+| Paulo Percy Quincho    | 16/05/2025  | Create Sidebar-member and member-view       | 4b8ff58    |
+| Luis Díaz              | 16/05/2025  | Complete Representative-page                | 60ae203    |
+| Paulo Percy Quincho    | 15/05/2025  | file: Creación de Bills-Representative      | c1e3663    |
+| Paulo Percy Quincho    | 15/05/2025  | file: Creación de Members-Representative    | d982479    |
+| Luis Díaz              | 09/05/2025  | deploying page                              | 87aa1ce    |
+| Paulo Percy Quincho    | 09/05/2025  | Primer commit: subida del proyecto Angular  | 0eb2558    |
+| Luis Díaz              | 06/05/2025  | initial commit                               | 3a1df4d    |
+
+**Commits de documentación y diseño:**
+
+| Autor                      | Fecha       | Commit Message                                         | Commit ID  |
+|---------------------------|-------------|--------------------------------------------------------|------------|
+| Alexander Piero Fernández | 15/05/2025  | doc: fix Student Outcome based on feedback            | b46487a    |
+| Jhordi Luis Carranza      | 15/05/2025  | docs: Updated Interview and Flow Chart Images         | ed3f328    |
+| Jhordi Luis Carranza      | 15/05/2025  | img: Added new images                                 | 0089257    |
+| Jhordi Luis Carranza      | 15/05/2025  | docs: Updated Student Outcome chart, Interviews...    | 7d74ce2    |
+| Jhordi Luis Carranza      | 15/05/2025  | docs: update README                                   | 10de3fd    |
+| Jhordi Luis Carranza      | 15/05/2025  | docs: update README with new Student Outcome table    | 94f6bfb    |
+| Jhordi Luis Carranza      | 15/05/2025  | Add files via upload                                  | 86e49db    |
+| Alexander Piero Fernández | 13/05/2025  | doc: fix chart of student outcome                     | 8c42d9a    |
+| Alexander Piero Fernández | 13/05/2025  | doc: add chart of student outcome                     | d25b2e3    |
+| Alexander Piero Fernández | 13/05/2025  | doc: fix architecture diagram                         | 68f0b71    |
+| Alexander Piero Fernández | 13/05/2025  | doc: add scenarios as-is                              | ed2ee5e    |
+| Alexander Piero Fernández | 12/05/2025  | doc: fix scenarios as-is                              | b2d7984    |
+
+---
+
+### 5.2.2.4 Testing Suite Evidence for Sprint Review
+
+En el alcance del sprint 2 se ha desarrollado el front end de la aplicación web como primera instancia, por lo que no se evidencia de testing.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|------------|----------------|----------------------|---------------------|
+| _No disponible_ | _No disponible_ | _N/A_ | _N/A_ | _N/A_ | _N/A_ |
