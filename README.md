@@ -504,24 +504,6 @@ SplitEasy busca ofrecer una solución digital que permita distribuir los gastos 
 
 ### Registro de entrevistas
 
-**Entrevista a usuaria del primer segmento**
-**Entrevistada:** Marjorie Luna Victoria  
-**Edad:** 18 años  
-**Ocupación:** Estudiante  
-**Medio:** Meet  
-**Entrevistador:** Jorge Díaz  
-
-**Inicio del video:** 0:04  
- **Duración:** 3 minutos y 51 segundos
-
-<p align="center">
-  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d534_upc_edu_pe/Eb5FlqZR0V5Lp7-xxXjuCJoB5YvtofbTZmi38i7a2z4fdA?e=x4XGYU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">
-    <img src="images/Interview.png" alt="Miniatura de la entrevista a usuaria del primer segmento" width="700"/>
-    <br>
-    Ver entrevista completa
-  </a>
-</p>
-
 **Primer Segmento - Entrevista a Jesus Casana - Por Bruno Gonzales:**
 <p align="left">
   <img src="images/Entrevista1_Bruno.png" alt="" width="500">
@@ -536,15 +518,31 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u201820037_upc_edu_pe/EfGMD0WY
 
 **Primer Segmento - Entrevista a Denis Monsalve - Por Jhordi Carranza:**
 <p align="left">
+
   <img src="images/Entrevista.Denis.png" alt="UserPersona1" width="500">
 </p>
-https://upcedupe-my.sharepoint.com/personal/u20191e835_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20191e835%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevista%20%2D%20S1%20%2D%20Open%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E52f02c77%2D8b1d%2D4af0%2D9a00%2D5c66d9216998&isDarkMode=false
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191e835_upc_edu_pe/Ebc2v4G3OnFKn_lM39sFKjUBXK7kW_iu1TjNEgcR1vRlBg
+
+---
+
+**Segundo Segmento -  Entrevista a Marjorie Luna Victoria - Por Jorge Díaz:**
+<p align="left">
+  <img src="images/EntrevistaMarjorie.png" alt="UserPersona1" width="500">
+</p>
+https://upcedupe-my.sharepoint.com/personal/u20231d534_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20231d534%5Fupc%5Fedu%5Fpe%2FDocuments%2F2025%2D04%2D10%2016%2D09%2D47%2Emkv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E1fbf2b54%2Ddab5%2D4bd4%2Da1d6%2D28ca884bf530
+
 
 **Segundo Segmento - Entrevista a José Carranza - Por Jhordi Carranza:**
 <p align="left">
   <img src="images/Entrevista.JoséCarr.png" alt="UserPersona1" width="500">
 </p>
 https://upcedupe-my.sharepoint.com/personal/u20191e835_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20191e835%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevista%20de%20Jhordi%20Carranza%20%2D%20Segmento%202%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E5cb064bd%2Dde25%2D4cd9%2D971f%2De0eb6e0cdf7d&isDarkMode=false
+
+**Segundo Segmento -  Entrevista a Diego Ramírez - Por Alexander Fernandez:**
+<p align="left">
+  <img src="images/EntrevistaDiego.png" alt="UserPersona1" width="500">
+</p>
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019498_upc_edu_pe/EXVitH8xFOJOtsRjz9BeBu4BpoicdsdOC0cgkm9IWkb6Rw?e=x0BYoH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 ### Análisis de entrevistas
 
@@ -578,6 +576,7 @@ Las necesidades principales que hemos encontrado en nuestros segmentos objetivos
 
 ### User Task Matrix
 En esta sección se presenta la User Task Matrix, una herramienta enfocada en los 2 segmentos clave de usuarios de SplitEasy, en miembro del hogar y en responsable del hogar, que permite identificar sus tareas habituales y principales necesidades. Este análisis resulta fundamental para establecer prioridades al momento de definir las funcionalidades del producto e integrar el product backlog. Para la dimensión de frecuencia, se han utilizado cinco niveles: never, rarely, sometimes, often y always; y para la importancia, tres niveles: low, medium y high.
+### Camila Torres
 
 | **User Task**                                              | **Camila Torres - Miembro del hogar** |                                     | **Javier Morales - Responsable del hogar** |                                     |
 |------------------------------------------------------------|----------------------------------------|-------------------------------------|--------------------------------------------|-------------------------------------|
@@ -593,27 +592,21 @@ En esta sección se presenta la User Task Matrix, una herramienta enfocada en lo
 | Buscar herramientas para facilitar la gestión financiera   | Sometimes                              | Medium                              | Sometimes                                  | Medium                              |
 | Resolver conflictos por dinero entre miembros              | Rarely                                 | High                                | Rarely                                     | High                                |
 
-
 ### User Journey Mapping
+En esta sección se presentarán los user journey mapping para cada user persona. El recorrido comienza cuando una persona del hogar recibe una notificación relacionada a un nuevo gasto compartido, enviada a través de SplitEasy. A partir de ello, consulta su historial de aportes y visualiza cuánto han pagado otros miembros del hogar. Luego, se realiza el cálculo proporcional de lo que debe aportar, basado en reglas previamente acordadas. Posteriormente, se comunica con otros miembros en caso de dudas o para validar el monto. El recorrido finaliza cuando realiza el pago de su parte desde la aplicación o mediante un enlace compartido.
 
 ### Segmento 1: Personas del hogar
 
-El journey de este segmento refleja a un miembro del hogar que busca una forma justa y equitativa de distribuir los gastos del hogar entre los diferentes miembros. Actualmente, el proceso de distribución de gastos es manual y genera conflictos debido a la falta de claridad y transparencia.
 
 <p align="left">
-  <img src="images/UserJourney1.PNG" alt="UserJourney1" width="500">
+  <img src="images/UserJourney11.jpeg"">
 </p>
-
-**Emoción final:** Inseguridad y frustración, ya que el proceso es manual, desorganizado y genera confusión.
 
 ### Segmento 2: Representante del hogar
 
-El journey de este segmento refleja a una persona encargada de la planificación financiera del hogar. Aunque tiene la intención de distribuir los gastos de manera equitativa, actualmente carece de una herramienta eficiente para llevar un control claro y justo, lo que provoca estrés y desconfianza entre los miembros del hogar.
-
-**Emoción final:** Estrés y desconcierto, ya que la distribución de gastos es confusa y la comunicación no es eficiente.
 
 <p align="left">
-  <img src="images/UserJourney2.PNG" alt="UserJourney2" width="500">
+  <img src="images/UserJourney22.jpeg" ">
 </p>
 
 ### Empathy Mapping
@@ -634,31 +627,15 @@ El journey de este segmento refleja a una persona encargada de la planificación
 
 ### Segmento #1: Personas del Hogar
 
-| Fase                                      | Doing | Thinking | Feeling |
-|-------------------------------------------|--------|----------|---------|
-| **Seguimiento y revisión de gastos compartidos** | Revisa conversaciones de WhatsApp o notas personales para rastrear quién pagó qué, pero muchas veces la información está incompleta o es confusa. | Pienso que llevar un registro de los gastos compartidos debería ser más sencillo y automático, pero hasta ahora no hemos encontrado una forma clara de hacerlo. | Me siento confundido al intentar recordar todos los pagos realizados sin un registro claro ni apoyo visual. |
-|                                           | Intenta hacer una lista manual de gastos en papel o Excel, aunque no siempre recuerda todos los detalles y los registros se vuelven difíciles de actualizar. | Me pregunto si estoy olvidando anotar algún gasto importante y si eso puede afectar el cálculo que hacemos a fin de mes. | Siento frustración porque la falta de organización financiera genera dudas constantes y conversaciones repetitivas con mis convivientes. |
-|                                           | Consulta su cuenta bancaria para verificar pagos recientes, pero no puede identificar fácilmente cuáles fueron gastos personales y cuáles del hogar. | Pienso que sería mucho más justo si tuviéramos un sistema centralizado donde todos podamos registrar los gastos en tiempo real y con transparencia. | Me siento inseguro sobre si todos estamos aportando lo que realmente corresponde, lo que crea una tensión silenciosa. |
-| **Distribución informal de los pagos**    | Coordina a través de mensajes con los demás miembros para acordar quién pagará ciertos gastos, pero muchas veces esto se hace sobre la marcha sin una lógica clara. | Pienso que terminó asumiendo más gastos que los demás simplemente porque suelo tener el dinero a la mano o reaccionó más rápido. | Me siento agotado de tener que estar detrás de todos para que paguen su parte o al menos registren lo que compraron. |
-|                                           | Suma rápidamente los montos estimados para dividirlos entre todos, aunque no considera factores como los ingresos individuales ni el consumo real. | Me pregunto si realmente todos entienden cuánto deben aportar o si lo hacen "a ojo", sin preocuparse por la equidad. | Siento cierta incomodidad al tener que hablar de dinero constantemente, ya que se vuelve un tema delicado en el hogar. |
-|                                           | Realiza pagos de manera voluntaria por necesidad o urgencia, esperando que luego los demás le transfieran su parte, aunque no siempre lo hacen. | Pienso que esta forma de dividir gastos es muy improvisada y, a la larga, puede generar malentendidos o conflictos. | Me siento abrumado porque sé que no estamos manejando bien nuestras finanzas compartidas, y eso me preocupa. |
-| **Ajustes reactivos y búsqueda de equidad** | Analiza los ingresos aproximados de cada integrante para proponer una distribución más justa, pero sin datos concretos se vuelve una conversación complicada. | Pienso que deberíamos dividir los gastos de forma proporcional a lo que gana cada persona, para que todos puedan contribuir sin ahogarse. | Me siento decepcionado porque, a pesar de nuestras buenas intenciones, seguimos teniendo los mismos problemas de organización mes tras mes. |
-|                                           | Propone reuniones improvisadas para revisar los gastos y buscar un mejor método de control, pero las decisiones no se mantienen en el tiempo. | Me pregunto si existe una aplicación que nos ayude a hacer esto automáticamente, sin tener que hacer cálculos manuales o discutir todo el tiempo. | Siento tensión al hablar del tema con mis convivientes, porque a veces se malinterpretan las intenciones de quienes intentamos ordenar. |
-|                                           | Investiga apps o soluciones digitales para la gestión de gastos, pero ninguna se ajusta realmente al contexto del hogar ni considera la proporcionalidad de ingresos. | Pienso que necesitamos una herramienta que se adapte a nuestra dinámica como hogar, con funcionalidades claras, accesibles y compartidas. | Me siento con esperanza de que encontremos una solución adecuada, pero también con ansiedad porque el problema aún persiste y genera incomodidad. |
+<p align="left">
+  <img src="images/ScenarioMapping1S1.png"">
+</p>
 
 ### Segmento #2: Representante del Hogar
 
-| Fase                                      | Doing | Thinking | Feeling |
-|-------------------------------------------|--------|----------|---------|
-| **Recolección y validación de información financiera del hogar** | Recolecta los comprobantes y detalles de gastos realizados por todos los integrantes del hogar, usando notas, mensajes o capturas, pero no siempre recibe la información completa. | Pienso que estoy cargando con toda la responsabilidad de organizar los gastos, y eso no es sostenible sin un sistema de apoyo claro. | Me siento abrumado por la cantidad de información que debe manejar y organizar cada mes sin tener herramientas que me faciliten la tarea. |
-|                                           | Revisa manualmente los estados de cuenta y movimientos bancarios para identificar los pagos relacionados al hogar, lo cual le toma mucho tiempo. | Me pregunto si realmente estoy considerando todos los gastos y si hay algún egreso que se me está escapando por falta de comunicación. | Siento frustración porque muchas veces debo insistir para que los demás cooperen con los datos que necesito, y no siempre responden. |
-|                                           | Pregunta constantemente a los miembros del hogar por gastos olvidados o no registrados, lo que genera demoras y posibles olvidos importantes. | Pienso que necesito una manera más estructurada y automática para recolectar la información financiera del hogar sin depender de tantos recordatorios. | Me siento solo en esta tarea, como si fuera una obligación exclusiva mía, cuando debería ser una responsabilidad compartida. |
-| **Coordinación y comunicación de pagos pendientes** | Informa a cada miembro cuánto debe pagar y por qué, a través de mensajes o reuniones, pero muchas veces hay confusión o falta de claridad en los montos. | Pienso que debería haber un sistema que envíe recordatorios automáticos y calcule de forma clara lo que cada uno debe pagar según lo que gana o consume. | Me siento estresado por tener que estar al tanto de todos los pagos y al mismo tiempo mantener una buena relación con todos. |
-|                                           | Envía recordatorios de pagos pendientes o fechas límites, lo cual consume tiempo y no siempre garantiza una respuesta inmediata. | Me pregunto si estoy siendo justo al dividir los gastos de forma igual cuando algunos ganan más o usan más recursos del hogar. | Siento incomodidad cuando debo insistir o corregir a alguien por un pago pendiente, porque no quiero generar conflictos. |
-|                                           | Negocia casos especiales (como pagos fraccionados o postergaciones) sin contar con reglas claras, lo que puede ser percibido como injusto. | Pienso que esta dinámica constante de perseguir a todos por los pagos desgasta mi relación con los demás y crea una tensión innecesaria. | Me siento responsable de que todo funcione correctamente, pero a la vez cansado de que no todos valoren el esfuerzo que conlleva. |
-| **Evaluación y propuesta de mejoras en la gestión de gastos** | Revisa lo que funcionó o falló en el mes anterior, anotando observaciones sobre los pagos tardíos, malentendidos o desequilibrios financieros. | Pienso que debemos cambiar el sistema actual por uno más justo, donde todos entiendan y acepten cómo se calcula cada gasto. | Me siento motivado cuando encuentro posibles soluciones o herramientas que podrían facilitar nuestra gestión como hogar. |
-|                                           | Busca herramientas como hojas de Excel, apps móviles o plantillas para organizar mejor los datos y proponer un sistema más claro. | Me pregunto si los demás estarán dispuestos a adoptar una nueva herramienta o si seguirán resistiéndose a cambiar su forma de actuar. | Siento ansiedad al pensar que los cambios propuestos no sean bien recibidos o que no logren resolver los problemas actuales. |
-|                                           | Presenta nuevas ideas o métodos para mejorar la distribución de gastos en las reuniones familiares o del hogar, con argumentos basados en experiencias previas. | Pienso que si no logramos organizar mejor nuestras finanzas ahora, más adelante tendremos conflictos más serios que afectarán la convivencia. | Me siento determinado a encontrar una forma más equitativa de administrar los gastos del hogar, porque sé que es necesario para todos. |
+<p align="left">
+  <img src="images/ScenarioMapping1S2.png"">
+</p>
 
 ## Ubiquitous Language
 
@@ -681,31 +658,15 @@ El journey de este segmento refleja a una persona encargada de la planificación
 
 ### Segmento 1: Miembros del hogar
 
-| Fase                                      | Doing | Thinking | Feeling |
-|-------------------------------------------|--------|----------|---------|
-| **Seguimiento y revisión de gastos compartidos** | Los miembros del hogar ingresan automáticamente todos los gastos en la aplicación, ya sea al momento del gasto o mediante sincronización con sus cuentas bancarias. | Es mucho más fácil y preciso llevar un registro ahora que todos los pagos se registran automáticamente sin tener que buscar en WhatsApp ni revisar bancos manualmente. | Me siento mucho más organizado porque tengo todo el registro claro y accesible en mi teléfono sin perder tiempo. |
-|                                           | La app organiza y categoriza los pagos (gastos comunes vs personales) automáticamente, sin necesidad de búsquedas manuales. | Ahora sé exactamente lo que gasté y lo que debo, sin necesidad de adivinar ni calcular de memoria. | Es un alivio saber que no tengo que revisar cientos de mensajes o comprobantes para recordar lo que cada quien debe. |
-|                                           | El sistema envía notificaciones automáticas con un resumen semanal de los gastos compartidos. | Este sistema me ahorra mucho tiempo y esfuerzo. Ya no tengo que preocuparme por mantener un control constante. | Ahora tengo la seguridad de que todos los gastos están bien registrados y no me siento confundido ni preocupado por olvidar algo importante. |
-| **Distribución informal de los pagos**    | La aplicación realiza automáticamente la distribución de los pagos según el consumo de cada miembro y sus ingresos. | No tengo que calcular manualmente cuánto me toca pagar. La app lo hace automáticamente con base en mis ingresos y el consumo real. | Me siento más tranquilo porque la distribución es automática y justa. |
-|                                           | Los usuarios visualizan la distribución con gráficos claros que muestran la proporción correspondiente a cada miembro. | Ahora cada uno paga lo que le corresponde de forma justa, sin discusiones ni estimaciones imprecisas. | Es un alivio saber que ya no hay malentendidos ni tensiones por quién paga qué. |
-|                                           | La app permite el pago directo dentro de la plataforma, con transferencias instantáneas. | Este sistema es más equilibrado y sencillo que el método anterior, donde uno a veces asumía más de lo que debía. | Me siento más seguro porque la app ajusta la contribución según lo que cada uno gana y consume. |
-| **Ajustes reactivos y búsqueda de equidad** | La app ajusta automáticamente las contribuciones si hay cambios en ingresos o gastos. | La app se adapta automáticamente a los cambios, haciendo ajustes sin que tengamos que discutir o calcular nada. | Me siento tranquilo porque ya no hay necesidad de hacer ajustes complicados o debatir sobre la división. |
-|                                           | La aplicación muestra comparaciones visuales para facilitar la toma de decisiones si hay dudas o ajustes. | Si algo cambia, puedo ver en tiempo real cómo se ajusta la distribución, lo que me da claridad y confianza. | Es muy cómodo saber que los ajustes se hacen solos y de forma justa, sin necesidad de confrontaciones. |
-|                                           | Hay un sistema de comentarios y notas en cada gasto para que los miembros discutan o justifiquen ajustes de forma ordenada. | Antes era complicado ajustar, pero ahora la app lo maneja de forma eficiente y justa. | Ahora me siento menos preocupado y más satisfecho con cómo se gestionan los pagos: es más justo y transparente. |
+<p align="left">
+  <img src="images/ScenarioMapping2S22.png"">
+</p>
 
 ### Segmento 2: Representante del hogar
 
-| Fase                                         | Doing | Thinking | Feeling |
-|----------------------------------------------|--------|----------|---------|
-| **Recolección y validación de información financiera del hogar** | La aplicación recopila automáticamente todos los gastos realizados, sincronizando las cuentas bancarias de todos los miembros del hogar, para asegurar que no falte ningún gasto registrado. | Ahora la app recolecta toda la información automáticamente, lo que me permite ahorrar tiempo y no preocuparme por pedir detalles constantemente. | Me siento mucho más relajado sabiendo que toda la información financiera está organizada y no tengo que buscarla en varias partes. |
-|                                              | Los usuarios reciben notificaciones en tiempo real sobre nuevos gastos o pagos realizados, sin tener que pedir información adicional. | Me siento más tranquilo porque sé que no se me está escapando ningún gasto importante, ya que todo se registra en la aplicación de forma inmediata. | Es un alivio no tener que insistir a cada persona para que me envíe los comprobantes o detalles, todo se gestiona de forma automática. |
-|                                              | Los comprobantes y detalles de los gastos se almacenan de forma centralizada y organizada en la app, lo que evita perder información o tener que buscar en múltiples fuentes. | Este sistema es más eficiente y evita los errores humanos. Ya no tengo que validar manualmente cada gasto o estar pendiente de recordar los pagos. | Me siento más en control, porque tengo toda la información al alcance de mi mano sin el estrés de pedir detalles a los demás. |
-| **Coordinación y comunicación de pagos pendientes** | La aplicación muestra el monto exacto que cada miembro debe pagar, basado en su consumo y los ingresos de todos, eliminando cálculos manuales y posibles malentendidos. | Ahora puedo ver claramente cuánto debo pagar y cuándo, sin necesidad de estar preguntando o calculando manualmente. | Me siento más tranquilo porque todo está automatizado, y ya no tengo que enviar recordatorios ni correos repetitivos. |
-|                                              | Los usuarios reciben notificaciones automáticas de los pagos pendientes, con un recordatorio claro sobre la fecha límite y las cantidades exactas que deben abonar. | Las notificaciones automáticas me aseguran que no voy a olvidar hacer un pago ni que alguien más lo olvide. Todo está claro y organizado. | Es muy cómodo saber que todos los pagos están claramente definidos y que no tengo que resolver conflictos sobre qué monto le corresponde a cada uno. |
-|                                              | La app facilita la comunicación entre los miembros del hogar a través de un chat o tablero de discusión para resolver cualquier duda o negociación de pagos. | La app ha hecho que todo sea mucho más fácil de coordinar, ya no es necesario tener largas conversaciones sobre lo que debe cada uno. | Siento que la gestión de pagos es mucho más eficiente, y todos tienen la misma información sin malentendidos ni tensiones. |
-| **Evaluación y propuesta de mejoras en la gestión de gastos** | Los usuarios pueden ver informes mensuales de los gastos compartidos, con análisis visuales que permiten identificar patrones de consumo y detectar áreas de mejora. | Es más fácil evaluar cómo estamos manejando los gastos, ya que los informes me dan una visión clara y detallada de todo lo que está sucediendo. | Me siento satisfecho porque puedo ver cómo mejorar continuamente la gestión de los gastos, y no tengo que adivinar si estoy haciendo bien las cosas. |
-|                                              | La aplicación genera sugerencias automáticas sobre cómo ajustar la distribución de los gastos o cómo optimizar los pagos, en base a los ingresos y el consumo de cada miembro. | Ahora sé exactamente qué ajustes hacer, si alguien ha pagado más de lo que le correspondía o si necesitamos redistribuir algunos gastos para que sea más equitativo. | Es muy reconfortante saber que tengo herramientas que me permiten hacer ajustes fácilmente sin generar conflictos o malentendidos. |
-|                                              | Los miembros pueden proponer mejoras o ajustes de manera transparente dentro de la plataforma, donde todos los integrantes pueden votar o dar su opinión. | Me siento más confiado en que el sistema está tomando en cuenta todas las variables, lo que facilita el proceso de mejorar nuestra gestión financiera. | Me siento apoyado por un sistema que ayuda a hacer que nuestras decisiones sean más equitativas, transparentes y justas. |
+<p align="left">
+  <img src="images/ScenarioMapping2S21.png"">
+</p>
 
 ## User Stories
 ### Epic
