@@ -577,26 +577,22 @@ Las necesidades principales que hemos encontrado en nuestros segmentos objetivos
 </p>
 
 ### User Task Matrix
+En esta sección se presenta la User Task Matrix, una herramienta enfocada en los 2 segmentos clave de usuarios de SplitEasy, en miembro del hogar y en responsable del hogar, que permite identificar sus tareas habituales y principales necesidades. Este análisis resulta fundamental para establecer prioridades al momento de definir las funcionalidades del producto e integrar el product backlog. Para la dimensión de frecuencia, se han utilizado cinco niveles: never, rarely, sometimes, often y always; y para la importancia, tres niveles: low, medium y high.
 
-### Camila Torres
+| **User Task**                                              | **Camila Torres - Miembro del hogar** |                                     | **Javier Morales - Responsable del hogar** |                                     |
+|------------------------------------------------------------|----------------------------------------|-------------------------------------|--------------------------------------------|-------------------------------------|
+|                                                            | **Frecuencia**                         | **Importancia**                     | **Frecuencia**                             | **Importancia**                     |
+| Registrar y dividir los gastos del hogar                   | Often                                  | High                                | Sometimes                                  | High                                |
+| Revisar cuánto debe aportar cada integrante                | Often                                  | High                                | Sometimes                                  | High                                |
+| Usar aplicaciones móviles de finanzas compartidas          | Sometimes                              | Medium                              | Sometimes                                  | Medium                              |
+| Hablar con los demás sobre gastos y responsabilidades      | Sometimes                              | High                                | Rarely                                     | High                                |
+| Verificar si los pagos del mes ya se realizaron            | Often                                  | High                                | Often                                      | High                                |
+| Planificar y distribuir el presupuesto del hogar           | Never                                  | Low                                 | Often                                      | High                                |
+| Supervisar que los pagos mensuales estén cubiertos         | Never                                  | Low                                 | Often                                      | High                                |
+| Calcular cuánto debería aportar cada miembro               | Never                                  | Low                                 | Sometimes                                  | High                                |
+| Buscar herramientas para facilitar la gestión financiera   | Sometimes                              | Medium                              | Sometimes                                  | Medium                              |
+| Resolver conflictos por dinero entre miembros              | Rarely                                 | High                                | Rarely                                     | High                                |
 
-| Actividades                                       | Frecuencia     | Importancia |
-|--------------------------------------------------|----------------|-------------|
-| Registrar y dividir los gastos del hogar         | Con frecuencia | Alta        |
-| Revisar cuánto debe aportar cada integrante      | Con frecuencia | Alta        |
-| Usar aplicaciones móviles de finanzas compartidas| A veces        | Media       |
-| Hablar con los demás sobre gastos y responsabilidades | A veces    | Alta        |
-| Verificar si los pagos del mes ya se realizaron  | Con frecuencia | Alta        |
-
-### Javier Morales
-
-| Actividades                                        | Frecuencia     | Importancia |
-|---------------------------------------------------|----------------|-------------|
-| Planificar y distribuir el presupuesto del hogar  | Con frecuencia | Alta        |
-| Supervisar que los pagos mensuales estén cubiertos| Con frecuencia | Alta        |
-| Calcular cuánto debería aportar cada miembro      | A veces        | Alta        |
-| Buscar herramientas para facilitar la gestión financiera | A veces  | Media       |
-| Resolver conflictos por dinero entre miembros     | Rara vez       | Alta        |
 
 ### User Journey Mapping
 
