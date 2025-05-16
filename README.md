@@ -22,7 +22,7 @@ Desarrollo de Aplicaciones Open Source <br>
 |Jorge Luis Díaz Fiestas      |  U20231D534  |
 |Paulo Percy Quincho Gamarra         |  U20191E562 |
 |Alexander Piero Fernandez Garfias         |  U202019498 |
-|       |  |
+|Jhordi Luis Carranza Pérez       | U20191E835 |
 </div>
 
 <p align="center"><strong>Abril 2025</strong></p>
@@ -142,10 +142,11 @@ Insights TB1 (Todos participaron):
     - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
 
 # Student Outcome
-| Criterio específico | Acciones realizadas | Conclusiones |
-|---------------------|---------------------|--------------|
-| Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software. | **Alexander Piero Fernandez Garfias** (TB1): Participé activamente en la elaboración de los impact maps y en la estructuración inicial del landing page. También colaboré en la revisión de las historias de usuario y en la organización de tareas mediante Trello. <br><br>**TP**: Revisé y actualicé puntos clave del informe como el Product Backlog y el levantamiento de nuevos requisitos, asegurando consistencia con las funcionalidades implementadas. <br><br>**Jhordi Luis Carranza Pérez** (TB1): Redacté y revisé historias de usuario, participé en el desarrollo colaborativo del landing page y realicé observaciones y mejoras en el capítulo de conclusiones del informe. Además, apoyé en la gestión del equipo para mantener un correcto flujo de trabajo. <br><br>**TP**: Me encargué de actualizar el informe con los nuevos requisitos y funcionalidades, y colaboré en la validación de los endpoints desarrollados por el equipo. <br><br>**Paulo Percy Quincho Gamarra** (TB1): Desarrollé el Needfinding de los segmentos objetivos y el To-Be Scenario Mapping. Asimismo, redacté historias de usuario, organicé el control de proyectos con Trello, diseñé la propuesta de landing page y aplicación web, y elaboré los diagramas C4. <br><br>**TP**: Me enfoqué en el desarrollo técnico del frontend, especialmente la landing page, utilizando tecnologías modernas y buenas prácticas de desarrollo. También ayudé a documentar los endpoints del API. <br><br>**Jorge Luis Díaz Fiestas** (TB1): Colaboré en la revisión y ajuste del Product Backlog, ayudé en el desarrollo de los wireframes para las versiones desktop y mobile, y participé en la organización del contenido del video "About the Team". También apoyé en la revisión general del documento final. <br><br>**TP**: Implementé los endpoints del backend necesarios para el correcto funcionamiento del sistema, validando la comunicación entre componentes y la integración de la base de datos. Además, desarrollé secciones clave del frontend. | El trabajo colaborativo del equipo en TB1 permitió establecer una base sólida para el proyecto, enfocándose en el entendimiento profundo del segmento objetivo y en la organización estructurada del backlog. <br><br>En el TP, la coordinación efectiva y la correcta distribución de tareas permitieron un desarrollo fluido del sistema. Mientras algunos miembros se enfocaron en los aspectos técnicos del backend y frontend, otros se centraron en la documentación y actualización de los requisitos del informe. <br><br>La capacidad del equipo para adaptarse a nuevos requerimientos, integrar mejoras, validar endpoints y mantener una comunicación fluida demuestra un nivel de madurez en la gestión de proyectos. <br><br>El enfoque multidisciplinario —mezclando análisis, diseño, implementación y documentación— fue clave para cumplir con los objetivos del sprint y avanzar de forma sostenida hacia la entrega final. |
-| Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software. | **Alexander Piero Fernandez Garfias** (TB1): Realicé entrevistas a usuarios del segmento objetivo y participé en el análisis de sus respuestas, logrando comprender mejor las necesidades del sector de gestión de gastos del hogar. También contribuí a la identificación de tendencias en el mercado. <br><br>**TP**: Apoyé en el refinamiento del alcance del proyecto según nuevas necesidades identificadas en entrevistas adicionales y coordiné actualizaciones en el backlog. <br><br>**Jhordi Luis Carranza Pérez** (TB1): Apoyé en la elaboración del guion para las entrevistas a los segmentos objetivos, participé en la priorización de funcionalidades y realicé un análisis comparativo de soluciones actuales en el mercado. <br><br>**TP**: Realicé ajustes en el informe con base en nuevas funcionalidades requeridas para el dominio de gastos compartidos, incorporando aprendizajes de investigaciones complementarias. <br><br>**Paulo Percy Quincho Gamarra** (TB1): Realicé entrevistas a miembros del segmento objetivo y colaboré en el análisis de la información obtenida. También participé en el levantamiento de requisitos para adaptar la aplicación a las necesidades detectadas. <br><br>**TP**: Implementé mejoras en el diseño visual del sistema, aplicando principios UX/UI adecuados al contexto del hogar y la distribución equitativa de gastos. <br><br>**Jorge Luis Díaz Fiestas** (TB1): Realicé el análisis de entrevistas realizadas al segmento de representantes del hogar, apoyé en el benchmarking de la competencia y colaboré en la definición de las prioridades para el MVP de nuestro producto. <br><br>**TP**: Implementé la lógica del backend de acuerdo con las reglas del dominio, como el cálculo proporcional de gastos según los ingresos de cada miembro del hogar. | El dominio del proyecto SplitEasy permitió al equipo sumergirse en una problemática cotidiana: la gestión justa de los gastos del hogar. A través de entrevistas y benchmarking, se identificaron puntos críticos y se construyó una propuesta centrada en el usuario. <br><br>La incorporación de nuevas funcionalidades durante el TP respondió directamente a los aprendizajes obtenidos del análisis del dominio, demostrando la capacidad del equipo para iterar sobre su producto. <br><br>La separación clara de tareas entre diseño, desarrollo y documentación permitió mantener una alineación constante con las necesidades del sector, mostrando profesionalismo y enfoque estratégico. <br><br>La experiencia adquirida en el manejo del dominio fortalece las competencias del equipo para afrontar desafíos reales y construir soluciones tecnológicas que generen valor a los usuarios. |
+
+| **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
+|-------------------------|--------------------------|------------------|
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Jorge Luis Díaz Fiestas (TB1):**<br>Ayudé en la organización y grabación del video de presentación del equipo, coordinando qué comunicar y cómo expresarlo.<br><br>**Paulo Percy Quincho Gamarra (TB1):**<br>Participé en entrevistas, expuse los diagramas C4 al equipo y presenté mi perspectiva en reuniones grupales sobre cómo debía estructurarse el diseño del sistema.<br><br>**Alexander Piero Fernandez Garfias (TB1):**<br>Participé en entrevistas con usuarios para validar necesidades y comunicarles nuestra propuesta de valor. Colaboré en la presentación oral del “About the Team”.<br><br>**Jhordi Luis Carranza Pérez (TB1):**<br>Apoyé en la grabación del video grupal “About the Team” explicando funciones clave del equipo. También comuniqué ideas durante reuniones internas de planeación. | El proceso me enseñó a sintetizar ideas y estructurarlas para facilitar su comprensión en un formato audiovisual.<br><br>La experiencia me permitió mejorar mi claridad para explicar conceptos técnicos a personas sin experiencia en ingeniería.<br><br>La interacción directa con usuarios fortaleció mi habilidad para expresar ideas de forma clara según el perfil del oyente.<br><br>La práctica de comunicación oral me permitió adaptar mi forma de hablar según el público: equipo interno o usuarios externos. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Jorge Luis Díaz Fiestas (TB1):**<br>Revisé ortográficamente y sintácticamente partes del informe, especialmente las conclusiones y descripciones funcionales.<br><br>**Paulo Percy Quincho Gamarra (TB1):**<br>Redacté el Needfinding, el To-Be Scenario Mapping y los diagramas C4. Me aseguré de que el contenido fuera comprensible tanto para el equipo como para los docentes.<br><br>**Alexander Piero Fernandez Garfias (TB1):**<br>Redacté y revisé el contenido del Impact Map, el Product Backlog y el informe de entrevistas. Colaboré en la escritura del informe final.<br><br>**Jhordi Luis Carranza Pérez (TB1):**<br>Escribí parte del capítulo de conclusiones del informe, así como varias historias de usuario. Revisé la redacción de documentos clave del proyecto. | Mejoré mi capacidad para detectar errores y ajustar la redacción para que sea clara, coherente y adecuada a los estándares académicos.<br><br>La redacción técnica me ayudó a transmitir ideas complejas de forma accesible para distintas audiencias.<br><br>Aprendí a comunicarme de forma precisa y estructurada en documentos escritos dirigidos tanto a profesores como a usuarios.<br><br>Desarrollé una mejor comprensión sobre cómo adaptar mi lenguaje para distintos propósitos: técnicos, organizativos o reflexivos. |
 
 
 
@@ -533,6 +534,11 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u201820037_upc_edu_pe/EWJDafd3
 </p>
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u201820037_upc_edu_pe/EfGMD0WYMSZLpqKu7hcnU9ABMWYYGrtOXIznD7sj9x8c5g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ZgasbR
 
+**Primer Segmento - Entrevista a Denis Monsalve - Por Jhordi Carranza:**
+<p align="left">
+  <img src="images/Entrevista.Denis.png" alt="UserPersona1" width="500">
+</p>
+https://upcedupe-my.sharepoint.com/personal/u20191e835_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20191e835%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevista%20%2D%20S1%20%2D%20Open%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E52f02c77%2D8b1d%2D4af0%2D9a00%2D5c66d9216998&isDarkMode=false
 
 **Segundo Segmento - Entrevista a José Carranza - Por Jhordi Carranza:**
 <p align="left">
@@ -1277,9 +1283,9 @@ Navegación jerárquica para volver a secciones anteriores o más generales.
 </p>
 
 ### Web Applications User Flow Diagrams
-
+A continuación, se muestra el User Flow Diagram estructurado en base a los objetivos principales del usuario. Cada sección del flujo corresponde a una meta funcional específica, mostrando los recorridos posibles mediante mockups de alta fidelidad.
 <p align="left">
-  <img src="images/wau.PNG" alt="wau" width="500">
+  <img src="images/NewFlowchart.jpg" alt="wau" width="500">
 </p>
 
 ## Web Applications Prototyping 
@@ -1423,59 +1429,162 @@ Link del video explicativo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2
 - `Entertainment` — Gastos de ocio y recreación.
 - `Other` — Otros tipos de gastos no especificados.
 
-## Database Design
+# SplitEasy - Database Design
 
-La base de datos de **SplitEasy** ha sido diseñada bajo un enfoque relacional, permitiendo una organización eficiente y coherente de la información financiera compartida por los miembros de un hogar. La estructura busca garantizar integridad referencial y trazabilidad de aportes, gastos, documentos y balances. A continuación, se detalla el modelo entidad-relación reflejado en el diagrama de base de datos.
+## Descripción General
 
-### Database Diagram
+La base de datos de **SplitEasy** ha sido diseñada bajo un enfoque relacional, orientado a la gestión financiera colaborativa dentro del hogar. Su estructura busca garantizar integridad referencial, equidad en la distribución de gastos y transparencia entre los miembros. Soporta funcionalidades clave como el cálculo proporcional de contribuciones, seguimiento de pagos, notificaciones automáticas, metas financieras compartidas, entre otras.
 
-#### Household
-- `id: UUID (PK)`
-- `householdName: String`
-- `creationDate: Date`
+---
 
-#### HouseholdMember
-- `id: UUID (PK)`
-- `name: String`
-- `email: String`
-- `householdId: UUID (FK -> Household.id)`
+## Diagrama Entidad-Relación
 
-#### HouseholdManager (extensión de HouseholdMember)
-- `isResponsible: Boolean`
-- `householdId: UUID (FK -> Household.id)`
-- `id: UUID (FK -> HouseholdMember.id)`
+A continuación se describen las principales entidades y sus atributos:
 
-#### Contribution
-- `id: UUID (PK)`
-- `amount: Decimal`
-- `date: Date`
-- `status: Enum (Pending, Contributed, Surplus)`
-- `memberId: UUID (FK -> HouseholdMember.id)`
-- `householdId: UUID (FK -> Household.id)`
+---
 
-#### Expense
-- `id: UUID (PK)`
-- `description: String`
-- `amount: Decimal`
-- `category: Enum (Food, Utilities, Health, Entertainment, Other)`
-- `date: Date`
-- `householdId: UUID (FK -> Household.id)`
+### Household
+Entidad principal que representa un hogar.
 
-#### Document
-- `id: UUID (PK)`
-- `type: String`
-- `fileAttachment: String`
-- `uploadDate: Date`
-- `householdId: UUID (FK -> Household.id)`
+- `id`: INT (PK)
+- `householdName`: VARCHAR
+- `creationDate`: DATE
 
-#### Balance
-- `totalContributed: Decimal`
-- `totalSpent: Decimal`
-- `balance: Decimal`
-- `householdId: UUID (FK -> Household.id)`
+---
+
+### HouseholdMember
+Miembros que viven en un hogar determinado.
+
+- `id`: INT (PK)
+- `userId`: INT (FK → UserAccount.id)
+- `name`: VARCHAR
+- `householdId`: INT (FK → Household.id)
+- `isManager`: BIT
+
+---
+
+### UserAccount
+Representa las credenciales de acceso del usuario.
+
+- `id`: INT (PK)
+- `email`: VARCHAR (único)
+- `passwordHash`: VARCHAR
+
+---
+
+### Income
+Registra los ingresos individuales de cada miembro del hogar.
+
+- `id`: INT (PK)
+- `memberId`: INT (FK → HouseholdMember.id)
+- `amount`: DECIMAL
+- `incomeDate`: DATE
+
+---
+
+### Contribution
+Aportes financieros registrados por cada miembro.
+
+- `id`: INT (PK)
+- `amount`: DECIMAL
+- `date`: DATE
+- `description`: VARCHAR
+- `memberId`: INT (FK → HouseholdMember.id)
+- `householdId`: INT (FK → Household.id)
+
+---
+
+### ContributionShare
+Define el porcentaje proporcional de responsabilidad financiera de cada miembro, calculado en función de sus ingresos.
+
+- `id`: INT (PK)
+- `memberId`: INT (FK → HouseholdMember.id)
+- `householdId`: INT (FK → Household.id)
+- `sharePercentage`: DECIMAL(5,2)
+- `calculatedOn`: DATE
+
+---
+
+### Expense
+Representa los gastos comunes del hogar.
+
+- `id`: INT (PK)
+- `description`: VARCHAR
+- `amount`: DECIMAL
+- `category`: VARCHAR (Food, Utilities, Health, etc.)
+- `date`: DATE
+- `createdBy`: INT (FK → HouseholdMember.id)
+- `householdId`: INT (FK → Household.id)
+
+---
+
+### Payment
+Registra los pagos realizados por los miembros para cubrir los gastos.
+
+- `id`: INT (PK)
+- `expenseId`: INT (FK → Expense.id)
+- `memberId`: INT (FK → HouseholdMember.id)
+- `amountPaid`: DECIMAL
+- `paymentDate`: DATE
+
+---
+
+### Notification
+Alertas automáticas enviadas a los miembros del hogar.
+
+- `id`: INT (PK)
+- `memberId`: INT (FK → HouseholdMember.id)
+- `message`: VARCHAR
+- `isRead`: BIT
+- `createdAt`: DATETIME
+
+---
+
+### Goal
+Metas financieras definidas por el hogar.
+
+- `id`: INT (PK)
+- `householdId`: INT (FK → Household.id)
+- `description`: VARCHAR
+- `targetAmount`: DECIMAL
+- `dueDate`: DATE
+
+---
+
+## Vista: `vw_MemberBalance`
+
+Consulta resumen del balance individual por miembro del hogar:
+
+- `memberId`
+- `name`
+- `householdName`
+- `totalIncome`
+- `totalContributed`
+- `totalPaidExpenses`
+
+---
+
+## Índices
+
+Se incluyen índices adicionales para mejorar el rendimiento de consultas:
+
+- `Income.memberId`
+- `Contribution.memberId`
+- `Expense.householdId`
+- `Payment.expenseId`
+- `Notification.memberId`
+
+---
+
+## Objetivos del Diseño
+
+- Transparencia: cada miembro puede ver su historial y estado financiero.
+- Equidad: los gastos se distribuyen proporcionalmente en función de los ingresos.
+- Escalabilidad: permite añadir nuevas funcionalidades sin alterar el núcleo del sistema.
+- Mantenimiento: una estructura clara y bien normalizada facilita la administración y evolución del sistema.
 
 <p align="left">
-  <img src="images/bd.PNG" alt="bd" width="500">
+  <img src="images/bd.png.png" alt="bd" width="500">
 </p>
 
 # Capítulo V: Product Implementation, Validation & Deployment
@@ -1549,7 +1658,7 @@ Para asegurar un código limpio y fácil de mantener, se siguen las siguientes c
 - Valores de atributos entre comillas dobles  
   Ejemplo: `<a href="#services" class="nav-link">Services</a>`
 - Uso de `alt`, `width` y `height` en imágenes  
-  Ejemplo: `<img src="images/portada.png" alt="portada" width="400" height="300">`
+  Ejemplo: `<img src="images/portada.png" alt="portada" width="400"db height="300">`
 
 #### CSS
 - Nombres de clase descriptivos y breves  
