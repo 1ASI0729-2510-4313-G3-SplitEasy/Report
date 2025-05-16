@@ -2040,7 +2040,7 @@ En el alcance del sprint 2 se ha desarrollado el front end de la aplicación web
 **Status:**
 
 <p align="left">
-  <img src="images/sprint2.4.png" alt="Status" width="500">
+  <img src="images/sprint2.4.png" alt="Contribuciones" width="500">
 </p>
 
 **Settings:**
