@@ -141,6 +141,13 @@ Insights TB1 (Todos participaron):
     - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
     - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
     - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+## Conclusiones
+- [Conclusiones generales](#conclusiones-generales)
+
+## Bibliografía
+- [Referencias bibliográficas](#referencias-bibliográficas)
+
+## Anexos
 
 # Student Outcome
 | **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
@@ -1878,3 +1885,66 @@ Durante este **Sprint 1**, se completó la documentación básica de los servici
 | #68           | Merge pull request #68 from develop                              | 23/04/2025   |
 | (sin hash)    | docs: formal documentation of endpoints for registration/login  | 23/04/2025   |
 | (sin hash)    | docs(sprint): document Sprint 1 backlog and tasks for SplitEasy  | 24/04/2025   |
+
+
+# Conclusión
+
+El desarrollo de la plataforma **SplitEasy** ha sido un proceso meticuloso y orientado a cubrir las necesidades reales de los usuarios en la gestión financiera compartida dentro de un hogar. A partir de un análisis exhaustivo y una planificación basada en **epics** y **user stories**, se definieron claramente los requisitos funcionales y no funcionales que guían la construcción de un sistema robusto, intuitivo y seguro.
+
+## Enfoque centrado en el usuario
+
+El diseño de la plataforma consideró las diferentes perspectivas y roles dentro de un hogar: visitantes, usuarios registrados, miembros del hogar y representantes. Esta segmentación ha permitido crear flujos específicos para cada tipo de usuario, asegurando que cada interacción sea relevante y optimizada para sus responsabilidades y permisos. Por ejemplo:
+
+- **Visitantes** pueden acceder a información general y probar funcionalidades básicas para incentivar el registro.
+- **Usuarios registrados** tienen acceso personalizado para administrar sus datos y gastos.
+- **Miembros del hogar** pueden añadir y visualizar gastos, fomentando la colaboración y transparencia.
+- **Representantes del hogar** cuentan con funcionalidades avanzadas para aprobar gastos, enviar notificaciones y gestionar perfiles.
+
+## Funcionalidades clave implementadas
+
+La plataforma incorpora múltiples funcionalidades orientadas a facilitar la gestión financiera del hogar, tales como:
+
+- Registro y gestión segura de usuarios con control de roles y permisos.
+- Creación y administración de perfiles individuales con detalles financieros personalizados.
+- Gestión colaborativa de gastos compartidos, con la capacidad de añadir, editar, aprobar y eliminar gastos, lo que mejora la precisión y confianza en la información.
+- Sistema de alertas y recordatorios automáticos para pagos próximos o vencidos, promoviendo la responsabilidad y evitando retrasos.
+- Visualización de reportes financieros mensuales y gráficos que facilitan la comprensión y análisis del estado económico del hogar.
+- Página de aterrizaje con simulaciones y ejemplos explicativos para educar y atraer nuevos usuarios.
+
+## Beneficios y valor agregado
+
+Gracias a la integración de estas funcionalidades, SplitEasy proporciona a los usuarios una experiencia completa que no solo simplifica el manejo de las finanzas domésticas, sino que también promueve la transparencia, la comunicación y el compromiso entre los miembros del hogar. La plataforma contribuye a:
+
+- Mejorar la organización financiera, evitando confusiones y conflictos comunes relacionados con gastos compartidos.
+- Facilitar la toma de decisiones económicas basada en datos claros y accesibles.
+- Fomentar un ambiente de colaboración y responsabilidad financiera conjunta.
+
+## Futuro y escalabilidad
+
+El diseño modular y escalable de SplitEasy garantiza que la plataforma pueda adaptarse a futuras necesidades y crecer conforme aumente la base de usuarios y la complejidad del sistema financiero familiar. Se prevé la incorporación de nuevas funcionalidades como integraciones bancarias, análisis predictivos y personalización avanzada, lo que potenciará aún más su valor y usabilidad.
+
+---
+
+En conclusión, SplitEasy se posiciona como una herramienta innovadora y confiable para la gestión financiera del hogar, que combina simplicidad, seguridad y funcionalidad para ofrecer una solución integral a los desafíos cotidianos del manejo de gastos compartidos.
+
+---
+
+# Referencias (Normas APA 7)
+
+## Aplicaciones para dividir gastos
+
+- Blanco, F. (2020, 28 de agosto). *Estadística visual (VIII). Gráficos con barras de error: manual de usuario*. Fernando Blanco, PhD. https://fernandoblancopsy.com/2020/08/28/estadistica-visual-viii-graficos-con-barras-de-error-manual-de-usuario/
+- Splitwise. (2025). *Splitwise: Split bills the easy way*. https://www.splitwise.com/
+- Tricount. (2025). *Simplifica los gastos de grupo*. https://tricount.com/es-es/
+- Settle Up. (2025). *Settle Up – Gastos del grupo*. https://settleup.io/
+
+## Herramientas de desarrollo y gestión de proyectos
+
+- Atlassian. (2025). *Trello*. https://trello.com/
+- Google. (2025). *Google Docs*. https://docs.google.com/
+- Figma, Inc. (2025). *Figma: The collaborative interface design tool*. https://www.figma.com/
+- JetBrains. (2025a). *IntelliJ IDEA*. https://www.jetbrains.com/idea/
+- JetBrains. (2025b). *WebStorm*. https://www.jetbrains.com/webstorm/
+- JetBrains. (2025c). *Rider*. https://www.jetbrains.com/rider/
+- Microsoft. (2025). *Download .NET SDKs*. https://dotnet.microsoft.com/en-us/download
+- GitHub, Inc. (2025). *GitHub: Where the world builds software*. https://github.com/
