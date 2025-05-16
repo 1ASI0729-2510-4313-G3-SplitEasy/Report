@@ -2057,10 +2057,21 @@ Durante este Sprint, se avanzó en la preparación y configuración del entorno 
 - Paralelamente, se inició el proceso de subida y configuración del backend en Azure App Service, sentando las bases para el despliegue del sistema completo en un entorno de producción escalable y confiable.
 
 ##### Capturas incluidas:
+
+Despliegue de la aplicación web en firebase:
+https://split-easy.netlify.app/
+
 <p align="center">
   <img src="images/nube.png" alt="Nube" />
 </p>
 
+<p align="center">
+  <img src="images/nube1.png" alt="Nube1" />
+</p>
+
+<p align="center">
+  <img src="images/nube2.png" alt="Nube2" />
+</p>
 ---
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
