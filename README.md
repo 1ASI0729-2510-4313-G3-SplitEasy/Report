@@ -2016,3 +2016,47 @@ En el alcance del sprint 2 se ha desarrollado el front end de la aplicación web
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 |------------|--------|------------|----------------|----------------------|---------------------|
 | _No disponible_ | _No disponible_ | _N/A_ | _N/A_ | _N/A_ | _N/A_ |
+
+### 5.2.2.5. Execution Evidence for Sprint Review
+
+**Login:**
+
+<p align="left">
+  <img src="images/sprint2.1.PNG" alt="Login View" width="500">
+</p>
+
+**Pantalla Principal:**
+
+<p align="left">
+  <img src="images/sprint2.2.PNG" alt="Pantalla Principal" width="500">
+</p>
+
+**Contribuciones:**
+
+<p align="left">
+  <img src="images/sprint2.3.PNG" alt="Contribuciones" width="500">
+</p>
+
+**Status:**
+
+<p align="left">
+  <img src="images/sprint2.4.PNG" alt="Status" width="500">
+</p>
+
+**Settings:**
+
+<p align="left">
+  <img src="images/sprint2.5.PNG" alt="Settings" width="500">
+</p>
+
+**Register:**
+
+<p align="left">
+  <img src="images/sprint2.6.PNG" alt="Register" width="500">
+</p>
+
+**Recuperar Contraseña:**
+
+<p align="left">
+  <img src="images/sprint2.7.PNG" alt="Recuperar Contraseña" width="500">
+</p>
