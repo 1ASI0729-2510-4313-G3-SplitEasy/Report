@@ -537,6 +537,7 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u201820037_upc_edu_pe/EfGMD0WY
 **Primer Segmento - Entrevista a Denis Monsalve - Por Jhordi Carranza:**
 <p align="left">
 
+
   <img src="images/Entrevista.Denis.png" alt="UserPersona1" width="500">
 </p>
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191e835_upc_edu_pe/Ebc2v4G3OnFKn_lM39sFKjUBXK7kW_iu1TjNEgcR1vRlBg
@@ -547,6 +548,7 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191e835_upc_edu_pe/Ebc2v4G3
 <p align="left">
   <img src="images/EntrevistaMarjorie.png" alt="UserPersona1" width="500">
 </p>
+
 https://upcedupe-my.sharepoint.com/personal/u20231d534_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20231d534%5Fupc%5Fedu%5Fpe%2FDocuments%2F2025%2D04%2D10%2016%2D09%2D47%2Emkv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E1fbf2b54%2Ddab5%2D4bd4%2Da1d6%2D28ca884bf530
 
 
@@ -1568,6 +1570,7 @@ Se incluyen índices adicionales para mejorar el rendimiento de consultas:
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
+
 ## 5.1. Software Configuration Management
 
 ### 5.1.1. Software Development Environment Configuration
@@ -1887,6 +1890,233 @@ Durante este **Sprint 1**, se completó la documentación básica de los servici
 | #68           | Merge pull request #68 from develop                              | 23/04/2025   |
 | (sin hash)    | docs: formal documentation of endpoints for registration/login  | 23/04/2025   |
 | (sin hash)    | docs(sprint): document Sprint 1 backlog and tasks for SplitEasy  | 24/04/2025   |
+
+
+## 5.2.2 Sprint 2
+
+### 5.2.2.1 Sprint Planning 2
+
+A continuación, se presentará el sprint planning 2 donde se mostrarán las evidencias de planificación para la implementación de la aplicación web.
+
+- **Sprint #:** Sprint 2  
+- **Sprint Planning Background:**
+  - **Fecha:** 8 de mayo del 2025  
+  - **Hora:** 16:00 horas (GMT -5)  
+  - **Lugar:** Modalidad remota por Discord  
+  - **Preparado por:** Equipo SplitEasy  
+  - **Asistentes:** Todos los miembros del equipo de SplitEasy
+
+---
+
+#### Sprint n – 1 Review Summary
+
+En este primer sprint se desarrolló la Landing Page utilizando el framework de estilos Tailwind CSS. Se revisó y adaptó el contenido textual del landing con base en las propuestas previas realizadas en Figma. Al finalizar el sprint, la Landing Page fue desplegada exitosamente en Netlify y quedó accesible públicamente mediante un enlace funcional.
+
+---
+
+#### Sprint n – 2 Retrospective Summary
+
+En este sprint se planea avanzar con el desarrollo del front-end de la aplicación web, incluyendo las vistas para la autenticación de usuario y las vistas core del usuario reclutador. También se tiene previsto implementar la configuración de idioma utilizando la librería i18n con Vue. Además, se contempla desarrollar la sección de Términos de Servicio, el video sobre el producto y el video del equipo. Las tareas han sido organizadas y gestionadas a través de la plataforma Trello. Al finalizar el sprint, se espera contar con una versión actualizada del landing page y una demo funcional del front-end de la aplicación desplegada en Netlify.
+
+---
+
+#### Sprint Goal & User Stories
+
+- **Sprint 1 Velocity:** 40  
+- **Suma de Story Points (Sprint 2):** 30
+
+---
+
+### 5.2.2.2 Aspect Leaders and Collaborators
+
+A continuación, se presentan los líderes y colaboradores de SplitEasy:
+
+| Nombre                        | Rol         | User Stories                                   | Descripción de las contribuciones |
+|------------------------------|-------------|------------------------------------------------|-----------------------------------|
+| Jorge Luis Díaz Fiestas      | Líder       | E2-US08-W1, E2-US09-W1, E5-US24-W1, E4-US18-W1 | Supervisión general del proyecto. Implementó interfaces de inicio de sesión, recuperación de contraseña, visualización de procesos legales y cambio de workspace. |
+| Paulo Percy Quincho Gamarra  | Colaborador | E2-US08-W1, E2-US09-W1                         | Desarrollo de login y recuperación de contraseña. Optimizó imágenes, mejoró accesibilidad y actualizó el footer. |
+| Alexander Piero Fernández    | Colaborador | Revisión visual y estilo                       | Correcciones en tipografía, colores y coherencia visual. Ajustó el diagrama de arquitectura y Student Outcome. |
+| Jhordi Luis Carranza Pérez   | Colaborador | Revisión visual y documentación                | Ajustes menores de estilo. Actualizó imágenes, tablas y descripciones en la documentación. |
+
+**Tabla de User Stories**
+
+| Sprint | User Story ID | Título de la User Story              | Work Item ID | Título del Work Item                  | Descripción                                                                 | Estimación (h) | Asignado a                     | Estado |
+|--------|----------------|--------------------------------------|--------------|----------------------------------------|-----------------------------------------------------------------------------|----------------|-------------------------------|--------|
+| 2      | US01           | Registro de usuario                 | US01-W1      | Interfaz de registro de usuario        | Crear formulario de registro para nuevos usuarios.                          | 3              | Jorge Luis Díaz Fiestas       | Done   |
+| 2      | US02           | Inicio de sesión seguro             | US02-W1      | Interfaz de inicio de sesión           | Implementar formulario para login seguro.                                   | 2              | Paulo Percy Quincho Gamarra   | Done   |
+| 2      | US14           | Ver historial de pagos              | US14-W1      | Vista de historial de pagos            | Crear interfaz con los pagos registrados.                                   | 1.5            | Jorge Luis Díaz Fiestas       | Done   |
+| 2      | US04           | Cierre de sesión desde todos los dispositivos | US04-W1 | Botón de cierre de sesión             | Cierre de sesión desde cualquier dispositivo.                               | 1              | Jorge Luis Díaz Fiestas       | Done   |
+| 2      | US13           | Registrar pagos realizados          | US13-W1      | Componente para registrar pagos        | Registro manual de pagos.                                                   | 2              | Paulo Percy Quincho Gamarra   | Done   |
+| 2      | US11           | Ingresar ingresos personales        | US11-W1      | Formulario de ingreso de ingresos      | Formulario de ingreso mensual.                                              | 1.5            | Jorge Luis Díaz Fiestas       | Done   |
+| 2      | US20           | Visualizar gráficos de gastos       | US20-W1      | Componente de gráficos de gastos       | Estadísticas visuales de gastos.                                            | 2              | Paulo Percy Quincho Gamarra   | Done   |
+| 2      | US15           | Ver distribución de gastos del hogar | US15-W1     | Interfaz de distribución de gastos     | Mostrar porcentaje de aportes y gastos por miembro.                         | 1.5            | Jorge Luis Díaz Fiestas       | Done   |
+| 2      | US12           | Ver monto a pagar                   | US12-W1      | Componente de monto a pagar            | Mostrar el monto que debe pagar el usuario.                                 | 1              | Paulo Percy Quincho Gamarra   | Done   |
+| 2      | US05           | Configuración de notificaciones     | US05-W1      | Vista de notificaciones                | Configuración de recordatorios y alertas.                                   | 1              | Jhordi Luis Carranza Pérez    | Done   |
+| 2      | US09           | Visualizar reportes mensuales       | US09-W1      | Panel de reportes mensuales            | Informes mensuales de gastos y aportes.                                     | 1              | Alexander Piero Fernández     | Done   |
+
+---
+
+### 5.2.2.3 Deployment Evidence for Sprint Review
+
+**Commits de desarrollo (funcionalidad):**
+
+| Autor                  | Fecha       | Commit Message                              | Commit ID  |
+|------------------------|-------------|---------------------------------------------|------------|
+| Paulo Percy Quincho    | 16/05/2025  | Complete Home-member-view                   | 7559f68    |
+| Paulo Percy Quincho    | 16/05/2025  | Create status-member                        | 61bcc5f    |
+| Luis Díaz              | 16/05/2025  | Create contributions-member                 | d08477f    |
+| Paulo Percy Quincho    | 16/05/2025  | Create home-member                          | d2257eb    |
+| Paulo Percy Quincho    | 16/05/2025  | Create Sidebar-member and member-view       | 4b8ff58    |
+| Luis Díaz              | 16/05/2025  | Complete Representative-page                | 60ae203    |
+| Paulo Percy Quincho    | 15/05/2025  | file: Creación de Bills-Representative      | c1e3663    |
+| Paulo Percy Quincho    | 15/05/2025  | file: Creación de Members-Representative    | d982479    |
+| Luis Díaz              | 09/05/2025  | deploying page                              | 87aa1ce    |
+| Paulo Percy Quincho    | 09/05/2025  | Primer commit: subida del proyecto Angular  | 0eb2558    |
+| Luis Díaz              | 06/05/2025  | initial commit                               | 3a1df4d    |
+
+**Commits de documentación y diseño:**
+
+| Autor                      | Fecha       | Commit Message                                         | Commit ID  |
+|---------------------------|-------------|--------------------------------------------------------|------------|
+| Alexander Piero Fernández | 15/05/2025  | doc: fix Student Outcome based on feedback            | b46487a    |
+| Jhordi Luis Carranza      | 15/05/2025  | docs: Updated Interview and Flow Chart Images         | ed3f328    |
+| Jhordi Luis Carranza      | 15/05/2025  | img: Added new images                                 | 0089257    |
+| Jhordi Luis Carranza      | 15/05/2025  | docs: Updated Student Outcome chart, Interviews...    | 7d74ce2    |
+| Jhordi Luis Carranza      | 15/05/2025  | docs: update README                                   | 10de3fd    |
+| Jhordi Luis Carranza      | 15/05/2025  | docs: update README with new Student Outcome table    | 94f6bfb    |
+| Jhordi Luis Carranza      | 15/05/2025  | Add files via upload                                  | 86e49db    |
+| Alexander Piero Fernández | 13/05/2025  | doc: fix chart of student outcome                     | 8c42d9a    |
+| Alexander Piero Fernández | 13/05/2025  | doc: add chart of student outcome                     | d25b2e3    |
+| Alexander Piero Fernández | 13/05/2025  | doc: fix architecture diagram                         | 68f0b71    |
+| Alexander Piero Fernández | 13/05/2025  | doc: add scenarios as-is                              | ed2ee5e    |
+| Alexander Piero Fernández | 12/05/2025  | doc: fix scenarios as-is                              | b2d7984    |
+
+---
+
+### 5.2.2.4 Testing Suite Evidence for Sprint Review
+
+En el alcance del sprint 2 se ha desarrollado el front end de la aplicación web como primera instancia, por lo que no se evidencia de testing.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|------------|----------------|----------------------|---------------------|
+| _No disponible_ | _No disponible_ | _N/A_ | _N/A_ | _N/A_ | _N/A_ |
+
+### 5.2.2.5. Execution Evidence for Sprint Review
+
+**Login:**
+
+<p align="left">
+  <img src="images/sprint2.1.png" alt="Login View" width="500">
+</p>
+
+**Pantalla Principal:**
+
+<p align="left">
+  <img src="images/sprint2.2.png" alt="Pantalla Principal" width="500">
+</p>
+
+**Contribuciones:**
+
+<p align="left">
+  <img src="images/sprint2.3.png" alt="Contribuciones" width="500">
+</p>
+
+**Status:**
+
+<p align="left">
+  <img src="images/sprint2.4.png" alt="Contribuciones" width="500">
+</p>
+
+**Settings:**
+
+<p align="left">
+  <img src="images/sprint2.5.png" alt="Settings" width="500">
+</p>
+
+**Register:**
+
+<p align="left">
+  <img src="images/sprint2.6.png" alt="Register" width="500">
+</p>
+
+**Recuperar Contraseña:**
+
+<p align="left">
+  <img src="images/sprint2.7.png" alt="Recuperar Contraseña" width="500">
+</p>
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante el desarrollo del presente Sprint 2, se ha trabajado en la documentación inicial de los servicios relacionados con el proceso de autenticación de usuarios, correspondiente a la EPIC 01. En esta etapa, se priorizó la especificación y documentación de los endpoints de registro e inicio de sesión, utilizando Open API para garantizar la claridad, estandarización y facilidad de integración en futuras fases de desarrollo backend.
+
+A continuación presentamos una tabla donde se muestran los endpoints documentados:
+
+| Endpoint             | Acción implementada | Método HTTP | Parámetros                   | Ejemplo de Request                                                                                       | Ejemplo de Response                                            | Documentación (local)           |
+|----------------------|---------------------|-------------|-----------------------------|--------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|-------------------------------|
+| `/api/auth/register`  | Registro de usuario  | POST        | name, email, password, role | ```json<br>{ "name": "Jhordi", "email": "jhordict20@gmail.com", "password": "123456", "role": "representante" }<br>``` | 201 Created<br>```json<br>{ "message": "Usuario registrado exitosamente" }<br>``` | http://localhost:4200/register |
+| `/api/auth/login`     | Inicio de sesión    | POST        | email, password             | ```json<br>{ "email": "jhordict20@gmail.com", "password": "123456" }<br>```                           | 200 OK<br>```json<br>{ "token": "JWT...", "user": { "id": 1, "name": "Juan", "role": "representante" } }<br>``` | http://localhost:4200/login    |
+
+##### Capturas de la documentación:
+
+<p align="center">
+  <img src="images/endpoints.png" alt="Endpoints" />
+</p>
+---
+
+### Repositorio en GitHub:
+
+[https://github.com/1ASI0729-2510-4313-G3-SplitEasy/web-app.git](https://github.com/1ASI0729-2510-4313-G3-SplitEasy/web-app.git)
+
+---
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante este Sprint, se avanzó en la preparación y configuración del entorno de despliegue para los diferentes componentes del sistema SplitEasy, con un enfoque inicial en el frontend desarrollado en Angular. Aunque el despliegue completo aún está en proceso, se lograron los siguientes avances importantes:
+
+- Se creó una cuenta en Vercel para alojar temporalmente la landing page, facilitando así la presentación preliminar del proyecto.
+- Se configuró un proyecto en Vercel vinculado directamente al repositorio de GitHub, permitiendo la integración continua y automatización del despliegue del frontend.
+- Se realizaron pruebas exitosas de despliegue automático desde la rama principal ("main"), logrando visualizar la landing page con navegación básica y funcionalidad parcial en los botones de login y registro.
+- Paralelamente, se inició el proceso de subida y configuración del backend en Azure App Service, sentando las bases para el despliegue del sistema completo en un entorno de producción escalable y confiable.
+
+##### Capturas incluidas:
+
+Despliegue de la aplicación web en firebase:
+https://split-easy.netlify.app/
+
+<p align="center">
+  <img src="images/nube.png" alt="Nube" />
+</p>
+
+<p align="center">
+  <img src="images/nube1.png" alt="Nube1" />
+</p>
+
+<p align="center">
+  <img src="images/nube2.png" alt="Nube2" />
+</p>
+---
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint, las actividades de desarrollo se llevaron a cabo de forma colaborativa, distribuyéndose tareas entre los miembros del equipo a través de GitHub. Cada integrante asumió responsabilidad sobre distintos componentes del frontend, incluyendo el diseño del landing page, la implementación del sistema de rutas y la creación de los formularios de autenticación.
+
+##### Acciones de colaboración:
+
+- Se utilizó GitHub Projects para organizar tareas y realizar seguimiento del progreso.
+- La rama principal “main” fue protegida, estableciendo “pull requests” como requerimiento obligatorio para garantizar revisión y control de calidad.
+- Cada integrante realizó commits documentados y separados por funcionalidad.
+
+##### Capturas incluidas:
+
+<p align="center">
+  <img src="images/gitusers.png" alt="GitUsers" />
+</p>
+
+##### Participación destacada:
+
+- Todos los miembros contribuyeron tanto al diseño de interfaz como al desarrollo funcional (Angular).
+- Se realizó al menos una sesión grupal de revisión de código y planificación intermedia.
+
 
 
 # Conclusión
