@@ -710,6 +710,10 @@ En esta sección se presentarán los user journey mapping para cada user persona
 | US03          | Edición de información personal  |
 | US04          | Cierre de sesión desde todos los dispositivos |
 | US05          | Configuración de notificaciones personales |
+| US36          | Implementar autenticación JWT |
+| US37          | Cifrar contraseñas en base de datos |
+| US38          | Validar roles de administrador y miembro en backend |
+| US39          | Implementar actualización de perfil a partir de API |  
 
 ### EP02 - Panel del Representante del Hogar
 
@@ -740,6 +744,9 @@ En esta sección se presentarán los user journey mapping para cada user persona
 | US18          | Clasificar gastos por categoría  |
 | US19          | Comentar o justificar un gasto   |
 | US20          | Visualizar gráficos de gastos    |
+| US40          | Validar que el gasto tiene adjunto al menos 1 comprobante |
+| US41          | Agregar API para filtrar gastos por rango de fecha |
+| US42          | Implementar actualización y eliminación de gastos |  
 
 ### EP05 - Seguimiento y Recordatorios
 
@@ -750,6 +757,8 @@ En esta sección se presentarán los user journey mapping para cada user persona
 | US23          | Recordatorio de actualización de ingresos |
 | US24          | Confirmación de aportes          |
 | US25          | Notificación de cambios en el hogar |
+| US43          | API para programar recordatorios de pago |
+| US44          | Integrar cron job para envío de recordatorios |  
 
 ### EP06 - Soporte y Comunidad
 
@@ -760,7 +769,7 @@ En esta sección se presentarán los user journey mapping para cada user persona
 | US28          | Reportar un problema             |
 | US29          | Sugerencias de mejora            |
 | US30          | Foro comunitario                 |
-
+| US45          | API para dar seguimiento a reportes de problemas |
 
 ### EP07 - Exploración como Visitante
 
