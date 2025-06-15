@@ -885,6 +885,17 @@ En esta sección se presentarán los user journey mapping para cada user persona
 | 33        | US28           | Reportar un problema                                  | 2             |
 | 34        | US29           | Sugerencias de mejora                                 | 1             |
 | 35        | US30           | Foro comunitario                                      | 3             |
+| 36 | US36 | Implementar autenticación JWT | 5 |
+| 37 | US37 | Cifrar contraseñas en base de datos | 3 |
+| 38 | US38 | Validar roles de administrador y miembro en backend | 3 |
+| 39 | US39 | Implementar actualización de perfil a partir de API | 2 |
+| 40 | US40 | Validar que el gasto tiene adjunto al menos 1 comprobante | 2 |
+| 41 | US41 | Agregar API para filtrar gastos por rango de fecha | 3 |
+| 42 | US42 | Implementar actualización y eliminación de gastos | 5 |
+| 43 | US43 | API para programar recordatorios de pago | 2 |
+| 44 | US44 | Integrar cron job para envío de recordatorios | 3 |
+| 45 | US45 | API para dar seguimiento a reportes de problemas | 2 |
+| 46 | US46 | Implementar comentarios o respuestas en el foro | 3 |
 
 # Capítulo IV: Product Design
 
