@@ -2148,6 +2148,151 @@ Durante el Sprint, las actividades de desarrollo se llevaron a cabo de forma col
 - Todos los miembros contribuyeron tanto al diseño de interfaz como al desarrollo funcional (Angular).
 - Se realizó al menos una sesión grupal de revisión de código y planificación intermedia.
 
+## 5.2.3. Sprint 3
+
+### 5.2.3.1. Sprint Planning 3
+
+- **Objetivo:** Implementar nuevas historias de backend, dar inicio al desarrollo de API Rest, autenticaciones, procedimiento de backend en el reporte, así como avanzar con tareas pendientes en el frontend.
+- **Duración:** 2 semanas
+- **Fecha inicio:** 01/06/2025
+- **Fecha fin:** 15/06/2025
+
+---
+
+### 5.2.3.2. Aspect Leaders and Collaborators
+
+| Nombre | Rol | User Stories | Descripción de las contribuciones |
+|---------|---------|---------|---------|
+| Jorge Luis Díaz Fiestas | Líder | US36, DB02, DB01 | Creó base de datos, insertó información en las tablas, desarrolló API Rest, autenticaciones y procedimiento en el Reporte |
+| Paulo Percy Quincho Gamarra | Colaborador | US36, DOC03 | Implementó endpoints de autenticacion, configuración de servidor y procedimiento en el Reporte |
+| Alexander Piero Fernández | Colaborador | US42, US38 | Implementó control de acceso según rol y validaciones en el backend |
+  
+---
+
+### 5.2.3.3. Sprint Backlog 3
+
+| Estado | User Story | Work Item | Descripción | Asignado |
+|---------|---------|---------|---------|---------|
+| Done | DB02 | DB02-W1 | Creacion Base de datos | Jorge Luis Díaz Fiestas |
+| Done | DB01 | DB01-W1 | Inserción de datos en las tablas para API Rest | Jorge Luis Díaz Fiestas |
+| Doing | US36 | US36-W1 | Desarrollo de backend en API Rest | Jorge Luis Díaz Fiestas |
+| Doing | US36 | US36-W2 | Creacion de Endpoints de Autenticacion y Entidades | Paulo Percy Quincho Gamarra |
+| Doing | DOC03 | DOC03-W1 | Configuración de Servidor | Paulo Percy Quincho Gamarra |
+| Doing | DOC02 | DOC02-W1 | Agregar procedimiento de backend en el Reporte | Jorge Luis Díaz Fiestas |
+| To do | US36 | US36-W1 | Implementar autenticacion (conexión backend-frontend seguro) | Jorge Luis Díaz Fiestas |
+| To do | DOC01 | DOC01-W1 | Corrección en el Reporte (cambio de base de datos en la documentación) | Paulo Percy Quincho Gamarra |
+| To do | US03 | US03-W1 | Desarrollar Configuración Personal en Miembros del Hogar | Jorge Luis Díaz Fiestas |
+| To do | US38 | US38-W1 | Implementar Control de Acceso según Rol | Alexander Piero Fernández |
+| To do | US42 | US42-W1 | Validar Formularios e Inputs en el Backend | Jorge Luis Díaz Fiestas |
+| To do | US44 | US44-W1 | Pruebas Funcionales e Integraciones | Jorge Luis Díaz Fiestas |
+| To do | US44 | US44-W2 | Despliegue de Aplicacion Web - Backend | Jorge Luis Díaz Fiestas |
+  
+---
+
+### 5.2.3.4. Development Evidence for Sprint Review
+
+ **Commits de desarrollo (funcionalidad)**:
+
+| Autor | Fecha | Commit | Commit ID |
+|---------|---------|---------|---------|
+| Jorge Luis Díaz Fiestas | 05/06/2025 | Creacion Base de datos | |
+| Jorge Luis Díaz Fiestas | 06/06/2025 | Inserción de datos en tablas |  |
+| Paulo Percy Quincho Gamarra | 07/06/2025 | Creacion de Endpoints autenticacion | ab6c92e267c81d3f5d06e60b9ce1377f3a14592d |
+| Paulo Percy Quincho Gamarra | 07/06/2025 | Configurar procedimiento backend en Github | a7681602cf1878067df70aa7ccf77e905046c553 |
+  
+ **Commits de documentación:**  
+| Autor | Fecha | Commit | Commit ID |
+|---------|---------|---------|---------|
+| Jorge Luis Díaz Fiestas | 06/06/2025 | Agregar procedimiento en Reporte | falta por agregar |
+| Jorge Luis Díaz Fiestas | 06/06/2025 | Corrección base de datos en Reporte | falta por agregar |
+  
+---
+
+### 5.2.3.5. Execution Evidence for Sprint Review
+
+ Durante el sprint 3 **aún no contamos con despliegue en backend**, pero podemos demostrar:
+
+
+
+ **Capturas **:  
+
+
+---
+
+### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+ Durante el sprint 3 se han implementado nuevos endpoints en la API:
+
+ ## SACARLO DESDE EL REPORTE DEL BACKEND
+
+| **Endpoint** | **Acciones implementadas** | **Método** | **Parámetros** | **Respuesta de ejemplo** |
+|---------|---------|---------|---------|---------|
+| `/api/auth/login` | Autenticar usuario | `POST` | `email, password` | `{ "token": "JWT…" }` |
+| `/api/auth/registro` | Registrar nuevo administrador | `POST` | `name, email, password, role` | `{ "message": "Usuario registrado con éxito" }` |
+| `/api/reports/update` | Actualizar procedimiento de Reporte | `PUT` | `reportId, procedure` | `{ "message": "Proceso actualizado" }` |
+  
+---
+
+### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+ Actualmente el backend **aún no está desplegado en Azure**, pero:
+
+- La base de datos está implementada en MySQL en la VM de desarrollo.
+- La aplicación de backend corre en entorno de desarrollo, pero no en entorno de producción.
+- La aplicación de frontend continúa en Vercel pero sin tener el backend final aún incluido.
+
+---
+
+### 5.2.3.8. Team Collaboration Insights during Sprint
+
+ Durante el sprint 3 el equipo trabajó de forma más autónoma pero siempre bajo seguimiento constante en Git:
+
+- **Jorge Luis Díaz Fiestas:** Líder técnico, encargado de base de datos, procedimiento en Reporte y autenticaciones.
+- **Paulo Percy Quincho Gamarra:** Implementó endpoints de autenticacion, procedimiento en Reporte, y configuración de backend.
+- **Alexander Piero Fernández:** A cargo de control de roles, validaciones e integraciones en el backend.
+
+ La rama principal `main` estaba protegida y las integraciones se hicieron a partir de pull requests.  
+ La colaboración estuvo más centrada en backend, pero también se avanzó en algunos aspectos de configuración en el frontend cuando era necesario.
+
+---
+
+### 5.3. Validation Interviews
+
+#### 5.3.1. Diseño de Entrevistas
+
+ Objetivo: Validar con el Product Owner y el equipo de desarrollo que:
+
+- La API proporciona la información adecuada.
+- La autenticacion funciona como se espera.
+- La base de datos tiene la estructura adecuada.
+
+ Guía de preguntas:
+- ¿Puedes autenticar con diferentes roles de usuario?
+- ¿Cómo están organizadas las tablas en la base de datos?
+- ¿Cómo reciben los reportes las otras funciones?
+
+---
+
+#### 5.3.2. Registro de Entrevistas
+
+| Entrevistado | Cargo | Fecha | Comentario |
+|---------|---------|---------|---------|
+| Product Owner | Product Owner | 10/06/2025 | La API proporciona toda la información solicitada pero aún están pendientes algunos endpoints |
+| Líder técnico | Jorge Luis Díaz Fiestas | 11/06/2025 | La base de datos tiene una estructura adecuada pero falta implementar control de roles |
+
+## Poner video de la entrevista
+---
+
+#### 5.3.3. Evaluaciones según heurísticas
+
+ Durante el sprint 3 se evaluó:
+
+| Heurística | Comentario |
+|---------|---------|
+| Consistencia | La API tiene nomenclatura consistente en endpoints |
+| Seguridad | La autenticacion JWT proporciona seguridad en el acceso |
+| Integridad | La base de datos tiene relaciones adecuadas, pero falta implementar algunos Foreign Key |
+| Usabilidad (API) | La estructura de URL y métodos es intuitiva y estándar |
 
 
 # Conclusión
