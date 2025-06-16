@@ -710,6 +710,10 @@ En esta sección se presentarán los user journey mapping para cada user persona
 | US03          | Edición de información personal  |
 | US04          | Cierre de sesión desde todos los dispositivos |
 | US05          | Configuración de notificaciones personales |
+| US36          | Implementar autenticación JWT |
+| US37          | Cifrar contraseñas en base de datos |
+| US38          | Validar roles de administrador y miembro en backend |
+| US39          | Implementar actualización de perfil a partir de API |  
 
 ### EP02 - Panel del Representante del Hogar
 
@@ -740,6 +744,9 @@ En esta sección se presentarán los user journey mapping para cada user persona
 | US18          | Clasificar gastos por categoría  |
 | US19          | Comentar o justificar un gasto   |
 | US20          | Visualizar gráficos de gastos    |
+| US40          | Validar que el gasto tiene adjunto al menos 1 comprobante |
+| US41          | Agregar API para filtrar gastos por rango de fecha |
+| US42          | Implementar actualización y eliminación de gastos |  
 
 ### EP05 - Seguimiento y Recordatorios
 
@@ -750,6 +757,8 @@ En esta sección se presentarán los user journey mapping para cada user persona
 | US23          | Recordatorio de actualización de ingresos |
 | US24          | Confirmación de aportes          |
 | US25          | Notificación de cambios en el hogar |
+| US43          | API para programar recordatorios de pago |
+| US44          | Integrar cron job para envío de recordatorios |  
 
 ### EP06 - Soporte y Comunidad
 
@@ -760,7 +769,7 @@ En esta sección se presentarán los user journey mapping para cada user persona
 | US28          | Reportar un problema             |
 | US29          | Sugerencias de mejora            |
 | US30          | Foro comunitario                 |
-
+| US45          | API para dar seguimiento a reportes de problemas |
 
 ### EP07 - Exploración como Visitante
 
@@ -779,6 +788,10 @@ En esta sección se presentarán los user journey mapping para cada user persona
 | EP01     | Registro y Gestión de Perfil      | US03  | Edición de información personal    | Como usuario, quiero editar mi información personal para mantenerla actualizada.                                 | - Escenario 1: Acceso al perfil<br>Dado que el usuario ya está logueado,<br>Cuando entre a la sección "Perfil",<br>Entonces podrá ver su información editable.<br><br>- Escenario 2: Guardar cambios<br>Dado que el usuario edite su nombre,<br>Cuando haga clic en "Guardar",<br>Entonces la información se actualizará.                                      |
 | EP01     | Registro y Gestión de Perfil      | US04  | Cierre de sesión desde todos los dispositivos | Como usuario, quiero cerrar sesión desde todos mis dispositivos para mayor seguridad.                     | - Escenario 1: Cerrar sesión global<br>Dado que el usuario se encuentra en su cuenta,<br>Cuando presione el botón "Cerrar sesión en todos los dispositivos",<br>Entonces todas las sesiones activas se cerrarán. |
 | EP01     | Registro y Gestión de Perfil      | US05  | Configuración de notificaciones personales | Como usuario, quiero configurar mis notificaciones para recibir alertas relevantes.                        | - Escenario 1: Acceder a notificaciones<br>Dado que el usuario accede a su perfil,<br>Cuando haga clic en "Notificaciones",<br>Entonces verá las opciones para activar o desactivar alertas.<br><br>- Escenario 2: Guardar configuración<br>Dado que el usuario seleccione sus preferencias,<br>Cuando haga clic en "Guardar",<br>Entonces la configuración será aplicada. |
+| EP01 | Registro y Gestión de Perfil | US36 | Implementar autenticación JWT | Como administrador o usuario, quiero que el inicio de sesión implemente autenticación JWT para mayor seguridad en el manejo de sesiones. | - Escenario 1: Generar JWT<br>Dado que el usuario proporciona credenciales correctas,<br>Cuando se autentica,<br>Entonces el backend responde con un JWT válido.<br><br>- Escenario 2: Validar JWT<br>Dado que el JWT se adjunta en el encabezado de la solicitud,<br>Cuando el backend verifica el token,<br>Entonces autoriza o rechaza el acceso según sea válido o vencido. |
+| EP01 | Registro y Gestión de Perfil | US37 | Cifrar contraseñas en base de datos | Como administrador, quiero que las contraseñas de los usuarios sean encriptadas antes de guardarlos en la base de datos. | - Escenario 1: Al registrar o actualizar password<br>Dado que el password llega en texto plano,<br>Cuando el backend lo encripta,<br>Entonces se almacena en la base de datos de forma hashed.<br>- Escenario 2: Al autenticar<br>Dado que el password en base de datos está hashed,<br>Cuando el backend verifica credenciales,<br>Entonces primero hace el hash de la password ingresada y lo compara con el guardado. |
+| EP01 | Registro y Gestión de Perfil | US38 | Validar roles de administrador y miembro en backend | Como administrador, quiero que ciertos endpoints sean usados solo por determinados roles. | - Escenario 1: Peticiones de administrador<br>Dado que el rol incluido en el JWT es administrador,<br>Cuando invoque un endpoint administrador,<br>Entonces el backend permitirá el acceso.<br>- Escenario 2: Peticiones de miembro<br>Dado que el rol incluido en el JWT es miembro,<br>Cuando invoque un endpoint administrador,<br>Entonces el backend rechazará la solicitud con 403. |
+| EP01 | Registro y Gestión de Perfil | US39 | Implementar actualización de perfil a partir de API | Como usuario, quiero actualizar mi perfil a partir de una API. | - Escenario 1: Actualización exitosa<br>Dado que el token es válido,<br>Cuando el usuario envía nuevos datos,<br>Entonces el backend actualiza el perfil en la base de datos.<br>- Escenario 2: Token vencido o sin autenticar<br>Dado que el token es vencido o inexistente,<br>Cuando el backend recibe la solicitud,<br>Entonces responde con 401. |
 | EP02     | Panel del Representante del Hogar | US06  | Crear hogar                        | Como representante del hogar, quiero crear un hogar en la app para empezar a gestionar sus finanzas.             | - Escenario 1: Ingreso a creación de hogar<br>Dado que el usuario haya iniciado sesión,<br>Cuando haga clic en “Crear hogar”,<br>Entonces podrá ingresar un nombre e ID para el hogar.<br><br>- Escenario 2: Confirmación de creación<br>Dado que el usuario complete los campos requeridos,<br>Cuando presione "Confirmar",<br>Entonces se creará el hogar y se mostrará en su panel. |
 | EP02     | Panel del Representante del Hogar | US07  | Aprobar gastos                     | Como representante, quiero aprobar gastos para tener control sobre lo que se gasta en el hogar.                  | - Escenario 1: Visualizar gastos pendientes<br>Dado que haya gastos sin aprobar,<br>Cuando el representante acceda al panel,<br>Entonces verá una lista de gastos para revisar.<br><br>- Escenario 2: Aprobación<br>Dado que el representante seleccione un gasto,<br>Cuando presione "Aprobar",<br>Entonces el gasto pasará a estado "Aprobado".               |
 | EP02     | Panel del Representante del Hogar | US08  | Ajustar porcentajes de aportes     | Como representante, quiero modificar los porcentajes de contribución de cada miembro según sus ingresos.         | - Escenario 1: Acceder a ajustes de aportes<br>Dado que el representante esté en el panel,<br>Cuando seleccione la opción "Ajustar porcentajes",<br>Entonces verá una lista editable de miembros.<br><br>- Escenario 2: Guardar ajustes<br>Dado que se realicen cambios,<br>Cuando presione "Guardar",<br>Entonces se actualizarán los porcentajes automáticamente. |
@@ -794,16 +807,23 @@ En esta sección se presentarán los user journey mapping para cada user persona
 | EP04     | Gestión de Gastos Compartidos | US18  | Clasificar gastos por categoría | Como usuario, quiero categorizar los gastos para facilitar su análisis y visualización.                 | - Escenario 1: Selección de categoría<br>Dado que el usuario registre un gasto,<br>Cuando acceda a la lista de categorías,<br>Entonces podrá seleccionar entre alimentación, servicios, mantenimiento, etc.<br><br>- Escenario 2: Filtro<br>Dado que seleccione una categoría,<br>Cuando aplique el filtro,<br>Entonces se mostrarán solo los gastos correspondientes.       |
 | EP04     | Gestión de Gastos Compartidos | US19  | Comentar o justificar un gasto | Como usuario, quiero añadir comentarios para explicar el motivo de un gasto compartido.                | - Escenario 1: Comentario en gasto<br>Dado que el usuario haya registrado un gasto,<br>Cuando seleccione “Añadir comentario”,<br>Entonces podrá escribir y guardar una nota explicativa visible a los miembros del hogar.                                  |
 | EP04     | Gestión de Gastos Compartidos | US20  | Visualizar gráficos de gastos | Como usuario, quiero ver gráficos de gastos para entender en qué se gasta más.                          | - Escenario 1: Acceso a visualizaciones<br>Dado que el usuario esté en el panel de gastos,<br>Cuando acceda a “Ver gráficos”,<br>Entonces podrá ver gráficos circulares o de barras agrupados por categoría, fecha o usuario.                                    |
+| EP04 | Gestión de Gastos Compartidos | US40 | Validar que el gasto tenga adjunto al menos 1 comprobante | Como administrador, quiero que cada gasto tenga al menos 1 comprobante adjunto antes de guardarlos. | - Escenario 1: Gasto sin adjunto<br>Dado que el gasto no tiene comprobante,<br>Cuando el backend recibe la solicitud,<br>Entonces responde con error 400.<br>- Escenario 2: Gasto con adjunto<br>Dado que el gasto tiene comprobante,<br>Cuando el backend grava en la base de datos,<br>Entonces lo acepta. |
+| EP04 | Gestión de Gastos Compartidos | US41 | Agregar API para filtrar gastos por rango de fecha | Como administrador, quiero filtrar gastos según rango de fecha. | - Escenario 1: Filtrar con rango válido<br>Dado que envío inicio y fin,<br>Cuando el backend filtra,<br>Entonces responde con gastos en ese rango.<br>- Escenario 2: Rango sin resultados<br>Dado que el rango no tiene gastos,<br>Cuando el backend consulta,<br>Entonces responde con una lista vacía. |
+| EP04 | Gestión de Gastos Compartidos | US42 | Implementar actualización y eliminación de gastos | Como administrador, quiero poder actualizar o eliminar gastos. | - Escenario 1: Actualización<br>Dado que el gasto existe,<br>Cuando el administrador envía nuevos datos,<br>Entonces el backend actualiza el registro.<br>- Escenario 2: Eliminado<br>Dado que el administrador solicita borrar,<br>Cuando el backend elimina el gasto,<br>Entonces deja de aparecer en futuros reportes. |
 | EP05     | Seguimiento y Recordatorios | US21  | Recordatorios de pago               | Como usuario, quiero recibir recordatorios automáticos de pago para no retrasarme en mis aportes.| - Escenario 1: Activación del recordatorio<br>Dado que el usuario tenga una fecha límite de pago,<br>Cuando se acerque esa fecha,<br>Entonces recibirá una notificación automática por correo o en la app.<br><br>- Escenario 2: Configuración<br>Dado que acceda a ajustes,<br>Cuando edite preferencias,<br>Entonces podrá activar o desactivar los recordatorios. |
 | EP05     | Seguimiento y Recordatorios | US22  | Alertas de pagos pendientes         | Como usuario, quiero ser alertado si tengo pagos atrasados para regularizar mi situación.         | - Escenario 1: Detección automática<br>Dado que el usuario no haya pagado después de la fecha límite,<br>Cuando acceda al sistema,<br>Entonces verá una alerta destacada en su panel.<br><br>- Escenario 2: Alerta múltiple<br>Dado que haya varios pagos pendientes,<br>Cuando abra la alerta,<br>Entonces podrá ver el detalle de cada uno. |
 | EP05     | Seguimiento y Recordatorios | US23  | Recordatorio de actualización de ingresos | Como usuario, quiero ser recordado de actualizar mis ingresos para mantener la equidad del sistema.| - Escenario 1: Periodicidad<br>Dado que haya pasado un mes sin actualización,<br>Cuando el usuario inicie sesión,<br>Entonces verá un mensaje solicitando revisar su ingreso.<br><br>- Escenario 2: Confirmación<br>Dado que actualice el ingreso,<br>Cuando guarde los cambios,<br>Entonces se reiniciará el periodo de espera. |
 | EP05     | Seguimiento y Recordatorios | US24  | Confirmación de aportes              | Como usuario, quiero recibir confirmación cada vez que realizo un aporte para mayor seguridad.     | - Escenario 1: Notificación inmediata<br>Dado que el usuario registre un pago,<br>Cuando el sistema lo procese,<br>Entonces recibirá una confirmación por correo o notificación dentro de la app.<br><br>- Escenario 2: Registro visible<br>Dado que quiera revisar sus confirmaciones,<br>Cuando acceda al historial,<br>Entonces verá las confirmaciones pasadas. |
 | EP05     | Seguimiento y Recordatorios | US25  | Notificación de cambios en el hogar | Como usuario, quiero ser notificado si hay cambios en el hogar para estar informado.               | - Escenario 1: Nuevo miembro<br>Dado que un nuevo miembro se una,<br>Cuando sea aprobado por el representante,<br>Entonces se notificará a todos los miembros.<br><br>- Escenario 2: Cambios administrativos<br>Dado que el representante edite los porcentajes de aporte,<br>Cuando se guarde el cambio,<br>Entonces se notificará a los afectados. |
+| EP05 | Seguimiento y Recordatorios | US43 | API para programar recordatorios de pago | Como administrador, quiero dar de alta recordatorios específicos de pago en el backend. | - Escenario 1: Crear recordatorio<br>Dado que el administrador proporciona fecha y monto,<br>Cuando el backend grava el recordatorio,<br>Entonces el recordatorio queda incluido en la base de datos.<br>- Escenario 2: Listar recordatorios<br>Dado que el administrador consulta,<br>Cuando el backend responde,<br>Entonces proporciona la lista de recordatorios pendientes. |
+| EP05 | Seguimiento y Recordatorios | US44 | Integrar cron job para envío de recordatorios | Como administrador, quiero que el backend envie automáticamente recordatorios cuando vencen. | - Escenario 1: Ejecución de cron<br>Dado que el cron se fija cada día,<br>Cuando llega el vencimiento,<br>Entonces el backend envía mensajes o notificaciones.<br>- Escenario 2: Sin vencimientos<br>Dado que no vencen recordatorios ese día,<br>Cuando el cron se invoca,<br>Entonces no envía nada. |
 | EP06     | Soporte y Comunidad | US26  | Acceso a ayuda en línea | Como usuario, quiero acceder a una sección de ayuda en línea para resolver mis dudas básicas. | - Escenario 1: Acceso desde el menú<br>Dado que el usuario esté en cualquier vista,<br>Cuando haga clic en “Ayuda” en el menú principal,<br>Entonces será redirigido a la sección de preguntas frecuentes.<br><br>- Escenario 2: Búsqueda rápida<br>Dado que use el buscador,<br>Cuando escriba su duda,<br>Entonces obtendrá respuestas relacionadas. |
 | EP06     | Soporte y Comunidad | US27  | Chat con soporte técnico | Como usuario, quiero chatear con un agente de soporte para resolver problemas técnicos específicos. | - Escenario 1: Inicio de chat<br>Dado que el usuario esté en la sección de ayuda,<br>Cuando seleccione “Chatear con soporte”,<br>Entonces se abrirá una ventana de conversación con el agente disponible.<br><br>- Escenario 2: Horario de atención<br>Dado que acceda fuera de horario,<br>Cuando intente iniciar chat,<br>Entonces verá un mensaje informativo con horarios. |
 | EP06     | Soporte y Comunidad | US28  | Reportar un problema     | Como usuario, quiero poder reportar errores o fallas para que el equipo técnico las solucione. | - Escenario 1: Formulario de reporte<br>Dado que haya experimentado un problema,<br>Cuando acceda al formulario de reporte,<br>Entonces podrá describir el incidente y enviarlo.<br><br>- Escenario 2: Confirmación de envío<br>Dado que complete el formulario,<br>Cuando lo envíe,<br>Entonces recibirá una confirmación con número de ticket. |
 | EP06     | Soporte y Comunidad | US29  | Sugerencias de mejora    | Como usuario, quiero dejar sugerencias para mejorar la plataforma de manera colaborativa.       | - Escenario 1: Ingreso de sugerencia<br>Dado que tenga una idea,<br>Cuando acceda a la sección “Sugerencias”,<br>Entonces podrá llenar un formulario y enviarla.<br><br>- Escenario 2: Visualización de estado<br>Dado que envíe una sugerencia,<br>Cuando acceda a su perfil,<br>Entonces podrá ver si está en evaluación o implementada. |
 | EP06     | Soporte y Comunidad | US30  | Foro comunitario         | Como usuario, quiero participar en un foro donde pueda compartir experiencias y resolver dudas. | - Escenario 1: Navegación general<br>Dado que el usuario entre al foro,<br>Cuando seleccione una categoría,<br>Entonces verá los temas y respuestas más recientes.<br><br>- Escenario 2: Crear publicación<br>Dado que quiera iniciar un nuevo tema,<br>Cuando publique,<br>Entonces su mensaje se mostrará en el hilo correspondiente. |
+| EP06 | Soporte y Comunidad | US45 | API para dar seguimiento a reportes de problemas | Como administrador, quiero dar seguimiento a problemas reportados en el backend. | - Escenario 1: Listado de reportes<br>Dado que el administrador consulta,<br>Cuando el backend responde,<br>Entonces proporciona una lista de reportes pendientes.<br>- Escenario 2: Actualización de estado<br>Dado que el administrador corrige el problema,<br>Cuando actualiza el estado,<br>Entonces el backend deja el problema como resuelto. |
+| EP06 | Soporte y Comunidad | US46 | Implementar comentarios o respuestas en el foro | Como administrador o moderador, quiero dar respuestas en el foro. | - Escenario 1: Agregar respuesta<br>Dado que el administrador tiene privilegios,<br>Cuando responde a un tema,<br>Entonces el backend registra el nuevo comentario.<br>- Escenario 2: Moderar<br>Dado que el administrador considera que el comentario es inapropiado,<br>Cuando lo elimina,<br>Entonces deja de aparecer en el hilo. |
 | EP07     | Exploración como Visitante | US31   | Visualizar información general sobre SplitEasy desde la landing page | Como visitante, quiero ver información clara sobre SplitEasy desde la página principal para entender su propósito. | - Escenario 1: Acceso inicial<br>Dado que el visitante acceda a la landing page,<br>Cuando cargue la vista,<br>Entonces verá un resumen claro de qué es SplitEasy y cómo funciona.<br><br>- Escenario 2: Responsive design<br>Dado que acceda desde móvil o PC,<br>Entonces la información debe estar adecuadamente adaptada. |
 | EP07     | Exploración como Visitante | US32   | Conocer las funciones principales para representantes y miembros del hogar | Como visitante, quiero conocer las funcionalidades para cada tipo de usuario para decidir si me interesa. | - Escenario 1: Sección de funciones<br>Dado que esté en la landing,<br>Cuando haga scroll o clic en “Funciones”,<br>Entonces verá tarjetas explicativas para representantes y miembros.<br><br>- Escenario 2: Enlaces internos<br>Dado que seleccione una función,<br>Entonces será redirigido a más detalles en la misma página. |
 | EP07     | Exploración como Visitante | US33   | Explorar beneficios del sistema de aportes proporcionales | Como visitante, quiero entender cómo funciona el sistema proporcional de aportes para saber si me conviene. | - Escenario 1: Sección explicativa<br>Dado que acceda a la landing,<br>Cuando llegue a la sección de “Sistema proporcional”,<br>Entonces verá un texto y/o animación que explica con claridad su funcionamiento.<br><br>- Escenario 2: Comprensión clara<br>Dado que lea el contenido,<br>Entonces entenderá con ejemplos simples los beneficios del sistema. |
@@ -865,6 +885,17 @@ En esta sección se presentarán los user journey mapping para cada user persona
 | 33        | US28           | Reportar un problema                                  | 2             |
 | 34        | US29           | Sugerencias de mejora                                 | 1             |
 | 35        | US30           | Foro comunitario                                      | 3             |
+| 36 | US36 | Implementar autenticación JWT | 5 |
+| 37 | US37 | Cifrar contraseñas en base de datos | 3 |
+| 38 | US38 | Validar roles de administrador y miembro en backend | 3 |
+| 39 | US39 | Implementar actualización de perfil a partir de API | 2 |
+| 40 | US40 | Validar que el gasto tiene adjunto al menos 1 comprobante | 2 |
+| 41 | US41 | Agregar API para filtrar gastos por rango de fecha | 3 |
+| 42 | US42 | Implementar actualización y eliminación de gastos | 5 |
+| 43 | US43 | API para programar recordatorios de pago | 2 |
+| 44 | US44 | Integrar cron job para envío de recordatorios | 3 |
+| 45 | US45 | API para dar seguimiento a reportes de problemas | 2 |
+| 46 | US46 | Implementar comentarios o respuestas en el foro | 3 |
 
 # Capítulo IV: Product Design
 
@@ -2117,6 +2148,151 @@ Durante el Sprint, las actividades de desarrollo se llevaron a cabo de forma col
 - Todos los miembros contribuyeron tanto al diseño de interfaz como al desarrollo funcional (Angular).
 - Se realizó al menos una sesión grupal de revisión de código y planificación intermedia.
 
+## 5.2.3. Sprint 3
+
+### 5.2.3.1. Sprint Planning 3
+
+- **Objetivo:** Implementar nuevas historias de backend, dar inicio al desarrollo de API Rest, autenticaciones, procedimiento de backend en el reporte, así como avanzar con tareas pendientes en el frontend.
+- **Duración:** 2 semanas
+- **Fecha inicio:** 01/06/2025
+- **Fecha fin:** 15/06/2025
+
+---
+
+### 5.2.3.2. Aspect Leaders and Collaborators
+
+| Nombre | Rol | User Stories | Descripción de las contribuciones |
+|---------|---------|---------|---------|
+| Jorge Luis Díaz Fiestas | Líder | US36, DB02, DB01 | Creó base de datos, insertó información en las tablas, desarrolló API Rest, autenticaciones y procedimiento en el Reporte |
+| Paulo Percy Quincho Gamarra | Colaborador | US36, DOC03 | Implementó endpoints de autenticacion, configuración de servidor y procedimiento en el Reporte |
+| Alexander Piero Fernández | Colaborador | US42, US38 | Implementó control de acceso según rol y validaciones en el backend |
+  
+---
+
+### 5.2.3.3. Sprint Backlog 3
+
+| Estado | User Story | Work Item | Descripción | Asignado |
+|---------|---------|---------|---------|---------|
+| Done | DB02 | DB02-W1 | Creacion Base de datos | Jorge Luis Díaz Fiestas |
+| Done | DB01 | DB01-W1 | Inserción de datos en las tablas para API Rest | Jorge Luis Díaz Fiestas |
+| Doing | US36 | US36-W1 | Desarrollo de backend en API Rest | Jorge Luis Díaz Fiestas |
+| Doing | US36 | US36-W2 | Creacion de Endpoints de Autenticacion y Entidades | Paulo Percy Quincho Gamarra |
+| Doing | DOC03 | DOC03-W1 | Configuración de Servidor | Paulo Percy Quincho Gamarra |
+| Doing | DOC02 | DOC02-W1 | Agregar procedimiento de backend en el Reporte | Jorge Luis Díaz Fiestas |
+| To do | US36 | US36-W1 | Implementar autenticacion (conexión backend-frontend seguro) | Jorge Luis Díaz Fiestas |
+| To do | DOC01 | DOC01-W1 | Corrección en el Reporte (cambio de base de datos en la documentación) | Paulo Percy Quincho Gamarra |
+| To do | US03 | US03-W1 | Desarrollar Configuración Personal en Miembros del Hogar | Jorge Luis Díaz Fiestas |
+| To do | US38 | US38-W1 | Implementar Control de Acceso según Rol | Alexander Piero Fernández |
+| To do | US42 | US42-W1 | Validar Formularios e Inputs en el Backend | Jorge Luis Díaz Fiestas |
+| To do | US44 | US44-W1 | Pruebas Funcionales e Integraciones | Jorge Luis Díaz Fiestas |
+| To do | US44 | US44-W2 | Despliegue de Aplicacion Web - Backend | Jorge Luis Díaz Fiestas |
+  
+---
+
+### 5.2.3.4. Development Evidence for Sprint Review
+
+ **Commits de desarrollo (funcionalidad)**:
+
+| Autor | Fecha | Commit | Commit ID |
+|---------|---------|---------|---------|
+| Jorge Luis Díaz Fiestas | 05/06/2025 | Creacion Base de datos | |
+| Jorge Luis Díaz Fiestas | 06/06/2025 | Inserción de datos en tablas |  |
+| Paulo Percy Quincho Gamarra | 07/06/2025 | Creacion de Endpoints autenticacion | ab6c92e267c81d3f5d06e60b9ce1377f3a14592d |
+| Paulo Percy Quincho Gamarra | 07/06/2025 | Configurar procedimiento backend en Github | a7681602cf1878067df70aa7ccf77e905046c553 |
+  
+ **Commits de documentación:**  
+| Autor | Fecha | Commit | Commit ID |
+|---------|---------|---------|---------|
+| Jorge Luis Díaz Fiestas | 06/06/2025 | Agregar procedimiento en Reporte | falta por agregar |
+| Jorge Luis Díaz Fiestas | 06/06/2025 | Corrección base de datos en Reporte | falta por agregar |
+  
+---
+
+### 5.2.3.5. Execution Evidence for Sprint Review
+
+ Durante el sprint 3 **aún no contamos con despliegue en backend**, pero podemos demostrar:
+
+
+
+ **Capturas **:  
+
+
+---
+
+### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+ Durante el sprint 3 se han implementado nuevos endpoints en la API:
+
+ ## SACARLO DESDE EL REPORTE DEL BACKEND
+
+| **Endpoint** | **Acciones implementadas** | **Método** | **Parámetros** | **Respuesta de ejemplo** |
+|---------|---------|---------|---------|---------|
+| `/api/auth/login` | Autenticar usuario | `POST` | `email, password` | `{ "token": "JWT…" }` |
+| `/api/auth/registro` | Registrar nuevo administrador | `POST` | `name, email, password, role` | `{ "message": "Usuario registrado con éxito" }` |
+| `/api/reports/update` | Actualizar procedimiento de Reporte | `PUT` | `reportId, procedure` | `{ "message": "Proceso actualizado" }` |
+  
+---
+
+### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+ Actualmente el backend **aún no está desplegado en Azure**, pero:
+
+- La base de datos está implementada en MySQL en la VM de desarrollo.
+- La aplicación de backend corre en entorno de desarrollo, pero no en entorno de producción.
+- La aplicación de frontend continúa en Vercel pero sin tener el backend final aún incluido.
+
+---
+
+### 5.2.3.8. Team Collaboration Insights during Sprint
+
+ Durante el sprint 3 el equipo trabajó de forma más autónoma pero siempre bajo seguimiento constante en Git:
+
+- **Jorge Luis Díaz Fiestas:** Líder técnico, encargado de base de datos, procedimiento en Reporte y autenticaciones.
+- **Paulo Percy Quincho Gamarra:** Implementó endpoints de autenticacion, procedimiento en Reporte, y configuración de backend.
+- **Alexander Piero Fernández:** A cargo de control de roles, validaciones e integraciones en el backend.
+
+ La rama principal `main` estaba protegida y las integraciones se hicieron a partir de pull requests.  
+ La colaboración estuvo más centrada en backend, pero también se avanzó en algunos aspectos de configuración en el frontend cuando era necesario.
+
+---
+
+### 5.3. Validation Interviews
+
+#### 5.3.1. Diseño de Entrevistas
+
+ Objetivo: Validar con el Product Owner y el equipo de desarrollo que:
+
+- La API proporciona la información adecuada.
+- La autenticacion funciona como se espera.
+- La base de datos tiene la estructura adecuada.
+
+ Guía de preguntas:
+- ¿Puedes autenticar con diferentes roles de usuario?
+- ¿Cómo están organizadas las tablas en la base de datos?
+- ¿Cómo reciben los reportes las otras funciones?
+
+---
+
+#### 5.3.2. Registro de Entrevistas
+
+| Entrevistado | Cargo | Fecha | Comentario |
+|---------|---------|---------|---------|
+| Product Owner | Product Owner | 10/06/2025 | La API proporciona toda la información solicitada pero aún están pendientes algunos endpoints |
+| Líder técnico | Jorge Luis Díaz Fiestas | 11/06/2025 | La base de datos tiene una estructura adecuada pero falta implementar control de roles |
+
+## Poner video de la entrevista
+---
+
+#### 5.3.3. Evaluaciones según heurísticas
+
+ Durante el sprint 3 se evaluó:
+
+| Heurística | Comentario |
+|---------|---------|
+| Consistencia | La API tiene nomenclatura consistente en endpoints |
+| Seguridad | La autenticacion JWT proporciona seguridad en el acceso |
+| Integridad | La base de datos tiene relaciones adecuadas, pero falta implementar algunos Foreign Key |
+| Usabilidad (API) | La estructura de URL y métodos es intuitiva y estándar |
 
 
 # Conclusión
