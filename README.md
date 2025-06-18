@@ -2319,30 +2319,89 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
 
 ### 5.3. Validation Interviews
 
-#### 5.3.1. Diseño de Entrevistas
+### 5.3.1 Relevamiento de Requerimientos No Funcionales
 
- Objetivo: Validar con el Product Owner y el equipo de desarrollo que:
-
-- La API proporciona la información adecuada.
-- La autenticacion funciona como se espera.
-- La base de datos tiene la estructura adecuada.
-
- Guía de preguntas:
-- ¿Puedes autenticar con diferentes roles de usuario?
-- ¿Cómo están organizadas las tablas en la base de datos?
-- ¿Cómo reciben los reportes las otras funciones?
+Durante el proceso de entrevistas con los usuarios finales, se identificaron diversos requerimientos no funcionales relevantes para la experiencia, seguridad y usabilidad del backend de la aplicación **SplitEasy**. A continuación, se detallan los aspectos clave identificados a partir de las respuestas brindadas:
 
 ---
 
-#### 5.3.2. Registro de Entrevistas
+#### Seguridad
 
-| Entrevistado | Cargo | Fecha | Comentario |
-|---------|---------|---------|---------|
-| Product Owner | Product Owner | 10/06/2025 | La API proporciona toda la información solicitada pero aún están pendientes algunos endpoints |
-| Líder técnico | Jorge Luis Díaz Fiestas | 11/06/2025 | La base de datos tiene una estructura adecuada pero falta implementar control de roles |
+- **Autenticación segura**: Se requiere un sistema de login con correo electrónico y contraseña. El usuario desea que la autenticación sea persistente mientras la sesión esté activa, pero que incluya medidas que protejan el acceso no autorizado.
+- **Protección de contraseñas**: Se solicita explícitamente que las contraseñas estén protegidas en la base de datos, evitando su visibilidad incluso ante accesos no autorizados. Esto implica el uso de técnicas de hashing seguro, como `bcrypt`, y el cumplimiento de buenas prácticas de seguridad en el almacenamiento de credenciales.
+- **Control de acceso por roles**: Se identificó la necesidad de un sistema de roles de usuario, diferenciando privilegios entre administradores (con acceso completo a la gestión del hogar) y miembros regulares (con acceso limitado a sus propios datos y gastos). Esto requiere implementar una gestión robusta de autorizaciones en el backend.
 
-## Poner video de la entrevista
 ---
+
+#### Usabilidad
+
+- **Edición del perfil de usuario**: Los usuarios desean poder editar su nombre, correo y foto de perfil de manera autónoma desde la aplicación, sin depender de intermediarios. Este requerimiento apunta a una interfaz backend intuitiva y accesible para estas operaciones.
+- **Carga de comprobantes**: Se espera que cada gasto registrado esté respaldado por un archivo adjunto (imagen, PDF u otro tipo de documento). El sistema debe forzar la inclusión de dicho comprobante como parte del flujo de creación de gastos.
+- **Filtros por fecha**: Se debe ofrecer una funcionalidad para filtrar los gastos por rangos de fechas, como semanas, meses o periodos personalizados. Esto mejora la capacidad del usuario para analizar su historial financiero.
+- **Edición y eliminación de gastos**: Los usuarios deben tener la opción de modificar o eliminar gastos registrados, en caso de errores o cambios. Este requerimiento no funcional está relacionado con la flexibilidad y corrección de datos.
+- **Notificaciones automáticas**: Se solicita que la aplicación envíe recordatorios de pago automáticos (vía push o correo electrónico), configurables por el usuario. El backend debe manejar estas alertas de forma programada, sin necesidad de intervención adicional del usuario.
+- **Reportes de errores dentro de la aplicación**: Se necesita una función que permita al usuario reportar problemas desde la aplicación y hacer seguimiento al estado del reporte (recibido, en proceso, solucionado). Esto requiere una infraestructura básica de soporte técnico y trazabilidad en el backend.
+
+---
+
+#### Automatización y experiencia del usuario
+
+- **Automatización de recordatorios**: Los usuarios no desean encargarse manualmente del envío de recordatorios. El sistema debe contar con tareas programadas (cron jobs o schedulers) que gestionen el envío automático según configuraciones previas.
+- **Persistencia de sesión**: Se sugiere el uso de tokens de autenticación persistente (por ejemplo, JWT con refresh tokens) para evitar que el usuario tenga que iniciar sesión repetidamente.
+
+---
+
+#### Conclusión
+
+Los requerimientos no funcionales extraídos de estas entrevistas evidencian la importancia de la seguridad, facilidad de uso y automatización dentro de la experiencia de usuario en SplitEasy. Estos aspectos son fundamentales para el diseño del backend, asegurando que el sistema sea confiable, seguro y cómodo para los usuarios finales.
+
+---
+
+### 5.3.2 Registro de Entrevistas
+
+A continuación, se detallan las preguntas realizadas al usuario durante la entrevista enfocada en el backend de la aplicación **SplitEasy**, junto con las respuestas obtenidas. Estas respuestas fueron clave para el levantamiento de los requerimientos no funcionales presentados en la sección anterior.
+
+---
+
+**1. ¿Cómo te gustaría que los usuarios se autentiquen en la aplicación?**  
+*Quiero que los usuarios puedan iniciar sesión con su correo y contraseña. Después, deberían poder usar la aplicación sin tener que volver a iniciar sesión, mientras no se cierre la app o pase mucho tiempo. Solo quiero que el proceso sea seguro y que nadie pueda acceder a mi cuenta sin permiso.*
+
+**2. ¿Qué medidas de seguridad te gustaría para proteger las contraseñas de los usuarios?**  
+*Quiero que las contraseñas se mantengan seguras. Que aunque alguien consiga acceso a la base de datos, no pueda ver las contraseñas. No quiero que nadie pueda descubrir mi contraseña, ni aunque tengan acceso a los datos de la app.*
+
+**3. ¿Cómo te gustaría que se gestionen los diferentes tipos de usuarios, como administradores y miembros?**  
+*Imagino que los administradores deberían tener más control sobre la app, como poder ver todos los gastos o cambiar la configuración. Los miembros deberían poder ver y editar solo los suyos. No quiero que cualquiera pueda hacer cualquier cosa.*
+
+**4. ¿Cómo te gustaría que los usuarios puedan actualizar su perfil?**  
+*Me gustaría poder actualizar mi nombre, mi foto, o mi correo en cualquier momento. No quiero tener que pedirle a nadie. Quiero hacerlo yo mismo desde la app.*
+
+**5. ¿Qué medidas te gustaría que tomemos para asegurarnos de que cada gasto tenga un comprobante adjunto?**  
+*Es muy importante que cada gasto tenga algo que lo respalde, como un recibo o una factura. No quiero que la gente registre un gasto sin tener un comprobante. La app debería pedirnos que adjuntemos un archivo con el gasto.*
+
+**6. ¿Cómo te gustaría que los usuarios puedan filtrar sus gastos por fechas?**  
+*Sería genial ver solo los gastos de una fecha o mes específico. Por ejemplo, quiero saber cuánto gasté el mes pasado. La app debería tener una opción para poner fechas y ver solo los gastos de ese tiempo.*
+
+**7. ¿Te gustaría que los usuarios puedan editar o eliminar los gastos que ya han registrado?**  
+*Sí, definitivamente. A veces uno comete un error y sería útil poder corregirlo o borrar el gasto. No quiero tener que crear uno nuevo solo para corregir uno viejo.*
+
+**8. ¿Cómo te gustaría que los usuarios reciban recordatorios de pago?**  
+*Me gustaría que la app me avise cuando se acerque una fecha de pago. El recordatorio debería ser como una notificación o incluso un correo. Quiero que me avisen con tiempo.*
+
+**9. ¿Cómo te gustaría que esos recordatorios se envíen automáticamente?**  
+*No quiero tener que hacer nada para que los recordatorios lleguen. Me gustaría que la app se encargue sola de enviarlos en la fecha que yo configure.*
+
+**10. ¿Cómo te gustaría que el sistema maneje los reportes de problemas que los usuarios envíen?**  
+*Quiero poder reportar problemas directamente desde la app. Me gustaría saber qué está pasando con mi reporte: si lo están mirando, si lo van a solucionar, o si ya lo solucionaron.*
+
+---
+
+#### Enlace a evidencia de entrevista (video)
+
+El siguiente video contiene la grabación completa de la entrevista realizada al usuario, en la cual se recogen de manera explícita los requerimientos no funcionales discutidos:
+
+[ Ver entrevista - SharePoint UPC](https://upcedupe.sharepoint.com/:v:/s/xn--eisc-ingenieradesoftware-iic/EXtMMCIfOWhGsxDLwXoAltIBZz9AR4ic0FIixpwcBuPhuA?e=0foKff)
+
+Este material forma parte del archivo de evidencias del proyecto y sustenta la trazabilidad de decisiones técnicas durante el desarrollo de **SplitEasy**.
 
 #### 5.3.3. Evaluaciones según heurísticas
 
