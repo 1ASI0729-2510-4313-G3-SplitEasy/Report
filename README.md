@@ -2235,16 +2235,63 @@ Durante el Sprint, las actividades de desarrollo se llevaron a cabo de forma col
 
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
- Durante el sprint 3 se han implementado nuevos endpoints en la API:
+Durante el Sprint 3 se implementaron los siguientes endpoints en el backend de la aplicación **SplitEasy**, siguiendo una arquitectura RESTful con Spring Boot. Todos los recursos cuentan con operaciones básicas de CRUD (crear, leer, actualizar, eliminar), y están documentados con Swagger/OpenAPI para su uso y prueba.
 
- ## SACARLO DESDE EL REPORTE DEL BACKEND
+A continuación se presenta un resumen de los endpoints disponibles y sus principales operaciones:
 
-| **Endpoint** | **Acciones implementadas** | **Método** | **Parámetros** | **Respuesta de ejemplo** |
-|---------|---------|---------|---------|---------|
-| `/api/auth/login` | Autenticar usuario | `POST` | `email, password` | `{ "token": "JWT…" }` |
-| `/api/auth/registro` | Registrar nuevo administrador | `POST` | `name, email, password, role` | `{ "message": "Usuario registrado con éxito" }` |
-| `/api/reports/update` | Actualizar procedimiento de Reporte | `PUT` | `reportId, procedure` | `{ "message": "Proceso actualizado" }` |
-  
+| **Endpoint base** | **Acciones disponibles** | **Métodos HTTP** | **Descripción** |
+|--------------------|--------------------------|------------------|------------------|
+| `/api/v1/households` | Crear, obtener todos, obtener por ID, actualizar, eliminar | `POST`, `GET`, `GET /{id}`, `PUT /{id}`, `DELETE /{id}` | Gestión de hogares |
+| `/api/v1/users` | Crear usuario, obtener usuarios, actualizar usuario, eliminar | `POST`, `GET`, `PUT /{id}`, `DELETE /{id}` | Gestión de usuarios |
+| `/api/v1/household-members` | Añadir miembro a hogar, listar, actualizar, eliminar | `POST`, `GET`, `PUT /{id}`, `DELETE /{id}` | Administración de miembros por hogar |
+| `/api/v1/bills` | Crear factura, listar facturas, obtener por ID, actualizar, eliminar | `POST`, `GET`, `GET /{id}`, `PUT /{id}`, `DELETE /{id}` | Registro de facturas compartidas |
+| `/api/v1/contributions` | Crear contribución, listar contribuciones, actualizar, eliminar | `POST`, `GET`, `PUT /{id}`, `DELETE /{id}` | Control de aportes individuales |
+| `/api/v1/member-contributions` | Registrar pago, listar pagos por miembro, actualizar, eliminar | `POST`, `GET`, `PUT /{id}`, `DELETE /{id}` | Aportes de miembros a facturas |
+| `/api/v1/settings` | Configurar ajustes del hogar, obtener configuración actual, actualizar | `GET`, `POST`, `PUT` | Preferencias y configuración por hogar |
+
+#### Ejemplo de definición técnica de un endpoint (`/api/v1/households`):
+
+- **GET /api/v1/households**  
+  Devuelve una lista de todos los hogares registrados.  
+  - **Respuesta:** `200 OK`  
+  - **Body de respuesta:**  
+    ```json
+    [
+      {
+        "id": 1,
+        "name": "Casa San Miguel",
+        "description": "Departamento compartido con 3 personas"
+      },
+      ...
+    ]
+    ```
+
+- **POST /api/v1/households**  
+  Crea un nuevo hogar.  
+  - **Body de solicitud:**  
+    ```json
+    {
+      "name": "Casa Miraflores",
+      "description": "Hogar compartido con amigos"
+    }
+    ```
+  - **Respuesta:** `201 Created`
+
+- **GET /api/v1/households/{householdId}**  
+  Devuelve los detalles de un hogar específico por su ID.  
+  - **Respuesta:** `200 OK` o `404 Not Found`
+
+- **PUT /api/v1/households/{householdId}**  
+  Actualiza los datos de un hogar.  
+  - **Body de solicitud:** igual al POST  
+  - **Respuesta:** `200 OK` o `404 Not Found`
+
+- **DELETE /api/v1/households/{householdId}**  
+  Elimina un hogar por su ID.  
+  - **Respuesta:** `204 No Content` o `404 Not Found`
+
+>  **Nota:** Todos los endpoints están versionados bajo `/api/v1/`, utilizan `MediaType.APPLICATION_JSON_VALUE`, y están documentados mediante anotaciones `@Operation`, `@ApiResponse` y `@Tag` para su uso en Swagger UI.
+
 ---
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
