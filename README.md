@@ -2224,11 +2224,67 @@ Durante el Sprint, las actividades de desarrollo se llevaron a cabo de forma col
 
 ### 5.2.3.5. Execution Evidence for Sprint Review
 
- Durante el sprint 3 **aún no contamos con despliegue en backend**, pero podemos demostrar:
+Durante el sprint 3 **aún no contamos con despliegue en backend**, pero podemos demostrar:
 
+Durante el Sprint 3 se avanzó significativamente en la implementación de la lógica de negocio correspondiente a múltiples entidades del backend de la aplicación **SplitEasy**. Se crearon controladores, servicios y transformadores para manejar operaciones CRUD asociadas a los distintos modelos principales del sistema.
 
+Las entidades implementadas durante este sprint fueron:
 
- **Capturas **:  
+- Usuarios (`/api/v1/users`)
+- Miembros del hogar (`/api/v1/household-members`)
+- Cuentas por pagar (`/api/v1/bills`)
+- Contribuciones (`/api/v1/contributions`)
+- Hogares (`/api/v1/households`)
+
+Estas funcionalidades representan una parte crítica del backend, ya que permiten almacenar y gestionar la información básica que interconecta todos los módulos funcionales de SplitEasy.
+
+A continuación, se muestran capturas que evidencian la ejecución de las interfaces REST correspondientes, utilizando herramientas de prueba como Postman:
+
+---
+
+#### Households (Hogares)
+
+<p align="center">
+  <img src="images/Household.jpeg" alt="Household Endpoint">
+</p>
+
+---
+
+#### Users y Bills (Usuarios y Cuentas)
+
+<p align="center">
+  <img src="images/UsersyBills.png" alt="Users and Bills Endpoints">
+</p>
+
+---
+
+#### Contribuciones
+
+<p align="center">
+  <img src="images/Contibutions.jpeg" alt="Contributions Endpoint">
+</p>
+
+---
+
+#### Household Members (Miembros del Hogar)
+
+<p align="center">
+  <img src="images/HouseHoldMembers.png" alt="Household Members Endpoint">
+</p>
+
+---
+
+#### Bills (Detalle de facturas)
+
+<p align="center">
+  <img src="images/Bills.jpeg" alt="Bills Endpoint">
+</p>
+
+---
+
+Cada una de estas entidades cuenta con sus respectivos controladores REST y lógica de servicios asociados, y han sido validadas de forma funcional a través de consultas y comandos de prueba, lo cual garantiza su correcta integración con la base de datos y el resto de los módulos del sistema.
+
+Estas implementaciones permiten sentar las bases del funcionamiento completo del backend y abren la puerta a la integración del frontend con los datos reales de los hogares, usuarios, contribuciones y facturas gestionadas por la aplicación.
 
 
 ---
