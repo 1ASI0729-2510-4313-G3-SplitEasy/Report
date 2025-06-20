@@ -166,48 +166,9 @@ Insights TB1 (Todos participaron):
 # Student Outcome
 | **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
 |-------------------------|--------------------------|------------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia. | 
-**Jorge Luis Díaz Fiestas (TB1):**<br>
-Ayudé en la organización y grabación del video de presentación del equipo, coordinando qué comunicar y cómo expresarlo.<br>
-**(TB2):** Supervisé el proyecto. Coordiné reuniones y guié al equipo en el desarrollo de funcionalidades claves como login y workspace.<br>
-**(TB3):** Comunicaciones técnicas constantes sobre el backend: diseño de base de datos, desarrollo de endpoints, validaciones, pruebas, despliegue y control de acceso por rol (US38).<br><br>
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Jorge Luis Díaz Fiestas (TB1):**<br>Ayudé en la organización y grabación del video de presentación del equipo, coordinando qué comunicar y cómo expresarlo.<br>**(TB2):** Supervisé el proyecto. Coordiné reuniones y guié al equipo en el desarrollo de funcionalidades claves como login y workspace.<br>**(TB3):** Comunicaciones técnicas constantes sobre el backend: diseño de base de datos, desarrollo de endpoints, validaciones, pruebas, despliegue y control de acceso por rol (US38).<br><br>**Paulo Percy Quincho Gamarra (TB1):**<br>Expliqué diagramas C4 al equipo y argumenté decisiones técnicas en reuniones.<br>**(TB2):** Expuse mejoras visuales y accesibilidad. Participé en coordinaciones sobre el módulo de autenticación.<br>**(TB3):** Expliqué al equipo la creación de endpoints de autenticación, configuración del servidor, documentación backend y solución del control de acceso (US38).<br><br>**Alexander Piero Fernández Garfias (TB1):**<br>Participé en entrevistas con usuarios y colaboré en la presentación del “About the Team”.<br>**(TB2):** Aporté comentarios sobre tipografía, estilo y consistencia visual. Participé en sesiones de feedback visual.<br><br>**Jhordi Luis Carranza Pérez (TB1):**<br>Colaboré en el video grupal “About the Team” y expresé ideas en reuniones internas.<br>**(TB2):** Apoyé brevemente en el estilo visual y revisé tablas e imágenes de la documentación escrita. | El trabajo grupal nos ayudó a estructurar mejor nuestras ideas orales y adaptarlas según el público: usuarios, docentes o compañeros.<br><br>Presentar avances y coordinar tareas entre diferentes entregas fortaleció nuestra claridad para comunicar asuntos técnicos en tiempo real.<br><br>El desarrollo de funcionalidades exigió explicar y justificar decisiones técnicas en reuniones frecuentes. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Jorge Luis Díaz Fiestas (TB1):**<br>Revisé ortografía y redacción del informe, incluyendo conclusiones y descripciones funcionales.<br>**(TB2):** Documenté las vistas implementadas, configuraciones del workspace y flujos técnicos de login y recuperación de contraseña.<br>**(TB3):** Documenté backend completo: creación de base de datos, autenticación segura, validaciones, pruebas, despliegue y control de acceso (US38).<br><br>**Paulo Percy Quincho Gamarra (TB1):**<br>Redacté el Needfinding, To-Be Scenario Mapping y parte de los diagramas C4.<br>**(TB2):** Documenté ajustes en accesibilidad, optimización visual y footer.<br>**(TB3):** Documenté endpoints de autenticación, configuración del servidor, documentación de backend y control de acceso (US38).<br><br>**Alexander Piero Fernández Garfias (TB1):**<br>Revisé parcialmente el Impact Map, el Product Backlog y el informe de entrevistas.<br>**(TB2):** Realicé observaciones sobre la coherencia textual y estructura del informe.<br><br>**Jhordi Luis Carranza Pérez (TB1):**<br>Escribí algunas historias de usuario y revisé redacción de conclusiones.<br>**(TB2):** Actualicé imágenes, tablas y algunos detalles menores en la documentación del informe. | La escritura técnica constante en los reportes y documentación nos ayudó a mejorar la redacción estructurada y clara.<br><br>Nos permitió adaptar el lenguaje escrito según la audiencia (docente, usuario o técnica) y propósito (descriptivo, instructivo o reflexivo).<br><br>Aumentó nuestra capacidad de registrar, validar y explicar decisiones técnicas de forma precisa y profesional. |
 
-**Paulo Percy Quincho Gamarra (TB1):**<br>
-Expliqué diagramas C4 al equipo y argumenté decisiones técnicas en reuniones.<br>
-**(TB2):** Expuse mejoras visuales y accesibilidad. Participé en coordinaciones sobre el módulo de autenticación.<br>
-**(TB3):** Expliqué al equipo la creación de endpoints de autenticación, configuración del servidor, documentación backend y solución del control de acceso (US38).<br><br>
-
-**Alexander Piero Fernandez Garfias (TB1):**<br>
-Participé en entrevistas con usuarios y colaboré en la presentación del “About the Team”.<br>
-**(TB2):** Aporté comentarios sobre tipografía, estilo y consistencia visual. Participé en sesiones de feedback visual.<br><br>
-
-**Jhordi Luis Carranza Pérez (TB1):**<br>
-Colaboré en el video grupal “About the Team” y expresé ideas en reuniones internas.<br>
-**(TB2):** Apoyé brevemente en el estilo visual y revisé tablas e imágenes de la documentación escrita. | 
-El trabajo grupal nos ayudó a estructurar mejor nuestras ideas orales y adaptarlas según el público: usuarios, docentes o compañeros.<br><br>
-Presentar avances y coordinar tareas entre diferentes entregas fortaleció nuestra claridad para comunicar asuntos técnicos en tiempo real.<br><br>
-El desarrollo de funcionalidades exigió explicar y justificar decisiones técnicas en reuniones frecuentes. |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia. | 
-**Jorge Luis Díaz Fiestas (TB1):**<br>
-Revisé ortografía y redacción del informe, incluyendo conclusiones y descripciones funcionales.<br>
-**(TB2):** Documenté las vistas implementadas, configuraciones del workspace y flujos técnicos de login y recuperación de contraseña.<br>
-**(TB3):** Documenté backend completo: creación de base de datos, autenticación segura, validaciones, pruebas, despliegue y control de acceso (US38).<br><br>
-
-**Paulo Percy Quincho Gamarra (TB1):**<br>
-Redacté el Needfinding, To-Be Scenario Mapping y parte de los diagramas C4.<br>
-**(TB2):** Documenté ajustes en accesibilidad, optimización visual y footer.<br>
-**(TB3):** Documenté endpoints de autenticación, configuración del servidor, documentación de backend y control de acceso (US38).<br><br>
-
-**Alexander Piero Fernandez Garfias (TB1):**<br>
-Revisé parcialmente el Impact Map, el Product Backlog y el informe de entrevistas.<br>
-**(TB2):** Realicé observaciones sobre la coherencia textual y estructura del informe.<br><br>
-
-**Jhordi Luis Carranza Pérez (TB1):**<br>
-Escribí algunas historias de usuario y revisé redacción de conclusiones.<br>
-**(TB2):** Actualicé imágenes, tablas y algunos detalles menores en la documentación del informe. | 
-La escritura técnica constante en los reportes y documentación nos ayudó a mejorar la redacción estructurada y clara.<br><br>
-Nos permitió adaptar el lenguaje escrito según la audiencia (docente, usuario o técnica) y propósito (descriptivo, instructivo o reflexivo).<br><br>
-Aumentó nuestra capacidad de registrar, validar y explicar decisiones técnicas de forma precisa y profesional. |
 
 
 
