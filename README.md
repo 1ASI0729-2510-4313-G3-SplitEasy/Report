@@ -166,8 +166,10 @@ Insights TB1 (Todos participaron):
 # Student Outcome
 | **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
 |-------------------------|--------------------------|------------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Jorge Luis Díaz Fiestas (TB1):**<br>Ayudé en la organización y grabación del video de presentación del equipo, coordinando qué comunicar y cómo expresarlo.<br><br>**Paulo Percy Quincho Gamarra (TB1):**<br>Participé en entrevistas, expuse los diagramas C4 al equipo y presenté mi perspectiva en reuniones grupales sobre cómo debía estructurarse el diseño del sistema.<br><br>**Alexander Piero Fernandez Garfias (TB1):**<br>Participé en entrevistas con usuarios para validar necesidades y comunicarles nuestra propuesta de valor. Colaboré en la presentación oral del “About the Team”.<br><br>**Jhordi Luis Carranza Pérez (TB1):**<br>Apoyé en la grabación del video grupal “About the Team” explicando funciones clave del equipo. También comuniqué ideas durante reuniones internas de planeación. | El proceso me enseñó a sintetizar ideas y estructurarlas para facilitar su comprensión en un formato audiovisual.<br><br>La experiencia me permitió mejorar mi claridad para explicar conceptos técnicos a personas sin experiencia en ingeniería.<br><br>La interacción directa con usuarios fortaleció mi habilidad para expresar ideas de forma clara según el perfil del oyente.<br><br>La práctica de comunicación oral me permitió adaptar mi forma de hablar según el público: equipo interno o usuarios externos. |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Jorge Luis Díaz Fiestas (TB1):**<br>Revisé ortográficamente y sintácticamente partes del informe, especialmente las conclusiones y descripciones funcionales.<br><br>**Paulo Percy Quincho Gamarra (TB1):**<br>Redacté el Needfinding, el To-Be Scenario Mapping y los diagramas C4. Me aseguré de que el contenido fuera comprensible tanto para el equipo como para los docentes.<br><br>**Alexander Piero Fernandez Garfias (TB1):**<br>Redacté y revisé el contenido del Impact Map, el Product Backlog y el informe de entrevistas. Colaboré en la escritura del informe final.<br><br>**Jhordi Luis Carranza Pérez (TB1):**<br>Escribí parte del capítulo de conclusiones del informe, así como varias historias de usuario. Revisé la redacción de documentos clave del proyecto. | Mejoré mi capacidad para detectar errores y ajustar la redacción para que sea clara, coherente y adecuada a los estándares académicos.<br><br>La redacción técnica me ayudó a transmitir ideas complejas de forma accesible para distintas audiencias.<br><br>Aprendí a comunicarme de forma precisa y estructurada en documentos escritos dirigidos tanto a profesores como a usuarios.<br><br>Desarrollé una mejor comprensión sobre cómo adaptar mi lenguaje para distintos propósitos: técnicos, organizativos o reflexivos. |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Jorge Luis Díaz Fiestas (TB1):**<br>Ayudé en la organización y grabación del video de presentación del equipo, coordinando qué comunicar y cómo expresarlo.<br>**(TB2):** Supervisé el proyecto. Coordiné reuniones y guié al equipo en el desarrollo de funcionalidades claves como login y workspace.<br>**(TB3):** Comunicaciones técnicas constantes sobre el backend: diseño de base de datos, desarrollo de endpoints, validaciones, pruebas, despliegue y control de acceso por rol (US38).<br><br>**Paulo Percy Quincho Gamarra (TB1):**<br>Expliqué diagramas C4 al equipo y argumenté decisiones técnicas en reuniones.<br>**(TB2):** Expuse mejoras visuales y accesibilidad. Participé en coordinaciones sobre el módulo de autenticación.<br>**(TB3):** Expliqué al equipo la creación de endpoints de autenticación, configuración del servidor, documentación backend y solución del control de acceso (US38).<br><br>**Alexander Piero Fernández Garfias (TB1):**<br>Participé en entrevistas con usuarios y colaboré en la presentación del “About the Team”.<br>**(TB2):** Aporté comentarios sobre tipografía, estilo y consistencia visual. Participé en sesiones de feedback visual.<br><br>**Jhordi Luis Carranza Pérez (TB1):**<br>Colaboré en el video grupal “About the Team” y expresé ideas en reuniones internas.<br>**(TB2):** Apoyé brevemente en el estilo visual y revisé tablas e imágenes de la documentación escrita. | El trabajo grupal nos ayudó a estructurar mejor nuestras ideas orales y adaptarlas según el público: usuarios, docentes o compañeros.<br><br>Presentar avances y coordinar tareas entre diferentes entregas fortaleció nuestra claridad para comunicar asuntos técnicos en tiempo real.<br><br>El desarrollo de funcionalidades exigió explicar y justificar decisiones técnicas en reuniones frecuentes. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Jorge Luis Díaz Fiestas (TB1):**<br>Revisé ortografía y redacción del informe, incluyendo conclusiones y descripciones funcionales.<br>**(TB2):** Documenté las vistas implementadas, configuraciones del workspace y flujos técnicos de login y recuperación de contraseña.<br>**(TB3):** Documenté backend completo: creación de base de datos, autenticación segura, validaciones, pruebas, despliegue y control de acceso (US38).<br><br>**Paulo Percy Quincho Gamarra (TB1):**<br>Redacté el Needfinding, To-Be Scenario Mapping y parte de los diagramas C4.<br>**(TB2):** Documenté ajustes en accesibilidad, optimización visual y footer.<br>**(TB3):** Documenté endpoints de autenticación, configuración del servidor, documentación de backend y control de acceso (US38).<br><br>**Alexander Piero Fernández Garfias (TB1):**<br>Revisé parcialmente el Impact Map, el Product Backlog y el informe de entrevistas.<br>**(TB2):** Realicé observaciones sobre la coherencia textual y estructura del informe.<br><br>**Jhordi Luis Carranza Pérez (TB1):**<br>Escribí algunas historias de usuario y revisé redacción de conclusiones.<br>**(TB2):** Actualicé imágenes, tablas y algunos detalles menores en la documentación del informe. | La escritura técnica constante en los reportes y documentación nos ayudó a mejorar la redacción estructurada y clara.<br><br>Nos permitió adaptar el lenguaje escrito según la audiencia (docente, usuario o técnica) y propósito (descriptivo, instructivo o reflexivo).<br><br>Aumentó nuestra capacidad de registrar, validar y explicar decisiones técnicas de forma precisa y profesional. |
+
+
 
 
 
@@ -2224,11 +2226,67 @@ Durante el Sprint, las actividades de desarrollo se llevaron a cabo de forma col
 
 ### 5.2.3.5. Execution Evidence for Sprint Review
 
- Durante el sprint 3 **aún no contamos con despliegue en backend**, pero podemos demostrar:
+Durante el sprint 3 **aún no contamos con despliegue en backend**, pero podemos demostrar:
 
+Durante el Sprint 3 se avanzó significativamente en la implementación de la lógica de negocio correspondiente a múltiples entidades del backend de la aplicación **SplitEasy**. Se crearon controladores, servicios y transformadores para manejar operaciones CRUD asociadas a los distintos modelos principales del sistema.
 
+Las entidades implementadas durante este sprint fueron:
 
- **Capturas **:  
+- Usuarios (`/api/v1/users`)
+- Miembros del hogar (`/api/v1/household-members`)
+- Cuentas por pagar (`/api/v1/bills`)
+- Contribuciones (`/api/v1/contributions`)
+- Hogares (`/api/v1/households`)
+
+Estas funcionalidades representan una parte crítica del backend, ya que permiten almacenar y gestionar la información básica que interconecta todos los módulos funcionales de SplitEasy.
+
+A continuación, se muestran capturas que evidencian la ejecución de las interfaces REST correspondientes, utilizando herramientas de prueba como Postman:
+
+---
+
+#### Households (Hogares)
+
+<p align="center">
+  <img src="images/Household.jpeg" alt="Household Endpoint">
+</p>
+
+---
+
+#### Users y Bills (Usuarios y Cuentas)
+
+<p align="center">
+  <img src="images/UsersyBills.png" alt="Users and Bills Endpoints">
+</p>
+
+---
+
+#### Contribuciones
+
+<p align="center">
+  <img src="images/Contibutions.jpeg" alt="Contributions Endpoint">
+</p>
+
+---
+
+#### Household Members (Miembros del Hogar)
+
+<p align="center">
+  <img src="images/HouseHoldMembers.png" alt="Household Members Endpoint">
+</p>
+
+---
+
+#### Bills (Detalle de facturas)
+
+<p align="center">
+  <img src="images/Bills.jpeg" alt="Bills Endpoint">
+</p>
+
+---
+
+Cada una de estas entidades cuenta con sus respectivos controladores REST y lógica de servicios asociados, y han sido validadas de forma funcional a través de consultas y comandos de prueba, lo cual garantiza su correcta integración con la base de datos y el resto de los módulos del sistema.
+
+Estas implementaciones permiten sentar las bases del funcionamiento completo del backend y abren la puerta a la integración del frontend con los datos reales de los hogares, usuarios, contribuciones y facturas gestionadas por la aplicación.
 
 
 ---
