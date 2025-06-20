@@ -1466,128 +1466,101 @@ La base de datos de **SplitEasy** ha sido diseñada bajo un enfoque relacional, 
 
 ## Diagrama Entidad-Relación
 
-A continuación se describen las principales entidades y sus atributos:
+A continuación, se describen las principales entidades del sistema, alineadas con la implementación real en la base de datos:
 
 ---
 
-### Household
-Entidad principal que representa un hogar.
+### users
+Representa a todos los usuarios del sistema (miembros o representantes).
 
 - `id`: INT (PK)
-- `householdName`: VARCHAR
-- `creationDate`: DATE
+- `name`: VARCHAR(100)
+- `email`: VARCHAR(100) – único
+- `password`: VARCHAR(255)
+- `role`: ENUM('REPRESENTANTE', 'MIEMBRO')
+- `created_at`: TIMESTAMP
 
 ---
 
-### HouseholdMember
-Miembros que viven en un hogar determinado.
+### households
+Entidad que representa un hogar.
 
 - `id`: INT (PK)
-- `userId`: INT (FK → UserAccount.id)
-- `name`: VARCHAR
-- `householdId`: INT (FK → Household.id)
-- `isManager`: BIT
+- `name`: VARCHAR(100)
+- `description`: TEXT
+- `currency`: VARCHAR(10) – por defecto 'USD'
+- `representante_id`: INT (FK → users.id)
+- `created_at`: TIMESTAMP
 
 ---
 
-### UserAccount
-Representa las credenciales de acceso del usuario.
+### household_members
+Relación que indica qué usuarios pertenecen a qué hogares.
 
 - `id`: INT (PK)
-- `email`: VARCHAR (único)
-- `passwordHash`: VARCHAR
+- `user_id`: INT (FK → users.id)
+- `household_id`: INT (FK → households.id)
+- `joined_at`: TIMESTAMP
 
 ---
 
-### Income
-Registra los ingresos individuales de cada miembro del hogar.
+### bills
+Facturas o cuentas registradas dentro del hogar.
 
 - `id`: INT (PK)
-- `memberId`: INT (FK → HouseholdMember.id)
-- `amount`: DECIMAL
-- `incomeDate`: DATE
+- `household_id`: INT (FK → households.id)
+- `descripcion`: VARCHAR(255)
+- `monto`: DECIMAL(10,2)
+- `created_by`: INT (FK → users.id)
+- `fecha`: DATE
+- `created_at`: TIMESTAMP
 
 ---
 
-### Contribution
-Aportes financieros registrados por cada miembro.
+### contributions
+Contribuciones planificadas para cubrir facturas.
 
 - `id`: INT (PK)
-- `amount`: DECIMAL
-- `date`: DATE
-- `description`: VARCHAR
-- `memberId`: INT (FK → HouseholdMember.id)
-- `householdId`: INT (FK → Household.id)
+- `bill_id`: INT (FK → bills.id)
+- `household_id`: INT (FK → households.id)
+- `descripcion`: VARCHAR(255)
+- `fecha_limite`: DATE
+- `created_at`: TIMESTAMP
+- `updated_at`: TIMESTAMP
 
 ---
 
-### ContributionShare
-Define el porcentaje proporcional de responsabilidad financiera de cada miembro, calculado en función de sus ingresos.
+### member_contributions
+Contribuciones específicas que realiza cada miembro.
 
 - `id`: INT (PK)
-- `memberId`: INT (FK → HouseholdMember.id)
-- `householdId`: INT (FK → Household.id)
-- `sharePercentage`: DECIMAL(5,2)
-- `calculatedOn`: DATE
+- `contribution_id`: INT (FK → contributions.id)
+- `member_id`: INT (FK → users.id)
+- `monto`: DECIMAL(10,2)
+- `status`: ENUM('PENDIENTE', 'PAGADO')
+- `pagado_en`: TIMESTAMP
+- `created_at`: TIMESTAMP
+- `updated_at`: TIMESTAMP
 
 ---
 
-### Expense
-Representa los gastos comunes del hogar.
+### settings
+Configuraciones individuales de los usuarios.
 
 - `id`: INT (PK)
-- `description`: VARCHAR
-- `amount`: DECIMAL
-- `category`: VARCHAR (Food, Utilities, Health, etc.)
-- `date`: DATE
-- `createdBy`: INT (FK → HouseholdMember.id)
-- `householdId`: INT (FK → Household.id)
+- `user_id`: INT (FK → users.id)
+- `language`: VARCHAR(10)
+- `dark_mode`: BOOLEAN
+- `notifications_enabled`: BOOLEAN
 
 ---
 
-### Payment
-Registra los pagos realizados por los miembros para cubrir los gastos.
+## Comentario General
 
-- `id`: INT (PK)
-- `expenseId`: INT (FK → Expense.id)
-- `memberId`: INT (FK → HouseholdMember.id)
-- `amountPaid`: DECIMAL
-- `paymentDate`: DATE
+Este modelo relacional refleja una arquitectura flexible y centrada en usuarios y hogares. Se permite distinguir entre representantes y miembros, gestionar sus contribuciones, facturas y preferencias personales.
 
----
-
-### Notification
-Alertas automáticas enviadas a los miembros del hogar.
-
-- `id`: INT (PK)
-- `memberId`: INT (FK → HouseholdMember.id)
-- `message`: VARCHAR
-- `isRead`: BIT
-- `createdAt`: DATETIME
-
----
-
-### Goal
-Metas financieras definidas por el hogar.
-
-- `id`: INT (PK)
-- `householdId`: INT (FK → Household.id)
-- `description`: VARCHAR
-- `targetAmount`: DECIMAL
-- `dueDate`: DATE
-
----
-
-## Vista: `vw_MemberBalance`
-
-Consulta resumen del balance individual por miembro del hogar:
-
-- `memberId`
-- `name`
-- `householdName`
-- `totalIncome`
-- `totalContributed`
-- `totalPaidExpenses`
+> *Nota:* Algunas entidades conceptuales como `Notification`, `Goal`, `Income`, `Expense`, `ContributionShare` y la vista `vw_MemberBalance` descritas en el modelo inicial **no han sido implementadas aún** en el esquema SQL compartido. Estas podrían formar parte de una **fase futura de desarrollo** para ampliar las funcionalidades financieras y de comunicación del sistema.
+ 
 
 ---
 
