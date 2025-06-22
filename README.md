@@ -1958,25 +1958,21 @@ A continuación, se presentan los líderes y colaboradores de SplitEasy:
 | Alexander Piero Fernández    | Colaborador | Revisión visual y estilo                       | Correcciones en tipografía, colores y coherencia visual. Ajustó el diagrama de arquitectura y Student Outcome. |
 | Jhordi Luis Carranza Pérez   | Colaborador | Revisión visual y documentación                | Ajustes menores de estilo. Actualizó imágenes, tablas y descripciones en la documentación. |
 
-
-
-
 **Tabla de User Stories**
 
 | Sprint | User Story ID | Título de la User Story              | Work Item ID | Título del Work Item                  | Descripción                                                                 | Estimación (h) | Asignado a                     | Estado |
 |--------|----------------|--------------------------------------|--------------|----------------------------------------|-----------------------------------------------------------------------------|----------------|-------------------------------|--------|
 | 2      | US01           | Registro de usuario                 | US01-W1      | Interfaz de registro de usuario        | Crear formulario de registro para nuevos usuarios.                          | 3              | Jorge Luis Díaz Fiestas       | Done   |
 | 2      | US02           | Inicio de sesión seguro             | US02-W1      | Interfaz de inicio de sesión           | Implementar formulario para login seguro.                                   | 2              | Paulo Percy Quincho Gamarra   | Done   |
-| 2      | US14           | Ver historial de pagos              | US14-W1      | Vista de historial de pagos            | Crear interfaz con los pagos registrados.                                   | 3            | Jorge Luis Díaz Fiestas       | Done   |
-| 2      | US04           | Cierre de sesión desde todos los dispositivos | US04-W1 | Botón de cierre de sesión             | Cierre de sesión desde cualquier dispositivo.                               | 3              | Jorge Luis Díaz Fiestas       | Done   |
-| 2      | US13           | Registrar pagos realizados          | US13-W1      | Componente para registrar pagos        | Registro manual de pagos.                                                   | 4              | Paulo Percy Quincho Gamarra   | Done   |
-| 2      | US11           | Ingresar ingresos personales        | US11-W1      | Formulario de ingreso de ingresos      | Formulario de ingreso mensual.                                              | 4            | Jorge Luis Díaz Fiestas       | Done   |
+| 2      | US14           | Ver historial de pagos              | US14-W1      | Vista de historial de pagos            | Crear interfaz con los pagos registrados.                                   | 1.5            | Jorge Luis Díaz Fiestas       | Done   |
+| 2      | US04           | Cierre de sesión desde todos los dispositivos | US04-W1 | Botón de cierre de sesión             | Cierre de sesión desde cualquier dispositivo.                               | 1              | Jorge Luis Díaz Fiestas       | Done   |
+| 2      | US13           | Registrar pagos realizados          | US13-W1      | Componente para registrar pagos        | Registro manual de pagos.                                                   | 2              | Paulo Percy Quincho Gamarra   | Done   |
+| 2      | US11           | Ingresar ingresos personales        | US11-W1      | Formulario de ingreso de ingresos      | Formulario de ingreso mensual.                                              | 1.5            | Jorge Luis Díaz Fiestas       | Done   |
 | 2      | US20           | Visualizar gráficos de gastos       | US20-W1      | Componente de gráficos de gastos       | Estadísticas visuales de gastos.                                            | 2              | Paulo Percy Quincho Gamarra   | Done   |
-| 2      | US15           | Ver distribución de gastos del hogar | US15-W1     | Interfaz de distribución de gastos     | Mostrar porcentaje de aportes y gastos por miembro.                         | 3            | Jorge Luis Díaz Fiestas       | Done   |
-| 2      | US12           | Ver monto a pagar                   | US12-W1      | Componente de monto a pagar            | Mostrar el monto que debe pagar el usuario.                                 | 2              | Paulo Percy Quincho Gamarra   | Done   |
-| 2      | US05           | Configuración de notificaciones     | US05-W1      | Vista de notificaciones                | Configuración de recordatorios y alertas.                                   | 2          
-
-![Trello Board](./images/trello3.png)
+| 2      | US15           | Ver distribución de gastos del hogar | US15-W1     | Interfaz de distribución de gastos     | Mostrar porcentaje de aportes y gastos por miembro.                         | 1.5            | Jorge Luis Díaz Fiestas       | Done   |
+| 2      | US12           | Ver monto a pagar                   | US12-W1      | Componente de monto a pagar            | Mostrar el monto que debe pagar el usuario.                                 | 1              | Paulo Percy Quincho Gamarra   | Done   |
+| 2      | US05           | Configuración de notificaciones     | US05-W1      | Vista de notificaciones                | Configuración de recordatorios y alertas.                                   | 1              | Jhordi Luis Carranza Pérez    | Done   |
+| 2      | US09           | Visualizar reportes mensuales       | US09-W1      | Panel de reportes mensuales            | Informes mensuales de gastos y aportes.                                     | 1              | Alexander Piero Fernández     | Done   |
 
 ---
 
@@ -2179,7 +2175,9 @@ Durante el Sprint, las actividades de desarrollo se llevaron a cabo de forma col
 | To do | US42 | US42-W1 | Validar Formularios e Inputs en el Backend | Jorge Luis Díaz Fiestas |
 | To do | US44 | US44-W1 | Pruebas Funcionales e Integraciones | Jorge Luis Díaz Fiestas |
 | To do | US44 | US44-W2 | Despliegue de Aplicacion Web - Backend | Jorge Luis Díaz Fiestas |
-  
+
+![Trello Board](./images/trello3.png)
+
 ---
 
 ### 5.2.3.4. Development Evidence for Sprint Review
