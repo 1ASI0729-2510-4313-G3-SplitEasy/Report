@@ -2335,6 +2335,14 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
 - La aplicación de backend corre en entorno de desarrollo, y en entorno de produccion mediante el siguiente link: [Swagger UI](https://backend-app-1-vd66.onrender.com/swagger-ui/index.html)
 - La aplicación de frontend continúa en Vercel pero sin tener el backend final aún incluido.
 
+<p align="left">
+  <img src="images/deploy.png" alt="UserPersona1" width="500">
+</p>
+<p align="left">
+  <img src="images/deploy2.png" alt="UserPersona1" width="500">
+</p>
+
+
 ---
 
 ### 5.2.3.8. Team Collaboration Insights during Sprint
