@@ -2268,7 +2268,7 @@ Estas implementaciones permiten sentar las bases del funcionamiento completo del
 
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
-Durante el Sprint 3 se implementaron los siguientes endpoints en el backend de la aplicación **SplitEasy**, siguiendo una arquitectura RESTful con Spring Boot. Todos los recursos cuentan con operaciones básicas de CRUD (crear, leer, actualizar, eliminar), y están documentados con Swagger/OpenAPI para su uso y prueba.
+Durante el Sprint 3 se implementaron los siguientes endpoints en el backend de la aplicación **SplitEasy**, siguiendo una arquitectura RESTful con Spring Boot. Todos los recursos cuentan con operaciones básicas de CRUD (crear, leer, actualizar, eliminar), y están documentados con Swagger/OpenAPI para su uso y prueba, así mismo se encuentra en el repositrio: https://github.com/1ASI0729-2510-4313-G3-SplitEasy/backend-app.
 
 A continuación se presenta un resumen de los endpoints disponibles y sus principales operaciones:
 
@@ -2329,7 +2329,7 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
- Actualmente el backend **aún no está desplegado en Azure**, pero:
+ Actualmente el backend **aún no está desplegado**, pero:
 
 - La base de datos está implementada en MySQL en la VM de desarrollo.
 - La aplicación de backend corre en entorno de desarrollo, pero no en entorno de producción.
@@ -2342,8 +2342,8 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
  Durante el sprint 3 el equipo trabajó de forma más autónoma pero siempre bajo seguimiento constante en Git:
 
 - **Jorge Luis Díaz Fiestas:** Líder técnico, encargado de base de datos, procedimiento en Reporte y autenticaciones.
-- **Paulo Percy Quincho Gamarra:** Implementó endpoints de autenticacion, procedimiento en Reporte, y configuración de backend.
-- **Alexander Piero Fernández:** A cargo de control de roles, validaciones e integraciones en el backend.
+- **Paulo Percy Quincho Gamarra:** Implementó endpoints de autenticacion, procedimiento en Reporte, y configuración de backend; A cargo de control de roles, validaciones e integraciones en el backend.
+
 
  La rama principal `main` estaba protegida y las integraciones se hicieron a partir de pull requests.  
  La colaboración estuvo más centrada en backend, pero también se avanzó en algunos aspectos de configuración en el frontend cuando era necesario.
