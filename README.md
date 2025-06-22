@@ -2096,7 +2096,7 @@ Durante este Sprint, se avanzó en la preparación y configuración del entorno 
 - Se creó una cuenta en Vercel para alojar temporalmente la landing page, facilitando así la presentación preliminar del proyecto.
 - Se configuró un proyecto en Vercel vinculado directamente al repositorio de GitHub, permitiendo la integración continua y automatización del despliegue del frontend.
 - Se realizaron pruebas exitosas de despliegue automático desde la rama principal ("main"), logrando visualizar la landing page con navegación básica y funcionalidad parcial en los botones de login y registro.
-- Paralelamente, se inició el proceso de subida y configuración del backend en Azure App Service, sentando las bases para el despliegue del sistema completo en un entorno de producción escalable y confiable.
+- Paralelamente, se inició el proceso de subida y configuración del backend en Render App Service, sentando las bases para el despliegue del sistema completo en un entorno de producción escalable y confiable.
 
 ##### Capturas incluidas:
 
@@ -2329,11 +2329,19 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
- Actualmente el backend **aún no está desplegado**, pero:
+ Actualmente el backend **se encuentra desplegado desplegado:**
 
 - La base de datos está implementada en MySQL en la VM de desarrollo.
-- La aplicación de backend corre en entorno de desarrollo, pero no en entorno de producción.
+- La aplicación de backend corre en entorno de desarrollo, y en entorno de produccion mediante el siguiente link: [Swagger UI](https://backend-app-1-vd66.onrender.com/swagger-ui/index.html)
 - La aplicación de frontend continúa en Vercel pero sin tener el backend final aún incluido.
+
+<p align="left">
+  <img src="images/deploy.png" alt="UserPersona1" width="500">
+</p>
+<p align="left">
+  <img src="images/deploy2.png" alt="UserPersona1" width="500">
+</p>
+
 
 ---
 
