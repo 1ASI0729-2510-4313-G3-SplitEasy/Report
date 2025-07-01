@@ -2448,7 +2448,7 @@ Este material forma parte del archivo de evidencias del proyecto y sustenta la t
 
  Durante el sprint 3 se evaluó:
 
-  **UX Heuristics & Principles Evaluation**
+  **UX Heuristics & Principles Evaluation** <br>
   Usability – Inclusive Design – Information Architecture
   
   - CARRERA: Ingeniería de Software
@@ -2463,10 +2463,10 @@ Este material forma parte del archivo de evidencias del proyecto y sustenta la t
   
   - CLIENTE(S): Grupo SplitEasy
     
-  **SITE o APP A EVALUAR:**
+  **SITE o APP A EVALUAR:** <br>
   SplitEasy – Gestión financiera equitativa del hogar
 
-  **TAREAS A EVALUAR:**
+  **TAREAS A EVALUAR:** <br>
     El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
     
     - Registro de usuario
@@ -2497,7 +2497,7 @@ Este material forma parte del archivo de evidencias del proyecto y sustenta la t
     
     - Visualización de simulaciones sin login
 
-  **ESCALA DE SEVERIDAD:**
+  **ESCALA DE SEVERIDAD:**<br>
   
 | Nivel | Descripción                                                                                                                                                                                     |
 | ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2506,7 +2506,7 @@ Este material forma parte del archivo de evidencias del proyecto y sustenta la t
 | 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante corregirlo con alta prioridad.                                                                 |
 | 4     | Problema muy grave: error crítico que impide al usuario continuar con el uso de la herramienta. Es imperativo corregirlo antes del lanzamiento.                                                 |
 
- **TABLA RESUMEN:**
+ **TABLA RESUMEN:**<br>
  |  | Problema                                                                  | Escala de severidad | Heurística/Principio violado(a)                                |
 | - | ------------------------------------------------------------------------- | ------------------- | -------------------------------------------------------------- |
 | 1 | El sistema no alerta cuando no se adjunta comprobante de gasto            | 3                   | Usability: Prevención de errores                               |
@@ -2517,6 +2517,7 @@ Este material forma parte del archivo de evidencias del proyecto y sustenta la t
 | 6 | No hay validación clara si el ingreso personal está vacío                 | 3                   | Usability: Ayuda a los usuarios a reconocer y corregir errores |
 
 **DESCRIPCIÓN DE PROBLEMAS:**
+<br>
 PROBLEMA #1: El sistema no alerta cuando no se adjunta comprobante de gasto
 
   - Severidad: 3
