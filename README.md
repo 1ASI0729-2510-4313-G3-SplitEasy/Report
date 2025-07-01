@@ -2448,13 +2448,134 @@ Este material forma parte del archivo de evidencias del proyecto y sustenta la t
 
  Durante el sprint 3 se evaluó:
 
-| Heurística | Comentario |
-|---------|---------|
-| Consistencia | La API tiene nomenclatura consistente en endpoints |
-| Seguridad | La autenticacion JWT proporciona seguridad en el acceso |
-| Integridad | La base de datos tiene relaciones adecuadas, pero falta implementar algunos Foreign Key |
-| Usabilidad (API) | La estructura de URL y métodos es intuitiva y estándar |
+  **UX Heuristics & Principles Evaluation**
+  Usability – Inclusive Design – Information Architecture
+  
+  - CARRERA: Ingeniería de Software
+  
+  - CURSO: Desarrollo de Aplicaciones Open Source
+  
+  - SECCIÓN: G3
+  
+  - PROFESORES: Alberto Wilmer Sanchez Seña
+  
+  - AUDITOR: Jose Luis Martinez Valdivia
+  
+  - CLIENTE(S): Grupo SplitEasy
+    
+  **SITE o APP A EVALUAR:**
+  SplitEasy – Gestión financiera equitativa del hogar
 
+  **TAREAS A EVALUAR:**
+    El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+    
+    - Registro de usuario
+    
+    - Ingreso de ingresos personales
+    
+    - Registro de un gasto compartido
+    
+    - Asignación de aportes proporcionales
+    
+    - Visualización de reportes mensuales
+    
+    - Adjuntar comprobante de pago
+    
+    - Ver monto a pagar
+    
+    - Aprobar gastos por el representante
+    
+    No están incluidas en esta versión de la evaluación las siguientes tareas:
+    
+    - Gestión de metas de ahorro
+    
+    - Configuración de privacidad de datos
+    
+    - Foro comunitario
+    
+    - Exportación de datos en PDF
+    
+    - Visualización de simulaciones sin login
+
+  **ESCALA DE SEVERIDAD:**
+  
+| Nivel | Descripción                                                                                                                                                                                     |
+| ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                    |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo en la siguiente versión. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante corregirlo con alta prioridad.                                                                 |
+| 4     | Problema muy grave: error crítico que impide al usuario continuar con el uso de la herramienta. Es imperativo corregirlo antes del lanzamiento.                                                 |
+
+ **TABLA RESUMEN:**
+ |  | Problema                                                                  | Escala de severidad | Heurística/Principio violado(a)                                |
+| - | ------------------------------------------------------------------------- | ------------------- | -------------------------------------------------------------- |
+| 1 | El sistema no alerta cuando no se adjunta comprobante de gasto            | 3                   | Usability: Prevención de errores                               |
+| 2 | No se puede volver fácilmente al inicio desde vistas internas             | 2                   | Usability: Libertad y control del usuario                      |
+| 3 | No hay contraste suficiente en elementos de alerta                        | 2                   | Inclusive Design: Asegurar percepción visual                   |
+| 4 | El botón “Ver simulación” en landing no tiene retroalimentación           | 1                   | Usability: Visibilidad del estado del sistema                  |
+| 5 | No se muestra información clara de los porcentajes al momento del cálculo | 3                   | Information Architecture: Is it understandable?                |
+| 6 | No hay validación clara si el ingreso personal está vacío                 | 3                   | Usability: Ayuda a los usuarios a reconocer y corregir errores |
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+PROBLEMA #1: El sistema no alerta cuando no se adjunta comprobante de gasto
+
+  - Severidad: 3
+  
+  - Heurística violada: Usability – Prevención de errores
+  
+  - Problema: Al registrar un gasto, si el usuario omite adjuntar un comprobante, el sistema guarda el registro sin advertencia. Esto contradice la regla de que todos los gastos deben ser verificables.
+  
+  - Recomendación: Incluir una validación obligatoria en el formulario para impedir guardar un gasto sin comprobante. Mostrar un mensaje claro que indique: “Debe adjuntar al menos un comprobante para continuar.”
+
+PROBLEMA #2: No se puede volver fácilmente al inicio desde vistas internas
+
+  - Severidad: 2
+  
+  - Heurística violada: Usability – Libertad y control del usuario
+  
+  - Problema: Al ingresar al panel de usuario o sección de reportes, no hay un botón visible que permita regresar al dashboard inicial o landing. Esto obliga al usuario a usar el botón del navegador.
+  
+  - Recomendación: Añadir un botón “Inicio” fijo en el menú lateral o superior para mejorar la navegación global.
+
+PROBLEMA #3: No hay contraste suficiente en elementos de alerta
+
+  - Severidad: 2
+  
+  - Heurística violada: Inclusive Design – Asegurar percepción visual
+  
+  - Problema: Las alertas de pagos pendientes se muestran con color celeste claro sobre fondo blanco, lo que dificulta su visibilidad para personas con visión reducida.
+  
+  - Recomendación: Aumentar el contraste cromático entre texto y fondo usando tonos más oscuros y fuentes bold para las notificaciones críticas.
+
+PROBLEMA #4: El botón “Ver simulación” en landing no tiene retroalimentación
+
+  - Severidad: 1
+  
+  - Heurística violada: Usability – Visibilidad del estado del sistema
+  
+  - Problema: El botón “Ver simulación” no proporciona feedback cuando se presiona. El usuario no sabe si está cargando la función.
+  
+  - Recomendación: Añadir una animación de carga o cambio de estado del botón para indicar que se está accediendo al recurso.
+
+PROBLEMA #5: No se muestra información clara de los porcentajes al momento del cálculo
+
+  - Severidad: 3
+  
+  - Heurística violada: Information Architecture – Is it understandable?
+  
+  - Problema: Al asignar los aportes proporcionales, el sistema muestra directamente los montos pero no los porcentajes usados para el cálculo. Esto puede generar desconfianza.
+  
+  - Recomendación: Mostrar debajo de cada monto el porcentaje aplicado al ingreso declarado del usuario.
+
+PROBLEMA #6: No hay validación clara si el ingreso personal está vacío
+
+ - Severidad: 3
+
+  - Heurística violada: Usability – Ayuda a los usuarios a reconocer y corregir errores
+  
+  - Problema: Si el usuario olvida ingresar su salario o lo deja en blanco, el sistema no lo notifica claramente y simplemente registra “0”. Esto afecta los cálculos posteriores.
+  
+  - Recomendación: Implementar una validación que indique: “Debe ingresar un valor mayor a 0 para su ingreso mensual.”
 
 # Conclusión
 
