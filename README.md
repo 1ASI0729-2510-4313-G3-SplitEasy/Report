@@ -539,15 +539,21 @@ SplitEasy busca ofrecer una solución digital que permita distribuir los gastos 
 ### Registro de entrevistas
 
 **Primer Segmento - Personas del Hogar:** <br>
-REGISTRO DE ENTREVISTA 1
+**REGISTRO DE ENTREVISTA 1:** <br>
+
 Nombre completo del entrevistado: Jesús Cassana
+
 Edad: 27 años
+
 Distrito: Cercado de Lima
+
 Screenshot del video:
 <p align="left">
   <img src="images/Entrevista1_Bruno.png" alt="" width="500">
 </p>
+
 URL del video en Microsoft Stream: https://shorturl.at/7UPcY
+
 Duración: 3 minutos y 38 segundos
 
 Resumen descriptivo de la entrevista:
@@ -569,16 +575,23 @@ Características objetivas y subjetivas observadas:
 
 - Nivel digital: Intermedio; no usa app, pero comprende su utilidad.
 
-REGISTRO DE ENTREVISTA 2:
+**REGISTRO DE ENTREVISTA 2:** <br>
+
 Nombre completo del entrevistado: Eric De Delia
+
 Edad: 25 años
+
 Distrito: Lima Cercado
+
 Screenshot del video: 
 <p align="left">
   <img src="images/Entrevista2_Bruno.png" alt="" width="500">
 </p>
+
 URL del video en Microsoft Stream: https://shorturl.at/jV3bV
+
 Inicio de la entrevista: 01:00
+
 Duración: 6 minutos y 39 segundos
 
 Resumen descriptivo de la entrevista:
@@ -598,19 +611,27 @@ Resumen descriptivo de la entrevista:
   
   - Browser/Dispositivos: Probable uso diario de smartphone y laptop; trabaja en consultoría bancaria.
 
-REGISTRO DE ENTREVISTA 3
+**REGISTRO DE ENTREVISTA 3:** <br>
+
 Nombre completo del entrevistado: Denis Monsalve
+
 Edad: 21
+
 Distrito: No mencionado
+
 Screenshot del video: 
 <p align="left">
-  <img src="images/Entrevista.Denis.png" alt="UserPersona1" width="500">
+  <img src="images/EntrevistaDenis.png" alt="UserPersona1" width="500">
 </p>
+
 URL del video en Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191e835_upc_edu_pe/Ebc2v4G3OnFKn_lM39sFKjUBXK7kW_iu1TjNEgcR1vRlBg
+
 Inicio de la entrevista: 00:02
+
 Duración: 3 minutos y 43 segundos
 
 Resumen descriptivo de la entrevista:
+
 El entrevistado vive actualmente con sus padres y comparte los gastos del hogar principalmente con su padre. Considera justo el sistema que usan porque existe apoyo mutuo y buena comunicación. Asegura que no han tenido desacuerdos ya que establecen acuerdos cuando uno de los dos no puede cubrir alguna parte, actuando en función del beneficio familiar.
 
 Menciona que ya dividen los gastos según los ingresos de cada uno y que eso les facilita la organización económica. No utilizan ninguna aplicación por falta de tiempo, y manejan las cuentas de manera tradicional. Está abierto a usar una app, especialmente si permite visualizar los gastos e ingresos de manera clara, por ejemplo, diferenciando por colores. Sin embargo, hace una observación importante sobre la brecha digital: las personas mayores, como sus padres, podrían tener dificultades con plataformas electrónicas.
@@ -1784,8 +1805,8 @@ Se siguen las directrices oficiales de [Angular Style Guide](https://v17.angular
   Ejemplo: `UserProfileComponent`, `GastoService`
 - Tipado estricto y uso de interfaces
 
-#### C# / ASP.NET Core
-Se siguen las [convenciones de Microsoft](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions):
+#### Springboot
+Se siguen las [convenciones de SpringBoot](https://spring.io/projects/spring-boot):
 - `PascalCase` para clases, métodos y propiedades  
   Ejemplo: `class HouseholdManager`, `void AddMember()`
 - `camelCase` para variables locales y parámetros  
@@ -1803,7 +1824,7 @@ Se siguen las [convenciones de Microsoft](https://learn.microsoft.com/en-us/dotn
 - Plataforma: **Vercel**
 - Proceso: Uso de `vercel.json` para rutas personalizadas. Despliegue automático en `main`
 
-**Web Services (.NET Core API)**
+**Web Services**
 - Plataforma: **Railway**
 - Proceso: Uso de `Dockerfile` para empaquetado. Railway realiza CI/CD al detectar cambios en `main`
 
@@ -1818,45 +1839,26 @@ Se siguen las [convenciones de Microsoft](https://learn.microsoft.com/en-us/dotn
 
 A continuación, se presenta el Sprint Planning 1, donde se incluyen las evidencias de planificación e implementación del Landing Page. También se registran los avances del proyecto e insights de colaboración del equipo a través de GitHub.
 
----
+| **Date**                               | 15/04/2025                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Time**                               | 03:00 PM (GMT -5)                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Location**                           | Modalidad remota por Google Meet                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Prepared By**                        | Testigos de SplitEasy                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Attendees (to planning meeting)**    | Todos los miembros del grupo Testigos de SplitEasy                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Sprint 0 Review Summary**        | Este es el primer sprint, por lo tanto, no existe un resumen de revisión de un sprint anterior.                                                                                                                                                                                                                                                                                                                                           |
+| **Sprint 0 Retrospective Summary** | En este sprint se planea desarrollar el Landing Page utilizando un framework de estilos CSS, herramienta nueva para algunos miembros del equipo. <br>Además, se discutió: <br>• El contenido de los textos del landing page. <br>• El diseño previamente elaborado en Figma. <br>Al finalizar este sprint, el Landing Page debe estar desplegado en GitHub, y cualquier usuario debería poder visualizarlo a través de un enlace público. |
 
-### Sprint Overview
 
-- **Sprint #:** Sprint 1  
-- **Fecha:** 15 de abril del 2025  
-- **Hora:** 15:00 horas (GMT -5)  
-- **Lugar:** Modalidad remota por Google Meet  
-- **Preparado por:** Testigos de SplitEasy  
-- **Asistentes:** Todos los miembros del grupo Testigos de SplitEasy  
+| **Sprint 1 Goal**       | Desplegar un Landing Page funcional con diseño responsive y estructura definida, accesible desde GitHub Pages. |
+| ----------------------- | -------------------------------------------------------------------------------------------------------------- |
+| **Sprint 1 Velocity**   | 2                                                                                                              |
+| **Sum of Story Points** | 2                                                                                                              |
+| **Sprint 1 Goal**       | Desplegar un Landing Page funcional con diseño responsive y estructura definida, accesible desde GitHub Pages. |
+| ----------------------- | -------------------------------------------------------------------------------------------------------------- |
+| **Sprint 1 Velocity**   | 2                                                                                                              |
+| **Sum of Story Points** | 2                                                                                                              |
 
----
 
-### Sprint n – 0 Review Summary
-
-Este es el primer sprint, por lo tanto, no existe un resumen de revisión de un sprint anterior.
-
----
-
-###  Sprint n – 1 Retrospective Summary
-
-En este sprint se planea desarrollar el **Landing Page** utilizando un framework de estilos CSS, herramienta nueva para algunos miembros del equipo.  
-Además, se discutió:
-
-- El contenido de los textos del landing page.
-- El diseño previamente elaborado en Figma.
-
- Al finalizar este sprint, el Landing Page debe estar desplegado en GitHub, y cualquier usuario debería poder visualizarlo a través de un enlace público.
-
----
-
-### Sprint Goal & User Stories
-
-- **Sprint 1 Velocity:** 2  
-- **Suma de Story Points:** 2  
-
----
-
->  _Objetivo del Sprint:_ Desplegar un Landing Page funcional con diseño responsive y estructura definida, accesible desde GitHub Pages.
 
 ### 5.2.1.2. Sprint Backlog 1 – SplitEasy
 
@@ -1969,13 +1971,13 @@ En este **Sprint 1**, el objetivo fue desarrollar la **landing page** funcional 
 ###### Vista de la Sección de Características
 - **Descripción**: Muestra las funcionalidades clave de la plataforma, tanto para representantes como para miembros.
 
-####### Funcionalidad característica de los representantes:
+###### Funcionalidad característica de los representantes:
 - **Gestión de los Aportes que se realizan en el hogar**.
 <p align="center">
   <img src="images/aportes.png" alt="Gestión de Aportes" width="500">
 </p>
 
-####### Funcionalidad característica de los miembros:
+###### Funcionalidad característica de los miembros:
 - **Gestión de sus propios aportes que hacen al hogar**.
 
 <p align="center">
@@ -2016,34 +2018,20 @@ Durante este **Sprint 1**, se completó la documentación básica de los servici
 
 A continuación, se presentará el sprint planning 2 donde se mostrarán las evidencias de planificación para la implementación de la aplicación web.
 
-- **Sprint #:** Sprint 2  
-- **Sprint Planning Background:**
-  - **Fecha:** 8 de mayo del 2025  
-  - **Hora:** 16:00 horas (GMT -5)  
-  - **Lugar:** Modalidad remota por Discord  
-  - **Preparado por:** Equipo SplitEasy  
-  - **Asistentes:** Todos los miembros del equipo de SplitEasy
+| **Date**                               | 08/05/2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Time**                               | 04:00 PM (GMT -5)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Location**                           | Modalidad remota por Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Prepared By**                        | Equipo SplitEasy                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Attendees (to planning meeting)**    | Todos los miembros del equipo de SplitEasy                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Sprint 1 Review Summary**        | En este primer sprint se desarrolló la Landing Page utilizando el framework de estilos Tailwind CSS. Se revisó y adaptó el contenido textual del landing con base en las propuestas previas realizadas en Figma. Al finalizar el sprint, la Landing Page fue desplegada exitosamente en Netlify y quedó accesible públicamente mediante un enlace funcional.                                                                                                                                                                                                                                                                                                          |
+| **Sprint 1 Retrospective Summary** | En este sprint se planea avanzar con el desarrollo del front-end de la aplicación web, incluyendo las vistas para la autenticación de usuario y las vistas core del usuario reclutador. También se tiene previsto implementar la configuración de idioma utilizando la librería i18n con Vue. Además, se contempla desarrollar la sección de Términos de Servicio, el video sobre el producto y el video del equipo. Las tareas han sido organizadas y gestionadas a través de la plataforma Trello. Al finalizar el sprint, se espera contar con una versión actualizada del landing page y una demo funcional del front-end de la aplicación desplegada en Netlify. |
 
----
+| **Sprint 2 Goal**       | Desarrollar las vistas de autenticación y usuario reclutador en el front-end, implementar i18n con Vue, y preparar recursos audiovisuales clave. Se espera una demo funcional del front-end en Netlify. |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint 2 Velocity**   | 40                                                                                                                                                                                                      |
+| **Sum of Story Points** | 30                                                                                                                                                                                                      |
 
-#### Sprint n – 1 Review Summary
-
-En este primer sprint se desarrolló la Landing Page utilizando el framework de estilos Tailwind CSS. Se revisó y adaptó el contenido textual del landing con base en las propuestas previas realizadas en Figma. Al finalizar el sprint, la Landing Page fue desplegada exitosamente en Netlify y quedó accesible públicamente mediante un enlace funcional.
-
----
-
-#### Sprint n – 2 Retrospective Summary
-
-En este sprint se planea avanzar con el desarrollo del front-end de la aplicación web, incluyendo las vistas para la autenticación de usuario y las vistas core del usuario reclutador. También se tiene previsto implementar la configuración de idioma utilizando la librería i18n con Vue. Además, se contempla desarrollar la sección de Términos de Servicio, el video sobre el producto y el video del equipo. Las tareas han sido organizadas y gestionadas a través de la plataforma Trello. Al finalizar el sprint, se espera contar con una versión actualizada del landing page y una demo funcional del front-end de la aplicación desplegada en Netlify.
-
----
-
-#### Sprint Goal & User Stories
-
-- **Sprint 1 Velocity:** 40  
-- **Suma de Story Points (Sprint 2):** 30
-
----
 
 ### 5.2.2.2 Aspect Leaders and Collaborators
 
@@ -2239,12 +2227,21 @@ Durante el Sprint, las actividades de desarrollo se llevaron a cabo de forma col
 
 ### 5.2.3.1. Sprint Planning 3
 
-- **Objetivo:** Implementar nuevas historias de backend, dar inicio al desarrollo de API Rest, autenticaciones, procedimiento de backend en el reporte, así como avanzar con tareas pendientes en el frontend.
-- **Duración:** 2 semanas
-- **Fecha inicio:** 01/06/2025
-- **Fecha fin:** 15/06/2025
+| **Date**                               | 01/06/2025                                                                                                                                                                                                                                                                                                                                             |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Time**                               | 10:00 AM (GMT -5)                                                                                                                                                                                                                                                                                                                                      |
+| **Location**                           | Reunión virtual vía Google Meet                                                                                                                                                                                                                                                                                                                        |
+| **Prepared By**                        | Equipo SplitEasy                                                                                                                                                                                                                                                                                                                                       |
+| **Attendees (to planning meeting)**    | Todos los miembros del equipo de SplitEasy                                                                                                                                                                                                                                                                                                             |
+| **Sprint 2 Review Summary**        | Durante el Sprint 2 se completaron exitosamente las vistas del login y registro, las vistas core del usuario reclutador, y se integró la librería i18n para gestión de idioma. También se diseñó la sección de Términos de Servicio y se completó el video de presentación del equipo. Se logró desplegar una demo funcional del front-end en Netlify. |
+| **Sprint 2 Retrospective Summary** | Se identificó una buena coordinación en el uso de Trello para la gestión de tareas, aunque se detectó la necesidad de definir mejor los endpoints y el modelo de datos del backend desde el inicio. Se acordó comenzar el desarrollo de la API Rest y reforzar la integración entre el frontend y backend en los próximos sprints.                     |
 
----
+| **Sprint 3 Goal**       | Implementar nuevas historias de backend, iniciar el desarrollo de la API Rest, configurar autenticaciones, establecer procedimientos para reporte de backend, y continuar tareas pendientes del frontend. |
+| ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint 3 Velocity**   | 35                                                                                                                                                                                                        |
+| **Sum of Story Points** | 34                                                                                                                                                                                                        |
+
+
 
 ### 5.2.3.2. Aspect Leaders and Collaborators
 
