@@ -155,49 +155,6 @@ Insights TB1 (Todos participaron):
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
     - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
  
-## Conclusiones
-
-**Gestión financiera equitativa y digitalizada**
-- El proyecto SplitEasy ha demostrado que es posible diseñar una solución digital capaz de distribuir los gastos del hogar de forma proporcional a los ingresos individuales, promoviendo justicia financiera y transparencia entre los miembros de un mismo hogar.
-
-<br>
-
-**Aplicación de metodologías ágiles**
-- La planificación y ejecución mediante Sprints ha permitido un desarrollo incremental y colaborativo, en el cual se lograron entregables funcionales en cada iteración, alineados con las historias de usuario y necesidades reales identificadas mediante entrevistas y técnicas de needfinding.
-
-<br>
-
-**Avances significativos en el backend y frontend**
-- Durante los tres primeros sprints se completó el diseño e implementación de la landing page, las vistas principales del frontend, y se iniciaron exitosamente las funcionalidades críticas del backend como la API REST, autenticación JWT, control de roles y configuración de endpoints.
-
-<br>
-
-**Colaboración efectiva del equipo**
-- La distribución de tareas a través de Trello y la coordinación vía plataformas como Google Meet y Discord permitió una colaboración fluida entre los integrantes del equipo, generando una sinergia que favoreció tanto el avance técnico como la calidad del entregable.
-
-<br>
-**Validación constante con usuarios reales**
-
-- La realización de entrevistas, pruebas y evaluaciones heurísticas durante el proceso de desarrollo brindó feedback valioso para iterar sobre el diseño y mejorar la experiencia del usuario desde un enfoque centrado en la usabilidad, accesibilidad y funcionalidad.
-
-
-
-## Bibliografía
-
-- Evans, E. (2004). Domain-Driven Design: Tackling Complexity in the Heart of Software. Addison-Wesley.
-
-- Vernon, V. (2013). Implementing Domain-Driven Design. Addison-Wesley.
-
-- Mehta, V., & Rao, B. (2018). Spring Boot 2.0 Projects: Build production-grade reactive applications and microservices with Spring Boot. Packt Publishing.
-
-- Walls, C. (2016). Spring Boot in Action. Manning Publications.
-
-- Taore, D. (2021). Mastering Spring Boot 2.0: Build modern, cloud-native, and distributed systems using Spring Boot. Packt Publishing.
-
-- Freeman, A., & Sanderson, S. (2022). Pro ASP.NET Core MVC 6. Apress. (Capítulos relacionados con APIs REST y autenticación JWT aplican también para backend en Java/Spring)
-
-- Saini, A. (2020). Full Stack Development with Angular and Spring Boot: Build modern web applications using the power of Angular and Spring Boot. Packt Publishing.
-
 ## Anexos
 
 - Enlace Backend Desplegado: https://backend-app-1-vd66.onrender.com/swagger-ui/index.html
@@ -2776,3 +2733,19 @@ En conclusión, SplitEasy se posiciona como una herramienta innovadora y confiab
 - JetBrains. (2025c). *Rider*. https://www.jetbrains.com/rider/
 - Microsoft. (2025). *Download .NET SDKs*. https://dotnet.microsoft.com/en-us/download
 - GitHub, Inc. (2025). *GitHub: Where the world builds software*. https://github.com/
+
+## Desarrollo General
+- Evans, E. (2004). Domain-Driven Design: Tackling Complexity in the Heart of Software. Addison-Wesley.
+
+- Vernon, V. (2013). Implementing Domain-Driven Design. Addison-Wesley.
+
+- Mehta, V., & Rao, B. (2018). Spring Boot 2.0 Projects: Build production-grade reactive applications and microservices with Spring Boot. Packt Publishing.
+
+- Walls, C. (2016). Spring Boot in Action. Manning Publications.
+
+- Taore, D. (2021). Mastering Spring Boot 2.0: Build modern, cloud-native, and distributed systems using Spring Boot. Packt Publishing.
+
+- Freeman, A., & Sanderson, S. (2022). Pro ASP.NET Core MVC 6. Apress. (Capítulos relacionados con APIs REST y autenticación JWT aplican también para backend en Java/Spring)
+
+- Saini, A. (2020). Full Stack Development with Angular and Spring Boot: Build modern web applications using the power of Angular and Spring Boot. Packt Publishing.
+
