@@ -163,6 +163,12 @@ Insights TB1 (Todos participaron):
 
 ## Anexos
 
+- Enlace Backend Desplegado: https://backend-app-1-vd66.onrender.com/swagger-ui/index.html
+- Enlace Frontend Desplegado: https://6857d89dafb3ac374611eac0--spliteasy-frontend.netlify.app/
+- Enlace Landing-Page Despeglado: https://1asi0729-2510-4313-g3-spliteasy.github.io/Split-landing/
+
+
+
 # Student Outcome
 | **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
 |-------------------------|--------------------------|------------------|
