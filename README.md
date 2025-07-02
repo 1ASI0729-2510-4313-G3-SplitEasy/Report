@@ -774,7 +774,6 @@ Las necesidades principales que hemos encontrado en nuestros segmentos objetivos
 
 ### User Task Matrix
 En esta sección se presenta la User Task Matrix, una herramienta enfocada en los 2 segmentos clave de usuarios de SplitEasy, en miembro del hogar y en responsable del hogar, que permite identificar sus tareas habituales y principales necesidades. Este análisis resulta fundamental para establecer prioridades al momento de definir las funcionalidades del producto e integrar el product backlog. Para la dimensión de frecuencia, se han utilizado cinco niveles: never, rarely, sometimes, often y always; y para la importancia, tres niveles: low, medium y high.
-### Camila Torres
 
 | **User Task**                                              | **Camila Torres - Miembro del hogar** |                                     | **Javier Morales - Responsable del hogar** |                                     |
 |------------------------------------------------------------|----------------------------------------|-------------------------------------|--------------------------------------------|-------------------------------------|
