@@ -538,27 +538,100 @@ SplitEasy busca ofrecer una solución digital que permita distribuir los gastos 
 
 ### Registro de entrevistas
 
-**Primer Segmento - Entrevista a Jesus Casana - Por Bruno Gonzales:**
+**Primer Segmento - Personas del Hogar:** <br>
+REGISTRO DE ENTREVISTA 1
+Nombre completo del entrevistado: Jesús Cassana
+Edad: 27 años
+Distrito: Cercado de Lima
+Screenshot del video:
 <p align="left">
   <img src="images/Entrevista1_Bruno.png" alt="" width="500">
 </p>
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u201820037_upc_edu_pe/EWJDafd3jKJLgx_GVN7SawEBxb_W9KY5TQt5WBRD2DQHvw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=NthxHb
+URL del video en Microsoft Stream: https://shorturl.at/7UPcY
+Duración: 3 minutos y 38 segundos
 
-**Primer Segmento - Entrevista a Erick Heredia - Por Bruno Gonzales:**
+Resumen descriptivo de la entrevista:
+Jesús Cassana, de 27 años, convive con su pareja y se desempeña como contador. Actualmente asume la mayor parte de los gastos del hogar, ya que su pareja trabaja como mesera y no siempre puede contribuir con una cantidad fija. Expresa que, aunque intentan dividir algunos servicios básicos (luz, agua), la distribución no es equitativa y suelen surgir desacuerdos.
+
+Jesús considera justo un sistema que divida los gastos según los ingresos de cada persona, aunque reconoce que esto podría generar discusiones. No utiliza ninguna aplicación para registrar pagos del hogar, pero le parece una herramienta útil para fomentar la equidad y el ahorro, especialmente para emergencias. Desea funcionalidades claras que le muestren cuánto debe pagar, cuánto ha pagado y qué está pendiente.
+
+Características objetivas y subjetivas observadas:
+
+- Personalidad: Responsable, comprometido con el hogar, busca soluciones justas, pero pragmático frente a las limitaciones económicas.
+
+- Marcas/Influencias: No menciona marcas, pero se nota apertura al uso de herramientas digitales.
+
+- Tecnología: Familiarizado con apps móviles y dispuesto a usarlas si son funcionales.
+
+- Canales de interacción: Interacción directa (conversaciones) y potencial digital (desea una app).
+
+- Browser/Dispositivos: Probablemente usa smartphone y laptop para actividades laborales y domésticas.
+
+- Nivel digital: Intermedio; no usa app, pero comprende su utilidad.
+
+REGISTRO DE ENTREVISTA 2:
+Nombre completo del entrevistado: Eric De Delia
+Edad: 25 años
+Distrito: Lima Cercado
+Screenshot del video: 
 <p align="left">
   <img src="images/Entrevista2_Bruno.png" alt="" width="500">
 </p>
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u201820037_upc_edu_pe/EfGMD0WYMSZLpqKu7hcnU9ABMWYYGrtOXIznD7sj9x8c5g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ZgasbR
+URL del video en Microsoft Stream: https://shorturl.at/jV3bV
+Inicio de la entrevista: 01:00
+Duración: 6 minutos y 39 segundos
 
-**Primer Segmento - Entrevista a Denis Monsalve - Por Jhordi Carranza:**
+Resumen descriptivo de la entrevista:
+  Eric De Delia tiene 25 años y vive con su pareja, con quien mantiene una relación estable desde hace varios años. Actualmente es el único proveedor del hogar, ya que su pareja se encuentra con problemas de salud y no puede trabajar. Como asesor bancario en una consultora, Eric asume todos los gastos del hogar, incluyendo servicios básicos (luz, agua, internet) y costos médicos.
+  
+  Expresa que la situación actual no es justa, ya que la carga económica es unilateral. Han tenido desacuerdos por temas financieros y aunque han considerado dividir gastos según ingresos, les resulta difícil implementar esa idea mientras su pareja no genere ingresos. No utilizan ninguna aplicación para anotar los pagos, pero considera que sería muy útil, especialmente si permite distribuir los gastos proporcionalmente, gestionar ahorros para emergencias, citas o viajes, y organizar los ingresos mensuales con reportes visuales y claros.
+  
+  Características objetivas y subjetivas observadas:
+  
+  - Personalidad: Comprometido, empático, realista, con alta disposición a asumir responsabilidades, busca soluciones prácticas.
+  
+  - Marcas/Influencias: No menciona marcas, pero muestra disposición a usar soluciones tecnológicas si son útiles.
+  
+  - Tecnología: Nivel medio-alto. Comprende el potencial de una app bien diseñada para su situación doméstica.
+  
+  - Canales de interacción: Preferencia por herramientas digitales (aunque aún no implementadas).
+  
+  - Browser/Dispositivos: Probable uso diario de smartphone y laptop; trabaja en consultoría bancaria.
+
+REGISTRO DE ENTREVISTA 3
+Nombre completo del entrevistado: Denis Monsalve
+Edad: 21
+Distrito: No mencionado
+Screenshot del video: 
 <p align="left">
-
-
   <img src="images/Entrevista.Denis.png" alt="UserPersona1" width="500">
 </p>
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191e835_upc_edu_pe/Ebc2v4G3OnFKn_lM39sFKjUBXK7kW_iu1TjNEgcR1vRlBg
+URL del video en Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191e835_upc_edu_pe/Ebc2v4G3OnFKn_lM39sFKjUBXK7kW_iu1TjNEgcR1vRlBg
+Inicio de la entrevista: 00:02
+Duración: 3 minutos y 43 segundos
 
----
+Resumen descriptivo de la entrevista:
+El entrevistado vive actualmente con sus padres y comparte los gastos del hogar principalmente con su padre. Considera justo el sistema que usan porque existe apoyo mutuo y buena comunicación. Asegura que no han tenido desacuerdos ya que establecen acuerdos cuando uno de los dos no puede cubrir alguna parte, actuando en función del beneficio familiar.
+
+Menciona que ya dividen los gastos según los ingresos de cada uno y que eso les facilita la organización económica. No utilizan ninguna aplicación por falta de tiempo, y manejan las cuentas de manera tradicional. Está abierto a usar una app, especialmente si permite visualizar los gastos e ingresos de manera clara, por ejemplo, diferenciando por colores. Sin embargo, hace una observación importante sobre la brecha digital: las personas mayores, como sus padres, podrían tener dificultades con plataformas electrónicas.
+
+Características objetivas y subjetivas observadas:
+
+- Personalidad: Cooperativo, respetuoso del núcleo familiar, flexible frente a las situaciones económicas del hogar.
+
+- Marcas/Influencias: N/A directamente, aunque se infiere familiaridad con métodos tradicionales.
+
+- Tecnología: Bajo uso de herramientas digitales para finanzas domésticas.
+
+- Canales de interacción: Gestión manual de gastos, con disposición a soluciones digitales simples.
+
+- Browser/Dispositivos: No especificado; probablemente smartphone personal y poca intervención por parte de sus padres.
+
+- Nivel digital: Medio-bajo; menciona que nunca ha usado una app de finanzas, pero abierto a explorar.
+
+
+
+
 
 **Segundo Segmento -  Entrevista a Marjorie Luna Victoria - Por Jorge Díaz:**
 <p align="left">
@@ -581,6 +654,31 @@ https://upcedupe-my.sharepoint.com/personal/u20191e835_upc_edu_pe/_layouts/15/st
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019498_upc_edu_pe/EXVitH8xFOJOtsRjz9BeBu4BpoicdsdOC0cgkm9IWkb6Rw?e=x0BYoH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 ### Análisis de entrevistas
+
+SEGMENTO - PERSONAS DEL HOGAR:
+| Característica                                          | Tipo      | Evidencia                                     | Porcentaje (3 entrevistas) |
+| ------------------------------------------------------- | --------- | --------------------------------------------- | -------------------------- |
+| Convivencia con familiares o pareja                     | Objetiva  | Todos viven con su pareja o padres            | 100%                       |
+| Ingreso principal asumido por uno solo                  | Objetiva  | En 2/3 casos, solo una persona trabaja        | 67%                        |
+| Reparto de gastos según ingresos                        | Subjetiva | 3/3 consideran justo dividir según ingresos   | 100%                       |
+| No uso de app financiera actualmente                    | Objetiva  | Ninguno usa app, pero estarían dispuestos     | 100%                       |
+| Interés por funcionalidades como ahorro y visualización | Subjetiva | Mencionado en todas las entrevistas           | 100%                       |
+| Conflictos por temas de dinero                          | Subjetiva | 2/3 han tenido conflictos por pagos           | 67%                        |
+| Brecha generacional en adopción digital                 | Subjetiva | Mencionado en entrevista 3 (personas mayores) | 33%                        |
+
+Observaciones clave:
+La falta de herramientas digitales no se debe a desinterés, sino a falta de opciones prácticas o conocimiento. Todos los entrevistados están dispuestos a usar una app si esta es intuitiva y útil.
+
+Se evidencian dos arquetipos complementarios:
+
+- El proveedor de hogar joven: trabaja, cubre la mayoría de los gastos, busca una forma justa de organizar.
+
+- El conviviente colaborador tradicional: comparte con padres, usa métodos manuales, dispuesto a adoptar herramientas simples.
+
+SEGMENTO - REPRESENTANTES DEL HOGAR:
+
+
+
 
 ## 2.3 Needfinding
 
