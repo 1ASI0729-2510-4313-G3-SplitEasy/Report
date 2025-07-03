@@ -654,29 +654,151 @@ Características objetivas y subjetivas observadas:
 
 
 
-**Segundo Segmento -  Entrevista a Marjorie Luna Victoria - Por Jorge Díaz:**
+**Segundo Segmento - Representantes del Hogar:**
+
+**REGISTRO DE ENTREVISTA 1:**
+
+Nombre del entrevistador: Jorge Diaz
+
+Nombre del entrevistado: Marjorie Luna Victoria
+
+Edad: 18 años
+
+Distrito: No especificado
+
+Screenshot del video: 
+
 <p align="left">
   <img src="images/EntrevistaMarjorie.png" alt="UserPersona1" width="500">
 </p>
 
-https://upcedupe-my.sharepoint.com/personal/u20231d534_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20231d534%5Fupc%5Fedu%5Fpe%2FDocuments%2F2025%2D04%2D10%2016%2D09%2D47%2Emkv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E1fbf2b54%2Ddab5%2D4bd4%2Da1d6%2D28ca884bf530
+URL del video en Microsoft Stream: https://shorturl.at/wqLaD
+
+Inicio de la entrevista: 00:17
+
+Duración: 3 minutos y 31 segundos
+
+**Resumen descriptivo de la entrevista:**
+
+Marriery tiene 18 años y vive con una amiga. Ambas son roommates y comparten los gastos del hogar, incluyendo alquiler, servicios y alimentos. Dividen los gastos en partes iguales, pero a veces uno de los dos termina pagando más debido a pequeñas diferencias en los gastos personales. Considera justo el sistema actual, ya que ambas tienen ingresos similares, aunque ha habido algunas desavenencias, las cuales se resuelven hablando.
+
+Los principales retos que enfrentan son recordar quién pagó qué y cuándo, ya que a veces no se actualizan los gastos de manera oportuna. No usan ninguna aplicación específica, solo una nota compartida en el celular, aunque esta no siempre está al día. Está interesada en una aplicación que le permita registrar los gastos fácilmente, visualizar el aporte de cada una y recibir recordatorios.
+
+Le gustaría que la app tuviera una interfaz visual, con gráficos o barras, que le permita entender rápidamente lo que se ha pagado y lo que aún está pendiente. Cree que una aplicación como Split Easy ayudaría a evitar malos entendidos y a mejorar la organización y convivencia entre ellas.
 
 
-**Segundo Segmento - Entrevista a José Carranza - Por Jhordi Carranza:**
+**Características objetivas y subjetivas observadas:**
+- Tipo de convivencia: Roommates (compañeras de cuarto)
+
+- Responsabilidad económica: Dividida en partes iguales, pero a veces desequilibrada
+
+- Herramientas actuales: Nota compartida en celular (no estructurado)
+
+- Nivel tecnológico: Medio (conocimiento básico de apps)
+
+- Preferencias de UX/UI: Interfaz visual (gráficos o barras), fácil de entender
+
+- Actitudes clave: Busca equidad, claridad, y transparencia en el reparto de gastos
+
+
+**REGISTRO ENTREVISTA 2:**
+
+Nombre del entrevistador: Jhordi Carranza
+
+Nombre del entrevistado: José Carranza
+
+Edad: 21 años
+
+Distrito: Lima 
+
+Screenshot del video:
+
 <p align="left">
   <img src="images/Entrevista.JoséCarr.png" alt="UserPersona1" width="500">
 </p>
-https://upcedupe-my.sharepoint.com/personal/u20191e835_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20191e835%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevista%20de%20Jhordi%20Carranza%20%2D%20Segmento%202%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E5cb064bd%2Dde25%2D4cd9%2D971f%2De0eb6e0cdf7d&isDarkMode=false
+
+URL del video en Microsoft Stream: https://shorturl.at/Rs9WW
+
+Inicio de la entrevista: 00:00
+
+Duración: 3 minutos
+
+**Resumen descriptivo de la entrevista:**
+
+  José Carranza, un joven de 21 años, comparte su departamento con tres amigos. Viven en un ambiente de convivencia similar al de roommates, donde se dividen los gastos de manera equitativa, pero siempre surgen pequeños problemas cuando alguno de los compañeros olvida pagar su parte o cuando un gasto específico es desproporcionado.
+  
+  José Carranza menciona que, aunque intentan repartir los gastos de manera justa, a veces no pueden hacerlo de forma precisa porque algunos de sus compañeros tienen ingresos más altos que otros. Esto lleva a un desbalance que crea pequeños conflictos, aunque siempre logran solucionarlos hablando.
+  
+  En cuanto a la organización de los pagos, no utilizan ninguna aplicación, sino que lo hacen a través de un grupo en WhatsApp y algunas notas en sus celulares. Sin embargo, esto les genera dificultades, ya que no siempre se actualiza correctamente y a veces se olvida qué pago corresponde a quién.
+  
+  José Carranza considera que una aplicación bien diseñada que les ayude a dividir los gastos de manera justa, registrar los pagos y enviar recordatorios sería útil. Le gustaría que la aplicación tuviera gráficos simples o barras que le permitieran visualizar rápidamente lo que cada uno debe pagar y lo que ya se ha pagado. Además, esta herramienta debería enviar recordatorios de pagos pendientes y mostrar un resumen claro del mes.
+
+**Características objetivas y subjetivas observadas:**
+
+Tipo de convivencia: Roommates 
+
+Responsabilidad económica: Reparto equitativo, pero con desbalance por diferencias de ingresos
+
+Herramientas actuales: WhatsApp y notas en celulares
+
+Nivel tecnológico: Medio (conocimiento de apps, pero no usa)
+
+Preferencias de UX/UI: Interfaz visual, gráficos o barras fáciles de entender
+
+Actitudes clave: Busca equidad, solución rápida de problemas, transparencia en los pagos
+
+
+
 
 **Segundo Segmento -  Entrevista a Diego Ramírez - Por Alexander Fernandez:**
+
+Nombre del entrevistador: Alexander Fernández 
+
+Nombre del entrevistado: Diego Ramírez
+
+Edad: 22 años
+
+Distrito: Lima
+
+Screenshot del video: 
+
 <p align="left">
   <img src="images/EntrevistaDiego.png" alt="UserPersona1" width="500">
 </p>
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019498_upc_edu_pe/EXVitH8xFOJOtsRjz9BeBu4BpoicdsdOC0cgkm9IWkb6Rw?e=x0BYoH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+URL del video en Microsoft Stream: https://shorturl.at/QuV6U
+
+Inicio de la entrevista: 00:11
+
+Duración: 1 minuto con 52 segundos
+
+**Resumen descriptivo de la entrevista:**
+
+  Diego Ramírez, estudiante de Ingeniería Industrial de 22 años, convive con dos amigos. Comentan que intentan dividir los gastos en partes iguales, pero esto no siempre es posible ya que no todos tienen los mismos ingresos. Considera que el sistema no es justo porque termina pagando más de lo que le corresponde.
+  
+  Los principales retos que enfrentan son ponerse de acuerdo, hacer seguimiento de quién pagó qué, y organizar la información. No utilizan ninguna aplicación, solo notas en celulares o grupos de WhatsApp, pero reconoce que la información se pierde fácilmente.
+  
+  Está interesado en una aplicación que permita registrar gastos, visualizar fácilmente quién debe cuánto, y que envíe recordatorios. Le gustaría una interfaz visual, con colores o gráficos simples. Cree que una app como Split Easy sería útil para evitar discusiones y lograr una distribución justa entre todos los miembros.
+
+**Características objetivas y subjetivas observadas:**
+
+  Tipo de convivencia: Con amigos (coliving o roommates)
+  
+  Responsabilidad económica: Compartida, pero desigual
+  
+  Herramientas actuales: Notas en celular y WhatsApp (no estructurado)
+  
+  Nivel tecnológico: Medio-alto (sabe lo que espera de una app)
+  
+  Preferencias de UX/UI: Visual, clara, rápida, con colores y gráficos simples
+  
+  Actitudes clave: Busca justicia, simplicidad y evitar conflictos
+
 
 ### Análisis de entrevistas
 
-SEGMENTO - PERSONAS DEL HOGAR:
+**SEGMENTO - PERSONAS DEL HOGAR:**
+
 | Característica                                          | Tipo      | Evidencia                                     | Porcentaje (3 entrevistas) |
 | ------------------------------------------------------- | --------- | --------------------------------------------- | -------------------------- |
 | Convivencia con familiares o pareja                     | Objetiva  | Todos viven con su pareja o padres            | 100%                       |
@@ -696,7 +818,25 @@ Se evidencian dos arquetipos complementarios:
 
 - El conviviente colaborador tradicional: comparte con padres, usa métodos manuales, dispuesto a adoptar herramientas simples.
 
-SEGMENTO - REPRESENTANTES DEL HOGAR:
+**SEGMENTO - REPRESENTANTES DEL HOGAR:**
+
+| Característica                                           | Tipo      | Evidencia                                                     | % (3 entrevistas) |
+| -------------------------------------------------------- | --------- | ------------------------------------------------------------- | ----------------- |
+| Convivencia con amigos                                   | Objetiva  | Todos viven con amigos, no con familiares o pareja            | 100%              |
+| Reparto en partes iguales, pero desequilibrado           | Subjetiva | "A veces uno termina pagando más que el otro"                 | 100%              |
+| No uso de app, solo notas compartidas                    | Objetiva  | WhatsApp y notas, pero no actualizadas siempre                | 100%              |
+| Necesidad de herramientas visuales                       | Subjetiva | "Gráficos o barras fáciles de entender"                       | 100%              |
+| Problemas para recordar pagos                            | Subjetiva | "A veces no recordamos quién pagó qué"                        | 100%              |
+| Funcionalidades deseadas: recordatorios, claridad visual | Subjetiva | "Registrar pagos, ver quién debe qué, y enviar recordatorios" | 100%              |
+
+**Observaciones clave:**
+
+  La falta de un sistema estructurado y la dependencia de herramientas informales como WhatsApp y notas en celulares se destacan como puntos de mejora. Los gráficos y recordatorios automáticos son cruciales para mejorar la convivencia y evitar malentendidos por los pagos.
+  
+  El arquetipo final emergente sería:
+  “El roommate organizado pero caótico”: joven que busca mantener la equidad en los pagos, pero necesita soluciones tecnológicas que simplifiquen la administración de gastos y eviten conflictos.
+
+
 
 
 
