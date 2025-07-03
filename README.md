@@ -9,8 +9,12 @@ Desarrollo de Aplicaciones Open Source <br>
 <strong>Profesor:</strong> Alberto Wilmer Sanchez Seña </p>
 
 <h2 align="center">INFORME</h2>
+<h2 align="center">2025 - 10</h2>
 
 <h3 align="center">Startup: ChabeCode</h3>
+<h3 align="center">1ASI0729-2510-4313</h3>
+<h3 align="center">1ASI0729-2510-4313</h3>
+
 <p align="center"><strong>Producto: SplitEasy</strong></p>
 
 <h3 align="center">Team Members:</h3>
@@ -22,7 +26,6 @@ Desarrollo de Aplicaciones Open Source <br>
 |Jorge Luis Díaz Fiestas      |  U20231D534  |
 |Paulo Percy Quincho Gamarra         |  U20191E562 |
 |Jose Luis Martinez Valdivia         |  U202213989 |
-|Jhordi Luis Carranza Pérez       | U20191E835 |
 </div>
 
 <p align="center"><strong>Mayo 2025</strong></p>
@@ -210,19 +213,19 @@ SplitEasy es una startup tecnológica enfocada en brindar soluciones financieras
   <tr>
     <td><img src="images/Jhordifoto.PNG" alt="Jhordi" width="150px"></td>
     <td>
-      <strong>Nombres y apellidos:</strong>  Jhordi Luis Carranza Pérez  <br>
-      <strong>Código de estudiante:</strong> U20191835<br>
+      <strong>Nombres y apellidos:</strong>  Jose Luis Martinez Valdivia  <br>
+      <strong>Código de estudiante:</strong> U202213989<br>
       <strong>Carrera:</strong> Ing. de Software<br>
-      <strong>Descripción:</strong> Soy una persona que me gusta cumplir con mis obligaciones de manera efectiva, aunque muchas veces me descuide un poco. Mis conocimientos técnicos van en torno a programación web, bases de datos, lenguajes de alto y bajo nivel como C++, Python y JavaScript.
+      <strong>Descripción:</strong> Soy una persona que me gusta cumplir con mis obligaciones de manera efectiva. Mis conocimientos técnicos van en torno a programación web, bases de datos, lenguajes de alto y bajo nivel como C++, Python y JavaScript.
     </td>
   </tr>
   <tr>
-    <td><img src="images/Alexanderfoto.PNG" alt="Alexander" width="150px"></td>
+    <td><img src="images/A.PNG" alt="Alexander" width="150px"></td>
     <td>
-      <strong>Nombres y apellidos:</strong>  Alexander Piero Fernandez Garfias <br>
-      <strong>Código de estudiante:</strong> U202019498<br>
+      <strong>Nombres y apellidos:</strong>   <br>
+      <strong>Código de estudiante:</strong> <br>
       <strong>Carrera:</strong> Ing. de Software<br>
-      <strong>Descripción:</strong> Me llamo Alexander Piero Fernandez Garfias, estudio  la carrera de Ing. de Software en la UPC. Mis conocimientos técnicos van en torno a Programación en lenguajes como C++, Dart, Java.
+      <strong>Descripción:</strong>
     </td>
   </tr>
 </table>
