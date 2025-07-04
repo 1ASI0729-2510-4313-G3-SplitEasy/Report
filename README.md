@@ -864,12 +864,12 @@ Las necesidades principales que hemos encontrado en nuestros segmentos objetivos
 
 **Segmento #1: Personas del hogar / User Persona: Camila Torres**
 <p align="left">
-  <img src="images/UserPersona1.PNG" alt="UserPersona1" width="500">
+  <img src="images/UserPersona1.PNG" alt="UserPersona1" width="1000">
 </p>
 
 **Segmento #2: Representante del hogar / User Persona: Javier Morales**
 <p align="left">
-  <img src="images/UserPersona2.PNG" alt="UserPersona2" width="500">
+  <img src="images/UserPersona2.PNG" alt="UserPersona2" width="1000">
 </p>
 
 ### User Task Matrix
@@ -911,13 +911,13 @@ En esta sección se presentarán los user journey mapping para cada user persona
 ### Segmento 1: Personas del hogar
 
 <p align="left">
-  <img src="images/Empathy1.PNG" alt="Empathy1" width="500">
+  <img src="images/Empathy1.PNG" alt="Empathy1" width="1000">
 </p>
 
 ### Segmento 2: Representante del hogar
 
 <p align="left">
-  <img src="images/Empathy2.PNG" alt="Empathy2" width="500">
+  <img src="images/Empathy2.PNG" alt="Empathy2" width="1000">
 </p>
 
 ### As-is Scenario Mapping
@@ -925,13 +925,13 @@ En esta sección se presentarán los user journey mapping para cada user persona
 ### Segmento #1: Personas del Hogar
 
 <p align="left">
-  <img src="images/ScenarioMapping1S1.png"">
+  <img src="images/ScenarioMapping1S1.png" widht="1100">
 </p>
 
 ### Segmento #2: Representante del Hogar
 
 <p align="left">
-  <img src="images/ScenarioMapping1S2.png"">
+  <img src="images/ScenarioMapping1S2.png" widht="1100">
 </p>
 
 ## Ubiquitous Language
@@ -956,13 +956,13 @@ En esta sección se presentarán los user journey mapping para cada user persona
 ### Segmento 1: Miembros del hogar
 
 <p align="left">
-  <img src="images/ScenarioMapping2S22.png"">
+  <img src="images/ScenarioMapping2S22.png" widht="1100">
 </p>
 
 ### Segmento 2: Representante del hogar
 
 <p align="left">
-  <img src="images/ScenarioMapping2S21.png"">
+  <img src="images/ScenarioMapping2S21.png" widht="1100">
 </p>
 
 ## User Stories
@@ -1112,13 +1112,13 @@ En esta sección se presentarán los user journey mapping para cada user persona
 ### Segmento 1: Miembros del hogar
 
 <p align="left">
-  <img src="images/ImpactMappingS1.png" alt="Impact1" width="500">
+  <img src="images/ImpactMappingS1.png" alt="Impact1" width="1100">
 </p>
 
 ### Segmento 2: Representante del hogar
 
 <p align="left">
-  <img src="images/ImpactMappingS2.png" alt="Impact2" width="500">
+  <img src="images/ImpactMappingS2.png" alt="Impact2" width="1100">
 </p>
 
 ## Product Backlog
