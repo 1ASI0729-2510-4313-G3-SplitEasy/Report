@@ -2597,43 +2597,101 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
 
 ### 5.3. Validation Interviews
 
-### 5.3.1 Relevamiento de Requerimientos No Funcionales
+#### 5.3.1 Diseño de Entrevistas
 
-Durante el proceso de entrevistas con los usuarios finales, se identificaron diversos requerimientos no funcionales relevantes para la experiencia, seguridad y usabilidad del backend de la aplicación **SplitEasy**. A continuación, se detallan los aspectos clave identificados a partir de las respuestas brindadas:
+Durante el proceso de entrevistas con los usuarios finales, se identificaron diversos requerimientos relevantes para la experiencia en base a las siguientes preguntas:
 
----
+**Para el Segmento 1: Miembros del hogar**
 
-#### Seguridad
+1. Primera impresión sobre la interfaz:
 
-- **Autenticación segura**: Se requiere un sistema de login con correo electrónico y contraseña. El usuario desea que la autenticación sea persistente mientras la sesión esté activa, pero que incluya medidas que protejan el acceso no autorizado.
-- **Protección de contraseñas**: Se solicita explícitamente que las contraseñas estén protegidas en la base de datos, evitando su visibilidad incluso ante accesos no autorizados. Esto implica el uso de técnicas de hashing seguro, como `bcrypt`, y el cumplimiento de buenas prácticas de seguridad en el almacenamiento de credenciales.
-- **Control de acceso por roles**: Se identificó la necesidad de un sistema de roles de usuario, diferenciando privilegios entre administradores (con acceso completo a la gestión del hogar) y miembros regulares (con acceso limitado a sus propios datos y gastos). Esto requiere implementar una gestión robusta de autorizaciones en el backend.
+- ¿Qué opinas del diseño de la página? ¿Te resulta fácil de entender?
 
----
+- ¿Hay algún elemento visual que te llame la atención o que encuentres confuso?
 
-#### Usabilidad
+2. Facilidad de uso:
 
-- **Edición del perfil de usuario**: Los usuarios desean poder editar su nombre, correo y foto de perfil de manera autónoma desde la aplicación, sin depender de intermediarios. Este requerimiento apunta a una interfaz backend intuitiva y accesible para estas operaciones.
-- **Carga de comprobantes**: Se espera que cada gasto registrado esté respaldado por un archivo adjunto (imagen, PDF u otro tipo de documento). El sistema debe forzar la inclusión de dicho comprobante como parte del flujo de creación de gastos.
-- **Filtros por fecha**: Se debe ofrecer una funcionalidad para filtrar los gastos por rangos de fechas, como semanas, meses o periodos personalizados. Esto mejora la capacidad del usuario para analizar su historial financiero.
-- **Edición y eliminación de gastos**: Los usuarios deben tener la opción de modificar o eliminar gastos registrados, en caso de errores o cambios. Este requerimiento no funcional está relacionado con la flexibilidad y corrección de datos.
-- **Notificaciones automáticas**: Se solicita que la aplicación envíe recordatorios de pago automáticos (vía push o correo electrónico), configurables por el usuario. El backend debe manejar estas alertas de forma programada, sin necesidad de intervención adicional del usuario.
-- **Reportes de errores dentro de la aplicación**: Se necesita una función que permita al usuario reportar problemas desde la aplicación y hacer seguimiento al estado del reporte (recibido, en proceso, solucionado). Esto requiere una infraestructura básica de soporte técnico y trazabilidad en el backend.
+- ¿Fue fácil encontrar dónde se registran los gastos o contribuciones?
 
----
+- ¿Hubo algún momento en el que te sentiste perdido o no supieras qué hacer en la página?
 
-#### Automatización y experiencia del usuario
+3. Navegación y funcionalidades:
 
-- **Automatización de recordatorios**: Los usuarios no desean encargarse manualmente del envío de recordatorios. El sistema debe contar con tareas programadas (cron jobs o schedulers) que gestionen el envío automático según configuraciones previas.
-- **Persistencia de sesión**: Se sugiere el uso de tokens de autenticación persistente (por ejemplo, JWT con refresh tokens) para evitar que el usuario tenga que iniciar sesión repetidamente.
+- ¿La navegación entre secciones (como ver tus aportes, revisar los gastos) fue clara?
 
----
+- ¿Te resultó sencillo agregar un gasto o una contribución? ¿Qué mejoras sugerirías?
 
-#### Conclusión
+4. Transparencia y confianza:
 
-Los requerimientos no funcionales extraídos de estas entrevistas evidencian la importancia de la seguridad, facilidad de uso y automatización dentro de la experiencia de usuario en SplitEasy. Estos aspectos son fundamentales para el diseño del backend, asegurando que el sistema sea confiable, seguro y cómodo para los usuarios finales.
+- ¿Qué piensas sobre la transparencia de la herramienta? ¿Te resultó útil ver las contribuciones de los demás miembros del hogar?
 
----
+- ¿Sientes que el sistema te ayuda a comprender mejor la distribución de los gastos en el hogar?
+
+5. Interacción con el sistema:
+
+- ¿Cómo te sentiste al recibir las notificaciones o recordatorios sobre tus pagos? ¿Fueron útiles?
+
+- ¿Hubo algo que te gustaría haber recibido como notificación pero que no estaba disponible?
+
+6. Gráficos y reportes:
+
+- ¿Qué opinas de los gráficos o reportes que muestra la página? ¿Son claros y fáciles de entender?
+
+- ¿Te gustaría tener más detalles en los reportes, o consideras que la información mostrada es suficiente?
+
+7. Experiencia general:
+
+- ¿Te parece que esta herramienta puede ayudarte a gestionar los gastos del hogar de manera más equitativa?
+
+- ¿Usarías esta página de manera regular? ¿Qué haría que la usaras más seguido?
+
+
+**Para el Segmento 2: Representantes del hogar**
+
+1. Gestión de finanzas en el panel:
+
+- ¿Qué opinas del panel de control donde puedes gestionar los gastos y contribuciones? ¿Lo encuentras útil?
+
+- ¿Fue fácil aprobar o modificar los gastos? ¿Hubo algo que te resultó confuso en el proceso?
+
+2. Visibilidad y control:
+
+- ¿Te pareció que tienes suficiente visibilidad sobre las contribuciones de los miembros del hogar?
+
+- ¿Qué tan útil encuentras la capacidad de ver los reportes mensuales y las contribuciones de todos los miembros del hogar?
+
+3. Notificaciones y recordatorios:
+
+- ¿Te resultaron útiles las alertas y recordatorios automáticos? ¿Cómo mejorarías estas notificaciones?
+
+- ¿Sientes que el sistema te mantiene al tanto de lo que está sucediendo sin ser demasiado invasivo?
+
+4. Personalización y ajustes:
+
+- ¿Te gustaría poder personalizar más aspectos de la herramienta, como las categorías de gastos o las reglas de división?
+
+- ¿Fue fácil ajustar los porcentajes de contribución o cambiar cualquier configuración?
+
+5. Usabilidad y eficiencia:
+
+- ¿Te resultó fácil realizar tareas como agregar miembros al hogar o asignar contribuciones?
+
+- ¿Hubo algún momento en que pensaste que la plataforma podía hacer algo más para facilitar la gestión de los gastos?
+
+6. Confianza en el sistema:
+
+- ¿Confías en que el sistema divide los gastos de manera justa? ¿Te gustaría que el sistema explique de manera más clara cómo se calculan los porcentajes?
+
+- ¿Hay alguna parte del proceso donde te gustaría tener más detalles o explicaciones sobre cómo funcionan los cálculos?
+
+7. Satisfacción general y recomendaciones:
+
+- ¿Crees que esta plataforma facilitaría la convivencia en términos de finanzas? ¿Por qué?
+
+- ¿Qué cambios harías para mejorar la experiencia como representante del hogar?
+
+
+
 
 ### 5.3.2 Registro de Entrevistas
 
