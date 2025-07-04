@@ -391,7 +391,7 @@ _Sabremos que estamos bien cuando veamos una reducción en pagos atrasados y un 
 ## Lean UX Canvas
 
 <p align="center">
-  <img src="images/Lean UX Canvas.png" alt="Gráfico de errores manuales" width="500">
+  <img src="images/Lean UX Canvas.png" alt="Gráfico de errores manuales" width="1000">
 </p>
 
 ## Segmentos Objetivos
