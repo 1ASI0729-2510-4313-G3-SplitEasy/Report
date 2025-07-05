@@ -531,7 +531,8 @@ SplitEasy busca ofrecer una solución digital que permita distribuir los gastos 
 
 ### 2.2.2. Registro de entrevistas
 
-**Primer Segmento - Personas del Hogar:** <br>
+#### **Primer Segmento - Personas del Hogar:** <br>
+
 **REGISTRO DE ENTREVISTA 1:** <br>
 
 Nombre completo del entrevistado: Jesús Cassana
@@ -647,7 +648,7 @@ Características objetivas y subjetivas observadas:
 
 
 
-**Segundo Segmento - Representantes del Hogar:**
+#### **Segundo Segmento - Representantes del Hogar:**
 
 **REGISTRO DE ENTREVISTA 1:**
 
@@ -743,7 +744,7 @@ Actitudes clave: Busca equidad, solución rápida de problemas, transparencia en
 
 
 
-**Segundo Segmento -  Entrevista a Diego Ramírez - Por Alexander Fernandez:**
+#### **Segundo Segmento - Representantes del Hogar:**
 
 Nombre del entrevistador: Alexander Fernández 
 
