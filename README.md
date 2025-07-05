@@ -178,9 +178,9 @@ Insights TB1 (Todos participaron):
 
 # Project: SplitEasy
 # Chapter 1: Introduction
-# Startup Profile
+## 1.1. Startup Profile
 
-##  Descripción de la Startup
+###  1.1.1. Descripción de la Startup
 
 SplitEasy es una startup tecnológica enfocada en brindar soluciones financieras equitativas dentro del entorno familiar o de convivencia. Nuestra plataforma permite a los miembros del hogar gestionar de forma justa y proporcional los gastos compartidos, basándose en los ingresos individuales de cada persona. A través de un sistema automatizado, transparente y fácil de usar, SplitEasy promueve la responsabilidad financiera, la buena comunicación y la organización del presupuesto colectivo, ayudando a evitar conflictos y fomentar una cultura de colaboración dentro del hogar.
 
@@ -189,7 +189,7 @@ SplitEasy es una startup tecnológica enfocada en brindar soluciones financieras
 - **Visión:** Nuestra visión es convertirnos en la plataforma líder en gestión financiera compartida para hogares en América Latina, siendo reconocidos por empoderar a las personas a tomar decisiones económicas justas, responsables y colaborativas.  
 - **Valores:** Transparencia, simplicidad y colaboración.  
 
-##  Perfiles de Integrantes del Grupo
+### 1.1.2. Perfiles de Integrantes del Grupo
 
 <table border="1" cellspacing="0" cellpadding="8">
   <tr>
@@ -230,11 +230,11 @@ SplitEasy es una startup tecnológica enfocada en brindar soluciones financieras
   </tr>
 </table>
 
-##  Solution Profile
+## 1.2. Solution Profile
 
 SplitEasy es una plataforma digital diseñada para facilitar la distribución equitativa de los gastos del hogar entre sus miembros, teniendo en cuenta los ingresos individuales de cada uno. El sistema calcula automáticamente el porcentaje que cada miembro debe aportar en función de su capacidad económica, lo que asegura una distribución justa de los gastos comunes, como alquiler, servicios y alimentos. Los usuarios pueden registrar sus ingresos, ver cuánto deben pagar y cuánto han pagado, y el representante del hogar tiene una visión general de todo el proceso. Además, la plataforma ofrece un seguimiento en tiempo real, reportes mensuales detallados y alertas automáticas sobre pagos pendientes. Con una interfaz intuitiva y fácil de usar, SplitEasy no solo optimiza la gestión financiera, sino que también promueve la transparencia y la confianza entre los miembros del hogar, reduciendo los posibles conflictos relacionados con el dinero y asegurando una gestión financiera eficiente y justa.
 
-##  Antecedentes y Problemática
+### 1.2.1. Antecedentes y Problemática
 
 La metodología 5W y 2H es un enfoque utilizado para identificar la causa raíz de problemas, errores o no conformidades en sistemas. Desarrollada por Toyota, esta herramienta es fundamental dentro del Sistema de Producción Toyota (TPS), ya que, según Taichii Ohno, clarifica problemas y facilita la implementación de acciones correctivas o preventivas (Palko et al., 2015). Además, esta metodología es adaptable a cualquier tipo de organización, lo que la convierte en una herramienta versátil para la resolución de problemas.
 
@@ -314,11 +314,11 @@ La necesidad de un reparto equitativo de los gastos del hogar, la falta de trans
 <p align="center">Fernando Blanco P. (2020). Gráfico de LDL – ESTADÍSTICA VISUAL (VIII). Gráficos con barras de error: manual de usuario – Lima, 2020</p>
 <p align="center"><em>Figura: Representación visual del costo promedio de errores manuales.</em></p>
 
-## Lean UX Process
+### 1.2.2. Lean UX Process
 
 Lean UX se define como un proceso iterativo y colaborativo que prioriza la experimentación y el aprendizaje continuo sobre la creación de documentación exhaustiva. En lugar de centrarse en entregar un producto final completamente detallado, este enfoque permite a los equipos de diseño y desarrollo trabajar en conjunto para construir prototipos y realizar pruebas rápidas. Estas pruebas se realizan con usuarios reales y en contextos reales, lo que permite validar hipótesis y ajustar el producto en función de los resultados obtenidos. El objetivo principal de Lean UX es reducir el desperdicio y aumentar la eficiencia en el desarrollo del producto, permitiendo a los equipos responder de manera más ágil a las necesidades y expectativas de los usuarios (Gothelf & Seiden, 2013).
 
-## Lean UX Problem Statements
+#### 1.2.2.1. Lean UX Problem Statements
 
 **¿Cómo podemos crear una herramienta innovadora que motive a los miembros del hogar a gestionar sus finanzas compartidas de manera justa, permitiendo una distribución proporcional de los gastos según sus ingresos individuales?**  
 Muchas personas que comparten un hogar enfrentan dificultades al dividir los gastos de manera equitativa. La falta de un sistema justo puede generar conflictos, resentimientos y desorganización financiera. Las herramientas actuales son muy básicas o se limitan a simples divisiones matemáticas que no consideran la capacidad económica de cada persona.
@@ -335,7 +335,7 @@ Los usuarios necesitan una plataforma sencilla, pero también lo suficientemente
 **¿Cómo podemos fomentar una cultura de ahorro y planificación financiera conjunta dentro del hogar, basada en metas comunes y acuerdos colaborativos?**  
 La mayoría de los hogares no tienen metas financieras compartidas ni hábitos de ahorro establecidos en grupo. La falta de planificación colectiva limita el crecimiento económico del hogar y genera dependencia o desigualdad en las contribuciones.
 
-## Lean UX Assumptions
+#### 1.2.2.2. Lean UX Assumptions
 
 ### Business Outcomes
 
@@ -378,7 +378,7 @@ La mayoría de los hogares no tienen metas financieras compartidas ni hábitos d
   - Seguridad de datos  
   - Experiencia simple y colaborativa  
 
-## Lean UX Hypothesis Statements
+#### 1.2.2.3. Lean UX Hypothesis Statements
 
 **Hipótesis 1: Distribución proporcional de gastos**  
 Creemos que una herramienta que calcule automáticamente cuánto debe aportar cada miembro del hogar según sus ingresos fomentará una convivencia más justa y organizada.  
@@ -388,7 +388,7 @@ _Sabremos que estamos bien cuando al menos el 70% de los usuarios reporten una d
 Creemos que permitir que un representante tenga una visión general del estado financiero del grupo y reciba alertas mejorará la gestión y cumplimiento de los pagos.  
 _Sabremos que estamos bien cuando veamos una reducción en pagos atrasados y un uso activo del panel de control por parte del representante en al menos el 60% de los hogares registrados._
 
-## Lean UX Canvas
+#### 1.2.2.4. Lean UX Canvas
 
 <p align="center">
   <img src="images/Lean UX Canvas.png" alt="Gráfico de errores manuales" width="1000">
@@ -436,11 +436,10 @@ _Sabremos que estamos bien cuando veamos una reducción en pagos atrasados y un 
 
 # Chapter 2: Requirements Elicitation & Analysis
 
-## Competidores
-### Analisis Competitivo
+## 2.1. Competidores
+### 2.1.1. Analisis Competitivo
 
-## Competitive Analysis Landscape
-### ¿Por qué llevar a cabo este análisis?
+#### ¿Por qué llevar a cabo este análisis?
 Analizar la competencia en el mercado de gestión energética para hogares inteligentes.  
 Comparar fortalezas, debilidades y estrategias para identificar oportunidades y amenazas.
 
@@ -462,7 +461,7 @@ Comparar fortalezas, debilidades y estrategias para identificar oportunidades y 
 | Amenazas                  | Competencia consolidada. Preferencia por métodos tradicionales (Excel, notas, billeteras físicas).             | Lo mismo: herramientas tradicionales siguen siendo usadas.                                      | Puede quedar rezagada frente a apps con más recursos.                                          | Entrada de bancos o apps de pago con funciones similares.                                     |
 
 
-### Estrategias y tácticas frente a competidores
+### 2.1.2. Estrategias y tácticas frente a competidores
 
 SplitEasy se diferencia de sus competidores mediante una propuesta de valor centrada en la equidad real, considerando los ingresos de cada persona en la distribución de gastos compartidos. Esta estrategia permite posicionarse en un nicho aún poco explorado por aplicaciones como Splitwise, Tricount o SettleUp, las cuales se enfocan en divisiones igualitarias o personalizadas manualmente, pero no abordan el concepto de proporcionalidad basada en capacidad económica.
 
@@ -485,9 +484,9 @@ Incentivar la recomendación entre roommates, parejas y familias, priorizando ex
 
 **Táctica:** Sistema de referidos y uso colaborativo. Cada nuevo usuario puede invitar fácilmente a su grupo de convivencia, con beneficios pequeños como más espacio de historial o funciones extra por cada referido activo.
 
-## Competidores
+## 2.2. Entrevistas
 
-### Diseño de Entrevistas
+### 2.2.1. Diseño de Entrevistas
 
 **Propósito de la entrevista:**  
 SplitEasy busca ofrecer una solución digital que permita distribuir los gastos del hogar de forma equitativa, basándose en los ingresos de cada miembro. Esta entrevista tiene como objetivo comprender las necesidades, hábitos y expectativas de las personas que comparten gastos del hogar, así como de quienes asumen la responsabilidad de administrarlos. Esta información nos permitirá diseñar una herramienta que promueva la transparencia, evite conflictos financieros y se ajuste a las realidades de los hogares peruanos actuales.
@@ -539,7 +538,7 @@ SplitEasy busca ofrecer una solución digital que permita distribuir los gastos 
 9. ¿Estaría dispuesto(a) a registrar los ingresos de cada miembro para que la aplicación calcule automáticamente cuánto debe aportar cada uno?  
 10. ¿Qué beneficios cree que traería una solución como SplitEasy en la convivencia familiar?
 
-### Registro de entrevistas
+### 2.2.2. Registro de entrevistas
 
 **Primer Segmento - Personas del Hogar:** <br>
 **REGISTRO DE ENTREVISTA 1:** <br>
@@ -798,7 +797,7 @@ Duración: 1 minuto con 52 segundos
   Actitudes clave: Busca justicia, simplicidad y evitar conflictos
 
 
-### Análisis de entrevistas
+### 2.2.3. Análisis de entrevistas
 
 **SEGMENTO - PERSONAS DEL HOGAR:**
 
@@ -848,19 +847,19 @@ Se evidencian dos arquetipos complementarios:
 
 Las necesidades principales que hemos encontrado en nuestros segmentos objetivos son las siguientes:
 
-### Segmento #1: Personas del hogar
+#### Segmento #1: Personas del hogar
 - Distribuir los gastos del hogar de manera equitativa según ingresos  
 - Tener visibilidad clara de los aportes y gastos compartidos  
 - Evitar conflictos financieros dentro de la convivencia  
 - Usar herramientas digitales que simplifiquen la organización de pagos  
 
-### Segmento #2: Representante del hogar
+#### Segmento #2: Representante del hogar
 - Gestionar y supervisar los pagos del hogar de forma centralizada  
 - Recibir recordatorios automáticos y reportes financieros claros  
 - Asegurar la equidad y transparencia en la distribución de los gastos  
 - Ahorrar tiempo en la planificación financiera y evitar malentendidos  
 
-### User Persona
+### 2.3.1. User Personas
 
 **Segmento #1: Personas del hogar / User Persona: Camila Torres**
 <p align="left">
@@ -872,7 +871,7 @@ Las necesidades principales que hemos encontrado en nuestros segmentos objetivos
   <img src="images/UserPersona2.PNG" alt="UserPersona2" width="1000">
 </p>
 
-### User Task Matrix
+### 2.3.2. User Task Matrix
 En esta sección se presenta la User Task Matrix, una herramienta enfocada en los 2 segmentos clave de usuarios de SplitEasy, en miembro del hogar y en responsable del hogar, que permite identificar sus tareas habituales y principales necesidades. Este análisis resulta fundamental para establecer prioridades al momento de definir las funcionalidades del producto e integrar el product backlog. Para la dimensión de frecuencia, se han utilizado cinco niveles: never, rarely, sometimes, often y always; y para la importancia, tres niveles: low, medium y high.
 
 | **User Task**                                              | **Camila Torres - Miembro del hogar** |                                     | **Javier Morales - Responsable del hogar** |                                     |
@@ -889,7 +888,7 @@ En esta sección se presenta la User Task Matrix, una herramienta enfocada en lo
 | Buscar herramientas para facilitar la gestión financiera   | Sometimes                              | Medium                              | Sometimes                                  | Medium                              |
 | Resolver conflictos por dinero entre miembros              | Rarely                                 | High                                | Rarely                                     | High                                |
 
-### User Journey Mapping
+### 2.3.3. User Journey Mapping
 En esta sección se presentarán los user journey mapping para cada user persona. El recorrido comienza cuando una persona del hogar recibe una notificación relacionada a un nuevo gasto compartido, enviada a través de SplitEasy. A partir de ello, consulta su historial de aportes y visualiza cuánto han pagado otros miembros del hogar. Luego, se realiza el cálculo proporcional de lo que debe aportar, basado en reglas previamente acordadas. Posteriormente, se comunica con otros miembros en caso de dudas o para validar el monto. El recorrido finaliza cuando realiza el pago de su parte desde la aplicación o mediante un enlace compartido.
 
 ### Segmento 1: Personas del hogar
@@ -906,7 +905,7 @@ En esta sección se presentarán los user journey mapping para cada user persona
   <img src="images/UserJourney22.jpeg" ">
 </p>
 
-### Empathy Mapping
+### 2.3.4. Empathy Mapping
 
 ### Segmento 1: Personas del hogar
 
@@ -920,7 +919,7 @@ En esta sección se presentarán los user journey mapping para cada user persona
   <img src="images/Empathy2.PNG" alt="Empathy2" width="1000">
 </p>
 
-### As-is Scenario Mapping
+### 2.3.5. As-is Scenario Mapping
 
 ### Segmento #1: Personas del Hogar
 
@@ -934,7 +933,7 @@ En esta sección se presentarán los user journey mapping para cada user persona
   <img src="images/ScenarioMapping1S2.png" widht="1100">
 </p>
 
-## Ubiquitous Language
+## 2.4. Ubiquitous Language
 
 | **Término en Inglés**          | **Término en Español**       | **Definición**                                                                                                                                           |
 |--------------------------------|-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -965,7 +964,7 @@ En esta sección se presentarán los user journey mapping para cada user persona
   <img src="images/ScenarioMapping2S21.png" widht="1100">
 </p>
 
-## User Stories
+## 3.2. User Stories
 ### Epic
 
 | EPIC ID | Nombre del Epic                  | Descripción |
@@ -1107,7 +1106,7 @@ En esta sección se presentarán los user journey mapping para cada user persona
 | EP07     | Exploración como Visitante | US34   | Ver ejemplos o simulaciones de cómo funciona la plataforma | Como visitante, quiero ver ejemplos o simulaciones para imaginarme cómo sería usar la plataforma. | - Escenario 1: Acceso a simulaciones<br>Dado que esté en la sección “¿Cómo funciona?”,<br>Cuando haga clic en “Ver ejemplo”,<br>Entonces se mostrará una simulación o demo visual del flujo de uso.<br><br>- Escenario 2: Casos ilustrativos<br>Dado que revise los ejemplos,<br>Entonces identificará casos similares a su situación real. |
 | EP07     | Exploración como Visitante | US35   | Acceder fácilmente al registro o login desde botones destacados | Como visitante, quiero tener botones claros para registrarme o iniciar sesión desde cualquier parte de la landing. | - Escenario 1: Botón fijo en el header<br>Dado que navegue por la landing,<br>Cuando quiera registrarse,<br>Entonces podrá hacer clic en un botón visible en la parte superior.<br><br>- Escenario 2: Llamados a la acción<br>Dado que lea una sección que le interese,<br>Entonces verá un botón que lo invita a registrarse o iniciar sesión. |
 
-## Impact Mapping
+## 3.3. Impact Mapping
 
 ### Segmento 1: Miembros del hogar
 
@@ -1121,7 +1120,7 @@ En esta sección se presentarán los user journey mapping para cada user persona
   <img src="images/ImpactMappingS2.png" alt="Impact2" width="1100">
 </p>
 
-## Product Backlog
+## 3.4. Product Backlog
 
 ### Priorización de User Stories - Plataforma SplitEasy
 
@@ -1176,7 +1175,7 @@ En esta sección se presentarán los user journey mapping para cada user persona
 
 # Capítulo IV: Product Design
 
-## Style Guidelines
+## 4.1. Style Guidelines
 
 **SplitEasy** es una plataforma digital creada para simplificar y equilibrar la gestión financiera dentro del hogar. Mediante un sistema de cálculo proporcional según ingresos, permite distribuir gastos de forma justa, promoviendo la transparencia, la colaboración y el control financiero compartido. Con una interfaz moderna y directa, SplitEasy responde a las necesidades de hogares contemporáneos que buscan soluciones simples, efectivas y accesibles.
 
@@ -1184,7 +1183,7 @@ Esta sección presenta una guía estructurada que consolida todos los elementos 
 
 Las guías de estilo están divididas en tres bloques —**General Style Guidelines**, **Web Style Guidelines** y **Mobile Style Guidelines**—, lo cual garantiza una experiencia uniforme, accesible y atractiva tanto en dispositivos móviles como en la web. Esta consistencia estética mejora la navegación, refuerza la confianza del usuario y comunica visualmente los valores de la plataforma: claridad, equilibrio y control.
 
-### General Style Guidelines
+### 4.1.1. General Style Guidelines
 
 SplitEasy busca transmitir una identidad visual moderna y clara, enfocada en la transparencia, la colaboración y la equidad financiera. La marca utiliza colores oscuros como base para dar una sensación de profesionalismo y seriedad, mientras que el azul celeste funciona como color de acento para resaltar acciones importantes y darle un toque fresco y tecnológico.
 
@@ -1278,7 +1277,7 @@ El tono de comunicación en la landing page es **claro, cercano y accesible**, d
 
 Este enfoque garantiza una experiencia funcional, adaptada a las necesidades de todos los usuarios, haciendo que tanto representantes como miembros se sientan cómodos y seguros.
 
-### Web Style Guidelines
+### 4.1.2. Web Style Guidelines
 
 Se utilizó la tendencia web de **funcionalismo minimalista** con un esquema de colores oscuros predominante (negro y gris oscuro) como fondo. Esto proporciona una experiencia visual suave, favoreciendo el contraste con elementos interactivos y textos claros.
 
@@ -1298,13 +1297,13 @@ Este equilibrio entre funcionalidad y diseño moderno garantiza una interfaz efi
   <img src="images/imagen2.PNG" alt="imagen2" width="500">
 </p>
 
-# Information Architecture
+## 4.2. Information Architecture
 
-## Organization Systems
+### 4.2.1. Organization Systems
 
 En la plataforma **SplitEasy**, se emplean diferentes sistemas de organización del contenido para mejorar la accesibilidad y experiencia de los usuarios, dependiendo del tipo de información que se presenta. Estos sistemas aseguran que los usuarios puedan navegar de manera intuitiva y eficiente por la aplicación. A continuación, se detallan los enfoques utilizados:
 
-### Organización Visual del Contenido
+#### Organización Visual del Contenido
 
 **Jerárquica (Visual Hierarchy):**  
 La organización jerárquica se aplica en secciones donde es fundamental mostrar una estructura clara de importancia y relevancia, como en los formularios de creación de hogar o de asignación de aportes. Se emplean tamaños de texto diferenciados y un orden lógico de presentación, destacando los elementos más importantes (como los botones de acción o los campos requeridos) para guiar al usuario de forma natural a través de la plataforma.
@@ -1312,7 +1311,7 @@ La organización jerárquica se aplica en secciones donde es fundamental mostrar
 **Secuencial (Step-by-Step to Accomplish):**  
 En tareas que requieren la realización de pasos secuenciales, como el proceso de registro de usuario o creación de hogar, se utiliza un enfoque paso a paso. Los usuarios avanzan de una pantalla a otra de manera clara y ordenada, asegurando que comprendan el flujo de trabajo y puedan completar cada acción antes de pasar a la siguiente, minimizando la confusión.
 
-### Esquemas de Categorización de Contenido
+#### Esquemas de Categorización de Contenido
 
 **Por Audiencia (Grupos de Usuarios):**  
 Dado que la plataforma tiene dos tipos de usuarios (representantes del hogar y miembros del hogar), el contenido se organiza de manera distinta para cada grupo. Los representantes tienen acceso a herramientas para gestionar los aportes y la creación de hogar, mientras que los miembros solo pueden consultar sus aportes y realizar seguimiento a los gastos. La categorización se adapta a las necesidades específicas de cada tipo de usuario, con una navegación clara que les lleva a las secciones correspondientes.
@@ -1320,7 +1319,7 @@ Dado que la plataforma tiene dos tipos de usuarios (representantes del hogar y m
 **Por Tópicos:**  
 Además, la categorización por tópicos se utiliza en las secciones de ayuda y soporte. Los usuarios pueden acceder a diferentes categorías de contenido, como "Preguntas Frecuentes", "Política de Privacidad" y "Centro de Ayuda", lo que facilita la búsqueda de información relevante para resolver problemas específicos.
 
-### Implementación en la Interfaz
+#### Implementación en la Interfaz
 
 La organización jerárquica y secuencial se ve reflejada en el diseño de la interfaz, utilizando una estructura de navegación clara que incluye menús desplegables, botones con texto explicativo y pasos visibles para guiar al usuario en cada proceso.
 
@@ -1328,11 +1327,11 @@ Los esquemas de categorización por audiencia y por tópicos están integrados e
 
 Este enfoque asegura que la experiencia de navegación en SplitEasy sea intuitiva, eficiente y adaptada a las necesidades específicas de cada tipo de usuario, mejorando la funcionalidad y la experiencia general de la plataforma.
 
-## Labeling Systems
+### 4.2.2. Labeling Systems
 
 La landing page de SplitEasy emplea un sistema de etiquetado directo, simple y orientado a la acción, con el fin de facilitar la comprensión rápida de los contenidos y la navegación fluida para distintos tipos de usuarios. Se prioriza la claridad en la presentación textual de las secciones, utilizando el menor número de palabras posible y apoyándose en íconos visuales para reforzar los mensajes clave.
 
-### Menú de navegación
+#### Menú de navegación
 
 En el menú de navegación superior de la landing page, se emplean etiquetas simples, directas y acompañadas de íconos de Bootstrap Icons:
 
@@ -1348,7 +1347,7 @@ En el menú de navegación superior de la landing page, se emplean etiquetas sim
   <img src="images/imagen3.PNG" alt="imagen3" width="500">
 </p>
 
-### Botón principal
+#### Botón principal
 
 - **"Register"**: principal llamada a la acción (CTA), funciona tanto para miembros como representantes.
 
@@ -1356,7 +1355,7 @@ En el menú de navegación superior de la landing page, se emplean etiquetas sim
   <img src="images/imagen4.PNG" alt="imagen4" width="500">
 </p>
 
-### Sección "How does it work?" para Representantes
+#### Sección "How does it work?" para Representantes
 
 - **"Sign up"** (`bi-person-plus-fill`)
 - **"Create your home"** (`bi-house-fill`)
@@ -1367,7 +1366,7 @@ En el menú de navegación superior de la landing page, se emplean etiquetas sim
   <img src="images/imagenrepre.PNG" alt="imagenrepre" width="500">
 </p>
 
-### Sección "How does it work?" para Miembros
+#### Sección "How does it work?" para Miembros
 
 - **"Sign up"** (`bi-person-plus-fill`)
 - **"Join a household"** (`bi-key-fill`)
@@ -1378,7 +1377,7 @@ En el menú de navegación superior de la landing page, se emplean etiquetas sim
   <img src="images/imagenmiem.PNG" alt="imagenmiem" width="500">
 </p>
 
-### Footer
+#### Footer
 
 - **Legal notice**
 - **Privacy Policy**
@@ -1395,9 +1394,9 @@ También se incorporan íconos de redes sociales: Facebook, Instagram, Twitter, 
   <img src="images/footer.PNG" alt="footer" width="500">
 </p>
 
-## SEO Tags and Meta Tags
+### 4.2.3. SEO Tags and Meta Tags
 
-### Landing Page
+#### Landing Page
 
 html
 <head>
@@ -1427,11 +1426,11 @@ html
 <meta name="keywords" content="SplitEasy app, control de finanzas, ingresos familiares, aportes proporcionales, gastos en el hogar, economía familiar">
 <meta name="author" content="Equipo SplitEasy">
 
-## 4.2.4. Searching Systems
+### 4.2.4. Searching Systems
 
 En el caso de SplitEasy, se implementará un sistema de búsqueda y filtros que permita a los miembros y representantes del hogar encontrar información relevante rápidamente y facilitar su navegación dentro de la aplicación. El sistema de búsqueda y filtros estará estructurado de manera que cada tipo de usuario (miembro o representante) tenga acceso a las herramientas más útiles para su rol específico.
 
-### Filtros de búsqueda por entradas
+#### Filtros de búsqueda por entradas
 
 **Miembros del hogar:**
 - **Buscar por ID de hogar:** Los miembros podrán buscar e ingresar el ID de hogar proporcionado por el representante para unirse a un hogar ya creado.
@@ -1444,7 +1443,7 @@ En el caso de SplitEasy, se implementará un sistema de búsqueda y filtros que 
 - **Filtrar por miembros:** Buscar por nombre o ID de miembro para revisar su historial.
 - **Estado del balance financiero:** Filtrar el balance general del hogar por fecha o tipo de gasto.
 
-### Filtros de búsqueda por tabs
+#### Filtros de búsqueda por tabs
 
 Para mejorar la experiencia de usuario, se incluirán tabs interactivos que faciliten el acceso a información específica de forma ordenada.
 
@@ -1457,15 +1456,15 @@ Para mejorar la experiencia de usuario, se incluirán tabs interactivos que faci
 - **Tab de gestión de aportes:** Vista de aportes de todos los miembros con filtros por estado y fecha.
 - **Tab de balance general:** Balance general filtrado por categorías y periodo.
 
-### Flujo de búsqueda y filtros
+#### Flujo de búsqueda y filtros
 
 El flujo será simple y eficiente. En cada sección relevante (aportaciones, balances, gastos), se mostrará un campo de búsqueda o filtros configurables. Los filtros serán fáciles de aplicar y remover, asegurando una experiencia de navegación fluida.
 
-## 4.2.5. Navigation Systems
+### 4.2.5. Navigation Systems
 
 En SplitEasy, la navegación debe ser fluida, intuitiva y accesible tanto en la **Landing Page** como en la **Web Application**.
 
-### 1. Navegación en la Landing Page
+#### 1. Navegación en la Landing Page
 
 La página principal guía a nuevos usuarios hacia el registro o la información clave de forma clara y atractiva.
 
@@ -1483,7 +1482,7 @@ La página principal guía a nuevos usuarios hacia el registro o la información
 - **Desplazamiento fluido:**  
   Scroll natural por secciones de la página sin salir de ella.
 
-### 2. Navegación en la Web Application
+#### 2. Navegación en la Web Application
 
 La navegación se adapta al tipo de usuario y sus necesidades específicas.
 
@@ -1511,15 +1510,15 @@ Navegación jerárquica para volver a secciones anteriores o más generales.
 - Agregar aporte
 - Ver detalles del gasto
 
-### Interacción con el sistema
+#### Interacción con el sistema
 
 - **Accesibilidad:** Navegación clara y visible con etiquetas comprensibles.
 - **Navegación de búsqueda:** Filtros rápidos para búsqueda por ID de hogar o estado de aportes.
 - **Ayuda y tutoriales:** Sección de asistencia con guía paso a paso para cada sección.
 
-## Landing Page UI Design
+## 4.3. Landing Page UI Design
 
-### Landing Page Wireframe
+### 4.3.1. Landing Page Wireframe
 
 <p align="left">
   <img src="images/lpw1.PNG" alt="lpw1" width="500">
@@ -1537,7 +1536,7 @@ Navegación jerárquica para volver a secciones anteriores o más generales.
   <img src="images/lpw5.PNG" alt="lpw5" width="500">
 </p>
 
-### Landing Page Mock-up
+### 4.3.2. Landing Page Mock-up
 
 <p align="left">
   <img src="images/lpm1.PNG" alt="lpm1" width="500">
@@ -1549,33 +1548,33 @@ Navegación jerárquica para volver a secciones anteriores o más generales.
   <img src="images/lpm3.PNG" alt="lpm3" width="500">
 </p>
 
-## Web Applications UX/UI Design
+## 4.4. Web Applications UX/UI Design
 
-### Web Applications Wireframes
+### 4.4.1. Web Applications Wireframes
 
 <p align="left">
   <img src="images/waw.PNG" alt="waw" width="500">
 </p>
 
-### Web Applications Wireflow Diagrams
+### 4.4.2. Web Applications Wireflow Diagrams
 
 <p align="left">
   <img src="images/wawd.PNG" alt="wawd" width="500">
 </p>
 
-### Web Applications Mock-ups
+### 4.4.3. Web Applications Mock-ups
 
 <p align="left">
   <img src="images/wam.PNG" alt="wam" width="500">
 </p>
 
-### Web Applications User Flow Diagrams
+### 4.4.4. Web Applications User Flow Diagrams
 A continuación, se muestra el User Flow Diagram estructurado en base a los objetivos principales del usuario. Cada sección del flujo corresponde a una meta funcional específica, mostrando los recorridos posibles mediante mockups de alta fidelidad.
 <p align="left">
   <img src="images/NewFlowchart.jpg" alt="wau" width="500">
 </p>
 
-## Web Applications Prototyping 
+## 4.5. Web Applications Prototyping 
 
 Se desarrolló un prototipo interactivo enfocado en la navegación web para evaluar y mejorar la accesibilidad y la experiencia de usuario antes del lanzamiento final. Este modelo simula fielmente el recorrido dentro del sitio, permitiendo explorar secciones y flujos como en la versión definitiva. Diseñado con una arquitectura clara, jerarquía visual coherente y principios de diseño inclusivo, garantiza una navegación intuitiva y accesible. Gracias a sus maquetas de alta fidelidad, el prototipo permite validar decisiones de diseño, detectar fricciones y asegurar una experiencia de uso consistente.
 
@@ -1583,35 +1582,35 @@ Link al prototipo: https://www.figma.com/proto/KpblxTexy8JiWceW2N9VmM/Open-Sourc
 
 Link del video explicativo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d534_upc_edu_pe/EeExTohQK7VDrZmrG2Ze3j8BWq2i0RG-r1I8l03WIW7eZg?e=3VCooB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
-## Domain-Driven Software Architecture
+## 4.6. Domain-Driven Software Architecture
 
-### Software Architecture Context Diagram
+### 4.6.1. Software Architecture Context Diagram
 
 <p align="left">
   <img src="images/ArchitectureC4.png" alt="sacd" width="500">
 </p>
 
-### Software Architecture Container Diagrams
+### 4.6.2. Software Architecture Container Diagrams
 
 <p align="left">
   <img src="images/ContainerDiagramsC4.png" alt="sacd1" width="500">
 </p>
 
-### Software Architecture Components Diagrams
+### 4.6.3. Software Architecture Components Diagrams
 
 <p align="left">
   <img src="images/ComponentsC4.png" alt="sacd2" width="500">
 </p>
 
-## Software Object-Oriented Design
+## 4.7. Software Object-Oriented Design
 
-### Class Diagrams
+### 4.7.1 Class Diagrams
 
 <p align="left">
   <img src="images/diagramac.PNG" alt="diagramac" width="500">
 </p>
 
-### Class Dictionary
+### 4.7.2. Class Dictionary
 
 #### Class: HouseholdMember
 
@@ -1717,7 +1716,7 @@ Link del video explicativo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2
 - `Other` — Otros tipos de gastos no especificados.
 
 
-## SplitEasy - Database Design
+## 4.8. SplitEasy - Database Design
 
 ### Descripción General
 
@@ -1816,7 +1815,7 @@ Configuraciones individuales de los usuarios.
 
 ---
 
-## Comentario General
+### Comentario General
 
 Este modelo relacional refleja una arquitectura flexible y centrada en usuarios y hogares. Se permite distinguir entre representantes y miembros, gestionar sus contribuciones, facturas y preferencias personales.
 
@@ -1825,7 +1824,7 @@ Este modelo relacional refleja una arquitectura flexible y centrada en usuarios 
 
 ---
 
-## Índices
+### Índices
 
 Se incluyen índices adicionales para mejorar el rendimiento de consultas:
 
@@ -1837,13 +1836,14 @@ Se incluyen índices adicionales para mejorar el rendimiento de consultas:
 
 ---
 
-## Objetivos del Diseño
+### Objetivos del Diseño
 
 - Transparencia: cada miembro puede ver su historial y estado financiero.
 - Equidad: los gastos se distribuyen proporcionalmente en función de los ingresos.
 - Escalabilidad: permite añadir nuevas funcionalidades sin alterar el núcleo del sistema.
 - Mantenimiento: una estructura clara y bien normalizada facilita la administración y evolución del sistema.
 
+### 4.8.1. Database Diagram
 <p align="left">
   <img src="images/bd.png.png" alt="bd" width="500">
 
@@ -1973,11 +1973,11 @@ Se siguen las [convenciones de SpringBoot](https://spring.io/projects/spring-boo
 > Esta configuración asegura un ciclo de integración y despliegue continuo (CI/CD) alineado con buenas prácticas del desarrollo moderno.
 
 
-# 5.2. Landing Page, Services & Applications Implementation
+## 5.2. Landing Page, Services & Applications Implementation
 
-## 5.2.1. Sprint 1
+### 5.2.1. Sprint 1
 
-### 5.2.1.1. Sprint Planning 1
+#### 5.2.1.1. Sprint Planning 1
 
 A continuación, se presenta el Sprint Planning 1, donde se incluyen las evidencias de planificación e implementación del Landing Page. También se registran los avances del proyecto e insights de colaboración del equipo a través de GitHub.
 
@@ -1999,7 +1999,7 @@ A continuación, se presenta el Sprint Planning 1, donde se incluyen las evidenc
 
 
 
-### 5.2.1.2. Sprint Backlog 1 – SplitEasy
+#### 5.2.1.3. Sprint Backlog 1 – SplitEasy
 
 Este documento corresponde al punto **5.2.1.2** del informe y resume las tareas realizadas durante el **Sprint 1** del proyecto **SplitEasy**, centrado en el desarrollo de la **landing page** de la aplicación.
 
@@ -2052,7 +2052,7 @@ Desarrollar la landing page funcional de SplitEasy que permita a los visitantes 
 
  **Estado del Sprint:** COMPLETADO
 
-## 5.2.1.3. Deployment Evidence for Sprint Review
+#### 5.2.1.4. Deployment Evidence for Sprint Review
 
 A continuación, se presentan los commits más representativos realizados en el repositorio del proyecto **SplitEasy** en GitHub.
 
@@ -2151,9 +2151,9 @@ Durante este **Sprint 1**, se completó la documentación básica de los servici
 | (sin hash)    | docs(sprint): document Sprint 1 backlog and tasks for SplitEasy  | 24/04/2025   |
 
 
-## 5.2.2 Sprint 2
+### 5.2.2 Sprint 2
 
-### 5.2.2.1 Sprint Planning 2
+#### 5.2.2.1 Sprint Planning 2
 
 A continuación, se presentará el sprint planning 2 donde se mostrarán las evidencias de planificación para la implementación de la aplicación web.
 
@@ -2172,7 +2172,7 @@ A continuación, se presentará el sprint planning 2 donde se mostrarán las evi
 | **Sum of Story Points** | 30                                                                                                                                                                                                      |
 
 
-### 5.2.2.2 Aspect Leaders and Collaborators
+#### 5.2.2.2 Aspect Leaders and Collaborators
 
 A continuación, se presentan los líderes y colaboradores de SplitEasy:
 
@@ -2201,7 +2201,7 @@ A continuación, se presentan los líderes y colaboradores de SplitEasy:
 
 ---
 
-### 5.2.2.3 Deployment Evidence for Sprint Review
+#### 5.2.2.3 Deployment Evidence for Sprint Review
 
 **Commits de desarrollo (funcionalidad):**
 
@@ -2238,7 +2238,7 @@ A continuación, se presentan los líderes y colaboradores de SplitEasy:
 
 ---
 
-### 5.2.2.4 Testing Suite Evidence for Sprint Review
+#### 5.2.2.4 Testing Suite Evidence for Sprint Review
 
 En el alcance del sprint 2 se ha desarrollado el front end de la aplicación web como primera instancia, por lo que no se evidencia de testing.
 
@@ -2246,7 +2246,7 @@ En el alcance del sprint 2 se ha desarrollado el front end de la aplicación web
 |------------|--------|------------|----------------|----------------------|---------------------|
 | _No disponible_ | _No disponible_ | _N/A_ | _N/A_ | _N/A_ | _N/A_ |
 
-### 5.2.2.5. Execution Evidence for Sprint Review
+#### 5.2.2.5. Execution Evidence for Sprint Review
 
 **Login:**
 
@@ -2362,9 +2362,9 @@ Durante el Sprint, las actividades de desarrollo se llevaron a cabo de forma col
 - Todos los miembros contribuyeron tanto al diseño de interfaz como al desarrollo funcional (Angular).
 - Se realizó al menos una sesión grupal de revisión de código y planificación intermedia.
 
-## 5.2.3. Sprint 3
+### 5.2.3. Sprint 3
 
-### 5.2.3.1. Sprint Planning 3
+#### 5.2.3.1. Sprint Planning 3
 
 | **Date**                               | 01/06/2025                                                                                                                                                                                                                                                                                                                                             |
 | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -2382,7 +2382,7 @@ Durante el Sprint, las actividades de desarrollo se llevaron a cabo de forma col
 
 
 
-### 5.2.3.2. Aspect Leaders and Collaborators
+#### 5.2.3.2. Aspect Leaders and Collaborators
 
 | Nombre | Rol | User Stories | Descripción de las contribuciones |
 |---------|---------|---------|---------|
@@ -2392,7 +2392,7 @@ Durante el Sprint, las actividades de desarrollo se llevaron a cabo de forma col
   
 ---
 
-### 5.2.3.3. Sprint Backlog 3
+#### 5.2.3.3. Sprint Backlog 3
 
 | Estado | User Story | Work Item | Descripción | Asignado |
 |---------|---------|---------|---------|---------|
@@ -2414,7 +2414,7 @@ Durante el Sprint, las actividades de desarrollo se llevaron a cabo de forma col
 
 ---
 
-### 5.2.3.4. Development Evidence for Sprint Review
+#### 5.2.3.4. Development Evidence for Sprint Review
 
  **Commits de desarrollo (funcionalidad)**:
 
@@ -2433,7 +2433,7 @@ Durante el Sprint, las actividades de desarrollo se llevaron a cabo de forma col
   
 ---
 
-### 5.2.3.5. Execution Evidence for Sprint Review
+#### 5.2.3.5. Execution Evidence for Sprint Review
 
 Durante el sprint 3 **aún no contamos con despliegue en backend**, pero podemos demostrar:
 
@@ -2500,7 +2500,7 @@ Estas implementaciones permiten sentar las bases del funcionamiento completo del
 
 ---
 
-### 5.2.3.6. Services Documentation Evidence for Sprint Review
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
 Durante el Sprint 3 se implementaron los siguientes endpoints en el backend de la aplicación **SplitEasy**, siguiendo una arquitectura RESTful con Spring Boot. Todos los recursos cuentan con operaciones básicas de CRUD (crear, leer, actualizar, eliminar), y están documentados con Swagger/OpenAPI para su uso y prueba, así mismo se encuentra en el repositrio: https://github.com/1ASI0729-2510-4313-G3-SplitEasy/backend-app.
 
@@ -2561,7 +2561,7 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
 
 ---
 
-### 5.2.3.7. Software Deployment Evidence for Sprint Review
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
  Actualmente el backend **se encuentra desplegado desplegado:**
 
@@ -2579,7 +2579,7 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
 
 ---
 
-### 5.2.3.8. Team Collaboration Insights during Sprint
+#### 5.2.3.8. Team Collaboration Insights during Sprint
 
  Durante el sprint 3 el equipo trabajó de forma más autónoma pero siempre bajo seguimiento constante en Git:
 
@@ -2592,9 +2592,9 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
 
 ---
 
-### 5.3. Validation Interviews
+## 5.3. Validation Interviews
 
-#### 5.3.1 Diseño de Entrevistas
+### 5.3.1 Diseño de Entrevistas
 
 Durante el proceso de entrevistas con los usuarios finales, se identificaron diversos requerimientos relevantes para la experiencia en base a las siguientes preguntas:
 
@@ -2736,7 +2736,7 @@ El siguiente video contiene la grabación completa de la entrevista realizada al
 
 Este material forma parte del archivo de evidencias del proyecto y sustenta la trazabilidad de decisiones técnicas durante el desarrollo de **SplitEasy**.
 
-#### 5.3.3. Evaluaciones según heurísticas
+### 5.3.3. Evaluaciones según heurísticas
 
  Durante el sprint 3 se evaluó:
 
@@ -2869,6 +2869,9 @@ PROBLEMA #6: No hay validación clara si el ingreso personal está vacío
   - Problema: Si el usuario olvida ingresar su salario o lo deja en blanco, el sistema no lo notifica claramente y simplemente registra “0”. Esto afecta los cálculos posteriores.
   
   - Recomendación: Implementar una validación que indique: “Debe ingresar un valor mayor a 0 para su ingreso mensual.”
+
+## 5.4. Video About-the-Product
+
 
 # Conclusión
 
