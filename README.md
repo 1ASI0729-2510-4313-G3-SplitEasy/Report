@@ -1981,24 +1981,26 @@ Se siguen las [convenciones de SpringBoot](https://spring.io/projects/spring-boo
 
 A continuación, se presenta el Sprint Planning 1, donde se incluyen las evidencias de planificación e implementación del Landing Page. También se registran los avances del proyecto e insights de colaboración del equipo a través de GitHub.
 
-| **Date**                               | 15/04/2025                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Time**                               | 03:00 PM (GMT -5)                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| **Location**                           | Modalidad remota por Google Meet                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **Prepared By**                        | Testigos de SplitEasy                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| **Attendees (to planning meeting)**    | Todos los miembros del grupo Testigos de SplitEasy                                                                                                                                                                                                                                                                                                                                                                                        |
-| **Sprint 0 Review Summary**        | Este es el primer sprint, por lo tanto, no existe un resumen de revisión de un sprint anterior.                                                                                                                                                                                                                                                                                                                                           |
-| **Sprint 0 Retrospective Summary** | En este sprint se planea desarrollar el Landing Page utilizando un framework de estilos CSS, herramienta nueva para algunos miembros del equipo. <br>Además, se discutió: <br>• El contenido de los textos del landing page. <br>• El diseño previamente elaborado en Figma. <br>Al finalizar este sprint, el Landing Page debe estar desplegado en GitHub, y cualquier usuario debería poder visualizarlo a través de un enlace público. |
+| **Sprint #**                     | Sprint 1 |
+|------------------------|------------|
+| **Sprint Planning Background** | Inicio del proyecto SplitEasy. Se establecieron objetivos iniciales y se organizó el trabajo para desarrollar una primera versión del Landing Page, utilizando herramientas de diseño y desarrollo web. |
+| **Date**              | 2025-04-15 |
+| **Time**              | 03:00 PM (GMT -5) |
+| **Location**          | Modalidad remota por Google Meet |
+| **Prepared By**       | Testigos de SplitEasy |
+| **Attendees (to planning meeting)** | Díaz Fiestas, Jorge Luis / Quincho Gamarra, Paulo Percy |
+
+| **Sprint -1 Review Summary**     | Este es el primer sprint, por lo tanto, no hay una revisión de sprint previa. |
+|------------------------|------------|
+| **Sprint -1 Retrospective Summary** | Al ser el inicio del proyecto, se identificaron aspectos técnicos a aprender, como el uso de frameworks CSS. Se revisó el diseño del Landing Page en Figma, se discutió el contenido textual a incluir y se definió el objetivo principal: lograr desplegar el Landing Page en GitHub Pages al final del sprint. |
+
+| **Sprint Goal & User Stories** | |
+|------------------------|------------|
+| **Sprint 0 Goal**        | Desplegar un Landing Page funcional, con diseño responsive y estructura definida, accesible públicamente desde GitHub Pages. |
+| **Sprint 0 Velocity**    | 2 |
+| **Sum of Story Points**  | 2 |
 
 
-| **Sprint 1 Goal**       | Desplegar un Landing Page funcional con diseño responsive y estructura definida, accesible desde GitHub Pages. |
-| ----------------------- | -------------------------------------------------------------------------------------------------------------- |
-| **Sprint 1 Velocity**   | 2                                                                                                              |
-| **Sum of Story Points** | 2                                                                                                              |
-| **Sprint 1 Goal**       | Desplegar un Landing Page funcional con diseño responsive y estructura definida, accesible desde GitHub Pages. |
-| ----------------------- | -------------------------------------------------------------------------------------------------------------- |
-| **Sprint 1 Velocity**   | 2                                                                                                              |
-| **Sum of Story Points** | 2                                                                                                              |
 
 
 
