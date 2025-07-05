@@ -1982,20 +1982,15 @@ Se siguen las [convenciones de SpringBoot](https://spring.io/projects/spring-boo
 A continuación, se presenta el Sprint Planning 1, donde se incluyen las evidencias de planificación e implementación del Landing Page. También se registran los avances del proyecto e insights de colaboración del equipo a través de GitHub.
 
 | **Sprint #**                     | Sprint 1 |
-|------------------------|------------|
 | **Sprint Planning Background** | Inicio del proyecto SplitEasy. Se establecieron objetivos iniciales y se organizó el trabajo para desarrollar una primera versión del Landing Page, utilizando herramientas de diseño y desarrollo web. |
 | **Date**              | 2025-04-15 |
 | **Time**              | 03:00 PM (GMT -5) |
 | **Location**          | Modalidad remota por Google Meet |
 | **Prepared By**       | Testigos de SplitEasy |
 | **Attendees (to planning meeting)** | Díaz Fiestas, Jorge Luis / Quincho Gamarra, Paulo Percy |
-
 | **Sprint -1 Review Summary**     | Este es el primer sprint, por lo tanto, no hay una revisión de sprint previa. |
-|------------------------|------------|
 | **Sprint -1 Retrospective Summary** | Al ser el inicio del proyecto, se identificaron aspectos técnicos a aprender, como el uso de frameworks CSS. Se revisó el diseño del Landing Page en Figma, se discutió el contenido textual a incluir y se definió el objetivo principal: lograr desplegar el Landing Page en GitHub Pages al final del sprint. |
-
 | **Sprint Goal & User Stories** | |
-|------------------------|------------|
 | **Sprint 0 Goal**        | Desplegar un Landing Page funcional, con diseño responsive y estructura definida, accesible públicamente desde GitHub Pages. |
 | **Sprint 0 Velocity**    | 2 |
 | **Sum of Story Points**  | 2 |
