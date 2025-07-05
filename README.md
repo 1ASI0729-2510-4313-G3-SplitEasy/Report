@@ -2684,49 +2684,79 @@ Durante el proceso de entrevistas con los usuarios finales, se identificaron div
 
 ### 5.3.2 Registro de Entrevistas
 
-A continuación, se detallan las preguntas realizadas al usuario durante la entrevista enfocada en el backend de la aplicación **SplitEasy**, junto con las respuestas obtenidas. Estas respuestas fueron clave para el levantamiento de los requerimientos no funcionales presentados en la sección anterior.
+### SEGMENTO 1:
 
----
+### SEGMENTO 2:
 
-**1. ¿Cómo te gustaría que los usuarios se autentiquen en la aplicación?**  
-*Quiero que los usuarios puedan iniciar sesión con su correo y contraseña. Después, deberían poder usar la aplicación sin tener que volver a iniciar sesión, mientras no se cierre la app o pase mucho tiempo. Solo quiero que el proceso sea seguro y que nadie pueda acceder a mi cuenta sin permiso.*
+**REGISTRO ENTREVISTA 1:**
 
-**2. ¿Qué medidas de seguridad te gustaría para proteger las contraseñas de los usuarios?**  
-*Quiero que las contraseñas se mantengan seguras. Que aunque alguien consiga acceso a la base de datos, no pueda ver las contraseñas. No quiero que nadie pueda descubrir mi contraseña, ni aunque tengan acceso a los datos de la app.*
+Nombre del entrevistador: Jose Martinez
 
-**3. ¿Cómo te gustaría que se gestionen los diferentes tipos de usuarios, como administradores o cabezas del hogar y miembros?**  
-*Imagino que los administradores deberían tener más control sobre la app, como poder ver todos los gastos o cambiar la configuración. Los miembros deberían poder ver y editar solo los suyos. No quiero que cualquiera pueda hacer cualquier cosa.*
+Nombre del entrevistado: Maria Vallejos
 
-**4. ¿Cómo te gustaría que los usuarios puedan actualizar su perfil?**  
-*Me gustaría poder actualizar mi nombre, mi foto, o mi correo en cualquier momento. No quiero tener que pedirle a nadie. Quiero hacerlo yo mismo desde la app.*
+Edad: 20 años
 
-**5. ¿Qué medidas te gustaría que tomemos para asegurarnos de que cada gasto tenga un comprobante adjunto?**  
-*Es muy importante que cada gasto tenga algo que lo respalde, como un recibo o una factura. No quiero que la gente registre un gasto sin tener un comprobante. La app debería pedirnos que adjuntemos un archivo con el gasto.*
+Distrito: Miraflores
 
-**6. ¿Cómo te gustaría que los usuarios puedan filtrar sus gastos por fechas?**  
-*Sería genial ver solo los gastos de una fecha o mes específico. Por ejemplo, quiero saber cuánto gasté el mes pasado. La app debería tener una opción para poner fechas y ver solo los gastos de ese tiempo.*
+Screenshot del video: 
 
-**7. ¿Te gustaría que los usuarios puedan editar o eliminar los gastos que ya han registrado?**  
-*Sí, definitivamente. A veces uno comete un error y sería útil poder corregirlo o borrar el gasto. No quiero tener que crear uno nuevo solo para corregir uno viejo.*
+<p align="left">
+  <img src="images/" alt="UserPersona1" width="500">
+</p>
 
-**8. ¿Cómo te gustaría que los usuarios reciban recordatorios de pago?**  
-*Me gustaría que la app me avise cuando se acerque una fecha de pago. El recordatorio debería ser como una notificación o incluso un correo. Quiero que me avisen con tiempo.*
+URL del video en Microsoft Stream: https://shorturl.at/Bs4bw
 
-**9. ¿Cómo te gustaría que esos recordatorios se envíen automáticamente?**  
-*No quiero tener que hacer nada para que los recordatorios lleguen. Me gustaría que la app se encargue sola de enviarlos en la fecha que yo configure.*
+Inicio de la entrevista: 00:00 
 
-**10. ¿Cómo te gustaría que el sistema maneje los reportes de problemas que los usuarios envíen?**  
-*Quiero poder reportar problemas directamente desde la app. Me gustaría saber qué está pasando con mi reporte: si lo están mirando, si lo van a solucionar, o si ya lo solucionaron.*
+Duración: 06:48
 
----
 
-#### Enlace a evidencia de entrevista (video)
+**REGISTRO ENTREVISTA 2:**
 
-El siguiente video contiene la grabación completa de la entrevista realizada al usuario, en la cual se recogen de manera explícita los requerimientos no funcionales discutidos:
+Nombre del entrevistador: Jose Martinez
 
-[ Ver entrevista - SharePoint UPC](https://upcedupe.sharepoint.com/:v:/s/xn--eisc-ingenieradesoftware-iic/EXtMMCIfOWhGsxDLwXoAltIBZz9AR4ic0FIixpwcBuPhuA?e=0foKff)
+Nombre del entrevistado: Matias Rios
 
-Este material forma parte del archivo de evidencias del proyecto y sustenta la trazabilidad de decisiones técnicas durante el desarrollo de **SplitEasy**.
+Edad: 21 años
+
+Distrito: Pueblo Libre
+
+Screenshot del video: 
+
+<p align="left">
+  <img src="images/" alt="UserPersona1" width="500">
+</p>
+
+URL del video en Microsoft Stream: https://shorturl.at/O0oYp
+
+Inicio de la entrevista: 00:00
+
+Duración: 04:21
+
+
+**REGISTRO ENTREVISTA 3:**
+
+Nombre del entrevistador: Jorge Diaz
+
+Nombre del entrevistado: Marjorie Luna Victoria
+
+Edad: 18 años
+
+Distrito: No especificado
+
+Screenshot del video: 
+
+<p align="left">
+  <img src="images/" alt="UserPersona1" width="500">
+</p>
+
+URL del video en Microsoft Stream: https://upcedupe.sharepoint.com/:v:/s/xn--eisc-ingenieradesoftware-iic/EXtMMCIfOWhGsxDLwXoAltIBZz9AR4ic0FIixpwcBuPhuA?e=0foKff
+
+Inicio de la entrevista: 00:01
+
+Duración: 04:26
+
+
 
 ### 5.3.3. Evaluaciones según heurísticas
 
