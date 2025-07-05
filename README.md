@@ -2701,7 +2701,7 @@ Distrito: Miraflores
 Screenshot del video: 
 
 <p align="left">
-  <img src="images/" alt="UserPersona1" width="500">
+  <img src="images/Mafer.png" alt="UserPersona1" width="500">
 </p>
 
 URL del video en Microsoft Stream: https://shorturl.at/Bs4bw
@@ -2709,6 +2709,40 @@ URL del video en Microsoft Stream: https://shorturl.at/Bs4bw
 Inicio de la entrevista: 00:00 
 
 Duración: 06:48
+
+**Resumen descriptivo de la entrevista**
+
+**Características subjetivas y de personalidad:**
+
+- María Fernanda muestra una actitud positiva, abierta y colaborativa durante toda la entrevista. Se expresa de manera clara y con entusiasmo, mostrando familiaridad con tecnología y plataformas digitales. Se percibe como una usuaria joven, moderna y activa, con una personalidad analítica y orientada a la eficiencia doméstica.
+
+**Opinión general sobre la plataforma:**
+
+- Expresó una experiencia muy positiva con la interfaz del sistema de gestión financiera del hogar. Le pareció intuitiva, centralizada y visualmente clara. Valora tener toda la información disponible en un solo lugar, lo que le facilita el control sobre los gastos y aportes.
+
+**Facilidad de uso y funcionalidad:**
+
+- Indicó que fue fácil aprobar y modificar gastos, gracias a una interfaz amigable. No obstante, mencionó que el proceso para agregar nuevos gastos podría optimizarse con campos más especializados. Le gustaría más rapidez al aplicar ciertos cambios.
+
+**Control y visibilidad:**
+
+- Destacó la utilidad del panel para visualizar las contribuciones individuales y detectar incumplimientos fácilmente. Considera que tiene una visibilidad completa y clara sobre el flujo financiero del hogar.
+
+**Reportes y notificaciones:**
+
+- Encuentra los reportes mensuales extremadamente útiles para dar seguimiento al estado financiero general. Sobre las notificaciones, opina que son útiles pero desearía mayor personalización. Aprecia que no sean invasivas.
+
+**Personalización y ajustes:**
+
+- Le gustaría poder personalizar categorías de gasto y reglas de división. También sugiere poder aplicar porcentajes predeterminados y recibir informes semanales automáticos.
+
+**Confianza en el sistema:**
+
+- Confía en que el sistema divide los gastos de manera justa, pero le gustaría entender mejor cómo se calculan exactamente los porcentajes. Sugiere que el sistema incluya explicaciones más detalladas.
+
+**Satisfacción general y recomendaciones:**
+
+- Está convencida de que la plataforma facilita la convivencia y el orden financiero. Sugiere incluir funciones adicionales como metas de ahorro grupales y reportes más personalizados.
 
 
 **REGISTRO ENTREVISTA 2:**
@@ -2724,7 +2758,7 @@ Distrito: Pueblo Libre
 Screenshot del video: 
 
 <p align="left">
-  <img src="images/" alt="UserPersona1" width="500">
+  <img src="images/Matias.png" alt="UserPersona1" width="500">
 </p>
 
 URL del video en Microsoft Stream: https://shorturl.at/O0oYp
@@ -2732,6 +2766,41 @@ URL del video en Microsoft Stream: https://shorturl.at/O0oYp
 Inicio de la entrevista: 00:00
 
 Duración: 04:21
+
+**Resumen descriptivo de la entrevista**
+
+**Características subjetivas y de personalidad:**
+
+- Rodrigo se muestra metódico, crítico y orientado al detalle. Tiene experiencia previa con aplicaciones financieras y compara activamente funcionalidades. Su tono es directo, pero constructivo. Prefiere interfaces claras y procesos automáticos.
+
+**Opinión general sobre la plataforma:**
+
+- Considera que la plataforma está bien diseñada visualmente y es clara en sus funciones principales. Destaca que cumple bien con lo que promete, especialmente para hogares organizados.
+
+**Facilidad de uso y funcionalidad:**
+
+- No tuvo problemas en modificar o registrar nuevos gastos. Señala que el sistema responde bien, pero que podría ser más ágil con la carga de datos frecuentes.
+
+**Control y visibilidad:**
+
+- Valora el nivel de control sobre aportes y reportes. Considera que es muy útil para supervisar pagos pendientes y anticiparse a problemas de coordinación.
+
+**Reportes y notificaciones:**
+
+- Le parecen útiles los resúmenes financieros, especialmente si se pueden descargar o integrar con Excel. Las alertas le resultaron funcionales, aunque preferiría que se puedan desactivar por tipo o urgencia.
+
+**Personalización y ajustes:**
+
+- Sugiere más flexibilidad en cómo se nombran categorías de gastos y reglas de reparto. También propone una funcionalidad para dividir gastos por tipo (fijo vs. variable).
+
+**Confianza en el sistema:**
+
+- Confía en los cálculos, pero sugiere que el sistema tenga un botón “ver fórmula” al lado de cada reparto automático para total transparencia.
+
+**Satisfacción general y recomendaciones:**
+
+- Está satisfecho con la herramienta y considera que facilitaría la convivencia. Recomienda sumar funciones como históricos comparativos entre meses y alertas según límites predefinidos.
+
 
 
 **REGISTRO ENTREVISTA 3:**
@@ -2747,7 +2816,7 @@ Distrito: No especificado
 Screenshot del video: 
 
 <p align="left">
-  <img src="images/" alt="UserPersona1" width="500">
+  <img src="images/Marjorie.png" alt="UserPersona1" width="500">
 </p>
 
 URL del video en Microsoft Stream: https://upcedupe.sharepoint.com/:v:/s/xn--eisc-ingenieradesoftware-iic/EXtMMCIfOWhGsxDLwXoAltIBZz9AR4ic0FIixpwcBuPhuA?e=0foKff
@@ -2755,6 +2824,41 @@ URL del video en Microsoft Stream: https://upcedupe.sharepoint.com/:v:/s/xn--eis
 Inicio de la entrevista: 00:01
 
 Duración: 04:26
+
+**Resumen descriptivo de la entrevista**
+
+**Características subjetivas y de personalidad:**
+
+- Lucía es expresiva, empática y enfocada en la experiencia de usuario. Tiene un enfoque práctico sobre el manejo del hogar y valora mucho el diseño visual, la facilidad de uso y la comunicación clara.
+
+**Opinión general sobre la plataforma:**
+
+- Describe la plataforma como “amigable y ordenada”. Le gustó que desde el primer uso entendió lo que debía hacer. Le genera confianza al ver todo detallado.
+
+**Facilidad de uso y funcionalidad:**
+
+- Le resultó muy sencillo registrar y modificar gastos. Mencionó que le gustaría un pequeño tutorial inicial para usuarios nuevos.
+
+**Control y visibilidad:**
+
+- Dijo sentirse en control total de los flujos financieros del hogar. Valoró mucho poder ver quién paga a tiempo y quién no.
+
+**Reportes y notificaciones:**
+
+- Le encantan los reportes mensuales y dijo que los consulta cada cierre de mes. Las notificaciones automáticas le ayudaron a coordinar con su pareja para no olvidarse de las fechas.
+
+**Personalización y ajustes:**
+
+- Le gustaría personalizar íconos de categorías y establecer fechas de vencimiento para ciertos gastos. También sugiere colores personalizados para cada usuario.
+
+**Confianza en el sistema:**
+
+- Confía plenamente, aunque mencionó que una guía rápida con ejemplos de cómo se calculan los porcentajes sería útil para personas menos técnicas.
+
+**Satisfacción general y recomendaciones:**
+
+- Se mostró entusiasta. Cree que la app puede mejorar la comunicación en el hogar y evitar discusiones. Sugiere gamificar el ahorro conjunto como un incentivo divertido.
+
 
 
 
