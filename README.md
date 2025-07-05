@@ -211,21 +211,12 @@ SplitEasy es una startup tecnológica enfocada en brindar soluciones financieras
     </td>
   </tr>
   <tr>
-    <td><img src="images/Jhordifoto.PNG" alt="Jhordi" width="150px"></td>
+    <td><img src="images/foto_Jose.jpg" alt="Jhordi" width="150px"></td>
     <td>
       <strong>Nombres y apellidos:</strong>  Jose Luis Martinez Valdivia  <br>
       <strong>Código de estudiante:</strong> U202213989<br>
       <strong>Carrera:</strong> Ing. de Software<br>
       <strong>Descripción:</strong> Soy una persona que me gusta cumplir con mis obligaciones de manera efectiva. Mis conocimientos técnicos van en torno a programación web, bases de datos, lenguajes de alto y bajo nivel como C++, Python y JavaScript.
-    </td>
-  </tr>
-  <tr>
-    <td><img src="images/A.PNG" alt="Alexander" width="150px"></td>
-    <td>
-      <strong>Nombres y apellidos:</strong>   <br>
-      <strong>Código de estudiante:</strong> <br>
-      <strong>Carrera:</strong> Ing. de Software<br>
-      <strong>Descripción:</strong>
     </td>
   </tr>
 </table>
