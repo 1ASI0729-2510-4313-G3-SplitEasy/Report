@@ -1599,7 +1599,7 @@ Link del video explicativo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2
 ### 4.7.1 Class Diagrams
 
 <p align="left">
-  <img src="images/diagramac.PNG" alt="diagramac" width="500">
+  <img src="images/diagramac.PNG" alt="diagramac" width="800">
 </p>
 
 ### 4.7.2. Class Dictionary
@@ -1837,7 +1837,7 @@ Se incluyen índices adicionales para mejorar el rendimiento de consultas:
 
 ### 4.8.1. Database Diagram
 <p align="left">
-  <img src="images/bd.png.png" alt="bd" width="500">
+  <img src="images/bd.png.png" alt="bd" width="800">
 
 </p>
 
