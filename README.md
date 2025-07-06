@@ -2584,6 +2584,16 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
 
 ---
 
+### 5.2.4. Sprint 4
+#### 5.2.3.1.Sprint Planning 3.
+#### 5.2.3.2. Aspect Leaders and Collaborators.
+#### 5.2.3.3.Sprint Backlog 3.
+#### 5.2.3.4.Development Evidence for Sprint Review.
+#### 5.2.3.5.Execution Evidence for Sprint Review.
+#### 5.2.3.6.Services Documentation Evidence for Sprint Review.
+#### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+#### 5.2.3.8.Team Collaboration Insights during Sprint.
+
 ## 5.3. Validation Interviews
 
 ### 5.3.1 Diseño de Entrevistas
@@ -2771,7 +2781,7 @@ Duración: 04:21
 
 **Características subjetivas y de personalidad:**
 
-- Rodrigo se muestra metódico, crítico y orientado al detalle. Tiene experiencia previa con aplicaciones financieras y compara activamente funcionalidades. Su tono es directo, pero constructivo. Prefiere interfaces claras y procesos automáticos.
+- Matias se muestra metódico, crítico y orientado al detalle. Tiene experiencia previa con aplicaciones financieras y compara activamente funcionalidades. Su tono es directo, pero constructivo. Prefiere interfaces claras y procesos automáticos.
 
 **Opinión general sobre la plataforma:**
 
@@ -2829,7 +2839,7 @@ Duración: 04:26
 
 **Características subjetivas y de personalidad:**
 
-- Lucía es expresiva, empática y enfocada en la experiencia de usuario. Tiene un enfoque práctico sobre el manejo del hogar y valora mucho el diseño visual, la facilidad de uso y la comunicación clara.
+- Marjorie es expresiva, empática y enfocada en la experiencia de usuario. Tiene un enfoque práctico sobre el manejo del hogar y valora mucho el diseño visual, la facilidad de uso y la comunicación clara.
 
 **Opinión general sobre la plataforma:**
 
