@@ -3009,7 +3009,30 @@ PROBLEMA #6: No hay validación clara si el ingreso personal está vacío
 
 ## 5.4. Video About-the-Product
 
-### Video: "About-The-Team"**
+**Objetivo del video:**
+
+- El video "About-the-Product" está dirigido principalmente a los visitantes del Landing Page de SplitEasy, quienes desean conocer más sobre el modelo de negocio y las características principales de la solución. Además, este video tiene como objetivo proporcionar información útil a los usuarios de las aplicaciones que ya están utilizando la plataforma, mostrando cómo la herramienta apoya los procesos de gestión financiera compartida en el hogar.
+
+**Contenido del Video:**
+
+- En este video se detalla el propósito principal de SplitEasy, que es proporcionar una plataforma colaborativa y equitativa para gestionar los gastos del hogar. Se explican las funcionalidades clave del producto, como la distribución proporcional de gastos según los ingresos, la visualización de los aportes de cada miembro del hogar, la generación de reportes automáticos y los recordatorios de pagos. El video también aborda cómo la plataforma facilita una experiencia colaborativa que promueve la transparencia, la confianza y la organización financiera dentro del hogar.
+
+**Duración del video:**
+
+**Tiempo de inicio (hh:mm:ss):** 00:00:00
+**Duración total:**
+
+**Pauta de Secuencias de Contenido:**
+
+| **Sección**                      | **Descripción**                                                                                                                    | **Tiempo de inicio (hh\:mm\:ss)** |
+| -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
+| **Introducción al producto**     | Explicación breve sobre el propósito de **SplitEasy** y la misión del producto.                                                    | 00:00:00                          |
+| **Características principales**  | Descripción de las funcionalidades clave: distribución proporcional de gastos, reportes automáticos, y recordatorios.              | 00:00:20                          |
+| **Modelo de negocio**            | Explicación sobre cómo **SplitEasy** se posiciona en el mercado y los beneficios que ofrece a usuarios y representantes del hogar. | 00:02:20                          |
+| **Cierre y llamada a la acción** | Invitación a los usuarios a registrarse y comenzar a usar la plataforma.                                                           | 00:03:30                          |
+
+
+## 5.5. Video: "About-The-Team"
 
   Este video resume el proceso de trabajo del equipo SplitEasy, destacando las fases de desarrollo, las tareas asignadas, y cómo cada miembro contribuyó al proyecto. Además de mostrar el trabajo en equipo y la colaboración en tiempo real, el video incluye entrevistas individuales a cada miembro del equipo, quienes describen sus roles, actividades realizadas y los logros alcanzados durante el desarrollo del producto.
 
