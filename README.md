@@ -3133,6 +3133,10 @@ Cuadro de Video Representativo:
 
 - Imagen representativa del video:
 
+<p align="center">
+  <img src="images/AboutProduct.png" alt="Contributions Endpoint">
+</p>
+
 - URL de la versión publicada en Microsoft Stream:
 
 - URL de la versión publicada en YouTube:
@@ -3155,6 +3159,10 @@ Cuadro de Video Representativo:
 Cuadro de Video Representativo:
 
 - Imagen representativa:
+
+  <p align="center">
+  <img src="images/AboutTeam.png" alt="Contributions Endpoint">
+  </p>
 
 - URL de la versión publicada en Microsoft Stream:
 
