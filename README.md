@@ -2586,8 +2586,42 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
 
 ### 5.2.4. Sprint 4
 #### 5.2.4.1. Sprint Planning 4.
+
+| Sprint #            |  4                                                                                                                               |
+| Sprint Planning Background                                                                                                                                           |
+| -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Date**                               | YYYY-MM-DD                                                                                                                                               |
+| **Time**                               | HH\:MM AM/PM                                                                                                                                             |
+| **Location**                           | (Descripción de la ubicación de la reunión, física o virtual)                                                                                            |
+| **Prepared By**                        |                                                                                                                             |
+| **Attendees (to planning meeting)**    |                                                                                        |
+| **Sprint 3 Review Summary**        | (Resumen del Sprint anterior, en términos de resultados alcanzados a nivel de productos de software, opiniones de miembros y feedback de product owner.) |
+| **Sprint 3 Retrospective Summary** | (Resumen del Sprint anterior, en términos de opiniones de miembros del equipo sobre aciertos u oportunidades de mejora en su forma de trabajo)           |
+| Sprint Goal & User Stories                                                                                                                   |
+| ----------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint 4 Goal**       | (Definir el Goal del Sprint n y la métrica de cumplimiento.)                                                                  |
+| **Sprint 4 Velocity**   | (Definir el Velocity establecido para el Sprint n, es decir cuántos Story Points puede aceptar el equipo para este Sprint n.) |
+| **Sum of Story Points** | (Colocar la suma de los Story Points para los User Stories que se están incluyendo en este Sprint n.)                         |
+
+
 #### 5.2.4.2. Aspect Leaders and Collaborators.
-#### 5.2.4.3.Sprint Backlog 3.
+
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Aspect Name 1 (L/C)** | **Aspect Name 2 (L/C)** | ... | **Aspect Name n (L/C)** |
+| --------------------------------------- | ------------------- | ----------------------- | ----------------------- | --- | ----------------------- |
+|         |       | L                       | C                       | ... |                         |
+|          |              | C                       | C                       | ... | L                       |
+
+
+#### 5.2.4.3.Sprint Backlog 4.
+
+| **User Story** |           | **Work-Item / Task** |           |                 |                        |                 |                                                    |
+| -------------- | --------- | -------------------- | --------- | --------------- | ---------------------- | --------------- | -------------------------------------------------- |
+| **Id**         | **Title** | **Id**               | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+|                |           |                      |           |                 |                        |                 |                                                    |
+|                |           |                      |           |                 |                        |                 |                                                    |
+|                |           |                      |           |                 |                        |                 |                                                    |
+
+
 #### 5.2.4.4.Development Evidence for Sprint Review.
 #### 5.2.4.5.Execution Evidence for Sprint Review.
 #### 5.2.4.6.Services Documentation Evidence for Sprint Review.
@@ -2884,7 +2918,7 @@ Duración: 04:26
   
   - CURSO: Desarrollo de Aplicaciones Open Source
   
-  - SECCIÓN: G3
+  - SECCIÓN: 4313
   
   - PROFESORES: Alberto Wilmer Sanchez Seña
   
