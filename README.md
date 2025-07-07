@@ -2733,27 +2733,60 @@ Durante el proceso de entrevistas con los usuarios finales, se identificaron div
 
 **REGISTRO ENTREVISTA 1:**
 
-Nombre del entrevistador: 
+Nombre del entrevistador: Paulo Quincho
 
-Nombre del entrevistado: 
+Nombre del entrevistado: Donitila Vasquez
 
-Edad: 
+Edad: 20
 
-Distrito: 
+Distrito: Pueblo Libre 
 
 Screenshot del video: 
 
 <p align="left">
-  <img src="images/" alt="UserPersona1" width="500">
+  <img src="images/Vasquez.png" alt="UserPersona1" width="500">
 </p>
 
 URL del video en Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213989_upc_edu_pe/EZW0aw7ydidLobmPsFr8BjUBA8uPZwWRqSF8meEKADFVow?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=JI8hFQ
 
 
-Inicio de la entrevista: 
+Inicio de la entrevista: 00:03
 
-Duración:
+Duración: 04:00
 
+**Resumen descriptivo de la entrevista**
+
+**Características subjetivas y de personalidad:**
+
+- Domicilia se mostró colaborativa, clara en sus respuestas y segura al navegar por la plataforma. Su actitud fue receptiva y positiva ante cada funcionalidad revisada.
+
+**Opinión general sobre la plataforma:**
+
+- Consideró que el diseño es claro y fácil de entender. No encontró elementos visuales confusos y percibió la navegación como fluida.
+
+**Facilidad de uso y funcionalidad:**
+
+- Señaló que fue muy fácil encontrar y registrar gastos y contribuciones. No se sintió perdida en ningún momento, y valoró la claridad entre las secciones del sistema.
+
+**Control y visibilidad:**
+
+- Afirmó que la herramienta ayuda a comprender mejor la distribución de los gastos del hogar, y que mejora la equidad en la administración compartida.
+
+**Reportes y notificaciones:**
+
+- Le resultó útil ver las contribuciones de otros miembros y las notificaciones recibidas. No identificó alertas faltantes y mencionó que los gráficos y reportes son claros y fáciles de interpretar.
+
+**Personalización y ajustes:**
+
+- No propuso mejoras específicas en esta área, aunque consideró que la información mostrada por el momento es suficiente.
+
+**Confianza en el sistema:**
+
+- Mencionó que todo fue correcto y claro. Mostró una actitud confiada respecto al uso de la plataforma.
+
+**Satisfacción general y recomendaciones:**
+
+- Dijo que sí usaría la plataforma de forma regular y que facilitar su uso desde el móvil sería un factor clave para usarla más seguido.
 
 
 **REGISTRO ENTREVISTA 2:**
