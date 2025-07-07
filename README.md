@@ -2585,14 +2585,15 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
 ---
 
 ### 5.2.4. Sprint 4
-#### 5.2.3.1.Sprint Planning 3.
-#### 5.2.3.2. Aspect Leaders and Collaborators.
-#### 5.2.3.3.Sprint Backlog 3.
-#### 5.2.3.4.Development Evidence for Sprint Review.
-#### 5.2.3.5.Execution Evidence for Sprint Review.
-#### 5.2.3.6.Services Documentation Evidence for Sprint Review.
-#### 5.2.3.7.Software Deployment Evidence for Sprint Review.
-#### 5.2.3.8.Team Collaboration Insights during Sprint.
+#### 5.2.4.1. Sprint Planning 4.
+#### 5.2.4.2. Aspect Leaders and Collaborators.
+#### 5.2.4.3.Sprint Backlog 3.
+#### 5.2.4.4.Development Evidence for Sprint Review.
+#### 5.2.4.5.Execution Evidence for Sprint Review.
+#### 5.2.4.6.Services Documentation Evidence for Sprint Review.
+#### 5.2.4.7.Software Deployment Evidence for Sprint Review.
+#### 5.2.4.8.Team Collaboration Insights during Sprint.
+
 
 ## 5.3. Validation Interviews
 
@@ -3007,6 +3008,29 @@ PROBLEMA #6: No hay validación clara si el ingreso personal está vacío
   - Recomendación: Implementar una validación que indique: “Debe ingresar un valor mayor a 0 para su ingreso mensual.”
 
 ## 5.4. Video About-the-Product
+
+### Video: "About-The-Team"**
+
+  Este video resume el proceso de trabajo del equipo SplitEasy, destacando las fases de desarrollo, las tareas asignadas, y cómo cada miembro contribuyó al proyecto. Además de mostrar el trabajo en equipo y la colaboración en tiempo real, el video incluye entrevistas individuales a cada miembro del equipo, quienes describen sus roles, actividades realizadas y los logros alcanzados durante el desarrollo del producto.
+
+| **Sección**                                | **Descripción**                                                                                                       | **Tiempo de inicio (hh\:mm\:ss)** |
+| ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
+| **Introducción y presentación del equipo** | Breve presentación del equipo de trabajo, incluyendo nombres y roles de cada miembro.                                 | 00:00:00                          |
+| **Objetivos y misión del proyecto**        | Explicación de la misión de **SplitEasy** y los objetivos del proyecto.                                               | 00:00:00                          |
+| **EJorge Luis Díaz**         | Testimonio de Jorge Luis Díaz, quien describe sus actividades en el proyecto, logros y desarrollo de competencias.    | 00:04:30                          |
+| **Rodrigo Alaya**     | Testimonio de Rodrigo Alaya, detallando sus responsabilidades y contribución al desarrollo del producto.        | 00:00:00                          |
+| **Percy Quincho**     | Testimonio de Percy Quincho, explicando las tareas que realizó y su impacto en el proyecto.                     | 00:07:00                          |
+| **Jose Martinez**         | Testimonio de Jose Martinez, quien relata su experiencia y las habilidades adquiridas durante el proyecto.          | 00:00:00                          |
+| **Maria Mostajo**           | Testimonio de Maria Mostajo, quien relata su experiencia y las habilidades adquiridas durante el proyecto. | 00:00:00                          |
+
+- Cuadro de Video Representativo:
+
+- Imagen representativa:
+
+- URL de la versión publicada en Microsoft Stream:
+
+- URL de la versión publicada en YouTube:
+
 
 
 # Conclusión
