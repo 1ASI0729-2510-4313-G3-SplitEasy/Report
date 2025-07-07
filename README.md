@@ -3031,6 +3031,14 @@ PROBLEMA #6: No hay validación clara si el ingreso personal está vacío
 | **Modelo de negocio**            | Explicación sobre cómo **SplitEasy** se posiciona en el mercado y los beneficios que ofrece a usuarios y representantes del hogar. | 00:02:20                          |
 | **Cierre y llamada a la acción** | Invitación a los usuarios a registrarse y comenzar a usar la plataforma.                                                           | 00:03:30                          |
 
+Cuadro de Video Representativo:
+
+- Imagen representativa del video:
+
+- URL de la versión publicada en Microsoft Stream:
+
+- URL de la versión publicada en YouTube:
+
 
 ## 5.5. Video: "About-The-Team"
 
@@ -3046,7 +3054,7 @@ PROBLEMA #6: No hay validación clara si el ingreso personal está vacío
 | **Jose Martinez**         | Testimonio de Jose Martinez, quien relata su experiencia y las habilidades adquiridas durante el proyecto.          | 00:00:00                          |
 | **Maria Mostajo**           | Testimonio de Maria Mostajo, quien relata su experiencia y las habilidades adquiridas durante el proyecto. | 00:00:00                          |
 
-- Cuadro de Video Representativo:
+Cuadro de Video Representativo:
 
 - Imagen representativa:
 
