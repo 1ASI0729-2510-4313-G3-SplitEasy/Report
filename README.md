@@ -2731,6 +2731,37 @@ Durante el proceso de entrevistas con los usuarios finales, se identificaron div
 
 ### SEGMENTO 1:
 
+**REGISTRO ENTREVISTA 1:**
+
+Nombre del entrevistador: 
+
+Nombre del entrevistado: 
+
+Edad: 
+
+Distrito: 
+
+Screenshot del video: 
+
+<p align="left">
+  <img src="images/" alt="UserPersona1" width="500">
+</p>
+
+URL del video en Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213989_upc_edu_pe/EZW0aw7ydidLobmPsFr8BjUBA8uPZwWRqSF8meEKADFVow?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=JI8hFQ
+
+
+Inicio de la entrevista: 
+
+Duración:
+
+
+
+**REGISTRO ENTREVISTA 2:**
+
+
+**REGISTRO ENTREVISTA 3:**
+
+
 ### SEGMENTO 2:
 
 **REGISTRO ENTREVISTA 1:**
