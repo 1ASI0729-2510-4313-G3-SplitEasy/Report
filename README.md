@@ -3634,7 +3634,7 @@ Cuadro de Video Representativo:
   <img src="images/AboutProduct.png" alt="Contributions Endpoint">
 </p>
 
-- URL de la versión publicada en Microsoft Stream:
+- URL de la versión publicada en Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213989_upc_edu_pe/EcTcw68c-YZHq01Vql95pQAB_WU7U9FHvgD_ytUI2qIZ_g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=dVbkgk
 
 - URL de la versión publicada en YouTube: https://youtu.be/ok7hreL3sbs
 
