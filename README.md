@@ -3083,6 +3083,56 @@ Duración: 04:00
 
 **REGISTRO ENTREVISTA 2:**
 
+- Nombre del entrevistador: Niurka Huarcaya
+- Nombre del entrevistado: Maria Del Carpio
+- Edad: 20
+- Distrito: La Molina
+- Screenshot del video: 
+
+<p align="left">
+  <img src="images/Ent2.png" alt="UserPersona1" width="500">
+</p>
+
+- URL del video en Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213989_upc_edu_pe/ETZtSg6ek1tGqjrhY3E6ENwBqOup3OxIBwO1B0JIGIceag?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=uPlsHt
+
+- Inicio de la entrevista: 00:00
+- Duración: 04:35
+
+**Resumen descriptivo de la entrevista**
+
+**Características subjetivas y de personalidad:**
+
+- La entrevistada se mostró analítica y detallista. Tiene una buena comprensión de plataformas digitales y valoró especialmente la claridad, organización y transparencia del sistema.
+
+**Opinión general sobre la plataforma:**
+
+- Percibió el diseño como bien organizado y fácil de entender gracias a las secciones claramente tituladas. Le pareció útil el panel “Cómo funciona”.
+
+**Facilidad de uso y funcionalidad:**
+
+- Tuvo una experiencia fluida en la mayoría de los flujos, aunque se sintió un poco confundida al intentar editar un ingreso ya registrado. Sugiere mejoras en el formulario, como sugerencias de categorías y barra de progreso.
+
+**Control y visibilidad:**
+
+- Aprecia poder ver las contribuciones de todos los miembros del hogar, lo que genera confianza y transparencia. Mencionó que los gráficos y reportes le ayudan a entender mejor la distribución del dinero.
+
+**Reportes y notificaciones:**
+
+- Valoró las notificaciones como útiles para no atrasarse en pagos. Sugiere agregar alertas cuando se cambien porcentajes de aporte o se aprueben gastos importantes. Le gustaría ver comparaciones mensuales y evolución de sus finanzas.
+
+**Personalización y ajustes:**
+
+- Sugiere recomendaciones personalizadas como una forma de motivarse a mejorar sus finanzas, así como una experiencia más detallada en los reportes.
+
+**Confianza en el sistema:**
+
+- Confía en la herramienta como un medio para una distribución justa de los gastos y una gestión compartida efectiva.
+
+**Satisfacción general y recomendaciones:**
+
+- Usaría la plataforma de forma regular. Señala que una app móvil aumentaría la frecuencia de uso, así como funciones inteligentes para recomendaciones financieras.
+
+
 
 **REGISTRO ENTREVISTA 3:**
 
