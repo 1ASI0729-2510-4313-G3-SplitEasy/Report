@@ -480,15 +480,39 @@ SplitEasy es una startup tecnológica enfocada en brindar soluciones financieras
       <strong>Descripción:</strong> Soy puntual, lo que me permite realizar todos los trabajos a tiempo. Me gusta tener buena comunicación con el equipo.
     </td>
   </tr>
+  <TR>
+		<td style="text-align: center" align="center"><p align="center"> Niurka Lucero Huarcaya Quispe - U20221B226<br><img src="https://i.ibb.co/DH73jMSf/Niurka.jpg" alt="Foto Stanley" width="45%"> </p></td> 
+		<td style="text-align: center" align="center">Mi nombre es Niurka Huarcaya y actualmente estoy llevando la carrera de Ingeniería de Software. Considero que soy una persona responsable y que puedo aportar al equipo en cualquier aspecto que se requiera.</td>
+		<td style="text-align: center" align="center">Tengo conocimientos de HTML, CSS y lenguajes de programación como C++ y Python. Espero que los conocimientos que he ido adquiriendo en ciclos anteriores sean de gran ayuda para llevar a cabo el presente trabajo.</td>
+	</TR>
+	<TR>
+		<td style="text-align: center" align="center"><p align="center"> José Luis Martinez Valdivia - U202213989 <br>  <img src="images/foto_Jose.jpg" alt="Foto Edson" width="40%"> </p></td> 
+		<td style="text-align: center" align="center">Me considero una persona apasionada por aprender nuevas cosas y mejorar mi nivel de programacion de forma diaria.</td>
+		<td style="text-align: center" align="center"> Soy estudiante de la carrera de Ingenieria. Cuento con conocimiento en los lenguajes de Pyhton, JavaScript y C#. Me encuentro mejorando mis conocimientos en Angular, virtualizacion y VueJS</td>
+	</TR>
+  	<TR>
+		<td style="text-align: center" align="center"><p align="center"> Maria Fernanda Mostajo  - U202312874  <img src="images/fotoMaria.jpeg" alt="Foto José" width="45%"> </p></td> 
+		<td style="text-align: center" align="center">Mi nombre es Maria Fernanda Mostajo, estoy estudiando la carrera de Ingeniería de Software en la UPC, me considero una persona responsable, amable, puntual y con gran capacidad de trabajar en equipo. Asimismo, me comprometo a apoyar a mi equipo en todo el proceso de nuestro trabajo y tambien generando ideas para poder mejorar nuestra propuesta. </td>
+		<td style="text-align: center" align="center">Tengo conocimientos en los lenguajes de programación C++, Python, HTML, CSS, JavaScript y SQL. Además, cuento con habilidades de trabajo en equipo, el cual me permitira realizar un buen trabajo y cumplir con los objetivos planteados en el tiempo establecido. </td>
+	</TR>
   <tr>
-    <td><img src="images/foto_Jose.jpg" alt="Jhordi" width="150px"></td>
-    <td>
-      <strong>Nombres y apellidos:</strong>  Jose Luis Martinez Valdivia  <br>
-      <strong>Código de estudiante:</strong> U202213989<br>
-      <strong>Carrera:</strong> Ing. de Software<br>
-      <strong>Descripción:</strong> Soy una persona que me gusta cumplir con mis obligaciones de manera efectiva. Mis conocimientos técnicos van en torno a programación web, bases de datos, lenguajes de alto y bajo nivel como C++, Python y JavaScript.
-    </td>
-  </tr>
+         <td style="text-align: center" align="center">
+        <p align="center">
+         Rodrigo Alaya - U202219481  
+         <br>
+         <img src="images/fotoAlaya.JPG" alt="Foto Rodrigo" width="50%">
+         </p>
+        </td>
+        <td style="text-align: center" align="center">
+         Soy una persona responsable, comprometida con mis objetivos y con gran disposición para aprender continuamente. Me adapto con facilidad al trabajo en equipo, aportando ideas y soluciones. Valoro mucho la eficiencia, la ética profesional y la mejora 
+         constante. Me esfuerzo por entregar siempre resultados de calidad, gestionando mis tareas con orden y enfoque.
+        </td>
+       <td style="text-align: center" align="center">
+       Apasionado por el desarrollo de software y la resolución de problemas. Tengo conocimientos en C++, Python, HTML, CSS y otros lenguajes de programación. Me considero autodidacta, siempre en busca de nuevos retos para fortalecer mis habilidades técnicas. 
+      También me interesa la experiencia del usuario y el diseño centrado en las personas como parte esencial en la creación de soluciones tecnológicas.
+      </td>
+</tr>
+
 </table>
 
 ## 1.2. Solution Profile
