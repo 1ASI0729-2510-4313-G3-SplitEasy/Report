@@ -13,7 +13,6 @@ Desarrollo de Aplicaciones Open Source <br>
 
 <h3 align="center">Startup: ChabeCode</h3>
 <h3 align="center">1ASI0729-2510-4313</h3>
-<h3 align="center">1ASI0729-2510-4313</h3>
 
 <p align="center"><strong>Producto: SplitEasy</strong></p>
 
@@ -32,7 +31,9 @@ Desarrollo de Aplicaciones Open Source <br>
 
 </div>
 
-<p align="center"><strong>Mayo 2025</strong></p>
+<p align="center"><strong>Julio 2025</strong></p>
+
+<div style="page-break-before: always;"></div>
 
 # Registro de Versiones del Informe
 | Versión | Fecha       | Autor(es)                                                              | Descripción                                                                                                                                         |
@@ -127,7 +128,6 @@ Insights TB1 (Todos participaron):
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
       - [**Primer Segmento - Personas del Hogar:** ](#primer-segmento---personas-del-hogar-)
       - [**Segundo Segmento - Representantes del Hogar:**](#segundo-segmento---representantes-del-hogar)
-      - [**Segundo Segmento - Representantes del Hogar:**](#segundo-segmento---representantes-del-hogar-1)
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
   - [2.3 Needfinding](#23-needfinding)
       - [Segmento #1: Personas del hogar](#segmento-1-personas-del-hogar)
@@ -423,6 +423,15 @@ Insights TB1 (Todos participaron):
     - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
     - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
     - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+- [5.2.4. Sprint 3](#524-sprint-4)
+    - [5.2.4.1. Sprint Planning 3](#5241-sprint-planning-4)
+    - [5.2.4.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+    - [5.2.4.3. Sprint Backlog 3](#5243-sprint-backlog-4)
+    - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+    - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+    - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+    - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+    - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
