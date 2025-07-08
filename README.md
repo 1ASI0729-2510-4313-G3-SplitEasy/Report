@@ -28,7 +28,7 @@ Desarrollo de Aplicaciones Open Source <br>
 |Jose Luis Martinez Valdivia         |  U202213989 |
 |Maria Fernanda Mostajo Orosco        |  U202312874 |
 |Rodrigo Alya Cabrera        |  U202219481  |
-|Niurka Lucero Huarcaya        |  U202... |
+|Niurka Lucero Huarcaya        |  U20221B226 |
 
 </div>
 
