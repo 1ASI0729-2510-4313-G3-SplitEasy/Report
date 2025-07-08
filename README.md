@@ -2287,6 +2287,10 @@ Desarrollar la landing page funcional de SplitEasy que permita a los visitantes 
 | W10     | Footer with links                | Añadir footer con enlaces informativos y legales.                                               | 4              | Jorge Luis Díaz Fiestas                      | ✅ Done |
 | W11     | Responsive footer section        | Adaptar visualmente el footer a todos los dispositivos.                                         | 4              | Jorge Luis Díaz Fiestas                      | ✅ Done |
 
+### Evidencias de Tablero Trello
+<p align="center">
+  <img src="Imagenes/Trello-SPRINT1.jpeg" alt="Trello Sprint 1" width="600">
+</p>
 ---
 
 ## Integrantes del Equipo
@@ -2447,6 +2451,10 @@ A continuación, se presentan los líderes y colaboradores de SplitEasy:
 | 2      | US05           | Configuración de notificaciones     | US05-W1      | Vista de notificaciones                | Configuración de recordatorios y alertas.                                   | 4             | Jhordi Luis Carranza Pérez    | Done   |
 | 2      | US09           | Visualizar reportes mensuales       | US09-W1      | Panel de reportes mensuales            | Informes mensuales de gastos y aportes.                                     | 5              | Alexander Piero Fernández     | Done   |
 
+
+<p align="center">
+  <img src="Imagenes/Trello-SPRINT2.jpeg" alt="Trello Sprint 2" width="600">
+</p>
 ---
 
 #### 5.2.2.3 Deployment Evidence for Sprint Review
