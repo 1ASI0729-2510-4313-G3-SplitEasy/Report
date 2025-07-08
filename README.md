@@ -1446,6 +1446,16 @@ En esta sección se presentarán los user journey mapping para cada user persona
 | 44 | US44 | Integrar cron job para envío de recordatorios | 3 |
 | 45 | US45 | API para dar seguimiento a reportes de problemas | 2 |
 | 46 | US46 | Implementar comentarios o respuestas en el foro | 3 |
+| 47        | US46           | Conectar formularios con endpoints                     | 3             |
+| 48        | US47           | Validar respuestas del backend                         | 2             |
+| 49        | US48           | Manejar errores del servidor                           | 2             |
+| 50        | US49           | Manejo de estados de carga y éxito                     | 2             |
+| 51        | US50           | Verificar integración de gastos                        | 3             |
+| 52        | US51           | Conectar notificaciones al backend                     | 2             |
+| 53        | US52           | Validar seguridad de comunicación                      | 3             |
+| 54        | US53           | Probar sistema en producción                           | 3             |
+| 55        | US54           | Documentar despliegue                                  | 2             |
+| 56        | US55           | Monitoreo del sistema desplegado                       | 2             |
 
 # Capítulo IV: Product Design
 
