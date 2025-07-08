@@ -463,22 +463,35 @@ SplitEasy es una startup tecnológica enfocada en brindar soluciones financieras
 
 <table border="1" cellspacing="0" cellpadding="8">
   <tr>
-    <td><img src="images/Luisfoto.png" alt="Luis" width="150px"></td>
-    <td>
-      <strong>Nombres y apellidos:</strong> Jorge Luis Díaz Fiestas  <br>
-      <strong>Código de estudiante:</strong> U20231D534 <br>
-      <strong>Carrera:</strong> Ing. de Software<br>
-      <strong>Descripción:</strong> Soy Jorge Díaz, estudiante de Ing. de Software, del 5° ciclo. Destacado en el trabajo en grupo y apto para dar retroalimentación. Con conocimientos básicos en Arduino, programación web (HTML, CSS, JS, React, TypeScript, Firebase), bases de datos (SQL, Firebase, Supabase, MongoDB, MariaDB) y lenguajes C/C++.
-    </td>
+   <td style="text-align: center" align="center">
+        <p align="center">
+         Jorge Luis Díaz Fiestas - U20231D534  
+         <br>
+         <img src="images/Luisfoto.png" alt="Foto Rodrigo" width="50%">
+         </p>
+        </td>
+        <td style="text-align: center" align="center">
+         Soy Jorge Díaz, estudiante de Ing. de Software, del 5° ciclo. Destacado en el trabajo en grupo y apto para dar retroalimentación. Con conocimientos básicos en Arduino, programación web (HTML, CSS, JS, React, TypeScript, Firebase), bases de datos (SQL, Firebase, Supabase, MongoDB, MariaDB) y lenguajes C/C++
+         constante. Me esfuerzo por entregar siempre resultados de calidad, gestionando mis tareas con orden y enfoque.
+        </td>
+       <td style="text-align: center" align="center">
+       Apasionado por los nuevo retos y adiquirir nuevo conocimiento de forma diaria
+      </td>
   </tr>
   <tr>
-    <td><img src="images/Paulofoto.PNG" alt="Paulo" width="150px"></td>
-    <td>
-      <strong>Nombres y apellidos:</strong> Paulo Percy Quincho Gamarra <br>
-      <strong>Código de estudiante:</strong> U20191E562<br>
-      <strong>Carrera:</strong> Ing. de Software<br>
-      <strong>Descripción:</strong> Soy puntual, lo que me permite realizar todos los trabajos a tiempo. Me gusta tener buena comunicación con el equipo.
-    </td>
+    <td style="text-align: center" align="center">
+        <p align="center">
+        Paulo Percy Quincho Gamarra - U20191E562  
+         <br>
+         <img src="images/Paulofoto.PNG" alt="Foto Rodrigo" width="50%">
+         </p>
+        </td>
+        <td style="text-align: center" align="center">
+         Soy una persona responsable, comprometida con mis objetivos y soy puntual, lo que me permite realizar todos los trabajos a tiempo. Me gusta tener buena comunicación con el equipo. Me esfuerzo por entregar los mejores resultados.
+        </td>
+       <td style="text-align: center" align="center">
+       Tengo conocimientos en Python, HTML y otros lenguajes de programación. 
+      </td>
   </tr>
   <TR>
 		<td style="text-align: center" align="center"><p align="center"> Niurka Lucero Huarcaya Quispe - U20221B226<br><img src="https://i.ibb.co/DH73jMSf/Niurka.jpg" alt="Foto Stanley" width="45%"> </p></td> 
