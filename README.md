@@ -3892,12 +3892,12 @@ Cuadro de Video Representativo:
 
 | **Sección**                                | **Descripción**                                                                                                       | **Tiempo de inicio (hh\:mm\:ss)** |
 | ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
-| **Introducción y presentación del equipo** | Breve presentación del equipo de trabajo, incluyendo nombres y roles de cada miembro.                                 | 00:00:00                          |
-| **Objetivos y misión del proyecto**        | Explicación de la misión de **SplitEasy** y los objetivos del proyecto.                                               | 00:00:00                          |
-| **EJorge Luis Díaz**         | Testimonio de Jorge Luis Díaz, quien describe sus actividades en el proyecto, logros y desarrollo de competencias.    | 00:04:30                          |
-| **Rodrigo Alaya**     | Testimonio de Rodrigo Alaya, detallando sus responsabilidades y contribución al desarrollo del producto.        | 00:00:00                          |
-| **Percy Quincho**     | Testimonio de Percy Quincho, explicando las tareas que realizó y su impacto en el proyecto.                     | 00:07:00                          |
-| **Jose Martinez**         | Testimonio de Jose Martinez, quien relata su experiencia y las habilidades adquiridas durante el proyecto.          | 00:00:00                          |
+                   |
+| **Jorge Luis Díaz**         | Testimonio de Jorge Luis Díaz, quien describe sus actividades en el proyecto, logros y desarrollo de competencias.    | 00:00:42                          |
+| **Rodrigo Alaya**     | Testimonio de Rodrigo Alaya, detallando sus responsabilidades y contribución al desarrollo del producto.        | 00:01:35                          |
+| **Percy Quincho**     | Testimonio de Percy Quincho, explicando las tareas que realizó y su impacto en el proyecto.                     | 00:03:13                          |
+| **Jose Martinez**         | Testimonio de Jose Martinez, quien relata su experiencia y las habilidades adquiridas durante el proyecto.          | 00:04:42                          |
+| **Niurka Huarcaya**           | Testimonio de Maria Mostajo, quien relata su experiencia y las habilidades adquiridas durante el proyecto. | 00:05:49                          |
 | **Maria Mostajo**           | Testimonio de Maria Mostajo, quien relata su experiencia y las habilidades adquiridas durante el proyecto. | 00:00:00                          |
 
 Cuadro de Video Representativo:
@@ -3908,9 +3908,9 @@ Cuadro de Video Representativo:
   <img src="images/AboutTeam.png" alt="Contributions Endpoint">
   </p>
 
-- URL de la versión publicada en Microsoft Stream:
+- URL de la versión publicada en Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213989_upc_edu_pe/EeGprE707_BEjoKZR-PGpX8B9d3QkXegP9dvgQkD9gxNcw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=tTDlwh
 
-- URL de la versión publicada en YouTube:
+- URL de la versión publicada en YouTube: https://youtu.be/75yfkMC-ynk?si=FaUWTE7Mvrq_kiSq
 
 
 
