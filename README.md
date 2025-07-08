@@ -3622,9 +3622,9 @@ PROBLEMA #6: No hay validación clara si el ingreso personal está vacío
 | **Sección**                      | **Descripción**                                                                                                                    | **Tiempo de inicio (hh\:mm\:ss)** |
 | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
 | **Introducción al producto**     | Explicación breve sobre el propósito de **SplitEasy** y la misión del producto.                                                    | 00:00:00                          |
-| **Características principales**  | Descripción de las funcionalidades clave: distribución proporcional de gastos, reportes automáticos, y recordatorios.              | 00:00:20                          |
-| **Modelo de negocio**            | Explicación sobre cómo **SplitEasy** se posiciona en el mercado y los beneficios que ofrece a usuarios y representantes del hogar. | 00:02:20                          |
-| **Cierre y llamada a la acción** | Invitación a los usuarios a registrarse y comenzar a usar la plataforma.                                                           | 00:03:30                          |
+| **Características principales**  | Descripción de las funcionalidades clave: distribución proporcional de gastos, reportes automáticos, y recordatorios.              | 00:00:45                          |
+| **Modelo de negocio**            | Explicación sobre cómo **SplitEasy** se posiciona en el mercado y los beneficios que ofrece a usuarios y representantes del hogar. | 00:01:39                          |
+| **Cierre** | Invitación a los usuarios a registrarse y comenzar a usar la plataforma.                                                           | 00:02:05                          |
 
 Cuadro de Video Representativo:
 
@@ -3636,7 +3636,7 @@ Cuadro de Video Representativo:
 
 - URL de la versión publicada en Microsoft Stream:
 
-- URL de la versión publicada en YouTube:
+- URL de la versión publicada en YouTube: https://youtu.be/ok7hreL3sbs
 
 
 ## 5.5. Video: "About-The-Team"
