@@ -2883,17 +2883,17 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
 
 | **Sprint #**                          | 4 |
 |--------------------------------------|---|
-| **Sprint Planning Background**       |   |
-| **Date**                             | YYYY-MM-DD |
-| **Time**                             | HH:MM AM/PM |
-| **Location**                         | (Descripción de la ubicación de la reunión, física o virtual) |
-| **Prepared By**                      |   |
-| **Attendees (to planning meeting)**  |   |
-| **Sprint 3 Review Summary**          | (Resumen del Sprint anterior, en términos de resultados alcanzados a nivel de productos de software, opiniones de miembros y feedback de product owner.) |
-| **Sprint 3 Retrospective Summary**   | (Resumen del Sprint anterior, en términos de opiniones de miembros del equipo sobre aciertos u oportunidades de mejora en su forma de trabajo) |
-| **Sprint 4 Goal**                    | (Definir el Goal del Sprint n y la métrica de cumplimiento.) |
-| **Sprint 4 Velocity**                | (Definir el Velocity establecido para el Sprint n, es decir cuántos Story Points puede aceptar el equipo para este Sprint n.) |
-| **Sum of Story Points**              | (Colocar la suma de los Story Points para los User Stories que se están incluyendo en este Sprint n.) |
+| **Sprint Planning Background**       | Este sprint marca la fase final del desarrollo, enfocándose en completar funcionalidades clave del backend y frontend relacionadas a la administración de hogares, validaciones de gasto, soporte, y operaciones automatizadas  |
+| **Date**                             | 2025-06-29 |
+| **Time**                             | 03:00 PM |
+| **Location**                         | Reunión virtual por Google Meet |
+| **Prepared By**                      | Jose Martinez |
+| **Attendees (to planning meeting)**  | Equipo SplitEasy   |
+| **Sprint 3 Review Summary**          | 	Se completaron endpoints de backend para usuarios, hogares, contribuciones y bills; además de implementarse autenticaciones, control de roles y despliegue en entorno de producción. La integración frontend-backend avanzó parcialmente y quedaron pendientes ajustes funcionales y visuales. |
+| **Sprint 3 Retrospective Summary**   | Se valoró la mejora en la organización del backend y se identificó la necesidad de repartir mejor las tareas de frontend para evitar cuellos de botella. También se acordó reforzar la documentación técnica y validar pruebas de integración. |
+| **Sprint 4 Goal**                    | Implementar funcionalidades restantes del sistema y asegurar la integración completa frontend-backend, validación funcional, despliegue final y documentación de producción. |
+| **Sprint 4 Velocity**                | 40 puntos |
+| **Sum of Story Points**              | 40 puntos |
 
 
 #### 5.2.4.2. Aspect Leaders and Collaborators.
@@ -2916,7 +2916,25 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
 
 #### 5.2.4.4.Development Evidence for Sprint Review.
 #### 5.2.4.5.Execution Evidence for Sprint Review.
+
 #### 5.2.4.6.Services Documentation Evidence for Sprint Review.
+
+Durante el sprint 4 se realizo el despliege del la API Rest con los endpoints restantes a terminar.
+
+A continuación se presenta un resumen completo de los endpoints disponibles y sus principales operaciones:
+
+| **Endpoint base**              | **Acciones disponibles**                                                | **Métodos HTTP**                                                                            | **Descripción**                        |
+| ------------------------------ | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | -------------------------------------- |
+| `/api/v1/households`           | Crear, obtener todos, obtener por ID, actualizar, eliminar              | `POST`, `GET`, `GET /{householdId}`, `PUT /{householdId}`, `DELETE /{householdId}`          | Gestión de hogares                     |
+| `/api/v1/users`                | Obtener todos los usuarios, obtener por ID                              | `GET`, `GET /{userId}`                                                                      | Consulta de usuarios                   |
+| `/api/v1/household-members`    | Crear, obtener todos, obtener por ID, actualizar, eliminar              | `POST`, `GET`, `GET /{memberId}`, `PUT /{memberId}`, `DELETE /{memberId}`                   | Administración de miembros de hogar    |
+| `/api/v1/bills`                | Crear factura, listar facturas, obtener por ID, actualizar, eliminar    | `POST`, `GET`, `GET /{billId}`, `PUT /{billId}`, `DELETE /{billId}`                         | Registro de facturas compartidas       |
+| `/api/v1/contributions`        | Crear, listar todas, obtener por ID, actualizar, eliminar               | `POST`, `GET`, `GET /{contributionId}`, `PUT /{contributionId}`, `DELETE /{contributionId}` | Control de aportes individuales        |
+| `/api/v1/member-contributions` | Crear, listar todos, obtener por ID, actualizar, eliminar               | `POST`, `GET`, `GET /{id}`, `PUT /{id}`, `DELETE /{id}`                                     | Aportes de miembros a facturas         |
+| `/api/v1/settings`             | Crear configuración, listar todas, obtener por ID, actualizar, eliminar | `POST`, `GET`, `GET /{settingId}`, `PUT /{settingId}`, `DELETE /{settingId}`                | Preferencias y configuración del hogar |
+| `/api/v1/roles`                | Obtener todos los roles                                                 | `GET`                                                                                       | Consulta de roles disponibles          |
+| `/api/v1/authentication`       | Registro e inicio de sesión                                             | `POST /sign-up`, `POST /sign-in`                                                            | Autenticación de usuarios              |
+
 #### 5.2.4.7.Software Deployment Evidence for Sprint Review.
 #### 5.2.4.8.Team Collaboration Insights during Sprint.
 
