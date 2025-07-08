@@ -2925,7 +2925,47 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
 
 
 #### 5.2.4.4.Development Evidence for Sprint Review.
+
+| **Repository**      | **Branch**         | **Commit Id** | **Commit Message**                | **Commit Message Body**                                                                       | **Commited on (Date)** |
+| ------------------- | ------------------ | ------------- | --------------------------------- | --------------------------------------------------------------------------------------------- | ---------------------- |
+| user/repositoryname | feature/loremipsum | 14ca4e3       | feat: consectetur adipiscing elit | Curabitur quis placerat nulla. Fusce malesuada faucibus quam, ut condimentum velit rutrum ut. | 04/09/2021             |
+
+
 #### 5.2.4.5.Execution Evidence for Sprint Review.
+
+Durante el sprint 4 se realizo el despliegue del backend. Asi mismo se implementaron los endpoints restantes:
+
+- Roles (/api/v1/roles)
+- Settings (/api/v1/settings)
+- Authentication (/api/v1/authentication)
+- Member Contributions (/api/v1/member-contributions)
+
+A continuación, se muestran capturas que evidencian la implementacion de los endpoints REST correspondientes:
+- **Roles:**
+
+<p align="left">
+  <img src="images/Roles.png" alt="UserPersona1" width="500">
+</p>
+
+  
+- **Settings:**
+
+  <p align="left">
+  <img src="images/Settings.png" alt="UserPersona1" width="500">
+</p>
+
+- **Authentication:**
+
+   <p align="left">
+  <img src="images/Authentication.png" alt="UserPersona1" width="500">
+</p>
+
+- **Member Contributions** 
+
+<p align="left">
+  <img src="images/MemberContributions.png" alt="UserPersona1" width="500">
+</p>
+
 
 #### 5.2.4.6.Services Documentation Evidence for Sprint Review.
 
@@ -2946,8 +2986,33 @@ A continuación se presenta un resumen completo de los endpoints disponibles y s
 | `/api/v1/authentication`       | Registro e inicio de sesión                                             | `POST /sign-up`, `POST /sign-in`                                                            | Autenticación de usuarios              |
 
 #### 5.2.4.7.Software Deployment Evidence for Sprint Review.
+
+Tanto el backend como el web application han sido desplegados correctamente en las siguientes plataformas:
+
+- **WebApp (Netlify):**
+  
+<p align="left">
+  <img src="images/Netlify.png" alt="UserPersona1" width="500">
+</p>
+
+- **BackEnd (Render)**
+- 
+<p align="left">
+  <img src="images/Render.png" alt="UserPersona1" width="500">
+</p>
+
+
 #### 5.2.4.8.Team Collaboration Insights during Sprint.
 
+Durante el sprint 3 el equipo trabajó de forma más autónoma pero siempre bajo seguimiento constante en Git:
+
+  - **Jorge Luis Díaz Fiestas:** Líder técnico, encargado de base de datos, procedimiento en Reporte y autenticaciones.
+  - **Paulo Percy Quincho Gamarra:** Implementó endpoints de autenticacion, procedimiento en Reporte, y configuración de backend; A cargo de control de roles, validaciones e integraciones en el backend.
+  - **Rodrigo Alaya:** Encargado de rediseño de UIs y validacion de endpoints y sus datos.
+  - **Jose Martinez:** Encargado de realizar correciones en los repositorios del proyecto y complementar documentacion restante.
+    
+La rama principal main estaba protegida y las integraciones se hicieron a partir de pull requests.
+La colaboración estuvo más centrada en backend, pero también se avanzó en algunos aspectos de configuración en el frontend cuando era necesario.
 
 ## 5.3. Validation Interviews
 
