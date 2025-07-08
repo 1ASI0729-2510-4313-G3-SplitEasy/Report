@@ -2033,7 +2033,7 @@ Desarrollar la landing page funcional de SplitEasy que permita a los visitantes 
 
 ### Evidencias de Tablero Trello
 <p align="center">
-  <img src="Imagenes/Trello-SPRINT1.jpeg" alt="Trello Sprint 1" width="600">
+  <img src="images/Trello-SPRINT1.jpeg" alt="Trello Sprint 1" width="600">
 </p>
 ---
 
@@ -2197,7 +2197,7 @@ A continuación, se presentan los líderes y colaboradores de SplitEasy:
 
 
 <p align="center">
-  <img src="Imagenes/Trello-SPRINT2.jpeg" alt="Trello Sprint 2" width="600">
+  <img src="images/Trello-SPRINT2.jpeg" alt="Trello Sprint 2" width="600">
 </p>
 ---
 
