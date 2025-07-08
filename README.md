@@ -2930,7 +2930,7 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
 | US52           | Validar seguridad (CORS, HTTPS)          | US52-W1              | Validación de seguridad    | Configurar backend para aceptar solo orígenes seguros            | 3                      | Paulo Quincho       | Done                                             |
 | US53           | Probar sistema en producción             | US53-W1              | Testeo en producción       | Probar conexión, sesiones, endpoints y JWT en entorno productivo | 4                      | Jorge Díaz          | Done                                              |
 
-
+<a href="https://ibb.co/mr09gVhX"><img src="https://i.ibb.co/FkX5CL80/sprint4-trello.png" alt="sprint4-trello" border="0"></a>
 
 #### 5.2.4.4.Development Evidence for Sprint Review.
 
