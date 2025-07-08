@@ -2926,9 +2926,63 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
 
 #### 5.2.4.4.Development Evidence for Sprint Review.
 
-| **Repository**      | **Branch**         | **Commit Id** | **Commit Message**                | **Commit Message Body**                                                                       | **Commited on (Date)** |
-| ------------------- | ------------------ | ------------- | --------------------------------- | --------------------------------------------------------------------------------------------- | ---------------------- |
-| user/repositoryname | feature/loremipsum | 14ca4e3       | feat: consectetur adipiscing elit | Curabitur quis placerat nulla. Fusce malesuada faucibus quam, ut condimentum velit rutrum ut. | 04/09/2021             |
+= Reporte:
+
+| Repository                               | Branch            | Commit Id | Commit Message                                                                                       | Commit Message Body | Commited on (Date) |
+|------------------------------------------|--------------------|-----------|--------------------------------------------------------------------------------------------------------|----------------------|---------------------|
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | d1b632    | Add files via upload                                                                                   |                      | 2025-07-08          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | a187fc1   | Add files via upload                                                                                   |                      | 2025-07-08          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 023a1e1   | docs(): add partial version of sprint 4                                                                |                      | 2025-07-08          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 803deed   | update user flow                                                                                       |                      | 2025-07-08          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | ee41832   | Update README.md                                                                                       |                      | 2025-07-08          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | c1b00e    | chore(images): add Interview 2 screenshot                                                              |                      | 2025-07-08          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 08b8f9c   | Update README.md                                                                                       |                      | 2025-07-08          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 76885ca   | chore: update final prioritization of user stories for SplitEasy platform                              |                      | 2025-07-08          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | de51f5a   | feat: integrate frontend with backend endpoints and improve user feedback                              |                      | 2025-07-07          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 837fc7b   | Fixed sprint planning 4 for improve clarity and consistency in the project report.                     |                      | 2025-07-07          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 6436e0c   | Merge branch 'feature/chapter-5' of https://github.com/IASI0729-2510-4313-G3-SplitEasy/Report into feature/chapter-5 |                      | 2025-07-07          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | be9cecf   | Fixed Trello task sprint images to improve clarity and consistency in the project report.              |                      | 2025-07-07          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 63b051c   | Merge branch 'feature/chapter-5' of https://github.com/IASI0729-2510-4313-G3-SplitEasy/Report into feature/chapter-5 |                      | 2025-07-07          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 7a08315   | Add Trello sprint task screenshots to project report                                                   |                      | 2025-07-07          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 1cbca67   | docs: update Software Architecture Diagram                                                             |                      | 2025-07-07          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 79e701b   | Add files via upload                                                                                   |                      | 2025-07-07          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 8ac812b   | Updated sprint task hour estimates in the report to enhance estimation accuracy and reflect current progress |                  | 2025-07-07          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 95d014e   | Add files via upload                                                                                   |                      | 2025-07-07          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | b56b1be   | Delete images/bd.png.png for update the image from database in back-end                                |                      | 2025-07-07          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 12dd7e3   | Update image in diagram of the classes from spliteasy front-end                                        |                      | 2025-07-07          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 2d5d74d   | Add files via upload                                                                                   |                      | 2025-07-07          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 7032526   | Delete images/diagramac.PNG for update the image                                                       |                      | 2025-07-07          |
+
+- FrontEnd:
+
+| Repository                 | Branch | Commit Id | Commit Message                                                                 | Commit Message Body | Commited on (Date) |
+|----------------------------|--------|-----------|----------------------------------------------------------------------------------|----------------------|---------------------|
+| 1ASI0729-2510-4313-G3-SplitEasy/repository       | main   | d096c14   | feat: Agregate a new logic and confing new desing of components                 |                      | 2025-07-06          |
+| 1ASI0729-2510-4313-G3-SplitEasy/repository       | main   | 53eb104   | feat: advance of poryect v3                                                     |                      | 2025-07-05          |
+| 1ASI0729-2510-4313-G3-SplitEasy/repository       | main   | 991c701   | feature: Improved logic for the sidebar, header, and layout components          |                      | 2025-07-04          |
+| 1ASI0729-2510-4313-G3-SplitEasy/repository       | main   | 2298085   | feat: Improvements to the visual aesthetics of the landing page and registration|                      | 2025-07-03          |
+| 1ASI0729-2510-4313-G3-SplitEasy/repository       | main   | e78b07e   | Feat: upgrade all of elements in the app                                        |                      | 2025-07-03          |
+| 1ASI0729-2510-4313-G3-SplitEasy/repository       | main   | f3ca01c   | Fix: Correction the style of all components                                     |                      | 2025-07-02          |
+
+
+- BackEnd:
+
+| Repository                               | Branch | Commit Id | Commit Message                                                                                      | Commit Message Body | Commited on (Date) |
+|------------------------------------------|--------|-----------|-------------------------------------------------------------------------------------------------------|----------------------|---------------------|
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 9cb1f12   | feat: fix errors in POMXMI for deploy in render                                                      |                      | 2025-07-06          |
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 22ac5c9   | feat: fix errors in POMXMI for deploy in render                                                      |                      | 2025-07-06          |
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 69cd8dc   | feat: fix errors in ApplicationProperties for deploying in render                                    |                      | 2025-07-06          |
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | dc06fba   | feat: fix TokenServiceImpl for deploying in render                                                   |                      | 2025-07-06          |
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | b944bb2   | feat: add PostgreSQL dependency to pom.xml                                                           |                      | 2025-07-06          |
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 846f109   | Update application.properties, for deploy database in render                                         |                      | 2025-07-06          |
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | b21bcaf   | pasos para desplegar                                                                                 |                      | 2025-07-06          |
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 23ac6eb   | Merge pull request #21 from 1ASI0729-2510-4313-G3-SplitEasy/feature/security                         |                      | 2025-07-06          |
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 9a64dfd   | implementacion de autenticacion                                                                      |                      | 2025-07-06          |
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 1673fb1   | Merge pull request #20 from 1ASI0729-2510-4313-G3-SplitEasy/feature/security                         |                      | 2025-07-06          |
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 81ee9df   | implementacion de autenticacion                                                                      |                      | 2025-07-06          |
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 13ee2d4   | cambio de bd a mysql                                                                                 |                      | 2025-07-01          |
+
+
 
 
 #### 5.2.4.5.Execution Evidence for Sprint Review.
