@@ -3435,6 +3435,55 @@ Duración: 04:00
 
 **REGISTRO ENTREVISTA 3:**
 
+- Nombre del entrevistador: Maria Fernanda Mostajo
+- Nombre del entrevistado: Eduardo Cossar
+- Edad: 19
+- Distrito: Surco
+- Screenshot del video: 
+
+<p align="left">
+  <img src="images/entrevistaEduardo.png" alt="UserPersona1" width="500">
+</p>
+
+- URL del video en Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312874_upc_edu_pe/EbQyspJREn9DlsjbBZ9nmPMBKAenZ6-Wwk2cTebYqbxz1w?e=2QFWH6
+
+- Inicio de la entrevista: 00:00
+- Duración: 06:15
+
+**Resumen descriptivo de la entrevista**
+
+**Características subjetivas y de personalidad:**
+
+- Eduardo tiene un perfil detallista y reflexivo. Posee una buena comprensión de plataformas digitales y aprecia soluciones que le permiten llevar un control ordenado y claro de sus finanzas. Se mostró seguro al evaluar cada funcionalidad y aportó sugerencias enfocadas en la mejora de la experiencia general, como la incorporación de detalles visuales y funciones móviles.
+
+**Opinión general sobre la plataforma:**
+
+- Percibió la plataforma como bien estructurada y visualmente amigable. Destacó la claridad en la organización de las secciones, lo que le permitió comprender rápidamente cómo usarla. El panel informativo “Cómo funciona” le pareció especialmente útil para usuarios nuevos. Considera que el diseño contribuye a una experiencia intuitiva y accesible.
+
+**Facilidad de uso y funcionalidad:**
+
+- En general, tuvo una experiencia fluida en los distintos flujos de la plataforma. Encontró muy sencillo registrar gastos y navegar entre secciones gracias a la distribución lógica de los botones. No experimentó momentos de confusión, aunque señaló que la opción para volver al inicio podría ser más visible y que sería útil añadir la función para adjuntar fotos de recibos al registrar un gasto. Además, sugiere agregar sugerencias de categorías y una barra de progreso en los formularios para mejorar la interacción.
+
+**Control y visibilidad:**
+
+- Valoró de manera positiva la posibilidad de visualizar las contribuciones de todos los miembros del hogar, ya que esto genera un ambiente de confianza y transparencia. Comentó que los gráficos y reportes son útiles para entender mejor cómo se distribuye el dinero, facilitando la toma de decisiones compartidas sobre los gastos.
+
+**Reportes y notificaciones:**
+
+- Las notificaciones fueron consideradas por el entrevistado como una herramienta útil para evitar olvidos en los pagos. Sugiere ampliar estas funciones con alertas específicas cuando se realicen cambios importantes, como la modificación de porcentajes de aporte o la aprobación de gastos de mayor impacto. Asimismo, considera que un resumen semanal enviado como notificación permitiría obtener una visión rápida del estado de las finanzas sin necesidad de ingresar a la plataforma.
+
+**Personalización y ajustes:**
+
+- Entre sus recomendaciones, destacó la importancia de ofrecer sugerencias personalizadas para motivar a los usuarios a mejorar la gestión de sus finanzas. También considera valiosa la posibilidad de descargar reportes en formatos como PDF para quienes deseen un análisis más detallado.
+
+**Confianza en el sistema:**
+
+- Expresó confianza en la herramienta, señalando que le parece un medio eficaz para lograr una distribución justa de los gastos y fomentar una gestión colaborativa dentro del hogar. Resaltó la transparencia como uno de los principales atributos que generan credibilidad en la plataforma.
+
+**Satisfacción general y recomendaciones:**
+
+- El entrevistado afirmó que utilizaría la plataforma de manera regular debido a su utilidad y simplicidad. Comentó que una aplicación móvil aumentaría significativamente la frecuencia de uso, permitiendo registrar gastos y consultar datos desde cualquier lugar. También sugirió incorporar funciones inteligentes que ofrezcan recomendaciones financieras basadas en los hábitos del usuario, para optimizar la experiencia y el valor de la herramienta.
+
 
 ### SEGMENTO 2:
 
