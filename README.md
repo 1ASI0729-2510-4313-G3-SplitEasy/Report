@@ -1051,7 +1051,7 @@ Actitudes clave: Busca equidad, solución rápida de problemas, transparencia en
 
 
 
-#### **Segundo Segmento - Representantes del Hogar:**
+**REGISTRO DE ENTREVISTA 3:**
 
 Nombre del entrevistador: Alexander Fernández 
 
@@ -3890,15 +3890,16 @@ Cuadro de Video Representativo:
 
   Este video resume el proceso de trabajo del equipo SplitEasy, destacando las fases de desarrollo, las tareas asignadas, y cómo cada miembro contribuyó al proyecto. Además de mostrar el trabajo en equipo y la colaboración en tiempo real, el video incluye entrevistas individuales a cada miembro del equipo, quienes describen sus roles, actividades realizadas y los logros alcanzados durante el desarrollo del producto.
 
-| **Sección**                                | **Descripción**                                                                                                       | **Tiempo de inicio (hh\:mm\:ss)** |
-| ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
-                   |
-| **Jorge Luis Díaz**         | Testimonio de Jorge Luis Díaz, quien describe sus actividades en el proyecto, logros y desarrollo de competencias.    | 00:00:42                          |
-| **Rodrigo Alaya**     | Testimonio de Rodrigo Alaya, detallando sus responsabilidades y contribución al desarrollo del producto.        | 00:01:35                          |
-| **Percy Quincho**     | Testimonio de Percy Quincho, explicando las tareas que realizó y su impacto en el proyecto.                     | 00:03:13                          |
-| **Jose Martinez**         | Testimonio de Jose Martinez, quien relata su experiencia y las habilidades adquiridas durante el proyecto.          | 00:04:42                          |
-| **Niurka Huarcaya**           | Testimonio de Maria Mostajo, quien relata su experiencia y las habilidades adquiridas durante el proyecto. | 00:05:49                          |
-| **Maria Mostajo**           | Testimonio de Maria Mostajo, quien relata su experiencia y las habilidades adquiridas durante el proyecto. | 00:00:00                          |
+| **Sección**             | **Descripción**                                                                                                       | **Tiempo de inicio (hh:mm:ss)** |
+|-------------------------|-----------------------------------------------------------------------------------------------------------------------|---------------------------------|
+| **Maria Mostajo**       | Testimonio de Maria Mostajo, quien relata su experiencia y las habilidades adquiridas durante el proyecto.            | 00:00:00                        |
+| **Jorge Luis Díaz**     | Testimonio de Jorge Luis Díaz, quien describe sus actividades en el proyecto, logros y desarrollo de competencias.    | 00:00:42                        |
+| **Rodrigo Alaya**       | Testimonio de Rodrigo Alaya, detallando sus responsabilidades y contribución al desarrollo del producto.              | 00:01:35                        |
+| **Percy Quincho**       | Testimonio de Percy Quincho, explicando las tareas que realizó y su impacto en el proyecto.                          | 00:03:13                        |
+| **Jose Martinez**       | Testimonio de Jose Martinez, quien relata su experiencia y las habilidades adquiridas durante el proyecto.            | 00:04:42                        |
+| **Niurka Huarcaya**     | Testimonio de Niurka Huarcaya, quien relata su experiencia y las habilidades adquiridas durante el proyecto.          | 00:05:49                        |
+
+
 
 Cuadro de Video Representativo:
 
