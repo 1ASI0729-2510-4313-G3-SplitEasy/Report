@@ -2908,10 +2908,21 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
 
 #### 5.2.4.2. Aspect Leaders and Collaborators.
 
-| **Team Member (Last Name, First Name)** | **GitHub Username** | **Aspect Name 1 (L/C)** | **Aspect Name 2 (L/C)** | ... | **Aspect Name n (L/C)** |
-| --------------------------------------- | ------------------- | ----------------------- | ----------------------- | --- | ----------------------- |
-|         |       | L                       | C                       | ... |                         |
-|          |              | C                       | C                       | ... | L                       |
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Restyling WebApp (L/C)** | **Adding BackEnd Endpoints (L/C)** | **Fixing Report (L/C)** |
+| --------------------------------------- | ------------------- | ----------------------- | -----------------------  | ----------------------- |
+|    Percy Quincho     |  Paulo02-pixel
+     | C                       | L                       |  C                       |
+|    Rodigo Alaya      | 
+ALAYA1803             | L                       | C                       | C                      |
+|    Luis Diaz     |   LuisDiazpe
+           | C                       | C                       | L                      |
+|    Jose Martinez     |   
+hmongus
+           | C                       | C                       |    C                   |
+|   Niurka Huarcaya     |    
+NLH18
+          | C                       | C                       |   C                    |
+|   Mafer Mostajo   |              | C                       | C                       |        C               |
 
 
 #### 5.2.4.3.Sprint Backlog 4.
