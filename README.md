@@ -2909,20 +2909,13 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
 #### 5.2.4.2. Aspect Leaders and Collaborators.
 
 | **Team Member (Last Name, First Name)** | **GitHub Username** | **Restyling WebApp (L/C)** | **Adding BackEnd Endpoints (L/C)** | **Fixing Report (L/C)** |
-| --------------------------------------- | ------------------- | ----------------------- | -----------------------  | ----------------------- |
-|    Percy Quincho     |  Paulo02-pixel
-     | C                       | L                       |  C                       |
-|    Rodigo Alaya      | 
-ALAYA1803             | L                       | C                       | C                      |
-|    Luis Diaz     |   LuisDiazpe
-           | C                       | C                       | L                      |
-|    Jose Martinez     |   
-hmongus
-           | C                       | C                       |    C                   |
-|   Niurka Huarcaya     |    
-NLH18
-          | C                       | C                       |   C                    |
-|   Mafer Mostajo   |              | C                       | C                       |        C               |
+| --------------------------------------- | ------------------- | -------------------------- | ---------------------------------- | ----------------------- |
+| Quincho, Percy                          | Paulo02-pixel       | C                          | L                                  | C                       |
+| Alaya, Rodrigo                          | ALAYA1803           | L                          | C                                  | C                       |
+| Díaz, Luis                              | LuisDiazpe          | C                          | C                                  | L                       |
+| Martinez, José                          | hmongus             | C                          | C                                  | C                       |
+| Huarcaya, Niurka                        | NLH18               | C                          | C                                  | C                       |
+| Mostajo, Mafer                          | —                   | C                          | C                                  | C                       |
 
 
 #### 5.2.4.3.Sprint Backlog 4.
@@ -2941,7 +2934,7 @@ NLH18
 
 #### 5.2.4.4.Development Evidence for Sprint Review.
 
-= Reporte:
+- Reporte:
 
 | Repository                               | Branch            | Commit Id | Commit Message                                                                                       | Commit Message Body | Commited on (Date) |
 |------------------------------------------|--------------------|-----------|--------------------------------------------------------------------------------------------------------|----------------------|---------------------|
@@ -3065,7 +3058,7 @@ Tanto el backend como el web application han sido desplegados correctamente en l
 </p>
 
 - **BackEnd (Render)**
-- 
+  
 <p align="left">
   <img src="images/Render.png" alt="UserPersona1" width="500">
 </p>
