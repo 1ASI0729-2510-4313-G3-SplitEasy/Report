@@ -440,7 +440,7 @@ Insights TB1 (Todos participaron):
 ## Anexos
 
 - Enlace Backend Desplegado: https://backend-app-1-vd66.onrender.com/swagger-ui/index.html
-- Enlace Frontend Desplegado: https://6857d89dafb3ac374611eac0--spliteasy-frontend.netlify.app/
+- Enlace Frontend Desplegado: https://tranquil-dodol-e6200e.netlify.app/
 - Enlace Landing-Page Despeglado: https://1asi0729-2510-4313-g3-spliteasy.github.io/Split-landing/
 
 
@@ -2689,7 +2689,7 @@ Durante este Sprint, se avanzó en la preparación y configuración del entorno 
 ##### Capturas incluidas:
 
 Despliegue de la aplicación web en firebase:
-https://split-easy.netlify.app/
+https://tranquil-dodol-e6200e.netlify.app/
 
 <p align="center">
   <img src="images/nube.png" alt="Nube" />
@@ -3011,7 +3011,7 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
   </thead>
   <tbody>
     <tr>
-      <td rowspan="3">US36</td>
+      <td rowspan="3">TS01</td>
       <td rowspan="3">Implementar autenticación JWT</td>
       <td>T01</td>
       <td>Desarrollo de backend en API Rest</td>
@@ -3077,7 +3077,7 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
       <td>Done </td>
     </tr>
     <tr>
-      <td rowspan="1">US38</td>
+      <td rowspan="1">TS03</td>
       <td rowspan="1">Validar roles de administrador y miembro en backend</td>
       <td>T01</td>
       <td>Control de Acceso según Rol</td>
@@ -3087,7 +3087,7 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
       <td>Done </td>
     </tr>
       <tr>
-      <td rowspan="1">US42</td>
+      <td rowspan="1">TS09</td>
       <td rowspan="1">Implementar actualización y eliminación de gastos	</td>
       <td>T01</td>
       <td>Formularios e Inputs en el Backend</td>
@@ -3097,7 +3097,7 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
       <td>Done </td>
     </tr>
       <tr>
-      <td rowspan="2">US44</td>
+      <td rowspan="2">TS12</td>
       <td rowspan="2">Integrar cron job para envío de recordatorios	</td>
       <td>T01</td>
       <td>Pruebas Funcionales e Integraciones</td>
@@ -3115,7 +3115,7 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
       <td>Done</td>
     </tr>
      <tr>
-      <td rowspan="1">US52</td>
+      <td rowspan="1">TS16</td>
       <td rowspan="1">Validar seguridad (CORS, HTTPS)</td>
       <td>T01</td>
       <td>Validación de seguridad</td>
@@ -3125,7 +3125,7 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
       <td>Done </td>
     </tr>
     <tr>
-      <td rowspan="1">US51</td>
+      <td rowspan="1">TS13</td>
       <td rowspan="1">Conectar notificaciones al backend</td>
       <td>T01</td>
       <td>Notificaciones funcionales</td>
