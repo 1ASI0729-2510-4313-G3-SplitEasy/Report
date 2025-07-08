@@ -13,7 +13,6 @@ Desarrollo de Aplicaciones Open Source <br>
 
 <h3 align="center">Startup: ChabeCode</h3>
 <h3 align="center">1ASI0729-2510-4313</h3>
-<h3 align="center">1ASI0729-2510-4313</h3>
 
 <p align="center"><strong>Producto: SplitEasy</strong></p>
 
@@ -32,7 +31,9 @@ Desarrollo de Aplicaciones Open Source <br>
 
 </div>
 
-<p align="center"><strong>Mayo 2025</strong></p>
+<p align="center"><strong>Julio 2025</strong></p>
+
+<div style="page-break-before: always;"></div>
 
 # Registro de Versiones del Informe
 | Versión | Fecha       | Autor(es)                                                              | Descripción                                                                                                                                         |
@@ -127,7 +128,6 @@ Insights TB1 (Todos participaron):
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
       - [**Primer Segmento - Personas del Hogar:** ](#primer-segmento---personas-del-hogar-)
       - [**Segundo Segmento - Representantes del Hogar:**](#segundo-segmento---representantes-del-hogar)
-      - [**Segundo Segmento - Representantes del Hogar:**](#segundo-segmento---representantes-del-hogar-1)
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
   - [2.3 Needfinding](#23-needfinding)
       - [Segmento #1: Personas del hogar](#segmento-1-personas-del-hogar)
@@ -423,6 +423,15 @@ Insights TB1 (Todos participaron):
     - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
     - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
     - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+- [5.2.4. Sprint 3](#524-sprint-4)
+    - [5.2.4.1. Sprint Planning 3](#5241-sprint-planning-4)
+    - [5.2.4.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+    - [5.2.4.3. Sprint Backlog 3](#5243-sprint-backlog-4)
+    - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+    - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+    - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+    - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+    - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -439,8 +448,8 @@ Insights TB1 (Todos participaron):
 # Student Outcome
 | **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
 |-------------------------|--------------------------|------------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Jorge Luis Díaz Fiestas (TB1):**<br>Ayudé en la organización y grabación del video de presentación del equipo, coordinando qué comunicar y cómo expresarlo.<br>**(TB2):** Supervisé el proyecto. Coordiné reuniones y guié al equipo en el desarrollo de funcionalidades claves como login y workspace.<br>**(TB3):** Comunicaciones técnicas constantes sobre el backend: diseño de base de datos, desarrollo de endpoints, validaciones, pruebas, despliegue y control de acceso por rol (US38).<br><br>**Paulo Percy Quincho Gamarra (TB1):**<br>Expliqué diagramas C4 al equipo y argumenté decisiones técnicas en reuniones.<br>**(TB2):** Expuse mejoras visuales y accesibilidad. Participé en coordinaciones sobre el módulo de autenticación.<br>**(TB3):** Expliqué al equipo la creación de endpoints de autenticación, configuración del servidor, documentación backend y solución del control de acceso (US38).<br><br>**Jose Luis Martinez (TF):** Participe en la coordinacion de tareas del entregable final, detallando roles y tasks de cada miembro | El trabajo grupal nos ayudó a estructurar mejor nuestras ideas orales y adaptarlas según el público: usuarios, docentes o compañeros.<br><br>Presentar avances y coordinar tareas entre diferentes entregas fortaleció nuestra claridad para comunicar asuntos técnicos en tiempo real.<br><br>El desarrollo de funcionalidades exigió explicar y justificar decisiones técnicas en reuniones frecuentes. |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Jorge Luis Díaz Fiestas (TB1):**<br>Revisé ortografía y redacción del informe, incluyendo conclusiones y descripciones funcionales.<br>**(TB2):** Documenté las vistas implementadas, configuraciones del workspace y flujos técnicos de login y recuperación de contraseña.<br>**(TB3):** Documenté backend completo: creación de base de datos, autenticación segura, validaciones, pruebas, despliegue y control de acceso (US38).<br><br>**Paulo Percy Quincho Gamarra (TB1):**<br>Redacté el Needfinding, To-Be Scenario Mapping y parte de los diagramas C4.<br>**(TB2):** Documenté ajustes en accesibilidad, optimización visual y footer.<br>**(TB3):** Documenté endpoints de autenticación, configuración del servidor, documentación de backend y control de acceso (US38).<br><br><br> **Jose Luis Martinez (TF):** Documente el sprint 4, asi como realize correciones pertenecientes a entregables anteriores. Realize entrevistas de validacion y evaluacion en base a heuristicas. | La escritura técnica constante en los reportes y documentación nos ayudó a mejorar la redacción estructurada y clara.<br><br>Nos permitió adaptar el lenguaje escrito según la audiencia (docente, usuario o técnica) y propósito (descriptivo, instructivo o reflexivo).<br><br>Aumentó nuestra capacidad de registrar, validar y explicar decisiones técnicas de forma precisa y profesional. |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Jorge Luis Díaz Fiestas (TB1):**<br>Ayudé en la organización y grabación del video de presentación del equipo, coordinando qué comunicar y cómo expresarlo.<br>**(TB2):** Supervisé el proyecto. Coordiné reuniones y guié al equipo en el desarrollo de funcionalidades claves como login y workspace.<br>**(TB3):** Comunicaciones técnicas constantes sobre el backend: diseño de base de datos, desarrollo de endpoints, validaciones, pruebas, despliegue y control de acceso por rol (US38).<br><br>**Paulo Percy Quincho Gamarra (TB1):**<br>Expliqué diagramas C4 al equipo y argumenté decisiones técnicas en reuniones.<br>**(TB2):** Expuse mejoras visuales y accesibilidad. Participé en coordinaciones sobre el módulo de autenticación.<br>**(TB3):** Expliqué al equipo la creación de endpoints de autenticación, configuración del servidor, documentación backend y solución del control de acceso (US38).<br><br>**Jose Luis Martinez (TF):** Participe en la coordinacion de tareas del entregable final, detallando roles y tasks de cada miembro<br><br>**Niurka Huarcaya Quispe (TF):** En esta entrega, realicé una entrevista de validación y apoyé en la documentación en la actualización y corrección indicadas.  | El trabajo grupal nos ayudó a estructurar mejor nuestras ideas orales y adaptarlas según el público: usuarios, docentes o compañeros.<br><br>Presentar avances y coordinar tareas entre diferentes entregas fortaleció nuestra claridad para comunicar asuntos técnicos en tiempo real.<br><br>El desarrollo de funcionalidades exigió explicar y justificar decisiones técnicas en reuniones frecuentes. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Jorge Luis Díaz Fiestas (TB1):**<br>Revisé ortografía y redacción del informe, incluyendo conclusiones y descripciones funcionales.<br>**(TB2):** Documenté las vistas implementadas, configuraciones del workspace y flujos técnicos de login y recuperación de contraseña.<br>**(TB3):** Documenté backend completo: creación de base de datos, autenticación segura, validaciones, pruebas, despliegue y control de acceso (US38).<br><br>**Paulo Percy Quincho Gamarra (TB1):**<br>Redacté el Needfinding, To-Be Scenario Mapping y parte de los diagramas C4.<br>**(TB2):** Documenté ajustes en accesibilidad, optimización visual y footer.<br>**(TB3):** Documenté endpoints de autenticación, configuración del servidor, documentación de backend y control de acceso (US38).<br><br><br> **Jose Luis Martinez (TF):** Documente el sprint 4, asi como realize correciones pertenecientes a entregables anteriores. Realize entrevistas de validacion y evaluacion en base a heuristicas.<br><br>**Niurka Huarcaya Quispe (TF):** En esta entrega, llevé a cabo una entrevista de validación con un representante de user persona. Además, colaboré en la actualización y corrección de la documentación. | La escritura técnica constante en los reportes y documentación nos ayudó a mejorar la redacción estructurada y clara.<br><br>Nos permitió adaptar el lenguaje escrito según la audiencia (docente, usuario o técnica) y propósito (descriptivo, instructivo o reflexivo).<br><br>Aumentó nuestra capacidad de registrar, validar y explicar decisiones técnicas de forma precisa y profesional. |
 
 
 
@@ -1051,7 +1060,7 @@ Actitudes clave: Busca equidad, solución rápida de problemas, transparencia en
 
 
 
-#### **Segundo Segmento - Representantes del Hogar:**
+**REGISTRO DE ENTREVISTA 3:**
 
 Nombre del entrevistador: Alexander Fernández 
 
@@ -3890,15 +3899,15 @@ Cuadro de Video Representativo:
 
   Este video resume el proceso de trabajo del equipo SplitEasy, destacando las fases de desarrollo, las tareas asignadas, y cómo cada miembro contribuyó al proyecto. Además de mostrar el trabajo en equipo y la colaboración en tiempo real, el video incluye entrevistas individuales a cada miembro del equipo, quienes describen sus roles, actividades realizadas y los logros alcanzados durante el desarrollo del producto.
 
-| **Sección**                                | **Descripción**                                                                                                       | **Tiempo de inicio (hh\:mm\:ss)** |
-| ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
-| **Introducción y presentación del equipo** | Breve presentación del equipo de trabajo, incluyendo nombres y roles de cada miembro.                                 | 00:00:00                          |
-| **Objetivos y misión del proyecto**        | Explicación de la misión de **SplitEasy** y los objetivos del proyecto.                                               | 00:00:00                          |
-| **EJorge Luis Díaz**         | Testimonio de Jorge Luis Díaz, quien describe sus actividades en el proyecto, logros y desarrollo de competencias.    | 00:04:30                          |
-| **Rodrigo Alaya**     | Testimonio de Rodrigo Alaya, detallando sus responsabilidades y contribución al desarrollo del producto.        | 00:00:00                          |
-| **Percy Quincho**     | Testimonio de Percy Quincho, explicando las tareas que realizó y su impacto en el proyecto.                     | 00:07:00                          |
-| **Jose Martinez**         | Testimonio de Jose Martinez, quien relata su experiencia y las habilidades adquiridas durante el proyecto.          | 00:00:00                          |
-| **Maria Mostajo**           | Testimonio de Maria Mostajo, quien relata su experiencia y las habilidades adquiridas durante el proyecto. | 00:00:00                          |
+| **Sección**             | **Descripción**                                                                                                       | **Tiempo de inicio (hh:mm:ss)** |
+|-------------------------|-----------------------------------------------------------------------------------------------------------------------|---------------------------------|
+| **Jorge Luis Díaz**     | Testimonio de Jorge Luis Díaz, quien describe sus actividades en el proyecto, logros y desarrollo de competencias.    | 00:00:42                        |
+| **Rodrigo Alaya**       | Testimonio de Rodrigo Alaya, detallando sus responsabilidades y contribución al desarrollo del producto.              | 00:01:35                        |
+| **Percy Quincho**       | Testimonio de Percy Quincho, explicando las tareas que realizó y su impacto en el proyecto.                          | 00:03:13                        |
+| **Jose Martinez**       | Testimonio de Jose Martinez, quien relata su experiencia y las habilidades adquiridas durante el proyecto.            | 00:04:42                        |
+| **Niurka Huarcaya**     | Testimonio de Niurka Huarcaya, quien relata su experiencia y las habilidades adquiridas durante el proyecto.          | 00:05:49                        |
+
+
 
 Cuadro de Video Representativo:
 
@@ -3908,9 +3917,9 @@ Cuadro de Video Representativo:
   <img src="images/AboutTeam.png" alt="Contributions Endpoint">
   </p>
 
-- URL de la versión publicada en Microsoft Stream:
+- URL de la versión publicada en Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213989_upc_edu_pe/EeGprE707_BEjoKZR-PGpX8B9d3QkXegP9dvgQkD9gxNcw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=tTDlwh
 
-- URL de la versión publicada en YouTube:
+- URL de la versión publicada en YouTube: https://youtu.be/75yfkMC-ynk?si=FaUWTE7Mvrq_kiSq
 
 
 
