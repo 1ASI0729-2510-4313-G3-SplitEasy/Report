@@ -26,6 +26,9 @@ Desarrollo de Aplicaciones Open Source <br>
 |Jorge Luis Díaz Fiestas      |  U20231D534  |
 |Paulo Percy Quincho Gamarra         |  U20191E562 |
 |Jose Luis Martinez Valdivia         |  U202213989 |
+|Maria Fernanda Mostajo Orosco        |  U202312874 |
+|Niurka Lucero Huarcaya        |  U202... |
+
 </div>
 
 <p align="center"><strong>Mayo 2025</strong></p>
@@ -2920,15 +2923,156 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
 
 #### 5.2.4.3.Sprint Backlog 4.
 
-| **User Story** |                                          | **Work-Item / Task** |                            |                                                                  |                        |                     |                                                    |
-| -------------- | ---------------------------------------- | -------------------- | -------------------------- | ---------------------------------------------------------------- | ---------------------- | ------------------- | -------------------------------------------------- |
-| **Id**         | **Title**                                | **Id**               | **Title**                  | **Description**                                                  | **Estimation (Hours)** | **Assigned To**     | **Status (To-do / In-Process / To-Review / Done)** |
-| US38           | Validar roles de administrador y miembro | US38-W1              | Middleware de roles        | Implementar y probar middleware que filtre por rol desde JWT     | 6                      | Rodrigo Alaya | Done                                             |
-| US43           | API para programar recordatorios de pago | US43-W1              | Endpoint recordatorios     | Crear endpoint para registrar recordatorios de pago futuros      | 5                      | Jorge Díaz          | Done                                              |
-| US44           | Integrar cron job para recordatorios     | US44-W1              | Cron de envío automático   | Automatizar notificaciones usando tareas programadas             | 6                      | Rodrigo Alaya         | Done                                              |
-| US51           | Conectar notificaciones al backend       | US51-W1              | Notificaciones funcionales | Enviar alertas a front desde cambios en el backend               | 4                      | Paulo Quincho       | Done                                              |
-| US52           | Validar seguridad (CORS, HTTPS)          | US52-W1              | Validación de seguridad    | Configurar backend para aceptar solo orígenes seguros            | 3                      | Paulo Quincho       | Done                                             |
-| US53           | Probar sistema en producción             | US53-W1              | Testeo en producción       | Probar conexión, sesiones, endpoints y JWT en entorno productivo | 4                      | Jorge Díaz          | Done                                              |
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Sprint #</th>
+      <th colspan="7">Sprint 4</th>
+    </tr>
+    <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="6">Work-Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status (To-do / In-Process / To-Review / Done)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="3">US36</td>
+      <td rowspan="3">Implementar autenticación JWT</td>
+      <td>T01</td>
+      <td>Desarrollo de backend en API Rest</td>
+      <td>Realizar el desarrollo del backend en API Rest</td>
+      <td>5 hr</td>
+      <td>José Luis Martinez</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T02</td>
+      <td>Creacion de Endpoints de Autenticacion y Entidades</td>
+      <td>Exponer endpoints de autenticacion y entidades</td>
+      <td>6 hr</td>
+      <td>Paulo Percy Quincho</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T03</td>
+      <td>Implementar autenticacion</td>
+      <td>Realizar la conexion de frontend-backend seguro</td>
+      <td>6 hr</td>
+      <td>Paulo Percy Quincho</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="1">DOC03</td>
+      <td rowspan="1">Configuracion</td>
+      <td>T01</td>
+      <td>Configuracion del servidor</td>
+      <td>Realizar e implementar la configuración del servidor</td>
+      <td>5 hr</td>
+      <td>Jorge Luis Díaz</td>
+      <td>Done </td>
+    </tr>
+    <tr>
+      <td rowspan="1">DOC02</td>
+      <td rowspan="1">Procedimiento de backend en el Reporte</td>
+      <td>T01</td>
+      <td>Agregar procedimiento de backend en el Reporte	</td>
+      <td>Implementar procedimiento de backend en el reporte</td>
+      <td>6 hr</td>
+      <td>Rodrigo Alaya</td>
+      <td>Done </td>
+    </tr>
+     <tr>
+      <td rowspan="1">DOC01</td>
+      <td rowspan="1">Corrección en el Reporte</td>
+      <td>T01</td>
+      <td>Corrección en el Reporte</td>
+      <td>Cambio de base de datos en la documentación</td>
+      <td>4 hr</td>
+      <td>Paulo Percy Quincho </td>
+      <td>Done </td>
+    </tr>
+    <tr>
+      <td rowspan="1">US03</td>
+      <td rowspan="1">Edición de información personal	</td>
+      <td>T01</td>
+      <td>Configuración Personal en Miembros del Hogar</td>
+      <td>Desarrollar Configuración Personal en Miembros del Hogar</td>
+      <td>5 hr</td>
+      <td>Jorge Luis Díaz</td>
+      <td>Done </td>
+    </tr>
+    <tr>
+      <td rowspan="1">US38</td>
+      <td rowspan="1">Validar roles de administrador y miembro en backend</td>
+      <td>T01</td>
+      <td>Control de Acceso según Rol</td>
+      <td>Implementar Control de Acceso según Rol	</td>
+      <td>5 hr</td>
+      <td>Niurka Huarcaya</td>
+      <td>Done </td>
+    </tr>
+      <tr>
+      <td rowspan="1">US42</td>
+      <td rowspan="1">Implementar actualización y eliminación de gastos	</td>
+      <td>T01</td>
+      <td>Formularios e Inputs en el Backend</td>
+      <td>Validar Formularios e Inputs en el Backend	</td>
+      <td>5 hr</td>
+      <td>Maria Fernanda Mostajo</td>
+      <td>Done </td>
+    </tr>
+      <tr>
+      <td rowspan="2">US44</td>
+      <td rowspan="2">Integrar cron job para envío de recordatorios	</td>
+      <td>T01</td>
+      <td>Pruebas Funcionales e Integraciones</td>
+      <td>Realizar las pruebas funcionales	</td>
+      <td>5 hr</td>
+      <td>Jorge Luis Díaz</td>
+      <td>Done </td>
+    </tr>
+    <tr>
+      <td>T02</td>
+      <td>Despliegue de Aplicacion Web - Backend</td>
+      <td>Realizar el despliegue de Aplicacion Web - Backend</td>
+      <td>6 hr</td>
+      <td>Paulo Percy Quincho</td>
+      <td>Done</td>
+    </tr>
+     <tr>
+      <td rowspan="1">US52</td>
+      <td rowspan="1">Validar seguridad (CORS, HTTPS)</td>
+      <td>T01</td>
+      <td>Validación de seguridad</td>
+      <td>Configurar backend para aceptar solo orígenes seguros	</td>
+      <td>4 hr</td>
+      <td>Paulo Percy Quincho</td>
+      <td>Done </td>
+    </tr>
+    <tr>
+      <td rowspan="1">US51</td>
+      <td rowspan="1">Conectar notificaciones al backend</td>
+      <td>T01</td>
+      <td>Notificaciones funcionales</td>
+      <td>Enviar alertas a front desde cambios en el backend</td>
+      <td>4 hr</td>
+      <td>Paulo Percy Quincho</td>
+      <td>Done </td>
+    </tr>
+  </tbody>
+</table>
+
 
 <img src="images\sprint4_trello.png" alt="sprint4-trello" border="0">
 
