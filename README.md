@@ -2902,31 +2902,39 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
 | **Sprint 3 Review Summary**          | 	Se completaron endpoints de backend para usuarios, hogares, contribuciones y bills; además de implementarse autenticaciones, control de roles y despliegue en entorno de producción. La integración frontend-backend avanzó parcialmente y quedaron pendientes ajustes funcionales y visuales. |
 | **Sprint 3 Retrospective Summary**   | Se valoró la mejora en la organización del backend y se identificó la necesidad de repartir mejor las tareas de frontend para evitar cuellos de botella. También se acordó reforzar la documentación técnica y validar pruebas de integración. |
 | **Sprint 4 Goal**                    | Implementar funcionalidades restantes del sistema y asegurar la integración completa frontend-backend, validación funcional, despliegue final y documentación de producción. |
-| **Sprint 4 Velocity**                | 40 puntos |
-| **Sum of Story Points**              | 40 puntos |
+| **Sprint 4 Velocity**                | 28 puntos |
+| **Sum of Story Points**              | 21 puntos |
 
 
 #### 5.2.4.2. Aspect Leaders and Collaborators.
 
-| **Team Member (Last Name, First Name)** | **GitHub Username** | **Aspect Name 1 (L/C)** | **Aspect Name 2 (L/C)** | ... | **Aspect Name n (L/C)** |
-| --------------------------------------- | ------------------- | ----------------------- | ----------------------- | --- | ----------------------- |
-|         |       | L                       | C                       | ... |                         |
-|          |              | C                       | C                       | ... | L                       |
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Restyling WebApp (L/C)** | **Adding BackEnd Endpoints (L/C)** | **Fixing Report (L/C)** |
+| --------------------------------------- | ------------------- | -------------------------- | ---------------------------------- | ----------------------- |
+| Quincho, Percy                          | Paulo02-pixel       | C                          | L                                  | C                       |
+| Alaya, Rodrigo                          | ALAYA1803           | L                          | C                                  | C                       |
+| Díaz, Luis                              | LuisDiazpe          | C                          | C                                  | L                       |
+| Martinez, José                          | hmongus             | C                          | C                                  | C                       |
+| Huarcaya, Niurka                        | NLH18               | C                          | C                                  | C                       |
+| Mostajo, Mafer                          | —                   | C                          | C                                  | C                       |
 
 
 #### 5.2.4.3.Sprint Backlog 4.
 
-| **User Story** |           | **Work-Item / Task** |           |                 |                        |                 |                                                    |
-| -------------- | --------- | -------------------- | --------- | --------------- | ---------------------- | --------------- | -------------------------------------------------- |
-| **Id**         | **Title** | **Id**               | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
-|                |           |                      |           |                 |                        |                 |                                                    |
-|                |           |                      |           |                 |                        |                 |                                                    |
-|                |           |                      |           |                 |                        |                 |                                                    |
+| **User Story** |                                          | **Work-Item / Task** |                            |                                                                  |                        |                     |                                                    |
+| -------------- | ---------------------------------------- | -------------------- | -------------------------- | ---------------------------------------------------------------- | ---------------------- | ------------------- | -------------------------------------------------- |
+| **Id**         | **Title**                                | **Id**               | **Title**                  | **Description**                                                  | **Estimation (Hours)** | **Assigned To**     | **Status (To-do / In-Process / To-Review / Done)** |
+| US38           | Validar roles de administrador y miembro | US38-W1              | Middleware de roles        | Implementar y probar middleware que filtre por rol desde JWT     | 6                      | Rodrigo Alaya | Done                                             |
+| US43           | API para programar recordatorios de pago | US43-W1              | Endpoint recordatorios     | Crear endpoint para registrar recordatorios de pago futuros      | 5                      | Jorge Díaz          | Done                                              |
+| US44           | Integrar cron job para recordatorios     | US44-W1              | Cron de envío automático   | Automatizar notificaciones usando tareas programadas             | 6                      | Rodrigo Alaya         | Done                                              |
+| US51           | Conectar notificaciones al backend       | US51-W1              | Notificaciones funcionales | Enviar alertas a front desde cambios en el backend               | 4                      | Paulo Quincho       | Done                                              |
+| US52           | Validar seguridad (CORS, HTTPS)          | US52-W1              | Validación de seguridad    | Configurar backend para aceptar solo orígenes seguros            | 3                      | Paulo Quincho       | Done                                             |
+| US53           | Probar sistema en producción             | US53-W1              | Testeo en producción       | Probar conexión, sesiones, endpoints y JWT en entorno productivo | 4                      | Jorge Díaz          | Done                                              |
+
 
 
 #### 5.2.4.4.Development Evidence for Sprint Review.
 
-= Reporte:
+- Reporte:
 
 | Repository                               | Branch            | Commit Id | Commit Message                                                                                       | Commit Message Body | Commited on (Date) |
 |------------------------------------------|--------------------|-----------|--------------------------------------------------------------------------------------------------------|----------------------|---------------------|
@@ -3050,7 +3058,7 @@ Tanto el backend como el web application han sido desplegados correctamente en l
 </p>
 
 - **BackEnd (Render)**
-- 
+  
 <p align="left">
   <img src="images/Render.png" alt="UserPersona1" width="500">
 </p>
