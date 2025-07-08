@@ -440,7 +440,7 @@ Insights TB1 (Todos participaron):
 ## Anexos
 
 - Enlace Backend Desplegado: https://backend-app-1-vd66.onrender.com/swagger-ui/index.html
-- Enlace Frontend Desplegado: https://6857d89dafb3ac374611eac0--spliteasy-frontend.netlify.app/
+- Enlace Frontend Desplegado: https://tranquil-dodol-e6200e.netlify.app/
 - Enlace Landing-Page Despeglado: https://1asi0729-2510-4313-g3-spliteasy.github.io/Split-landing/
 
 
@@ -2689,7 +2689,7 @@ Durante este Sprint, se avanzó en la preparación y configuración del entorno 
 ##### Capturas incluidas:
 
 Despliegue de la aplicación web en firebase:
-https://split-easy.netlify.app/
+https://tranquil-dodol-e6200e.netlify.app/
 
 <p align="center">
   <img src="images/nube.png" alt="Nube" />
