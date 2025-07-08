@@ -26,6 +26,10 @@ Desarrollo de Aplicaciones Open Source <br>
 |Jorge Luis Díaz Fiestas      |  U20231D534  |
 |Paulo Percy Quincho Gamarra         |  U20191E562 |
 |Jose Luis Martinez Valdivia         |  U202213989 |
+|Maria Fernanda Mostajo Orosco        |  U202312874 |
+|Rodrigo Alya Cabrera        |  U202219481  |
+|Niurka Lucero Huarcaya        |  U20221B226 |
+
 </div>
 
 <p align="center"><strong>Mayo 2025</strong></p>
@@ -44,6 +48,7 @@ Desarrollo de Aplicaciones Open Source <br>
 |         | 16/04/2025  | Jorge Luis Díaz Fiestas                                        | Desarrollo del capítulo IV: Software Object-Oriented Design y Database Design                                                                      |
 |         | 18/04/2025  | Jhordi Luis Carranza Pérez                                          | Desarrollo del capítulo V: Software Configuration Management                                                                                       |
 |         | 20/04/2025  |  Alexander Piero Fernandez Garfias             | Desarrollo del capítulo V: Sprint Planning 1                                                                                                        |
+| TF     | 25/03/2025  | Jorge Luis Díaz Fiestas <br>Paulo Percy Quincho Gamarra <br> Jose Luis Martinez Valdivia <br> Maria Fernanda Mostajo Orosco <br> Rodrigo Alya Cabrera <br> Niurka Lucero Huarcaya        | Desarrollo del capítulo V: sprint 4                                                                                                             |
 
 # Project Report Collaboration Insights
 Link del repositorio: https://github.com/1ASI0729-2510-4313-G3-SplitEasy/Report.git
@@ -434,8 +439,8 @@ Insights TB1 (Todos participaron):
 # Student Outcome
 | **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
 |-------------------------|--------------------------|------------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Jorge Luis Díaz Fiestas (TB1):**<br>Ayudé en la organización y grabación del video de presentación del equipo, coordinando qué comunicar y cómo expresarlo.<br>**(TB2):** Supervisé el proyecto. Coordiné reuniones y guié al equipo en el desarrollo de funcionalidades claves como login y workspace.<br>**(TB3):** Comunicaciones técnicas constantes sobre el backend: diseño de base de datos, desarrollo de endpoints, validaciones, pruebas, despliegue y control de acceso por rol (US38).<br><br>**Paulo Percy Quincho Gamarra (TB1):**<br>Expliqué diagramas C4 al equipo y argumenté decisiones técnicas en reuniones.<br>**(TB2):** Expuse mejoras visuales y accesibilidad. Participé en coordinaciones sobre el módulo de autenticación.<br>**(TB3):** Expliqué al equipo la creación de endpoints de autenticación, configuración del servidor, documentación backend y solución del control de acceso (US38).<br><br>**Alexander Piero Fernández Garfias (TB1):**<br>Participé en entrevistas con usuarios y colaboré en la presentación del “About the Team”.<br>**(TB2):** Aporté comentarios sobre tipografía, estilo y consistencia visual. Participé en sesiones de feedback visual.<br><br>**Jhordi Luis Carranza Pérez (TB1):**<br>Colaboré en el video grupal “About the Team” y expresé ideas en reuniones internas.<br>**(TB2):** Apoyé brevemente en el estilo visual y revisé tablas e imágenes de la documentación escrita. | El trabajo grupal nos ayudó a estructurar mejor nuestras ideas orales y adaptarlas según el público: usuarios, docentes o compañeros.<br><br>Presentar avances y coordinar tareas entre diferentes entregas fortaleció nuestra claridad para comunicar asuntos técnicos en tiempo real.<br><br>El desarrollo de funcionalidades exigió explicar y justificar decisiones técnicas en reuniones frecuentes. |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Jorge Luis Díaz Fiestas (TB1):**<br>Revisé ortografía y redacción del informe, incluyendo conclusiones y descripciones funcionales.<br>**(TB2):** Documenté las vistas implementadas, configuraciones del workspace y flujos técnicos de login y recuperación de contraseña.<br>**(TB3):** Documenté backend completo: creación de base de datos, autenticación segura, validaciones, pruebas, despliegue y control de acceso (US38).<br><br>**Paulo Percy Quincho Gamarra (TB1):**<br>Redacté el Needfinding, To-Be Scenario Mapping y parte de los diagramas C4.<br>**(TB2):** Documenté ajustes en accesibilidad, optimización visual y footer.<br>**(TB3):** Documenté endpoints de autenticación, configuración del servidor, documentación de backend y control de acceso (US38).<br><br>**Alexander Piero Fernández Garfias (TB1):**<br>Revisé parcialmente el Impact Map, el Product Backlog y el informe de entrevistas.<br>**(TB2):** Realicé observaciones sobre la coherencia textual y estructura del informe.<br><br>**Jhordi Luis Carranza Pérez (TB1):**<br>Escribí algunas historias de usuario y revisé redacción de conclusiones.<br>**(TB2):** Actualicé imágenes, tablas y algunos detalles menores en la documentación del informe. | La escritura técnica constante en los reportes y documentación nos ayudó a mejorar la redacción estructurada y clara.<br><br>Nos permitió adaptar el lenguaje escrito según la audiencia (docente, usuario o técnica) y propósito (descriptivo, instructivo o reflexivo).<br><br>Aumentó nuestra capacidad de registrar, validar y explicar decisiones técnicas de forma precisa y profesional. |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Jorge Luis Díaz Fiestas (TB1):**<br>Ayudé en la organización y grabación del video de presentación del equipo, coordinando qué comunicar y cómo expresarlo.<br>**(TB2):** Supervisé el proyecto. Coordiné reuniones y guié al equipo en el desarrollo de funcionalidades claves como login y workspace.<br>**(TB3):** Comunicaciones técnicas constantes sobre el backend: diseño de base de datos, desarrollo de endpoints, validaciones, pruebas, despliegue y control de acceso por rol (US38).<br><br>**Paulo Percy Quincho Gamarra (TB1):**<br>Expliqué diagramas C4 al equipo y argumenté decisiones técnicas en reuniones.<br>**(TB2):** Expuse mejoras visuales y accesibilidad. Participé en coordinaciones sobre el módulo de autenticación.<br>**(TB3):** Expliqué al equipo la creación de endpoints de autenticación, configuración del servidor, documentación backend y solución del control de acceso (US38).<br><br>**Jose Luis Martinez (TF):** Participe en la coordinacion de tareas del entregable final, detallando roles y tasks de cada miembro | El trabajo grupal nos ayudó a estructurar mejor nuestras ideas orales y adaptarlas según el público: usuarios, docentes o compañeros.<br><br>Presentar avances y coordinar tareas entre diferentes entregas fortaleció nuestra claridad para comunicar asuntos técnicos en tiempo real.<br><br>El desarrollo de funcionalidades exigió explicar y justificar decisiones técnicas en reuniones frecuentes. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Jorge Luis Díaz Fiestas (TB1):**<br>Revisé ortografía y redacción del informe, incluyendo conclusiones y descripciones funcionales.<br>**(TB2):** Documenté las vistas implementadas, configuraciones del workspace y flujos técnicos de login y recuperación de contraseña.<br>**(TB3):** Documenté backend completo: creación de base de datos, autenticación segura, validaciones, pruebas, despliegue y control de acceso (US38).<br><br>**Paulo Percy Quincho Gamarra (TB1):**<br>Redacté el Needfinding, To-Be Scenario Mapping y parte de los diagramas C4.<br>**(TB2):** Documenté ajustes en accesibilidad, optimización visual y footer.<br>**(TB3):** Documenté endpoints de autenticación, configuración del servidor, documentación de backend y control de acceso (US38).<br><br><br> **Jose Luis Martinez (TF):** Documente el sprint 4, asi como realize correciones pertenecientes a entregables anteriores. Realize entrevistas de validacion y evaluacion en base a heuristicas. | La escritura técnica constante en los reportes y documentación nos ayudó a mejorar la redacción estructurada y clara.<br><br>Nos permitió adaptar el lenguaje escrito según la audiencia (docente, usuario o técnica) y propósito (descriptivo, instructivo o reflexivo).<br><br>Aumentó nuestra capacidad de registrar, validar y explicar decisiones técnicas de forma precisa y profesional. |
 
 
 
@@ -458,32 +463,69 @@ SplitEasy es una startup tecnológica enfocada en brindar soluciones financieras
 
 <table border="1" cellspacing="0" cellpadding="8">
   <tr>
-    <td><img src="images/Luisfoto.png" alt="Luis" width="150px"></td>
-    <td>
-      <strong>Nombres y apellidos:</strong> Jorge Luis Díaz Fiestas  <br>
-      <strong>Código de estudiante:</strong> U20231D534 <br>
-      <strong>Carrera:</strong> Ing. de Software<br>
-      <strong>Descripción:</strong> Soy Jorge Díaz, estudiante de Ing. de Software, del 5° ciclo. Destacado en el trabajo en grupo y apto para dar retroalimentación. Con conocimientos básicos en Arduino, programación web (HTML, CSS, JS, React, TypeScript, Firebase), bases de datos (SQL, Firebase, Supabase, MongoDB, MariaDB) y lenguajes C/C++.
-    </td>
+   <td style="text-align: center" align="center">
+        <p align="center">
+         Jorge Luis Díaz Fiestas - U20231D534  
+         <br>
+         <img src="images/Luisfoto.png" alt="Foto Rodrigo" width="50%">
+         </p>
+        </td>
+        <td style="text-align: center" align="center">
+         Soy Jorge Díaz, estudiante de Ing. de Software, del 5° ciclo. Destacado en el trabajo en grupo y apto para dar retroalimentación. Con conocimientos básicos en Arduino, programación web (HTML, CSS, JS, React, TypeScript, Firebase), bases de datos (SQL, Firebase, Supabase, MongoDB, MariaDB) y lenguajes C/C++
+         constante. Me esfuerzo por entregar siempre resultados de calidad, gestionando mis tareas con orden y enfoque.
+        </td>
+       <td style="text-align: center" align="center">
+       Apasionado por los nuevo retos y adiquirir nuevo conocimiento de forma diaria
+      </td>
   </tr>
   <tr>
-    <td><img src="images/Paulofoto.PNG" alt="Paulo" width="150px"></td>
-    <td>
-      <strong>Nombres y apellidos:</strong> Paulo Percy Quincho Gamarra <br>
-      <strong>Código de estudiante:</strong> U20191E562<br>
-      <strong>Carrera:</strong> Ing. de Software<br>
-      <strong>Descripción:</strong> Soy puntual, lo que me permite realizar todos los trabajos a tiempo. Me gusta tener buena comunicación con el equipo.
-    </td>
+    <td style="text-align: center" align="center">
+        <p align="center">
+        Paulo Percy Quincho Gamarra - U20191E562  
+         <br>
+         <img src="images/Paulofoto.PNG" alt="Foto Rodrigo" width="50%">
+         </p>
+        </td>
+        <td style="text-align: center" align="center">
+         Soy una persona responsable, comprometida con mis objetivos y soy puntual, lo que me permite realizar todos los trabajos a tiempo. Me gusta tener buena comunicación con el equipo. Me esfuerzo por entregar los mejores resultados.
+        </td>
+       <td style="text-align: center" align="center">
+       Tengo conocimientos en Python, HTML y otros lenguajes de programación. 
+      </td>
   </tr>
+  <TR>
+		<td style="text-align: center" align="center"><p align="center"> Niurka Lucero Huarcaya Quispe - U20221B226<br><img src="https://i.ibb.co/DH73jMSf/Niurka.jpg" alt="Foto Stanley" width="45%"> </p></td> 
+		<td style="text-align: center" align="center">Mi nombre es Niurka Huarcaya y actualmente estoy llevando la carrera de Ingeniería de Software. Considero que soy una persona responsable y que puedo aportar al equipo en cualquier aspecto que se requiera.</td>
+		<td style="text-align: center" align="center">Tengo conocimientos de HTML, CSS y lenguajes de programación como C++ y Python. Espero que los conocimientos que he ido adquiriendo en ciclos anteriores sean de gran ayuda para llevar a cabo el presente trabajo.</td>
+	</TR>
+	<TR>
+		<td style="text-align: center" align="center"><p align="center"> José Luis Martinez Valdivia - U202213989 <br>  <img src="images/foto_Jose.jpg" alt="Foto Edson" width="40%"> </p></td> 
+		<td style="text-align: center" align="center">Me considero una persona apasionada por aprender nuevas cosas y mejorar mi nivel de programacion de forma diaria.</td>
+		<td style="text-align: center" align="center"> Soy estudiante de la carrera de Ingenieria. Cuento con conocimiento en los lenguajes de Pyhton, JavaScript y C#. Me encuentro mejorando mis conocimientos en Angular, virtualizacion y VueJS</td>
+	</TR>
+  	<TR>
+		<td style="text-align: center" align="center"><p align="center"> Maria Fernanda Mostajo  - U202312874  <img src="images/fotoMaria.jpeg" alt="Foto José" width="45%"> </p></td> 
+		<td style="text-align: center" align="center">Mi nombre es Maria Fernanda Mostajo, estoy estudiando la carrera de Ingeniería de Software en la UPC, me considero una persona responsable, amable, puntual y con gran capacidad de trabajar en equipo. Asimismo, me comprometo a apoyar a mi equipo en todo el proceso de nuestro trabajo y tambien generando ideas para poder mejorar nuestra propuesta. </td>
+		<td style="text-align: center" align="center">Tengo conocimientos en los lenguajes de programación C++, Python, HTML, CSS, JavaScript y SQL. Además, cuento con habilidades de trabajo en equipo, el cual me permitira realizar un buen trabajo y cumplir con los objetivos planteados en el tiempo establecido. </td>
+	</TR>
   <tr>
-    <td><img src="images/foto_Jose.jpg" alt="Jhordi" width="150px"></td>
-    <td>
-      <strong>Nombres y apellidos:</strong>  Jose Luis Martinez Valdivia  <br>
-      <strong>Código de estudiante:</strong> U202213989<br>
-      <strong>Carrera:</strong> Ing. de Software<br>
-      <strong>Descripción:</strong> Soy una persona que me gusta cumplir con mis obligaciones de manera efectiva. Mis conocimientos técnicos van en torno a programación web, bases de datos, lenguajes de alto y bajo nivel como C++, Python y JavaScript.
-    </td>
-  </tr>
+         <td style="text-align: center" align="center">
+        <p align="center">
+         Rodrigo Alaya - U202219481  
+         <br>
+         <img src="images/fotoAlaya.JPG" alt="Foto Rodrigo" width="50%">
+         </p>
+        </td>
+        <td style="text-align: center" align="center">
+         Soy una persona responsable, comprometida con mis objetivos y con gran disposición para aprender continuamente. Me adapto con facilidad al trabajo en equipo, aportando ideas y soluciones. Valoro mucho la eficiencia, la ética profesional y la mejora 
+         constante. Me esfuerzo por entregar siempre resultados de calidad, gestionando mis tareas con orden y enfoque.
+        </td>
+       <td style="text-align: center" align="center">
+       Apasionado por el desarrollo de software y la resolución de problemas. Tengo conocimientos en C++, Python, HTML, CSS y otros lenguajes de programación. Me considero autodidacta, siempre en busca de nuevos retos para fortalecer mis habilidades técnicas. 
+      También me interesa la experiencia del usuario y el diseño centrado en las personas como parte esencial en la creación de soluciones tecnológicas.
+      </td>
+</tr>
+
 </table>
 
 ## 1.2. Solution Profile
@@ -1226,6 +1268,7 @@ En esta sección se presentarán los user journey mapping para cada user persona
 
 | EPIC ID | Nombre del Epic                  | Descripción |
 |---------|----------------------------------|-------------|
+| EP00    | Arquitectura Técnica y Documentación     | Como desarrollador, quiero diseñar y documentar la arquitectura del sistema para garantizar escalabilidad, mantenimiento y comunicación clara entre miembros del equipo |
 | EP01    | Registro y Gestión de Perfil     | Como usuario, quiero registrarme y gestionar mi perfil de forma segura y personalizada, para acceder a SplitEasy desde cualquier dispositivo. |
 | EP02    | Panel del Representante del Hogar| Como representante del hogar, quiero gestionar y supervisar las finanzas del hogar de forma centralizada y transparente. |
 | EP03    | Panel del Miembro del Hogar      | Como miembro del hogar, quiero registrar mis ingresos, ver mis responsabilidades y mantenerme al día con mis pagos. |
@@ -1382,6 +1425,20 @@ En esta sección se presentarán los user journey mapping para cada user persona
 | EP07     | Exploración como Visitante | US35   | Acceder fácilmente al registro o login desde botones destacados | Como visitante, quiero tener botones claros para registrarme o iniciar sesión desde cualquier parte de la landing. | - Escenario 1: Botón fijo en el header<br>Dado que navegue por la landing,<br>Cuando quiera registrarse,<br>Entonces podrá hacer clic en un botón visible en la parte superior.<br><br>- Escenario 2: Llamados a la acción<br>Dado que lea una sección que le interese,<br>Entonces verá un botón que lo invita a registrarse o iniciar sesión. |
 | EP07     | Exploración como Visitante        | US54  | Documentar despliegue              | Como desarrollador, quiero documentar los pasos del despliegue para facilitar futuras actualizaciones. | - Escenario 1: Instrucciones claras<br>Dado que un nuevo desarrollador acceda a la guía,<br>Cuando lea los pasos,<br>Entonces podrá repetir el despliegue exitosamente. |
 | EP07     | Exploración como Visitante        | US55  | Monitoreo del sistema desplegado   | Como administrador, quiero monitorear el sistema en producción para asegurar su disponibilidad. | - Escenario 1: Ver logs<br>Dado que el sistema registre errores,<br>Cuando se revisen los logs,<br>Entonces se podrá detectar fallas.<br><br>- Escenario 2: Verificar uptime<br>Dado que el sistema esté en funcionamiento,<br>Cuando se consulte el monitor,<br>Entonces debe reflejar disponibilidad continua. |
+|EP00     |Arquitectura Técnica y Documentación| DOC01| Creación de Diagramas C4 del Sistema     |Como desarrollador, quiero crear un conjunto de diagramas C4 (Nivel 1 al 4), para documentar y comunicar claramente la arquitectura del sistema a todo el equipo técnico|Escenario 1: Crear Diagrama de Contexto<br>Dado que se está iniciando la documentación arquitectónica del sistema<br>Cuando el desarrollador crea el diagrama de contexto<br>Entonces se debe mostrar los actores externos, el sistema principal y sus interacciones<br><br>Escenario 2: Crear Diagrama de Componentes<br>Dado que el sistema tiene varios componentes técnicos (frontend, backend, BBDD, APIs)<br>Cuando se genera el diagrama de contenedores<br>Entonces se visualiza la arquitectura interna del sistema como una colección de contenedores con sus tecnologías y relaciones<br><br>Escenario 3: Crear Diagrama de Contenedores<br>Dado que los contenedores contienen múltiples responsabilidades internas<br>Cuando se descompone un contenedor<br>Entonces se visualizan los componentes internos<br><br>Escenario 4: Crear el Diagrama de Clases<br>Dado que se necesita documentar detalles técnicos a nivel de código<br>Cuando se modelan las clases reales del sistema<br>Entonces el diagrama debe incluir atributos y métodos principales y relación entre clases|
+|EP00     |Arquitectura Técnica y Documentación| DOC02|Diseño de Base de Datos|Como desarrollador, quiero diseñar la base de datos del sistema, para estructurar y almacenar de forma segura y eficiente la información que maneja la plataforma|Escenario 1: Creación del modelo entidad-relación<br>Dado que el sistema debe soportar diferentes funcionalidades<br>Cuando se identifican las entidades del sistema<br>Entonces se diseña un modelo con entidades, atributos y relaciones<br><br>Escenario 2: Validación del modelo con requisitos funcionales<br>Dado que  la base de datos debe respaldar las funcionalidades definidas<br>Cuando se revisa el modelo en equipo<br>Entonces se ajustan las entidades o relaciones si faltan campos relevantes para funcionalidades clave|
+|EP00     |Arquitectura Técnica y Documentación| DOC03|Lean UX Process|Como desarrollador, quiero definir el problema, suposiciones, hipótesis y Lean UX Canvas, para alinear el desarrollo del producto con necesidades reales y validar lo más temprano posible|Escenario 1: Validación temprana de suposiciones<br>Dado que se tiene identificado un problema en el Lean UX Problem Statement<br>Cuando se definen las suposiciones y se formula una hipótesis clara<br>Entonces se pueden construir experimentos y diseñar funcionalidades mínimas para validarlas rápidamente|
+|EP00     |Arquitectura Técnica y Documentación| DOC04|Diseño y análisis de entrevistas|Como desarrollador, quiero diseñar, registrar y analizar entrevistas, para comprender las necesidades, frustraciones y objetivos reales de los usuarios|Escenario 1: Registro y análisis estructurado<br>Dado que se han realizado entrevistas con usuarios representativos<br>Cuando se registran sus respuestas y se analizan por patrones<br>Entonces se obtienen insights clave que alimentan la creación de User Personas y escenarios|
+|EP00     |Arquitectura Técnica y Documentación| DOC05|User Personas|Como desarrollador, quiero construir User Personas basadas en entrevistas reales, para representar perfiles ideales que guíen las decisiones de diseño centradas en el usuario|Escenario 1: Construcción de User Persona<br>Dado que se ha recopilado y analizado información cualitativa de entrevistas<br>Cuando se identifican patrones comunes de comportamientos, objetivos y frustraciones<br>Entonces se sintetiza esta información en arquetipos representativos de los usuarios clave|
+|EP00     |Arquitectura Técnica y Documentación| DOC06|User Task Matrix|Como desarrollador, quiero desarrollar una User Task Matrix, para identificar las tareas clave de los usuarios y el nivel de prioridad o frecuencia de cada una|Escenario 1: Mapeo de tareas del usuario<br>Dado que se han identificado actividades frecuentes y críticas mediante entrevistas y observación<br>Cuando ose organizan las tareas por tipo de usuario y frecuencia/importancia<br>Entonces se pueden identificar cuáles tareas deben ser optimizadas o automatizadas en el sistema|
+|EP00     |Arquitectura Técnica y Documentación| DOC07|User Journey Mapping|Como desarrollador, quiero mapear el recorrido completo del usuario al interactuar con la plataforma, para visualizar los puntos de contacto, emociones y fricciones que experimenta|Escenario 1: Análisis del viaje del usuario<br>Dado que se dispone de información sobre las etapas del uso del sistema por parte del usuario<br>Cuando se crea un journey map con fases, emociones, problemas e ideas<br>Entonces se pueden identificar oportunidades de mejora en la experiencia y priorizarlas en el backlog|
+|EP00     |Arquitectura Técnica y Documentación| DOC08|Empathy Mapping|Como desarrollador, quiero crear un mapa de empatía para cada User Persona, para entender qué piensa, siente, dice y hace el usuario, así como sus dolores y necesidades|Escenario 1: Visualización empática del usuario<br>Dado que se cuenta con insumos cualitativos de entrevistas y observaciones<br>Cuando se organiza la información en los cuadrantes del mapa de empatía<br>Entonces se obtiene una comprensión profunda del contexto y motivaciones del usuario que guía el diseño|
+|EP00     |Arquitectura Técnica y Documentación| DOC09|As-Is Scenario Mapping|Como desarrollador, quiero representar el escenario actual del proceso que realiza el usuario, para visualizar ineficiencias o problemas existentes antes de proponer soluciones|Escenario 1: Modelado del flujo actual<br>Dado que se tiene una descripción detallada de cómo los usuarios resuelven actualmente sus problemas<br>Cuando se documentan los pasos, decisiones y obstáculos actuales<br>Entonces se pueden identificar cuellos de botella, puntos de frustración y oportunidades de innovación|
+|EP00     |Arquitectura Técnica y Documentación| DOC10|To-Be Scenario Mapping|Como desarrollador, quiero construir escenarios futuros ideales (To-Be), para visualizar cómo debería funcionar la experiencia del usuario una vez implementadas las mejoras|Escenario 1: Visualización de experiencia futura mejorada<br>Dado que se comprende el escenario actual (As-Is) y se han identificado puntos de oportunidad<br>Cuando se diseña el escenario To-Be que representa una experiencia mejorada<br>Entonces se puede alinear a todo el equipo en una visión clara de hacia dónde debe ir el producto|
+|EP00     |Arquitectura Técnica y Documentación| DOC11|Impact Mapping|Como desarrollador, quiero construir un mapa de impactos, para identificar actores, cambios de comportamiento y entregables alineados con los objetivos del negocio|Escenario 1: Priorización estratégica basada en impactos<br>Dado que se ha definido un objetivo principal del producto<br>Cuando se identifican actores relevantes, impactos esperados y entregables clave<br>Entonces se se facilita la planificación de funcionalidades que realmente aporten valor|
+|EP00     |Arquitectura Técnica y Documentación| DOC12|Product Backlog|Como desarrollador, quiero contar con un Product Backlog priorizado, para tener visibilidad clara de las funcionalidades y facilitar la planificación ágil|Escenario 1: Organización estructurada del trabajo del equipo<br>Dado que se han definido historias de usuario y funcionalidades relevantes<br>Cuando se estructuran y priorizan en un Product Backlog<br>Entonces el equipo puede planificar los sprints de forma ordenada y enfocada en el valor para el usuario|
+|EP00     |Arquitectura Técnica y Documentación| DOC13|Diseño UI de la Landing Page|Como desarrollador, quiero diseñar la interfaz de la landing page, para comunicar claramente el propósito de la plataforma a los nuevos usuarios|Escenario 1: Primera impresión clara para nuevos visitantes<br>Dado que se han elaborado wireframes y mock-ups de la landing page<br>Cuando se implementa una interfaz visual que respeta esta estructura y comunica claramente el propósito de la plataforma<br>Entonces los nuevos usuarios pueden comprender rápidamente de qué trata el sistema y cómo empezar a usarlo|
+|EP00     |Arquitectura Técnica y Documentación| DOC14|Diseño UI de Aplicaciones Web|Como desarrollador, quiero diseñar la interfaz de las aplicaciones web, para que los usuarios puedan navegar y realizar sus tareas de manera sencilla y sin confusión|Escenario 1: Navegación fluida en la aplicación<br>Dado que se han diseñado wireframes, user flows y mock-ups validados por el equipo<br>Cuando se implementa la interfaz web siguiendo estas guías visuales y estructurales<br>Entonces los usuarios pueden navegar por la plataforma con facilidad y completar sus tareas sin obstáculos|
 
 ## 3.3. Impact Mapping
 
@@ -2901,7 +2958,7 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
 | **Attendees (to planning meeting)**  | Equipo SplitEasy   |
 | **Sprint 3 Review Summary**          | 	Se completaron endpoints de backend para usuarios, hogares, contribuciones y bills; además de implementarse autenticaciones, control de roles y despliegue en entorno de producción. La integración frontend-backend avanzó parcialmente y quedaron pendientes ajustes funcionales y visuales. |
 | **Sprint 3 Retrospective Summary**   | Se valoró la mejora en la organización del backend y se identificó la necesidad de repartir mejor las tareas de frontend para evitar cuellos de botella. También se acordó reforzar la documentación técnica y validar pruebas de integración. |
-| **Sprint 4 Goal**                    | Implementar funcionalidades restantes del sistema y asegurar la integración completa frontend-backend, validación funcional, despliegue final y documentación de producción. |
+| **Sprint 4 Goal**                    | En este sprint, nos centramos en implementar funcionalidades restantes del sistema y asegurar la integración completa frontend-backend, validación funcional, despliegue final y completaremos la documentación técnica. Creemos que al finalizar este sprint, el sistema estará listo para su entrega y uso en producción, ofreciendo una experiencia confiable y segura para los usuarios. Esto se confirmará mediante pruebas de aceptación y retroalimentación del equipo.|
 | **Sprint 4 Velocity**                | 28 puntos |
 | **Sum of Story Points**              | 21 puntos |
 
@@ -2920,17 +2977,158 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
 
 #### 5.2.4.3.Sprint Backlog 4.
 
-| **User Story** |                                          | **Work-Item / Task** |                            |                                                                  |                        |                     |                                                    |
-| -------------- | ---------------------------------------- | -------------------- | -------------------------- | ---------------------------------------------------------------- | ---------------------- | ------------------- | -------------------------------------------------- |
-| **Id**         | **Title**                                | **Id**               | **Title**                  | **Description**                                                  | **Estimation (Hours)** | **Assigned To**     | **Status (To-do / In-Process / To-Review / Done)** |
-| US38           | Validar roles de administrador y miembro | US38-W1              | Middleware de roles        | Implementar y probar middleware que filtre por rol desde JWT     | 6                      | Rodrigo Alaya | Done                                             |
-| US43           | API para programar recordatorios de pago | US43-W1              | Endpoint recordatorios     | Crear endpoint para registrar recordatorios de pago futuros      | 5                      | Jorge Díaz          | Done                                              |
-| US44           | Integrar cron job para recordatorios     | US44-W1              | Cron de envío automático   | Automatizar notificaciones usando tareas programadas             | 6                      | Rodrigo Alaya         | Done                                              |
-| US51           | Conectar notificaciones al backend       | US51-W1              | Notificaciones funcionales | Enviar alertas a front desde cambios en el backend               | 4                      | Paulo Quincho       | Done                                              |
-| US52           | Validar seguridad (CORS, HTTPS)          | US52-W1              | Validación de seguridad    | Configurar backend para aceptar solo orígenes seguros            | 3                      | Paulo Quincho       | Done                                             |
-| US53           | Probar sistema en producción             | US53-W1              | Testeo en producción       | Probar conexión, sesiones, endpoints y JWT en entorno productivo | 4                      | Jorge Díaz          | Done                                              |
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Sprint #</th>
+      <th colspan="7">Sprint 4</th>
+    </tr>
+    <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="6">Work-Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status (To-do / In-Process / To-Review / Done)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="3">US36</td>
+      <td rowspan="3">Implementar autenticación JWT</td>
+      <td>T01</td>
+      <td>Desarrollo de backend en API Rest</td>
+      <td>Realizar el desarrollo del backend en API Rest</td>
+      <td>5 hr</td>
+      <td>José Luis Martinez</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T02</td>
+      <td>Creacion de Endpoints de Autenticacion y Entidades</td>
+      <td>Exponer endpoints de autenticacion y entidades</td>
+      <td>6 hr</td>
+      <td>Paulo Percy Quincho</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T03</td>
+      <td>Implementar autenticacion</td>
+      <td>Realizar la conexion de frontend-backend seguro</td>
+      <td>6 hr</td>
+      <td>Paulo Percy Quincho</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="1">DOC03</td>
+      <td rowspan="1">Configuracion</td>
+      <td>T01</td>
+      <td>Configuracion del servidor</td>
+      <td>Realizar e implementar la configuración del servidor</td>
+      <td>5 hr</td>
+      <td>Jorge Luis Díaz</td>
+      <td>Done </td>
+    </tr>
+    <tr>
+      <td rowspan="1">DOC02</td>
+      <td rowspan="1">Procedimiento de backend en el Reporte</td>
+      <td>T01</td>
+      <td>Agregar procedimiento de backend en el Reporte	</td>
+      <td>Implementar procedimiento de backend en el reporte</td>
+      <td>6 hr</td>
+      <td>Rodrigo Alaya</td>
+      <td>Done </td>
+    </tr>
+     <tr>
+      <td rowspan="1">DOC01</td>
+      <td rowspan="1">Corrección en el Reporte</td>
+      <td>T01</td>
+      <td>Corrección en el Reporte</td>
+      <td>Cambio de base de datos en la documentación</td>
+      <td>4 hr</td>
+      <td>Paulo Percy Quincho </td>
+      <td>Done </td>
+    </tr>
+    <tr>
+      <td rowspan="1">US03</td>
+      <td rowspan="1">Edición de información personal	</td>
+      <td>T01</td>
+      <td>Configuración Personal en Miembros del Hogar</td>
+      <td>Desarrollar Configuración Personal en Miembros del Hogar</td>
+      <td>5 hr</td>
+      <td>Jorge Luis Díaz</td>
+      <td>Done </td>
+    </tr>
+    <tr>
+      <td rowspan="1">US38</td>
+      <td rowspan="1">Validar roles de administrador y miembro en backend</td>
+      <td>T01</td>
+      <td>Control de Acceso según Rol</td>
+      <td>Implementar Control de Acceso según Rol	</td>
+      <td>5 hr</td>
+      <td>Niurka Huarcaya</td>
+      <td>Done </td>
+    </tr>
+      <tr>
+      <td rowspan="1">US42</td>
+      <td rowspan="1">Implementar actualización y eliminación de gastos	</td>
+      <td>T01</td>
+      <td>Formularios e Inputs en el Backend</td>
+      <td>Validar Formularios e Inputs en el Backend	</td>
+      <td>5 hr</td>
+      <td>Maria Fernanda Mostajo</td>
+      <td>Done </td>
+    </tr>
+      <tr>
+      <td rowspan="2">US44</td>
+      <td rowspan="2">Integrar cron job para envío de recordatorios	</td>
+      <td>T01</td>
+      <td>Pruebas Funcionales e Integraciones</td>
+      <td>Realizar las pruebas funcionales	</td>
+      <td>5 hr</td>
+      <td>Jorge Luis Díaz</td>
+      <td>Done </td>
+    </tr>
+    <tr>
+      <td>T02</td>
+      <td>Despliegue de Aplicacion Web - Backend</td>
+      <td>Realizar el despliegue de Aplicacion Web - Backend</td>
+      <td>6 hr</td>
+      <td>Paulo Percy Quincho</td>
+      <td>Done</td>
+    </tr>
+     <tr>
+      <td rowspan="1">US52</td>
+      <td rowspan="1">Validar seguridad (CORS, HTTPS)</td>
+      <td>T01</td>
+      <td>Validación de seguridad</td>
+      <td>Configurar backend para aceptar solo orígenes seguros	</td>
+      <td>4 hr</td>
+      <td>Paulo Percy Quincho</td>
+      <td>Done </td>
+    </tr>
+    <tr>
+      <td rowspan="1">US51</td>
+      <td rowspan="1">Conectar notificaciones al backend</td>
+      <td>T01</td>
+      <td>Notificaciones funcionales</td>
+      <td>Enviar alertas a front desde cambios en el backend</td>
+      <td>4 hr</td>
+      <td>Paulo Percy Quincho</td>
+      <td>Done </td>
+    </tr>
+  </tbody>
+</table>
 
 
+<img src="images\sprint4_trello.png" alt="sprint4-trello" border="0">
 
 #### 5.2.4.4.Development Evidence for Sprint Review.
 
@@ -3291,6 +3489,55 @@ Duración: 04:00
 
 **REGISTRO ENTREVISTA 3:**
 
+- Nombre del entrevistador: Maria Fernanda Mostajo
+- Nombre del entrevistado: Eduardo Cossar
+- Edad: 19
+- Distrito: Surco
+- Screenshot del video: 
+
+<p align="left">
+  <img src="images/entrevistaEduardo.png" alt="UserPersona1" width="500">
+</p>
+
+- URL del video en Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312874_upc_edu_pe/EbQyspJREn9DlsjbBZ9nmPMBKAenZ6-Wwk2cTebYqbxz1w?e=2QFWH6
+
+- Inicio de la entrevista: 00:00
+- Duración: 06:15
+
+**Resumen descriptivo de la entrevista**
+
+**Características subjetivas y de personalidad:**
+
+- Eduardo tiene un perfil detallista y reflexivo. Posee una buena comprensión de plataformas digitales y aprecia soluciones que le permiten llevar un control ordenado y claro de sus finanzas. Se mostró seguro al evaluar cada funcionalidad y aportó sugerencias enfocadas en la mejora de la experiencia general, como la incorporación de detalles visuales y funciones móviles.
+
+**Opinión general sobre la plataforma:**
+
+- Percibió la plataforma como bien estructurada y visualmente amigable. Destacó la claridad en la organización de las secciones, lo que le permitió comprender rápidamente cómo usarla. El panel informativo “Cómo funciona” le pareció especialmente útil para usuarios nuevos. Considera que el diseño contribuye a una experiencia intuitiva y accesible.
+
+**Facilidad de uso y funcionalidad:**
+
+- En general, tuvo una experiencia fluida en los distintos flujos de la plataforma. Encontró muy sencillo registrar gastos y navegar entre secciones gracias a la distribución lógica de los botones. No experimentó momentos de confusión, aunque señaló que la opción para volver al inicio podría ser más visible y que sería útil añadir la función para adjuntar fotos de recibos al registrar un gasto. Además, sugiere agregar sugerencias de categorías y una barra de progreso en los formularios para mejorar la interacción.
+
+**Control y visibilidad:**
+
+- Valoró de manera positiva la posibilidad de visualizar las contribuciones de todos los miembros del hogar, ya que esto genera un ambiente de confianza y transparencia. Comentó que los gráficos y reportes son útiles para entender mejor cómo se distribuye el dinero, facilitando la toma de decisiones compartidas sobre los gastos.
+
+**Reportes y notificaciones:**
+
+- Las notificaciones fueron consideradas por el entrevistado como una herramienta útil para evitar olvidos en los pagos. Sugiere ampliar estas funciones con alertas específicas cuando se realicen cambios importantes, como la modificación de porcentajes de aporte o la aprobación de gastos de mayor impacto. Asimismo, considera que un resumen semanal enviado como notificación permitiría obtener una visión rápida del estado de las finanzas sin necesidad de ingresar a la plataforma.
+
+**Personalización y ajustes:**
+
+- Entre sus recomendaciones, destacó la importancia de ofrecer sugerencias personalizadas para motivar a los usuarios a mejorar la gestión de sus finanzas. También considera valiosa la posibilidad de descargar reportes en formatos como PDF para quienes deseen un análisis más detallado.
+
+**Confianza en el sistema:**
+
+- Expresó confianza en la herramienta, señalando que le parece un medio eficaz para lograr una distribución justa de los gastos y fomentar una gestión colaborativa dentro del hogar. Resaltó la transparencia como uno de los principales atributos que generan credibilidad en la plataforma.
+
+**Satisfacción general y recomendaciones:**
+
+- El entrevistado afirmó que utilizaría la plataforma de manera regular debido a su utilidad y simplicidad. Comentó que una aplicación móvil aumentaría significativamente la frecuencia de uso, permitiendo registrar gastos y consultar datos desde cualquier lugar. También sugirió incorporar funciones inteligentes que ofrezcan recomendaciones financieras basadas en los hábitos del usuario, para optimizar la experiencia y el valor de la herramienta.
+
 
 ### SEGMENTO 2:
 
@@ -3622,9 +3869,9 @@ PROBLEMA #6: No hay validación clara si el ingreso personal está vacío
 | **Sección**                      | **Descripción**                                                                                                                    | **Tiempo de inicio (hh\:mm\:ss)** |
 | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
 | **Introducción al producto**     | Explicación breve sobre el propósito de **SplitEasy** y la misión del producto.                                                    | 00:00:00                          |
-| **Características principales**  | Descripción de las funcionalidades clave: distribución proporcional de gastos, reportes automáticos, y recordatorios.              | 00:00:20                          |
-| **Modelo de negocio**            | Explicación sobre cómo **SplitEasy** se posiciona en el mercado y los beneficios que ofrece a usuarios y representantes del hogar. | 00:02:20                          |
-| **Cierre y llamada a la acción** | Invitación a los usuarios a registrarse y comenzar a usar la plataforma.                                                           | 00:03:30                          |
+| **Características principales**  | Descripción de las funcionalidades clave: distribución proporcional de gastos, reportes automáticos, y recordatorios.              | 00:00:45                          |
+| **Modelo de negocio**            | Explicación sobre cómo **SplitEasy** se posiciona en el mercado y los beneficios que ofrece a usuarios y representantes del hogar. | 00:01:39                          |
+| **Cierre** | Invitación a los usuarios a registrarse y comenzar a usar la plataforma.                                                           | 00:02:05                          |
 
 Cuadro de Video Representativo:
 
@@ -3634,9 +3881,9 @@ Cuadro de Video Representativo:
   <img src="images/AboutProduct.png" alt="Contributions Endpoint">
 </p>
 
-- URL de la versión publicada en Microsoft Stream:
+- URL de la versión publicada en Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213989_upc_edu_pe/EcTcw68c-YZHq01Vql95pQAB_WU7U9FHvgD_ytUI2qIZ_g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=dVbkgk
 
-- URL de la versión publicada en YouTube:
+- URL de la versión publicada en YouTube: https://youtu.be/ok7hreL3sbs
 
 
 ## 5.5. Video: "About-The-Team"
