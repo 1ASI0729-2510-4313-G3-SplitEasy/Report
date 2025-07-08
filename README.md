@@ -2958,7 +2958,7 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
 | **Attendees (to planning meeting)**  | Equipo SplitEasy   |
 | **Sprint 3 Review Summary**          | 	Se completaron endpoints de backend para usuarios, hogares, contribuciones y bills; además de implementarse autenticaciones, control de roles y despliegue en entorno de producción. La integración frontend-backend avanzó parcialmente y quedaron pendientes ajustes funcionales y visuales. |
 | **Sprint 3 Retrospective Summary**   | Se valoró la mejora en la organización del backend y se identificó la necesidad de repartir mejor las tareas de frontend para evitar cuellos de botella. También se acordó reforzar la documentación técnica y validar pruebas de integración. |
-| **Sprint 4 Goal**                    | Implementar funcionalidades restantes del sistema y asegurar la integración completa frontend-backend, validación funcional, despliegue final y documentación de producción. |
+| **Sprint 4 Goal**                    | En este sprint, nos centramos en implementar funcionalidades restantes del sistema y asegurar la integración completa frontend-backend, validación funcional, despliegue final y completaremos la documentación técnica. Creemos que al finalizar este sprint, el sistema estará listo para su entrega y uso en producción, ofreciendo una experiencia confiable y segura para los usuarios. Esto se confirmará mediante pruebas de aceptación y retroalimentación del equipo.|
 | **Sprint 4 Velocity**                | 28 puntos |
 | **Sum of Story Points**              | 21 puntos |
 
