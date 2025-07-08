@@ -3892,7 +3892,6 @@ Cuadro de Video Representativo:
 
 | **Sección**             | **Descripción**                                                                                                       | **Tiempo de inicio (hh:mm:ss)** |
 |-------------------------|-----------------------------------------------------------------------------------------------------------------------|---------------------------------|
-| **Maria Mostajo**       | Testimonio de Maria Mostajo, quien relata su experiencia y las habilidades adquiridas durante el proyecto.            | 00:00:00                        |
 | **Jorge Luis Díaz**     | Testimonio de Jorge Luis Díaz, quien describe sus actividades en el proyecto, logros y desarrollo de competencias.    | 00:00:42                        |
 | **Rodrigo Alaya**       | Testimonio de Rodrigo Alaya, detallando sus responsabilidades y contribución al desarrollo del producto.              | 00:01:35                        |
 | **Percy Quincho**       | Testimonio de Percy Quincho, explicando las tareas que realizó y su impacto en el proyecto.                          | 00:03:13                        |
