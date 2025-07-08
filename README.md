@@ -253,6 +253,8 @@ Insights TB1 (Todos participaron):
   - [Sprint 1 - Objetivo](#sprint-1---objetivo)
   - [Historias de Usuario Abordadas (EP07 - Exploración como Visitante)](#historias-de-usuario-abordadas-ep07---exploración-como-visitante)
   - [Tasks del Sprint](#tasks-del-sprint)
+    - [Evidencias de Tablero Trello](#evidencias-de-tablero-trello)
+  - [](#)
   - [Integrantes del Equipo](#integrantes-del-equipo)
       - [5.2.1.4. Deployment Evidence for Sprint Review](#5214-deployment-evidence-for-sprint-review)
       - [5.2.1.5. Execution Evidence for Sprint Review.](#5215-execution-evidence-for-sprint-review)
@@ -270,16 +272,17 @@ Insights TB1 (Todos participaron):
     - [5.2.2 Sprint 2](#522-sprint-2)
       - [5.2.2.1 Sprint Planning 2](#5221-sprint-planning-2)
       - [5.2.2.2 Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+  - [](#-1)
       - [5.2.2.3 Deployment Evidence for Sprint Review](#5223-deployment-evidence-for-sprint-review)
       - [5.2.2.4 Testing Suite Evidence for Sprint Review](#5224-testing-suite-evidence-for-sprint-review)
       - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
       - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
         - [Capturas de la documentación:](#capturas-de-la-documentación)
-  - [](#)
+  - [](#-2)
     - [Repositorio en GitHub:](#repositorio-en-github)
       - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
         - [Capturas incluidas:](#capturas-incluidas)
-  - [](#-1)
+  - [](#-3)
       - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
         - [Acciones de colaboración:](#acciones-de-colaboración)
         - [Capturas incluidas:](#capturas-incluidas-1)
@@ -1446,6 +1449,16 @@ En esta sección se presentarán los user journey mapping para cada user persona
 | 44 | US44 | Integrar cron job para envío de recordatorios | 3 |
 | 45 | US45 | API para dar seguimiento a reportes de problemas | 2 |
 | 46 | US46 | Implementar comentarios o respuestas en el foro | 3 |
+| 47        | US46           | Conectar formularios con endpoints                     | 3             |
+| 48        | US47           | Validar respuestas del backend                         | 2             |
+| 49        | US48           | Manejar errores del servidor                           | 2             |
+| 50        | US49           | Manejo de estados de carga y éxito                     | 2             |
+| 51        | US50           | Verificar integración de gastos                        | 3             |
+| 52        | US51           | Conectar notificaciones al backend                     | 2             |
+| 53        | US52           | Validar seguridad de comunicación                      | 3             |
+| 54        | US53           | Probar sistema en producción                           | 3             |
+| 55        | US54           | Documentar despliegue                                  | 2             |
+| 56        | US55           | Monitoreo del sistema desplegado                       | 2             |
 
 # Capítulo IV: Product Design
 
@@ -1844,15 +1857,22 @@ Navegación jerárquica para volver a secciones anteriores o más generales.
 
 ### 4.4.4. Web Applications User Flow Diagrams
 A continuación, se muestra el User Flow Diagram estructurado en base a los objetivos principales del usuario. Cada sección del flujo corresponde a una meta funcional específica, mostrando los recorridos posibles mediante mockups de alta fidelidad.
-<p align="left">
-  <img src="images/NewFlowchart.jpg" alt="wau" width="500">
-</p>
+
+<a href="https://ibb.co/qQDr02h"><img src="https://i.ibb.co/jX8rVjq/user-goal1.jpg" alt="user-goal1" border="0"></a>
+
+<a href="https://ibb.co/MDPpnN2x"><img src="https://i.ibb.co/PZ14xCmv/user-goal2.jpg" alt="user-goal2" border="0"></a>
+
+<a href="https://ibb.co/QFVqT9TJ"><img src="https://i.ibb.co/4ZLDXWXF/user-goal3.jpg" alt="user-goal3" border="0"></a>
+
+<a href="https://ibb.co/xS81FFk2"><img src="https://i.ibb.co/PZzcDDLr/user-goal4.jpg" alt="user-goal4" border="0"></a>
 
 ## 4.5. Web Applications Prototyping 
 
 Se desarrolló un prototipo interactivo enfocado en la navegación web para evaluar y mejorar la accesibilidad y la experiencia de usuario antes del lanzamiento final. Este modelo simula fielmente el recorrido dentro del sitio, permitiendo explorar secciones y flujos como en la versión definitiva. Diseñado con una arquitectura clara, jerarquía visual coherente y principios de diseño inclusivo, garantiza una navegación intuitiva y accesible. Gracias a sus maquetas de alta fidelidad, el prototipo permite validar decisiones de diseño, detectar fricciones y asegurar una experiencia de uso consistente.
 
-Link al prototipo: https://www.figma.com/proto/KpblxTexy8JiWceW2N9VmM/Open-Source?node-id=61-17&p=f&t=a23KEfa4RMPAJZLS-1&scaling=min-zoom&content-scaling=fixed&page-id=33%3A9&starting-point-node-id=61%3A17&show-proto-sidebar=1
+<a href="https://ibb.co/pqTxmFF"><img src="https://i.ibb.co/KngX1vv/video-prototipo.png" alt="video-prototipo" border="0"></a>
+
+Link al prototipo: https://www.figma.com/proto/KpblxTexy8JiWceW2N9VmM/Open-Source?node-id=61-17&p=f&t=ciOjUSWSfUyZ9jxj-1&scaling=scale-down&content-scaling=fixed&page-id=33%3A9&starting-point-node-id=61%3A17
 
 Link del video explicativo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d534_upc_edu_pe/EeExTohQK7VDrZmrG2Ze3j8BWq2i0RG-r1I8l03WIW7eZg?e=3VCooB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
@@ -1868,7 +1888,7 @@ Link del video explicativo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2
 
 ### 4.6.3. Software Architecture Components Diagrams
 
-<a href="https://ibb.co/y1gDDYK"><img src="https://i.ibb.co/QRYZZCh/structurizr-Component-Diagram.png" alt="structurizr-Component-Diagram" border="0"></a>
+<a href="https://ibb.co/KjLGMxrp"><img src="https://i.ibb.co/QFCc2vK3/structurizr-Component-Diagram.png" alt="structurizr-Component-Diagram" border="0"></a>
 
 ## 4.7. Software Object-Oriented Design
 
@@ -2873,17 +2893,17 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
 
 | **Sprint #**                          | 4 |
 |--------------------------------------|---|
-| **Sprint Planning Background**       |   |
-| **Date**                             | YYYY-MM-DD |
-| **Time**                             | HH:MM AM/PM |
-| **Location**                         | (Descripción de la ubicación de la reunión, física o virtual) |
-| **Prepared By**                      |   |
-| **Attendees (to planning meeting)**  |   |
-| **Sprint 3 Review Summary**          | (Resumen del Sprint anterior, en términos de resultados alcanzados a nivel de productos de software, opiniones de miembros y feedback de product owner.) |
-| **Sprint 3 Retrospective Summary**   | (Resumen del Sprint anterior, en términos de opiniones de miembros del equipo sobre aciertos u oportunidades de mejora en su forma de trabajo) |
-| **Sprint 4 Goal**                    | (Definir el Goal del Sprint n y la métrica de cumplimiento.) |
-| **Sprint 4 Velocity**                | (Definir el Velocity establecido para el Sprint n, es decir cuántos Story Points puede aceptar el equipo para este Sprint n.) |
-| **Sum of Story Points**              | (Colocar la suma de los Story Points para los User Stories que se están incluyendo en este Sprint n.) |
+| **Sprint Planning Background**       | Este sprint marca la fase final del desarrollo, enfocándose en completar funcionalidades clave del backend y frontend relacionadas a la administración de hogares, validaciones de gasto, soporte, y operaciones automatizadas  |
+| **Date**                             | 2025-06-29 |
+| **Time**                             | 03:00 PM |
+| **Location**                         | Reunión virtual por Google Meet |
+| **Prepared By**                      | Jose Martinez |
+| **Attendees (to planning meeting)**  | Equipo SplitEasy   |
+| **Sprint 3 Review Summary**          | 	Se completaron endpoints de backend para usuarios, hogares, contribuciones y bills; además de implementarse autenticaciones, control de roles y despliegue en entorno de producción. La integración frontend-backend avanzó parcialmente y quedaron pendientes ajustes funcionales y visuales. |
+| **Sprint 3 Retrospective Summary**   | Se valoró la mejora en la organización del backend y se identificó la necesidad de repartir mejor las tareas de frontend para evitar cuellos de botella. También se acordó reforzar la documentación técnica y validar pruebas de integración. |
+| **Sprint 4 Goal**                    | Implementar funcionalidades restantes del sistema y asegurar la integración completa frontend-backend, validación funcional, despliegue final y documentación de producción. |
+| **Sprint 4 Velocity**                | 40 puntos |
+| **Sum of Story Points**              | 40 puntos |
 
 
 #### 5.2.4.2. Aspect Leaders and Collaborators.
@@ -2905,11 +2925,148 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
 
 
 #### 5.2.4.4.Development Evidence for Sprint Review.
+
+= Reporte:
+
+| Repository                               | Branch            | Commit Id | Commit Message                                                                                       | Commit Message Body | Commited on (Date) |
+|------------------------------------------|--------------------|-----------|--------------------------------------------------------------------------------------------------------|----------------------|---------------------|
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | d1b632    | Add files via upload                                                                                   |                      | 2025-07-08          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | a187fc1   | Add files via upload                                                                                   |                      | 2025-07-08          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 023a1e1   | docs(): add partial version of sprint 4                                                                |                      | 2025-07-08          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 803deed   | update user flow                                                                                       |                      | 2025-07-08          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | ee41832   | Update README.md                                                                                       |                      | 2025-07-08          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | c1b00e    | chore(images): add Interview 2 screenshot                                                              |                      | 2025-07-08          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 08b8f9c   | Update README.md                                                                                       |                      | 2025-07-08          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 76885ca   | chore: update final prioritization of user stories for SplitEasy platform                              |                      | 2025-07-08          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | de51f5a   | feat: integrate frontend with backend endpoints and improve user feedback                              |                      | 2025-07-07          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 837fc7b   | Fixed sprint planning 4 for improve clarity and consistency in the project report.                     |                      | 2025-07-07          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 6436e0c   | Merge branch 'feature/chapter-5' of https://github.com/IASI0729-2510-4313-G3-SplitEasy/Report into feature/chapter-5 |                      | 2025-07-07          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | be9cecf   | Fixed Trello task sprint images to improve clarity and consistency in the project report.              |                      | 2025-07-07          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 63b051c   | Merge branch 'feature/chapter-5' of https://github.com/IASI0729-2510-4313-G3-SplitEasy/Report into feature/chapter-5 |                      | 2025-07-07          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 7a08315   | Add Trello sprint task screenshots to project report                                                   |                      | 2025-07-07          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 1cbca67   | docs: update Software Architecture Diagram                                                             |                      | 2025-07-07          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 79e701b   | Add files via upload                                                                                   |                      | 2025-07-07          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 8ac812b   | Updated sprint task hour estimates in the report to enhance estimation accuracy and reflect current progress |                  | 2025-07-07          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 95d014e   | Add files via upload                                                                                   |                      | 2025-07-07          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | b56b1be   | Delete images/bd.png.png for update the image from database in back-end                                |                      | 2025-07-07          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 12dd7e3   | Update image in diagram of the classes from spliteasy front-end                                        |                      | 2025-07-07          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 2d5d74d   | Add files via upload                                                                                   |                      | 2025-07-07          |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 7032526   | Delete images/diagramac.PNG for update the image                                                       |                      | 2025-07-07          |
+
+- FrontEnd:
+
+| Repository                 | Branch | Commit Id | Commit Message                                                                 | Commit Message Body | Commited on (Date) |
+|----------------------------|--------|-----------|----------------------------------------------------------------------------------|----------------------|---------------------|
+| 1ASI0729-2510-4313-G3-SplitEasy/repository       | main   | d096c14   | feat: Agregate a new logic and confing new desing of components                 |                      | 2025-07-06          |
+| 1ASI0729-2510-4313-G3-SplitEasy/repository       | main   | 53eb104   | feat: advance of poryect v3                                                     |                      | 2025-07-05          |
+| 1ASI0729-2510-4313-G3-SplitEasy/repository       | main   | 991c701   | feature: Improved logic for the sidebar, header, and layout components          |                      | 2025-07-04          |
+| 1ASI0729-2510-4313-G3-SplitEasy/repository       | main   | 2298085   | feat: Improvements to the visual aesthetics of the landing page and registration|                      | 2025-07-03          |
+| 1ASI0729-2510-4313-G3-SplitEasy/repository       | main   | e78b07e   | Feat: upgrade all of elements in the app                                        |                      | 2025-07-03          |
+| 1ASI0729-2510-4313-G3-SplitEasy/repository       | main   | f3ca01c   | Fix: Correction the style of all components                                     |                      | 2025-07-02          |
+
+
+- BackEnd:
+
+| Repository                               | Branch | Commit Id | Commit Message                                                                                      | Commit Message Body | Commited on (Date) |
+|------------------------------------------|--------|-----------|-------------------------------------------------------------------------------------------------------|----------------------|---------------------|
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 9cb1f12   | feat: fix errors in POMXMI for deploy in render                                                      |                      | 2025-07-06          |
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 22ac5c9   | feat: fix errors in POMXMI for deploy in render                                                      |                      | 2025-07-06          |
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 69cd8dc   | feat: fix errors in ApplicationProperties for deploying in render                                    |                      | 2025-07-06          |
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | dc06fba   | feat: fix TokenServiceImpl for deploying in render                                                   |                      | 2025-07-06          |
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | b944bb2   | feat: add PostgreSQL dependency to pom.xml                                                           |                      | 2025-07-06          |
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 846f109   | Update application.properties, for deploy database in render                                         |                      | 2025-07-06          |
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | b21bcaf   | pasos para desplegar                                                                                 |                      | 2025-07-06          |
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 23ac6eb   | Merge pull request #21 from 1ASI0729-2510-4313-G3-SplitEasy/feature/security                         |                      | 2025-07-06          |
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 9a64dfd   | implementacion de autenticacion                                                                      |                      | 2025-07-06          |
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 1673fb1   | Merge pull request #20 from 1ASI0729-2510-4313-G3-SplitEasy/feature/security                         |                      | 2025-07-06          |
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 81ee9df   | implementacion de autenticacion                                                                      |                      | 2025-07-06          |
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 13ee2d4   | cambio de bd a mysql                                                                                 |                      | 2025-07-01          |
+
+
+
+
 #### 5.2.4.5.Execution Evidence for Sprint Review.
+
+Durante el sprint 4 se realizo el despliegue del backend. Asi mismo se implementaron los endpoints restantes:
+
+- Roles (/api/v1/roles)
+- Settings (/api/v1/settings)
+- Authentication (/api/v1/authentication)
+- Member Contributions (/api/v1/member-contributions)
+
+A continuación, se muestran capturas que evidencian la implementacion de los endpoints REST correspondientes:
+- **Roles:**
+
+<p align="left">
+  <img src="images/Roles.png" alt="UserPersona1" width="500">
+</p>
+
+  
+- **Settings:**
+
+  <p align="left">
+  <img src="images/Settings.png" alt="UserPersona1" width="500">
+</p>
+
+- **Authentication:**
+
+   <p align="left">
+  <img src="images/Authentication.png" alt="UserPersona1" width="500">
+</p>
+
+- **Member Contributions** 
+
+<p align="left">
+  <img src="images/MemberContributions.png" alt="UserPersona1" width="500">
+</p>
+
+
 #### 5.2.4.6.Services Documentation Evidence for Sprint Review.
+
+Durante el sprint 4 se realizo el despliege del la API Rest con los endpoints restantes a terminar.
+
+A continuación se presenta un resumen completo de los endpoints disponibles y sus principales operaciones:
+
+| **Endpoint base**              | **Acciones disponibles**                                                | **Métodos HTTP**                                                                            | **Descripción**                        |
+| ------------------------------ | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | -------------------------------------- |
+| `/api/v1/households`           | Crear, obtener todos, obtener por ID, actualizar, eliminar              | `POST`, `GET`, `GET /{householdId}`, `PUT /{householdId}`, `DELETE /{householdId}`          | Gestión de hogares                     |
+| `/api/v1/users`                | Obtener todos los usuarios, obtener por ID                              | `GET`, `GET /{userId}`                                                                      | Consulta de usuarios                   |
+| `/api/v1/household-members`    | Crear, obtener todos, obtener por ID, actualizar, eliminar              | `POST`, `GET`, `GET /{memberId}`, `PUT /{memberId}`, `DELETE /{memberId}`                   | Administración de miembros de hogar    |
+| `/api/v1/bills`                | Crear factura, listar facturas, obtener por ID, actualizar, eliminar    | `POST`, `GET`, `GET /{billId}`, `PUT /{billId}`, `DELETE /{billId}`                         | Registro de facturas compartidas       |
+| `/api/v1/contributions`        | Crear, listar todas, obtener por ID, actualizar, eliminar               | `POST`, `GET`, `GET /{contributionId}`, `PUT /{contributionId}`, `DELETE /{contributionId}` | Control de aportes individuales        |
+| `/api/v1/member-contributions` | Crear, listar todos, obtener por ID, actualizar, eliminar               | `POST`, `GET`, `GET /{id}`, `PUT /{id}`, `DELETE /{id}`                                     | Aportes de miembros a facturas         |
+| `/api/v1/settings`             | Crear configuración, listar todas, obtener por ID, actualizar, eliminar | `POST`, `GET`, `GET /{settingId}`, `PUT /{settingId}`, `DELETE /{settingId}`                | Preferencias y configuración del hogar |
+| `/api/v1/roles`                | Obtener todos los roles                                                 | `GET`                                                                                       | Consulta de roles disponibles          |
+| `/api/v1/authentication`       | Registro e inicio de sesión                                             | `POST /sign-up`, `POST /sign-in`                                                            | Autenticación de usuarios              |
+
 #### 5.2.4.7.Software Deployment Evidence for Sprint Review.
+
+Tanto el backend como el web application han sido desplegados correctamente en las siguientes plataformas:
+
+- **WebApp (Netlify):**
+  
+<p align="left">
+  <img src="images/Netlify.png" alt="UserPersona1" width="500">
+</p>
+
+- **BackEnd (Render)**
+- 
+<p align="left">
+  <img src="images/Render.png" alt="UserPersona1" width="500">
+</p>
+
+
 #### 5.2.4.8.Team Collaboration Insights during Sprint.
 
+Durante el sprint 3 el equipo trabajó de forma más autónoma pero siempre bajo seguimiento constante en Git:
+
+  - **Jorge Luis Díaz Fiestas:** Líder técnico, encargado de base de datos, procedimiento en Reporte y autenticaciones.
+  - **Paulo Percy Quincho Gamarra:** Implementó endpoints de autenticacion, procedimiento en Reporte, y configuración de backend; A cargo de control de roles, validaciones e integraciones en el backend.
+  - **Rodrigo Alaya:** Encargado de rediseño de UIs y validacion de endpoints y sus datos.
+  - **Jose Martinez:** Encargado de realizar correciones en los repositorios del proyecto y complementar documentacion restante.
+    
+La rama principal main estaba protegida y las integraciones se hicieron a partir de pull requests.
+La colaboración estuvo más centrada en backend, pero también se avanzó en algunos aspectos de configuración en el frontend cuando era necesario.
 
 ## 5.3. Validation Interviews
 
@@ -3072,6 +3229,56 @@ Duración: 04:00
 
 
 **REGISTRO ENTREVISTA 2:**
+
+- Nombre del entrevistador: Niurka Huarcaya
+- Nombre del entrevistado: Maria Del Carpio
+- Edad: 20
+- Distrito: La Molina
+- Screenshot del video: 
+
+<p align="left">
+  <img src="images/Ent2.png" alt="UserPersona1" width="500">
+</p>
+
+- URL del video en Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213989_upc_edu_pe/ETZtSg6ek1tGqjrhY3E6ENwBqOup3OxIBwO1B0JIGIceag?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=uPlsHt
+
+- Inicio de la entrevista: 00:00
+- Duración: 04:35
+
+**Resumen descriptivo de la entrevista**
+
+**Características subjetivas y de personalidad:**
+
+- La entrevistada se mostró analítica y detallista. Tiene una buena comprensión de plataformas digitales y valoró especialmente la claridad, organización y transparencia del sistema.
+
+**Opinión general sobre la plataforma:**
+
+- Percibió el diseño como bien organizado y fácil de entender gracias a las secciones claramente tituladas. Le pareció útil el panel “Cómo funciona”.
+
+**Facilidad de uso y funcionalidad:**
+
+- Tuvo una experiencia fluida en la mayoría de los flujos, aunque se sintió un poco confundida al intentar editar un ingreso ya registrado. Sugiere mejoras en el formulario, como sugerencias de categorías y barra de progreso.
+
+**Control y visibilidad:**
+
+- Aprecia poder ver las contribuciones de todos los miembros del hogar, lo que genera confianza y transparencia. Mencionó que los gráficos y reportes le ayudan a entender mejor la distribución del dinero.
+
+**Reportes y notificaciones:**
+
+- Valoró las notificaciones como útiles para no atrasarse en pagos. Sugiere agregar alertas cuando se cambien porcentajes de aporte o se aprueben gastos importantes. Le gustaría ver comparaciones mensuales y evolución de sus finanzas.
+
+**Personalización y ajustes:**
+
+- Sugiere recomendaciones personalizadas como una forma de motivarse a mejorar sus finanzas, así como una experiencia más detallada en los reportes.
+
+**Confianza en el sistema:**
+
+- Confía en la herramienta como un medio para una distribución justa de los gastos y una gestión compartida efectiva.
+
+**Satisfacción general y recomendaciones:**
+
+- Usaría la plataforma de forma regular. Señala que una app móvil aumentaría la frecuencia de uso, así como funciones inteligentes para recomendaciones financieras.
+
 
 
 **REGISTRO ENTREVISTA 3:**
