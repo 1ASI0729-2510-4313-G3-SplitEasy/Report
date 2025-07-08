@@ -253,6 +253,8 @@ Insights TB1 (Todos participaron):
   - [Sprint 1 - Objetivo](#sprint-1---objetivo)
   - [Historias de Usuario Abordadas (EP07 - Exploración como Visitante)](#historias-de-usuario-abordadas-ep07---exploración-como-visitante)
   - [Tasks del Sprint](#tasks-del-sprint)
+    - [Evidencias de Tablero Trello](#evidencias-de-tablero-trello)
+  - [](#)
   - [Integrantes del Equipo](#integrantes-del-equipo)
       - [5.2.1.4. Deployment Evidence for Sprint Review](#5214-deployment-evidence-for-sprint-review)
       - [5.2.1.5. Execution Evidence for Sprint Review.](#5215-execution-evidence-for-sprint-review)
@@ -270,16 +272,17 @@ Insights TB1 (Todos participaron):
     - [5.2.2 Sprint 2](#522-sprint-2)
       - [5.2.2.1 Sprint Planning 2](#5221-sprint-planning-2)
       - [5.2.2.2 Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+  - [](#-1)
       - [5.2.2.3 Deployment Evidence for Sprint Review](#5223-deployment-evidence-for-sprint-review)
       - [5.2.2.4 Testing Suite Evidence for Sprint Review](#5224-testing-suite-evidence-for-sprint-review)
       - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
       - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
         - [Capturas de la documentación:](#capturas-de-la-documentación)
-  - [](#)
+  - [](#-2)
     - [Repositorio en GitHub:](#repositorio-en-github)
       - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
         - [Capturas incluidas:](#capturas-incluidas)
-  - [](#-1)
+  - [](#-3)
       - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
         - [Acciones de colaboración:](#acciones-de-colaboración)
         - [Capturas incluidas:](#capturas-incluidas-1)
@@ -1854,15 +1857,22 @@ Navegación jerárquica para volver a secciones anteriores o más generales.
 
 ### 4.4.4. Web Applications User Flow Diagrams
 A continuación, se muestra el User Flow Diagram estructurado en base a los objetivos principales del usuario. Cada sección del flujo corresponde a una meta funcional específica, mostrando los recorridos posibles mediante mockups de alta fidelidad.
-<p align="left">
-  <img src="images/NewFlowchart.jpg" alt="wau" width="500">
-</p>
+
+<a href="https://ibb.co/qQDr02h"><img src="https://i.ibb.co/jX8rVjq/user-goal1.jpg" alt="user-goal1" border="0"></a>
+
+<a href="https://ibb.co/MDPpnN2x"><img src="https://i.ibb.co/PZ14xCmv/user-goal2.jpg" alt="user-goal2" border="0"></a>
+
+<a href="https://ibb.co/QFVqT9TJ"><img src="https://i.ibb.co/4ZLDXWXF/user-goal3.jpg" alt="user-goal3" border="0"></a>
+
+<a href="https://ibb.co/xS81FFk2"><img src="https://i.ibb.co/PZzcDDLr/user-goal4.jpg" alt="user-goal4" border="0"></a>
 
 ## 4.5. Web Applications Prototyping 
 
 Se desarrolló un prototipo interactivo enfocado en la navegación web para evaluar y mejorar la accesibilidad y la experiencia de usuario antes del lanzamiento final. Este modelo simula fielmente el recorrido dentro del sitio, permitiendo explorar secciones y flujos como en la versión definitiva. Diseñado con una arquitectura clara, jerarquía visual coherente y principios de diseño inclusivo, garantiza una navegación intuitiva y accesible. Gracias a sus maquetas de alta fidelidad, el prototipo permite validar decisiones de diseño, detectar fricciones y asegurar una experiencia de uso consistente.
 
-Link al prototipo: https://www.figma.com/proto/KpblxTexy8JiWceW2N9VmM/Open-Source?node-id=61-17&p=f&t=a23KEfa4RMPAJZLS-1&scaling=min-zoom&content-scaling=fixed&page-id=33%3A9&starting-point-node-id=61%3A17&show-proto-sidebar=1
+<a href="https://ibb.co/pqTxmFF"><img src="https://i.ibb.co/KngX1vv/video-prototipo.png" alt="video-prototipo" border="0"></a>
+
+Link al prototipo: https://www.figma.com/proto/KpblxTexy8JiWceW2N9VmM/Open-Source?node-id=61-17&p=f&t=ciOjUSWSfUyZ9jxj-1&scaling=scale-down&content-scaling=fixed&page-id=33%3A9&starting-point-node-id=61%3A17
 
 Link del video explicativo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d534_upc_edu_pe/EeExTohQK7VDrZmrG2Ze3j8BWq2i0RG-r1I8l03WIW7eZg?e=3VCooB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
@@ -1878,7 +1888,7 @@ Link del video explicativo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2
 
 ### 4.6.3. Software Architecture Components Diagrams
 
-<a href="https://ibb.co/y1gDDYK"><img src="https://i.ibb.co/QRYZZCh/structurizr-Component-Diagram.png" alt="structurizr-Component-Diagram" border="0"></a>
+<a href="https://ibb.co/KjLGMxrp"><img src="https://i.ibb.co/QFCc2vK3/structurizr-Component-Diagram.png" alt="structurizr-Component-Diagram" border="0"></a>
 
 ## 4.7. Software Object-Oriented Design
 
