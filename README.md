@@ -9,8 +9,12 @@ Desarrollo de Aplicaciones Open Source <br>
 <strong>Profesor:</strong> Alberto Wilmer Sanchez Seña </p>
 
 <h2 align="center">INFORME</h2>
+<h2 align="center">2025 - 10</h2>
 
 <h3 align="center">Startup: ChabeCode</h3>
+<h3 align="center">1ASI0729-2510-4313</h3>
+<h3 align="center">1ASI0729-2510-4313</h3>
+
 <p align="center"><strong>Producto: SplitEasy</strong></p>
 
 <h3 align="center">Team Members:</h3>
@@ -21,8 +25,7 @@ Desarrollo de Aplicaciones Open Source <br>
 |--------------------------------------|--------------|
 |Jorge Luis Díaz Fiestas      |  U20231D534  |
 |Paulo Percy Quincho Gamarra         |  U20191E562 |
-|Alexander Piero Fernandez Garfias         |  U202019498 |
-|Jhordi Luis Carranza Pérez       | U20191E835 |
+|Jose Luis Martinez Valdivia         |  U202213989 |
 </div>
 
 <p align="center"><strong>Mayo 2025</strong></p>
@@ -59,7 +62,269 @@ Insights TB1 (Todos participaron):
 
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Contenido](#contenido)
+  - [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [Capítulo IV: Product Design](#capítulo-iv-product-design)
+  - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
+  - [Anexos](#anexos)
 - [Student Outcome](#student-outcome)
+- [Project: SplitEasy](#project-spliteasy)
+- [Chapter 1: Introduction](#chapter-1-introduction)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de Integrantes del Grupo](#112-perfiles-de-integrantes-del-grupo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y Problemática](#121-antecedentes-y-problemática)
+    - [What](#what)
+      - [¿Cuál es el problema?](#cuál-es-el-problema)
+      - [¿Cuál es la relación con la persona en cuestión?](#cuál-es-la-relación-con-la-persona-en-cuestión)
+    - [When](#when)
+      - [¿Cuándo sucede el problema?](#cuándo-sucede-el-problema)
+      - [¿Cuándo utiliza el cliente el producto?](#cuándo-utiliza-el-cliente-el-producto)
+    - [Where](#where)
+      - [¿Dónde está el cliente cuando usa el producto?](#dónde-está-el-cliente-cuando-usa-el-producto)
+      - [¿A dónde se dirige?](#a-dónde-se-dirige)
+      - [¿Dónde surge el problema?](#dónde-surge-el-problema)
+    - [Why](#why)
+      - [¿Cuál es la causa principal del problema?](#cuál-es-la-causa-principal-del-problema)
+    - [Who](#who)
+      - [¿Quiénes están involucrados?](#quiénes-están-involucrados)
+      - [¿A quiénes les sucede el problema?](#a-quiénes-les-sucede-el-problema)
+      - [¿Quién lo utilizará?](#quién-lo-utilizará)
+    - [How](#how)
+      - [¿Cómo ocurre el problema?](#cómo-ocurre-el-problema)
+      - [¿En qué condiciones los clientes usan nuestro producto?](#en-qué-condiciones-los-clientes-usan-nuestro-producto)
+      - [¿Qué llevará a la persona a usar nuestro producto?](#qué-llevará-a-la-persona-a-usar-nuestro-producto)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+    - [Business Outcomes](#business-outcomes)
+    - [User Outcomes](#user-outcomes)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [Segmentos Objetivos](#segmentos-objetivos)
+    - [Segmento objetivo 1: Personas del hogar](#segmento-objetivo-1-personas-del-hogar)
+    - [Segmento objetivo 2: Representante del hogar](#segmento-objetivo-2-representante-del-hogar)
+- [Chapter 2: Requirements Elicitation \& Analysis](#chapter-2-requirements-elicitation--analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Analisis Competitivo](#211-analisis-competitivo)
+      - [¿Por qué llevar a cabo este análisis?](#por-qué-llevar-a-cabo-este-análisis)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+      - [Estrategia de diferenciación por valor social](#estrategia-de-diferenciación-por-valor-social)
+      - [Estrategia de funcionalidad avanzada desde el inicio](#estrategia-de-funcionalidad-avanzada-desde-el-inicio)
+      - [Estrategia de comunidad y crecimiento orgánico](#estrategia-de-comunidad-y-crecimiento-orgánico)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de Entrevistas](#221-diseño-de-entrevistas)
+    - [Segmento objetivo 1: Personas del hogar](#segmento-objetivo-1-personas-del-hogar-1)
+    - [Segmento objetivo 2: Representante del hogar](#segmento-objetivo-2-representante-del-hogar-1)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+      - [**Primer Segmento - Personas del Hogar:** ](#primer-segmento---personas-del-hogar-)
+      - [**Segundo Segmento - Representantes del Hogar:**](#segundo-segmento---representantes-del-hogar)
+      - [**Segundo Segmento - Representantes del Hogar:**](#segundo-segmento---representantes-del-hogar-1)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3 Needfinding](#23-needfinding)
+      - [Segmento #1: Personas del hogar](#segmento-1-personas-del-hogar)
+      - [Segmento #2: Representante del hogar](#segmento-2-representante-del-hogar)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [Segmento 1: Personas del hogar](#segmento-1-personas-del-hogar-1)
+    - [Segmento 2: Representante del hogar](#segmento-2-representante-del-hogar-1)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+    - [Segmento 1: Personas del hogar](#segmento-1-personas-del-hogar-2)
+    - [Segmento 2: Representante del hogar](#segmento-2-representante-del-hogar-2)
+    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+    - [Segmento #1: Personas del Hogar](#segmento-1-personas-del-hogar-3)
+    - [Segmento #2: Representante del Hogar](#segmento-2-representante-del-hogar-3)
+  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+- [Capítulo 3: Requirements Specification](#capítulo-3-requirements-specification)
+  - [3.1 To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+    - [Segmento 1: Miembros del hogar](#segmento-1-miembros-del-hogar)
+    - [Segmento 2: Representante del hogar](#segmento-2-representante-del-hogar-4)
+  - [3.2. User Stories](#32-user-stories)
+    - [Epic](#epic)
+    - [EP01 - Registro y Gestión de Perfil](#ep01---registro-y-gestión-de-perfil)
+    - [EP02 - Panel del Representante del Hogar](#ep02---panel-del-representante-del-hogar)
+    - [EP03 - Panel del Miembro del Hogar](#ep03---panel-del-miembro-del-hogar)
+    - [EP04 - Gestión de Gastos Compartidos](#ep04---gestión-de-gastos-compartidos)
+    - [EP05 - Seguimiento y Recordatorios](#ep05---seguimiento-y-recordatorios)
+    - [EP06 - Soporte y Comunidad](#ep06---soporte-y-comunidad)
+    - [EP07 - Exploración como Visitante](#ep07---exploración-como-visitante)
+  - [3.3. Impact Mapping](#33-impact-mapping)
+    - [Segmento 1: Miembros del hogar](#segmento-1-miembros-del-hogar-1)
+    - [Segmento 2: Representante del hogar](#segmento-2-representante-del-hogar-5)
+  - [3.4. Product Backlog](#34-product-backlog)
+    - [Priorización de User Stories - Plataforma SplitEasy](#priorización-de-user-stories---plataforma-spliteasy)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design-1)
+  - [4.1. Style Guidelines](#41-style-guidelines)
+    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+      - [Tipografía](#tipografía)
+      - [Colores](#colores)
+      - [Espaciado](#espaciado)
+      - [Iconografía](#iconografía)
+      - [Tono de Comunicación y Lenguaje Aplicado](#tono-de-comunicación-y-lenguaje-aplicado)
+    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+  - [4.2. Information Architecture](#42-information-architecture)
+    - [4.2.1. Organization Systems](#421-organization-systems)
+      - [Organización Visual del Contenido](#organización-visual-del-contenido)
+      - [Esquemas de Categorización de Contenido](#esquemas-de-categorización-de-contenido)
+      - [Implementación en la Interfaz](#implementación-en-la-interfaz)
+    - [4.2.2. Labeling Systems](#422-labeling-systems)
+      - [Menú de navegación](#menú-de-navegación)
+      - [Botón principal](#botón-principal)
+      - [Sección "How does it work?" para Representantes](#sección-how-does-it-work-para-representantes)
+      - [Sección "How does it work?" para Miembros](#sección-how-does-it-work-para-miembros)
+      - [Footer](#footer)
+    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+      - [Landing Page](#landing-page)
+    - [Web Application](#web-application)
+    - [4.2.4. Searching Systems](#424-searching-systems)
+      - [Filtros de búsqueda por entradas](#filtros-de-búsqueda-por-entradas)
+      - [Filtros de búsqueda por tabs](#filtros-de-búsqueda-por-tabs)
+      - [Flujo de búsqueda y filtros](#flujo-de-búsqueda-y-filtros)
+    - [4.2.5. Navigation Systems](#425-navigation-systems)
+      - [1. Navegación en la Landing Page](#1-navegación-en-la-landing-page)
+      - [2. Navegación en la Web Application](#2-navegación-en-la-web-application)
+      - [Para Representantes del Hogar:](#para-representantes-del-hogar)
+      - [Para Miembros del Hogar:](#para-miembros-del-hogar)
+      - [Interacción con el sistema](#interacción-con-el-sistema)
+  - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+  - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+    - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
+    - [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
+    - [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+    - [4.7.1 Class Diagrams](#471-class-diagrams)
+    - [4.7.2. Class Dictionary](#472-class-dictionary)
+      - [Class: HouseholdMember](#class-householdmember)
+      - [Class: HouseholdManager](#class-householdmanager)
+      - [Class: Household](#class-household)
+      - [Class: Contribution](#class-contribution)
+      - [Class: Expense](#class-expense)
+      - [Class: Document](#class-document)
+      - [Class: Balance](#class-balance)
+      - [Enumerations](#enumerations)
+        - [ContributionStatus](#contributionstatus)
+        - [ExpenseCategory](#expensecategory)
+  - [4.8. SplitEasy - Database Design](#48-spliteasy---database-design)
+    - [Descripción General](#descripción-general)
+  - [Diagrama Entidad-Relación](#diagrama-entidad-relación)
+    - [users](#users)
+    - [households](#households)
+    - [household\_members](#household_members)
+    - [bills](#bills)
+    - [contributions](#contributions)
+    - [member\_contributions](#member_contributions)
+    - [settings](#settings)
+    - [Comentario General](#comentario-general)
+    - [Índices](#índices)
+    - [Objetivos del Diseño](#objetivos-del-diseño)
+    - [4.8.1. Database Diagram](#481-database-diagram)
+- [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment-1)
+  - [5.1. Software Configuration Management](#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+      - [Project Management](#project-management)
+      - [Requirements Management](#requirements-management)
+      - [Product UX/UI Design](#product-uxui-design)
+      - [Software Development](#software-development)
+      - [Software Documentation](#software-documentation)
+    - [5.1.2. Source Code Management](#512-source-code-management)
+    - [5.1.3. Source Code Style Guide \& Conventions](#513-source-code-style-guide--conventions)
+      - [HTML](#html)
+      - [CSS](#css)
+      - [JavaScript](#javascript)
+      - [Angular](#angular)
+      - [Springboot](#springboot)
+    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+  - [5.2. Landing Page, Services \& Applications Implementation](#52-landing-page-services--applications-implementation)
+    - [5.2.1. Sprint 1](#521-sprint-1)
+      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+      - [5.2.1.3. Sprint Backlog 1 – SplitEasy](#5213-sprint-backlog-1--spliteasy)
+  - [Sprint 1 - Objetivo](#sprint-1---objetivo)
+  - [Historias de Usuario Abordadas (EP07 - Exploración como Visitante)](#historias-de-usuario-abordadas-ep07---exploración-como-visitante)
+  - [Tasks del Sprint](#tasks-del-sprint)
+  - [Integrantes del Equipo](#integrantes-del-equipo)
+      - [5.2.1.4. Deployment Evidence for Sprint Review](#5214-deployment-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review.](#5215-execution-evidence-for-sprint-review)
+        - [Capturas de pantalla de vistas principales implementadas:](#capturas-de-pantalla-de-vistas-principales-implementadas)
+          - [Vista de la Landing Page](#vista-de-la-landing-page)
+          - [Vista de la Sección de Registro/Login](#vista-de-la-sección-de-registrologin)
+          - [Vista de la Sección de Características](#vista-de-la-sección-de-características)
+          - [Funcionalidad característica de los representantes:](#funcionalidad-característica-de-los-representantes)
+          - [Funcionalidad característica de los miembros:](#funcionalidad-característica-de-los-miembros)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
+        - [Resumen de logros:](#resumen-de-logros)
+        - [Tabla de Endpoints Documentados:](#tabla-de-endpoints-documentados)
+        - [Enlace al repositorio de Web Services:](#enlace-al-repositorio-de-web-services)
+        - [ID de commits relacionados con la documentación:](#id-de-commits-relacionados-con-la-documentación)
+    - [5.2.2 Sprint 2](#522-sprint-2)
+      - [5.2.2.1 Sprint Planning 2](#5221-sprint-planning-2)
+      - [5.2.2.2 Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3 Deployment Evidence for Sprint Review](#5223-deployment-evidence-for-sprint-review)
+      - [5.2.2.4 Testing Suite Evidence for Sprint Review](#5224-testing-suite-evidence-for-sprint-review)
+      - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+      - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+        - [Capturas de la documentación:](#capturas-de-la-documentación)
+  - [](#)
+    - [Repositorio en GitHub:](#repositorio-en-github)
+      - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+        - [Capturas incluidas:](#capturas-incluidas)
+  - [](#-1)
+      - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+        - [Acciones de colaboración:](#acciones-de-colaboración)
+        - [Capturas incluidas:](#capturas-incluidas-1)
+        - [Participación destacada:](#participación-destacada)
+    - [5.2.3. Sprint 3](#523-sprint-3)
+      - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+      - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+      - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [Households (Hogares)](#households-hogares)
+      - [Users y Bills (Usuarios y Cuentas)](#users-y-bills-usuarios-y-cuentas)
+      - [Contribuciones](#contribuciones)
+      - [Household Members (Miembros del Hogar)](#household-members-miembros-del-hogar)
+      - [Bills (Detalle de facturas)](#bills-detalle-de-facturas)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+      - [Ejemplo de definición técnica de un endpoint (`/api/v1/households`):](#ejemplo-de-definición-técnica-de-un-endpoint-apiv1households)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+    - [5.2.4. Sprint 4](#524-sprint-4)
+      - [5.2.4.1. Sprint Planning 4.](#5241-sprint-planning-4)
+      - [5.2.4.2. Aspect Leaders and Collaborators.](#5242-aspect-leaders-and-collaborators)
+      - [5.2.4.3.Sprint Backlog 4.](#5243sprint-backlog-4)
+      - [5.2.4.4.Development Evidence for Sprint Review.](#5244development-evidence-for-sprint-review)
+      - [5.2.4.5.Execution Evidence for Sprint Review.](#5245execution-evidence-for-sprint-review)
+      - [5.2.4.6.Services Documentation Evidence for Sprint Review.](#5246services-documentation-evidence-for-sprint-review)
+      - [5.2.4.7.Software Deployment Evidence for Sprint Review.](#5247software-deployment-evidence-for-sprint-review)
+      - [5.2.4.8.Team Collaboration Insights during Sprint.](#5248team-collaboration-insights-during-sprint)
+  - [5.3. Validation Interviews](#53-validation-interviews)
+    - [5.3.1 Diseño de Entrevistas](#531-diseño-de-entrevistas)
+    - [5.3.2 Registro de Entrevistas](#532-registro-de-entrevistas)
+    - [SEGMENTO 1:](#segmento-1)
+    - [SEGMENTO 2:](#segmento-2)
+    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+  - [5.4. Video About-the-Product](#54-video-about-the-product)
+  - [5.5. Video: "About-The-Team"](#55-video-about-the-team)
+- [Conclusión](#conclusión)
+  - [Enfoque centrado en el usuario](#enfoque-centrado-en-el-usuario)
+  - [Funcionalidades clave implementadas](#funcionalidades-clave-implementadas)
+  - [Beneficios y valor agregado](#beneficios-y-valor-agregado)
+  - [Futuro y escalabilidad](#futuro-y-escalabilidad)
+- [Referencias (Normas APA 7)](#referencias-normas-apa-7)
+  - [Aplicaciones para dividir gastos](#aplicaciones-para-dividir-gastos)
+  - [Herramientas de desarrollo y gestión de proyectos](#herramientas-de-desarrollo-y-gestión-de-proyectos)
+  - [Desarrollo General](#desarrollo-general)
 
 ## Capítulo I: Introducción
 - [1.1. Start-up Profile](#11-start-up-profile)
@@ -155,13 +420,13 @@ Insights TB1 (Todos participaron):
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
     - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
  
-## Conclusiones
-- [Conclusiones generales](#conclusiones-generales)
-
-## Bibliografía
-- [Referencias bibliográficas](#referencias-bibliográficas)
-
 ## Anexos
+
+- Enlace Backend Desplegado: https://backend-app-1-vd66.onrender.com/swagger-ui/index.html
+- Enlace Frontend Desplegado: https://6857d89dafb3ac374611eac0--spliteasy-frontend.netlify.app/
+- Enlace Landing-Page Despeglado: https://1asi0729-2510-4313-g3-spliteasy.github.io/Split-landing/
+
+
 
 # Student Outcome
 | **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
@@ -175,9 +440,9 @@ Insights TB1 (Todos participaron):
 
 # Project: SplitEasy
 # Chapter 1: Introduction
-# Startup Profile
+## 1.1. Startup Profile
 
-##  Descripción de la Startup
+###  1.1.1. Descripción de la Startup
 
 SplitEasy es una startup tecnológica enfocada en brindar soluciones financieras equitativas dentro del entorno familiar o de convivencia. Nuestra plataforma permite a los miembros del hogar gestionar de forma justa y proporcional los gastos compartidos, basándose en los ingresos individuales de cada persona. A través de un sistema automatizado, transparente y fácil de usar, SplitEasy promueve la responsabilidad financiera, la buena comunicación y la organización del presupuesto colectivo, ayudando a evitar conflictos y fomentar una cultura de colaboración dentro del hogar.
 
@@ -186,7 +451,7 @@ SplitEasy es una startup tecnológica enfocada en brindar soluciones financieras
 - **Visión:** Nuestra visión es convertirnos en la plataforma líder en gestión financiera compartida para hogares en América Latina, siendo reconocidos por empoderar a las personas a tomar decisiones económicas justas, responsables y colaborativas.  
 - **Valores:** Transparencia, simplicidad y colaboración.  
 
-##  Perfiles de Integrantes del Grupo
+### 1.1.2. Perfiles de Integrantes del Grupo
 
 <table border="1" cellspacing="0" cellpadding="8">
   <tr>
@@ -208,30 +473,21 @@ SplitEasy es una startup tecnológica enfocada en brindar soluciones financieras
     </td>
   </tr>
   <tr>
-    <td><img src="images/Jhordifoto.PNG" alt="Jhordi" width="150px"></td>
+    <td><img src="images/foto_Jose.jpg" alt="Jhordi" width="150px"></td>
     <td>
-      <strong>Nombres y apellidos:</strong>  Jhordi Luis Carranza Pérez  <br>
-      <strong>Código de estudiante:</strong> U20191835<br>
+      <strong>Nombres y apellidos:</strong>  Jose Luis Martinez Valdivia  <br>
+      <strong>Código de estudiante:</strong> U202213989<br>
       <strong>Carrera:</strong> Ing. de Software<br>
-      <strong>Descripción:</strong> Soy una persona que me gusta cumplir con mis obligaciones de manera efectiva, aunque muchas veces me descuide un poco. Mis conocimientos técnicos van en torno a programación web, bases de datos, lenguajes de alto y bajo nivel como C++, Python y JavaScript.
-    </td>
-  </tr>
-  <tr>
-    <td><img src="images/Alexanderfoto.PNG" alt="Alexander" width="150px"></td>
-    <td>
-      <strong>Nombres y apellidos:</strong>  Alexander Piero Fernandez Garfias <br>
-      <strong>Código de estudiante:</strong> U202019498<br>
-      <strong>Carrera:</strong> Ing. de Software<br>
-      <strong>Descripción:</strong> Me llamo Alexander Piero Fernandez Garfias, estudio  la carrera de Ing. de Software en la UPC. Mis conocimientos técnicos van en torno a Programación en lenguajes como C++, Dart, Java.
+      <strong>Descripción:</strong> Soy una persona que me gusta cumplir con mis obligaciones de manera efectiva. Mis conocimientos técnicos van en torno a programación web, bases de datos, lenguajes de alto y bajo nivel como C++, Python y JavaScript.
     </td>
   </tr>
 </table>
 
-##  Solution Profile
+## 1.2. Solution Profile
 
 SplitEasy es una plataforma digital diseñada para facilitar la distribución equitativa de los gastos del hogar entre sus miembros, teniendo en cuenta los ingresos individuales de cada uno. El sistema calcula automáticamente el porcentaje que cada miembro debe aportar en función de su capacidad económica, lo que asegura una distribución justa de los gastos comunes, como alquiler, servicios y alimentos. Los usuarios pueden registrar sus ingresos, ver cuánto deben pagar y cuánto han pagado, y el representante del hogar tiene una visión general de todo el proceso. Además, la plataforma ofrece un seguimiento en tiempo real, reportes mensuales detallados y alertas automáticas sobre pagos pendientes. Con una interfaz intuitiva y fácil de usar, SplitEasy no solo optimiza la gestión financiera, sino que también promueve la transparencia y la confianza entre los miembros del hogar, reduciendo los posibles conflictos relacionados con el dinero y asegurando una gestión financiera eficiente y justa.
 
-##  Antecedentes y Problemática
+### 1.2.1. Antecedentes y Problemática
 
 La metodología 5W y 2H es un enfoque utilizado para identificar la causa raíz de problemas, errores o no conformidades en sistemas. Desarrollada por Toyota, esta herramienta es fundamental dentro del Sistema de Producción Toyota (TPS), ya que, según Taichii Ohno, clarifica problemas y facilita la implementación de acciones correctivas o preventivas (Palko et al., 2015). Además, esta metodología es adaptable a cualquier tipo de organización, lo que la convierte en una herramienta versátil para la resolución de problemas.
 
@@ -311,11 +567,11 @@ La necesidad de un reparto equitativo de los gastos del hogar, la falta de trans
 <p align="center">Fernando Blanco P. (2020). Gráfico de LDL – ESTADÍSTICA VISUAL (VIII). Gráficos con barras de error: manual de usuario – Lima, 2020</p>
 <p align="center"><em>Figura: Representación visual del costo promedio de errores manuales.</em></p>
 
-## Lean UX Process
+### 1.2.2. Lean UX Process
 
 Lean UX se define como un proceso iterativo y colaborativo que prioriza la experimentación y el aprendizaje continuo sobre la creación de documentación exhaustiva. En lugar de centrarse en entregar un producto final completamente detallado, este enfoque permite a los equipos de diseño y desarrollo trabajar en conjunto para construir prototipos y realizar pruebas rápidas. Estas pruebas se realizan con usuarios reales y en contextos reales, lo que permite validar hipótesis y ajustar el producto en función de los resultados obtenidos. El objetivo principal de Lean UX es reducir el desperdicio y aumentar la eficiencia en el desarrollo del producto, permitiendo a los equipos responder de manera más ágil a las necesidades y expectativas de los usuarios (Gothelf & Seiden, 2013).
 
-## Lean UX Problem Statements
+#### 1.2.2.1. Lean UX Problem Statements
 
 **¿Cómo podemos crear una herramienta innovadora que motive a los miembros del hogar a gestionar sus finanzas compartidas de manera justa, permitiendo una distribución proporcional de los gastos según sus ingresos individuales?**  
 Muchas personas que comparten un hogar enfrentan dificultades al dividir los gastos de manera equitativa. La falta de un sistema justo puede generar conflictos, resentimientos y desorganización financiera. Las herramientas actuales son muy básicas o se limitan a simples divisiones matemáticas que no consideran la capacidad económica de cada persona.
@@ -332,7 +588,7 @@ Los usuarios necesitan una plataforma sencilla, pero también lo suficientemente
 **¿Cómo podemos fomentar una cultura de ahorro y planificación financiera conjunta dentro del hogar, basada en metas comunes y acuerdos colaborativos?**  
 La mayoría de los hogares no tienen metas financieras compartidas ni hábitos de ahorro establecidos en grupo. La falta de planificación colectiva limita el crecimiento económico del hogar y genera dependencia o desigualdad en las contribuciones.
 
-## Lean UX Assumptions
+#### 1.2.2.2. Lean UX Assumptions
 
 ### Business Outcomes
 
@@ -375,7 +631,7 @@ La mayoría de los hogares no tienen metas financieras compartidas ni hábitos d
   - Seguridad de datos  
   - Experiencia simple y colaborativa  
 
-## Lean UX Hypothesis Statements
+#### 1.2.2.3. Lean UX Hypothesis Statements
 
 **Hipótesis 1: Distribución proporcional de gastos**  
 Creemos que una herramienta que calcule automáticamente cuánto debe aportar cada miembro del hogar según sus ingresos fomentará una convivencia más justa y organizada.  
@@ -385,10 +641,10 @@ _Sabremos que estamos bien cuando al menos el 70% de los usuarios reporten una d
 Creemos que permitir que un representante tenga una visión general del estado financiero del grupo y reciba alertas mejorará la gestión y cumplimiento de los pagos.  
 _Sabremos que estamos bien cuando veamos una reducción en pagos atrasados y un uso activo del panel de control por parte del representante en al menos el 60% de los hogares registrados._
 
-## Lean UX Canvas
+#### 1.2.2.4. Lean UX Canvas
 
 <p align="center">
-  <img src="images/Lean UX Canvas.png" alt="Gráfico de errores manuales" width="500">
+  <img src="images/Lean UX Canvas.png" alt="Gráfico de errores manuales" width="1000">
 </p>
 
 ## Segmentos Objetivos
@@ -433,15 +689,14 @@ _Sabremos que estamos bien cuando veamos una reducción en pagos atrasados y un 
 
 # Chapter 2: Requirements Elicitation & Analysis
 
-## Competidores
-### Analisis Competitivo
+## 2.1. Competidores
+### 2.1.1. Analisis Competitivo
 
-## Competitive Analysis Landscape
-### ¿Por qué llevar a cabo este análisis?
+#### ¿Por qué llevar a cabo este análisis?
 Analizar la competencia en el mercado de gestión energética para hogares inteligentes.  
 Comparar fortalezas, debilidades y estrategias para identificar oportunidades y amenazas.
 
-| Categoría                  | SplitEasy (Tu startup)                                                                                         | Splitwise                                                                                       | Tricount                                                                                        | SettleUp                                                                                       |
+| Categoría                  | SplitEasy (Nuestra startup)                                                                                         | <img src="images/SplitWise.png" alt="split" height ="30"> <br> Splitwise                                                                                       | <img src="images/Tricount.png" alt="split" height ="30"> <br>  Tricount                                                                                        |  <img src="images/SettleUp.png" alt="split" height ="30"> <br> SettleUp                                                                                       |
 |---------------------------|----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
 | **Perfil - Overview**     | Aplicación de gestión financiera del hogar. Divide los gastos tomando en cuenta los ingresos.                 | Plataforma para dividir gastos entre amigos o grupos.                                           | App para dividir fácilmente gastos en grupo, ideal para eventos o viajes.                     | App para registrar deudas compartidas en contextos no permanentes como viajes o salidas.     |
 | **Ventaja competitiva**   | Reparto justo y automatizado según ingresos. Fomenta equidad y transparencia.                                  | División rápida y sencilla. Reduce fricción para saldar deudas.                                | Registro ágil y claro para gastos grupales.                                                    | Claridad visual del seguimiento de pagos en grupo.                                            |
@@ -459,7 +714,7 @@ Comparar fortalezas, debilidades y estrategias para identificar oportunidades y 
 | Amenazas                  | Competencia consolidada. Preferencia por métodos tradicionales (Excel, notas, billeteras físicas).             | Lo mismo: herramientas tradicionales siguen siendo usadas.                                      | Puede quedar rezagada frente a apps con más recursos.                                          | Entrada de bancos o apps de pago con funciones similares.                                     |
 
 
-### Estrategias y tácticas frente a competidores
+### 2.1.2. Estrategias y tácticas frente a competidores
 
 SplitEasy se diferencia de sus competidores mediante una propuesta de valor centrada en la equidad real, considerando los ingresos de cada persona en la distribución de gastos compartidos. Esta estrategia permite posicionarse en un nicho aún poco explorado por aplicaciones como Splitwise, Tricount o SettleUp, las cuales se enfocan en divisiones igualitarias o personalizadas manualmente, pero no abordan el concepto de proporcionalidad basada en capacidad económica.
 
@@ -482,9 +737,9 @@ Incentivar la recomendación entre roommates, parejas y familias, priorizando ex
 
 **Táctica:** Sistema de referidos y uso colaborativo. Cada nuevo usuario puede invitar fácilmente a su grupo de convivencia, con beneficios pequeños como más espacio de historial o funciones extra por cada referido activo.
 
-## Competidores
+## 2.2. Entrevistas
 
-### Diseño de Entrevistas
+### 2.2.1. Diseño de Entrevistas
 
 **Propósito de la entrevista:**  
 SplitEasy busca ofrecer una solución digital que permita distribuir los gastos del hogar de forma equitativa, basándose en los ingresos de cada miembro. Esta entrevista tiene como objetivo comprender las necesidades, hábitos y expectativas de las personas que comparten gastos del hogar, así como de quienes asumen la responsabilidad de administrarlos. Esta información nos permitirá diseñar una herramienta que promueva la transparencia, evite conflictos financieros y se ajuste a las realidades de los hogares peruanos actuales.
@@ -536,83 +791,342 @@ SplitEasy busca ofrecer una solución digital que permita distribuir los gastos 
 9. ¿Estaría dispuesto(a) a registrar los ingresos de cada miembro para que la aplicación calcule automáticamente cuánto debe aportar cada uno?  
 10. ¿Qué beneficios cree que traería una solución como SplitEasy en la convivencia familiar?
 
-### Registro de entrevistas
+### 2.2.2. Registro de entrevistas
 
-**Primer Segmento - Entrevista a Jesus Casana - Por Bruno Gonzales:**
+#### **Primer Segmento - Personas del Hogar:** <br>
+
+**REGISTRO DE ENTREVISTA 1:** <br>
+
+Nombre completo del entrevistado: Jesús Cassana
+
+Edad: 27 años
+
+Distrito: Cercado de Lima
+
+Screenshot del video:
 <p align="left">
   <img src="images/Entrevista1_Bruno.png" alt="" width="500">
 </p>
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u201820037_upc_edu_pe/EWJDafd3jKJLgx_GVN7SawEBxb_W9KY5TQt5WBRD2DQHvw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=NthxHb
 
-**Primer Segmento - Entrevista a Erick Heredia - Por Bruno Gonzales:**
+URL del video en Microsoft Stream: https://shorturl.at/7UPcY
+
+Duración: 3 minutos y 38 segundos
+
+Resumen descriptivo de la entrevista:
+Jesús Cassana, de 27 años, convive con su pareja y se desempeña como contador. Actualmente asume la mayor parte de los gastos del hogar, ya que su pareja trabaja como mesera y no siempre puede contribuir con una cantidad fija. Expresa que, aunque intentan dividir algunos servicios básicos (luz, agua), la distribución no es equitativa y suelen surgir desacuerdos.
+
+Jesús considera justo un sistema que divida los gastos según los ingresos de cada persona, aunque reconoce que esto podría generar discusiones. No utiliza ninguna aplicación para registrar pagos del hogar, pero le parece una herramienta útil para fomentar la equidad y el ahorro, especialmente para emergencias. Desea funcionalidades claras que le muestren cuánto debe pagar, cuánto ha pagado y qué está pendiente.
+
+Características objetivas y subjetivas observadas:
+
+- Personalidad: Responsable, comprometido con el hogar, busca soluciones justas, pero pragmático frente a las limitaciones económicas.
+
+- Marcas/Influencias: No menciona marcas, pero se nota apertura al uso de herramientas digitales.
+
+- Tecnología: Familiarizado con apps móviles y dispuesto a usarlas si son funcionales.
+
+- Canales de interacción: Interacción directa (conversaciones) y potencial digital (desea una app).
+
+- Browser/Dispositivos: Probablemente usa smartphone y laptop para actividades laborales y domésticas.
+
+- Nivel digital: Intermedio; no usa app, pero comprende su utilidad.
+
+**REGISTRO DE ENTREVISTA 2:** <br>
+
+Nombre completo del entrevistado: Eric De Delia
+
+Edad: 25 años
+
+Distrito: Lima Cercado
+
+Screenshot del video: 
 <p align="left">
   <img src="images/Entrevista2_Bruno.png" alt="" width="500">
 </p>
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u201820037_upc_edu_pe/EfGMD0WYMSZLpqKu7hcnU9ABMWYYGrtOXIznD7sj9x8c5g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ZgasbR
 
-**Primer Segmento - Entrevista a Denis Monsalve - Por Jhordi Carranza:**
+URL del video en Microsoft Stream: https://shorturl.at/jV3bV
+
+Inicio de la entrevista: 01:00
+
+Duración: 6 minutos y 39 segundos
+
+Resumen descriptivo de la entrevista:
+  Eric De Delia tiene 25 años y vive con su pareja, con quien mantiene una relación estable desde hace varios años. Actualmente es el único proveedor del hogar, ya que su pareja se encuentra con problemas de salud y no puede trabajar. Como asesor bancario en una consultora, Eric asume todos los gastos del hogar, incluyendo servicios básicos (luz, agua, internet) y costos médicos.
+  
+  Expresa que la situación actual no es justa, ya que la carga económica es unilateral. Han tenido desacuerdos por temas financieros y aunque han considerado dividir gastos según ingresos, les resulta difícil implementar esa idea mientras su pareja no genere ingresos. No utilizan ninguna aplicación para anotar los pagos, pero considera que sería muy útil, especialmente si permite distribuir los gastos proporcionalmente, gestionar ahorros para emergencias, citas o viajes, y organizar los ingresos mensuales con reportes visuales y claros.
+  
+  Características objetivas y subjetivas observadas:
+  
+  - Personalidad: Comprometido, empático, realista, con alta disposición a asumir responsabilidades, busca soluciones prácticas.
+  
+  - Marcas/Influencias: No menciona marcas, pero muestra disposición a usar soluciones tecnológicas si son útiles.
+  
+  - Tecnología: Nivel medio-alto. Comprende el potencial de una app bien diseñada para su situación doméstica.
+  
+  - Canales de interacción: Preferencia por herramientas digitales (aunque aún no implementadas).
+  
+  - Browser/Dispositivos: Probable uso diario de smartphone y laptop; trabaja en consultoría bancaria.
+
+**REGISTRO DE ENTREVISTA 3:** <br>
+
+Nombre completo del entrevistado: Denis Monsalve
+
+Edad: 21
+
+Distrito: No mencionado
+
+Screenshot del video: 
 <p align="left">
-
-
-  <img src="images/Entrevista.Denis.png" alt="UserPersona1" width="500">
+  <img src="images/EntrevistaDenis.png" alt="UserPersona1" width="500">
 </p>
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191e835_upc_edu_pe/Ebc2v4G3OnFKn_lM39sFKjUBXK7kW_iu1TjNEgcR1vRlBg
 
----
+URL del video en Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191e835_upc_edu_pe/Ebc2v4G3OnFKn_lM39sFKjUBXK7kW_iu1TjNEgcR1vRlBg
 
-**Segundo Segmento -  Entrevista a Marjorie Luna Victoria - Por Jorge Díaz:**
+Inicio de la entrevista: 00:02
+
+Duración: 3 minutos y 43 segundos
+
+Resumen descriptivo de la entrevista:
+
+El entrevistado vive actualmente con sus padres y comparte los gastos del hogar principalmente con su padre. Considera justo el sistema que usan porque existe apoyo mutuo y buena comunicación. Asegura que no han tenido desacuerdos ya que establecen acuerdos cuando uno de los dos no puede cubrir alguna parte, actuando en función del beneficio familiar.
+
+Menciona que ya dividen los gastos según los ingresos de cada uno y que eso les facilita la organización económica. No utilizan ninguna aplicación por falta de tiempo, y manejan las cuentas de manera tradicional. Está abierto a usar una app, especialmente si permite visualizar los gastos e ingresos de manera clara, por ejemplo, diferenciando por colores. Sin embargo, hace una observación importante sobre la brecha digital: las personas mayores, como sus padres, podrían tener dificultades con plataformas electrónicas.
+
+Características objetivas y subjetivas observadas:
+
+- Personalidad: Cooperativo, respetuoso del núcleo familiar, flexible frente a las situaciones económicas del hogar.
+
+- Marcas/Influencias: N/A directamente, aunque se infiere familiaridad con métodos tradicionales.
+
+- Tecnología: Bajo uso de herramientas digitales para finanzas domésticas.
+
+- Canales de interacción: Gestión manual de gastos, con disposición a soluciones digitales simples.
+
+- Browser/Dispositivos: No especificado; probablemente smartphone personal y poca intervención por parte de sus padres.
+
+- Nivel digital: Medio-bajo; menciona que nunca ha usado una app de finanzas, pero abierto a explorar.
+
+
+
+
+
+#### **Segundo Segmento - Representantes del Hogar:**
+
+**REGISTRO DE ENTREVISTA 1:**
+
+Nombre del entrevistador: Jorge Diaz
+
+Nombre del entrevistado: Marjorie Luna Victoria
+
+Edad: 18 años
+
+Distrito: No especificado
+
+Screenshot del video: 
+
 <p align="left">
   <img src="images/EntrevistaMarjorie.png" alt="UserPersona1" width="500">
 </p>
 
-https://upcedupe-my.sharepoint.com/personal/u20231d534_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20231d534%5Fupc%5Fedu%5Fpe%2FDocuments%2F2025%2D04%2D10%2016%2D09%2D47%2Emkv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E1fbf2b54%2Ddab5%2D4bd4%2Da1d6%2D28ca884bf530
+URL del video en Microsoft Stream: https://shorturl.at/wqLaD
+
+Inicio de la entrevista: 00:17
+
+Duración: 3 minutos y 31 segundos
+
+**Resumen descriptivo de la entrevista:**
+
+Marriery tiene 18 años y vive con una amiga. Ambas son roommates y comparten los gastos del hogar, incluyendo alquiler, servicios y alimentos. Dividen los gastos en partes iguales, pero a veces uno de los dos termina pagando más debido a pequeñas diferencias en los gastos personales. Considera justo el sistema actual, ya que ambas tienen ingresos similares, aunque ha habido algunas desavenencias, las cuales se resuelven hablando.
+
+Los principales retos que enfrentan son recordar quién pagó qué y cuándo, ya que a veces no se actualizan los gastos de manera oportuna. No usan ninguna aplicación específica, solo una nota compartida en el celular, aunque esta no siempre está al día. Está interesada en una aplicación que le permita registrar los gastos fácilmente, visualizar el aporte de cada una y recibir recordatorios.
+
+Le gustaría que la app tuviera una interfaz visual, con gráficos o barras, que le permita entender rápidamente lo que se ha pagado y lo que aún está pendiente. Cree que una aplicación como Split Easy ayudaría a evitar malos entendidos y a mejorar la organización y convivencia entre ellas.
 
 
-**Segundo Segmento - Entrevista a José Carranza - Por Jhordi Carranza:**
+**Características objetivas y subjetivas observadas:**
+- Tipo de convivencia: Roommates (compañeras de cuarto)
+
+- Responsabilidad económica: Dividida en partes iguales, pero a veces desequilibrada
+
+- Herramientas actuales: Nota compartida en celular (no estructurado)
+
+- Nivel tecnológico: Medio (conocimiento básico de apps)
+
+- Preferencias de UX/UI: Interfaz visual (gráficos o barras), fácil de entender
+
+- Actitudes clave: Busca equidad, claridad, y transparencia en el reparto de gastos
+
+
+**REGISTRO ENTREVISTA 2:**
+
+Nombre del entrevistador: Jhordi Carranza
+
+Nombre del entrevistado: José Carranza
+
+Edad: 21 años
+
+Distrito: Lima 
+
+Screenshot del video:
+
 <p align="left">
   <img src="images/Entrevista.JoséCarr.png" alt="UserPersona1" width="500">
 </p>
-https://upcedupe-my.sharepoint.com/personal/u20191e835_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20191e835%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevista%20de%20Jhordi%20Carranza%20%2D%20Segmento%202%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E5cb064bd%2Dde25%2D4cd9%2D971f%2De0eb6e0cdf7d&isDarkMode=false
 
-**Segundo Segmento -  Entrevista a Diego Ramírez - Por Alexander Fernandez:**
+URL del video en Microsoft Stream: https://shorturl.at/Rs9WW
+
+Inicio de la entrevista: 00:00
+
+Duración: 3 minutos
+
+**Resumen descriptivo de la entrevista:**
+
+  José Carranza, un joven de 21 años, comparte su departamento con tres amigos. Viven en un ambiente de convivencia similar al de roommates, donde se dividen los gastos de manera equitativa, pero siempre surgen pequeños problemas cuando alguno de los compañeros olvida pagar su parte o cuando un gasto específico es desproporcionado.
+  
+  José Carranza menciona que, aunque intentan repartir los gastos de manera justa, a veces no pueden hacerlo de forma precisa porque algunos de sus compañeros tienen ingresos más altos que otros. Esto lleva a un desbalance que crea pequeños conflictos, aunque siempre logran solucionarlos hablando.
+  
+  En cuanto a la organización de los pagos, no utilizan ninguna aplicación, sino que lo hacen a través de un grupo en WhatsApp y algunas notas en sus celulares. Sin embargo, esto les genera dificultades, ya que no siempre se actualiza correctamente y a veces se olvida qué pago corresponde a quién.
+  
+  José Carranza considera que una aplicación bien diseñada que les ayude a dividir los gastos de manera justa, registrar los pagos y enviar recordatorios sería útil. Le gustaría que la aplicación tuviera gráficos simples o barras que le permitieran visualizar rápidamente lo que cada uno debe pagar y lo que ya se ha pagado. Además, esta herramienta debería enviar recordatorios de pagos pendientes y mostrar un resumen claro del mes.
+
+**Características objetivas y subjetivas observadas:**
+
+Tipo de convivencia: Roommates 
+
+Responsabilidad económica: Reparto equitativo, pero con desbalance por diferencias de ingresos
+
+Herramientas actuales: WhatsApp y notas en celulares
+
+Nivel tecnológico: Medio (conocimiento de apps, pero no usa)
+
+Preferencias de UX/UI: Interfaz visual, gráficos o barras fáciles de entender
+
+Actitudes clave: Busca equidad, solución rápida de problemas, transparencia en los pagos
+
+
+
+
+#### **Segundo Segmento - Representantes del Hogar:**
+
+Nombre del entrevistador: Alexander Fernández 
+
+Nombre del entrevistado: Diego Ramírez
+
+Edad: 22 años
+
+Distrito: Lima
+
+Screenshot del video: 
+
 <p align="left">
   <img src="images/EntrevistaDiego.png" alt="UserPersona1" width="500">
 </p>
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019498_upc_edu_pe/EXVitH8xFOJOtsRjz9BeBu4BpoicdsdOC0cgkm9IWkb6Rw?e=x0BYoH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
-### Análisis de entrevistas
+URL del video en Microsoft Stream: https://shorturl.at/QuV6U
+
+Inicio de la entrevista: 00:11
+
+Duración: 1 minuto con 52 segundos
+
+**Resumen descriptivo de la entrevista:**
+
+  Diego Ramírez, estudiante de Ingeniería Industrial de 22 años, convive con dos amigos. Comentan que intentan dividir los gastos en partes iguales, pero esto no siempre es posible ya que no todos tienen los mismos ingresos. Considera que el sistema no es justo porque termina pagando más de lo que le corresponde.
+  
+  Los principales retos que enfrentan son ponerse de acuerdo, hacer seguimiento de quién pagó qué, y organizar la información. No utilizan ninguna aplicación, solo notas en celulares o grupos de WhatsApp, pero reconoce que la información se pierde fácilmente.
+  
+  Está interesado en una aplicación que permita registrar gastos, visualizar fácilmente quién debe cuánto, y que envíe recordatorios. Le gustaría una interfaz visual, con colores o gráficos simples. Cree que una app como Split Easy sería útil para evitar discusiones y lograr una distribución justa entre todos los miembros.
+
+**Características objetivas y subjetivas observadas:**
+
+  Tipo de convivencia: Con amigos (coliving o roommates)
+  
+  Responsabilidad económica: Compartida, pero desigual
+  
+  Herramientas actuales: Notas en celular y WhatsApp (no estructurado)
+  
+  Nivel tecnológico: Medio-alto (sabe lo que espera de una app)
+  
+  Preferencias de UX/UI: Visual, clara, rápida, con colores y gráficos simples
+  
+  Actitudes clave: Busca justicia, simplicidad y evitar conflictos
+
+
+### 2.2.3. Análisis de entrevistas
+
+**SEGMENTO - PERSONAS DEL HOGAR:**
+
+| Característica                                          | Tipo      | Evidencia                                     | Porcentaje (3 entrevistas) |
+| ------------------------------------------------------- | --------- | --------------------------------------------- | -------------------------- |
+| Convivencia con familiares o pareja                     | Objetiva  | Todos viven con su pareja o padres            | 100%                       |
+| Ingreso principal asumido por uno solo                  | Objetiva  | En 2/3 casos, solo una persona trabaja        | 67%                        |
+| Reparto de gastos según ingresos                        | Subjetiva | 3/3 consideran justo dividir según ingresos   | 100%                       |
+| No uso de app financiera actualmente                    | Objetiva  | Ninguno usa app, pero estarían dispuestos     | 100%                       |
+| Interés por funcionalidades como ahorro y visualización | Subjetiva | Mencionado en todas las entrevistas           | 100%                       |
+| Conflictos por temas de dinero                          | Subjetiva | 2/3 han tenido conflictos por pagos           | 67%                        |
+| Brecha generacional en adopción digital                 | Subjetiva | Mencionado en entrevista 3 (personas mayores) | 33%                        |
+
+Observaciones clave:
+La falta de herramientas digitales no se debe a desinterés, sino a falta de opciones prácticas o conocimiento. Todos los entrevistados están dispuestos a usar una app si esta es intuitiva y útil.
+
+Se evidencian dos arquetipos complementarios:
+
+- El proveedor de hogar joven: trabaja, cubre la mayoría de los gastos, busca una forma justa de organizar.
+
+- El conviviente colaborador tradicional: comparte con padres, usa métodos manuales, dispuesto a adoptar herramientas simples.
+
+**SEGMENTO - REPRESENTANTES DEL HOGAR:**
+
+| Característica                                           | Tipo      | Evidencia                                                     | % (3 entrevistas) |
+| -------------------------------------------------------- | --------- | ------------------------------------------------------------- | ----------------- |
+| Convivencia con amigos                                   | Objetiva  | Todos viven con amigos, no con familiares o pareja            | 100%              |
+| Reparto en partes iguales, pero desequilibrado           | Subjetiva | "A veces uno termina pagando más que el otro"                 | 100%              |
+| No uso de app, solo notas compartidas                    | Objetiva  | WhatsApp y notas, pero no actualizadas siempre                | 100%              |
+| Necesidad de herramientas visuales                       | Subjetiva | "Gráficos o barras fáciles de entender"                       | 100%              |
+| Problemas para recordar pagos                            | Subjetiva | "A veces no recordamos quién pagó qué"                        | 100%              |
+| Funcionalidades deseadas: recordatorios, claridad visual | Subjetiva | "Registrar pagos, ver quién debe qué, y enviar recordatorios" | 100%              |
+
+**Observaciones clave:**
+
+  La falta de un sistema estructurado y la dependencia de herramientas informales como WhatsApp y notas en celulares se destacan como puntos de mejora. Los gráficos y recordatorios automáticos son cruciales para mejorar la convivencia y evitar malentendidos por los pagos.
+  
+  El arquetipo final emergente sería:
+  “El roommate organizado pero caótico”: joven que busca mantener la equidad en los pagos, pero necesita soluciones tecnológicas que simplifiquen la administración de gastos y eviten conflictos.
+
+
+
+
+
 
 ## 2.3 Needfinding
 
 Las necesidades principales que hemos encontrado en nuestros segmentos objetivos son las siguientes:
 
-### Segmento #1: Personas del hogar
+#### Segmento #1: Personas del hogar
 - Distribuir los gastos del hogar de manera equitativa según ingresos  
 - Tener visibilidad clara de los aportes y gastos compartidos  
 - Evitar conflictos financieros dentro de la convivencia  
 - Usar herramientas digitales que simplifiquen la organización de pagos  
 
-### Segmento #2: Representante del hogar
+#### Segmento #2: Representante del hogar
 - Gestionar y supervisar los pagos del hogar de forma centralizada  
 - Recibir recordatorios automáticos y reportes financieros claros  
 - Asegurar la equidad y transparencia en la distribución de los gastos  
 - Ahorrar tiempo en la planificación financiera y evitar malentendidos  
 
-### User Persona
+### 2.3.1. User Personas
 
 **Segmento #1: Personas del hogar / User Persona: Camila Torres**
 <p align="left">
-  <img src="images/UserPersona1.PNG" alt="UserPersona1" width="500">
+  <img src="images/UserPersona1.PNG" alt="UserPersona1" width="1000">
 </p>
 
 **Segmento #2: Representante del hogar / User Persona: Javier Morales**
 <p align="left">
-  <img src="images/UserPersona2.PNG" alt="UserPersona2" width="500">
+  <img src="images/UserPersona2.PNG" alt="UserPersona2" width="1000">
 </p>
 
-### User Task Matrix
+### 2.3.2. User Task Matrix
 En esta sección se presenta la User Task Matrix, una herramienta enfocada en los 2 segmentos clave de usuarios de SplitEasy, en miembro del hogar y en responsable del hogar, que permite identificar sus tareas habituales y principales necesidades. Este análisis resulta fundamental para establecer prioridades al momento de definir las funcionalidades del producto e integrar el product backlog. Para la dimensión de frecuencia, se han utilizado cinco niveles: never, rarely, sometimes, often y always; y para la importancia, tres niveles: low, medium y high.
-### Camila Torres
 
 | **User Task**                                              | **Camila Torres - Miembro del hogar** |                                     | **Javier Morales - Responsable del hogar** |                                     |
 |------------------------------------------------------------|----------------------------------------|-------------------------------------|--------------------------------------------|-------------------------------------|
@@ -628,7 +1142,7 @@ En esta sección se presenta la User Task Matrix, una herramienta enfocada en lo
 | Buscar herramientas para facilitar la gestión financiera   | Sometimes                              | Medium                              | Sometimes                                  | Medium                              |
 | Resolver conflictos por dinero entre miembros              | Rarely                                 | High                                | Rarely                                     | High                                |
 
-### User Journey Mapping
+### 2.3.3. User Journey Mapping
 En esta sección se presentarán los user journey mapping para cada user persona. El recorrido comienza cuando una persona del hogar recibe una notificación relacionada a un nuevo gasto compartido, enviada a través de SplitEasy. A partir de ello, consulta su historial de aportes y visualiza cuánto han pagado otros miembros del hogar. Luego, se realiza el cálculo proporcional de lo que debe aportar, basado en reglas previamente acordadas. Posteriormente, se comunica con otros miembros en caso de dudas o para validar el monto. El recorrido finaliza cuando realiza el pago de su parte desde la aplicación o mediante un enlace compartido.
 
 ### Segmento 1: Personas del hogar
@@ -645,35 +1159,35 @@ En esta sección se presentarán los user journey mapping para cada user persona
   <img src="images/UserJourney22.jpeg" ">
 </p>
 
-### Empathy Mapping
+### 2.3.4. Empathy Mapping
 
 ### Segmento 1: Personas del hogar
 
 <p align="left">
-  <img src="images/Empathy1.PNG" alt="Empathy1" width="500">
+  <img src="images/Empathy1.PNG" alt="Empathy1" width="1000">
 </p>
 
 ### Segmento 2: Representante del hogar
 
 <p align="left">
-  <img src="images/Empathy2.PNG" alt="Empathy2" width="500">
+  <img src="images/Empathy2.PNG" alt="Empathy2" width="1000">
 </p>
 
-### As-is Scenario Mapping
+### 2.3.5. As-is Scenario Mapping
 
 ### Segmento #1: Personas del Hogar
 
 <p align="left">
-  <img src="images/ScenarioMapping1S1.png"">
+  <img src="images/ScenarioMapping1S1.png" widht="1100">
 </p>
 
 ### Segmento #2: Representante del Hogar
 
 <p align="left">
-  <img src="images/ScenarioMapping1S2.png"">
+  <img src="images/ScenarioMapping1S2.png" widht="1100">
 </p>
 
-## Ubiquitous Language
+## 2.4. Ubiquitous Language
 
 | **Término en Inglés**          | **Término en Español**       | **Definición**                                                                                                                                           |
 |--------------------------------|-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -695,16 +1209,16 @@ En esta sección se presentarán los user journey mapping para cada user persona
 ### Segmento 1: Miembros del hogar
 
 <p align="left">
-  <img src="images/ScenarioMapping2S22.png"">
+  <img src="images/ScenarioMapping2S22.png" widht="1100">
 </p>
 
 ### Segmento 2: Representante del hogar
 
 <p align="left">
-  <img src="images/ScenarioMapping2S21.png"">
+  <img src="images/ScenarioMapping2S21.png" widht="1100">
 </p>
 
-## User Stories
+## 3.2. User Stories
 ### Epic
 
 | EPIC ID | Nombre del Epic                  | Descripción |
@@ -804,9 +1318,9 @@ En esta sección se presentarán los user journey mapping para cada user persona
 | EP01     | Registro y Gestión de Perfil      | US03  | Edición de información personal    | Como usuario, quiero editar mi información personal para mantenerla actualizada.                                 | - Escenario 1: Acceso al perfil<br>Dado que el usuario ya está logueado,<br>Cuando entre a la sección "Perfil",<br>Entonces podrá ver su información editable.<br><br>- Escenario 2: Guardar cambios<br>Dado que el usuario edite su nombre,<br>Cuando haga clic en "Guardar",<br>Entonces la información se actualizará.                                      |
 | EP01     | Registro y Gestión de Perfil      | US04  | Cierre de sesión desde todos los dispositivos | Como usuario, quiero cerrar sesión desde todos mis dispositivos para mayor seguridad.                     | - Escenario 1: Cerrar sesión global<br>Dado que el usuario se encuentra en su cuenta,<br>Cuando presione el botón "Cerrar sesión en todos los dispositivos",<br>Entonces todas las sesiones activas se cerrarán. |
 | EP01     | Registro y Gestión de Perfil      | US05  | Configuración de notificaciones personales | Como usuario, quiero configurar mis notificaciones para recibir alertas relevantes.                        | - Escenario 1: Acceder a notificaciones<br>Dado que el usuario accede a su perfil,<br>Cuando haga clic en "Notificaciones",<br>Entonces verá las opciones para activar o desactivar alertas.<br><br>- Escenario 2: Guardar configuración<br>Dado que el usuario seleccione sus preferencias,<br>Cuando haga clic en "Guardar",<br>Entonces la configuración será aplicada. |
-| EP01 | Registro y Gestión de Perfil | US36 | Implementar autenticación JWT | Como administrador o usuario, quiero que el inicio de sesión implemente autenticación JWT para mayor seguridad en el manejo de sesiones. | - Escenario 1: Generar JWT<br>Dado que el usuario proporciona credenciales correctas,<br>Cuando se autentica,<br>Entonces el backend responde con un JWT válido.<br><br>- Escenario 2: Validar JWT<br>Dado que el JWT se adjunta en el encabezado de la solicitud,<br>Cuando el backend verifica el token,<br>Entonces autoriza o rechaza el acceso según sea válido o vencido. |
-| EP01 | Registro y Gestión de Perfil | US37 | Cifrar contraseñas en base de datos | Como administrador, quiero que las contraseñas de los usuarios sean encriptadas antes de guardarlos en la base de datos. | - Escenario 1: Al registrar o actualizar password<br>Dado que el password llega en texto plano,<br>Cuando el backend lo encripta,<br>Entonces se almacena en la base de datos de forma hashed.<br>- Escenario 2: Al autenticar<br>Dado que el password en base de datos está hashed,<br>Cuando el backend verifica credenciales,<br>Entonces primero hace el hash de la password ingresada y lo compara con el guardado. |
-| EP01 | Registro y Gestión de Perfil | US38 | Validar roles de administrador y miembro en backend | Como administrador, quiero que ciertos endpoints sean usados solo por determinados roles. | - Escenario 1: Peticiones de administrador<br>Dado que el rol incluido en el JWT es administrador,<br>Cuando invoque un endpoint administrador,<br>Entonces el backend permitirá el acceso.<br>- Escenario 2: Peticiones de miembro<br>Dado que el rol incluido en el JWT es miembro,<br>Cuando invoque un endpoint administrador,<br>Entonces el backend rechazará la solicitud con 403. |
+| EP01 | Registro y Gestión de Perfil | US36 | Implementar autenticación JWT | Como desarrollador o usuario, quiero que el inicio de sesión implemente autenticación JWT para mayor seguridad en el manejo de sesiones. | - Escenario 1: Generar JWT<br>Dado que el usuario proporciona credenciales correctas,<br>Cuando se autentica,<br>Entonces el backend responde con un JWT válido.<br><br>- Escenario 2: Validar JWT<br>Dado que el JWT se adjunta en el encabezado de la solicitud,<br>Cuando el backend verifica el token,<br>Entonces autoriza o rechaza el acceso según sea válido o vencido. |
+| EP01 | Registro y Gestión de Perfil | US37 | Cifrar contraseñas en base de datos | Como desarrollador, quiero que las contraseñas de los usuarios sean encriptadas antes de guardarlos en la base de datos. | - Escenario 1: Al registrar o actualizar password<br>Dado que el password llega en texto plano,<br>Cuando el backend lo encripta,<br>Entonces se almacena en la base de datos de forma hashed.<br>- Escenario 2: Al autenticar<br>Dado que el password en base de datos está hashed,<br>Cuando el backend verifica credenciales,<br>Entonces primero hace el hash de la password ingresada y lo compara con el guardado. |
+| EP01 | Registro y Gestión de Perfil | US38 | Validar roles de administrador y miembro en backend | Como desarrollador, quiero que ciertos endpoints sean usados solo por determinados roles. | - Escenario 1: Peticiones de administrador<br>Dado que el rol incluido en el JWT es administrador,<br>Cuando invoque un endpoint administrador,<br>Entonces el backend permitirá el acceso.<br>- Escenario 2: Peticiones de miembro<br>Dado que el rol incluido en el JWT es miembro,<br>Cuando invoque un endpoint administrador,<br>Entonces el backend rechazará la solicitud con 403. |
 | EP01 | Registro y Gestión de Perfil | US39 | Implementar actualización de perfil a partir de API | Como usuario, quiero actualizar mi perfil a partir de una API. | - Escenario 1: Actualización exitosa<br>Dado que el token es válido,<br>Cuando el usuario envía nuevos datos,<br>Entonces el backend actualiza el perfil en la base de datos.<br>- Escenario 2: Token vencido o sin autenticar<br>Dado que el token es vencido o inexistente,<br>Cuando el backend recibe la solicitud,<br>Entonces responde con 401. |
 | EP02     | Panel del Representante del Hogar | US06  | Crear hogar                        | Como representante del hogar, quiero crear un hogar en la app para empezar a gestionar sus finanzas.             | - Escenario 1: Ingreso a creación de hogar<br>Dado que el usuario haya iniciado sesión,<br>Cuando haga clic en “Crear hogar”,<br>Entonces podrá ingresar un nombre e ID para el hogar.<br><br>- Escenario 2: Confirmación de creación<br>Dado que el usuario complete los campos requeridos,<br>Cuando presione "Confirmar",<br>Entonces se creará el hogar y se mostrará en su panel. |
 | EP02     | Panel del Representante del Hogar | US07  | Aprobar gastos                     | Como representante, quiero aprobar gastos para tener control sobre lo que se gasta en el hogar.                  | - Escenario 1: Visualizar gastos pendientes<br>Dado que haya gastos sin aprobar,<br>Cuando el representante acceda al panel,<br>Entonces verá una lista de gastos para revisar.<br><br>- Escenario 2: Aprobación<br>Dado que el representante seleccione un gasto,<br>Cuando presione "Aprobar",<br>Entonces el gasto pasará a estado "Aprobado".               |
@@ -823,44 +1337,44 @@ En esta sección se presentarán los user journey mapping para cada user persona
 | EP04     | Gestión de Gastos Compartidos | US18  | Clasificar gastos por categoría | Como usuario, quiero categorizar los gastos para facilitar su análisis y visualización.                 | - Escenario 1: Selección de categoría<br>Dado que el usuario registre un gasto,<br>Cuando acceda a la lista de categorías,<br>Entonces podrá seleccionar entre alimentación, servicios, mantenimiento, etc.<br><br>- Escenario 2: Filtro<br>Dado que seleccione una categoría,<br>Cuando aplique el filtro,<br>Entonces se mostrarán solo los gastos correspondientes.       |
 | EP04     | Gestión de Gastos Compartidos | US19  | Comentar o justificar un gasto | Como usuario, quiero añadir comentarios para explicar el motivo de un gasto compartido.                | - Escenario 1: Comentario en gasto<br>Dado que el usuario haya registrado un gasto,<br>Cuando seleccione “Añadir comentario”,<br>Entonces podrá escribir y guardar una nota explicativa visible a los miembros del hogar.                                  |
 | EP04     | Gestión de Gastos Compartidos | US20  | Visualizar gráficos de gastos | Como usuario, quiero ver gráficos de gastos para entender en qué se gasta más.                          | - Escenario 1: Acceso a visualizaciones<br>Dado que el usuario esté en el panel de gastos,<br>Cuando acceda a “Ver gráficos”,<br>Entonces podrá ver gráficos circulares o de barras agrupados por categoría, fecha o usuario.                                    |
-| EP04 | Gestión de Gastos Compartidos | US40 | Validar que el gasto tenga adjunto al menos 1 comprobante | Como administrador, quiero que cada gasto tenga al menos 1 comprobante adjunto antes de guardarlos. | - Escenario 1: Gasto sin adjunto<br>Dado que el gasto no tiene comprobante,<br>Cuando el backend recibe la solicitud,<br>Entonces responde con error 400.<br>- Escenario 2: Gasto con adjunto<br>Dado que el gasto tiene comprobante,<br>Cuando el backend grava en la base de datos,<br>Entonces lo acepta. |
-| EP04 | Gestión de Gastos Compartidos | US41 | Agregar API para filtrar gastos por rango de fecha | Como administrador, quiero filtrar gastos según rango de fecha. | - Escenario 1: Filtrar con rango válido<br>Dado que envío inicio y fin,<br>Cuando el backend filtra,<br>Entonces responde con gastos en ese rango.<br>- Escenario 2: Rango sin resultados<br>Dado que el rango no tiene gastos,<br>Cuando el backend consulta,<br>Entonces responde con una lista vacía. |
-| EP04 | Gestión de Gastos Compartidos | US42 | Implementar actualización y eliminación de gastos | Como administrador, quiero poder actualizar o eliminar gastos. | - Escenario 1: Actualización<br>Dado que el gasto existe,<br>Cuando el administrador envía nuevos datos,<br>Entonces el backend actualiza el registro.<br>- Escenario 2: Eliminado<br>Dado que el administrador solicita borrar,<br>Cuando el backend elimina el gasto,<br>Entonces deja de aparecer en futuros reportes. |
+| EP04 | Gestión de Gastos Compartidos | US40 | Validar que el gasto tenga adjunto al menos 1 comprobante | Como desarrollador, quiero que cada gasto tenga al menos 1 comprobante adjunto antes de guardarlos. | - Escenario 1: Gasto sin adjunto<br>Dado que el gasto no tiene comprobante,<br>Cuando el backend recibe la solicitud,<br>Entonces responde con error 400.<br>- Escenario 2: Gasto con adjunto<br>Dado que el gasto tiene comprobante,<br>Cuando el backend grava en la base de datos,<br>Entonces lo acepta. |
+| EP04 | Gestión de Gastos Compartidos | US41 | Agregar API para filtrar gastos por rango de fecha | Como desarrollador, quiero filtrar gastos según rango de fecha. | - Escenario 1: Filtrar con rango válido<br>Dado que envío inicio y fin,<br>Cuando el backend filtra,<br>Entonces responde con gastos en ese rango.<br>- Escenario 2: Rango sin resultados<br>Dado que el rango no tiene gastos,<br>Cuando el backend consulta,<br>Entonces responde con una lista vacía. |
+| EP04 | Gestión de Gastos Compartidos | US42 | Implementar actualización y eliminación de gastos | Como desarrollador, quiero poder actualizar o eliminar gastos. | - Escenario 1: Actualización<br>Dado que el gasto existe,<br>Cuando el administrador envía nuevos datos,<br>Entonces el backend actualiza el registro.<br>- Escenario 2: Eliminado<br>Dado que el administrador solicita borrar,<br>Cuando el backend elimina el gasto,<br>Entonces deja de aparecer en futuros reportes. |
 | EP05     | Seguimiento y Recordatorios | US21  | Recordatorios de pago               | Como usuario, quiero recibir recordatorios automáticos de pago para no retrasarme en mis aportes.| - Escenario 1: Activación del recordatorio<br>Dado que el usuario tenga una fecha límite de pago,<br>Cuando se acerque esa fecha,<br>Entonces recibirá una notificación automática por correo o en la app.<br><br>- Escenario 2: Configuración<br>Dado que acceda a ajustes,<br>Cuando edite preferencias,<br>Entonces podrá activar o desactivar los recordatorios. |
 | EP05     | Seguimiento y Recordatorios | US22  | Alertas de pagos pendientes         | Como usuario, quiero ser alertado si tengo pagos atrasados para regularizar mi situación.         | - Escenario 1: Detección automática<br>Dado que el usuario no haya pagado después de la fecha límite,<br>Cuando acceda al sistema,<br>Entonces verá una alerta destacada en su panel.<br><br>- Escenario 2: Alerta múltiple<br>Dado que haya varios pagos pendientes,<br>Cuando abra la alerta,<br>Entonces podrá ver el detalle de cada uno. |
 | EP05     | Seguimiento y Recordatorios | US23  | Recordatorio de actualización de ingresos | Como usuario, quiero ser recordado de actualizar mis ingresos para mantener la equidad del sistema.| - Escenario 1: Periodicidad<br>Dado que haya pasado un mes sin actualización,<br>Cuando el usuario inicie sesión,<br>Entonces verá un mensaje solicitando revisar su ingreso.<br><br>- Escenario 2: Confirmación<br>Dado que actualice el ingreso,<br>Cuando guarde los cambios,<br>Entonces se reiniciará el periodo de espera. |
 | EP05     | Seguimiento y Recordatorios | US24  | Confirmación de aportes              | Como usuario, quiero recibir confirmación cada vez que realizo un aporte para mayor seguridad.     | - Escenario 1: Notificación inmediata<br>Dado que el usuario registre un pago,<br>Cuando el sistema lo procese,<br>Entonces recibirá una confirmación por correo o notificación dentro de la app.<br><br>- Escenario 2: Registro visible<br>Dado que quiera revisar sus confirmaciones,<br>Cuando acceda al historial,<br>Entonces verá las confirmaciones pasadas. |
 | EP05     | Seguimiento y Recordatorios | US25  | Notificación de cambios en el hogar | Como usuario, quiero ser notificado si hay cambios en el hogar para estar informado.               | - Escenario 1: Nuevo miembro<br>Dado que un nuevo miembro se una,<br>Cuando sea aprobado por el representante,<br>Entonces se notificará a todos los miembros.<br><br>- Escenario 2: Cambios administrativos<br>Dado que el representante edite los porcentajes de aporte,<br>Cuando se guarde el cambio,<br>Entonces se notificará a los afectados. |
-| EP05 | Seguimiento y Recordatorios | US43 | API para programar recordatorios de pago | Como administrador, quiero dar de alta recordatorios específicos de pago en el backend. | - Escenario 1: Crear recordatorio<br>Dado que el administrador proporciona fecha y monto,<br>Cuando el backend grava el recordatorio,<br>Entonces el recordatorio queda incluido en la base de datos.<br>- Escenario 2: Listar recordatorios<br>Dado que el administrador consulta,<br>Cuando el backend responde,<br>Entonces proporciona la lista de recordatorios pendientes. |
-| EP05 | Seguimiento y Recordatorios | US44 | Integrar cron job para envío de recordatorios | Como administrador, quiero que el backend envie automáticamente recordatorios cuando vencen. | - Escenario 1: Ejecución de cron<br>Dado que el cron se fija cada día,<br>Cuando llega el vencimiento,<br>Entonces el backend envía mensajes o notificaciones.<br>- Escenario 2: Sin vencimientos<br>Dado que no vencen recordatorios ese día,<br>Cuando el cron se invoca,<br>Entonces no envía nada. |
+| EP05 | Seguimiento y Recordatorios | US43 | API para programar recordatorios de pago | Como desarrollador, quiero dar de alta recordatorios específicos de pago en el backend. | - Escenario 1: Crear recordatorio<br>Dado que el administrador proporciona fecha y monto,<br>Cuando el backend grava el recordatorio,<br>Entonces el recordatorio queda incluido en la base de datos.<br>- Escenario 2: Listar recordatorios<br>Dado que el administrador consulta,<br>Cuando el backend responde,<br>Entonces proporciona la lista de recordatorios pendientes. |
+| EP05 | Seguimiento y Recordatorios | US44 | Integrar cron job para envío de recordatorios | Como desarrollador, quiero que el backend envie automáticamente recordatorios cuando vencen. | - Escenario 1: Ejecución de cron<br>Dado que el cron se fija cada día,<br>Cuando llega el vencimiento,<br>Entonces el backend envía mensajes o notificaciones.<br>- Escenario 2: Sin vencimientos<br>Dado que no vencen recordatorios ese día,<br>Cuando el cron se invoca,<br>Entonces no envía nada. |
 | EP06     | Soporte y Comunidad | US26  | Acceso a ayuda en línea | Como usuario, quiero acceder a una sección de ayuda en línea para resolver mis dudas básicas. | - Escenario 1: Acceso desde el menú<br>Dado que el usuario esté en cualquier vista,<br>Cuando haga clic en “Ayuda” en el menú principal,<br>Entonces será redirigido a la sección de preguntas frecuentes.<br><br>- Escenario 2: Búsqueda rápida<br>Dado que use el buscador,<br>Cuando escriba su duda,<br>Entonces obtendrá respuestas relacionadas. |
 | EP06     | Soporte y Comunidad | US27  | Chat con soporte técnico | Como usuario, quiero chatear con un agente de soporte para resolver problemas técnicos específicos. | - Escenario 1: Inicio de chat<br>Dado que el usuario esté en la sección de ayuda,<br>Cuando seleccione “Chatear con soporte”,<br>Entonces se abrirá una ventana de conversación con el agente disponible.<br><br>- Escenario 2: Horario de atención<br>Dado que acceda fuera de horario,<br>Cuando intente iniciar chat,<br>Entonces verá un mensaje informativo con horarios. |
 | EP06     | Soporte y Comunidad | US28  | Reportar un problema     | Como usuario, quiero poder reportar errores o fallas para que el equipo técnico las solucione. | - Escenario 1: Formulario de reporte<br>Dado que haya experimentado un problema,<br>Cuando acceda al formulario de reporte,<br>Entonces podrá describir el incidente y enviarlo.<br><br>- Escenario 2: Confirmación de envío<br>Dado que complete el formulario,<br>Cuando lo envíe,<br>Entonces recibirá una confirmación con número de ticket. |
 | EP06     | Soporte y Comunidad | US29  | Sugerencias de mejora    | Como usuario, quiero dejar sugerencias para mejorar la plataforma de manera colaborativa.       | - Escenario 1: Ingreso de sugerencia<br>Dado que tenga una idea,<br>Cuando acceda a la sección “Sugerencias”,<br>Entonces podrá llenar un formulario y enviarla.<br><br>- Escenario 2: Visualización de estado<br>Dado que envíe una sugerencia,<br>Cuando acceda a su perfil,<br>Entonces podrá ver si está en evaluación o implementada. |
 | EP06     | Soporte y Comunidad | US30  | Foro comunitario         | Como usuario, quiero participar en un foro donde pueda compartir experiencias y resolver dudas. | - Escenario 1: Navegación general<br>Dado que el usuario entre al foro,<br>Cuando seleccione una categoría,<br>Entonces verá los temas y respuestas más recientes.<br><br>- Escenario 2: Crear publicación<br>Dado que quiera iniciar un nuevo tema,<br>Cuando publique,<br>Entonces su mensaje se mostrará en el hilo correspondiente. |
-| EP06 | Soporte y Comunidad | US45 | API para dar seguimiento a reportes de problemas | Como administrador, quiero dar seguimiento a problemas reportados en el backend. | - Escenario 1: Listado de reportes<br>Dado que el administrador consulta,<br>Cuando el backend responde,<br>Entonces proporciona una lista de reportes pendientes.<br>- Escenario 2: Actualización de estado<br>Dado que el administrador corrige el problema,<br>Cuando actualiza el estado,<br>Entonces el backend deja el problema como resuelto. |
-| EP06 | Soporte y Comunidad | US46 | Implementar comentarios o respuestas en el foro | Como administrador o moderador, quiero dar respuestas en el foro. | - Escenario 1: Agregar respuesta<br>Dado que el administrador tiene privilegios,<br>Cuando responde a un tema,<br>Entonces el backend registra el nuevo comentario.<br>- Escenario 2: Moderar<br>Dado que el administrador considera que el comentario es inapropiado,<br>Cuando lo elimina,<br>Entonces deja de aparecer en el hilo. |
+| EP06 | Soporte y Comunidad | US45 | API para dar seguimiento a reportes de problemas | Como desarrollador, quiero dar seguimiento a problemas reportados en el backend. | - Escenario 1: Listado de reportes<br>Dado que el administrador consulta,<br>Cuando el backend responde,<br>Entonces proporciona una lista de reportes pendientes.<br>- Escenario 2: Actualización de estado<br>Dado que el administrador corrige el problema,<br>Cuando actualiza el estado,<br>Entonces el backend deja el problema como resuelto. |
+| EP06 | Soporte y Comunidad | US46 | Implementar comentarios o respuestas en el foro | Como desarrollador o moderador, quiero dar respuestas en el foro. | - Escenario 1: Agregar respuesta<br>Dado que el administrador tiene privilegios,<br>Cuando responde a un tema,<br>Entonces el backend registra el nuevo comentario.<br>- Escenario 2: Moderar<br>Dado que el administrador considera que el comentario es inapropiado,<br>Cuando lo elimina,<br>Entonces deja de aparecer en el hilo. |
 | EP07     | Exploración como Visitante | US31   | Visualizar información general sobre SplitEasy desde la landing page | Como visitante, quiero ver información clara sobre SplitEasy desde la página principal para entender su propósito. | - Escenario 1: Acceso inicial<br>Dado que el visitante acceda a la landing page,<br>Cuando cargue la vista,<br>Entonces verá un resumen claro de qué es SplitEasy y cómo funciona.<br><br>- Escenario 2: Responsive design<br>Dado que acceda desde móvil o PC,<br>Entonces la información debe estar adecuadamente adaptada. |
 | EP07     | Exploración como Visitante | US32   | Conocer las funciones principales para representantes y miembros del hogar | Como visitante, quiero conocer las funcionalidades para cada tipo de usuario para decidir si me interesa. | - Escenario 1: Sección de funciones<br>Dado que esté en la landing,<br>Cuando haga scroll o clic en “Funciones”,<br>Entonces verá tarjetas explicativas para representantes y miembros.<br><br>- Escenario 2: Enlaces internos<br>Dado que seleccione una función,<br>Entonces será redirigido a más detalles en la misma página. |
 | EP07     | Exploración como Visitante | US33   | Explorar beneficios del sistema de aportes proporcionales | Como visitante, quiero entender cómo funciona el sistema proporcional de aportes para saber si me conviene. | - Escenario 1: Sección explicativa<br>Dado que acceda a la landing,<br>Cuando llegue a la sección de “Sistema proporcional”,<br>Entonces verá un texto y/o animación que explica con claridad su funcionamiento.<br><br>- Escenario 2: Comprensión clara<br>Dado que lea el contenido,<br>Entonces entenderá con ejemplos simples los beneficios del sistema. |
 | EP07     | Exploración como Visitante | US34   | Ver ejemplos o simulaciones de cómo funciona la plataforma | Como visitante, quiero ver ejemplos o simulaciones para imaginarme cómo sería usar la plataforma. | - Escenario 1: Acceso a simulaciones<br>Dado que esté en la sección “¿Cómo funciona?”,<br>Cuando haga clic en “Ver ejemplo”,<br>Entonces se mostrará una simulación o demo visual del flujo de uso.<br><br>- Escenario 2: Casos ilustrativos<br>Dado que revise los ejemplos,<br>Entonces identificará casos similares a su situación real. |
 | EP07     | Exploración como Visitante | US35   | Acceder fácilmente al registro o login desde botones destacados | Como visitante, quiero tener botones claros para registrarme o iniciar sesión desde cualquier parte de la landing. | - Escenario 1: Botón fijo en el header<br>Dado que navegue por la landing,<br>Cuando quiera registrarse,<br>Entonces podrá hacer clic en un botón visible en la parte superior.<br><br>- Escenario 2: Llamados a la acción<br>Dado que lea una sección que le interese,<br>Entonces verá un botón que lo invita a registrarse o iniciar sesión. |
 
-## Impact Mapping
+## 3.3. Impact Mapping
 
 ### Segmento 1: Miembros del hogar
 
 <p align="left">
-  <img src="images/ImpactMappingS1.png" alt="Impact1" width="500">
+  <img src="images/ImpactMappingS1.png" alt="Impact1" width="1100">
 </p>
 
 ### Segmento 2: Representante del hogar
 
 <p align="left">
-  <img src="images/ImpactMappingS2.png" alt="Impact2" width="500">
+  <img src="images/ImpactMappingS2.png" alt="Impact2" width="1100">
 </p>
 
-## Product Backlog
+## 3.4. Product Backlog
 
 ### Priorización de User Stories - Plataforma SplitEasy
 
@@ -915,7 +1429,7 @@ En esta sección se presentarán los user journey mapping para cada user persona
 
 # Capítulo IV: Product Design
 
-## Style Guidelines
+## 4.1. Style Guidelines
 
 **SplitEasy** es una plataforma digital creada para simplificar y equilibrar la gestión financiera dentro del hogar. Mediante un sistema de cálculo proporcional según ingresos, permite distribuir gastos de forma justa, promoviendo la transparencia, la colaboración y el control financiero compartido. Con una interfaz moderna y directa, SplitEasy responde a las necesidades de hogares contemporáneos que buscan soluciones simples, efectivas y accesibles.
 
@@ -923,7 +1437,7 @@ Esta sección presenta una guía estructurada que consolida todos los elementos 
 
 Las guías de estilo están divididas en tres bloques —**General Style Guidelines**, **Web Style Guidelines** y **Mobile Style Guidelines**—, lo cual garantiza una experiencia uniforme, accesible y atractiva tanto en dispositivos móviles como en la web. Esta consistencia estética mejora la navegación, refuerza la confianza del usuario y comunica visualmente los valores de la plataforma: claridad, equilibrio y control.
 
-### General Style Guidelines
+### 4.1.1. General Style Guidelines
 
 SplitEasy busca transmitir una identidad visual moderna y clara, enfocada en la transparencia, la colaboración y la equidad financiera. La marca utiliza colores oscuros como base para dar una sensación de profesionalismo y seriedad, mientras que el azul celeste funciona como color de acento para resaltar acciones importantes y darle un toque fresco y tecnológico.
 
@@ -1017,7 +1531,7 @@ El tono de comunicación en la landing page es **claro, cercano y accesible**, d
 
 Este enfoque garantiza una experiencia funcional, adaptada a las necesidades de todos los usuarios, haciendo que tanto representantes como miembros se sientan cómodos y seguros.
 
-### Web Style Guidelines
+### 4.1.2. Web Style Guidelines
 
 Se utilizó la tendencia web de **funcionalismo minimalista** con un esquema de colores oscuros predominante (negro y gris oscuro) como fondo. Esto proporciona una experiencia visual suave, favoreciendo el contraste con elementos interactivos y textos claros.
 
@@ -1037,13 +1551,13 @@ Este equilibrio entre funcionalidad y diseño moderno garantiza una interfaz efi
   <img src="images/imagen2.PNG" alt="imagen2" width="500">
 </p>
 
-# Information Architecture
+## 4.2. Information Architecture
 
-## Organization Systems
+### 4.2.1. Organization Systems
 
 En la plataforma **SplitEasy**, se emplean diferentes sistemas de organización del contenido para mejorar la accesibilidad y experiencia de los usuarios, dependiendo del tipo de información que se presenta. Estos sistemas aseguran que los usuarios puedan navegar de manera intuitiva y eficiente por la aplicación. A continuación, se detallan los enfoques utilizados:
 
-### Organización Visual del Contenido
+#### Organización Visual del Contenido
 
 **Jerárquica (Visual Hierarchy):**  
 La organización jerárquica se aplica en secciones donde es fundamental mostrar una estructura clara de importancia y relevancia, como en los formularios de creación de hogar o de asignación de aportes. Se emplean tamaños de texto diferenciados y un orden lógico de presentación, destacando los elementos más importantes (como los botones de acción o los campos requeridos) para guiar al usuario de forma natural a través de la plataforma.
@@ -1051,7 +1565,7 @@ La organización jerárquica se aplica en secciones donde es fundamental mostrar
 **Secuencial (Step-by-Step to Accomplish):**  
 En tareas que requieren la realización de pasos secuenciales, como el proceso de registro de usuario o creación de hogar, se utiliza un enfoque paso a paso. Los usuarios avanzan de una pantalla a otra de manera clara y ordenada, asegurando que comprendan el flujo de trabajo y puedan completar cada acción antes de pasar a la siguiente, minimizando la confusión.
 
-### Esquemas de Categorización de Contenido
+#### Esquemas de Categorización de Contenido
 
 **Por Audiencia (Grupos de Usuarios):**  
 Dado que la plataforma tiene dos tipos de usuarios (representantes del hogar y miembros del hogar), el contenido se organiza de manera distinta para cada grupo. Los representantes tienen acceso a herramientas para gestionar los aportes y la creación de hogar, mientras que los miembros solo pueden consultar sus aportes y realizar seguimiento a los gastos. La categorización se adapta a las necesidades específicas de cada tipo de usuario, con una navegación clara que les lleva a las secciones correspondientes.
@@ -1059,7 +1573,7 @@ Dado que la plataforma tiene dos tipos de usuarios (representantes del hogar y m
 **Por Tópicos:**  
 Además, la categorización por tópicos se utiliza en las secciones de ayuda y soporte. Los usuarios pueden acceder a diferentes categorías de contenido, como "Preguntas Frecuentes", "Política de Privacidad" y "Centro de Ayuda", lo que facilita la búsqueda de información relevante para resolver problemas específicos.
 
-### Implementación en la Interfaz
+#### Implementación en la Interfaz
 
 La organización jerárquica y secuencial se ve reflejada en el diseño de la interfaz, utilizando una estructura de navegación clara que incluye menús desplegables, botones con texto explicativo y pasos visibles para guiar al usuario en cada proceso.
 
@@ -1067,11 +1581,11 @@ Los esquemas de categorización por audiencia y por tópicos están integrados e
 
 Este enfoque asegura que la experiencia de navegación en SplitEasy sea intuitiva, eficiente y adaptada a las necesidades específicas de cada tipo de usuario, mejorando la funcionalidad y la experiencia general de la plataforma.
 
-## Labeling Systems
+### 4.2.2. Labeling Systems
 
 La landing page de SplitEasy emplea un sistema de etiquetado directo, simple y orientado a la acción, con el fin de facilitar la comprensión rápida de los contenidos y la navegación fluida para distintos tipos de usuarios. Se prioriza la claridad en la presentación textual de las secciones, utilizando el menor número de palabras posible y apoyándose en íconos visuales para reforzar los mensajes clave.
 
-### Menú de navegación
+#### Menú de navegación
 
 En el menú de navegación superior de la landing page, se emplean etiquetas simples, directas y acompañadas de íconos de Bootstrap Icons:
 
@@ -1087,7 +1601,7 @@ En el menú de navegación superior de la landing page, se emplean etiquetas sim
   <img src="images/imagen3.PNG" alt="imagen3" width="500">
 </p>
 
-### Botón principal
+#### Botón principal
 
 - **"Register"**: principal llamada a la acción (CTA), funciona tanto para miembros como representantes.
 
@@ -1095,7 +1609,7 @@ En el menú de navegación superior de la landing page, se emplean etiquetas sim
   <img src="images/imagen4.PNG" alt="imagen4" width="500">
 </p>
 
-### Sección "How does it work?" para Representantes
+#### Sección "How does it work?" para Representantes
 
 - **"Sign up"** (`bi-person-plus-fill`)
 - **"Create your home"** (`bi-house-fill`)
@@ -1106,7 +1620,7 @@ En el menú de navegación superior de la landing page, se emplean etiquetas sim
   <img src="images/imagenrepre.PNG" alt="imagenrepre" width="500">
 </p>
 
-### Sección "How does it work?" para Miembros
+#### Sección "How does it work?" para Miembros
 
 - **"Sign up"** (`bi-person-plus-fill`)
 - **"Join a household"** (`bi-key-fill`)
@@ -1117,7 +1631,7 @@ En el menú de navegación superior de la landing page, se emplean etiquetas sim
   <img src="images/imagenmiem.PNG" alt="imagenmiem" width="500">
 </p>
 
-### Footer
+#### Footer
 
 - **Legal notice**
 - **Privacy Policy**
@@ -1134,9 +1648,9 @@ También se incorporan íconos de redes sociales: Facebook, Instagram, Twitter, 
   <img src="images/footer.PNG" alt="footer" width="500">
 </p>
 
-## SEO Tags and Meta Tags
+### 4.2.3. SEO Tags and Meta Tags
 
-### Landing Page
+#### Landing Page
 
 html
 <head>
@@ -1166,11 +1680,11 @@ html
 <meta name="keywords" content="SplitEasy app, control de finanzas, ingresos familiares, aportes proporcionales, gastos en el hogar, economía familiar">
 <meta name="author" content="Equipo SplitEasy">
 
-## 4.2.4. Searching Systems
+### 4.2.4. Searching Systems
 
 En el caso de SplitEasy, se implementará un sistema de búsqueda y filtros que permita a los miembros y representantes del hogar encontrar información relevante rápidamente y facilitar su navegación dentro de la aplicación. El sistema de búsqueda y filtros estará estructurado de manera que cada tipo de usuario (miembro o representante) tenga acceso a las herramientas más útiles para su rol específico.
 
-### Filtros de búsqueda por entradas
+#### Filtros de búsqueda por entradas
 
 **Miembros del hogar:**
 - **Buscar por ID de hogar:** Los miembros podrán buscar e ingresar el ID de hogar proporcionado por el representante para unirse a un hogar ya creado.
@@ -1183,7 +1697,7 @@ En el caso de SplitEasy, se implementará un sistema de búsqueda y filtros que 
 - **Filtrar por miembros:** Buscar por nombre o ID de miembro para revisar su historial.
 - **Estado del balance financiero:** Filtrar el balance general del hogar por fecha o tipo de gasto.
 
-### Filtros de búsqueda por tabs
+#### Filtros de búsqueda por tabs
 
 Para mejorar la experiencia de usuario, se incluirán tabs interactivos que faciliten el acceso a información específica de forma ordenada.
 
@@ -1196,15 +1710,15 @@ Para mejorar la experiencia de usuario, se incluirán tabs interactivos que faci
 - **Tab de gestión de aportes:** Vista de aportes de todos los miembros con filtros por estado y fecha.
 - **Tab de balance general:** Balance general filtrado por categorías y periodo.
 
-### Flujo de búsqueda y filtros
+#### Flujo de búsqueda y filtros
 
 El flujo será simple y eficiente. En cada sección relevante (aportaciones, balances, gastos), se mostrará un campo de búsqueda o filtros configurables. Los filtros serán fáciles de aplicar y remover, asegurando una experiencia de navegación fluida.
 
-## 4.2.5. Navigation Systems
+### 4.2.5. Navigation Systems
 
 En SplitEasy, la navegación debe ser fluida, intuitiva y accesible tanto en la **Landing Page** como en la **Web Application**.
 
-### 1. Navegación en la Landing Page
+#### 1. Navegación en la Landing Page
 
 La página principal guía a nuevos usuarios hacia el registro o la información clave de forma clara y atractiva.
 
@@ -1222,7 +1736,7 @@ La página principal guía a nuevos usuarios hacia el registro o la información
 - **Desplazamiento fluido:**  
   Scroll natural por secciones de la página sin salir de ella.
 
-### 2. Navegación en la Web Application
+#### 2. Navegación en la Web Application
 
 La navegación se adapta al tipo de usuario y sus necesidades específicas.
 
@@ -1250,15 +1764,15 @@ Navegación jerárquica para volver a secciones anteriores o más generales.
 - Agregar aporte
 - Ver detalles del gasto
 
-### Interacción con el sistema
+#### Interacción con el sistema
 
 - **Accesibilidad:** Navegación clara y visible con etiquetas comprensibles.
 - **Navegación de búsqueda:** Filtros rápidos para búsqueda por ID de hogar o estado de aportes.
 - **Ayuda y tutoriales:** Sección de asistencia con guía paso a paso para cada sección.
 
-## Landing Page UI Design
+## 4.3. Landing Page UI Design
 
-### Landing Page Wireframe
+### 4.3.1. Landing Page Wireframe
 
 <p align="left">
   <img src="images/lpw1.PNG" alt="lpw1" width="500">
@@ -1276,7 +1790,7 @@ Navegación jerárquica para volver a secciones anteriores o más generales.
   <img src="images/lpw5.PNG" alt="lpw5" width="500">
 </p>
 
-### Landing Page Mock-up
+### 4.3.2. Landing Page Mock-up
 
 <p align="left">
   <img src="images/lpm1.PNG" alt="lpm1" width="500">
@@ -1288,33 +1802,33 @@ Navegación jerárquica para volver a secciones anteriores o más generales.
   <img src="images/lpm3.PNG" alt="lpm3" width="500">
 </p>
 
-## Web Applications UX/UI Design
+## 4.4. Web Applications UX/UI Design
 
-### Web Applications Wireframes
+### 4.4.1. Web Applications Wireframes
 
 <p align="left">
   <img src="images/waw.PNG" alt="waw" width="500">
 </p>
 
-### Web Applications Wireflow Diagrams
+### 4.4.2. Web Applications Wireflow Diagrams
 
 <p align="left">
   <img src="images/wawd.PNG" alt="wawd" width="500">
 </p>
 
-### Web Applications Mock-ups
+### 4.4.3. Web Applications Mock-ups
 
 <p align="left">
   <img src="images/wam.PNG" alt="wam" width="500">
 </p>
 
-### Web Applications User Flow Diagrams
+### 4.4.4. Web Applications User Flow Diagrams
 A continuación, se muestra el User Flow Diagram estructurado en base a los objetivos principales del usuario. Cada sección del flujo corresponde a una meta funcional específica, mostrando los recorridos posibles mediante mockups de alta fidelidad.
 <p align="left">
   <img src="images/NewFlowchart.jpg" alt="wau" width="500">
 </p>
 
-## Web Applications Prototyping 
+## 4.5. Web Applications Prototyping 
 
 Se desarrolló un prototipo interactivo enfocado en la navegación web para evaluar y mejorar la accesibilidad y la experiencia de usuario antes del lanzamiento final. Este modelo simula fielmente el recorrido dentro del sitio, permitiendo explorar secciones y flujos como en la versión definitiva. Diseñado con una arquitectura clara, jerarquía visual coherente y principios de diseño inclusivo, garantiza una navegación intuitiva y accesible. Gracias a sus maquetas de alta fidelidad, el prototipo permite validar decisiones de diseño, detectar fricciones y asegurar una experiencia de uso consistente.
 
@@ -1322,35 +1836,29 @@ Link al prototipo: https://www.figma.com/proto/KpblxTexy8JiWceW2N9VmM/Open-Sourc
 
 Link del video explicativo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d534_upc_edu_pe/EeExTohQK7VDrZmrG2Ze3j8BWq2i0RG-r1I8l03WIW7eZg?e=3VCooB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
-## Domain-Driven Software Architecture
+## 4.6. Domain-Driven Software Architecture
 
-### Software Architecture Context Diagram
+### 4.6.1. Software Architecture Context Diagram
 
-<p align="left">
-  <img src="images/ArchitectureC4.png" alt="sacd" width="500">
-</p>
+<a href="https://ibb.co/tw5Yz0RC"><img src="https://i.ibb.co/9mjyhxPY/structurizr-System-Diagram.png" alt="structurizr-System-Diagram" border="0"></a>
 
-### Software Architecture Container Diagrams
+### 4.6.2. Software Architecture Container Diagrams
 
-<p align="left">
-  <img src="images/ContainerDiagramsC4.png" alt="sacd1" width="500">
-</p>
+<a href="https://ibb.co/fd0J3nck"><img src="https://i.ibb.co/60sQK1dH/structurizr-Container-Diagram.png" alt="structurizr-Container-Diagram" border="0"></a>
 
-### Software Architecture Components Diagrams
+### 4.6.3. Software Architecture Components Diagrams
 
-<p align="left">
-  <img src="images/ComponentsC4.png" alt="sacd2" width="500">
-</p>
+<a href="https://ibb.co/y1gDDYK"><img src="https://i.ibb.co/QRYZZCh/structurizr-Component-Diagram.png" alt="structurizr-Component-Diagram" border="0"></a>
 
-## Software Object-Oriented Design
+## 4.7. Software Object-Oriented Design
 
-### Class Diagrams
+### 4.7.1 Class Diagrams
 
 <p align="left">
-  <img src="images/diagramac.PNG" alt="diagramac" width="500">
+  <img src="images/diagramac.png" alt="diagramac" width="800">
 </p>
 
-### Class Dictionary
+### 4.7.2. Class Dictionary
 
 #### Class: HouseholdMember
 
@@ -1456,7 +1964,7 @@ Link del video explicativo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2
 - `Other` — Otros tipos de gastos no especificados.
 
 
-## SplitEasy - Database Design
+## 4.8. SplitEasy - Database Design
 
 ### Descripción General
 
@@ -1555,7 +2063,7 @@ Configuraciones individuales de los usuarios.
 
 ---
 
-## Comentario General
+### Comentario General
 
 Este modelo relacional refleja una arquitectura flexible y centrada en usuarios y hogares. Se permite distinguir entre representantes y miembros, gestionar sus contribuciones, facturas y preferencias personales.
 
@@ -1564,7 +2072,7 @@ Este modelo relacional refleja una arquitectura flexible y centrada en usuarios 
 
 ---
 
-## Índices
+### Índices
 
 Se incluyen índices adicionales para mejorar el rendimiento de consultas:
 
@@ -1576,15 +2084,16 @@ Se incluyen índices adicionales para mejorar el rendimiento de consultas:
 
 ---
 
-## Objetivos del Diseño
+### Objetivos del Diseño
 
 - Transparencia: cada miembro puede ver su historial y estado financiero.
 - Equidad: los gastos se distribuyen proporcionalmente en función de los ingresos.
 - Escalabilidad: permite añadir nuevas funcionalidades sin alterar el núcleo del sistema.
 - Mantenimiento: una estructura clara y bien normalizada facilita la administración y evolución del sistema.
 
+### 4.8.1. Database Diagram
 <p align="left">
-  <img src="images/bd.png.png" alt="bd" width="500">
+  <img src="images/bd.png.png" alt="bd" width="800">
 
 </p>
 
@@ -1686,8 +2195,8 @@ Se siguen las directrices oficiales de [Angular Style Guide](https://v17.angular
   Ejemplo: `UserProfileComponent`, `GastoService`
 - Tipado estricto y uso de interfaces
 
-#### C# / ASP.NET Core
-Se siguen las [convenciones de Microsoft](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions):
+#### Springboot
+Se siguen las [convenciones de SpringBoot](https://spring.io/projects/spring-boot):
 - `PascalCase` para clases, métodos y propiedades  
   Ejemplo: `class HouseholdManager`, `void AddMember()`
 - `camelCase` para variables locales y parámetros  
@@ -1705,62 +2214,40 @@ Se siguen las [convenciones de Microsoft](https://learn.microsoft.com/en-us/dotn
 - Plataforma: **Vercel**
 - Proceso: Uso de `vercel.json` para rutas personalizadas. Despliegue automático en `main`
 
-**Web Services (.NET Core API)**
+**Web Services**
 - Plataforma: **Railway**
 - Proceso: Uso de `Dockerfile` para empaquetado. Railway realiza CI/CD al detectar cambios en `main`
 
 > Esta configuración asegura un ciclo de integración y despliegue continuo (CI/CD) alineado con buenas prácticas del desarrollo moderno.
 
 
-# 5.2. Landing Page, Services & Applications Implementation
+## 5.2. Landing Page, Services & Applications Implementation
 
-## 5.2.1. Sprint 1
+### 5.2.1. Sprint 1
 
-### 5.2.1.1. Sprint Planning 1
+#### 5.2.1.1. Sprint Planning 1
 
 A continuación, se presenta el Sprint Planning 1, donde se incluyen las evidencias de planificación e implementación del Landing Page. También se registran los avances del proyecto e insights de colaboración del equipo a través de GitHub.
 
----
+| Campo | Descripción |
+|-------|-------------|
+| **Sprint #** | Sprint 1 |
+| **Sprint Planning Background** | |
+| **Date** | 2025-04-15 |
+| **Time** | 03:00 PM (GMT -5) |
+| **Location** | Modalidad remota por Google Meet |
+| **Prepared By** | Testigos de SplitEasy |
+| **Attendees (to planning meeting)** | Díaz Fiestas, Jorge Luis / Quincho Gamarra, Paulo Percy |
+| **Sprint n – 1 Review Summary** | Este es el primer sprint, por lo tanto, no hay una revisión de sprint anterior. |
+| **Sprint n – 1 Retrospective Summary** | Al ser el inicio del proyecto, se identificaron aspectos técnicos por aprender, como el uso de frameworks CSS. Se revisó el diseño del Landing Page en Figma, se discutió el contenido textual a incluir y se definió el objetivo principal: lograr desplegar el Landing Page en GitHub Pages al final del sprint. |
+| **Sprint Goal & User Stories** |  |
+| **Sprint n Goal** | Desplegar un Landing Page funcional con diseño responsive y estructura definida, accesible públicamente desde GitHub Pages. |
+| **Sprint n Velocity** | 2 |
+| **Sum of Story Points** | 2 |
 
-### Sprint Overview
 
-- **Sprint #:** Sprint 1  
-- **Fecha:** 15 de abril del 2025  
-- **Hora:** 15:00 horas (GMT -5)  
-- **Lugar:** Modalidad remota por Google Meet  
-- **Preparado por:** Testigos de SplitEasy  
-- **Asistentes:** Todos los miembros del grupo Testigos de SplitEasy  
 
----
-
-### Sprint n – 0 Review Summary
-
-Este es el primer sprint, por lo tanto, no existe un resumen de revisión de un sprint anterior.
-
----
-
-###  Sprint n – 1 Retrospective Summary
-
-En este sprint se planea desarrollar el **Landing Page** utilizando un framework de estilos CSS, herramienta nueva para algunos miembros del equipo.  
-Además, se discutió:
-
-- El contenido de los textos del landing page.
-- El diseño previamente elaborado en Figma.
-
- Al finalizar este sprint, el Landing Page debe estar desplegado en GitHub, y cualquier usuario debería poder visualizarlo a través de un enlace público.
-
----
-
-### Sprint Goal & User Stories
-
-- **Sprint 1 Velocity:** 2  
-- **Suma de Story Points:** 2  
-
----
-
->  _Objetivo del Sprint:_ Desplegar un Landing Page funcional con diseño responsive y estructura definida, accesible desde GitHub Pages.
-
-### 5.2.1.2. Sprint Backlog 1 – SplitEasy
+#### 5.2.1.3. Sprint Backlog 1 – SplitEasy
 
 Este documento corresponde al punto **5.2.1.2** del informe y resume las tareas realizadas durante el **Sprint 1** del proyecto **SplitEasy**, centrado en el desarrollo de la **landing page** de la aplicación.
 
@@ -1800,6 +2287,10 @@ Desarrollar la landing page funcional de SplitEasy que permita a los visitantes 
 | W10     | Footer with links                | Añadir footer con enlaces informativos y legales.                                               | 4              | Jorge Luis Díaz Fiestas                      | ✅ Done |
 | W11     | Responsive footer section        | Adaptar visualmente el footer a todos los dispositivos.                                         | 4              | Jorge Luis Díaz Fiestas                      | ✅ Done |
 
+### Evidencias de Tablero Trello
+<p align="center">
+  <img src="images/Trello-SPRINT1.jpeg" alt="Trello Sprint 1" width="600">
+</p>
 ---
 
 ## Integrantes del Equipo
@@ -1813,7 +2304,7 @@ Desarrollar la landing page funcional de SplitEasy que permita a los visitantes 
 
  **Estado del Sprint:** COMPLETADO
 
-## 5.2.1.3. Deployment Evidence for Sprint Review
+#### 5.2.1.4. Deployment Evidence for Sprint Review
 
 A continuación, se presentan los commits más representativos realizados en el repositorio del proyecto **SplitEasy** en GitHub.
 
@@ -1871,13 +2362,13 @@ En este **Sprint 1**, el objetivo fue desarrollar la **landing page** funcional 
 ###### Vista de la Sección de Características
 - **Descripción**: Muestra las funcionalidades clave de la plataforma, tanto para representantes como para miembros.
 
-####### Funcionalidad característica de los representantes:
+###### Funcionalidad característica de los representantes:
 - **Gestión de los Aportes que se realizan en el hogar**.
 <p align="center">
   <img src="images/aportes.png" alt="Gestión de Aportes" width="500">
 </p>
 
-####### Funcionalidad característica de los miembros:
+###### Funcionalidad característica de los miembros:
 - **Gestión de sus propios aportes que hacen al hogar**.
 
 <p align="center">
@@ -1912,42 +2403,28 @@ Durante este **Sprint 1**, se completó la documentación básica de los servici
 | (sin hash)    | docs(sprint): document Sprint 1 backlog and tasks for SplitEasy  | 24/04/2025   |
 
 
-## 5.2.2 Sprint 2
+### 5.2.2 Sprint 2
 
-### 5.2.2.1 Sprint Planning 2
+#### 5.2.2.1 Sprint Planning 2
 
 A continuación, se presentará el sprint planning 2 donde se mostrarán las evidencias de planificación para la implementación de la aplicación web.
 
-- **Sprint #:** Sprint 2  
-- **Sprint Planning Background:**
-  - **Fecha:** 8 de mayo del 2025  
-  - **Hora:** 16:00 horas (GMT -5)  
-  - **Lugar:** Modalidad remota por Discord  
-  - **Preparado por:** Equipo SplitEasy  
-  - **Asistentes:** Todos los miembros del equipo de SplitEasy
+| **Date**                               | 08/05/2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Time**                               | 04:00 PM (GMT -5)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Location**                           | Modalidad remota por Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Prepared By**                        | Equipo SplitEasy                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Attendees (to planning meeting)**    | Todos los miembros del equipo de SplitEasy                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Sprint 1 Review Summary**        | En este primer sprint se desarrolló la Landing Page utilizando el framework de estilos Tailwind CSS. Se revisó y adaptó el contenido textual del landing con base en las propuestas previas realizadas en Figma. Al finalizar el sprint, la Landing Page fue desplegada exitosamente en Netlify y quedó accesible públicamente mediante un enlace funcional.                                                                                                                                                                                                                                                                                                          |
+| **Sprint 1 Retrospective Summary** | En este sprint se planea avanzar con el desarrollo del front-end de la aplicación web, incluyendo las vistas para la autenticación de usuario y las vistas core del usuario reclutador. También se tiene previsto implementar la configuración de idioma utilizando la librería i18n con Vue. Además, se contempla desarrollar la sección de Términos de Servicio, el video sobre el producto y el video del equipo. Las tareas han sido organizadas y gestionadas a través de la plataforma Trello. Al finalizar el sprint, se espera contar con una versión actualizada del landing page y una demo funcional del front-end de la aplicación desplegada en Netlify. |
 
----
+| **Sprint 2 Goal**       | Desarrollar las vistas de autenticación y usuario reclutador en el front-end, implementar i18n con Vue, y preparar recursos audiovisuales clave. Se espera una demo funcional del front-end en Netlify. |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint 2 Velocity**   | 40                                                                                                                                                                                                      |
+| **Sum of Story Points** | 30                                                                                                                                                                                                      |
 
-#### Sprint n – 1 Review Summary
 
-En este primer sprint se desarrolló la Landing Page utilizando el framework de estilos Tailwind CSS. Se revisó y adaptó el contenido textual del landing con base en las propuestas previas realizadas en Figma. Al finalizar el sprint, la Landing Page fue desplegada exitosamente en Netlify y quedó accesible públicamente mediante un enlace funcional.
-
----
-
-#### Sprint n – 2 Retrospective Summary
-
-En este sprint se planea avanzar con el desarrollo del front-end de la aplicación web, incluyendo las vistas para la autenticación de usuario y las vistas core del usuario reclutador. También se tiene previsto implementar la configuración de idioma utilizando la librería i18n con Vue. Además, se contempla desarrollar la sección de Términos de Servicio, el video sobre el producto y el video del equipo. Las tareas han sido organizadas y gestionadas a través de la plataforma Trello. Al finalizar el sprint, se espera contar con una versión actualizada del landing page y una demo funcional del front-end de la aplicación desplegada en Netlify.
-
----
-
-#### Sprint Goal & User Stories
-
-- **Sprint 1 Velocity:** 40  
-- **Suma de Story Points (Sprint 2):** 30
-
----
-
-### 5.2.2.2 Aspect Leaders and Collaborators
+#### 5.2.2.2 Aspect Leaders and Collaborators
 
 A continuación, se presentan los líderes y colaboradores de SplitEasy:
 
@@ -1962,21 +2439,25 @@ A continuación, se presentan los líderes y colaboradores de SplitEasy:
 
 | Sprint | User Story ID | Título de la User Story              | Work Item ID | Título del Work Item                  | Descripción                                                                 | Estimación (h) | Asignado a                     | Estado |
 |--------|----------------|--------------------------------------|--------------|----------------------------------------|-----------------------------------------------------------------------------|----------------|-------------------------------|--------|
-| 2      | US01           | Registro de usuario                 | US01-W1      | Interfaz de registro de usuario        | Crear formulario de registro para nuevos usuarios.                          | 3              | Jorge Luis Díaz Fiestas       | Done   |
-| 2      | US02           | Inicio de sesión seguro             | US02-W1      | Interfaz de inicio de sesión           | Implementar formulario para login seguro.                                   | 2              | Paulo Percy Quincho Gamarra   | Done   |
-| 2      | US14           | Ver historial de pagos              | US14-W1      | Vista de historial de pagos            | Crear interfaz con los pagos registrados.                                   | 1.5            | Jorge Luis Díaz Fiestas       | Done   |
-| 2      | US04           | Cierre de sesión desde todos los dispositivos | US04-W1 | Botón de cierre de sesión             | Cierre de sesión desde cualquier dispositivo.                               | 1              | Jorge Luis Díaz Fiestas       | Done   |
-| 2      | US13           | Registrar pagos realizados          | US13-W1      | Componente para registrar pagos        | Registro manual de pagos.                                                   | 2              | Paulo Percy Quincho Gamarra   | Done   |
-| 2      | US11           | Ingresar ingresos personales        | US11-W1      | Formulario de ingreso de ingresos      | Formulario de ingreso mensual.                                              | 1.5            | Jorge Luis Díaz Fiestas       | Done   |
-| 2      | US20           | Visualizar gráficos de gastos       | US20-W1      | Componente de gráficos de gastos       | Estadísticas visuales de gastos.                                            | 2              | Paulo Percy Quincho Gamarra   | Done   |
-| 2      | US15           | Ver distribución de gastos del hogar | US15-W1     | Interfaz de distribución de gastos     | Mostrar porcentaje de aportes y gastos por miembro.                         | 1.5            | Jorge Luis Díaz Fiestas       | Done   |
-| 2      | US12           | Ver monto a pagar                   | US12-W1      | Componente de monto a pagar            | Mostrar el monto que debe pagar el usuario.                                 | 1              | Paulo Percy Quincho Gamarra   | Done   |
-| 2      | US05           | Configuración de notificaciones     | US05-W1      | Vista de notificaciones                | Configuración de recordatorios y alertas.                                   | 1              | Jhordi Luis Carranza Pérez    | Done   |
-| 2      | US09           | Visualizar reportes mensuales       | US09-W1      | Panel de reportes mensuales            | Informes mensuales de gastos y aportes.                                     | 1              | Alexander Piero Fernández     | Done   |
+| 2      | US01           | Registro de usuario                 | US01-W1      | Interfaz de registro de usuario        | Crear formulario de registro para nuevos usuarios.                          | 4              | Jorge Luis Díaz Fiestas       | Done   |
+| 2      | US02           | Inicio de sesión seguro             | US02-W1      | Interfaz de inicio de sesión           | Implementar formulario para login seguro.                                   | 4              | Paulo Percy Quincho Gamarra   | Done   |
+| 2      | US14           | Ver historial de pagos              | US14-W1      | Vista de historial de pagos            | Crear interfaz con los pagos registrados.                                   | 5            | Jorge Luis Díaz Fiestas       | Done   |
+| 2      | US04           | Cierre de sesión desde todos los dispositivos | US04-W1 | Botón de cierre de sesión             | Cierre de sesión desde cualquier dispositivo.                               | 6              | Jorge Luis Díaz Fiestas       | Done   |
+| 2      | US13           | Registrar pagos realizados          | US13-W1      | Componente para registrar pagos        | Registro manual de pagos.                                                   | 4              | Paulo Percy Quincho Gamarra   | Done   |
+| 2      | US11           | Ingresar ingresos personales        | US11-W1      | Formulario de ingreso de ingresos      | Formulario de ingreso mensual.                                              | 4           | Jorge Luis Díaz Fiestas       | Done   |
+| 2      | US20           | Visualizar gráficos de gastos       | US20-W1      | Componente de gráficos de gastos       | Estadísticas visuales de gastos.                                            | 4             | Paulo Percy Quincho Gamarra   | Done   |
+| 2      | US15           | Ver distribución de gastos del hogar | US15-W1     | Interfaz de distribución de gastos     | Mostrar porcentaje de aportes y gastos por miembro.                         | 6           | Jorge Luis Díaz Fiestas       | Done   |
+| 2      | US12           | Ver monto a pagar                   | US12-W1      | Componente de monto a pagar            | Mostrar el monto que debe pagar el usuario.                                 | 4              | Paulo Percy Quincho Gamarra   | Done   |
+| 2      | US05           | Configuración de notificaciones     | US05-W1      | Vista de notificaciones                | Configuración de recordatorios y alertas.                                   | 4             | Jhordi Luis Carranza Pérez    | Done   |
+| 2      | US09           | Visualizar reportes mensuales       | US09-W1      | Panel de reportes mensuales            | Informes mensuales de gastos y aportes.                                     | 5              | Alexander Piero Fernández     | Done   |
 
+
+<p align="center">
+  <img src="images/Trello-SPRINT2.jpeg" alt="Trello Sprint 2" width="600">
+</p>
 ---
 
-### 5.2.2.3 Deployment Evidence for Sprint Review
+#### 5.2.2.3 Deployment Evidence for Sprint Review
 
 **Commits de desarrollo (funcionalidad):**
 
@@ -2013,7 +2494,7 @@ A continuación, se presentan los líderes y colaboradores de SplitEasy:
 
 ---
 
-### 5.2.2.4 Testing Suite Evidence for Sprint Review
+#### 5.2.2.4 Testing Suite Evidence for Sprint Review
 
 En el alcance del sprint 2 se ha desarrollado el front end de la aplicación web como primera instancia, por lo que no se evidencia de testing.
 
@@ -2021,7 +2502,7 @@ En el alcance del sprint 2 se ha desarrollado el front end de la aplicación web
 |------------|--------|------------|----------------|----------------------|---------------------|
 | _No disponible_ | _No disponible_ | _N/A_ | _N/A_ | _N/A_ | _N/A_ |
 
-### 5.2.2.5. Execution Evidence for Sprint Review
+#### 5.2.2.5. Execution Evidence for Sprint Review
 
 **Login:**
 
@@ -2137,18 +2618,27 @@ Durante el Sprint, las actividades de desarrollo se llevaron a cabo de forma col
 - Todos los miembros contribuyeron tanto al diseño de interfaz como al desarrollo funcional (Angular).
 - Se realizó al menos una sesión grupal de revisión de código y planificación intermedia.
 
-## 5.2.3. Sprint 3
+### 5.2.3. Sprint 3
 
-### 5.2.3.1. Sprint Planning 3
+#### 5.2.3.1. Sprint Planning 3
 
-- **Objetivo:** Implementar nuevas historias de backend, dar inicio al desarrollo de API Rest, autenticaciones, procedimiento de backend en el reporte, así como avanzar con tareas pendientes en el frontend.
-- **Duración:** 2 semanas
-- **Fecha inicio:** 01/06/2025
-- **Fecha fin:** 15/06/2025
+| **Date**                               | 01/06/2025                                                                                                                                                                                                                                                                                                                                             |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Time**                               | 10:00 AM (GMT -5)                                                                                                                                                                                                                                                                                                                                      |
+| **Location**                           | Reunión virtual vía Google Meet                                                                                                                                                                                                                                                                                                                        |
+| **Prepared By**                        | Equipo SplitEasy                                                                                                                                                                                                                                                                                                                                       |
+| **Attendees (to planning meeting)**    | Todos los miembros del equipo de SplitEasy                                                                                                                                                                                                                                                                                                             |
+| **Sprint 2 Review Summary**        | Durante el Sprint 2 se completaron exitosamente las vistas del login y registro, las vistas core del usuario reclutador, y se integró la librería i18n para gestión de idioma. También se diseñó la sección de Términos de Servicio y se completó el video de presentación del equipo. Se logró desplegar una demo funcional del front-end en Netlify. |
+| **Sprint 2 Retrospective Summary** | Se identificó una buena coordinación en el uso de Trello para la gestión de tareas, aunque se detectó la necesidad de definir mejor los endpoints y el modelo de datos del backend desde el inicio. Se acordó comenzar el desarrollo de la API Rest y reforzar la integración entre el frontend y backend en los próximos sprints.                     |
 
----
+| **Sprint 3 Goal**       | Implementar nuevas historias de backend, iniciar el desarrollo de la API Rest, configurar autenticaciones, establecer procedimientos para reporte de backend, y continuar tareas pendientes del frontend. |
+| ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint 3 Velocity**   | 35                                                                                                                                                                                                        |
+| **Sum of Story Points** | 34                                                                                                                                                                                                        |
 
-### 5.2.3.2. Aspect Leaders and Collaborators
+
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
 
 | Nombre | Rol | User Stories | Descripción de las contribuciones |
 |---------|---------|---------|---------|
@@ -2158,7 +2648,7 @@ Durante el Sprint, las actividades de desarrollo se llevaron a cabo de forma col
   
 ---
 
-### 5.2.3.3. Sprint Backlog 3
+#### 5.2.3.3. Sprint Backlog 3
 
 | Estado | User Story | Work Item | Descripción | Asignado |
 |---------|---------|---------|---------|---------|
@@ -2180,7 +2670,7 @@ Durante el Sprint, las actividades de desarrollo se llevaron a cabo de forma col
 
 ---
 
-### 5.2.3.4. Development Evidence for Sprint Review
+#### 5.2.3.4. Development Evidence for Sprint Review
 
  **Commits de desarrollo (funcionalidad)**:
 
@@ -2199,7 +2689,7 @@ Durante el Sprint, las actividades de desarrollo se llevaron a cabo de forma col
   
 ---
 
-### 5.2.3.5. Execution Evidence for Sprint Review
+#### 5.2.3.5. Execution Evidence for Sprint Review
 
 Durante el sprint 3 **aún no contamos con despliegue en backend**, pero podemos demostrar:
 
@@ -2266,7 +2756,7 @@ Estas implementaciones permiten sentar las bases del funcionamiento completo del
 
 ---
 
-### 5.2.3.6. Services Documentation Evidence for Sprint Review
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
 Durante el Sprint 3 se implementaron los siguientes endpoints en el backend de la aplicación **SplitEasy**, siguiendo una arquitectura RESTful con Spring Boot. Todos los recursos cuentan con operaciones básicas de CRUD (crear, leer, actualizar, eliminar), y están documentados con Swagger/OpenAPI para su uso y prueba, así mismo se encuentra en el repositrio: https://github.com/1ASI0729-2510-4313-G3-SplitEasy/backend-app.
 
@@ -2327,7 +2817,7 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
 
 ---
 
-### 5.2.3.7. Software Deployment Evidence for Sprint Review
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
  Actualmente el backend **se encuentra desplegado desplegado:**
 
@@ -2345,7 +2835,7 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
 
 ---
 
-### 5.2.3.8. Team Collaboration Insights during Sprint
+#### 5.2.3.8. Team Collaboration Insights during Sprint
 
  Durante el sprint 3 el equipo trabajó de forma más autónoma pero siempre bajo seguimiento constante en Git:
 
@@ -2358,102 +2848,588 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
 
 ---
 
-### 5.3. Validation Interviews
+### 5.2.4. Sprint 4
+#### 5.2.4.1. Sprint Planning 4.
 
-### 5.3.1 Relevamiento de Requerimientos No Funcionales
+| **Sprint #**                          | 4 |
+|--------------------------------------|---|
+| **Sprint Planning Background**       |   |
+| **Date**                             | YYYY-MM-DD |
+| **Time**                             | HH:MM AM/PM |
+| **Location**                         | (Descripción de la ubicación de la reunión, física o virtual) |
+| **Prepared By**                      |   |
+| **Attendees (to planning meeting)**  |   |
+| **Sprint 3 Review Summary**          | (Resumen del Sprint anterior, en términos de resultados alcanzados a nivel de productos de software, opiniones de miembros y feedback de product owner.) |
+| **Sprint 3 Retrospective Summary**   | (Resumen del Sprint anterior, en términos de opiniones de miembros del equipo sobre aciertos u oportunidades de mejora en su forma de trabajo) |
+| **Sprint 4 Goal**                    | (Definir el Goal del Sprint n y la métrica de cumplimiento.) |
+| **Sprint 4 Velocity**                | (Definir el Velocity establecido para el Sprint n, es decir cuántos Story Points puede aceptar el equipo para este Sprint n.) |
+| **Sum of Story Points**              | (Colocar la suma de los Story Points para los User Stories que se están incluyendo en este Sprint n.) |
 
-Durante el proceso de entrevistas con los usuarios finales, se identificaron diversos requerimientos no funcionales relevantes para la experiencia, seguridad y usabilidad del backend de la aplicación **SplitEasy**. A continuación, se detallan los aspectos clave identificados a partir de las respuestas brindadas:
 
----
+#### 5.2.4.2. Aspect Leaders and Collaborators.
 
-#### Seguridad
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Aspect Name 1 (L/C)** | **Aspect Name 2 (L/C)** | ... | **Aspect Name n (L/C)** |
+| --------------------------------------- | ------------------- | ----------------------- | ----------------------- | --- | ----------------------- |
+|         |       | L                       | C                       | ... |                         |
+|          |              | C                       | C                       | ... | L                       |
 
-- **Autenticación segura**: Se requiere un sistema de login con correo electrónico y contraseña. El usuario desea que la autenticación sea persistente mientras la sesión esté activa, pero que incluya medidas que protejan el acceso no autorizado.
-- **Protección de contraseñas**: Se solicita explícitamente que las contraseñas estén protegidas en la base de datos, evitando su visibilidad incluso ante accesos no autorizados. Esto implica el uso de técnicas de hashing seguro, como `bcrypt`, y el cumplimiento de buenas prácticas de seguridad en el almacenamiento de credenciales.
-- **Control de acceso por roles**: Se identificó la necesidad de un sistema de roles de usuario, diferenciando privilegios entre administradores (con acceso completo a la gestión del hogar) y miembros regulares (con acceso limitado a sus propios datos y gastos). Esto requiere implementar una gestión robusta de autorizaciones en el backend.
 
----
+#### 5.2.4.3.Sprint Backlog 4.
 
-#### Usabilidad
+| **User Story** |           | **Work-Item / Task** |           |                 |                        |                 |                                                    |
+| -------------- | --------- | -------------------- | --------- | --------------- | ---------------------- | --------------- | -------------------------------------------------- |
+| **Id**         | **Title** | **Id**               | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+|                |           |                      |           |                 |                        |                 |                                                    |
+|                |           |                      |           |                 |                        |                 |                                                    |
+|                |           |                      |           |                 |                        |                 |                                                    |
 
-- **Edición del perfil de usuario**: Los usuarios desean poder editar su nombre, correo y foto de perfil de manera autónoma desde la aplicación, sin depender de intermediarios. Este requerimiento apunta a una interfaz backend intuitiva y accesible para estas operaciones.
-- **Carga de comprobantes**: Se espera que cada gasto registrado esté respaldado por un archivo adjunto (imagen, PDF u otro tipo de documento). El sistema debe forzar la inclusión de dicho comprobante como parte del flujo de creación de gastos.
-- **Filtros por fecha**: Se debe ofrecer una funcionalidad para filtrar los gastos por rangos de fechas, como semanas, meses o periodos personalizados. Esto mejora la capacidad del usuario para analizar su historial financiero.
-- **Edición y eliminación de gastos**: Los usuarios deben tener la opción de modificar o eliminar gastos registrados, en caso de errores o cambios. Este requerimiento no funcional está relacionado con la flexibilidad y corrección de datos.
-- **Notificaciones automáticas**: Se solicita que la aplicación envíe recordatorios de pago automáticos (vía push o correo electrónico), configurables por el usuario. El backend debe manejar estas alertas de forma programada, sin necesidad de intervención adicional del usuario.
-- **Reportes de errores dentro de la aplicación**: Se necesita una función que permita al usuario reportar problemas desde la aplicación y hacer seguimiento al estado del reporte (recibido, en proceso, solucionado). Esto requiere una infraestructura básica de soporte técnico y trazabilidad en el backend.
 
----
+#### 5.2.4.4.Development Evidence for Sprint Review.
+#### 5.2.4.5.Execution Evidence for Sprint Review.
+#### 5.2.4.6.Services Documentation Evidence for Sprint Review.
+#### 5.2.4.7.Software Deployment Evidence for Sprint Review.
+#### 5.2.4.8.Team Collaboration Insights during Sprint.
 
-#### Automatización y experiencia del usuario
 
-- **Automatización de recordatorios**: Los usuarios no desean encargarse manualmente del envío de recordatorios. El sistema debe contar con tareas programadas (cron jobs o schedulers) que gestionen el envío automático según configuraciones previas.
-- **Persistencia de sesión**: Se sugiere el uso de tokens de autenticación persistente (por ejemplo, JWT con refresh tokens) para evitar que el usuario tenga que iniciar sesión repetidamente.
+## 5.3. Validation Interviews
 
----
+### 5.3.1 Diseño de Entrevistas
 
-#### Conclusión
+Durante el proceso de entrevistas con los usuarios finales, se identificaron diversos requerimientos relevantes para la experiencia en base a las siguientes preguntas:
 
-Los requerimientos no funcionales extraídos de estas entrevistas evidencian la importancia de la seguridad, facilidad de uso y automatización dentro de la experiencia de usuario en SplitEasy. Estos aspectos son fundamentales para el diseño del backend, asegurando que el sistema sea confiable, seguro y cómodo para los usuarios finales.
+**Para el Segmento 1: Miembros del hogar**
 
----
+1. Primera impresión sobre la interfaz:
+
+- ¿Qué opinas del diseño de la página? ¿Te resulta fácil de entender?
+
+- ¿Hay algún elemento visual que te llame la atención o que encuentres confuso?
+
+2. Facilidad de uso:
+
+- ¿Fue fácil encontrar dónde se registran los gastos o contribuciones?
+
+- ¿Hubo algún momento en el que te sentiste perdido o no supieras qué hacer en la página?
+
+3. Navegación y funcionalidades:
+
+- ¿La navegación entre secciones (como ver tus aportes, revisar los gastos) fue clara?
+
+- ¿Te resultó sencillo agregar un gasto o una contribución? ¿Qué mejoras sugerirías?
+
+4. Transparencia y confianza:
+
+- ¿Qué piensas sobre la transparencia de la herramienta? ¿Te resultó útil ver las contribuciones de los demás miembros del hogar?
+
+- ¿Sientes que el sistema te ayuda a comprender mejor la distribución de los gastos en el hogar?
+
+5. Interacción con el sistema:
+
+- ¿Cómo te sentiste al recibir las notificaciones o recordatorios sobre tus pagos? ¿Fueron útiles?
+
+- ¿Hubo algo que te gustaría haber recibido como notificación pero que no estaba disponible?
+
+6. Gráficos y reportes:
+
+- ¿Qué opinas de los gráficos o reportes que muestra la página? ¿Son claros y fáciles de entender?
+
+- ¿Te gustaría tener más detalles en los reportes, o consideras que la información mostrada es suficiente?
+
+7. Experiencia general:
+
+- ¿Te parece que esta herramienta puede ayudarte a gestionar los gastos del hogar de manera más equitativa?
+
+- ¿Usarías esta página de manera regular? ¿Qué haría que la usaras más seguido?
+
+
+**Para el Segmento 2: Representantes del hogar**
+
+1. Gestión de finanzas en el panel:
+
+- ¿Qué opinas del panel de control donde puedes gestionar los gastos y contribuciones? ¿Lo encuentras útil?
+
+- ¿Fue fácil aprobar o modificar los gastos? ¿Hubo algo que te resultó confuso en el proceso?
+
+2. Visibilidad y control:
+
+- ¿Te pareció que tienes suficiente visibilidad sobre las contribuciones de los miembros del hogar?
+
+- ¿Qué tan útil encuentras la capacidad de ver los reportes mensuales y las contribuciones de todos los miembros del hogar?
+
+3. Notificaciones y recordatorios:
+
+- ¿Te resultaron útiles las alertas y recordatorios automáticos? ¿Cómo mejorarías estas notificaciones?
+
+- ¿Sientes que el sistema te mantiene al tanto de lo que está sucediendo sin ser demasiado invasivo?
+
+4. Personalización y ajustes:
+
+- ¿Te gustaría poder personalizar más aspectos de la herramienta, como las categorías de gastos o las reglas de división?
+
+- ¿Fue fácil ajustar los porcentajes de contribución o cambiar cualquier configuración?
+
+5. Usabilidad y eficiencia:
+
+- ¿Te resultó fácil realizar tareas como agregar miembros al hogar o asignar contribuciones?
+
+- ¿Hubo algún momento en que pensaste que la plataforma podía hacer algo más para facilitar la gestión de los gastos?
+
+6. Confianza en el sistema:
+
+- ¿Confías en que el sistema divide los gastos de manera justa? ¿Te gustaría que el sistema explique de manera más clara cómo se calculan los porcentajes?
+
+- ¿Hay alguna parte del proceso donde te gustaría tener más detalles o explicaciones sobre cómo funcionan los cálculos?
+
+7. Satisfacción general y recomendaciones:
+
+- ¿Crees que esta plataforma facilitaría la convivencia en términos de finanzas? ¿Por qué?
+
+- ¿Qué cambios harías para mejorar la experiencia como representante del hogar?
+
+
+
 
 ### 5.3.2 Registro de Entrevistas
 
-A continuación, se detallan las preguntas realizadas al usuario durante la entrevista enfocada en el backend de la aplicación **SplitEasy**, junto con las respuestas obtenidas. Estas respuestas fueron clave para el levantamiento de los requerimientos no funcionales presentados en la sección anterior.
+### SEGMENTO 1:
 
----
+**REGISTRO ENTREVISTA 1:**
 
-**1. ¿Cómo te gustaría que los usuarios se autentiquen en la aplicación?**  
-*Quiero que los usuarios puedan iniciar sesión con su correo y contraseña. Después, deberían poder usar la aplicación sin tener que volver a iniciar sesión, mientras no se cierre la app o pase mucho tiempo. Solo quiero que el proceso sea seguro y que nadie pueda acceder a mi cuenta sin permiso.*
+Nombre del entrevistador: Paulo Quincho
 
-**2. ¿Qué medidas de seguridad te gustaría para proteger las contraseñas de los usuarios?**  
-*Quiero que las contraseñas se mantengan seguras. Que aunque alguien consiga acceso a la base de datos, no pueda ver las contraseñas. No quiero que nadie pueda descubrir mi contraseña, ni aunque tengan acceso a los datos de la app.*
+Nombre del entrevistado: Donitila Vasquez
 
-**3. ¿Cómo te gustaría que se gestionen los diferentes tipos de usuarios, como administradores y miembros?**  
-*Imagino que los administradores deberían tener más control sobre la app, como poder ver todos los gastos o cambiar la configuración. Los miembros deberían poder ver y editar solo los suyos. No quiero que cualquiera pueda hacer cualquier cosa.*
+Edad: 20
 
-**4. ¿Cómo te gustaría que los usuarios puedan actualizar su perfil?**  
-*Me gustaría poder actualizar mi nombre, mi foto, o mi correo en cualquier momento. No quiero tener que pedirle a nadie. Quiero hacerlo yo mismo desde la app.*
+Distrito: Pueblo Libre 
 
-**5. ¿Qué medidas te gustaría que tomemos para asegurarnos de que cada gasto tenga un comprobante adjunto?**  
-*Es muy importante que cada gasto tenga algo que lo respalde, como un recibo o una factura. No quiero que la gente registre un gasto sin tener un comprobante. La app debería pedirnos que adjuntemos un archivo con el gasto.*
+Screenshot del video: 
 
-**6. ¿Cómo te gustaría que los usuarios puedan filtrar sus gastos por fechas?**  
-*Sería genial ver solo los gastos de una fecha o mes específico. Por ejemplo, quiero saber cuánto gasté el mes pasado. La app debería tener una opción para poner fechas y ver solo los gastos de ese tiempo.*
+<p align="left">
+  <img src="images/Vasquez.png" alt="UserPersona1" width="500">
+</p>
 
-**7. ¿Te gustaría que los usuarios puedan editar o eliminar los gastos que ya han registrado?**  
-*Sí, definitivamente. A veces uno comete un error y sería útil poder corregirlo o borrar el gasto. No quiero tener que crear uno nuevo solo para corregir uno viejo.*
+URL del video en Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213989_upc_edu_pe/EZW0aw7ydidLobmPsFr8BjUBA8uPZwWRqSF8meEKADFVow?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=JI8hFQ
 
-**8. ¿Cómo te gustaría que los usuarios reciban recordatorios de pago?**  
-*Me gustaría que la app me avise cuando se acerque una fecha de pago. El recordatorio debería ser como una notificación o incluso un correo. Quiero que me avisen con tiempo.*
 
-**9. ¿Cómo te gustaría que esos recordatorios se envíen automáticamente?**  
-*No quiero tener que hacer nada para que los recordatorios lleguen. Me gustaría que la app se encargue sola de enviarlos en la fecha que yo configure.*
+Inicio de la entrevista: 00:03
 
-**10. ¿Cómo te gustaría que el sistema maneje los reportes de problemas que los usuarios envíen?**  
-*Quiero poder reportar problemas directamente desde la app. Me gustaría saber qué está pasando con mi reporte: si lo están mirando, si lo van a solucionar, o si ya lo solucionaron.*
+Duración: 04:00
 
----
+**Resumen descriptivo de la entrevista**
 
-#### Enlace a evidencia de entrevista (video)
+**Características subjetivas y de personalidad:**
 
-El siguiente video contiene la grabación completa de la entrevista realizada al usuario, en la cual se recogen de manera explícita los requerimientos no funcionales discutidos:
+- Domicilia se mostró colaborativa, clara en sus respuestas y segura al navegar por la plataforma. Su actitud fue receptiva y positiva ante cada funcionalidad revisada.
 
-[ Ver entrevista - SharePoint UPC](https://upcedupe.sharepoint.com/:v:/s/xn--eisc-ingenieradesoftware-iic/EXtMMCIfOWhGsxDLwXoAltIBZz9AR4ic0FIixpwcBuPhuA?e=0foKff)
+**Opinión general sobre la plataforma:**
 
-Este material forma parte del archivo de evidencias del proyecto y sustenta la trazabilidad de decisiones técnicas durante el desarrollo de **SplitEasy**.
+- Consideró que el diseño es claro y fácil de entender. No encontró elementos visuales confusos y percibió la navegación como fluida.
 
-#### 5.3.3. Evaluaciones según heurísticas
+**Facilidad de uso y funcionalidad:**
+
+- Señaló que fue muy fácil encontrar y registrar gastos y contribuciones. No se sintió perdida en ningún momento, y valoró la claridad entre las secciones del sistema.
+
+**Control y visibilidad:**
+
+- Afirmó que la herramienta ayuda a comprender mejor la distribución de los gastos del hogar, y que mejora la equidad en la administración compartida.
+
+**Reportes y notificaciones:**
+
+- Le resultó útil ver las contribuciones de otros miembros y las notificaciones recibidas. No identificó alertas faltantes y mencionó que los gráficos y reportes son claros y fáciles de interpretar.
+
+**Personalización y ajustes:**
+
+- No propuso mejoras específicas en esta área, aunque consideró que la información mostrada por el momento es suficiente.
+
+**Confianza en el sistema:**
+
+- Mencionó que todo fue correcto y claro. Mostró una actitud confiada respecto al uso de la plataforma.
+
+**Satisfacción general y recomendaciones:**
+
+- Dijo que sí usaría la plataforma de forma regular y que facilitar su uso desde el móvil sería un factor clave para usarla más seguido.
+
+
+**REGISTRO ENTREVISTA 2:**
+
+
+**REGISTRO ENTREVISTA 3:**
+
+
+### SEGMENTO 2:
+
+**REGISTRO ENTREVISTA 1:**
+
+Nombre del entrevistador: Jose Martinez
+
+Nombre del entrevistado: Maria Vallejos
+
+Edad: 20 años
+
+Distrito: Miraflores
+
+Screenshot del video: 
+
+<p align="left">
+  <img src="images/Mafer.png" alt="UserPersona1" width="500">
+</p>
+
+URL del video en Microsoft Stream: https://shorturl.at/Bs4bw
+
+Inicio de la entrevista: 00:00 
+
+Duración: 06:48
+
+**Resumen descriptivo de la entrevista**
+
+**Características subjetivas y de personalidad:**
+
+- María Fernanda muestra una actitud positiva, abierta y colaborativa durante toda la entrevista. Se expresa de manera clara y con entusiasmo, mostrando familiaridad con tecnología y plataformas digitales. Se percibe como una usuaria joven, moderna y activa, con una personalidad analítica y orientada a la eficiencia doméstica.
+
+**Opinión general sobre la plataforma:**
+
+- Expresó una experiencia muy positiva con la interfaz del sistema de gestión financiera del hogar. Le pareció intuitiva, centralizada y visualmente clara. Valora tener toda la información disponible en un solo lugar, lo que le facilita el control sobre los gastos y aportes.
+
+**Facilidad de uso y funcionalidad:**
+
+- Indicó que fue fácil aprobar y modificar gastos, gracias a una interfaz amigable. No obstante, mencionó que el proceso para agregar nuevos gastos podría optimizarse con campos más especializados. Le gustaría más rapidez al aplicar ciertos cambios.
+
+**Control y visibilidad:**
+
+- Destacó la utilidad del panel para visualizar las contribuciones individuales y detectar incumplimientos fácilmente. Considera que tiene una visibilidad completa y clara sobre el flujo financiero del hogar.
+
+**Reportes y notificaciones:**
+
+- Encuentra los reportes mensuales extremadamente útiles para dar seguimiento al estado financiero general. Sobre las notificaciones, opina que son útiles pero desearía mayor personalización. Aprecia que no sean invasivas.
+
+**Personalización y ajustes:**
+
+- Le gustaría poder personalizar categorías de gasto y reglas de división. También sugiere poder aplicar porcentajes predeterminados y recibir informes semanales automáticos.
+
+**Confianza en el sistema:**
+
+- Confía en que el sistema divide los gastos de manera justa, pero le gustaría entender mejor cómo se calculan exactamente los porcentajes. Sugiere que el sistema incluya explicaciones más detalladas.
+
+**Satisfacción general y recomendaciones:**
+
+- Está convencida de que la plataforma facilita la convivencia y el orden financiero. Sugiere incluir funciones adicionales como metas de ahorro grupales y reportes más personalizados.
+
+
+**REGISTRO ENTREVISTA 2:**
+
+Nombre del entrevistador: Jose Martinez
+
+Nombre del entrevistado: Matias Rios
+
+Edad: 21 años
+
+Distrito: Pueblo Libre
+
+Screenshot del video: 
+
+<p align="left">
+  <img src="images/Matias.png" alt="UserPersona1" width="500">
+</p>
+
+URL del video en Microsoft Stream: https://shorturl.at/O0oYp
+
+Inicio de la entrevista: 00:00
+
+Duración: 04:21
+
+**Resumen descriptivo de la entrevista**
+
+**Características subjetivas y de personalidad:**
+
+- Matias se muestra metódico, crítico y orientado al detalle. Tiene experiencia previa con aplicaciones financieras y compara activamente funcionalidades. Su tono es directo, pero constructivo. Prefiere interfaces claras y procesos automáticos.
+
+**Opinión general sobre la plataforma:**
+
+- Considera que la plataforma está bien diseñada visualmente y es clara en sus funciones principales. Destaca que cumple bien con lo que promete, especialmente para hogares organizados.
+
+**Facilidad de uso y funcionalidad:**
+
+- No tuvo problemas en modificar o registrar nuevos gastos. Señala que el sistema responde bien, pero que podría ser más ágil con la carga de datos frecuentes.
+
+**Control y visibilidad:**
+
+- Valora el nivel de control sobre aportes y reportes. Considera que es muy útil para supervisar pagos pendientes y anticiparse a problemas de coordinación.
+
+**Reportes y notificaciones:**
+
+- Le parecen útiles los resúmenes financieros, especialmente si se pueden descargar o integrar con Excel. Las alertas le resultaron funcionales, aunque preferiría que se puedan desactivar por tipo o urgencia.
+
+**Personalización y ajustes:**
+
+- Sugiere más flexibilidad en cómo se nombran categorías de gastos y reglas de reparto. También propone una funcionalidad para dividir gastos por tipo (fijo vs. variable).
+
+**Confianza en el sistema:**
+
+- Confía en los cálculos, pero sugiere que el sistema tenga un botón “ver fórmula” al lado de cada reparto automático para total transparencia.
+
+**Satisfacción general y recomendaciones:**
+
+- Está satisfecho con la herramienta y considera que facilitaría la convivencia. Recomienda sumar funciones como históricos comparativos entre meses y alertas según límites predefinidos.
+
+
+
+**REGISTRO ENTREVISTA 3:**
+
+Nombre del entrevistador: Jorge Diaz
+
+Nombre del entrevistado: Marjorie Luna Victoria
+
+Edad: 18 años
+
+Distrito: No especificado
+
+Screenshot del video: 
+
+<p align="left">
+  <img src="images/Marjorie.png" alt="UserPersona1" width="500">
+</p>
+
+URL del video en Microsoft Stream: https://upcedupe.sharepoint.com/:v:/s/xn--eisc-ingenieradesoftware-iic/EXtMMCIfOWhGsxDLwXoAltIBZz9AR4ic0FIixpwcBuPhuA?e=0foKff
+
+Inicio de la entrevista: 00:01
+
+Duración: 04:26
+
+**Resumen descriptivo de la entrevista**
+
+**Características subjetivas y de personalidad:**
+
+- Marjorie es expresiva, empática y enfocada en la experiencia de usuario. Tiene un enfoque práctico sobre el manejo del hogar y valora mucho el diseño visual, la facilidad de uso y la comunicación clara.
+
+**Opinión general sobre la plataforma:**
+
+- Describe la plataforma como “amigable y ordenada”. Le gustó que desde el primer uso entendió lo que debía hacer. Le genera confianza al ver todo detallado.
+
+**Facilidad de uso y funcionalidad:**
+
+- Le resultó muy sencillo registrar y modificar gastos. Mencionó que le gustaría un pequeño tutorial inicial para usuarios nuevos.
+
+**Control y visibilidad:**
+
+- Dijo sentirse en control total de los flujos financieros del hogar. Valoró mucho poder ver quién paga a tiempo y quién no.
+
+**Reportes y notificaciones:**
+
+- Le encantan los reportes mensuales y dijo que los consulta cada cierre de mes. Las notificaciones automáticas le ayudaron a coordinar con su pareja para no olvidarse de las fechas.
+
+**Personalización y ajustes:**
+
+- Le gustaría personalizar íconos de categorías y establecer fechas de vencimiento para ciertos gastos. También sugiere colores personalizados para cada usuario.
+
+**Confianza en el sistema:**
+
+- Confía plenamente, aunque mencionó que una guía rápida con ejemplos de cómo se calculan los porcentajes sería útil para personas menos técnicas.
+
+**Satisfacción general y recomendaciones:**
+
+- Se mostró entusiasta. Cree que la app puede mejorar la comunicación en el hogar y evitar discusiones. Sugiere gamificar el ahorro conjunto como un incentivo divertido.
+
+
+
+
+### 5.3.3. Evaluaciones según heurísticas
 
  Durante el sprint 3 se evaluó:
 
-| Heurística | Comentario |
-|---------|---------|
-| Consistencia | La API tiene nomenclatura consistente en endpoints |
-| Seguridad | La autenticacion JWT proporciona seguridad en el acceso |
-| Integridad | La base de datos tiene relaciones adecuadas, pero falta implementar algunos Foreign Key |
-| Usabilidad (API) | La estructura de URL y métodos es intuitiva y estándar |
+  **UX Heuristics & Principles Evaluation** <br>
+  Usability – Inclusive Design – Information Architecture
+  
+  - CARRERA: Ingeniería de Software
+  
+  - CURSO: Desarrollo de Aplicaciones Open Source
+  
+  - SECCIÓN: 4313
+  
+  - PROFESORES: Alberto Wilmer Sanchez Seña
+  
+  - AUDITOR: Jose Luis Martinez Valdivia
+  
+  - CLIENTE(S): Grupo SplitEasy
+    
+  **SITE o APP A EVALUAR:** <br>
+  SplitEasy – Gestión financiera equitativa del hogar
+
+  **TAREAS A EVALUAR:** <br>
+    El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+    
+    - Registro de usuario
+    
+    - Ingreso de ingresos personales
+    
+    - Registro de un gasto compartido
+    
+    - Asignación de aportes proporcionales
+    
+    - Visualización de reportes mensuales
+    
+    - Adjuntar comprobante de pago
+    
+    - Ver monto a pagar
+    
+    - Aprobar gastos por el representante
+    
+    No están incluidas en esta versión de la evaluación las siguientes tareas:
+    
+    - Gestión de metas de ahorro
+    
+    - Configuración de privacidad de datos
+    
+    - Foro comunitario
+    
+    - Exportación de datos en PDF
+    
+    - Visualización de simulaciones sin login
+
+  **ESCALA DE SEVERIDAD:**<br>
+  
+| Nivel | Descripción                                                                                                                                                                                     |
+| ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                    |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo en la siguiente versión. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante corregirlo con alta prioridad.                                                                 |
+| 4     | Problema muy grave: error crítico que impide al usuario continuar con el uso de la herramienta. Es imperativo corregirlo antes del lanzamiento.                                                 |
+
+ **TABLA RESUMEN:**<br>
+ |  | Problema                                                                  | Escala de severidad | Heurística/Principio violado(a)                                |
+| - | ------------------------------------------------------------------------- | ------------------- | -------------------------------------------------------------- |
+| 1 | El sistema no alerta cuando no se adjunta comprobante de gasto            | 3                   | Usability: Prevención de errores                               |
+| 2 | No se puede volver fácilmente al inicio desde vistas internas             | 2                   | Usability: Libertad y control del usuario                      |
+| 3 | No hay contraste suficiente en elementos de alerta                        | 2                   | Inclusive Design: Asegurar percepción visual                   |
+| 4 | El botón “Ver simulación” en landing no tiene retroalimentación           | 1                   | Usability: Visibilidad del estado del sistema                  |
+| 5 | No se muestra información clara de los porcentajes al momento del cálculo | 3                   | Information Architecture: Is it understandable?                |
+| 6 | No hay validación clara si el ingreso personal está vacío                 | 3                   | Usability: Ayuda a los usuarios a reconocer y corregir errores |
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+<br>
+PROBLEMA #1: El sistema no alerta cuando no se adjunta comprobante de gasto
+
+  - Severidad: 3
+  
+  - Heurística violada: Usability – Prevención de errores
+  
+  - Problema: Al registrar un gasto, si el usuario omite adjuntar un comprobante, el sistema guarda el registro sin advertencia. Esto contradice la regla de que todos los gastos deben ser verificables.
+  
+  - Recomendación: Incluir una validación obligatoria en el formulario para impedir guardar un gasto sin comprobante. Mostrar un mensaje claro que indique: “Debe adjuntar al menos un comprobante para continuar.”
+
+PROBLEMA #2: No se puede volver fácilmente al inicio desde vistas internas
+
+  - Severidad: 2
+  
+  - Heurística violada: Usability – Libertad y control del usuario
+  
+  - Problema: Al ingresar al panel de usuario o sección de reportes, no hay un botón visible que permita regresar al dashboard inicial o landing. Esto obliga al usuario a usar el botón del navegador.
+  
+  - Recomendación: Añadir un botón “Inicio” fijo en el menú lateral o superior para mejorar la navegación global.
+
+PROBLEMA #3: No hay contraste suficiente en elementos de alerta
+
+  - Severidad: 2
+  
+  - Heurística violada: Inclusive Design – Asegurar percepción visual
+  
+  - Problema: Las alertas de pagos pendientes se muestran con color celeste claro sobre fondo blanco, lo que dificulta su visibilidad para personas con visión reducida.
+  
+  - Recomendación: Aumentar el contraste cromático entre texto y fondo usando tonos más oscuros y fuentes bold para las notificaciones críticas.
+
+PROBLEMA #4: El botón “Ver simulación” en landing no tiene retroalimentación
+
+  - Severidad: 1
+  
+  - Heurística violada: Usability – Visibilidad del estado del sistema
+  
+  - Problema: El botón “Ver simulación” no proporciona feedback cuando se presiona. El usuario no sabe si está cargando la función.
+  
+  - Recomendación: Añadir una animación de carga o cambio de estado del botón para indicar que se está accediendo al recurso.
+
+PROBLEMA #5: No se muestra información clara de los porcentajes al momento del cálculo
+
+  - Severidad: 3
+  
+  - Heurística violada: Information Architecture – Is it understandable?
+  
+  - Problema: Al asignar los aportes proporcionales, el sistema muestra directamente los montos pero no los porcentajes usados para el cálculo. Esto puede generar desconfianza.
+  
+  - Recomendación: Mostrar debajo de cada monto el porcentaje aplicado al ingreso declarado del usuario.
+
+PROBLEMA #6: No hay validación clara si el ingreso personal está vacío
+
+ - Severidad: 3
+
+  - Heurística violada: Usability – Ayuda a los usuarios a reconocer y corregir errores
+  
+  - Problema: Si el usuario olvida ingresar su salario o lo deja en blanco, el sistema no lo notifica claramente y simplemente registra “0”. Esto afecta los cálculos posteriores.
+  
+  - Recomendación: Implementar una validación que indique: “Debe ingresar un valor mayor a 0 para su ingreso mensual.”
+
+## 5.4. Video About-the-Product
+
+**Objetivo del video:**
+
+- El video "About-the-Product" está dirigido principalmente a los visitantes del Landing Page de SplitEasy, quienes desean conocer más sobre el modelo de negocio y las características principales de la solución. Además, este video tiene como objetivo proporcionar información útil a los usuarios de las aplicaciones que ya están utilizando la plataforma, mostrando cómo la herramienta apoya los procesos de gestión financiera compartida en el hogar.
+
+**Contenido del Video:**
+
+- En este video se detalla el propósito principal de SplitEasy, que es proporcionar una plataforma colaborativa y equitativa para gestionar los gastos del hogar. Se explican las funcionalidades clave del producto, como la distribución proporcional de gastos según los ingresos, la visualización de los aportes de cada miembro del hogar, la generación de reportes automáticos y los recordatorios de pagos. El video también aborda cómo la plataforma facilita una experiencia colaborativa que promueve la transparencia, la confianza y la organización financiera dentro del hogar.
+
+**Duración del video:**
+
+**Tiempo de inicio (hh:mm:ss):** 00:00:00
+**Duración total:**
+
+**Pauta de Secuencias de Contenido:**
+
+| **Sección**                      | **Descripción**                                                                                                                    | **Tiempo de inicio (hh\:mm\:ss)** |
+| -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
+| **Introducción al producto**     | Explicación breve sobre el propósito de **SplitEasy** y la misión del producto.                                                    | 00:00:00                          |
+| **Características principales**  | Descripción de las funcionalidades clave: distribución proporcional de gastos, reportes automáticos, y recordatorios.              | 00:00:20                          |
+| **Modelo de negocio**            | Explicación sobre cómo **SplitEasy** se posiciona en el mercado y los beneficios que ofrece a usuarios y representantes del hogar. | 00:02:20                          |
+| **Cierre y llamada a la acción** | Invitación a los usuarios a registrarse y comenzar a usar la plataforma.                                                           | 00:03:30                          |
+
+Cuadro de Video Representativo:
+
+- Imagen representativa del video:
+
+<p align="center">
+  <img src="images/AboutProduct.png" alt="Contributions Endpoint">
+</p>
+
+- URL de la versión publicada en Microsoft Stream:
+
+- URL de la versión publicada en YouTube:
+
+
+## 5.5. Video: "About-The-Team"
+
+  Este video resume el proceso de trabajo del equipo SplitEasy, destacando las fases de desarrollo, las tareas asignadas, y cómo cada miembro contribuyó al proyecto. Además de mostrar el trabajo en equipo y la colaboración en tiempo real, el video incluye entrevistas individuales a cada miembro del equipo, quienes describen sus roles, actividades realizadas y los logros alcanzados durante el desarrollo del producto.
+
+| **Sección**                                | **Descripción**                                                                                                       | **Tiempo de inicio (hh\:mm\:ss)** |
+| ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
+| **Introducción y presentación del equipo** | Breve presentación del equipo de trabajo, incluyendo nombres y roles de cada miembro.                                 | 00:00:00                          |
+| **Objetivos y misión del proyecto**        | Explicación de la misión de **SplitEasy** y los objetivos del proyecto.                                               | 00:00:00                          |
+| **EJorge Luis Díaz**         | Testimonio de Jorge Luis Díaz, quien describe sus actividades en el proyecto, logros y desarrollo de competencias.    | 00:04:30                          |
+| **Rodrigo Alaya**     | Testimonio de Rodrigo Alaya, detallando sus responsabilidades y contribución al desarrollo del producto.        | 00:00:00                          |
+| **Percy Quincho**     | Testimonio de Percy Quincho, explicando las tareas que realizó y su impacto en el proyecto.                     | 00:07:00                          |
+| **Jose Martinez**         | Testimonio de Jose Martinez, quien relata su experiencia y las habilidades adquiridas durante el proyecto.          | 00:00:00                          |
+| **Maria Mostajo**           | Testimonio de Maria Mostajo, quien relata su experiencia y las habilidades adquiridas durante el proyecto. | 00:00:00                          |
+
+Cuadro de Video Representativo:
+
+- Imagen representativa:
+
+  <p align="center">
+  <img src="images/AboutTeam.png" alt="Contributions Endpoint">
+  </p>
+
+- URL de la versión publicada en Microsoft Stream:
+
+- URL de la versión publicada en YouTube:
+
 
 
 # Conclusión
@@ -2517,3 +3493,19 @@ En conclusión, SplitEasy se posiciona como una herramienta innovadora y confiab
 - JetBrains. (2025c). *Rider*. https://www.jetbrains.com/rider/
 - Microsoft. (2025). *Download .NET SDKs*. https://dotnet.microsoft.com/en-us/download
 - GitHub, Inc. (2025). *GitHub: Where the world builds software*. https://github.com/
+
+## Desarrollo General
+- Evans, E. (2004). Domain-Driven Design: Tackling Complexity in the Heart of Software. Addison-Wesley.
+
+- Vernon, V. (2013). Implementing Domain-Driven Design. Addison-Wesley.
+
+- Mehta, V., & Rao, B. (2018). Spring Boot 2.0 Projects: Build production-grade reactive applications and microservices with Spring Boot. Packt Publishing.
+
+- Walls, C. (2016). Spring Boot in Action. Manning Publications.
+
+- Taore, D. (2021). Mastering Spring Boot 2.0: Build modern, cloud-native, and distributed systems using Spring Boot. Packt Publishing.
+
+- Freeman, A., & Sanderson, S. (2022). Pro ASP.NET Core MVC 6. Apress. (Capítulos relacionados con APIs REST y autenticación JWT aplican también para backend en Java/Spring)
+
+- Saini, A. (2020). Full Stack Development with Angular and Spring Boot: Build modern web applications using the power of Angular and Spring Boot. Packt Publishing.
+
