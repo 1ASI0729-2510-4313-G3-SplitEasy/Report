@@ -333,6 +333,7 @@ Insights TB1 (Todos participaron):
   - [Aplicaciones para dividir gastos](#aplicaciones-para-dividir-gastos)
   - [Herramientas de desarrollo y gestión de proyectos](#herramientas-de-desarrollo-y-gestión-de-proyectos)
   - [Desarrollo General](#desarrollo-general)
+  - [Anexos](#anexos-1)
 
 ## Capítulo I: Introducción
 - [1.1. Start-up Profile](#11-start-up-profile)
@@ -1505,27 +1506,31 @@ En esta sección se presentarán los user journey mapping para cada user persona
 | 33        | US28           | Reportar un problema                                  | 2             |
 | 34        | US29           | Sugerencias de mejora                                 | 1             |
 | 35        | US30           | Foro comunitario                                      | 3             |
-| 36 | US36 | Implementar autenticación JWT | 5 |
-| 37 | US37 | Cifrar contraseñas en base de datos | 3 |
-| 38 | US38 | Validar roles de administrador y miembro en backend | 3 |
-| 39 | US39 | Implementar actualización de perfil a partir de API | 2 |
-| 40 | US40 | Validar que el gasto tiene adjunto al menos 1 comprobante | 2 |
-| 41 | US41 | Agregar API para filtrar gastos por rango de fecha | 3 |
-| 42 | US42 | Implementar actualización y eliminación de gastos | 5 |
-| 43 | US43 | API para programar recordatorios de pago | 2 |
-| 44 | US44 | Integrar cron job para envío de recordatorios | 3 |
-| 45 | US45 | API para dar seguimiento a reportes de problemas | 2 |
-| 46 | US46 | Implementar comentarios o respuestas en el foro | 3 |
-| 47        | US46           | Conectar formularios con endpoints                     | 3             |
-| 48        | US47           | Validar respuestas del backend                         | 2             |
-| 49        | US48           | Manejar errores del servidor                           | 2             |
-| 50        | US49           | Manejo de estados de carga y éxito                     | 2             |
-| 51        | US50           | Verificar integración de gastos                        | 3             |
-| 52        | US51           | Conectar notificaciones al backend                     | 2             |
-| 53        | US52           | Validar seguridad de comunicación                      | 3             |
-| 54        | US53           | Probar sistema en producción                           | 3             |
-| 55        | US54           | Documentar despliegue                                  | 2             |
-| 56        | US55           | Monitoreo del sistema desplegado                       | 2             |
+| 36 | TS01 | Implementar autenticación JWT | 5 |
+| 37 | TS02 | Cifrar contraseñas en base de datos | 3 |
+| 38 | TS03 | Validar roles de administrador y miembro en backend | 3 |
+| 39 | TS04 | Implementar actualización de perfil a partir de API | 2 |
+| 40 | TS07 | Validar que el gasto tiene adjunto al menos 1 comprobante | 2 |
+| 41 | TS08 | Agregar API para filtrar gastos por rango de fecha | 3 |
+| 42 | TS09 | Implementar actualización y eliminación de gastos | 5 |
+| 43 | TS11 | API para programar recordatorios de pago | 2 |
+| 44 | TS12 | Integrar cron job para envío de recordatorios | 3 |
+| 45 | TS14 | API para dar seguimiento a reportes de problemas | 2 |
+| 46 | TS15 | Implementar comentarios o respuestas en el foro | 3 |
+| 47        | TS13           | Conectar formularios con endpoints                     | 3             |
+| 48        | TS06           | Validar respuestas del backend                         | 2             |
+| 49        | US36           | Manejar errores del servidor                           | 2             |
+| 50        | US37           | Manejo de estados de carga y éxito                     | 2             |
+| 51        | TS10           | Verificar integración de gastos                        | 3             |
+| 52        | TS13           | Conectar notificaciones al backend                     | 2             |
+| 53        | TS16           | Validar seguridad de comunicación                      | 3             |
+| 54        | TS17           | Probar sistema en producción                           | 3             |
+| 55        | TS18           | Documentar despliegue                                  | 2             |
+| 56        | TS19           | Monitoreo del sistema desplegado                       | 2             |
+
+Seguimiento del trabajo en Trello:
+
+<a href="https://ibb.co/4g88xK0H"><img src="https://i.ibb.co/prffpbkS/product-backlog.png" alt="product-backlog" border="0" style="width: 700px;"></a>
 
 # Capítulo IV: Product Design
 
@@ -3137,8 +3142,7 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
   </tbody>
 </table>
 
-
-<img src="images\sprint4_trello.png" alt="sprint4-trello" border="0">
+<a href="https://ibb.co/sJjMwJ9D"><img src="https://i.ibb.co/vv1KPv4r/sprint4-trello.png" alt="sprint4-trello" border="0" style="width: 700px;"></a>
 
 #### 5.2.4.4.Development Evidence for Sprint Review.
 
@@ -4001,3 +4005,18 @@ En conclusión, SplitEasy se posiciona como una herramienta innovadora y confiab
 
 - Saini, A. (2020). Full Stack Development with Angular and Spring Boot: Build modern web applications using the power of Angular and Spring Boot. Packt Publishing.
 
+## Anexos
+
+Anexo 1: Enlace Backend Desplegado: https://backend-app-1-vd66.onrender.com/swagger-ui/index.html
+
+Anexo 2: Enlace Frontend Desplegado: https://tranquil-dodol-e6200e.netlify.app/
+
+Anexo 3: Enlace Landing-Page Despeglado: https://1asi0729-2510-4313-g3-spliteasy.github.io/Split-landing/
+
+Anexo 4: Enlace Figma: https://www.figma.com/design/KpblxTexy8JiWceW2N9VmM/Open-Source?node-id=33-9&p=f
+
+Anexo 5: About the product: https://youtu.be/ok7hreL3sbs
+
+Anexo 6: About the team: https://youtu.be/75yfkMC-ynk?si=FaUWTE7Mvrq_kiSq
+
+Anexo 7: Video TF1: https://youtu.be/W-yQEMASERc 
